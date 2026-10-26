@@ -1,0 +1,51 @@
+title: 'Nazi-Kunst im Lützow-Viertel: Noch mehr nackte Helden'
+slug: 2023-06-13__nazi-kunst-im-luetzow-viertel-noch-mehr-nackte-helden
+author: Redaktion
+date: '2023-06-13'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1851, 1889, 1911, 1915, 1919, 1922, 1925, 1928, 1929, 1931, 1933, 1936, 1937, 1938, 1939, 1942, 1945, 1952, 1983, 1989, 1992]
+description: Ein Beitrag von Prof. Paul Enck, www.paul-enck.com (http://www.paul-enck.com) Wir hatten neulich schon über die Skulptur von Richard Scheibe (www.mittendran.de vom 3. März 2023…
+source_url: https://www.mittendran.de/nazi-kunst-im-luetzow-viertel-noch-mehr-nackte-helden/
+wp_post_id: 27564
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 60a
+  lat: 52.504661
+  lon: 13.354676
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Derfflingerstraße
+  lat: 52.5048
+  lon: 13.357
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Buchenstraße
+  lat: 52.484914
+  lon: 13.582868
+  osm_id: null
+  status: auto
+  via: regex
+- name: Nebenstraße
+  lat: 52.472336
+  lon: 13.79554
+  osm_id: null
+  status: auto
+  via: regex
+- name: Straßen-im-kiez-die-es-nicht-mehr-gibt-ulmen-und-buchenstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Sportplatz
+  lat: 52.477079
+  lon: 13.451574
+  osm_id: null
+  status: auto
+  via: regex

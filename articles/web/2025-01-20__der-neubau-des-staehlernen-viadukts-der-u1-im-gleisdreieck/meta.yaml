@@ -1,0 +1,30 @@
+title: Der Neubau des stählernen Viadukts der U1 im Gleisdreieck
+slug: 2025-01-20__der-neubau-des-staehlernen-viadukts-der-u1-im-gleisdreieck
+author: Redaktion
+date: '2025-01-20'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1913, 1926]
+description: Ein Beitrag des gleisdreieck-Blogs (https://gleisdreieck-blog.de/2025/01/19/der-neubau-des-staehlernen-viadukts-der-u1-im-gleisdreieck/)von Matthias Bauer 1913 gebaut, 1926 in Betrieb gegangen, seit ein paar Jahren von…
+source_url: https://www.mittendran.de/der-neubau-des-staehlernen-viadukts-der-u1-im-gleisdreieck/
+wp_post_id: 35168
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.500435
+  lon: 13.366647
+  osm_id: null
+  status: confirmed
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

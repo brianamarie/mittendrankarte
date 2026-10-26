@@ -1,0 +1,27 @@
+title: In der Berlin-Presse war es kurz erwähnt – hier noch einmal ausführlich
+slug: 2023-11-30__der-berlin-presse-war-es-kurz-erwaehnt-hier-noch-einmal-ausfuehrlich
+author: KA
+date: '2023-11-30'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: 'Foto der Umbenennung der Einem- in die Karl-Heinrich-Ulrichs-Straße in unserer Nachbarschaft, über die es auch einen Eintrag in der berlinHistory-App gibt (Quelle: LSVD, Foto: Axel Hildebrand). Queer Berlin – ein neuer…'
+source_url: https://www.mittendran.de/der-berlin-presse-war-es-kurz-erwaehnt-hier-noch-einmal-ausfuehrlich/
+wp_post_id: 29812
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Karl-Heinrich-Ulrichs-Straße
+  lat: 52.5
+  lon: 13.349
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Magnus-Hirschfeld-Ufer
+  lat: 52.519767
+  lon: 13.363328
+  osm_id: null
+  status: auto
+  via: regex

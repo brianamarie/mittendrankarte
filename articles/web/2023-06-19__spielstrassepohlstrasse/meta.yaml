@@ -1,0 +1,33 @@
+title: Spielstraße/Pohlstraße
+slug: 2023-06-19__spielstrassepohlstrasse
+author: eki
+date: '2023-06-19'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: []
+description: Am Donnerstag, den 22. Juni ist es wieder so weit. Die Pohlstraße wird zum 3. Mal in diesem Jahr zur Spielstraße werden. In der Zeit von 15:00 Uhr bis 19:00 Uhr wird die Straße ganz den Kindern gehören. Spielstraße…
+source_url: https://www.mittendran.de/spielstrassepohlstrasse/
+wp_post_id: 27653
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielstraße
+  lat: 49.137578
+  lon: 8.415617
+  osm_id: null
+  status: auto
+  via: regex
+- name: Spielstraße-Pohlstraße
+  lat: 52.501034
+  lon: 13.36284
+  osm_id: null
+  status: confirmed
+  via: regex

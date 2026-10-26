@@ -1,0 +1,33 @@
+title: Nur gemeinsam stark! – für Demokratie und Vielfalt!
+slug: 2024-07-25__nur-gemeinsam-stark-fuer-demokratie-und-vielfalt-2
+author: Redaktion
+date: '2024-07-25'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: Der 46. CSD Berlin I Berlin Pride wird unter dem Motto „Nur gemeinsam stark! – für Demokratie und Vielfalt!“ vom Vorstand des Berliner CSD e.V. am Samstag, den 27. Juli ab 11:30 Uhr an der Leipziger Straße eröffnet…
+source_url: https://www.mittendran.de/nur-gemeinsam-stark-fuer-demokratie-und-vielfalt-2/
+wp_post_id: 33061
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Nollendorfplatz
+  lat: 52.499597
+  lon: 13.35373
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: U-Bahnhof-Nollendorfplatz
+  lat: 52.499446
+  lon: 13.354196
+  osm_id: null
+  status: confirmed
+  via: regex

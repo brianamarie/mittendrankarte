@@ -1,0 +1,31 @@
+title: Kintopp im Kiez – die Potsdamer Straße als Kinomeile
+slug: 2025-02-04__kintopp-im-kiez-die-potsdamer-strasse-als-kinomeile
+author: Marc-Thomas Bock
+date: '2025-02-04'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1907, 1908, 1910, 1912, 1920, 1921, 1922, 1925, 1929, 1930, 1931, 1933, 1935, 1936, 1938, 1950, 1951, 1961]
+description: Die bewegten Bilder auf der Leinwand, zunächst nur in schwarz-weißer Kurbelmanier, in hektischer Abfolge, stumm und dennoch faszinierend in der Zeit ihres massenweisen Erscheinens Ende des 19. Jahrhunderts, das…
+source_url: https://www.mittendran.de/kintopp-im-kiez-die-potsdamer-strasse-als-kinomeile/
+wp_post_id: 35306
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße 38
+  lat: 52.507566
+  lon: 13.369016
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Flottwellstraße
+  lat: 52.501616
+  lon: 13.371237
+  osm_id: null
+  status: confirmed

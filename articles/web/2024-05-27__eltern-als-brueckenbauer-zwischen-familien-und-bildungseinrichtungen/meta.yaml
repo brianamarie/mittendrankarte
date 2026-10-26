@@ -1,0 +1,27 @@
+title: Eltern als Brückenbauer:innen zwischen Familien und Bildungseinrichtungen
+slug: 2024-05-27__eltern-als-brueckenbauer-zwischen-familien-und-bildungseinrichtungen
+author: eki
+date: '2024-05-27'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Die drei neuen Bildungsbotschafterinnen bekamen heute in der Villa Lützow ihre Zertifikate überreicht und haben nun den damit verbundenen Einstieg ins Ehrenamt begonnen…
+source_url: https://www.mittendran.de/eltern-als-brueckenbauer-zwischen-familien-und-bildungseinrichtungen/
+wp_post_id: 32091
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bildungsweg
+  lat: 51.073349
+  lon: 6.625892
+  osm_id: null
+  status: auto
+  via: regex

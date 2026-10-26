@@ -1,0 +1,31 @@
+title: Eine Buchempfehlung
+slug: 2026-07-22__eine-buchempfehlung
+author: Redaktion
+date: '2026-07-22'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Ende Mai hat die Autorin Alexandra Cedrino in der Bibliothek Tiergarten-Süd (https://www.mittendran.de/die-galerie-potsdamer-platz-eine-autorenlesung/) ihren neuen Roman „Die Galerie am Potsdamer Platz“ vorgestellt. Es…
+source_url: https://www.mittendran.de/eine-buchempfehlung/
+wp_post_id: 42404
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Lützowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer

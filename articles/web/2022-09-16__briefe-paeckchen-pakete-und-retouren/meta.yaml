@@ -1,0 +1,81 @@
+title: Briefe, Päckchen, Pakete und Retouren
+slug: 2022-09-16__briefe-paeckchen-pakete-und-retouren
+author: eki
+date: '2022-09-16'
+issue: null
+rubrik: kiek ma!
+about_years: [1901, 1902, 1927, 1999]
+description: E-Mail-Nachrichten, kurze Mitteilungen über WhatsApp, Twitter und Co. sind schnell und einfach rund um die Welt zu nutzen. Briefe schreiben erfordert Überlegungen, Zeit und ein wenig Muße. Eine handschriftliche…
+source_url: https://www.mittendran.de/briefe-paeckchen-pakete-und-retouren/
+wp_post_id: 23441
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 48
+  lat: 52.50505
+  lon: 13.356167
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße 69
+  lat: 52.500861
+  lon: 13.362837
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße 114
+  lat: 52.50353
+  lon: 13.347081
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Bülowstraße 11
+  lat: 52.49841
+  lon: 13.357807
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Steinmetzstraße
+  lat: 52.4975
+  lon: 13.361
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Postamt-Buelowstraße
+  lat: 52.497586
+  lon: 13.363221
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Kleiner-Kiosk-Kurfuerstenstraße
+  lat: 50.608642
+  lon: 8.787111
+  osm_id: null
+  status: auto
+  via: regex
+- name: DHL-Shop-Kurfuerstenstraße
+  lat: 52.445318
+  lon: 13.505482
+  osm_id: null
+  status: auto
+  via: regex
+- name: Potsdamer Straße 117
+  lat: 52.498896
+  lon: 13.362768
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Else-Laska-Schüler-Straße
+  lat: 52.500817
+  lon: 13.357482
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Hauptstraße
+  lat: 52.489303
+  lon: 13.359376
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,27 @@
+title: Die Wahlen für den neuen Parkbeirat haben begonnen
+slug: 2025-04-04__die-wahlen-fuer-den-neuen-parkbeirat-haben-begonnen
+author: Redaktion
+date: '2025-04-04'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Ein Beitrag des gleisdreieck-Blogs (https://gleisdreieck-blog.de) 16 Kandidatinnen bewerben sich für acht Plätze im zukünftigen Parkbeirat. Das ist sehr erfreulich, dass so viele Parknutzer:innen sich engagieren und…
+source_url: https://www.mittendran.de/die-wahlen-fuer-den-neuen-parkbeirat-haben-begonnen/
+wp_post_id: 36026
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Obentrautstraße
+  lat: 52.49673
+  lon: 13.384555
+  osm_id: null
+  status: confirmed
+  via: regex

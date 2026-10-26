@@ -1,0 +1,69 @@
+title: Das Verschwinden geschützter Freiräume
+slug: 2022-06-21__das-verschwinden-geschuetzter-freiraeume
+author: Redaktion
+date: '2022-06-21'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: [2010]
+description: (ein Beitrag von Karsten Masch, Leiter der Jugendarbeit beim Stadtteilverein Tiergarten (http://www.stadtteilverein.eu)) (https://www.mittendran.de/wp-content/uploads/2020/11/Karte-Tiergarten-Sued-Bolzplaetze.png) Rot…
+source_url: https://www.mittendran.de/das-verschwinden-geschuetzter-freiraeume/
+wp_post_id: 22475
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße 9-16
+  lat: 52.500051
+  lon: 13.368735
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Abenteuerspielplatz
+  lat: 52.473633
+  lon: 13.303603
+  osm_id: null
+  status: auto
+  via: regex
+- name: Fußballplatz
+  lat: 52.49592
+  lon: 13.499105
+  osm_id: null
+  status: auto
+  via: regex
+- name: Spielplatz
+  lat: 52.544306
+  lon: 13.364771
+  osm_id: null
+  status: auto
+  via: regex
+- name: Bolzplatz
+  lat: 52.440027
+  lon: 13.444695
+  osm_id: null
+  status: auto
+  via: regex
+- name: Basketballplatz
+  lat: 52.541131
+  lon: 13.4001
+  osm_id: null
+  status: auto
+  via: regex

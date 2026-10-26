@@ -1,0 +1,41 @@
+title: 40 Jahre Stadtteilverein Tiergarten
+slug: 2025-09-28__40-jahre-stadtteilverein-tiergarten
+author: FP
+date: '2025-09-28'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [2006]
+description: Bei Sonnenschein und angenehmen Temperaturen feierte der Stadtteilverein Tiergarten am Samstag, 27. September, sein 40-jähriges Bestehen im Nachbarschaftstreff. Den Nachbarschaftstreff in der Lützowstraße kennt im Kiez…
+source_url: https://www.mittendran.de/40-jahre-stadtteilverein-tiergarten/
+wp_post_id: 39104
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Lützowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+- name: Pohlstraße 89
+  lat: 52.501571
+  lon: 13.360613
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504268
+  lon: 13.362851
+  osm_id: null
+  status: confirmed
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

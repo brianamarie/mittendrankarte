@@ -1,0 +1,21 @@
+title: Quartier Latin an der Potsdamer Straße
+slug: 2025-01-16__quartier-latin-der-potsdamer-strasse
+author: FP
+date: '2025-01-16'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1970, 1989]
+description: Wo heute das Wintergarten Varieté sein Domizil hat – Potsdamer Str. 96 – residierte in den 70er und 80er Jahren das Quartier Latin, einer der bekanntesten Musikläden West-Berlins. Udo Lindenberg, Nina Hagen, Die 3…
+source_url: https://www.mittendran.de/quartier-latin-der-potsdamer-strasse/
+wp_post_id: 35150
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer

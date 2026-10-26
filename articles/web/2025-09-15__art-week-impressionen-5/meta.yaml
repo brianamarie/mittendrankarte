@@ -1,0 +1,26 @@
+title: Art Week Impressionen (5)
+slug: 2025-09-15__art-week-impressionen-5
+author: Paul Enck
+date: '2025-09-15'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Wieder zurück auf der Potsdamer Straße, werfen wir noch einen Blick auf die Installation „Höhlengleichnis“ in den früheren Räumen der Klosterfelde Edition (Potsdamer Str. 97), eine Gemeinschaftsarbeit des Berliner…
+source_url: https://www.mittendran.de/art-week-impressionen-5/
+wp_post_id: 38925
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.500435
+  lon: 13.366647
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer

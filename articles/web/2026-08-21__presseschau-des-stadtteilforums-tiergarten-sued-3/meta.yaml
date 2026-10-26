@@ -1,0 +1,30 @@
+title: Presseschau des Stadtteilforums Tiergarten Süd
+slug: 2026-08-21__presseschau-des-stadtteilforums-tiergarten-sued-3
+author: Redaktion
+date: '2026-08-21'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1960, 1961]
+description: Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/ (https://forum-tgs.de/)). In den letzten 7 Tagen sind uns diese…
+source_url: https://www.mittendran.de/presseschau-des-stadtteilforums-tiergarten-sued-3/
+wp_post_id: 42762
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed
+- name: Kulturforum
+  lat: 52.508513
+  lon: 13.364749
+  osm_id: null
+  status: confirmed

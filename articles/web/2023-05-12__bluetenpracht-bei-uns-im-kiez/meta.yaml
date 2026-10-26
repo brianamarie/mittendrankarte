@@ -1,0 +1,33 @@
+title: Blütenpracht bei uns im Kiez
+slug: 2023-05-12__bluetenpracht-bei-uns-im-kiez
+author: eki
+date: '2023-05-12'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2023/05/2023-Tulpen-Foto-eki-scaled.jpg) Tulpia Liliaceae Ein Beet voller weißer Tulpen an der Potsdamerstraße kurz vor der Potsdamer Brücke. Tulpen gehören zu den…
+source_url: https://www.mittendran.de/bluetenpracht-bei-uns-im-kiez/
+wp_post_id: 27233
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 27
+  lat: 52.50376
+  lon: 13.363429
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Brücke
+  lat: 52.5075
+  lon: 13.3735
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße
+  lat: 52.508675
+  lon: 13.370353
+  osm_id: null
+  status: confirmed
+  via: regex

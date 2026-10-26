@@ -1,0 +1,87 @@
+title: Die Druckerei Hänel
+slug: 2023-08-07__die-druckerei-haenel
+author: Redaktion
+date: '2023-08-07'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1750, 1751, 1771, 1797, 1801, 1802, 1804, 1805, 1811, 1824, 1825, 1826, 1828, 1829, 1835, 1837, 1838, 1839, 1840, 1841, 1842, 1843, 1844, 1845, 1846, 1847, 1848, 1852, 1853, 1854, 1856, 1859, 1861, 1864, 1865, 1867, 1871, 1873, 1877, 1880, 1882, 1888, 1890, 1895, 1896, 1898, 1920, 1985, 1998, 2000, 2007]
+description: Geschichten von Handel und Gewerbe im Lützow-Viertel 2 (ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com/)) Der erste Gewerbebetrieb, der in das heutige Lützow-Viertel zog, war die…
+source_url: https://www.mittendran.de/die-druckerei-haenel/
+wp_post_id: 28174
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße 103
+  lat: 52.500403
+  lon: 13.363615
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Flottwellstraße
+  lat: 52.5008
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bülowstraße
+  lat: 52.4985
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Brücke
+  lat: 52.5075
+  lon: 13.3735
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Vorplatz
+  lat: 52.532379
+  lon: 13.208945
+  osm_id: null
+  status: auto
+  via: regex
+- name: Lützowerweg
+  lat: 51.223915
+  lon: 12.183729
+  osm_id: null
+  status: auto
+  via: regex
+- name: Die-synagoge-der-potsdamer-brücke
+  lat: 52.396845
+  lon: 13.226523
+  osm_id: null
+  status: auto
+  via: regex
+- name: Heydt-Brücke
+  lat: 52.52213
+  lon: 13.387954
+  osm_id: null
+  status: auto
+  via: regex
+- name: Weg-Straße
+  lat: 52.285073
+  lon: 10.015768
+  osm_id: null
+  status: auto
+  via: regex

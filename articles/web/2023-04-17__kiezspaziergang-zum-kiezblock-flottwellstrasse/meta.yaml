@@ -1,0 +1,39 @@
+title: Kiezspaziergang  zum Kiezblock Flottwellstraße
+slug: 2023-04-17__kiezspaziergang-zum-kiezblock-flottwellstrasse
+author: Redaktion
+date: '2023-04-17'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Ein Kiezspaziergang zum Kiezblock Flottwellstraße am 22. April (ein Beitrag von Jörg Borchardt, Stadtteil-Forum Tiergarten Süd) Am Samstag, 22. April 2023, 15 Uhr treffen wir uns im Gemeindesaal der Luthergemeinde, in…
+source_url: https://www.mittendran.de/kiezspaziergang-zum-kiezblock-flottwellstrasse/
+wp_post_id: 26692
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Flottwellstraße
+  lat: 52.5008
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bülowstraße 72
+  lat: 52.497515
+  lon: 13.366463
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Steinmetzstraße
+  lat: 52.4975
+  lon: 13.361
+  osm_id: null
+  status: confirmed
+  via: gazetteer

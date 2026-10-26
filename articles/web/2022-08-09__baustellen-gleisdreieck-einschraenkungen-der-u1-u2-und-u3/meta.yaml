@@ -1,0 +1,33 @@
+title: 'Baustellen am Gleisdreieck: Einschränkungen der U1, U2 und U3'
+slug: 2022-08-09__baustellen-gleisdreieck-einschraenkungen-der-u1-u2-und-u3
+author: eki
+date: '2022-08-09'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Auf Fahrgäste der Berliner U-Bahn-Linien 1, 2 und 3 kommen in den nächsten Wochen Einschränkungen zu. Grund sind Bauarbeiten am U-Bahnhof Gleisdreieck vom 15. August bis zum 6. November. Sie sollen in drei Abschnitten…
+source_url: https://www.mittendran.de/baustellen-gleisdreieck-einschraenkungen-der-u1-u2-und-u3/
+wp_post_id: 23014
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Bülowstraße
+  lat: 52.4985
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Nollendorfplatz
+  lat: 52.499597
+  lon: 13.35373
+  osm_id: null
+  status: confirmed
+  via: regex

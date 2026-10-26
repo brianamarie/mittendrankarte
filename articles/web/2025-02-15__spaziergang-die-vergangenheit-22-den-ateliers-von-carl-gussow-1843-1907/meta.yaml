@@ -1,0 +1,27 @@
+title: 'Spaziergang in die Vergangenheit (22): In den Ateliers von Carl Gussow (1843-1907)'
+slug: 2025-02-15__spaziergang-die-vergangenheit-22-den-ateliers-von-carl-gussow-1843-1907
+author: Paul Enck
+date: '2025-02-15'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1808, 1834, 1835, 1840, 1841, 1843, 1847, 1853, 1857, 1858, 1859, 1861, 1862, 1863, 1864, 1865, 1866, 1867, 1869, 1870, 1871, 1872, 1873, 1874, 1875, 1878, 1879, 1880, 1881, 1882, 1883, 1885, 1887, 1888, 1892, 1898, 1906, 1907, 1908, 1909, 1912, 1914, 1915, 1916, 1919, 1920, 1922, 1924, 1927, 1930, 1935, 1950, 1959, 1966, 1992]
+description: Wir waren schon mal hier in der Buchenstraße, die es heute nicht mehr gibt (mittendran am 16. August 2021 (https://www.mittendran.de/strassen-im-kiez-die-es-nicht-mehr-gibt-ulmen-und-buchenstrasse/)), haben aber das…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-22-den-ateliers-von-carl-gussow-1843-1907/
+wp_post_id: 35393
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz 4
+  lat: 52.503097
+  lon: 13.360449
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer

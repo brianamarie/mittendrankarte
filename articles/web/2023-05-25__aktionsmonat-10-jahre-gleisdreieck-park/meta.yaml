@@ -1,0 +1,27 @@
+title: Aktionsmonat  10 Jahre Gleisdreieck-Park
+slug: 2023-05-25__aktionsmonat-10-jahre-gleisdreieck-park
+author: Redaktion
+date: '2023-05-25'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [2010]
+description: (EIN BEITRAG VON MATHIAS BAUER, GLEISDREIECKBLOG (https://gleisdreieck-blog.de/)) Mit einem umfangreichen Programm aus Führungen durch den Park, Umweltbildungsangeboten, HipHop, Breakdance und Poetry Slam werden im…
+source_url: https://www.mittendran.de/aktionsmonat-10-jahre-gleisdreieck-park/
+wp_post_id: 27384
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Ladestraße
+  lat: 52.457964
+  lon: 13.584872
+  osm_id: null
+  status: auto
+  via: regex

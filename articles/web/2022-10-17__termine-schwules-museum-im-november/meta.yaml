@@ -1,0 +1,28 @@
+title: Von wegen trübe Jahreszeit – hier sind die Termine des Schwulen Museums im
+  November
+slug: 2022-10-17__termine-schwules-museum-im-november
+author: KA
+date: '2022-10-17'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1990]
+description: (https://www.mittendran.de/wp/wp-admin/media-upload.php?post_id=23937&type=image&TB_iframe=1) Veranstaltungen 6.11., 14–18 Uhr. Eintrittsfreier Museumssonntag Am ersten Sonntag im Monat kommt ihr immer kostenlos ins…
+source_url: https://www.mittendran.de/termine-schwules-museum-im-november/
+wp_post_id: 23937
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 73
+  lat: 52.504251
+  lon: 13.358219
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Monumentenstraße
+  lat: 52.488274
+  lon: 13.367647
+  osm_id: null
+  status: auto
+  via: regex

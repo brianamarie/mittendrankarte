@@ -1,0 +1,27 @@
+title: 'Haus am Lützowplatz:  Who by Fire: On Israel'
+slug: 2023-05-30__who-by-fire-on-israel
+author: Redaktion
+date: '2023-05-30'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1973, 1974, 2009]
+description: '(https://www.mittendran.de/wp-content/uploads/2023/05/who-by-fire.png) Durar Bacri, Cactus on the roof, 2021, 50 x 70 cm Who By Fire: On Israel 9. Juni – 27. August 2023 Eröffnung der Ausstellung am 08. Juni 2023 mit…'
+source_url: https://www.mittendran.de/who-by-fire-on-israel/
+wp_post_id: 27417
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.5043
+  lon: 13.3535
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Haus am Lützowplatz
+  lat: 52.5045
+  lon: 13.3528
+  osm_id: null
+  status: confirmed
+  via: gazetteer

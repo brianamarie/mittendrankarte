@@ -1,0 +1,27 @@
+title: Spielstraße war wieder  bunt und fröhlich
+slug: 2022-08-26__spielstrasse-war-wieder-bunt-und-froehlich
+author: FP
+date: '2022-08-26'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: []
+description: Am 25. August konnten Kinder aller Altersstufen wieder auf der westlichen Pohlstraße spielen. Auch wenn weniger Kinder dabei waren als bei den letzten beiden Spielstraßen, gab es wieder viel Spaß. Endlich konnte mal…
+source_url: https://www.mittendran.de/spielstrasse-war-wieder-bunt-und-froehlich/
+wp_post_id: 23161
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielstraße
+  lat: 49.137578
+  lon: 8.415617
+  osm_id: null
+  status: auto
+  via: regex

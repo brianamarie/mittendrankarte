@@ -1,0 +1,27 @@
+title: Imbiss Kaplan hat geschlossen
+slug: 2026-06-02__imbiss-kaplan-hat-geschlossen
+author: FP
+date: '2026-06-02'
+issue: '51'
+rubrik: Bauen und Wohnen
+about_years: []
+description: Seit ein paar Tagen hat der Döner-Imbiss Kaplan geschlossen. Der Mietvertrag wurde nicht verlängert. Der Inhaber bedauert die Schließung und das Kaplan-Team dankt in einem Aushang allen Kunden für die gemeinsame Zeit…
+source_url: https://www.mittendran.de/imbiss-kaplan-hat-geschlossen/
+wp_post_id: 42025
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 120
+  lat: 52.500124
+  lon: 13.362783
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße 151
+  lat: 52.499691
+  lon: 13.362289
+  osm_id: null
+  status: confirmed
+  via: address

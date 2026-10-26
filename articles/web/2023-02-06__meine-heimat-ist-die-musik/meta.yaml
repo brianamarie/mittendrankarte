@@ -1,0 +1,33 @@
+title: „Meine Heimat ist die Musik“
+slug: 2023-02-06__meine-heimat-ist-die-musik
+author: eki
+date: '2023-02-06'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1923, 1928, 1939, 1957, 1975, 2006, 2013]
+description: Anlässlich ihres 100sten Geburtstages wurde am 1. Februar die kleine Rasenfläche östlich vom Winterfeldplatz, in der Gleditschstraße 3-23, in „Ursula-Mamlok-Park“ benannt. Bezirksstadträtin Saskia Ellenbeck würdigte im…
+source_url: https://www.mittendran.de/meine-heimat-ist-die-musik/
+wp_post_id: 25395
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Winterfeldplatz
+  lat: 52.496529
+  lon: 13.354365
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Gleditschstraße
+  lat: 52.488807
+  lon: 13.355048
+  osm_id: null
+  status: auto
+  via: regex
+- name: Motzstraße
+  lat: 52.493798
+  lon: 13.335401
+  osm_id: null
+  status: auto
+  via: regex

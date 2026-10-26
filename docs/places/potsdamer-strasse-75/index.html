@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Potsdamer Straße 75</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+    </nav>
+  </header>
+  
+<main class="place-page">
+  <p class="place-back"><a href="../../map.html">← Karte</a></p>
+  <p class="place-kicker">Ort auf der Karte</p>
+  <h1>Potsdamer Straße 75</h1>
+  <p class="place-stats">2 Beiträge · 2025</p>
+  <p class="lead">Alle Beiträge, die diesen Ort nennen, neueste zuerst.</p>
+  <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50263&amp;mlon=13.36558#map=17/52.50263/13.36558" rel="noopener">Lage auf OpenStreetMap</a></p>
+  
+  <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><button type="button" data-rubrik="Aus dem Kiez" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">1</span></button><button type="button" data-rubrik="Kunst und Kultur" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#8b4d9a"></span>Kunst und Kultur <span class="n">1</span></button><button type="button" id="place-filter-reset" hidden>alle einblenden</button></div>
+  <section class="place-group"><h2 class="place-year">2025 · <span class="n">2</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/art-week-impressionen-1/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Art Week Impressionen (1)</strong><div class="meta">2025-09-11 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Man kann sie kaum übersehen, selbst wenn man wollte (was „man“ nicht will), die Art Week Berlin: Nur ein kurzer Spaziergang über die Potsdamer um 18.00h am ersten Tag, Menschenauflauf vor und in der Galerie Hoto…</p></span></a></li><li data-rubrik="Kunst und Kultur"><a href="https://www.mittendran.de/new-kid-kunstgalerie-town/" rel="noopener"><span class="place-bar" style="background:#8b4d9a"></span><span class="place-card-body"><strong>A New Kid (Kunstgalerie) in Town</strong><div class="meta">2025-04-27 · <span class="place-tag" style="background:color-mix(in srgb, #8b4d9a 28%, white)">Kunst und Kultur</span> · Redaktion</div><p class="place-excerpt">Eine neue Kunstgalerie, keine „pop-up gallery“ nur für die Art Week, hat eröffnet an der Potsdamer Straße 75 – da, wo früher Paul Smith Mode verkaufte – und will dort bleiben, dauerhaft: HOTO Gallery…</p></span></a></li></ul></section>
+  <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
+  
+<script>
+(function () {
+  var buttons = Array.prototype.slice.call(
+    document.querySelectorAll(".place-rubriks button[data-rubrik]")
+  );
+  if (!buttons.length) return;
+  var items = document.querySelectorAll(".place-page .cards li");
+  var groups = document.querySelectorAll(".place-group");
+  var empty = document.querySelector(".place-empty");
+  var reset = document.getElementById("place-filter-reset");
+  var active = {};
+  buttons.forEach(function (btn) { active[btn.getAttribute("data-rubrik")] = true; });
+  function hiddenCount() {
+    return buttons.filter(function (btn) {
+      return !active[btn.getAttribute("data-rubrik")];
+    }).length;
+  }
+  function apply() {
+    var shown = 0;
+    items.forEach(function (li) {
+      var name = li.getAttribute("data-rubrik") || "";
+      var on = !name || !!active[name];
+      li.hidden = !on;
+      if (on) shown += 1;
+    });
+    groups.forEach(function (group) {
+      var visibleItems = group.querySelectorAll(".cards li:not([hidden])");
+      group.hidden = visibleItems.length === 0;
+      var count = group.querySelector(".place-year .n");
+      if (count) count.textContent = String(visibleItems.length);
+    });
+    if (empty) empty.hidden = shown !== 0;
+    if (reset) reset.hidden = hiddenCount() === 0;
+  }
+  buttons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var name = btn.getAttribute("data-rubrik");
+      active[name] = !active[name];
+      var on = !!active[name];
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+      btn.title = on ? "Ausblenden" : "Einblenden";
+      apply();
+    });
+  });
+  if (reset) {
+    reset.addEventListener("click", function () {
+      buttons.forEach(function (btn) {
+        active[btn.getAttribute("data-rubrik")] = true;
+        btn.setAttribute("aria-pressed", "true");
+        btn.title = "Ausblenden";
+      });
+      apply();
+    });
+  }
+})();
+</script>
+
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+</body>
+</html>

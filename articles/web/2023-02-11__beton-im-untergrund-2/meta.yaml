@@ -1,0 +1,51 @@
+title: Der Westpark könnte größer sein
+slug: 2023-02-11__beton-im-untergrund-2
+author: Redaktion
+date: '2023-02-11'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: [1990, 1992, 1995, 1998, 2000, 2003, 2005]
+description: Warum ist der Westpark des Gleisdreiecks so schmal? (https://gleisdreieck-blog.de/2023/02/10/warum-ist-der-westpark-des-gleisdreiecks-so-schmal/) (EIN BEITRAG VON MATHIAS BAUER, GLEISDREIECKBLOG…
+source_url: https://www.mittendran.de/beton-im-untergrund-2/
+wp_post_id: 25460
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Flottwellstraße
+  lat: 52.5008
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Dennewitzstraße
+  lat: 52.4988
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kanalufer
+  lat: 51.782151
+  lon: 7.396419
+  osm_id: null
+  status: auto
+  via: regex
+- name: Wartenburgstraße
+  lat: 52.49553
+  lon: 13.381352
+  osm_id: null
+  status: confirmed
+  via: regex

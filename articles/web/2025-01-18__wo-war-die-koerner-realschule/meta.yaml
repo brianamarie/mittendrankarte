@@ -1,0 +1,27 @@
+title: 'Erziehung und Wissenschaft damals (6-2): Wo war die Körner-Realschule?'
+slug: 2025-01-18__wo-war-die-koerner-realschule
+author: Paul Enck
+date: '2025-01-18'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1888, 1891, 1900, 1902, 1910, 1935, 1936, 1943, 1945, 1946, 1960]
+description: 'Der Artikel über die Körner-Realschule im Lützow-Viertel (mittendran vom 10. Dezember 2024 (https://www.mittendran.de/schulen-im-luetzow-viertel-6-die-koerner-schule/)) war zwei Dinge schuldig geblieben: ein Bild der…'
+source_url: https://www.mittendran.de/wo-war-die-koerner-realschule/
+wp_post_id: 35118
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 106
+  lat: 52.501999
+  lon: 13.3694
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße 16
+  lat: 52.500131
+  lon: 13.368583
+  osm_id: null
+  status: confirmed
+  via: address

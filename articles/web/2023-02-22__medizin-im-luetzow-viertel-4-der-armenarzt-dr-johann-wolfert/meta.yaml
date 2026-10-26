@@ -1,0 +1,57 @@
+title: Medizingeschichte im Lützow-Viertel (4) Der Armenarzt Dr. Johann Wolfert
+slug: 2023-02-22__medizin-im-luetzow-viertel-4-der-armenarzt-dr-johann-wolfert
+author: Redaktion
+date: '2023-02-22'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1785, 1791, 1802, 1819, 1826, 1827, 1829, 1830, 1848, 1851, 1853, 1855, 1856, 1864, 1865, 1868, 1869, 1870, 1874, 1875, 1879, 1882, 1883, 1885, 1886, 1889, 1891, 1893, 1897, 1898, 1899, 1900, 1904, 1908, 1909, 1913, 1915, 1938, 1950, 2012]
+description: '(ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com)) Endlich mal jemand, der es verdient hätte, dass eine Straße nach ihm benannt worden wäre: Dr. Johann Carl Albert Wolfert (1830-1909)…'
+source_url: https://www.mittendran.de/medizin-im-luetzow-viertel-4-der-armenarzt-dr-johann-wolfert/
+wp_post_id: 25642
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Steglitzer Straße
+  lat: 52.5018
+  lon: 13.3635
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Luetzowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Viktoriastraße
+  lat: 52.574312
+  lon: 13.402633
+  osm_id: null
+  status: auto
+  via: regex
+- name: Bendlerstraße
+  lat: 51.559897
+  lon: 8.548238
+  osm_id: null
+  status: auto
+  via: regex
+- name: Ackerstraße
+  lat: 52.531941
+  lon: 13.39621
+  osm_id: null
+  status: auto
+  via: regex
+- name: Eichhornstraße
+  lat: 52.489488
+  lon: 13.580616
+  osm_id: null
+  status: auto
+  via: regex

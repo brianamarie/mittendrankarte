@@ -1,0 +1,37 @@
+title: Ein Besuch beim Verein Berliner Künstler, Schöneberger Ufer 57
+slug: 2026-03-01__ein-besuch-beim-verein-berliner-kuenstler-schoeneberger-ufer-57
+author: Paul Enck
+date: '2026-03-01'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1841, 1858, 1938, 1945, 1964, 1989]
+description: Für die Galerien entlang des Schöneberger und des Lützowufers war das Lützowviertel wohl immer „Hinterland“, damals (mittendran vom 28. Februar 2025…
+source_url: https://www.mittendran.de/ein-besuch-beim-verein-berliner-kuenstler-schoeneberger-ufer-57/
+wp_post_id: 40939
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.504761
+  lon: 13.352547
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer 57
+  lat: 52.505631
+  lon: 13.366258
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kulturforum
+  lat: 52.508513
+  lon: 13.364749
+  osm_id: null
+  status: confirmed

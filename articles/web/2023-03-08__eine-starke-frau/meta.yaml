@@ -1,0 +1,33 @@
+title: Eine starke FrauGabriele Tergit
+slug: 2023-03-08__eine-starke-frau
+author: Redaktion
+date: '2023-03-08'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1894, 1898, 1908, 1915, 1919, 1927, 1931, 1933, 1938, 1954, 1957, 1981, 1982, 2009]
+description: '(https://www.mittendran.de/wp-content/uploads/2023/03/Mediathek-1-von-2-scaled.jpeg) Gabriele-Tergit-Promenade von Norden (Foto:bse) Sie mündet auf den Potsdamer Platz, sie erinnert an eine starke Frau: die…'
+source_url: https://www.mittendran.de/eine-starke-frau/
+wp_post_id: 25843
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Jannowitzbrücke
+  lat: 52.514215
+  lon: 13.419493
+  osm_id: null
+  status: auto
+  via: regex

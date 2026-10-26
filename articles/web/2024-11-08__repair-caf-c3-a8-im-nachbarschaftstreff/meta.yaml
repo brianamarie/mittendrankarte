@@ -1,0 +1,27 @@
+title: Repair-Café im Nachbarschaftstreff
+slug: 2024-11-08__repair-caf-c3-a8-im-nachbarschaftstreff
+author: FP
+date: '2024-11-08'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: Gastbeitrag von Johann Peter Bank Die Sendung „Marktplatz“ im Deutschlandfunk stand am 12. September 2024 unter dem Motto „Reparieren statt wegschmeißen“. Wie üblich in diesem Format kamen neben Sachverständigen auch…
+source_url: https://www.mittendran.de/repair-caf%c3%a8-im-nachbarschaftstreff/
+wp_post_id: 34372
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Nachbarschaftstreff
+  lat: 52.5035
+  lon: 13.3575
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Marktplatz
+  lat: 52.437948
+  lon: 13.54748
+  osm_id: null
+  status: auto
+  via: regex

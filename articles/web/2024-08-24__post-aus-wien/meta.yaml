@@ -1,0 +1,27 @@
+title: Post aus Wien
+slug: 2024-08-24__post-aus-wien
+author: Paul Enck
+date: '2024-08-24'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1875, 1908, 1909, 1931, 1932, 1933, 1935, 1938, 1939, 1976, 1998, 1999]
+description: Mittendran wird gelesen, auch im Ausland, zumindest der Blog, und dort wiederum die historischen Artikel – wie wir neulich mit der Mail aus Schweden (mittendran vom 11. Mai 2024…
+source_url: https://www.mittendran.de/post-aus-wien/
+wp_post_id: 33378
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Derfflingerstraße
+  lat: 52.5048
+  lon: 13.357
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Unger-klinik-in-der-derfflingerstraße
+  lat: 51.513466
+  lon: 7.443092
+  osm_id: null
+  status: auto
+  via: regex

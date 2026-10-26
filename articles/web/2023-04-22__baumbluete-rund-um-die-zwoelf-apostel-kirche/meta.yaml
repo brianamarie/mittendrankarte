@@ -1,0 +1,39 @@
+title: Baumblüte rund um die Ev. Zwölf-Apostel-Kirche
+slug: 2023-04-22__baumbluete-rund-um-die-zwoelf-apostel-kirche
+author: null
+date: '2023-04-22'
+issue: null
+rubrik: kiek ma!
+about_years: []
+description: Einmal im Jahr kann man die Blütenpracht der japanischen Kirschbäume bewundern. (https://www.mittendran.de/wp-content/uploads/2023/04/2023-Foto-eki-4.jpg) Ab Mitte/Ende April ist es so weit – Kirschblütenzeit…
+source_url: https://www.mittendran.de/baumbluete-rund-um-die-zwoelf-apostel-kirche/
+wp_post_id: 26813
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Am-Spielsplatz
+  lat: 52.519799
+  lon: 13.392693
+  osm_id: null
+  status: auto
+  via: regex
+- name: Spielplatz
+  lat: 52.544306
+  lon: 13.364771
+  osm_id: null
+  status: auto
+  via: regex
+- name: In-der-Else-Lasker-Schueler-Straße
+  lat: 52.500817
+  lon: 13.357482
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Else-Lasker-Schüler-Straße
+  lat: 52.500022
+  lon: 13.355217
+  osm_id: null
+  status: confirmed
+  via: regex

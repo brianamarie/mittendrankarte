@@ -1,0 +1,45 @@
+title: Urbane Mitte – Senat legt Prüfbericht vor
+slug: 2023-01-11__urbane-mitte-senat-legt-pruefbericht-vor
+author: Redaktion
+date: '2023-01-11'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [1994, 2005]
+description: Senatsverwaltung für Stadtentwicklung, Bauen und Wohnen legt Prüfbericht zur Urbanen Mitte vor Pressemitteilung vom 27.12.2022…
+source_url: https://www.mittendran.de/urbane-mitte-senat-legt-pruefbericht-vor/
+wp_post_id: 24991
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Flottwellstraße
+  lat: 52.5008
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Beachvolleyplatz
+  lat: 47.38099
+  lon: 8.17425
+  osm_id: null
+  status: auto
+  via: regex
+- name: Yorckstraße
+  lat: 52.492758
+  lon: 13.37048
+  osm_id: null
+  status: auto
+  via: regex
+- name: Möckernstraße
+  lat: 52.494411
+  lon: 13.379628
+  osm_id: null
+  status: confirmed
+  via: regex

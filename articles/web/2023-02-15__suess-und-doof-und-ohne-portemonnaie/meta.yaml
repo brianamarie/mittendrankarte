@@ -1,0 +1,27 @@
+title: Süß und doof und ohne Portemonnaie
+slug: 2023-02-15__suess-und-doof-und-ohne-portemonnaie
+author: eki
+date: '2023-02-15'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1896, 1933, 1955, 1976]
+description: 'Pointiert & zeitlos, verrückt, verzaubernd, lebensnah – die Friedrich Hollaender-Revue … anders präsentiert von Dirk Rave (Akkordeon/Gesang), Chanson-Nette und Henry Nandzik. Regie: Isabelle Gensior FRIEDRICH…'
+source_url: https://www.mittendran.de/suess-und-doof-und-ohne-portemonnaie/
+wp_post_id: 25543
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Nollendorfplatz
+  lat: 52.499597
+  lon: 13.35373
+  osm_id: null
+  status: confirmed
+  via: regex

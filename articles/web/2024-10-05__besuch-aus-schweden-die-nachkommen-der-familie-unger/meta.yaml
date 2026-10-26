@@ -1,0 +1,33 @@
+title: 'Besuch aus Schweden: Die Nachkommen der Familie Unger'
+slug: 2024-10-05__besuch-aus-schweden-die-nachkommen-der-familie-unger
+author: Paul Enck
+date: '2024-10-05'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1875, 1905, 1908, 1909, 1933, 1936, 1938, 1998, 1999]
+description: Es gibt Geschichten, die fangen mit einem Besuch der Nachkommen früherer Bewohner des Lützow-Viertels an, wie die der Familie Ledermann (mittendran ab dem 18. Dezember 2022 in sieben Teilen) – hier war es umgekehrt…
+source_url: https://www.mittendran.de/besuch-aus-schweden-die-nachkommen-der-familie-unger/
+wp_post_id: 33997
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Derfflingerstraße 21
+  lat: 52.503266
+  lon: 13.356603
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Unger-klinik-in-der-derfflingerstraße
+  lat: 51.513466
+  lon: 7.443092
+  osm_id: null
+  status: auto
+  via: regex
+- name: Die-unger-klinik-der-derfflingerstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

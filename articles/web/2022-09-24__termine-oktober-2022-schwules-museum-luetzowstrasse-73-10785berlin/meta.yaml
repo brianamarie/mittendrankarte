@@ -1,0 +1,27 @@
+title: Es bleibt spannend! Die Termine im Oktober 2022 im Schwulen Museum
+slug: 2022-09-24__termine-oktober-2022-schwules-museum-luetzowstrasse-73-10785berlin
+author: eki
+date: '2022-09-24'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1990, 2003]
+description: Veranstaltungen 2.10., 14–18 Uhr. Eintrittsfreier Museumssonntag Am ersten Sonntag im Monat kommt ihr immer kostenlos ins SMU. Bewundert queere Gegenwartskunst und erfahrt in Führungen um 15 und 16 mehr über die…
+source_url: https://www.mittendran.de/termine-oktober-2022-schwules-museum-luetzowstrasse-73-10785berlin/
+wp_post_id: 23547
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 73
+  lat: 52.504251
+  lon: 13.358219
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Hermannstraße
+  lat: 52.467634
+  lon: 13.431241
+  osm_id: null
+  status: auto
+  via: regex

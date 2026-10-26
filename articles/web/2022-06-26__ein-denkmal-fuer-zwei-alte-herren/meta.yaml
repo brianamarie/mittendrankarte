@@ -1,0 +1,33 @@
+title: Ein Denkmal für zwei „Alte Herren“
+slug: 2022-06-26__ein-denkmal-fuer-zwei-alte-herren
+author: Redaktion
+date: '2022-06-26'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1958, 1962, 1963, 2003]
+description: (https://www.mittendran.de/wp-content/uploads/2022/06/Adenauer-De-Gaulle-scaled.jpeg) Denkmal für die Väter des deutsch-französischen Freundschaftsvertrages (Foto:bse) In unserm Kiez, Ecke Tiergartenstraße /…
+source_url: https://www.mittendran.de/ein-denkmal-fuer-zwei-alte-herren/
+wp_post_id: 22429
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Tiergartenstraße
+  lat: 52.5108
+  lon: 13.369122
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Klingelhöferstraße
+  lat: 52.50757
+  lon: 13.351972
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Marktplatz
+  lat: 52.45075
+  lon: 13.62473
+  osm_id: null
+  status: auto
+  via: regex

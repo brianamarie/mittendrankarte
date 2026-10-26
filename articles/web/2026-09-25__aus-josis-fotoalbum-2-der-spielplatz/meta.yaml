@@ -1,0 +1,31 @@
+title: 'Aus Josis Fotoalbum (2): Der Spielplatz'
+slug: 2026-09-25__aus-josis-fotoalbum-2-der-spielplatz
+author: Paul Enck
+date: '2026-09-25'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1939, 1964, 1969]
+description: Auch wenn wir Josi, den vermuteten Albumeigentümer (mittendran vom 2. Juli 2026 (https://www.mittendran.de/wer-erinnert-sich-josi/)) noch nicht gefunden haben, wollen wir weitere Fotos aus seinem Album aus dem…
+source_url: https://www.mittendran.de/aus-josis-fotoalbum-2-der-spielplatz/
+wp_post_id: 43039
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+- name: Lützowstraße
+  lat: 52.504008
+  lon: 13.360699
+  osm_id: null
+  status: confirmed
+- name: Genthiner Straße 22
+  lat: 52.503797
+  lon: 13.359285
+  osm_id: null
+  status: confirmed
+  via: address

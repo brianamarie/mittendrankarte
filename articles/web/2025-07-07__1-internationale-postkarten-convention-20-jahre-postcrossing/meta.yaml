@@ -1,0 +1,27 @@
+title: 1. Internationale Postkarten Convention & 20 Jahre Postcrossing
+slug: 2025-07-07__1-internationale-postkarten-convention-20-jahre-postcrossing
+author: FP
+date: '2025-07-07'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Am 12. und 13. Juli 2025 feiert Postcrossing mit der ersten internationalen Postkartenmesse sein 20-jähriges Bestehen im Museum für Kommunikation Berlin. Hierzu werden Postcrosser:innen aus der ganzen Welt anreisen und…
+source_url: https://www.mittendran.de/1-internationale-postkarten-convention-20-jahre-postcrossing/
+wp_post_id: 38109
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Museum für Kommunikation
+  lat: 52.5098
+  lon: 13.3865
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Postkartenverkäufer
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,45 @@
+title: Medizingeschichte im Lützow-Viertel (6) Röntgeninstitut Immelmann in der Lützowstraße
+slug: 2023-04-17__medizingeschichte-im-luetzow-viertel-5roentgeninstitut-immelmann-in-der-luetzows
+author: Redaktion
+date: '2023-04-17'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1796, 1825, 1842, 1845, 1852, 1864, 1885, 1888, 1889, 1890, 1891, 1892, 1893, 1895, 1896, 1897, 1898, 1899, 1901, 1904, 1905, 1906, 1908, 1914, 1916, 1917, 1918, 1919, 1920, 1923, 1930, 1938, 1945, 1948, 1965, 2000]
+description: '(ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com)) Ein Institut von Weltrang, dass kaum einer mehr kennt: Das Röntgeninstitut des Dr. Max Immelmann in der Lützowstraße 72. Als das…'
+source_url: https://www.mittendran.de/medizingeschichte-im-luetzow-viertel-5roentgeninstitut-immelmann-in-der-luetzowstrasse/
+wp_post_id: 26696
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 72
+  lat: 52.504305
+  lon: 13.35797
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schillstraße
+  lat: 52.505
+  lon: 13.3485
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Carl-Heinrich-Ulrichs-Straße
+  lat: 52.500059
+  lon: 13.354098
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Kantstraße
+  lat: 52.505539
+  lon: 13.326286
+  osm_id: null
+  status: auto
+  via: regex
+- name: Wilhelmstraße
+  lat: 52.513759
+  lon: 13.382214
+  osm_id: null
+  status: confirmed
+  via: regex

@@ -1,0 +1,45 @@
+title: Jugendarbeit unter den U-Bahn-Bögen
+slug: 2022-09-27__jugendarbeit-unter-den-u-bahn-boegen
+author: Redaktion
+date: '2022-09-27'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: [1998, 2001]
+description: Vor 25 Jahren hat der Stadtteilverein Tiergarten e.V. die U-Bahnbögen in der Pohlstraße 11 in Obhut genommen, um hier ein soziokulturelles Nutzungs-Projekt zu schaffen. Die 13 U-Bahn-Bögen werden seit 2001 von…
+source_url: https://www.mittendran.de/jugendarbeit-unter-den-u-bahn-boegen/
+wp_post_id: 23567
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße 11
+  lat: 52.499652
+  lon: 13.369147
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Flottwellstraße
+  lat: 52.5008
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße
+  lat: 52.497809
+  lon: 13.36202
+  osm_id: null
+  status: confirmed
+  via: regex

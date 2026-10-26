@@ -1,0 +1,39 @@
+title: Starke Stadtteile und Orte für Jugendlicheoder Pohl 7 / 8 zum ….
+slug: 2023-01-12__starke-stadtteile-und-orte-fuer-jugendlicheoder-pohl-7-8-zum
+author: Redaktion
+date: '2023-01-12'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: []
+description: Es hat mal wieder „gescheppert“. „Silvester-Randale“. „Große Not“, „Schnelles konsequentes Handeln erforderlich“, „Gipfel gegen Jugendgewalt“ Aus der Pressemitteilung des Landes Berlin vom 11.1.2023 zu den Ergebnissen…
+source_url: https://www.mittendran.de/starke-stadtteile-und-orte-fuer-jugendlicheoder-pohl-7-8-zum/
+wp_post_id: 25012
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bolzplatz
+  lat: 52.546503
+  lon: 13.461683
+  osm_id: null
+  status: auto
+  via: regex
+- name: Spielplatz
+  lat: 52.544306
+  lon: 13.364771
+  osm_id: null
+  status: auto
+  via: regex
+- name: Basketballplatz
+  lat: 52.541131
+  lon: 13.4001
+  osm_id: null
+  status: auto
+  via: regex

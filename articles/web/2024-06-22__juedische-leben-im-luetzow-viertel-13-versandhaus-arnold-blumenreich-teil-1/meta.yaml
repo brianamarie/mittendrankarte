@@ -1,0 +1,40 @@
+title: 'Jüdisches Leben im Lützow-Viertel (13): Versandhaus Arnold Blumenreich (Teil
+  1)'
+slug: 2024-06-22__juedische-leben-im-luetzow-viertel-13-versandhaus-arnold-blumenreich-teil-1
+author: Paul Enck
+date: '2024-06-22'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1760, 1845, 1848, 1849, 1850, 1856, 1869, 1870, 1872, 1873, 1874, 1875, 1876, 1877, 1878, 1880, 1881, 1882, 1883, 1884, 1885, 1886, 1887, 1888, 1890, 1891, 1892, 1893, 1894, 1895, 1896, 1897, 1899, 1900, 1902, 1903, 1904, 1908, 1910, 1913, 1916, 1932, 1935, 1938, 1940, 1941, 1942, 1943, 1956, 1962]
+description: Auch für diese Geschichte gibt es eine Vorlage von Beth Griffiths (mittendran am 18. Dezember 2022 (https://www.mittendran.de/a-blumenreich/)), und auch diese Geschichte – in zwei Teilen – erzählt zunächst die…
+source_url: https://www.mittendran.de/juedische-leben-im-luetzow-viertel-13-versandhaus-arnold-blumenreich-teil-1/
+wp_post_id: 32469
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 66
+  lat: 52.504906
+  lon: 13.36692
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Dennewitzstraße 19
+  lat: 52.499274
+  lon: 13.369771
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Jacobstraße
+  lat: 52.529354
+  lon: 13.468633
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kantstraße
+  lat: 52.505539
+  lon: 13.326286
+  osm_id: null
+  status: auto
+  via: regex

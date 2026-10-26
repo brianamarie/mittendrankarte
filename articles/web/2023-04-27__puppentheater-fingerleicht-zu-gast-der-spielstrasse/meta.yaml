@@ -1,0 +1,45 @@
+title: „PUPPENTHEATER FINGERLEICHT“  zu Gast in der Spielstraße
+slug: 2023-04-27__puppentheater-fingerleicht-zu-gast-der-spielstrasse
+author: null
+date: '2023-04-27'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: [2007]
+description: Nun war es wieder so weit, die westliche Pohlstraße wurde zur ersten Spielstraße in diesem Jahr. (https://www.mittendran.de/wp-content/uploads/2023/04/2023-Foto-eki-1.jpg) Pohlstraße-Spielstraße Hier hatten für einen…
+source_url: https://www.mittendran.de/puppentheater-fingerleicht-zu-gast-der-spielstrasse/
+wp_post_id: 26970
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielstraße
+  lat: 49.137578
+  lon: 8.415617
+  osm_id: null
+  status: auto
+  via: regex
+- name: Pohlstraße-Spielstraße
+  lat: 52.501034
+  lon: 13.36284
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Spielstraße-Pohlstraße
+  lat: 52.501034
+  lon: 13.36284
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Nachbarschaftsstraße
+  lat: 52.548649
+  lon: 13.372525
+  osm_id: null
+  status: auto
+  via: regex

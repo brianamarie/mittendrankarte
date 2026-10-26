@@ -1,0 +1,33 @@
+title: Kiezspaziergang  mit Ephraim Gothe und Dr. Almut Neumann
+slug: 2023-06-06__kiezspaziergang-mit-ephraim-gothe-und-dr-almut-neumann
+author: Redaktion
+date: '2023-06-06'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: 'Am Mittwoch, den 14. Juni 2023, findet ein Kiezspaziergang mit Ephraim Gothe und Dr. Almut Neumann in unserem Kiez (Bezirksregion Tiergarten Süd) statt. Wann: Mittwoch 14. Juni 2023 von 14.30 bis 16.30 Uhr Treffpunkt…'
+source_url: https://www.mittendran.de/kiezspaziergang-mit-ephraim-gothe-und-dr-almut-neumann/
+wp_post_id: 27511
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowstraße 42
+  lat: 52.504654
+  lon: 13.357975
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kluckstraße 23
+  lat: 52.503632
+  lon: 13.361856
+  osm_id: null
+  status: confirmed
+  via: address

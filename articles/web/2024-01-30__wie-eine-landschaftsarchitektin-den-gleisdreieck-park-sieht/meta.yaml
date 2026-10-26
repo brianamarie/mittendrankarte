@@ -1,0 +1,27 @@
+title: Wie eine Landschaftsarchitektin den Gleisdreieck-Park sieht
+slug: 2024-01-30__wie-eine-landschaftsarchitektin-den-gleisdreieck-park-sieht
+author: Redaktion
+date: '2024-01-30'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1945, 2007, 2008]
+description: Ein Blick von außen Laura Jeschke, Landschaftsarchitektin, Madrid/Berlin referiert in Wien über den Park am Gleisdreieck. Wichtiger Aspekt in ihrem Vortrag ist die Frage der Pflege von Parks, die angesichts der…
+source_url: https://www.mittendran.de/wie-eine-landschaftsarchitektin-den-gleisdreieck-park-sieht/
+wp_post_id: 30469
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Möckernstraße
+  lat: 52.494411
+  lon: 13.379628
+  osm_id: null
+  status: confirmed
+  via: regex

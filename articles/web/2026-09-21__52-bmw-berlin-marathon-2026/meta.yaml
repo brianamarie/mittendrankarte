@@ -1,0 +1,45 @@
+title: 52. BMW BERLIN-MARATHON 2026
+slug: 2026-09-21__52-bmw-berlin-marathon-2026
+author: null
+date: '2026-09-21'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Der BMW BERLIN-MARATHON begeistert mit Rekorden, Vielfalt und einer einzigartigen Energie, die sich auf die ganze Stadt überträgt. Er ist einer der größten Marathons der Welt. Auf Berlins schnellem Pflaster wurden so…
+source_url: https://www.mittendran.de/52-bmw-berlin-marathon-2026/
+wp_post_id: 42800
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Yitzhak-Rabin-Straße
+  lat: 52.51679
+  lon: 13.370278
+  osm_id: null
+  status: auto
+  via: regex
+- name: Ebertstraße
+  lat: 52.513959
+  lon: 13.377232
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: John-Foster-Dulles-Allee
+  lat: 52.516889
+  lon: 13.356999
+  osm_id: null
+  status: auto
+  via: regex
+- name: Scheidemannstraße
+  lat: 52.517768
+  lon: 13.373876
+  osm_id: null
+  status: auto
+  via: regex
+- name: Dorotheenstraße
+  lat: 52.519183
+  lon: 13.392997
+  osm_id: null
+  status: auto
+  via: regex

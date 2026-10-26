@@ -1,0 +1,44 @@
+title: 'Spaziergang in die Vergangenheit (30): Leni Riefenstahl im Lützow-Viertel
+  – wirklich?'
+slug: 2025-06-28__spaziergang-die-vergangenheit-30-leni-riefenstahl-im-luetzow-viertel-wirklich
+author: Paul Enck
+date: '2025-06-28'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1833, 1862, 1864, 1865, 1867, 1873, 1874, 1882, 1885, 1886, 1892, 1893, 1899, 1901, 1902, 1904, 1906, 1914, 1918, 1919, 1920, 1922, 1923, 1924, 1925, 1926, 1928, 1931, 1945, 1973, 1974, 1993, 2002, 2009]
+description: Manche Recherchen beginnen mit einem Fragezeichen. Als mich Alexander Darda auf das Foto einer Firma A. Riefenstahl an der Kurfürstenstraße Ecke Landgrafenstraße (Bild 1) aufmerksam machte mit der Frage, ob dies die…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-30-leni-riefenstahl-im-luetzow-viertel-wirklich/
+wp_post_id: 38059
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 111-113
+  lat: 52.501449
+  lon: 13.3701
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Genthiner Straße 26-28
+  lat: 52.503365
+  lon: 13.35909
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Landgrafenstraße
+  lat: 52.505552
+  lon: 13.349542
+  osm_id: null
+  status: confirmed

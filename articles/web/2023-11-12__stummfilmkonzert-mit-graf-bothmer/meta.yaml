@@ -1,0 +1,27 @@
+title: Stummfilmkonzert mit Graf Bothmer
+slug: 2023-11-12__stummfilmkonzert-mit-graf-bothmer
+author: Redaktion
+date: '2023-11-12'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1919]
+description: Auch in diesem Jahr gibt es wieder ein Stummfilmkonzert mit Graf Bothmer in der Kapelle Alter Zwölf-Apostel-Kirchhof. Gezeigt wird der Film „Gebrochene Blüten“ des US Regisseurs D.W. Griffith aus dem Jahre 1919. Wie…
+source_url: https://www.mittendran.de/stummfilmkonzert-mit-graf-bothmer/
+wp_post_id: 29545
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Alter Zwölf-Apostel-Kirchhof
+  lat: 52.4915
+  lon: 13.361
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kolonnenstraße
+  lat: 52.485578
+  lon: 13.362547
+  osm_id: null
+  status: auto
+  via: regex

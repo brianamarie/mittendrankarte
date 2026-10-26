@@ -1,0 +1,27 @@
+title: Übergabe der Petition gegen die sieben Hochhäuser der Urbanen Mitte am 13.12.2023
+slug: 2023-12-04__c3-bcbergabe-der-petition-gegen-die-sieben-hochh-c3-a4user-der-urbanen-mitte-13-
+author: Redaktion
+date: '2023-12-04'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: []
+description: Liebe Freunde des Gleisdreiecks, inzwischen sind es 24.159 (Stand 04.12.2023), die die Petition der Aktionsgmeinschaft Gleisdreieck e.V. gegen den Bau der sieben Hochhäuser im Gleisdreieck unterschrieben haben. Vielen…
+source_url: https://www.mittendran.de/%c3%bcbergabe-der-petition-gegen-die-sieben-hochh%c3%a4user-der-urbanen-mitte-13-12-2023/
+wp_post_id: 29868
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Yorckstraße
+  lat: 52.492758
+  lon: 13.37048
+  osm_id: null
+  status: auto
+  via: regex

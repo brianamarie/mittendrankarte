@@ -1,0 +1,33 @@
+title: Löscharbeiten vor der Berliner Hochschule für Technik
+slug: 2024-09-22__loescharbeiten-vor-der-berliner-hochschule-fuer-technik
+author: eki
+date: '2024-09-22'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Heute Nachmittag wurde ein Brand in einem Container in der Kurfürstenstraße vor dem Haus der Berliner Hochschule für Technik (BHT) gelöscht. Die Polizei sperrte die Kürfürstenstraße ab Ecke Frobenstraße für die Zeit…
+source_url: https://www.mittendran.de/loescharbeiten-vor-der-berliner-hochschule-fuer-technik/
+wp_post_id: 33785
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Frobenstraße
+  lat: 52.4995
+  lon: 13.355
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kürfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+  via: regex

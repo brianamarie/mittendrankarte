@@ -1,0 +1,44 @@
+title: 'Spaziergang in die Vergangenheit (20): Ein Bordell am Magdeburger Platz um
+  1900'
+slug: 2025-01-05__spaziergang-die-vergangenheit-20-ein-bordell-magdeburger-platz-um-1900
+author: Paul Enck
+date: '2025-01-05'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1863, 1865, 1867, 1871, 1886, 1889, 1890, 1892, 1895, 1896, 1897, 1898, 1899, 1900, 1904, 1905, 1906, 1907, 1910, 1919, 1920, 1921, 1922, 1924, 1925, 1926, 1927, 1928, 1929, 1930, 1931, 1932, 1934, 1935, 1936, 1943, 1945, 1948, 1950, 1952, 1987, 1988]
+description: Dass das Lützow-Viertel in der Literatur eine Rolle spielt, wissen wir seit Walter Benjamin (1) und seinen beiden Großmüttern im Blumeshof (mittendran vom 7.12.2024…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-20-ein-bordell-magdeburger-platz-um-1900/
+wp_post_id: 35029
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz 5
+  lat: 52.50305
+  lon: 13.360712
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Lützowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße 109
+  lat: 52.499878
+  lon: 13.363214
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Genthiner Straße 29
+  lat: 52.503285
+  lon: 13.359056
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schöneberger Ufer
+  lat: 52.505514
+  lon: 13.369854
+  osm_id: null
+  status: confirmed

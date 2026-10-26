@@ -1,0 +1,31 @@
+title: Helga ging ihren Weg (1926 – 2024)
+slug: 2024-11-12__helga-ging-ihren-weg-1926-2024
+author: Redaktion
+date: '2024-11-12'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1926, 1943, 1945]
+description: Erinnerungen an eine unvergessliche Sozialdemokratin Ein Gastbeitrag von Heiner Wörmann (https://www.mittendran.de/wp-content/uploads/2024/11/Helga-Cent-Velden.png) Helga Cent-Velden Meine Erinnerungen an Helga…
+source_url: https://www.mittendran.de/helga-ging-ihren-weg-1926-2024/
+wp_post_id: 34463
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed

@@ -1,0 +1,57 @@
+title: 'Spaziergang in die Vergangenheit (16): Das Caféhaus Eduard Prüfer'
+slug: 2024-07-14__spaziergang-die-vergangenheit-16-das-cafehaus-eduard-pruefer
+author: Paul Enck
+date: '2024-07-14'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1800, 1801, 1803, 1804, 1811, 1826, 1831, 1833, 1834, 1835, 1836, 1837, 1841, 1844, 1845, 1848, 1853, 1855, 1856, 1862, 1863, 1865, 1874, 1875, 1876, 1879, 1890, 1891, 1937, 1938, 1987, 2007]
+description: Im letzten Spaziergang (mittendran vom 18. Juni 2024 (https://www.mittendran.de/spaziergang-die-vergangenheit-15-die-stierburg-auf-dem-carlsbade-11/)) hatten wir eine Reihe von Gaststätten entlang des Schafgrabens…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-16-das-cafehaus-eduard-pruefer/
+wp_post_id: 32731
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße 103
+  lat: 52.500403
+  lon: 13.363615
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Als-die-potsdamer-altenstein-straße
+  lat: 52.503656
+  lon: 13.366565
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Mühlenweg
+  lat: 52.596198
+  lon: 13.226086
+  osm_id: null
+  status: auto
+  via: regex
+- name: Papenstraße
+  lat: 53.565277
+  lon: 10.041211
+  osm_id: null
+  status: auto
+  via: regex
+- name: Grunewaldstraße
+  lat: 52.459233
+  lon: 13.314246
+  osm_id: null
+  status: auto
+  via: regex

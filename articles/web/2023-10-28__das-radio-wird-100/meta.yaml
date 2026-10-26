@@ -1,0 +1,21 @@
+title: Das Radio wird 100
+slug: 2023-10-28__das-radio-wird-100
+author: FP
+date: '2023-10-28'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1908, 1923, 1960, 1971]
+description: 'Vor 100 Jahren, am 29. Oktober 1923, kam die Ankündigung des Rundfunkzeitalters aus dem Voxhaus am Potsdamer Platz: „Achtung, Achtung. Hier ist die Sendestelle Berlin im Vox-Haus, auf Welle 400 Meter. Meine Damen und…'
+source_url: https://www.mittendran.de/das-radio-wird-100/
+wp_post_id: 29440
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer

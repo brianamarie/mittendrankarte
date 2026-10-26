@@ -1,0 +1,33 @@
+title: Der Park wird zum Vorgarten
+slug: 2022-11-17__urbane-mitte
+author: JL
+date: '2022-11-17'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: []
+description: Urbane Mitte Urbane Mitte ist ein Bauprojekt, direkt an der Ostseite des Westparks, dieser wiederum ist Teil des Gleisdreieckparks. Der Name „URBANE MITTE“ ist so irreführend, wie das Bauprojekt umstritten. Der…
+source_url: https://www.mittendran.de/urbane-mitte/
+wp_post_id: 24290
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer

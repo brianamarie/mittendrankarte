@@ -1,0 +1,45 @@
+title: Vom 13. – 17. September ist wieder Berlin Art Week
+slug: 2023-09-12__vom-13-17-september-ist-wieder-berlin-art-week
+author: Redaktion
+date: '2023-09-12'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: An der Berlin Art Week beteiligen sich vom 13. – 17. September zahlreiche Galerien und Museen in ganz Berlin. Der Festivaltreffpunkt der Berlin Art Week (BAW) ist diesmal die Terrasse der Neuen Nationalgalerie, die zu…
+source_url: https://www.mittendran.de/vom-13-17-september-ist-wieder-berlin-art-week/
+wp_post_id: 28690
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.5043
+  lon: 13.3535
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße 77
+  lat: 52.502462
+  lon: 13.36543
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Haus am Lützowplatz
+  lat: 52.5045
+  lon: 13.3528
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Neue Nationalgalerie
+  lat: 52.5068
+  lon: 13.3678
+  osm_id: null
+  status: confirmed
+  via: gazetteer

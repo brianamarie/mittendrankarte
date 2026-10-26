@@ -1,0 +1,21 @@
+title: Alexej Navalny ist tot!
+slug: 2024-02-18__alexej-navalny-ist-tot
+author: ase
+date: '2024-02-18'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Gestorben in einem sibirischen Gefängnis. Im August 2020 wurde er auf einem innerrussischen Flug mit dem Nervengift Nowitschok vergiftet, zwei Tage später auf Drängen seiner Frau nach Berlin in die Charité verlegt…
+source_url: https://www.mittendran.de/alexej-navalny-ist-tot/
+wp_post_id: 30665
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer

@@ -1,0 +1,39 @@
+title: 'Spaziergänge in die Vergangenheit (2): Bildersuche und Bilderrätsel'
+slug: 2023-09-28__spaziergaenge-die-vergangenheit-2-bildersuche-und-bilderraetsel
+author: Paul Enck
+date: '2023-09-28'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1849, 1850, 1865, 1868, 1930, 1937, 1945, 1998]
+description: Das im ersten Spaziergang (mittendran vom 11. September 202 (https://www.mittendran.de/spaziergaenge-die-vergangenheit-1-das-chausseehaus/)3) abgedruckte Schwarz-Weiß-Bild des Hauses Ecke Lützowerwegstraße und…
+source_url: https://www.mittendran.de/spaziergaenge-die-vergangenheit-2-bildersuche-und-bilderraetsel/
+wp_post_id: 29009
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße 117
+  lat: 52.498896
+  lon: 13.362768
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Lützowerwegstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Luetzowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+  via: regex

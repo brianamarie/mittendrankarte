@@ -1,0 +1,33 @@
+title: 'Spaziergang in die Vergangenheit (18): Die Künstlerfamilie Begas (Teil 4)'
+slug: 2024-12-23__spaziergang-die-vergangenheit-18-die-kuenstlerfamilie-begas-teil-4
+author: Paul Enck
+date: '2024-12-23'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1786, 1794, 1815, 1822, 1823, 1840, 1841, 1843, 1845, 1848, 1849, 1854, 1855, 1858, 1859, 1862, 1863, 1865, 1869, 1872, 1873, 1877, 1878, 1880, 1882, 1883, 1884, 1886, 1887, 1889, 1890, 1894, 1898, 1900, 1901, 1903, 1904, 1908, 1910, 1912, 1914, 1916, 1921, 1927, 1931, 1933, 1938, 1945, 1956, 1968, 1969, 1990, 2008]
+description: Der jüngste der vier in die künstlerischen Fußstapfen des Vaters tretenden Söhne von Carl Begas (1794-1854) (Bild 1) – zwei weitere hatten entweder kein Talent oder keine Lust und gingen zum Militär – verließ das…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-18-die-kuenstlerfamilie-begas-teil-4/
+wp_post_id: 34955
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Karlsbad
+  lat: 52.5048
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Uhlandstraße
+  lat: 52.502812
+  lon: 13.326697
+  osm_id: null
+  status: auto
+  via: regex
+- name: Puppenallee
+  lat: 51.473363
+  lon: 11.961402
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,27 @@
+title: Eindrücke vom weihnachtlichen Potsdamer Platz
+slug: 2022-12-16__eindruecke-vom-weihnachtlichen-potsdamer-platz
+author: eki
+date: '2022-12-16'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2022/12/2022-Die-Rodelbahn-Foto-eki-1-scaled.jpg) Die Rodelbahn Die „Winterwelt“ auf dem Potsdamer Platz lädt mit ihrer 12 Meter hohen und 70 Meter langen Winterrutsche zum…
+source_url: https://www.mittendran.de/eindruecke-vom-weihnachtlichen-potsdamer-platz/
+wp_post_id: 24674
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße 7
+  lat: 52.508924
+  lon: 13.372618
+  osm_id: null
+  status: confirmed
+  via: address

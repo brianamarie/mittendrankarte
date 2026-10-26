@@ -1,0 +1,21 @@
+title: Von Tiergarten nach Theresienstadt
+slug: 2024-11-09__von-tiergarten-nach-theresienstadt
+author: Marc-Thomas Bock
+date: '2024-11-09'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1864, 1899, 1912, 1929, 1942]
+description: 'Leben und Werk der Malerin Julie Wolfthorn Hier, im südlichen Tiergarten-Kiez, erinnert ein zerkratzter Stolperstein an sie, ein anderer, weiter entfernt, vor einem Haus in Vitte auf der Insel Hiddensee: Die Malerin…'
+source_url: https://www.mittendran.de/von-tiergarten-nach-theresienstadt/
+wp_post_id: 34405
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 50
+  lat: 52.501518
+  lon: 13.357662
+  osm_id: null
+  status: confirmed
+  via: address

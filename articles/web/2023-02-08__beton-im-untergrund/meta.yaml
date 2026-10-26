@@ -1,0 +1,33 @@
+title: Beton im Untergrund
+slug: 2023-02-08__beton-im-untergrund
+author: null
+date: '2023-02-08'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: [1996, 1999]
+description: Wie Eisenbahnplanungen den Westpark des Gleisdreiecks bestimmen (https://gleisdreieck-blog.de/2023/02/08/wie-eisenbahnplanungen-den-westpark-des-gleisdreiecks-bestimmen/) (EIN BEITRAG VON MATHIAS BAUER…
+source_url: https://www.mittendran.de/beton-im-untergrund/
+wp_post_id: 25437
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Eisenbahnbrücke
+  lat: 52.533339
+  lon: 13.202749
+  osm_id: null
+  status: auto
+  via: regex

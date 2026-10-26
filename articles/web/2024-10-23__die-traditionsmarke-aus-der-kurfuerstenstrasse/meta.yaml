@@ -1,0 +1,27 @@
+title: Die Traditionsmarke aus der Kurfürstenstraße
+slug: 2024-10-23__die-traditionsmarke-aus-der-kurfuerstenstrasse
+author: Marc-Thomas Bock
+date: '2024-10-23'
+issue: null
+rubrik: Gewerbe und Gastronomie
+about_years: [1827, 1859, 1900, 1924, 1945, 1982]
+description: „Was für den Anwalt sind die Klagen…“ … ist Bullrich-Salz für Darm und Magen.“ Bis heute zu den erfolgreichsten Apothekenprodukten in Deutschland zählend, hat die Marke Bullrich seit ihrer Einführung 1827 in Berlin…
+source_url: https://www.mittendran.de/die-traditionsmarke-aus-der-kurfuerstenstrasse/
+wp_post_id: 34221
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 19
+  lat: 52.499447
+  lon: 13.365656
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Friedrichstraße
+  lat: 52.518853
+  lon: 13.388377
+  osm_id: null
+  status: auto
+  via: regex

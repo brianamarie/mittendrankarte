@@ -1,0 +1,27 @@
+title: 'Zeitzeugen gesucht: Der Landwehrkanal wird 175 Jahre alt.'
+slug: 2025-03-17__zeitzeugen-gesucht-der-landwehrkanal-wird-175-jahre-alt
+author: Paul Enck
+date: '2025-03-17'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1954]
+description: 2025 jährt sich die Eröffnung des Landwehrkanals zum 175. Male. Ein Leser unseres Blogs/Magazins, Dirk Zeiske, plant eine Veröffentlichung zu diesem Thema und sucht noch Menschen, die gerne Anekdoten oder persönliche…
+source_url: https://www.mittendran.de/zeitzeugen-gesucht-der-landwehrkanal-wird-175-jahre-alt/
+wp_post_id: 35791
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Landwehrkanal
+  lat: 52.5045
+  lon: 13.365
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Ratiborstraße
+  lat: 52.492989
+  lon: 13.439282
+  osm_id: null
+  status: auto
+  via: regex

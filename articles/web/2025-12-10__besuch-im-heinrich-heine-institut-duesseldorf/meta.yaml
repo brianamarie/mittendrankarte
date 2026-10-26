@@ -1,0 +1,21 @@
+title: Besuch im Heinrich-Heine-Institut in Düsseldorf
+slug: 2025-12-10__besuch-im-heinrich-heine-institut-duesseldorf
+author: Paul Enck
+date: '2025-12-10'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1816, 1829, 1835, 1871, 1873, 1879, 1880, 1884, 1911, 1913, 1929, 1970, 2006, 2013]
+description: 'Recherchen wie die zur Familie Popper vom Lützowplatz entwickeln oft eine eigene Dynamik, die manchmal weit weg führen vom Lützow-Viertel: Nach Hildesheim, Hannover und Dessau war diesmal Düsseldorf Ziel der Reise. Das…'
+source_url: https://www.mittendran.de/besuch-im-heinrich-heine-institut-duesseldorf/
+wp_post_id: 40059
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz 2
+  lat: 52.50496
+  lon: 13.353739
+  osm_id: null
+  status: confirmed
+  via: address

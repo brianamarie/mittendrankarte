@@ -1,0 +1,33 @@
+title: Ein weiterer Neubau an der Kurfürstenstraße
+slug: 2024-02-21__ein-weiterer-neubau-der-kurfuerstenstrasse-2
+author: eki
+date: '2024-02-21'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [1922]
+description: Auf dem Grundstück Kurfürstenstraße 134/Ecke Kielganstraße werden zurzeit Vorbereitungen für das Ausheben einer Baugrube vorbereitet. Das Areal war ehemals im Besitz der Republik Litauen, die ab 1922 in der…
+source_url: https://www.mittendran.de/ein-weiterer-neubau-der-kurfuerstenstrasse-2/
+wp_post_id: 30694
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 134
+  lat: 52.501455
+  lon: 13.355573
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kielganstraße
+  lat: 52.501216
+  lon: 13.355174
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Das-Grundstueck-Kurfuerstenstraße
+  lat: 52.403582
+  lon: 13.059319
+  osm_id: null
+  status: auto
+  via: regex

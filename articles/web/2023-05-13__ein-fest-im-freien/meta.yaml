@@ -1,0 +1,21 @@
+title: Ein Fest im Freien
+slug: 2023-05-13__ein-fest-im-freien
+author: eki
+date: '2023-05-13'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: 'Am vergangenen Freitag war es wieder einmal so weit: Das Kiez Zentrum Villa Lützow lud von 16-19 Uhr zu einem Frühlingsfest ein. Frühlingsfest in der Villa Lützow Bei herrlichem Sonnenschein tummelten sich unter…'
+source_url: https://www.mittendran.de/ein-fest-im-freien/
+wp_post_id: 27243
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

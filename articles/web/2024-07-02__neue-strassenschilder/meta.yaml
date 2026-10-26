@@ -1,0 +1,39 @@
+title: Neue Straßenschilder
+slug: 2024-07-02__neue-strassenschilder
+author: eki
+date: '2024-07-02'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: In der Kurfürsten- und Genthiner Straße gibt es neue Straßenschilder, damit alle den Weg finden. (https://www.mittendran.de/wp-content/uploads/2024/07/2024-In-der-Kurfuerstenstrasse-Foto-eki-scaled.jpg) In der…
+source_url: https://www.mittendran.de/neue-strassenschilder/
+wp_post_id: 32638
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: In-der-Kurfuerstenstraße
+  lat: 49.680747
+  lon: 12.16413
+  osm_id: null
+  status: auto
+  via: regex
+- name: In-der-Genthinerstraße
+  lat: 52.517165
+  lon: 13.379498
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,27 @@
+title: manchmal möchte man helfen
+slug: 2023-01-05__manchmal-moechte-man-helfen
+author: ase
+date: '2023-01-05'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: …aber es fehlt ein konkretes Projekt, für das man sich engagieren möchte… (Anregung von Gabriele Hulitschke) Spendenaktion – 100 Schlafsäcke für junge Menschen, die auf der Straße leben Liebe Nachbarinnen und Nachbarn…
+source_url: https://www.mittendran.de/manchmal-moechte-man-helfen/
+wp_post_id: 24910
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Alexanderplatz
+  lat: 52.521981
+  lon: 13.413636
+  osm_id: null
+  status: auto
+  via: regex
+- name: Schumannstraße
+  lat: 52.523272
+  lon: 13.378067
+  osm_id: null
+  status: auto
+  via: regex

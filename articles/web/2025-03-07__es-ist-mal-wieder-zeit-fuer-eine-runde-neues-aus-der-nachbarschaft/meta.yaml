@@ -1,0 +1,42 @@
+title: Es ist mal wieder Zeit für eine Runde Neues aus der Nachbarschaft!
+slug: 2025-03-07__es-ist-mal-wieder-zeit-fuer-eine-runde-neues-aus-der-nachbarschaft
+author: Redaktion
+date: '2025-03-07'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Liebe Menschen in Tiergarten, es ist mal wieder Zeit für eine Runde Neues aus der Nachbarschaft! Was verändert sich in Tiergarten? // Neues aus der Lokalpolitik - Wohnraum ist knapp und umkämpft. Der Bezirk Mitte…
+source_url: https://www.mittendran.de/es-ist-mal-wieder-zeit-fuer-eine-runde-neues-aus-der-nachbarschaft/
+wp_post_id: 35667
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 42
+  lat: 52.504654
+  lon: 13.357975
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße
+  lat: 52.500435
+  lon: 13.366647
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504268
+  lon: 13.362851
+  osm_id: null
+  status: confirmed
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kurfürstenstraße 57</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+    </nav>
+  </header>
+  
+<main class="place-page">
+  <p class="place-back"><a href="../../map.html">← Karte</a></p>
+  <p class="place-kicker">Ort auf der Karte</p>
+  <h1>Kurfürstenstraße 57</h1>
+  <p class="place-stats">2 Beiträge · 2025–2026</p>
+  <p class="lead">Alle Beiträge, die diesen Ort nennen, neueste zuerst.</p>
+  <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50198&amp;mlon=13.35538#map=17/52.50198/13.35538" rel="noopener">Lage auf OpenStreetMap</a></p>
+  
+  <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><button type="button" data-rubrik="Aus dem Kiez" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">1</span></button><button type="button" data-rubrik="Bauen und Wohnen" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#8b6914"></span>Bauen und Wohnen <span class="n">1</span></button><button type="button" id="place-filter-reset" hidden>alle einblenden</button></div>
+  <section class="place-group"><h2 class="place-year">2026 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/spaziergang-die-vergangenheit-39-minna-lehmann-pohlstrasse-97/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Spaziergang in die Vergangenheit (39): Minna Lehmann, Pohlstraße 97</strong><div class="meta">2026-05-07 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Wenn Sie Minna Lehmann nicht kennen, muss Sie das nicht irritieren: Minna Lehmann geborene Stargardt lebte von 1822-1912. Sie war eine Großtante von Walter Benjamin (1892-1940), der für kurze Zeit selbst im…</p></span></a></li></ul></section><section class="place-group"><h2 class="place-year">2025 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Bauen und Wohnen"><a href="https://www.mittendran.de/kommen-die-botschaften-zurueck-ins-luetzow-viertel/" rel="noopener"><span class="place-bar" style="background:#8b6914"></span><span class="place-card-body"><strong>Kommen die Botschaften zurück ins Lützow-Viertel?</strong><div class="meta">2025-10-22 · <span class="place-tag" style="background:color-mix(in srgb, #8b6914 28%, white)">Bauen und Wohnen</span> · Paul Enck</div><p class="place-excerpt">In der ersten Hälfte des 20. Jahrhunderts hatten sich im Lützow-Viertel eine Reihe von Botschaften fremder Länder (Polen, Litauen, Japan) niedergelassen, weil das traditionelle Botschaften-Viertel auf der anderen Seite…</p></span></a></li></ul></section>
+  <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
+  
+<script>
+(function () {
+  var buttons = Array.prototype.slice.call(
+    document.querySelectorAll(".place-rubriks button[data-rubrik]")
+  );
+  if (!buttons.length) return;
+  var items = document.querySelectorAll(".place-page .cards li");
+  var groups = document.querySelectorAll(".place-group");
+  var empty = document.querySelector(".place-empty");
+  var reset = document.getElementById("place-filter-reset");
+  var active = {};
+  buttons.forEach(function (btn) { active[btn.getAttribute("data-rubrik")] = true; });
+  function hiddenCount() {
+    return buttons.filter(function (btn) {
+      return !active[btn.getAttribute("data-rubrik")];
+    }).length;
+  }
+  function apply() {
+    var shown = 0;
+    items.forEach(function (li) {
+      var name = li.getAttribute("data-rubrik") || "";
+      var on = !name || !!active[name];
+      li.hidden = !on;
+      if (on) shown += 1;
+    });
+    groups.forEach(function (group) {
+      var visibleItems = group.querySelectorAll(".cards li:not([hidden])");
+      group.hidden = visibleItems.length === 0;
+      var count = group.querySelector(".place-year .n");
+      if (count) count.textContent = String(visibleItems.length);
+    });
+    if (empty) empty.hidden = shown !== 0;
+    if (reset) reset.hidden = hiddenCount() === 0;
+  }
+  buttons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var name = btn.getAttribute("data-rubrik");
+      active[name] = !active[name];
+      var on = !!active[name];
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+      btn.title = on ? "Ausblenden" : "Einblenden";
+      apply();
+    });
+  });
+  if (reset) {
+    reset.addEventListener("click", function () {
+      buttons.forEach(function (btn) {
+        active[btn.getAttribute("data-rubrik")] = true;
+        btn.setAttribute("aria-pressed", "true");
+        btn.title = "Ausblenden";
+      });
+      apply();
+    });
+  }
+})();
+</script>
+
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+</body>
+</html>

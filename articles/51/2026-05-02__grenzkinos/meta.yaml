@@ -1,0 +1,26 @@
+title: „Grenzkinos“
+slug: 2026-05-02__grenzkinos
+author: null
+date: '2026-05-02'
+issue: '51'
+rubrik: Kiez-Geschichte
+about_years: [1945, 1951, 1954, 1961]
+description: Bruno Foß besaß in den 20er Jahren des letzten Jahrhunderts einen „Filmtheaterbetrieb“ in der Friedrichstraße, das „Aladin“, eingerichtet im orientalischen Stil, wie es damals groß in Mode war. Die Friedrichstraße war…
+source_url: https://www.mittendran.de/grenzkinos/
+wp_post_id: 41710
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße 4
+  lat: 52.509714
+  lon: 13.372583
+  osm_id: null
+  status: confirmed
+  via: address

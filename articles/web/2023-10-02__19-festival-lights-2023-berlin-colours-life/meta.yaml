@@ -1,0 +1,27 @@
+title: 19. FESTIVAL OF LIGHTS 2023 in Berlin! „Colours of Life“
+slug: 2023-10-02__19-festival-lights-2023-berlin-colours-life
+author: Redaktion
+date: '2023-10-02'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Jedes Jahr können die spektakulären Kreationen des Festival of Lights Team, sowie eingeladener Künstler*innen bestaunt werden. Sie setzen Berlin mit Illuminationen, künstlerischen Projektionen und 3D-Mappings unter…
+source_url: https://www.mittendran.de/19-festival-lights-2023-berlin-colours-life/
+wp_post_id: 28905
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Festival-of-Lights-am-Potdamer-Platz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

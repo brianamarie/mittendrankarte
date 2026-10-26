@@ -1,0 +1,27 @@
+title: Geänderte Öffnungszeiten bei den Staatlichen Museen in Berlin
+slug: 2024-03-13__geaenderte-oeffnungszeiten-bei-den-staatlichen-museen-berlin
+author: Redaktion
+date: '2024-03-13'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Ab dem 16. April 2024 wird es neue Öffnungszeiten bei den Staatlichen Museen zu Berlin und dem Musikinstrumenten-Museum geben – Spätöffnungen in den Sommermonaten. „Die Stiftung Preußischer Kulturbesitz wird ab dem 16…
+source_url: https://www.mittendran.de/geaenderte-oeffnungszeiten-bei-den-staatlichen-museen-berlin/
+wp_post_id: 31021
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kulturforum
+  lat: 52.5085
+  lon: 13.3675
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Neue Nationalgalerie
+  lat: 52.5068
+  lon: 13.3678
+  osm_id: null
+  status: confirmed
+  via: gazetteer

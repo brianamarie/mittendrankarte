@@ -1,0 +1,26 @@
+title: Zum Gallery Weekend öffnen die Ateliers in den U-Bahnbögen Pohlstr. 11.
+slug: 2025-04-24__zum-gallery-weekend-oeffnen-die-ateliers-den-u-bahnboegen-pohlstr-11
+author: Redaktion
+date: '2025-04-24'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1997]
+description: 'Jedes Jahr ein Highlight: Parallel zum Gallery Weekend öffnen die Ateliers in den U-Bahnbögen Pohlstr. 11. Dort, wo die U-Bahn vom Gleisdreieck kommend, über die Dennewitzstraße und mitten durch ein Wohnhaus fährt…'
+source_url: https://www.mittendran.de/zum-gallery-weekend-oeffnen-die-ateliers-den-u-bahnboegen-pohlstr-11/
+wp_post_id: 36005
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße 11
+  lat: 52.499652
+  lon: 13.369147
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

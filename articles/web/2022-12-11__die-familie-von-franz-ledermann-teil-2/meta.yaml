@@ -1,0 +1,27 @@
+title: Die Familie von Franz Ledermann (Teil 2)
+slug: 2022-12-11__die-familie-von-franz-ledermann-teil-2
+author: Redaktion
+date: '2022-12-11'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1811, 1847, 1860, 1867, 1868, 1872, 1874, 1875, 1877, 1878, 1879, 1881, 1889, 1895, 1897, 1902, 1910, 1911, 1915, 1920, 1935, 1936, 2010]
+description: Ein Beitrag aus der Serie „Jüdische Geschichte im Lützow-Viertel“ (4.2), von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com). Nachdem wir im ersten Teil der Geschichte der Familie Ledermann aus dem…
+source_url: https://www.mittendran.de/die-familie-von-franz-ledermann-teil-2/
+wp_post_id: 24570
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Radegasse
+  lat: 51.656658
+  lon: 12.093373
+  osm_id: null
+  status: auto
+  via: regex
+- name: Wittingstraße
+  lat: 53.454202
+  lon: 9.978704
+  osm_id: null
+  status: auto
+  via: regex

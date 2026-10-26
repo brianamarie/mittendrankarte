@@ -1,0 +1,57 @@
+title: Mitte richtet neue Busspuren ein
+slug: 2022-08-08__mitte-richtet-neue-busspuren-ein
+author: Redaktion
+date: '2022-08-08'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: 'Die Bezirksstadträtin für Ordnung, Umwelt, Natur, Straßen und Grünflächen, Dr. Almut Neumann, informiert: Um den Busverkehr im Berliner Zentrum zu beschleunigen, hat das Bezirksamt in diesem Jahr neue Busspuren…'
+source_url: https://www.mittendran.de/mitte-richtet-neue-busspuren-ein/
+wp_post_id: 23011
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Reichpietschufer
+  lat: 52.5065
+  lon: 13.372
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Von-der-Heydt-Straße
+  lat: 52.506766
+  lon: 13.353811
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Hildebrandstraße
+  lat: 52.508304
+  lon: 13.359422
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Klingelhöferstraße
+  lat: 52.50757
+  lon: 13.351972
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Lützowufer
+  lat: 52.505525
+  lon: 13.353321
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Tiergartenstraße
+  lat: 52.5108
+  lon: 13.369122
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Stülerstraße
+  lat: 52.509437
+  lon: 13.350612
+  osm_id: null
+  status: confirmed
+  via: regex

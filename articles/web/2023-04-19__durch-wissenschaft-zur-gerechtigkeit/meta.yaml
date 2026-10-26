@@ -1,0 +1,33 @@
+title: „Durch Wissenschaft zur Gerechtigkeit“
+slug: 2023-04-19__durch-wissenschaft-zur-gerechtigkeit
+author: Redaktion
+date: '2023-04-19'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1868, 1897, 1918, 1919, 1921, 1930, 1933, 1935, 1994]
+description: …war das Leitmotiv des preußischen Sanitätsrats und Sexualforschers Dr. Magnus Hirschfeld (14.5.1868 – 14.5.1935). Im Mai 1897 hatte er mit anderen das Wissenschaftlich-Humanitäre Komitee mit dem Ziel der…
+source_url: https://www.mittendran.de/durch-wissenschaft-zur-gerechtigkeit/
+wp_post_id: 26728
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Beethovenstraße
+  lat: 52.436052
+  lon: 13.332812
+  osm_id: null
+  status: auto
+  via: regex
+- name: Opernplatz
+  lat: 52.516487
+  lon: 13.393826
+  osm_id: null
+  status: auto
+  via: regex

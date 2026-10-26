@@ -1,0 +1,39 @@
+title: 'Zu Gast bei Möbel-Hübner: Interview mit Achim Türklitz am 4. April 2024'
+slug: 2024-04-12__zu-gast-bei-moebel-huebner-interview-mit-achim-tuerklitz-4-april-2024
+author: Paul Enck
+date: '2024-04-12'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1871, 1911, 1914, 1935, 1942, 1945, 1946, 1954, 1956, 1993, 2008]
+description: Klar hatte ich mich vorbereitet, und wer weiß schon, wie das Interview gelaufen wäre, hätte ich das nicht, aber eigentlich habe ich meine Fragen kaum loswerden können und habe dennoch mehr erfahren, als ich erwartet…
+source_url: https://www.mittendran.de/zu-gast-bei-moebel-huebner-interview-mit-achim-tuerklitz-4-april-2024/
+wp_post_id: 31303
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gelfertstraße
+  lat: 52.450978
+  lon: 13.280792
+  osm_id: null
+  status: auto
+  via: regex
+- name: Heimweg
+  lat: 53.568218
+  lon: 9.993462
+  osm_id: null
+  status: auto
+  via: regex

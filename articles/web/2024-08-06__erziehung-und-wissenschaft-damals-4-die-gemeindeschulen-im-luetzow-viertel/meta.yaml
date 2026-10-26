@@ -1,0 +1,81 @@
+title: 'Erziehung und Wissenschaft damals (4): Die Gemeindeschulen im Lützow-Viertel'
+slug: 2024-08-06__erziehung-und-wissenschaft-damals-4-die-gemeindeschulen-im-luetzow-viertel
+author: Paul Enck
+date: '2024-08-06'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: [1717, 1763, 1850, 1855, 1856, 1862, 1864, 1867, 1870, 1871, 1872, 1873, 1874, 1875, 1878, 1881, 1884, 1885, 1886, 1887, 1888, 1889, 1891, 1893, 1894, 1895, 1906, 1907, 1908, 1911, 1914, 1920, 1925, 1926, 1930, 1932, 1933, 1977, 1982]
+description: Schulen der Allgemeinbildung, Gemeindeschulen oder Volksschulen genannt, haben wenige gedruckte Spuren in der Geschichte hinterlassen. Manchmal gibt es anekdotische Erinnerungen einzelner Schüler, aber anders als bei…
+source_url: https://www.mittendran.de/erziehung-und-wissenschaft-damals-4-die-gemeindeschulen-im-luetzow-viertel/
+wp_post_id: 33161
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße 10
+  lat: 52.499256
+  lon: 13.367238
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Genthiner Straße 4
+  lat: 52.50538
+  lon: 13.360068
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Steinmetzstraße
+  lat: 52.4975
+  lon: 13.361
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Steglitzer Straße
+  lat: 52.5018
+  lon: 13.3635
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Frobenstraße
+  lat: 52.4995
+  lon: 13.355
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Culmstraße
+  lat: 52.497
+  lon: 13.364
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowerweg
+  lat: 51.223915
+  lon: 12.183729
+  osm_id: null
+  status: auto
+  via: regex
+- name: Winterfeldtstraße
+  lat: 52.497066
+  lon: 13.354045
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Pallasstraße
+  lat: 52.494411
+  lon: 13.359857
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Das-falk-realgymnasium-der-luetzowstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

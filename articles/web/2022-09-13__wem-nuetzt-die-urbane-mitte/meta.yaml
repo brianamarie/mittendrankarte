@@ -1,0 +1,27 @@
+title: "„Wem nützt die Urbane Mitte?”\uFEFF"
+slug: 2022-09-13__wem-nuetzt-die-urbane-mitte
+author: Redaktion
+date: '2022-09-13'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [2005]
+description: (ein Beitrag von Günther Pienig, gleisdreieckblog (https://gleisdreieck-blog.de/)) “Hochhäuser im Gleisdreieck – Wer will denn sowas?” fragt die Aktionsgemeinschaft Gleisdreieck in den “Gesprächen am Bauzaun” die…
+source_url: https://www.mittendran.de/wem-nuetzt-die-urbane-mitte/
+wp_post_id: 23402
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Hafenplatz
+  lat: 52.502921
+  lon: 13.378081
+  osm_id: null
+  status: confirmed
+  via: regex

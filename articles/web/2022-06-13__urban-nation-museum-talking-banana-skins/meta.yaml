@@ -1,0 +1,33 @@
+title: Das Urban Nation Museum zeigt „TALKING… & OTHER BANANA SKINS“
+slug: 2022-06-13__urban-nation-museum-talking-banana-skins
+author: eki
+date: '2022-06-13'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Am Freitag, den 17. Juni 2022 eröffnet das Urban Nation Museum seine neue Dauerausstellung (https://urban-nation.com/de/2022/06/opening-talking-other-banana-skins/) (Laufzeit Juni 2022 – Dezember 2024) „TALKING… &…
+source_url: https://www.mittendran.de/urban-nation-museum-talking-banana-skins/
+wp_post_id: 22417
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Bülowstraße 7
+  lat: 52.498723
+  lon: 13.356585
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Neue Nationalgalerie
+  lat: 52.5068
+  lon: 13.3678
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Zietenstraße
+  lat: 52.42796
+  lon: 13.337732
+  osm_id: null
+  status: auto
+  via: regex

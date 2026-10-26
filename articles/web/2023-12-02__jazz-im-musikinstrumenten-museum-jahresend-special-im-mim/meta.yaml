@@ -1,0 +1,27 @@
+title: Jazz im Musikinstrumenten Museum – Jahresend-Special im MIM
+slug: 2023-12-02__jazz-im-musikinstrumenten-museum-jahresend-special-im-mim
+author: eki
+date: '2023-12-02'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2023/12/2023-Berliner-Musikintrumenten-Museum-Foto-eki-1-scaled.jpg) Berliner Musikintrumenten-Museum (Foto:eki) „Seit über 10 Jahren bietet das Musikinstrumenten Museum…
+source_url: https://www.mittendran.de/jazz-im-musikinstrumenten-museum-jahresend-special-im-mim/
+wp_post_id: 29836
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Tiergartenstraße
+  lat: 52.5108
+  lon: 13.369122
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Ben-Gurion-Straße
+  lat: 52.510464
+  lon: 13.371312
+  osm_id: null
+  status: confirmed
+  via: regex

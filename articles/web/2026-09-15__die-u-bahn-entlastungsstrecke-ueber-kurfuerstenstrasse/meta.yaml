@@ -1,0 +1,50 @@
+title: Die U-Bahn-Entlastungsstrecke über Kurfürstenstraße
+slug: 2026-09-15__die-u-bahn-entlastungsstrecke-ueber-kurfuerstenstrasse
+author: Redaktion
+date: '2026-09-15'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: [1863, 1902, 1905, 1907, 1908, 1910, 1915, 1926, 1931, 1942, 1976, 1977]
+description: Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Aber er interessiert sich auch für die Geschichte des Berliner…
+source_url: https://www.mittendran.de/die-u-bahn-entlastungsstrecke-ueber-kurfuerstenstrasse/
+wp_post_id: 42958
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.502822
+  lon: 13.365443
+  osm_id: null
+  status: confirmed
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Genthiner Straße
+  lat: 52.505465
+  lon: 13.360355
+  osm_id: null
+  status: confirmed
+- name: Bülowstraße
+  lat: 52.497586
+  lon: 13.363221
+  osm_id: null
+  status: confirmed
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

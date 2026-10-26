@@ -1,0 +1,26 @@
+title: Foto Klinke und das Rolandhaus
+slug: 2026-04-02__foto-klinke-und-das-rolandhaus
+author: Redaktion
+date: '2026-04-02'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1901, 1903, 1905, 1928, 1930, 1938, 1941, 1950, 1959, 1981, 1989, 2002, 2012]
+description: Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach Spandau verschlagen…
+source_url: https://www.mittendran.de/foto-klinke-und-das-rolandhaus/
+wp_post_id: 41156
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße 31
+  lat: 52.507873
+  lon: 13.369829
+  osm_id: null
+  status: confirmed
+  via: address

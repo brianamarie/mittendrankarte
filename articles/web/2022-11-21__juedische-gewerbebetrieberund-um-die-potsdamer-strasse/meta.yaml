@@ -1,0 +1,27 @@
+title: Jüdische Gewerbebetrieberund um die Potsdamer Straße
+slug: 2022-11-21__juedische-gewerbebetrieberund-um-die-potsdamer-strasse
+author: Redaktion
+date: '2022-11-21'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1930, 1933, 1945]
+description: In der Villa Lützow fand am 17. November im Rahmen der Initiative Jüdisches Leben und Widerstand in Tiergarten ein Vortrag zu Jüdische Gewerbebetriebe rund um die Potsdamer Straße statt. An den Fenstern jüdischer…
+source_url: https://www.mittendran.de/juedische-gewerbebetrieberund-um-die-potsdamer-strasse/
+wp_post_id: 24388
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

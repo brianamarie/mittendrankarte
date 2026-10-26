@@ -1,0 +1,26 @@
+title: 'Spaziergang in die Vergangenheit (26): Die Kreuzung'
+slug: 2025-04-11__spaziergang-die-vergangenheit-26-die-kreuzung
+author: Paul Enck
+date: '2025-04-11'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [1849, 1862, 1900, 1902, 1926, 1927, 1930, 1954]
+description: Die Kreuzung der Potsdamer Straße mit der Lützowstraße gibt heute vielleicht kein eindrucksvolles Bild mehr ab, aber in der Vergangenheit ist sie sicherlich zu den meisten Zeiten das Herzstück des Kiezes gewesen, und…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-26-die-kreuzung/
+wp_post_id: 35964
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer

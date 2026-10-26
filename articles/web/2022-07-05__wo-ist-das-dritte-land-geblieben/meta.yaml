@@ -1,0 +1,33 @@
+title: Wo ist „DAS DRITTE LAND“ geblieben?
+slug: 2022-07-05__wo-ist-das-dritte-land-geblieben
+author: eki
+date: '2022-07-05'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: '(https://www.mittendran.de/wp-content/uploads/2022/07/2022-Das-Dritte-Land-scaled.jpg) „Das Dritte Land“ „Seit Mai 2019 hatte St. Matthäus einen Garten: Den Künstlergarten „Das dritte Land“ auf dem alten…'
+source_url: https://www.mittendran.de/wo-ist-das-dritte-land-geblieben/
+wp_post_id: 22730
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kulturforum
+  lat: 52.5085
+  lon: 13.3675
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Matthäikirchplatz
+  lat: 52.5082
+  lon: 13.3665
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: St. Matthäus-Kirche
+  lat: 52.508
+  lon: 13.3668
+  osm_id: null
+  status: confirmed
+  via: gazetteer

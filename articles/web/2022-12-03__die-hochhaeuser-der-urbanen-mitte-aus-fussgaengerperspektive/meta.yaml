@@ -1,0 +1,33 @@
+title: Die Hochhäuser der Urbanen Mitte aus Fußgängerperspektive
+slug: 2022-12-03__die-hochhaeuser-der-urbanen-mitte-aus-fussgaengerperspektive
+author: Redaktion
+date: '2022-12-03'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: (EIN BEITRAG VON MATHIAS BAUER, GLEISDREIECKBLOG (https://gleisdreieck-blog.de/)) Uli Klose hat mit diesen Bildern versucht, das ungefähre Volumen der Baumassen anschaulich in unterschiedlichen Perspektiven und…
+source_url: https://www.mittendran.de/die-hochhaeuser-der-urbanen-mitte-aus-fussgaengerperspektive/
+wp_post_id: 24547
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Mitteplatz
+  lat: 51.764898
+  lon: 11.796404
+  osm_id: null
+  status: auto
+  via: regex
+- name: Spielplatz
+  lat: 52.544306
+  lon: 13.364771
+  osm_id: null
+  status: auto
+  via: regex

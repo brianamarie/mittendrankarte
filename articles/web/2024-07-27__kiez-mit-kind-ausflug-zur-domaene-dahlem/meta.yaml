@@ -1,0 +1,33 @@
+title: 'Kiez mit Kind: Ausflug zur Domäne Dahlem'
+slug: 2024-07-27__kiez-mit-kind-ausflug-zur-domaene-dahlem
+author: Hobpenz
+date: '2024-07-27'
+issue: null
+rubrik: Kiez mit Kind
+about_years: []
+description: Im Sommer sind (in den meisten Kindergärten) Schließzeiten, in denen man es vielleicht nicht immer schafft, zu verreisen oder Besuch der Großeltern zu haben. Wenn man nun die zahlreichen Spielplätze besucht hat und…
+source_url: https://www.mittendran.de/kiez-mit-kind-ausflug-zur-domaene-dahlem/
+wp_post_id: 33155
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielplatz
+  lat: 52.603364
+  lon: 13.361955
+  osm_id: null
+  status: auto
+  via: regex
+- name: Rundweg
+  lat: 52.503411
+  lon: 13.543498
+  osm_id: null
+  status: auto
+  via: regex

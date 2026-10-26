@@ -1,0 +1,39 @@
+title: 'Spaziergang in die Vergangenheit (12):  Ein jüdisches Theater in der Lützowstraße'
+slug: 2024-03-19__spaziergang-die-vergangenheit-12-ein-juedisches-theater-der-luetzowstrasse
+author: Paul Enck
+date: '2024-03-19'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1797, 1810, 1824, 1856, 1876, 1887, 1907, 1910, 1923, 1924, 1927, 1928, 1929, 1931, 1936, 1937, 1968, 2000]
+description: Wir waren schon mal in der Lützowstraße 76, anlässlich der Geschichte der jüdischen Betsäle (mittendran vom 22. Juli 2023 (https://www.mittendran.de/juedische-geschichte-tiergarten-sued-betsaele/)), und den…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-12-ein-juedisches-theater-der-luetzowstrasse/
+wp_post_id: 31036
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 76
+  lat: 52.504004
+  lon: 13.358289
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Genthiner Straße 11
+  lat: 52.504747
+  lon: 13.360261
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Vorweg
+  lat: 53.813114
+  lon: 8.929903
+  osm_id: null
+  status: auto
+  via: regex
+- name: Turnplatz
+  lat: 53.887336
+  lon: 11.471142
+  osm_id: null
+  status: auto
+  via: regex

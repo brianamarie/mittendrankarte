@@ -1,0 +1,27 @@
+title: Gedenktafel zur Erinnerung an den Schauspieler Louis Brody
+slug: 2024-07-25__gedenktafel-zur-erinnerung-den-schauspieler-louis-brody
+author: FP
+date: '2024-07-25'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1892, 1912, 1951]
+description: Am Donnerstagvormittag wurde am Wohnhaus Kurfürstenstraße eine Gedenktafel für Louis Brody enthüllt, der dort einige Zeit gewohnt hat. Vorher waren rund 30 Mitglieder der Familie und Gäste in den wunderbar grünen…
+source_url: https://www.mittendran.de/gedenktafel-zur-erinnerung-den-schauspieler-louis-brody/
+wp_post_id: 33091
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 40
+  lat: 52.500592
+  lon: 13.360192
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Gaudystraße
+  lat: 52.546004
+  lon: 13.408036
+  osm_id: null
+  status: auto
+  via: regex

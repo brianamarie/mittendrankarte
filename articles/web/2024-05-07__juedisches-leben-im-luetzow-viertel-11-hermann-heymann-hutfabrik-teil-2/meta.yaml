@@ -1,0 +1,51 @@
+title: 'Jüdisches Leben im Lützow-Viertel (11): Hermann Heymann Hutfabrik (Teil 2)'
+slug: 2024-05-07__juedisches-leben-im-luetzow-viertel-11-hermann-heymann-hutfabrik-teil-2
+author: Paul Enck
+date: '2024-05-07'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1893, 1903, 1924, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1938, 1939, 1944, 1947, 1950, 1952, 1954, 1971, 1996, 1997, 2000, 2014]
+description: Der folgende Text ist eine überarbeitete – einerseits gekürzte, andererseits ergänzte – Fassung eines Textes, den Beth Griffiths erstellt und bei mittendran am 16. Januar 2022…
+source_url: https://www.mittendran.de/juedisches-leben-im-luetzow-viertel-11-hermann-heymann-hutfabrik-teil-2/
+wp_post_id: 31669
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 61
+  lat: 52.504326
+  lon: 13.367251
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kommandantenstraße
+  lat: 52.508514
+  lon: 13.403049
+  osm_id: null
+  status: auto
+  via: regex
+- name: Wittenbergplatz
+  lat: 52.501798
+  lon: 13.343001
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kleiststraße
+  lat: 52.50069
+  lon: 13.347864
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Landweg
+  lat: 52.410451
+  lon: 13.320782
+  osm_id: null
+  status: auto
+  via: regex
+- name: Hauptstraße
+  lat: 52.489303
+  lon: 13.359376
+  osm_id: null
+  status: auto
+  via: regex

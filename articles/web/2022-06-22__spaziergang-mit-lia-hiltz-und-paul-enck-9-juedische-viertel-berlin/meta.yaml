@@ -1,0 +1,69 @@
+title: 'Spaziergang mit Lia Hiltz und Paul Enck (9): Jüdische Viertel in Berlin'
+slug: 2022-06-22__spaziergang-mit-lia-hiltz-und-paul-enck-9-juedische-viertel-berlin
+author: Redaktion
+date: '2022-06-22'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1700, 1714, 1735, 1757, 1800, 1801, 1810, 1859, 1860, 1865, 1875, 1880, 1898, 1933, 1987, 2000]
+description: '(https://www.mittendran.de/wp-content/uploads/2022/06/Bild-9_1-Juedische-Viertel-Berlin.jpg) Bild 1: Copyright Lia Hiltz Zwar wohnten im Bezirk Tiergarten nördlich des Landwehrkanals vor 1933 etliche reiche jüdische…'
+source_url: https://www.mittendran.de/spaziergang-mit-lia-hiltz-und-paul-enck-9-juedische-viertel-berlin/
+wp_post_id: 22559
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 16
+  lat: 52.502541
+  lon: 13.368678
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Jüdenstraße
+  lat: 52.518841
+  lon: 13.408925
+  osm_id: null
+  status: auto
+  via: regex
+- name: Alexanderplatz
+  lat: 52.521981
+  lon: 13.413636
+  osm_id: null
+  status: auto
+  via: regex
+- name: Rosenplatz
+  lat: 52.265665
+  lon: 8.052984
+  osm_id: null
+  status: auto
+  via: regex
+- name: Linienstraße
+  lat: 52.526212
+  lon: 13.388412
+  osm_id: null
+  status: auto
+  via: regex
+- name: Torstraße
+  lat: 52.528519
+  lon: 13.411365
+  osm_id: null
+  status: auto
+  via: regex
+- name: Pallisadenstraße
+  lat: 52.520788
+  lon: 13.430435
+  osm_id: null
+  status: auto
+  via: regex

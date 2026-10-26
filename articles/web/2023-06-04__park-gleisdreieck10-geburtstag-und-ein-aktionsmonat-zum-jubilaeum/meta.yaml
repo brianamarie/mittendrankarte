@@ -1,0 +1,27 @@
+title: Park am Gleisdreieck10. Geburtstag und ein Aktionsmonat zum Jubiläum
+slug: 2023-06-04__park-gleisdreieck10-geburtstag-und-ein-aktionsmonat-zum-jubilaeum
+author: Redaktion
+date: '2023-06-04'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [2011]
+description: Der Park am Gleisdreieck entstand auf dem Gelände der ehemaligen Anhalter und Potsdamer Güterbahnhöfe, die nach dem Zweiten Weltkrieg stillgelegt wurden. Seit 2011 können Besucher*innen hier die Natur genießen, Sport…
+source_url: https://www.mittendran.de/park-gleisdreieck10-geburtstag-und-ein-aktionsmonat-zum-jubilaeum/
+wp_post_id: 27454
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer

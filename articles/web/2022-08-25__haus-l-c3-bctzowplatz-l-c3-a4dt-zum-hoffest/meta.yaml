@@ -1,0 +1,27 @@
+title: Haus am Lützowplatz lädt zum Hoffest
+slug: 2022-08-25__haus-l-c3-bctzowplatz-l-c3-a4dt-zum-hoffest
+author: APZ
+date: '2022-08-25'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: (https://hal-berlin.us18.list-manage.com/track/click?u=93ad27c3e64b54fd99f51923e&id=8cc4e7b1a5&e=9cd45e09e0)Parallel zur Langen Nacht der Museen…
+source_url: https://www.mittendran.de/haus-l%c3%bctzowplatz-l%c3%a4dt-zum-hoffest/
+wp_post_id: 23147
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.5043
+  lon: 13.3535
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Haus am Lützowplatz
+  lat: 52.5045
+  lon: 13.3528
+  osm_id: null
+  status: confirmed
+  via: gazetteer

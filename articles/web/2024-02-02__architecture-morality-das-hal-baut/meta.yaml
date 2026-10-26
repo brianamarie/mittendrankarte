@@ -1,0 +1,27 @@
+title: Architecture & Morality – Das „HaL“ baut
+slug: 2024-02-02__architecture-morality-das-hal-baut
+author: null
+date: '2024-02-02'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1873, 1940, 1987]
+description: Wir laden Sie und Ihre Freunde herzlich zur Eröffnung der Ausstellung Architec (https://hal-berlin.us18.list-manage.com/track/click?u=93ad27c3e64b54fd99f51923e&id=997341683f&e=9cd45e09e0)ture & Morality. Das HaL baut…
+source_url: https://www.mittendran.de/architecture-morality-das-hal-baut/
+wp_post_id: 30473
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz 9
+  lat: 52.504355
+  lon: 13.353555
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Haus am Lützowplatz
+  lat: 52.5045
+  lon: 13.3528
+  osm_id: null
+  status: confirmed
+  via: gazetteer

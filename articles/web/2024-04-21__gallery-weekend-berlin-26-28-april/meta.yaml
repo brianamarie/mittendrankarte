@@ -1,0 +1,45 @@
+title: Gallery Weekend Berlin 26.-28. April
+slug: 2024-04-21__gallery-weekend-berlin-26-28-april
+author: eki
+date: '2024-04-21'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1973]
+description: Das Gallery Weekend Berlin ist eine der führenden Veranstaltungen für zeitgenössische Kunst in Deutschland und lädt zu einem Rundgang durch die Berliner Kreativszene ein. Mit rund 50 teilnehmenden Galerien und rund 80…
+source_url: https://www.mittendran.de/gallery-weekend-berlin-26-28-april/
+wp_post_id: 31479
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße 64
+  lat: 52.501422
+  lon: 13.36208
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße 124
+  lat: 52.499645
+  lon: 13.362502
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße 145
+  lat: 52.50009
+  lon: 13.360698
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schöneberger Ufer 61
+  lat: 52.505616
+  lon: 13.36579
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Frobenstraße
+  lat: 52.4995
+  lon: 13.355
+  osm_id: null
+  status: confirmed
+  via: gazetteer

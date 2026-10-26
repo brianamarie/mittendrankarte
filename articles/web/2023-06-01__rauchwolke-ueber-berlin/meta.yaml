@@ -1,0 +1,27 @@
+title: Rauchwolke über Berlin
+slug: 2023-06-01__rauchwolke-ueber-berlin
+author: Redaktion
+date: '2023-06-01'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Rauchwolke über der Kurmärkischen Straße (Foto:eki) Die Rauchwolke vom Großbrand einer Lagerhalle in Neukölln war gestern am frühen Abend bis zu uns zu sehen. Ursache war laut „rbb“ ein Großbrand auf dem Gelände des…
+source_url: https://www.mittendran.de/rauchwolke-ueber-berlin/
+wp_post_id: 27422
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Rauchwolke-ueber-der-Kurmaerkischen-Straße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Lahnstraße
+  lat: 52.467706
+  lon: 13.442082
+  osm_id: null
+  status: auto
+  via: regex

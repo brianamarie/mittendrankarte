@@ -1,0 +1,27 @@
+title: Grenzwerte für Stickstoffdioxid auf der Potsdamer Straße deutlich unterschritten
+slug: 2024-02-14__grenzwerte-fuer-stickstoffdioxid-auf-der-potsdamer-strasse-deutlich-unterschritt
+author: Redaktion
+date: '2024-02-14'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2024/02/2024-Potsdamer-Platz-mit-Sony-Center-Foto-eki-scaled.jpg) Potsdamer Platz mit Sony Center (Foto:eki) „Auf vielen Hauptstraßen in Berlin könnte in Zukunft wieder…
+source_url: https://www.mittendran.de/grenzwerte-fuer-stickstoffdioxid-auf-der-potsdamer-strasse-deutlich-unterschritten/
+wp_post_id: 30630
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer

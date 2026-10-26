@@ -1,0 +1,45 @@
+title: Neues aus dem Kiez rund um die Potsdamer Straße
+slug: 2024-06-24__neues-aus-dem-kiez-rund-um-die-potsdamer-strasse
+author: null
+date: '2024-06-24'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1942]
+description: Gastbeitrag von Max Söding Was verändert sich in Tiergarten? - 4,3 Millionen Euro…
+source_url: https://www.mittendran.de/neues-aus-dem-kiez-rund-um-die-potsdamer-strasse/
+wp_post_id: 32530
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße 64
+  lat: 52.501422
+  lon: 13.36208
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gipsstraße
+  lat: 52.527282
+  lon: 13.399282
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,33 @@
+title: Die ersten Schneeflocken machen Lust auf Weihnachtsmärkte
+slug: 2023-11-26__die-ersten-schneeflocken-machen-lust-auf-weihnachtsmaerkte
+author: eki
+date: '2023-11-26'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2023/11/2023-Winterwelt-Rodelbahn-Foto-eki-scaled.jpg) Winterwelt Rodelbahn Am Potsdamer Platz ist es schon so weit. Die Winterwelt lockt seit einigen Wochen große und…
+source_url: https://www.mittendran.de/die-ersten-schneeflocken-machen-lust-auf-weihnachtsmaerkte/
+wp_post_id: 29731
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Winterfeldplatz
+  lat: 52.496529
+  lon: 13.354365
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Nollendorfplatz
+  lat: 52.499597
+  lon: 13.35373
+  osm_id: null
+  status: confirmed
+  via: regex

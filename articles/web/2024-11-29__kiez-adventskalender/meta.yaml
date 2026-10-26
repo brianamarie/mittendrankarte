@@ -1,0 +1,27 @@
+title: Kiez-Adventskalender
+slug: 2024-11-29__kiez-adventskalender
+author: Redaktion
+date: '2024-11-29'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Antje Wenzel aus der Stadtbibliothek Tiergarten-Süd und die Stadtteilkoordination haben einen Adventskalender mit 24 kostenlosen Events aus dem Kiez gebastelt. Wer ihn noch nicht hat, kann sich den Kiez-Adventskalender…
+source_url: https://www.mittendran.de/kiez-adventskalender/
+wp_post_id: 34767
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Bibliothek Tiergarten-Süd
+  lat: 52.5018
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Stadtbibliothek Tiergarten-Süd
+  lat: 52.5018
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer

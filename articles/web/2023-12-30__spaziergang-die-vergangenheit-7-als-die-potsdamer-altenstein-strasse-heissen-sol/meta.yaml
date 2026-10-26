@@ -1,0 +1,28 @@
+title: 'Spaziergang in die Vergangenheit (7): Als die Potsdamer Altenstein Straße
+  heißen sollte'
+slug: 2023-12-30__spaziergang-die-vergangenheit-7-als-die-potsdamer-altenstein-strasse-heissen-sol
+author: Paul Enck
+date: '2023-12-30'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1770, 1792, 1800, 1839, 1840, 1841, 1847, 1874]
+description: 'Die folgende Episode spielte in der Zeit um 1840: Im Januar 1841 schrieben die wenigen Anlieger des Areals zwischen Landwehrkanal und botanischem Garten (heute: Kleist-Park) eine Petition an den Polizeipräsidenten…'
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-7-als-die-potsdamer-altenstein-strasse-heissen-sollte/
+wp_post_id: 30111
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Dorfstraße
+  lat: 52.574317
+  lon: 13.482986
+  osm_id: null
+  status: auto
+  via: regex

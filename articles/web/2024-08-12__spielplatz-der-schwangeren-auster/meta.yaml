@@ -1,0 +1,27 @@
+title: 'Kiez mit Kind: Spielplatz an der Schwangeren Auster'
+slug: 2024-08-12__spielplatz-der-schwangeren-auster
+author: Hobpenz
+date: '2024-08-12'
+issue: null
+rubrik: Kiez mit Kind
+about_years: []
+description: Gegenüber der Schwangeren Auster (ein weit verbreiteter Name für die Kongresshalle), jenseits der John-Foster-Dulles-Allee, hinter dem Triton-Brunnen ist versteckt im Tiergarten ein Spielplatz, der etwas abseits von…
+source_url: https://www.mittendran.de/spielplatz-der-schwangeren-auster/
+wp_post_id: 33054
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Spielplatz
+  lat: 52.464375
+  lon: 13.504941
+  osm_id: null
+  status: auto
+  via: regex
+- name: John-Foster-Dulles-Allee
+  lat: 52.517525
+  lon: 13.364998
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,33 @@
+title: Öffentlicher Gedenk-Spaziergang über die Kurfürstenstraße am 5. Mai
+slug: 2024-04-28__oeffentlicher-gedenk-spaziergang-ueber-die-kurfuerstenstrasse-5-mai
+author: eki
+date: '2024-04-28'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Der Gedenk-Spaziergang am 5. Mai 2024 ist eine öffentliche Veranstaltung der SPD Tiergarten Süd. Es werden sechs Erinnerungsorte besucht. Start ist um 11:00 Uhr in der Kurfürstenstraße 116 (vor der “Kleinen…
+source_url: https://www.mittendran.de/oeffentlicher-gedenk-spaziergang-ueber-die-kurfuerstenstrasse-5-mai/
+wp_post_id: 31471
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße 116
+  lat: 52.503376
+  lon: 13.347639
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Dennewitzstraße 35
+  lat: 52.499378
+  lon: 13.370285
+  osm_id: null
+  status: confirmed
+  via: address

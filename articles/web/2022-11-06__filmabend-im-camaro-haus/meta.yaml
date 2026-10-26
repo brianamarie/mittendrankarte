@@ -1,0 +1,27 @@
+title: Filmabend im Camaro Haus
+slug: 2022-11-06__filmabend-im-camaro-haus
+author: APZ
+date: '2022-11-06'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: APERITIVO IM CAMARO HAUS Wir laden Sie und Ihre Freunde herzlich ein! Donnerstag, den 10. November 2022 18:30 Uhr (Einlass 18 Uhr) „…Künstler, würd’ ich sagen.“ ein Film über Werner Berges Interviews mit Werner Berges…
+source_url: https://www.mittendran.de/filmabend-im-camaro-haus/
+wp_post_id: 24181
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer

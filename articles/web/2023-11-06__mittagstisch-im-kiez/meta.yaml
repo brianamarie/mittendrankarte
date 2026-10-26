@@ -1,0 +1,27 @@
+title: Mittagstisch im Kiez!
+slug: 2023-11-06__mittagstisch-im-kiez
+author: Redaktion
+date: '2023-11-06'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: Am Dienstag, 7. November ist wieder Mittagstisch im Kiez! Ab 12.30 Uhr lädt das Familienzentrum Villa Lützow, Lützowstraße 28, 10785 Berlin, wieder ein zu einem leckeren, selbst gekochten Mittagessen aus regionalen…
+source_url: https://www.mittendran.de/mittagstisch-im-kiez/
+wp_post_id: 29501
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

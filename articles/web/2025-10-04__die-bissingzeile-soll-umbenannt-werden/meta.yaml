@@ -1,0 +1,26 @@
+title: Die Bissingzeile soll umbenannt werden
+slug: 2025-10-04__die-bissingzeile-soll-umbenannt-werden
+author: Paul Enck
+date: '2025-10-04'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1844, 1853, 1883, 1900, 1909, 1914, 1917, 1930, 1936, 1957, 1969]
+description: 'Wir hatten es schon früher reklamiert, anlässlich der Benennung des BISSINGPALAIS in der Bissingzeile 5 (mittendran vom 23. September 2021 (https://www.mittendran.de/kommentar-zum-thema-bissingzeile/)): Weder dem Haus…'
+source_url: https://www.mittendran.de/die-bissingzeile-soll-umbenannt-werden/
+wp_post_id: 39150
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer

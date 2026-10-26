@@ -1,0 +1,75 @@
+title: Kiezspaziergang mit den beiden Stadträten Dr. Almut Neumann und Ephraim Gothe
+slug: 2023-06-15__kiezspaziergang-mit-den-beiden-stadtraeten-dr-almut-neumann-und-ephraim-gothe
+author: FP
+date: '2023-06-15'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1972]
+description: Kiezspaziergänge mit dem Bezirksstadtrat Ephraim Gothe, SPD, zuständig für Stadtentwicklung und Facility Management, haben in Tiergarten Süd Tradition. Bürger haben Gelegenheit, Fragen und Probleme an den Stadtrat…
+source_url: https://www.mittendran.de/kiezspaziergang-mit-den-beiden-stadtraeten-dr-almut-neumann-und-ephraim-gothe/
+wp_post_id: 27595
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowstraße 27
+  lat: 52.50376
+  lon: 13.363429
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße 23
+  lat: 52.500141
+  lon: 13.367983
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schwules Museum
+  lat: 52.5048
+  lon: 13.3588
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielplatz-auf-dem-Magdeburger-Platz
+  lat: 52.508068
+  lon: 13.310457
+  osm_id: null
+  status: auto
+  via: regex
+- name: Spielplatz
+  lat: 52.544306
+  lon: 13.364771
+  osm_id: null
+  status: auto
+  via: regex
+- name: Joerg-Borchard-Fahrradstraße-oder-Kiezblick-fuer-die-Luetzowstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Fahrradstraße
+  lat: 49.45714
+  lon: 11.040333
+  osm_id: null
+  status: auto
+  via: regex
+- name: Modell-eines-behindertengerechten-Zugangs-Rampe-vor-dem-Haus-Pohlstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Ein-leckeres-Buffett-erwartet-alle-Teilnehmenden-im-Nachbarschaftstreff-in-der-Luetzowstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,27 @@
+title: Picknick mit der Polizei – чаепитие с полиции
+slug: 2024-06-21__picknick-mit-der-polizei
+author: Redaktion
+date: '2024-06-21'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Gastbeitrag von Gabriele Hulitschke Im Rahmen der Berliner Seniorenwoche lädt die Präventionsbeauftragte Frau Wagner (Polizei Berlin, Abschnitt 28) gemeinsam mit dem Projekt Quartiersentwicklung Tiergarten Süd des…
+source_url: https://www.mittendran.de/picknick-mit-der-polizei/
+wp_post_id: 32495
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße
+  lat: 52.502
+  lon: 13.362
+  osm_id: null
+  status: confirmed
+  via: gazetteer

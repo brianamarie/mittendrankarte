@@ -1,0 +1,28 @@
+title: 'Spaziergang in die Vergangenheit (45): ENIGMA in der Steglitzer Straße (Teil
+  2)'
+slug: 2026-10-17__spaziergang-in-die-vergangenheit-45-enigma-in-der-steglitzer-strasse-teil-2
+author: Paul Enck
+date: '2026-10-17'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1874, 1878, 1894, 1912, 1914, 1917, 1920, 1921, 1923, 1924, 1925, 1929, 1931, 1935, 1940, 1942, 1945, 1954, 1962, 1986, 2011]
+description: Im ersten Teil der Geschichte der ENIGMA (mittendran vom 3. Oktober 2026), der Chiffriermaschine der deutschen Wehrmacht, deren Entschlüsselung durch den englischen Geheimdienst den Verlauf des Zweiten Weltkriegs…
+source_url: https://www.mittendran.de/spaziergang-in-die-vergangenheit-45-enigma-in-der-steglitzer-strasse-teil-2/
+wp_post_id: 43090
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Steglitzer Straße
+  lat: 52.5018
+  lon: 13.3635
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Königstraße
+  lat: 52.518921
+  lon: 13.408304
+  osm_id: null
+  status: auto
+  via: regex

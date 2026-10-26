@@ -1,0 +1,57 @@
+title: 'Spaziergänge in die Vergangenheit (1): Das Chausseehaus'
+slug: 2023-09-11__spaziergaenge-die-vergangenheit-1-das-chausseehaus
+author: Redaktion
+date: '2023-09-11'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1788, 1795, 1841, 1848, 1850, 1851, 1862, 1874, 1993, 1998]
+description: Prof. Dr. Paul Enck (www.paul-enck.com (http://www.paul-enck.com)) Mit diesem „Spaziergang in die Vergangenheit“ beginnt eine neue Serie von Geschichten aus dem Lützowviertel, die sich vor allem um Häuser und Gebäude…
+source_url: https://www.mittendran.de/spaziergaenge-die-vergangenheit-1-das-chausseehaus/
+wp_post_id: 28750
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowerweg
+  lat: 51.223915
+  lon: 12.183729
+  osm_id: null
+  status: auto
+  via: regex
+- name: Die-straßen-im-kiez-potsdamer-straße
+  lat: 52.503656
+  lon: 13.366565
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Wegstraße
+  lat: 52.582981
+  lon: 13.528719
+  osm_id: null
+  status: auto
+  via: regex
+- name: Elisabeth-krankenhaus-der-luetzowstraße
+  lat: 52.527922
+  lon: 13.508992
+  osm_id: null
+  status: auto
+  via: regex
+- name: Grunewaldstraße
+  lat: 52.459444
+  lon: 13.30757
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,27 @@
+title: Stadtteil-Forum tagt zur Allegro-Schule
+slug: 2023-01-28__stadtteil-forum-tagt-zur-allegro-schule
+author: Redaktion
+date: '2023-01-28'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: []
+description: 'Das Stadtteil-Forum lädt wieder ein: am Dienstag, den 07.Februar 2023 von 18:00 bis 20:00 Uhr in der Villa Lützow, Haupthaus, Saal im Erdgeschoss, Lützowstraße 28 Besonders für Eltern mit Kindern an der…'
+source_url: https://www.mittendran.de/stadtteil-forum-tagt-zur-allegro-schule/
+wp_post_id: 25298
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz 3
+  lat: 52.503132
+  lon: 13.36027
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Tzowstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

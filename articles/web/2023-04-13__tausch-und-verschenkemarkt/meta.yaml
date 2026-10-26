@@ -1,0 +1,27 @@
+title: Tausch- und Verschenkemarkt
+slug: 2023-04-13__tausch-und-verschenkemarkt
+author: Redaktion
+date: '2023-04-13'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Liebe Nachbarinnen und Nachbarn, im Rahmen des Netzwerkes der Wärme findet von April bis Dezember 2023 jeden Monat ein Tausch- und Verschenkemarkt im Projektraum / Nachbarschaftstreff statt. In jedem Monat gibt es…
+source_url: https://www.mittendran.de/tausch-und-verschenkemarkt/
+wp_post_id: 26636
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 27
+  lat: 52.50376
+  lon: 13.363429
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

@@ -1,0 +1,27 @@
+title: 5 neue Stolpersteine und Gedenken für die Familie Ledermann-Citroën
+slug: 2022-09-09__gedenkveranstaltung-fuer-eine-familie-aus-unserem-kiez
+author: APZ
+date: '2022-09-09'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: [1933, 1934, 1940, 1943, 1944, 1945]
+description: „Diese Stolpersteine fühlen sich für mich eher wie Trittsteine an, ein neuer Halt auf einer persönlichen Reise zu Verständnis, Vergebung, Abschluss und Ganzheit.“ Mit diesen Worten beschloss Sarah S. Richardson ihre…
+source_url: https://www.mittendran.de/gedenkveranstaltung-fuer-eine-familie-aus-unserem-kiez/
+wp_post_id: 23110
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Genthiner Straße 14
+  lat: 52.504662
+  lon: 13.359674
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

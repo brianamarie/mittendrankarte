@@ -1,0 +1,33 @@
+title: Integriertes Städtebauliches Entwicklungskonzept (ISEK) Potsdamer Straße und
+  Umgebung
+slug: 2024-10-31__integriertes-staedtebauliches-entwicklungskonzept-isek-potsdamer-strasse-und-umg
+author: FP
+date: '2024-10-31'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: []
+description: 'Auftaktveranstaltung: Integriertes Städtebauliches Entwicklungskonzept (ISEK) Potsdamer Straße und Umgebung Die Bezirksstadträtin Eva Majewski (Tempelhof-Schöneberg) und der Bezirksstadtrat Ephraim Gothe (Mitte) laden…'
+source_url: https://www.mittendran.de/integriertes-staedtebauliches-entwicklungskonzept-isek-potsdamer-strasse-und-umgebung/
+wp_post_id: 34311
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504268
+  lon: 13.362851
+  osm_id: null
+  status: confirmed

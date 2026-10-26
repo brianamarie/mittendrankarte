@@ -1,0 +1,27 @@
+title: Brutto = Netto
+slug: 2023-10-28__brutto-netto
+author: Redaktion
+date: '2023-10-28'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [2005]
+description: Brutto = Netto Wie das Bauvolumen der Urbanen Mitte Gleisdreieck über das im städtebaulichen Rahmenvertrag von 2005 vorgesehene Maß hinaus gesteigert wurde…
+source_url: https://www.mittendran.de/brutto-netto/
+wp_post_id: 29412
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Rettungsplatz
+  lat: 51.096303
+  lon: 7.853378
+  osm_id: null
+  status: auto
+  via: regex

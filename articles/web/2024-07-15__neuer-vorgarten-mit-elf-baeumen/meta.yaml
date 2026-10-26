@@ -1,0 +1,27 @@
+title: Neuer Vorgarten mit elf Bäumen
+slug: 2024-07-15__neuer-vorgarten-mit-elf-baeumen
+author: eki
+date: '2024-07-15'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Die Arbeiten am Vorgarten der „Creditreform Berlin Brandenburg Wolfram GmbH & Co. KG“ (Creditreform C) in der Karl-Heinrich-Ulrichs Straße 1 und um die Ecke in der Maienstraße sind abgeschlossen. Elf neue Bäume wurden…
+source_url: https://www.mittendran.de/neuer-vorgarten-mit-elf-baeumen/
+wp_post_id: 32820
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Maienstraße
+  lat: 52.50085
+  lon: 13.352323
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Nollendorfplatz
+  lat: 52.499597
+  lon: 13.35373
+  osm_id: null
+  status: confirmed
+  via: regex

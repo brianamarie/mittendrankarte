@@ -1,0 +1,39 @@
+title: Stadtteil-Forum diskutiert über Ausgestaltung der Fahrradstraßen
+slug: 2024-03-05__stadtteil-forum-diskutiert-ueber-ausgestaltung-der-fahrradstrassen
+author: Redaktion
+date: '2024-03-05'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Veranstaltung zur Ausgestaltung der Fahrradstraßen Kluck-Genthiner-Lützowstraße Das Straßen- und Grünflächenamt stellt heute Abend um 18 Uhr im Saal der Villa Lützow seine Planung für die Fahrradstraßen vor, die 2024…
+source_url: https://www.mittendran.de/stadtteil-forum-diskutiert-ueber-ausgestaltung-der-fahrradstrassen/
+wp_post_id: 30942
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluck-Genthiner-Lützowstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Radweg
+  lat: 52.462153
+  lon: 13.171237
+  osm_id: null
+  status: auto
+  via: regex

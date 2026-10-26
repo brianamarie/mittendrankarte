@@ -1,0 +1,27 @@
+title: Sofram  das türkische „Tischlein deck dich“  in der Potse
+slug: 2023-04-17__sofram-das-tuerkische-tischlein-deck-dich-in-der-potse
+author: Redaktion
+date: '2023-04-17'
+issue: null
+rubrik: Gewerbe und Gastronomie
+about_years: [1989, 2004]
+description: (ein Beitrag von Peter Fabian, artikel-editionen (http://www.artikel-editionen.com/)) Die Wiege von Sofram-Patron Muzaffer Yavuz steht in Ankara, wo König Midas (s)einen Anker gefunden hat und deshalb die Stadt Ankara…
+source_url: https://www.mittendran.de/sofram-das-tuerkische-tischlein-deck-dich-in-der-potse/
+wp_post_id: 26662
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 137
+  lat: 52.496926
+  lon: 13.36192
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Ein-kunstsinniges-panoptikum-der-potsdamer-straße
+  lat: 52.40463
+  lon: 12.989879
+  osm_id: null
+  status: auto
+  via: regex

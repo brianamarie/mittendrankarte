@@ -1,0 +1,33 @@
+title: 'Jüdische Geschichte in Tiergarten-Süd: Der Blick über den (Tier-)Gartenzaun'
+slug: 2023-11-01__juedische-geschichte-im-tiergarten-sued-der-blick-ueber-den-tier-gartenzaun
+author: Paul Enck
+date: '2023-11-01'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1873, 1882, 1889, 1903, 1905, 1922, 1926, 1928, 1929, 1930, 1931, 1932, 1933, 1936, 1938, 1940, 1942, 1944, 1945, 1950, 1958, 1983, 2013]
+description: Nachdem wir die Synagogen, Betsäle und jüdische Institutionen wie das Altersheim im Lützow-Viertel gesucht und gefunden haben, soll zum Abschluss der Serie der Blick noch in die Nachbarschaft gehen, nach…
+source_url: https://www.mittendran.de/juedische-geschichte-im-tiergarten-sued-der-blick-ueber-den-tier-gartenzaun/
+wp_post_id: 29356
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Blumeshof
+  lat: 52.504
+  lon: 13.3555
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Agricolastraße
+  lat: 52.520282
+  lon: 13.333351
+  osm_id: null
+  status: auto
+  via: regex
+- name: Klopstockstraße
+  lat: 52.442616
+  lon: 13.229973
+  osm_id: null
+  status: auto
+  via: regex

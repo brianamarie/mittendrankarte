@@ -1,0 +1,61 @@
+title: Stadtführungen in unserm Kiez
+slug: 2026-07-28__stadtfuehrungen-in-unserm-kiez
+author: Redaktion
+date: '2026-07-28'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: []
+description: Ralf Hausding, Gastautor von mittendran und mittendran.de, ist nah am Potsdamer Platz aufgewachsen. Er bietet Stadtführungen in ganz Berlin und manchmal auch in Tiergarten an. Es sollten nicht weniger als drei und…
+source_url: https://www.mittendran.de/stadtfuehrungen-in-unserm-kiez/
+wp_post_id: 42466
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+- name: Lützowplatz
+  lat: 52.504761
+  lon: 13.352547
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Lützowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Genthiner Straße
+  lat: 52.501383
+  lon: 13.358361
+  osm_id: null
+  status: confirmed
+- name: Schöneberger Ufer
+  lat: 52.505514
+  lon: 13.369854
+  osm_id: null
+  status: confirmed
+- name: Bülowstraße
+  lat: 52.497579
+  lon: 13.363173
+  osm_id: null
+  status: confirmed

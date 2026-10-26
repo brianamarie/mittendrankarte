@@ -1,0 +1,27 @@
+title: Alice Schwarzer, der Film „Alice“
+slug: 2022-09-12__alice-schwarzer-der-film-alice
+author: eki
+date: '2022-09-12'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2022/09/2022-Das-Gemeindehaus-der-Zwoelf-Apostelkirche-einer-der-Drehorte-fuer-den-Film-Alice-Foto-eki-scaled.jpg) Das Gemeindehaus der Zwölf-Apostelkirche – einer der…
+source_url: https://www.mittendran.de/alice-schwarzer-der-film-alice/
+wp_post_id: 23367
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurmärkische Straße
+  lat: 52.5012
+  lon: 13.3555
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Karl-Heinrich-Ulrichs-Straße
+  lat: 52.5
+  lon: 13.349
+  osm_id: null
+  status: confirmed
+  via: gazetteer

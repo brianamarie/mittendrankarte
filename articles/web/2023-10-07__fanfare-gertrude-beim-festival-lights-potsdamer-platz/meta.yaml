@@ -1,0 +1,45 @@
+title: „Fanfare Gertrude“ beim Festival of Lights am Potsdamer Platz
+slug: 2023-10-07__fanfare-gertrude-beim-festival-lights-potsdamer-platz
+author: eki
+date: '2023-10-07'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Endlich war es so weit. 20:00 Uhr. Die Musiker*innen der funky Pop-Rock Brassband „Fanfare Gertrude“ legten los. Die Nacht war noch recht mild und die „Gertrude“ heizte allen mächtig ein. Die Musik fegte über den…
+source_url: https://www.mittendran.de/fanfare-gertrude-beim-festival-lights-potsdamer-platz/
+wp_post_id: 29122
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Heimweg
+  lat: 53.568218
+  lon: 9.993462
+  osm_id: null
+  status: auto
+  via: regex
+- name: Haus-Huth-Schwarzlichttunnel-Wonderland-an-den-Waenden-des-Durchgangs-von-der-Alten-Potsdamer-Straße-zum-Fontaneplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Fontaneplatz
+  lat: 52.508194
+  lon: 13.375272
+  osm_id: null
+  status: confirmed
+  via: regex

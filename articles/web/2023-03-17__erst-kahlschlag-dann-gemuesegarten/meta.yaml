@@ -1,0 +1,27 @@
+title: Erst Kahlschlag  dann Gemüsegarten
+slug: 2023-03-17__erst-kahlschlag-dann-gemuesegarten
+author: Redaktion
+date: '2023-03-17'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1939, 1945, 1947, 1948, 1949, 1952, 1987]
+description: Vor 75 Jahren, während der Berliner Blockade 1948/49, drehten die Sowjets dem westlichen Teil der Stadt die Energie ab und versuchten sie auszuhungern.Die Transportwege über Land wurden für Bahn und Krafttfahrzeuge…
+source_url: https://www.mittendran.de/erst-kahlschlag-dann-gemuesegarten/
+wp_post_id: 25523
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Floraplatz
+  lat: 52.514698
+  lon: 13.369139
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Luftbrücke
+  lat: 52.486084
+  lon: 13.385951
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,27 @@
+title: Mittagessen im Kiez
+slug: 2023-09-25__mittagessen-im-kiez
+author: Redaktion
+date: '2023-09-25'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Wir laden ein! (https://www.mittendran.de/wp-content/uploads/2023/09/Mittagstisch.jpg)Am Dienstag, den 26.9.2023 bieten wir wieder einen gemeinsamen Kiez-Mittagstisch vor dem Familienzentrum, Villa Lützow, Lützowstraße…
+source_url: https://www.mittendran.de/mittagessen-im-kiez/
+wp_post_id: 29003
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

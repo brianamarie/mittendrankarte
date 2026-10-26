@@ -1,0 +1,63 @@
+title: Kein Bolzplatz in Sicht
+slug: 2022-11-29__kein-bolzplatz-sicht
+author: Redaktion
+date: '2022-11-29'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Zwischenzeitlich ist fast schon eine „neue Generation“ von Kindern und Jugendlichen herangewachsen, denen kein Bolzplatz im Kiez zur Verfügung steht…
+source_url: https://www.mittendran.de/kein-bolzplatz-sicht/
+wp_post_id: 24456
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Pohlstraße 8
+  lat: 52.500271
+  lon: 13.369387
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bolzplatz
+  lat: 52.546503
+  lon: 13.461683
+  osm_id: null
+  status: auto
+  via: regex
+- name: Der-bolzplatz
+  lat: 48.532428
+  lon: 8.723783
+  osm_id: null
+  status: auto
+  via: regex
+- name: Spielplatz
+  lat: 52.544306
+  lon: 13.364771
+  osm_id: null
+  status: auto
+  via: regex
+- name: KINDERSPIELPLATZ
+  lat: 52.509216
+  lon: 13.338394
+  osm_id: null
+  status: auto
+  via: regex
+- name: Basketballplatz
+  lat: 52.541131
+  lon: 13.4001
+  osm_id: null
+  status: auto
+  via: regex

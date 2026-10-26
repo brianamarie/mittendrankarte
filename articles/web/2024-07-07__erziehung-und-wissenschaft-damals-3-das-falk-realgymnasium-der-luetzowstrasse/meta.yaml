@@ -1,0 +1,81 @@
+title: 'Erziehung und Wissenschaft damals (3): Das Falk-Realgymnasium in der Lützowstraße'
+slug: 2024-07-07__erziehung-und-wissenschaft-damals-3-das-falk-realgymnasium-der-luetzowstrasse
+author: null
+date: '2024-07-07'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1707, 1747, 1766, 1768, 1791, 1827, 1828, 1829, 1833, 1840, 1858, 1865, 1868, 1869, 1872, 1873, 1875, 1876, 1879, 1880, 1882, 1883, 1884, 1885, 1888, 1890, 1891, 1892, 1894, 1896, 1897, 1900, 1909, 1910, 1913, 1930, 1937, 1945, 1981, 2000]
+description: Dort, wo heute die Allegro-Schule steht, war vor fast 150 Jahren die Falk-Realschule eröffnet worden, die drei Jahre später (1883) zum Realgymnasium wurde und jährlich mehr als 800 Schüler hatte. Die Charlottenschule…
+source_url: https://www.mittendran.de/erziehung-und-wissenschaft-damals-3-das-falk-realgymnasium-der-luetzowstrasse/
+wp_post_id: 32664
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 84c
+  lat: 52.502762
+  lon: 13.362808
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße 39
+  lat: 52.507523
+  lon: 13.368899
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Steglitzer Straße
+  lat: 52.5018
+  lon: 13.3635
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bellevuestraße
+  lat: 52.510199
+  lon: 13.374675
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Kochstraße
+  lat: 52.373354
+  lon: 9.712316
+  osm_id: null
+  status: auto
+  via: regex
+- name: Wallstraße
+  lat: 52.511289
+  lon: 13.404189
+  osm_id: null
+  status: auto
+  via: regex
+- name: Privatstraße
+  lat: 52.478114
+  lon: 13.125611
+  osm_id: null
+  status: auto
+  via: regex
+- name: Winterfeldtstraße
+  lat: 52.496315
+  lon: 13.348868
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Ludendorffstraße
+  lat: 51.108998
+  lon: 13.636605
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,27 @@
+title: Leo’s Fahrrad spurlos verschwunden
+slug: 2024-09-26__leos-fahrrad-spurlos-verschwunden
+author: Redaktion
+date: '2024-09-26'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Ein Beitrag aus dem Gleisdreieck-Blog (https://gleisdreieck-blog.de/) Ohne Leo’s Fahrrad wüssten viele Besucher des Gleisdreieckparks gar nicht, was da in der Mitte zwischen den ehemaligen Bahnhöfen der Potsdamer und…
+source_url: https://www.mittendran.de/leos-fahrrad-spurlos-verschwunden/
+wp_post_id: 33858
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Steinmetzstraße
+  lat: 52.4975
+  lon: 13.361
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer

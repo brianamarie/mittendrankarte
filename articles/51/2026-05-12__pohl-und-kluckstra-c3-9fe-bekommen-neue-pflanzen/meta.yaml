@@ -1,0 +1,30 @@
+title: Pohl- und Kluckstraße bekommen neue Pflanzen
+slug: 2026-05-12__pohl-und-kluckstra-c3-9fe-bekommen-neue-pflanzen
+author: FP
+date: '2026-05-12'
+issue: '51'
+rubrik: Aus dem Kiez
+about_years: []
+description: 'Der Bezirksstadtrat für Ordnung, Umwelt, Natur, Straßen und Grünflächen, Christopher Schriner, informiert: Das Bezirksamt Mitte von Berlin beginnt mit der Bepflanzung der Grünflächen unter den Bäumen an der Pohlstraße…'
+source_url: https://www.mittendran.de/pohl-und-kluckstra%c3%9fe-bekommen-neue-pflanzen/
+wp_post_id: 41874
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.501034
+  lon: 13.36284
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.502822
+  lon: 13.365443
+  osm_id: null
+  status: confirmed
+- name: Kluckstraße
+  lat: 52.502585
+  lon: 13.36113
+  osm_id: null
+  status: confirmed

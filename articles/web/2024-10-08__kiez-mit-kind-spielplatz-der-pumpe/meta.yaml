@@ -1,0 +1,39 @@
+title: 'Kiez mit Kind: Spielplatz an der PUMPE'
+slug: 2024-10-08__kiez-mit-kind-spielplatz-der-pumpe
+author: Hobpenz
+date: '2024-10-08'
+issue: null
+rubrik: Kiez mit Kind
+about_years: []
+description: Wenn man im Kiez mal schwere Füße hat und nicht zu weit laufen möchte, bietet sich der Spielplatz am Jugendkulturzentrum PUMPE an. Relativ zentral gelegen, bietet er genügend Abwechslung für die eine oder andere Stunde…
+source_url: https://www.mittendran.de/kiez-mit-kind-spielplatz-der-pumpe/
+wp_post_id: 33762
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielplatz
+  lat: 52.603364
+  lon: 13.361955
+  osm_id: null
+  status: auto
+  via: regex
+- name: Pop-Up-Wasserspielplatz
+  lat: 52.507609
+  lon: 13.374025
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Kürfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+  via: regex

@@ -1,0 +1,33 @@
+title: Das Wegert-Haus
+slug: 2024-08-10__das-wegert-haus
+author: Redaktion
+date: '2024-08-10'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [1968, 1997, 1999, 2000, 2002, 2007, 2009]
+description: Das Wegert-Haus Als das Wegert-Haus 2019 an die SPG & CO. Berlin Projektentwicklungsgesellschaft, Tochter der Münchener Sedelmayer Grund und Immobilien AG, verkauft wurde, hatte es schon so einiges erlebt. 1968 wurde…
+source_url: https://www.mittendran.de/das-wegert-haus/
+wp_post_id: 33278
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 124-126
+  lat: 52.499534
+  lon: 13.362465
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfuerstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+  via: regex

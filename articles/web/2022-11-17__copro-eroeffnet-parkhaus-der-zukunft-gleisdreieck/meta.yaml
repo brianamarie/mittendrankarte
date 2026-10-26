@@ -1,0 +1,27 @@
+title: Copro eröffnet „Parkhaus der Zukunft“ am Gleisdreieck
+slug: 2022-11-17__copro-eroeffnet-parkhaus-der-zukunft-gleisdreieck
+author: FP
+date: '2022-11-17'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Auf einer gut besuchten Pressekonferenz im B-Part im Gleisdreieckpark stellte Investor Marc F. Kimmich am 15. November gemeinsam mit den Projektpartnern das „Parkhaus der Zukunft“ vor. Das bisher wenig genutzte…
+source_url: https://www.mittendran.de/copro-eroeffnet-parkhaus-der-zukunft-gleisdreieck/
+wp_post_id: 24314
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer

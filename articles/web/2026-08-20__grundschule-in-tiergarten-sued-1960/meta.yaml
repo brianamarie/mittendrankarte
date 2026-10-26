@@ -1,0 +1,43 @@
+title: Grundschule in Tiergarten-Süd 1960
+slug: 2026-08-20__grundschule-in-tiergarten-sued-1960
+author: Redaktion
+date: '2026-08-20'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1960, 1966]
+description: Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach Spandau verschlagen…
+source_url: https://www.mittendran.de/grundschule-in-tiergarten-sued-1960/
+wp_post_id: 42730
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Lützowstraße 85
+  lat: 52.503325
+  lon: 13.362293
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.502822
+  lon: 13.365443
+  osm_id: null
+  status: confirmed
+- name: Kurfürstenstraße 52-53
+  lat: 52.501978
+  lon: 13.357097
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Genthiner Straße 10
+  lat: 52.504895
+  lon: 13.359829
+  osm_id: null
+  status: confirmed
+  via: address

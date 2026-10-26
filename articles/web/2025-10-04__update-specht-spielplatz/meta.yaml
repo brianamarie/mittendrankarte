@@ -1,0 +1,27 @@
+title: 'Kiez mit Kind: Specht-Spielplatz II – ein Update'
+slug: 2025-10-04__update-specht-spielplatz
+author: Hobpenz
+date: '2025-10-04'
+issue: null
+rubrik: Kiez mit Kind
+about_years: []
+description: 'Nehmen unsere Spielplatz-Vorstellungen einen Einfluss? Oder ist alles Zufall ?! Die Vorfälle häufen sich: Der kleine, etwas trostlose „Spielplatz“ beim Specht-Spielplatz wird offensichtlich umgebaut. Er hat ein kleines…'
+source_url: https://www.mittendran.de/update-specht-spielplatz/
+wp_post_id: 39008
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Specht-Spielplatz
+  lat: 52.501
+  lon: 13.372
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielplatz
+  lat: 52.464375
+  lon: 13.504941
+  osm_id: null
+  status: auto
+  via: regex

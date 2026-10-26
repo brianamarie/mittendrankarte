@@ -1,0 +1,27 @@
+title: „Stolpersteine verlegen  Von Nachforschungen, Zusammenarbeit und Betroffenheit“
+slug: 2023-04-13__stolpersteine-verlegen-von-nachforschungen-zusammenarbeit-und-betroffenheit-2
+author: Redaktion
+date: '2023-04-13'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: 'Die Initiative Jüdisches Leben und Widerstand in Tiergarten lädt zur nächsten Veranstaltung ein: Am Donnerstag, dem 20.April 2023 um 19h00 im Seminarraum 3 (2.Etage) des Kiezzentrums Villa Lützow, Lützowstr.28…'
+source_url: https://www.mittendran.de/stolpersteine-verlegen-von-nachforschungen-zusammenarbeit-und-betroffenheit-2/
+wp_post_id: 26623
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowstraße
+  lat: 52.502421
+  lon: 13.368536
+  osm_id: null
+  status: confirmed
+  via: regex

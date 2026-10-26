@@ -1,0 +1,25 @@
+title: Ein „Tag im Grünen“ im Kulturforum
+slug: 2026-09-06__ein-tag-im-gruenen-im-kulturforum
+author: Redaktion
+date: '2026-09-06'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Am 13. September 2026 verwandelt sich das Kulturforum Berlin wieder in einen großen Veranstaltungsraum – drinnen und draußen. Zum fünften Mal laden die dort ansässigen Kultur- und Wissenschaftseinrichtungen sowie die…
+source_url: https://www.mittendran.de/ein-tag-im-gruenen-im-kulturforum/
+wp_post_id: 42858
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.502822
+  lon: 13.365443
+  osm_id: null
+  status: confirmed
+- name: Kulturforum
+  lat: 52.508513
+  lon: 13.364749
+  osm_id: null
+  status: confirmed

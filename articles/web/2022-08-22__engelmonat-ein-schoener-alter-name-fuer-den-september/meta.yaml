@@ -1,0 +1,27 @@
+title: Engelmonat – ein schöner alter Name für den September
+slug: 2022-08-22__engelmonat-ein-schoener-alter-name-fuer-den-september
+author: KA
+date: '2022-08-22'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1990]
+description: '(https://www.mittendran.de/wp/wp-admin/media-upload.php?post_id=23091&type=image&TB_iframe=1) Das Schwule Museum gibt seine Termine bekannt: 1.9., 19–22 Uhr. Eröffnung Queering the Crip – Cripping the Queer Die erste…'
+source_url: https://www.mittendran.de/engelmonat-ein-schoener-alter-name-fuer-den-september/
+wp_post_id: 23091
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 73
+  lat: 52.504251
+  lon: 13.358219
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schwules Museum
+  lat: 52.5048
+  lon: 13.3588
+  osm_id: null
+  status: confirmed
+  via: gazetteer

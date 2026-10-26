@@ -1,0 +1,45 @@
+title: 'Kiez mit Kind: Der Spielplatz Blaues Klavier'
+slug: 2024-04-04__kiez-mit-kind-der-spielplatz-blaues-klavier
+author: Redaktion
+date: '2024-04-04'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: [1937]
+description: (https://www.mittendran.de/wp-content/uploads/2024/04/Blaues-Klavier-1-scaled.jpg) Mein blaues Klavier Ich habe zu Hause ein blaues Klavier Und kenne doch keine Note. Es steht im Dunkel der Kellertür, Seitdem die Welt…
+source_url: https://www.mittendran.de/kiez-mit-kind-der-spielplatz-blaues-klavier/
+wp_post_id: 31205
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Spielplatz
+  lat: 52.544306
+  lon: 13.364771
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kinderspielplatz
+  lat: 52.509216
+  lon: 13.338394
+  osm_id: null
+  status: auto
+  via: regex
+- name: Lasker-Schüler-Straße
+  lat: 52.500698
+  lon: 13.357099
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Fußballplatz
+  lat: 52.49592
+  lon: 13.499105
+  osm_id: null
+  status: auto
+  via: regex
+- name: Parkplatz
+  lat: 52.586798
+  lon: 13.351959
+  osm_id: null
+  status: auto
+  via: regex

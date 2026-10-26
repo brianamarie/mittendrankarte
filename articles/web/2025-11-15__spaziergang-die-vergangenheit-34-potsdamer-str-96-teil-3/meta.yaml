@@ -1,0 +1,31 @@
+title: 'Spaziergang in die Vergangenheit (34): Potsdamer Str. 96 (Teil 3)'
+slug: 2025-11-15__spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-3
+author: Paul Enck
+date: '2025-11-15'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1711, 1824, 1841, 1893, 1930, 1936, 1944, 1947, 1954, 1955, 1956, 1967, 1968, 1969, 1970, 1972, 1989]
+description: Das Quartier Latin, das wir beim letzten Mal besucht haben (mittendran vom 10. Oktober 2025 (https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-2/)), hatte im vorderen Teil des Gebäudes…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-3/
+wp_post_id: 39510
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Pohlstraße
+  lat: 52.500435
+  lon: 13.366647
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer

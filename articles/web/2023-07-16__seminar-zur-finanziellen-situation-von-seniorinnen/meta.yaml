@@ -1,0 +1,27 @@
+title: Seminar zur finanziellen Situation von Senior*innen
+slug: 2023-07-16__seminar-zur-finanziellen-situation-von-seniorinnen
+author: Redaktion
+date: '2023-07-16'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: 'Der Nachbarschaftstreff, Lützowstr. 27, bietet ein Seminar an: Liebe Interessierte und Aktive, vor allem ältere Menschen, die das Berufsleben beendet haben, fragen sich, wie sie finanzielle Engpässe vermeiden können…'
+source_url: https://www.mittendran.de/seminar-zur-finanziellen-situation-von-seniorinnen/
+wp_post_id: 27957
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 27
+  lat: 52.50376
+  lon: 13.363429
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Flyer-SeniorInnenschulung-Luetzowstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

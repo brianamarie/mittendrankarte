@@ -1,0 +1,21 @@
+title: Café ODOR
+slug: 2023-01-23__caf-c3-a9-odor
+author: eki
+date: '2023-01-23'
+issue: null
+rubrik: Gewerbe und Gastronomie
+about_years: []
+description: Drei Stufen geht es nach unten ins Souterrain, dann ist man in dem kleinen Raum vom Café ODOR. Ein paar Tische, Stühle, zwei Sofas. Im Raum dahinter befindet sich der Tresen. Ein Treffpunkt mit einem originellen…
+source_url: https://www.mittendran.de/caf%c3%a9-odor/
+wp_post_id: 25122
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 21-22
+  lat: 52.499518
+  lon: 13.365145
+  osm_id: null
+  status: confirmed
+  via: address

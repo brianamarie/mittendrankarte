@@ -1,0 +1,31 @@
+title: Art Week Impressionen (1)
+slug: 2025-09-11__art-week-impressionen-1
+author: Paul Enck
+date: '2025-09-11'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1891, 1932, 1969]
+description: 'Man kann sie kaum übersehen, selbst wenn man wollte (was „man“ nicht will), die Art Week Berlin: Nur ein kurzer Spaziergang über die Potsdamer um 18.00h am ersten Tag, Menschenauflauf vor und in der Galerie Hoto…'
+source_url: https://www.mittendran.de/art-week-impressionen-1/
+wp_post_id: 38859
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.504761
+  lon: 13.352547
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße 75
+  lat: 52.502631
+  lon: 13.365579
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Haus am Lützowplatz
+  lat: 52.504355
+  lon: 13.353555
+  osm_id: null
+  status: confirmed

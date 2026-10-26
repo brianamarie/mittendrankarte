@@ -1,0 +1,75 @@
+title: Straßen im Kiez (31):Die 25. Straße, eine Privatstraße ohne Namen
+slug: 2022-06-07__strassen-im-kiez-31die-25-strasse-eine-privatstrasse-ohne-namen
+author: Paul Enck
+date: '2022-06-07'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1850, 1886, 1888, 1892, 1896, 1898, 1899, 1900, 1905, 1908, 1915, 1932, 1934, 1935, 1957, 1962, 1975]
+description: (ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com)) Eigentlich waren alle Texte fertig, die „Straßen im Kiez“ lagen gebündelt bei der Lektorin des Hayit Verlages, Köln und warteten…
+source_url: https://www.mittendran.de/strassen-im-kiez-31die-25-strasse-eine-privatstrasse-ohne-namen/
+wp_post_id: 22371
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 103
+  lat: 52.500403
+  lon: 13.363615
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Privatstraße
+  lat: 52.476713
+  lon: 13.123598
+  osm_id: null
+  status: auto
+  via: regex
+- name: Nebenstraße
+  lat: 52.472336
+  lon: 13.79554
+  osm_id: null
+  status: auto
+  via: regex
+- name: Durchgangsstraße
+  lat: 47.387912
+  lon: 9.271665
+  osm_id: null
+  status: auto
+  via: regex
+- name: Stichstraße
+  lat: 52.526635
+  lon: 13.22135
+  osm_id: null
+  status: auto
+  via: regex
+- name: Sackgasse
+  lat: 52.515572
+  lon: 13.517855
+  osm_id: null
+  status: auto
+  via: regex
+- name: Holzplatz
+  lat: 52.404927
+  lon: 13.667122
+  osm_id: null
+  status: auto
+  via: regex
+- name: Königin-Augusta-Straße
+  lat: 54.40387
+  lon: 13.607377
+  osm_id: null
+  status: auto
+  via: regex

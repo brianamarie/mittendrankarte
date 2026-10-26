@@ -1,0 +1,33 @@
+title: Am Donnerstag ist wieder Spielstraße in der Pohlstraße
+slug: 2023-04-26__donnerstag-ist-wieder-spielstrasse-der-pohlstrasse
+author: FP
+date: '2023-04-26'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: Am Donnerstag, 7. April, von 15-19 Uhr wird der westliche Teil der Pohlstraße wieder zu einer autofreien Spielstraße für Alle. Es wird ein Puppentheater geben…
+source_url: https://www.mittendran.de/donnerstag-ist-wieder-spielstrasse-der-pohlstrasse/
+wp_post_id: 26904
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielstraße
+  lat: 49.137578
+  lon: 8.415617
+  osm_id: null
+  status: auto
+  via: regex
+- name: Spielstraße-Pohlstraße
+  lat: 52.501034
+  lon: 13.36284
+  osm_id: null
+  status: confirmed
+  via: regex

@@ -1,0 +1,93 @@
+title: 'Medizingeschichte im Lützow-Viertel (3): Das Siechenhaus Bethesda in der Kurfürstenstraße'
+slug: 2023-01-24__medizin-im-luetzow-viertel-3-das-siechenhaus-bethesda-der-kurfuerstenstrasse
+author: Redaktion
+date: '2023-01-24'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1813, 1826, 1835, 1836, 1837, 1840, 1841, 1844, 1854, 1855, 1856, 1858, 1859, 1861, 1862, 1863, 1865, 1867, 1868, 1870, 1883, 1915, 1924, 1925, 1937]
+description: 'Kirchen- und Krankenhausgründungen sind immer auch eine Frage des Geldes: Sie kosten zwar Geld, aber sie bringen vor allem auch Geld ein. Als die Matthäi-Kirche im Tiergarten 1844 aus der Dreifaltigkeitskirchgemeinde…'
+source_url: https://www.mittendran.de/medizin-im-luetzow-viertel-3-das-siechenhaus-bethesda-der-kurfuerstenstrasse/
+wp_post_id: 25184
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Derfflingerstraße 8
+  lat: 52.503028
+  lon: 13.35591
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Wallstraße
+  lat: 52.511289
+  lon: 13.404189
+  osm_id: null
+  status: auto
+  via: regex
+- name: Elisabeth-krankenhaus-der-luetzowstraße
+  lat: 52.527922
+  lon: 13.508992
+  osm_id: null
+  status: auto
+  via: regex
+- name: Teltowerstraße
+  lat: 52.525813
+  lon: 13.217604
+  osm_id: null
+  status: auto
+  via: regex
+- name: Mühlenweg
+  lat: 52.596198
+  lon: 13.226086
+  osm_id: null
+  status: auto
+  via: regex
+- name: Potsdamer Straße
+  lat: 52.508675
+  lon: 13.370353
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Kürfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Motzstraße
+  lat: 52.493798
+  lon: 13.335401
+  osm_id: null
+  status: auto
+  via: regex
+- name: Schellingstraße
+  lat: 52.505823
+  lon: 13.373245
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Mariannenplatz
+  lat: 52.503899
+  lon: 13.425496
+  osm_id: null
+  status: auto
+  via: regex
+- name: Bellevue-Straße
+  lat: 52.510199
+  lon: 13.374675
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Bellevuestraße
+  lat: 52.510199
+  lon: 13.374675
+  osm_id: null
+  status: confirmed
+  via: regex

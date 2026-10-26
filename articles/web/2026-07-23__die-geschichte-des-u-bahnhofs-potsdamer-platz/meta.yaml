@@ -1,0 +1,26 @@
+title: Geschichte des U-Bahnhofs Potsdamer Platz
+slug: 2026-07-23__die-geschichte-des-u-bahnhofs-potsdamer-platz
+author: Redaktion
+date: '2026-07-23'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1902, 1905, 1907, 1910, 1923, 1930, 1945, 1950, 1961, 1972, 1989, 1993]
+description: Gastbeitrag von Ralf Hausding Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn…
+source_url: https://www.mittendran.de/die-geschichte-des-u-bahnhofs-potsdamer-platz/
+wp_post_id: 42408
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz 10
+  lat: 52.508204
+  lon: 13.377103
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

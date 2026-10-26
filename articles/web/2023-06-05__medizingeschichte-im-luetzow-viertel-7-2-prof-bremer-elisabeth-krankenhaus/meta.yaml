@@ -1,0 +1,27 @@
+title: Medizingeschichte im Lützow-Viertel (7.2) Prof. Bremer am Elisabeth-Krankenhaus
+slug: 2023-06-05__medizingeschichte-im-luetzow-viertel-7-2-prof-bremer-elisabeth-krankenhaus
+author: Redaktion
+date: '2023-06-05'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1800, 1862, 1863, 1874, 1890, 1892, 1894, 1912, 1914, 1917, 1918, 1919, 1920, 1921, 1923, 1924, 1925, 1926, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1937, 1939, 1943, 1944, 1945, 1952, 1961, 1967, 1970, 1972, 1984, 2001]
+description: (ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com/)) Mit diesem zweiten Teil der Geschichte der Nationalsozialisten am Elisabeth-Krankenhaus erreichen wir das Ende unserer Zeitreise…
+source_url: https://www.mittendran.de/medizingeschichte-im-luetzow-viertel-7-2-prof-bremer-elisabeth-krankenhaus/
+wp_post_id: 27460
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Blumeshof
+  lat: 52.504
+  lon: 13.3555
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kronprinzenallee
+  lat: 51.248134
+  lon: 7.156924
+  osm_id: null
+  status: auto
+  via: regex

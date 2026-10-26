@@ -1,0 +1,45 @@
+title: Ein Wohnhaus in der Kurfürstenstraße
+slug: 2024-05-16__ein-einsturzgefaehrdetes-wohnhaus-der-kurfuerstenstrasse
+author: Redaktion
+date: '2024-05-16'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2024/05/2024-Das-einsturzgefaerdete-Haus-in-der-Kurfuerstenstrasse-135-Foto-eki-scaled.jpg) Das einsturzgefährdete Haus in der Kurfürstenstraße 135 Heute Morgen war die…
+source_url: https://www.mittendran.de/ein-einsturzgefaehrdetes-wohnhaus-der-kurfuerstenstrasse/
+wp_post_id: 31929
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 135
+  lat: 52.501311
+  lon: 13.356225
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Das-einsturzgefaerdete-Haus-in-der-Kurfuerstenstraße
+  lat: 52.444246
+  lon: 13.505688
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kielganstraße
+  lat: 52.501216
+  lon: 13.355174
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Das-Haus-Kurfuerstenstraße
+  lat: 52.635719
+  lon: 13.302844
+  osm_id: null
+  status: auto
+  via: regex
+- name: Von-der-Kielganstraße
+  lat: 52.501216
+  lon: 13.355174
+  osm_id: null
+  status: confirmed
+  via: regex

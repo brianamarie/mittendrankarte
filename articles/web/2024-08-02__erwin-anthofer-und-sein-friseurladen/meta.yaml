@@ -1,0 +1,27 @@
+title: Erwin Anthofer und sein Friseurladen
+slug: 2024-08-02__erwin-anthofer-und-sein-friseurladen
+author: FP
+date: '2024-08-02'
+issue: null
+rubrik: Gewerbe und Gastronomie
+about_years: [1973, 1990]
+description: Gastbeitrag von Ekkehard Pohlmann Bei einem Spaziergang fielen ihm in einem Friseurgeschäft in der Kurfürstenstraße die stark eingeschränkten Öffnungszeiten auf. „Der Inhaber muss schon älter sein, dachte ich mir.“ Das…
+source_url: https://www.mittendran.de/erwin-anthofer-und-sein-friseurladen/
+wp_post_id: 33180
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 31
+  lat: 52.500179
+  lon: 13.362343
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Polsterplatz
+  lat: 52.782338
+  lon: 10.228486
+  osm_id: null
+  status: auto
+  via: regex

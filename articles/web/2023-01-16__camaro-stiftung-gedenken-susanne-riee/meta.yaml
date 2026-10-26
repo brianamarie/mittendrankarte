@@ -1,0 +1,39 @@
+title: 'Camaro Stiftung: Gedenken an Susanne Riée'
+slug: 2023-01-16__camaro-stiftung-gedenken-susanne-riee
+author: APZ
+date: '2023-01-16'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1927, 1947, 1963, 1966, 2010]
+description: Liebe Freund:innen der Camaro Stiftung, wir laden Sie am Donnerstag, dem 19.01.2023 von 15 bis 19 Uhr zu einem nachmittäglichen Beisammensein zu Ehren von Susanne Riée ein. Am 18.01. wäre Susanne Riées 96. Geburtstag…
+source_url: https://www.mittendran.de/camaro-stiftung-gedenken-susanne-riee/
+wp_post_id: 24971
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße 98
+  lat: 52.502011
+  lon: 13.364105
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Philharmonie
+  lat: 52.51
+  lon: 13.37
+  osm_id: null
+  status: confirmed
+  via: gazetteer

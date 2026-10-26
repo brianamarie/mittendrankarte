@@ -1,0 +1,46 @@
+title: 'Spaziergang mit Lia Hiltz und Paul Enck (11): Verschlossene Tore und idyllische
+  Hinterhöfe'
+slug: 2022-09-20__spaziergang-mit-lia-hiltz-und-paul-enck-11-verschlossene-tore-und-idyllische-hin
+author: Paul Enck
+date: '2022-09-20'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1838, 1840, 1861, 1870, 1871, 1880, 1882, 1885, 1907, 1922, 1936, 1937]
+description: Manchmal hat man Glück und wird nicht kritisch beäugt (Bild 1), wenn man neugierig in Hinterhöfe schauen möchte, die normalerweise verschlossen sind. Eines Morgens stand das Tor der Potsdamer Straße 93 offen und…
+source_url: https://www.mittendran.de/spaziergang-mit-lia-hiltz-und-paul-enck-11-verschlossene-tore-und-idyllische-hinterhoefe/
+wp_post_id: 23048
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße 93
+  lat: 52.501368
+  lon: 13.364523
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße 12
+  lat: 52.499307
+  lon: 13.366883
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Belle-Alliance-Platz
+  lat: 52.499606
+  lon: 13.391196
+  osm_id: null
+  status: auto
+  via: regex
+- name: Mehringplatz
+  lat: 52.499606
+  lon: 13.391196
+  osm_id: null
+  status: auto
+  via: regex

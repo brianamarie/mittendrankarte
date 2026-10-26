@@ -1,0 +1,27 @@
+title: Gebrauchte Handys
+slug: 2023-03-01__gebrauchte-handys
+author: Redaktion
+date: '2023-03-01'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [2011]
+description: Ab sofort könnt ihr eure gebrauchten Handys bei uns abgeben in Berlin Tiergarten-Süd. NABU und Telefónica Deutschland Group arbeiten seit 2011 beim Umweltschutz zusammen. Für die gesammelten Handys spendet Telefonica…
+source_url: https://www.mittendran.de/gebrauchte-handys/
+wp_post_id: 25795
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

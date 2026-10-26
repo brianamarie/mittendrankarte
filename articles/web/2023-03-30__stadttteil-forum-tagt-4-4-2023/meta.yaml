@@ -1,0 +1,27 @@
+title: Sitzung zur urbanen Mitte
+slug: 2023-03-30__stadttteil-forum-tagt-4-4-2023
+author: Redaktion
+date: '2023-03-30'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Wie immer am ersten Dienstag im Monat, trifft sich auch am 4.April von 18.00 – 20.00 Uhr das Stadtteil-Forum Tiergarten Süd (https://forum-tgs.de/) in der Villa Lützow, Seminarraum 3, 2. Stock, Lützowstr. 28 Dazu sind…
+source_url: https://www.mittendran.de/stadttteil-forum-tagt-4-4-2023/
+wp_post_id: 26319
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer

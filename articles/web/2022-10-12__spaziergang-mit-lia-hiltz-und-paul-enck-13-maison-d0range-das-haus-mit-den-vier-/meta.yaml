@@ -1,0 +1,58 @@
+title: 'Spaziergang mit Lia Hiltz und Paul Enck (13): Maison d’0range, das Haus mit
+  den vier Leben …'
+slug: 2022-10-12__spaziergang-mit-lia-hiltz-und-paul-enck-13-maison-d0range-das-haus-mit-den-vier-
+author: FP
+date: '2022-10-12'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1705, 1794, 1826, 1848, 1868, 1877, 1883, 1884, 1885, 1888, 1899, 1911, 1939, 1940, 1945, 1947, 1974, 1977]
+description: '(https://www.mittendran.de/wp-content/uploads/2022/10/Bild-13_1-Maison-d-orange-scaled.jpeg) Abb. 1 Maison d’Orange © Lia Hiltz Paul: Lia, das Bild (Abb. 1) gefällt mir, aber was meinst du mit „hinterm FG“? Lia: Das…'
+source_url: https://www.mittendran.de/spaziergang-mit-lia-hiltz-und-paul-enck-13-maison-d0range-das-haus-mit-den-vier-leben/
+wp_post_id: 23885
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Derfflingerstraße
+  lat: 52.5048
+  lon: 13.357
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Dorotheenstraße
+  lat: 52.519183
+  lon: 13.392997
+  osm_id: null
+  status: auto
+  via: regex
+- name: Ulmenstraße
+  lat: 52.521715
+  lon: 13.19199
+  osm_id: null
+  status: auto
+  via: regex
+- name: Die-straßen-im-kiez-kielganstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Charlottenstraße
+  lat: 52.511538
+  lon: 13.391655
+  osm_id: null
+  status: auto
+  via: regex
+- name: Buchenstraße
+  lat: 52.484914
+  lon: 13.582868
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kochstraße
+  lat: 52.506652
+  lon: 13.389563
+  osm_id: null
+  status: auto
+  via: regex

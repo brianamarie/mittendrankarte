@@ -1,0 +1,58 @@
+title: 'Erziehung und Wissenschaft damals (5): Die Charlottenschule in der Steglitzer
+  Straße'
+slug: 2024-10-27__schulen-im-luetzow-viertel-4-die-charlottenschule-der-steglitzer-strasse
+author: Paul Enck
+date: '2024-10-27'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1827, 1830, 1838, 1845, 1870, 1875, 1879, 1880, 1882, 1883, 1886, 1893, 1900, 1908, 1912, 1919, 1922, 1923, 1929, 1930, 1933, 1934, 1937, 1943, 1945]
+description: Gleichzeitig mit der Gründung des Falk-Realgymnasiums 1870 wurde über die Einrichtung einer (vierten) höheren Mädchenschule in der Schöneberger Vorstadt entschieden, „inmitten eines schönen und reichen, aber in seiner…
+source_url: https://www.mittendran.de/schulen-im-luetzow-viertel-4-die-charlottenschule-der-steglitzer-strasse/
+wp_post_id: 34200
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 83
+  lat: 52.50312
+  lon: 13.362993
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße 62
+  lat: 52.501355
+  lon: 13.362301
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße 39
+  lat: 52.507523
+  lon: 13.368899
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Steglitzer Straße
+  lat: 52.5018
+  lon: 13.3635
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Ziegelstraße
+  lat: 52.588524
+  lon: 13.467942
+  osm_id: null
+  status: auto
+  via: regex
+- name: Oranienburgerstraße
+  lat: 52.525225
+  lon: 13.393014
+  osm_id: null
+  status: auto
+  via: regex
+- name: Michaelskirchplatz
+  lat: 52.507122
+  lon: 13.419246
+  osm_id: null
+  status: auto
+  via: regex

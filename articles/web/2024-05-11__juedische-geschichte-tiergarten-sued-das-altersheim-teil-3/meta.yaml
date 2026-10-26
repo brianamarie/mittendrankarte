@@ -1,0 +1,27 @@
+title: 'Jüdische Geschichte in Tiergarten-Süd: Das Altersheim (Teil 3)'
+slug: 2024-05-11__juedische-geschichte-tiergarten-sued-das-altersheim-teil-3
+author: Paul Enck
+date: '2024-05-11'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1868, 1896, 1907, 1924, 1939, 1941, 1942, 1943, 1944, 1988, 1995]
+description: Eine E-Mail aus Schweden dieser Tage hat die Geschichte des jüdischen Altersheims in der Lützowstraße 48/49 (mittendran vom 8. Mai 2022…
+source_url: https://www.mittendran.de/juedische-geschichte-tiergarten-sued-das-altersheim-teil-3/
+wp_post_id: 31783
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 48-49
+  lat: 52.505168
+  lon: 13.356217
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Arbeitsplatz
+  lat: 52.421006
+  lon: 13.628508
+  osm_id: null
+  status: auto
+  via: regex

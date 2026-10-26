@@ -1,0 +1,28 @@
+title: 'Spaziergang in die Vergangenheit (3): Die Unger-Klinik in der Derfflingerstraße
+  21'
+slug: 2023-10-14__spaziergang-die-vergangenheit-3-die-unger-klinik-der-derfflingerstrasse-21
+author: null
+date: '2023-10-14'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1875, 1918, 1935, 1936, 1937, 1938, 1975, 1976, 2002]
+description: In unserem Artikel über die Klinik des jüdischen Arztes und Wissenschaftlers Prof. Ernst Unger (mittendran vom 20. März 2023…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-3-die-unger-klinik-der-derfflingerstrasse-21/
+wp_post_id: 29219
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Derfflingerstraße 21
+  lat: 52.503266
+  lon: 13.356603
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Unger-klinik-in-der-derfflingerstraße
+  lat: 51.513466
+  lon: 7.443092
+  osm_id: null
+  status: auto
+  via: regex

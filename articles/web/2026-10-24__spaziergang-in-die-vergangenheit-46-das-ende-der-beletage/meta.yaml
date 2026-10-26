@@ -1,0 +1,33 @@
+title: 'Spaziergang in die Vergangenheit (46): Das Ende der Beletage'
+slug: 2026-10-24__spaziergang-in-die-vergangenheit-46-das-ende-der-beletage
+author: Paul Enck
+date: '2026-10-24'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1850, 1889, 1890, 1892, 1895, 1909, 1914, 1923, 1942]
+description: Bei der Durchsicht der Bauakten (1) für Wohnhaus und Atelierhaus in der Dörnbergstraße 7 (Bild 1) (mittendran vom 10. Juli 2026…
+source_url: https://www.mittendran.de/spaziergang-in-die-vergangenheit-46-das-ende-der-beletage/
+wp_post_id: 43321
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Bülowstraße 3
+  lat: 52.499036
+  lon: 13.355363
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Dörnbergstraße
+  lat: 51.178491
+  lon: 6.876376
+  osm_id: null
+  status: auto
+  via: regex
+- name: Ein-atelierhaus-der-doernbergstraße
+  lat: 49.867518
+  lon: 8.650261
+  osm_id: null
+  status: auto
+  via: regex

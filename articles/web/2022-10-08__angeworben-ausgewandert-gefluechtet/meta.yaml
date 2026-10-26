@@ -1,0 +1,27 @@
+title: Angeworben-Ausgewandert-Geflüchtet
+slug: 2022-10-08__angeworben-ausgewandert-gefluechtet
+author: eki
+date: '2022-10-08'
+issue: null
+rubrik: Miteinander
+about_years: [1969]
+description: Angekommen in Schöneberg Nord 1969 bis 2022. Open-Air-Ausstellung 2022. Konzipiert wurde das Ausstellungsprojekt von der Fotografin, Filmemacherin und Historikerin Marion Schütt und der Sozialpädagogin Joanna Kalkowski…
+source_url: https://www.mittendran.de/angeworben-ausgewandert-gefluechtet/
+wp_post_id: 23746
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Zwölf-Apostel-Kirche
+  lat: 52.5008
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Vorplatz
+  lat: 52.532486
+  lon: 13.20873
+  osm_id: null
+  status: auto
+  via: regex

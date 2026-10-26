@@ -1,0 +1,37 @@
+title: Potsdamer Straße 29
+slug: 2026-03-30__potsdamer-strasse-29
+author: Redaktion
+date: '2026-03-30'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1896, 1897, 1923, 1928, 1938, 1939, 1940, 1941, 1943, 1950, 1953, 1955, 1963, 1965, 1966, 1967]
+description: Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach Spandau verschlagen…
+source_url: https://www.mittendran.de/potsdamer-strasse-29/
+wp_post_id: 41134
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße 29
+  lat: 52.507961
+  lon: 13.370061
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Bülowstraße 20a
+  lat: 52.497764
+  lon: 13.360058
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kulturforum
+  lat: 52.508513
+  lon: 13.364749
+  osm_id: null
+  status: confirmed

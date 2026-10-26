@@ -1,0 +1,1450 @@
+{
+  "Bissingzeile|13": {
+    "lat": 52.503338,
+    "lon": 13.370433,
+    "ok": true
+  },
+  "Blumeshof|11": {
+    "ok": false
+  },
+  "Blumeshof|12": {
+    "ok": false
+  },
+  "Blumeshof|15": {
+    "ok": false
+  },
+  "Bülowstraße|1": {
+    "ok": false
+  },
+  "Bülowstraße|106": {
+    "lat": 52.499595,
+    "lon": 13.355257,
+    "ok": true
+  },
+  "Bülowstraße|11": {
+    "lat": 52.49841,
+    "lon": 13.357807,
+    "ok": true
+  },
+  "Bülowstraße|18": {
+    "lat": 52.497855,
+    "lon": 13.359734,
+    "ok": true
+  },
+  "Bülowstraße|20a": {
+    "lat": 52.497764,
+    "lon": 13.360058,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Bülowstraße|3": {
+    "lat": 52.499036,
+    "lon": 13.355363,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Bülowstraße|4": {
+    "lat": 52.498855,
+    "lon": 13.354923,
+    "ok": true
+  },
+  "Bülowstraße|61": {
+    "lat": 52.49589,
+    "lon": 13.366708,
+    "ok": true
+  },
+  "Bülowstraße|7": {
+    "lat": 52.498723,
+    "lon": 13.356585,
+    "ok": true
+  },
+  "Bülowstraße|71": {
+    "lat": 52.497346,
+    "lon": 13.366346,
+    "ok": true
+  },
+  "Bülowstraße|72": {
+    "lat": 52.497515,
+    "lon": 13.366463,
+    "ok": true
+  },
+  "Bülowstraße|74": {
+    "lat": 52.497428,
+    "lon": 13.365962,
+    "ok": true
+  },
+  "Bülowstraße|82": {
+    "lat": 52.497946,
+    "lon": 13.363208,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Bülowstraße|90": {
+    "lat": 52.498385,
+    "lon": 13.360404,
+    "ok": true
+  },
+  "Bülowstraße|94": {
+    "lat": 52.498683,
+    "lon": 13.359051,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Bülowstraße|98-100": {
+    "lat": 52.498981,
+    "lon": 13.357699,
+    "ok": true
+  },
+  "Culmstraße|15": {
+    "ok": false
+  },
+  "Dennewitzstraße|19": {
+    "lat": 52.499274,
+    "lon": 13.369771,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Dennewitzstraße|35": {
+    "lat": 52.499378,
+    "lon": 13.370285,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Dennewitzstraße|36-44": {
+    "lat": 52.499384,
+    "lon": 13.370317,
+    "ok": true
+  },
+  "Dennewitzstraße|7": {
+    "lat": 52.499197,
+    "lon": 13.369386,
+    "ok": true
+  },
+  "Derfflingerstraße|17": {
+    "lat": 52.502432,
+    "lon": 13.356097,
+    "ok": true
+  },
+  "Derfflingerstraße|18a": {
+    "lat": 52.50264,
+    "lon": 13.356224,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Derfflingerstraße|19": {
+    "lat": 52.502709,
+    "lon": 13.356246,
+    "ok": true
+  },
+  "Derfflingerstraße|21": {
+    "lat": 52.503266,
+    "lon": 13.356603,
+    "ok": true
+  },
+  "Derfflingerstraße|8": {
+    "lat": 52.503028,
+    "lon": 13.35591,
+    "ok": true
+  },
+  "Flottwellstraße|44": {
+    "lat": 52.502725,
+    "lon": 13.372483,
+    "ok": true
+  },
+  "Flottwellstraße|8": {
+    "lat": 52.501534,
+    "lon": 13.370999,
+    "ok": true
+  },
+  "Frobenstraße|1": {
+    "lat": 52.500101,
+    "lon": 13.35988,
+    "ok": true
+  },
+  "Frobenstraße|22-23": {
+    "ok": false
+  },
+  "Frobenstraße|4": {
+    "lat": 52.499079,
+    "lon": 13.359523,
+    "ok": true
+  },
+  "Genthiner Straße|10": {
+    "lat": 52.504895,
+    "lon": 13.359829,
+    "ok": true
+  },
+  "Genthiner Straße|11": {
+    "lat": 52.504747,
+    "lon": 13.360261,
+    "ok": true
+  },
+  "Genthiner Straße|13": {
+    "lat": 52.50454,
+    "lon": 13.360161,
+    "ok": true
+  },
+  "Genthiner Straße|13d": {
+    "lat": 52.50469,
+    "lon": 13.35987,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Genthiner Straße|14": {
+    "lat": 52.504662,
+    "lon": 13.359674,
+    "ok": true
+  },
+  "Genthiner Straße|18": {
+    "lat": 52.50423,
+    "lon": 13.359479,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Genthiner Straße|22": {
+    "lat": 52.503797,
+    "lon": 13.359285,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Genthiner Straße|26-28": {
+    "lat": 52.503365,
+    "lon": 13.35909,
+    "ok": true
+  },
+  "Genthiner Straße|28": {
+    "lat": 52.503293,
+    "lon": 13.359029,
+    "ok": true
+  },
+  "Genthiner Straße|29": {
+    "lat": 52.503285,
+    "lon": 13.359056,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Genthiner Straße|30": {
+    "lat": 52.503137,
+    "lon": 13.358969,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Genthiner Straße|34": {
+    "lat": 52.502826,
+    "lon": 13.35885,
+    "ok": true
+  },
+  "Genthiner Straße|35": {
+    "lat": 52.502763,
+    "lon": 13.359298,
+    "ok": true
+  },
+  "Genthiner Straße|37": {
+    "lat": 52.502592,
+    "lon": 13.358729,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Genthiner Straße|4": {
+    "lat": 52.50538,
+    "lon": 13.360068,
+    "ok": true
+  },
+  "Genthiner Straße|44": {
+    "lat": 52.502035,
+    "lon": 13.358436,
+    "ok": true
+  },
+  "Genthiner Straße|46": {
+    "lat": 52.501888,
+    "lon": 13.358365,
+    "ok": true
+  },
+  "Genthiner Straße|5a": {
+    "lat": 52.50529,
+    "lon": 13.360096,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Karlsbad|11": {
+    "ok": false
+  },
+  "Karlsbad|13": {
+    "ok": false
+  },
+  "Karlsbad|9": {
+    "ok": false
+  },
+  "Keithstraße|18": {
+    "ok": false
+  },
+  "Kluckstraße|13": {
+    "lat": 52.504261,
+    "lon": 13.362351,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Kluckstraße|23": {
+    "lat": 52.503632,
+    "lon": 13.361856,
+    "ok": true
+  },
+  "Kluckstraße|27": {
+    "lat": 52.502857,
+    "lon": 13.361539,
+    "ok": true
+  },
+  "Kluckstraße|3": {
+    "lat": 52.504889,
+    "lon": 13.362846,
+    "ok": true
+  },
+  "Kluckstraße|33": {
+    "lat": 52.502314,
+    "lon": 13.361302,
+    "ok": true
+  },
+  "Kurfürstenstraße|10": {
+    "lat": 52.499256,
+    "lon": 13.367238,
+    "ok": true
+  },
+  "Kurfürstenstraße|100a": {
+    "ok": false
+  },
+  "Kurfürstenstraße|113": {
+    "ok": false
+  },
+  "Kurfürstenstraße|114": {
+    "lat": 52.50353,
+    "lon": 13.347081,
+    "ok": true
+  },
+  "Kurfürstenstraße|116": {
+    "lat": 52.503376,
+    "lon": 13.347639,
+    "ok": true
+  },
+  "Kurfürstenstraße|12": {
+    "lat": 52.499307,
+    "lon": 13.366883,
+    "ok": true
+  },
+  "Kurfürstenstraße|124": {
+    "lat": 52.502433,
+    "lon": 13.350351,
+    "ok": true
+  },
+  "Kurfürstenstraße|125": {
+    "lat": 52.502356,
+    "lon": 13.35074,
+    "ok": true
+  },
+  "Kurfürstenstraße|126": {
+    "lat": 52.502332,
+    "lon": 13.351272,
+    "ok": true
+  },
+  "Kurfürstenstraße|130": {
+    "lat": 52.502195,
+    "lon": 13.352851,
+    "ok": true
+  },
+  "Kurfürstenstraße|131": {
+    "lat": 52.501889,
+    "lon": 13.353615,
+    "ok": true
+  },
+  "Kurfürstenstraße|133": {
+    "lat": 52.501569,
+    "lon": 13.354986,
+    "ok": true
+  },
+  "Kurfürstenstraße|134": {
+    "lat": 52.501455,
+    "lon": 13.355573,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Kurfürstenstraße|135": {
+    "lat": 52.501311,
+    "lon": 13.356225,
+    "ok": true
+  },
+  "Kurfürstenstraße|136": {
+    "lat": 52.501167,
+    "lon": 13.35688,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Kurfürstenstraße|137": {
+    "lat": 52.501023,
+    "lon": 13.357535,
+    "ok": true
+  },
+  "Kurfürstenstraße|141": {
+    "lat": 52.50055,
+    "lon": 13.359151,
+    "ok": true
+  },
+  "Kurfürstenstraße|144": {
+    "lat": 52.500205,
+    "lon": 13.360311,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Kurfürstenstraße|145": {
+    "lat": 52.50009,
+    "lon": 13.360698,
+    "ok": true
+  },
+  "Kurfürstenstraße|151": {
+    "lat": 52.499691,
+    "lon": 13.362289,
+    "ok": true
+  },
+  "Kurfürstenstraße|154": {
+    "lat": 52.499412,
+    "lon": 13.363904,
+    "ok": true
+  },
+  "Kurfürstenstraße|19": {
+    "lat": 52.499447,
+    "lon": 13.365656,
+    "ok": true
+  },
+  "Kurfürstenstraße|2": {
+    "lat": 52.499001,
+    "lon": 13.368934,
+    "ok": true
+  },
+  "Kurfürstenstraße|21-22": {
+    "lat": 52.499518,
+    "lon": 13.365145,
+    "ok": true
+  },
+  "Kurfürstenstraße|26": {
+    "lat": 52.499662,
+    "lon": 13.364104,
+    "ok": true
+  },
+  "Kurfürstenstraße|31": {
+    "lat": 52.500179,
+    "lon": 13.362343,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Kurfürstenstraße|32": {
+    "lat": 52.50014,
+    "lon": 13.362277,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Kurfürstenstraße|33": {
+    "lat": 52.500205,
+    "lon": 13.361548,
+    "ok": true
+  },
+  "Kurfürstenstraße|40": {
+    "lat": 52.500592,
+    "lon": 13.360192,
+    "ok": true
+  },
+  "Kurfürstenstraße|41-44": {
+    "lat": 52.500775,
+    "lon": 13.359662,
+    "ok": true
+  },
+  "Kurfürstenstraße|43": {
+    "lat": 52.500825,
+    "lon": 13.359486,
+    "ok": true
+  },
+  "Kurfürstenstraße|46": {
+    "lat": 52.50102,
+    "lon": 13.358793,
+    "ok": true
+  },
+  "Kurfürstenstraße|50": {
+    "lat": 52.501518,
+    "lon": 13.357662,
+    "ok": true
+  },
+  "Kurfürstenstraße|52-53": {
+    "lat": 52.501978,
+    "lon": 13.357097,
+    "ok": true
+  },
+  "Kurfürstenstraße|53": {
+    "lat": 52.501978,
+    "lon": 13.357097,
+    "ok": true
+  },
+  "Kurfürstenstraße|55": {
+    "lat": 52.501684,
+    "lon": 13.35618,
+    "ok": true
+  },
+  "Kurfürstenstraße|57": {
+    "lat": 52.501982,
+    "lon": 13.355377,
+    "ok": true
+  },
+  "Kurfürstenstraße|58": {
+    "lat": 52.502023,
+    "lon": 13.354716,
+    "ok": true
+  },
+  "Kurfürstenstraße|59": {
+    "lat": 52.502148,
+    "lon": 13.354269,
+    "ok": true
+  },
+  "Kurfürstenstraße|75": {
+    "lat": 52.503641,
+    "lon": 13.348864,
+    "ok": true
+  },
+  "Kurfürstenstraße|89": {
+    "lat": 52.503601,
+    "lon": 13.348224,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Kurfürstenstraße|9": {
+    "lat": 52.499219,
+    "lon": 13.367336,
+    "ok": true
+  },
+  "Kurmärkische Straße|1-3": {
+    "lat": 52.499476,
+    "lon": 13.359217,
+    "ok": true
+  },
+  "Körnerstraße|4": {
+    "lat": 52.501909,
+    "lon": 13.367282,
+    "ok": true
+  },
+  "Landgrafenstraße|14": {
+    "lat": 52.505645,
+    "lon": 13.349364,
+    "ok": true
+  },
+  "Landgrafenstraße|20": {
+    "ok": false
+  },
+  "Landgrafenstraße|3": {
+    "lat": 52.503985,
+    "lon": 13.348602,
+    "ok": true
+  },
+  "Landgrafenstraße|7": {
+    "lat": 52.504901,
+    "lon": 13.349516,
+    "ok": true
+  },
+  "Lützowplatz|11-13": {
+    "lat": 52.504129,
+    "lon": 13.353262,
+    "ok": true
+  },
+  "Lützowplatz|12": {
+    "lat": 52.504129,
+    "lon": 13.353262,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Lützowplatz|13": {
+    "lat": 52.504052,
+    "lon": 13.35321,
+    "ok": true
+  },
+  "Lützowplatz|15": {
+    "lat": 52.503843,
+    "lon": 13.353057,
+    "ok": true
+  },
+  "Lützowplatz|2": {
+    "lat": 52.50496,
+    "lon": 13.353739,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Lützowplatz|3": {
+    "lat": 52.504885,
+    "lon": 13.353717,
+    "ok": true
+  },
+  "Lützowplatz|5": {
+    "lat": 52.504735,
+    "lon": 13.353672,
+    "ok": true
+  },
+  "Lützowplatz|8": {
+    "lat": 52.50445,
+    "lon": 13.353584,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Lützowplatz|9": {
+    "lat": 52.504355,
+    "lon": 13.353555,
+    "ok": true
+  },
+  "Lützowstraße|1": {
+    "lat": 52.501971,
+    "lon": 13.371114,
+    "ok": true
+  },
+  "Lützowstraße|102-104": {
+    "lat": 52.502218,
+    "lon": 13.368659,
+    "ok": true
+  },
+  "Lützowstraße|106": {
+    "lat": 52.501999,
+    "lon": 13.3694,
+    "ok": true
+  },
+  "Lützowstraße|107-111": {
+    "lat": 52.501317,
+    "lon": 13.369832,
+    "ok": true
+  },
+  "Lützowstraße|109": {
+    "lat": 52.50181,
+    "lon": 13.370247,
+    "ok": true
+  },
+  "Lützowstraße|111": {
+    "lat": 52.501154,
+    "lon": 13.369461,
+    "ok": true
+  },
+  "Lützowstraße|111-113": {
+    "lat": 52.501449,
+    "lon": 13.3701,
+    "ok": true
+  },
+  "Lützowstraße|14": {
+    "lat": 52.502438,
+    "lon": 13.369219,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Lützowstraße|15": {
+    "lat": 52.502434,
+    "lon": 13.369144,
+    "ok": true
+  },
+  "Lützowstraße|16": {
+    "lat": 52.502541,
+    "lon": 13.368678,
+    "ok": true
+  },
+  "Lützowstraße|27": {
+    "lat": 52.50376,
+    "lon": 13.363429,
+    "ok": true
+  },
+  "Lützowstraße|28": {
+    "lat": 52.504217,
+    "lon": 13.362804,
+    "ok": true
+  },
+  "Lützowstraße|33-36": {
+    "lat": 52.504214,
+    "lon": 13.360332,
+    "ok": true
+  },
+  "Lützowstraße|38": {
+    "lat": 52.504529,
+    "lon": 13.359207,
+    "ok": true
+  },
+  "Lützowstraße|39-40": {
+    "lat": 52.504597,
+    "lon": 13.35885,
+    "ok": true
+  },
+  "Lützowstraße|42": {
+    "lat": 52.504654,
+    "lon": 13.357975,
+    "ok": true
+  },
+  "Lützowstraße|48": {
+    "lat": 52.50505,
+    "lon": 13.356167,
+    "ok": true
+  },
+  "Lützowstraße|48-49": {
+    "lat": 52.505168,
+    "lon": 13.356217,
+    "ok": true
+  },
+  "Lützowstraße|55": {
+    "lat": 52.504823,
+    "lon": 13.355297,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Lützowstraße|60": {
+    "lat": 52.504959,
+    "lon": 13.354986,
+    "ok": true
+  },
+  "Lützowstraße|60a": {
+    "lat": 52.504661,
+    "lon": 13.354676,
+    "ok": true
+  },
+  "Lützowstraße|7": {
+    "lat": 52.502468,
+    "lon": 13.369745,
+    "ok": true
+  },
+  "Lützowstraße|72": {
+    "lat": 52.504305,
+    "lon": 13.35797,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Lützowstraße|73": {
+    "lat": 52.504251,
+    "lon": 13.358219,
+    "ok": true
+  },
+  "Lützowstraße|74": {
+    "lat": 52.503962,
+    "lon": 13.358352,
+    "ok": true
+  },
+  "Lützowstraße|75": {
+    "lat": 52.504246,
+    "lon": 13.358623,
+    "ok": true
+  },
+  "Lützowstraße|76": {
+    "lat": 52.504004,
+    "lon": 13.358289,
+    "ok": true
+  },
+  "Lützowstraße|81": {
+    "lat": 52.503524,
+    "lon": 13.362352,
+    "ok": true
+  },
+  "Lützowstraße|82": {
+    "lat": 52.503246,
+    "lon": 13.362321,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Lützowstraße|83": {
+    "lat": 52.50312,
+    "lon": 13.362993,
+    "ok": true
+  },
+  "Lützowstraße|83-85": {
+    "lat": 52.503222,
+    "lon": 13.362643,
+    "ok": true
+  },
+  "Lützowstraße|84": {
+    "lat": 52.502762,
+    "lon": 13.362808,
+    "ok": true
+  },
+  "Lützowstraße|84c": {
+    "lat": 52.502762,
+    "lon": 13.362808,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Lützowstraße|85": {
+    "lat": 52.503325,
+    "lon": 13.362293,
+    "ok": true
+  },
+  "Lützowstraße|87": {
+    "lat": 52.502994,
+    "lon": 13.363747,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Lützowstraße|89": {
+    "lat": 52.503149,
+    "lon": 13.364373,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Lützowstraße|89-90": {
+    "lat": 52.503149,
+    "lon": 13.364373,
+    "ok": true
+  },
+  "Lützowstraße|93": {
+    "lat": 52.50279,
+    "lon": 13.366437,
+    "ok": true
+  },
+  "Magdeburger Platz|1": {
+    "lat": 52.502767,
+    "lon": 13.359451,
+    "ok": true
+  },
+  "Magdeburger Platz|3": {
+    "lat": 52.503132,
+    "lon": 13.36027,
+    "ok": true
+  },
+  "Magdeburger Platz|4": {
+    "lat": 52.503097,
+    "lon": 13.360449,
+    "ok": true
+  },
+  "Magdeburger Platz|5": {
+    "lat": 52.50305,
+    "lon": 13.360712,
+    "ok": true
+  },
+  "Matthäikirchplatz|4": {
+    "lat": 52.508947,
+    "lon": 13.36626,
+    "ok": true
+  },
+  "Nollendorfplatz|6": {
+    "ok": false
+  },
+  "Nollendorfplatz|8-9": {
+    "lat": 52.498908,
+    "lon": 13.354484,
+    "ok": true
+  },
+  "Pohlstraße|11": {
+    "lat": 52.499652,
+    "lon": 13.369147,
+    "ok": true
+  },
+  "Pohlstraße|16": {
+    "lat": 52.500131,
+    "lon": 13.368583,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Pohlstraße|18": {
+    "lat": 52.500323,
+    "lon": 13.368358,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Pohlstraße|20": {
+    "lat": 52.500515,
+    "lon": 13.368132,
+    "ok": true
+  },
+  "Pohlstraße|23": {
+    "lat": 52.500141,
+    "lon": 13.367983,
+    "ok": true
+  },
+  "Pohlstraße|37": {
+    "lat": 52.500277,
+    "lon": 13.366809,
+    "ok": true
+  },
+  "Pohlstraße|4": {
+    "lat": 52.500171,
+    "lon": 13.37029,
+    "ok": true
+  },
+  "Pohlstraße|44": {
+    "lat": 52.500749,
+    "lon": 13.365183,
+    "ok": true
+  },
+  "Pohlstraße|58": {
+    "lat": 52.501747,
+    "lon": 13.363352,
+    "ok": true
+  },
+  "Pohlstraße|60": {
+    "lat": 52.501288,
+    "lon": 13.362621,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Pohlstraße|62": {
+    "lat": 52.501355,
+    "lon": 13.362301,
+    "ok": true
+  },
+  "Pohlstraße|62-64": {
+    "lat": 52.501403,
+    "lon": 13.36214,
+    "ok": true
+  },
+  "Pohlstraße|64": {
+    "lat": 52.501422,
+    "lon": 13.36208,
+    "ok": true
+  },
+  "Pohlstraße|65": {
+    "lat": 52.500746,
+    "lon": 13.363214,
+    "ok": true
+  },
+  "Pohlstraße|69": {
+    "lat": 52.500861,
+    "lon": 13.362837,
+    "ok": true
+  },
+  "Pohlstraße|7": {
+    "lat": 52.500491,
+    "lon": 13.370039,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Pohlstraße|71": {
+    "lat": 52.500936,
+    "lon": 13.362704,
+    "ok": true
+  },
+  "Pohlstraße|75": {
+    "lat": 52.50107,
+    "lon": 13.362275,
+    "ok": true
+  },
+  "Pohlstraße|8": {
+    "lat": 52.500271,
+    "lon": 13.369387,
+    "ok": true
+  },
+  "Pohlstraße|89": {
+    "lat": 52.501571,
+    "lon": 13.360613,
+    "ok": true
+  },
+  "Pohlstraße|9-16": {
+    "lat": 52.500051,
+    "lon": 13.368735,
+    "ok": true
+  },
+  "Pohlstraße|97": {
+    "lat": 52.501857,
+    "lon": 13.359663,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Platz|10": {
+    "lat": 52.508204,
+    "lon": 13.377103,
+    "ok": true
+  },
+  "Potsdamer Platz|15": {
+    "lat": 52.50666,
+    "lon": 13.378369,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Platz|2": {
+    "lat": 52.509674,
+    "lon": 13.375017,
+    "ok": true
+  },
+  "Potsdamer Platz|3": {
+    "lat": 52.510365,
+    "lon": 13.375331,
+    "ok": true
+  },
+  "Potsdamer Platz|30": {
+    "ok": false
+  },
+  "Potsdamer Straße|10": {
+    "ok": false
+  },
+  "Potsdamer Straße|101": {
+    "lat": 52.500608,
+    "lon": 13.363882,
+    "ok": true
+  },
+  "Potsdamer Straße|102": {
+    "lat": 52.501463,
+    "lon": 13.363832,
+    "ok": true
+  },
+  "Potsdamer Straße|103": {
+    "lat": 52.500403,
+    "lon": 13.363615,
+    "ok": true
+  },
+  "Potsdamer Straße|105": {
+    "lat": 52.50026,
+    "lon": 13.363571,
+    "ok": true
+  },
+  "Potsdamer Straße|109": {
+    "lat": 52.499878,
+    "lon": 13.363214,
+    "ok": true
+  },
+  "Potsdamer Straße|113": {
+    "lat": 52.499294,
+    "lon": 13.362998,
+    "ok": true
+  },
+  "Potsdamer Straße|117": {
+    "lat": 52.498896,
+    "lon": 13.362768,
+    "ok": true
+  },
+  "Potsdamer Straße|118": {
+    "lat": 52.500248,
+    "lon": 13.362886,
+    "ok": true
+  },
+  "Potsdamer Straße|118b": {
+    "lat": 52.500248,
+    "lon": 13.362886,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Straße|119": {
+    "lat": 52.500186,
+    "lon": 13.362834,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Straße|120": {
+    "lat": 52.500124,
+    "lon": 13.362783,
+    "ok": true
+  },
+  "Potsdamer Straße|122": {
+    "lat": 52.499914,
+    "lon": 13.36263,
+    "ok": true
+  },
+  "Potsdamer Straße|124": {
+    "lat": 52.499645,
+    "lon": 13.362502,
+    "ok": true
+  },
+  "Potsdamer Straße|124-126": {
+    "lat": 52.499534,
+    "lon": 13.362465,
+    "ok": true
+  },
+  "Potsdamer Straße|125": {
+    "lat": 52.498034,
+    "lon": 13.362564,
+    "ok": true
+  },
+  "Potsdamer Straße|127": {
+    "lat": 52.498277,
+    "lon": 13.362268,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Straße|129": {
+    "lat": 52.497439,
+    "lon": 13.362136,
+    "ok": true
+  },
+  "Potsdamer Straße|137": {
+    "lat": 52.496926,
+    "lon": 13.36192,
+    "ok": true
+  },
+  "Potsdamer Straße|139": {
+    "lat": 52.496759,
+    "lon": 13.361849,
+    "ok": true
+  },
+  "Potsdamer Straße|141": {
+    "lat": 52.496595,
+    "lon": 13.361778,
+    "ok": true
+  },
+  "Potsdamer Straße|156": {
+    "lat": 52.496488,
+    "lon": 13.36107,
+    "ok": true
+  },
+  "Potsdamer Straße|163-165": {
+    "lat": 52.494601,
+    "lon": 13.361416,
+    "ok": true
+  },
+  "Potsdamer Straße|22": {
+    "lat": 52.508267,
+    "lon": 13.370875,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Straße|24": {
+    "lat": 52.50818,
+    "lon": 13.370642,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Straße|26": {
+    "lat": 52.508092,
+    "lon": 13.37041,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Straße|29": {
+    "lat": 52.507961,
+    "lon": 13.370061,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Straße|3": {
+    "lat": 52.509059,
+    "lon": 13.373848,
+    "ok": true
+  },
+  "Potsdamer Straße|30": {
+    "lat": 52.507917,
+    "lon": 13.369945,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Straße|31": {
+    "lat": 52.507873,
+    "lon": 13.369829,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Straße|38": {
+    "lat": 52.507566,
+    "lon": 13.369016,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Straße|39": {
+    "lat": 52.507523,
+    "lon": 13.368899,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Straße|4": {
+    "lat": 52.509714,
+    "lon": 13.372583,
+    "ok": true
+  },
+  "Potsdamer Straße|45": {
+    "lat": 52.50726,
+    "lon": 13.368202,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Straße|50": {
+    "lat": 52.507041,
+    "lon": 13.367621,
+    "ok": true
+  },
+  "Potsdamer Straße|52": {
+    "lat": 52.506686,
+    "lon": 13.367535,
+    "ok": true,
+    "via": "interpolated"
+  },
+  "Potsdamer Straße|60": {
+    "lat": 52.505267,
+    "lon": 13.367191,
+    "ok": true
+  },
+  "Potsdamer Straße|61": {
+    "lat": 52.504326,
+    "lon": 13.367251,
+    "ok": true
+  },
+  "Potsdamer Straße|66": {
+    "lat": 52.504906,
+    "lon": 13.36692,
+    "ok": true
+  },
+  "Potsdamer Straße|7": {
+    "lat": 52.508924,
+    "lon": 13.372618,
+    "ok": true
+  },
+  "Potsdamer Straße|73": {
+    "lat": 52.502738,
+    "lon": 13.365729,
+    "ok": true
+  },
+  "Potsdamer Straße|74": {
+    "lat": 52.504315,
+    "lon": 13.366451,
+    "ok": true
+  },
+  "Potsdamer Straße|75": {
+    "lat": 52.502631,
+    "lon": 13.365579,
+    "ok": true
+  },
+  "Potsdamer Straße|77": {
+    "lat": 52.502462,
+    "lon": 13.36543,
+    "ok": true
+  },
+  "Potsdamer Straße|77-87": {
+    "lat": 52.502094,
+    "lon": 13.36537,
+    "ok": true
+  },
+  "Potsdamer Straße|81": {
+    "lat": 52.502181,
+    "lon": 13.365184,
+    "ok": true
+  },
+  "Potsdamer Straße|81e": {
+    "lat": 52.501852,
+    "lon": 13.365765,
+    "ok": true
+  },
+  "Potsdamer Straße|83": {
+    "lat": 52.502212,
+    "lon": 13.365222,
+    "ok": true
+  },
+  "Potsdamer Straße|89": {
+    "lat": 52.501765,
+    "lon": 13.364852,
+    "ok": true
+  },
+  "Potsdamer Straße|91": {
+    "lat": 52.501222,
+    "lon": 13.365573,
+    "ok": true
+  },
+  "Potsdamer Straße|93": {
+    "lat": 52.501368,
+    "lon": 13.364523,
+    "ok": true
+  },
+  "Potsdamer Straße|96": {
+    "lat": 52.502046,
+    "lon": 13.364462,
+    "ok": true
+  },
+  "Potsdamer Straße|98": {
+    "lat": 52.502011,
+    "lon": 13.364105,
+    "ok": true
+  },
+  "Potsdamer Straße|98a": {
+    "lat": 52.50213,
+    "lon": 13.36298,
+    "ok": true
+  },
+  "Reichpietschufer|20": {
+    "lat": 52.505695,
+    "lon": 13.371499,
+    "ok": true
+  },
+  "Schillstraße|1": {
+    "ok": false
+  },
+  "Schillstraße|17": {
+    "ok": false
+  },
+  "Schillstraße|28": {
+    "ok": false
+  },
+  "Schillstraße|7": {
+    "ok": false
+  },
+  "Schöneberger Ufer|18": {
+    "ok": false
+  },
+  "Schöneberger Ufer|2": {
+    "ok": false
+  },
+  "Schöneberger Ufer|24": {
+    "ok": false
+  },
+  "Schöneberger Ufer|26": {
+    "ok": false
+  },
+  "Schöneberger Ufer|27": {
+    "ok": false
+  },
+  "Schöneberger Ufer|32": {
+    "ok": false
+  },
+  "Schöneberger Ufer|35": {
+    "ok": false
+  },
+  "Schöneberger Ufer|37": {
+    "ok": false
+  },
+  "Schöneberger Ufer|39": {
+    "ok": false
+  },
+  "Schöneberger Ufer|44": {
+    "ok": false
+  },
+  "Schöneberger Ufer|57": {
+    "lat": 52.505631,
+    "lon": 13.366258,
+    "ok": true
+  },
+  "Schöneberger Ufer|61": {
+    "lat": 52.505616,
+    "lon": 13.36579,
+    "ok": true
+  },
+  "Schöneberger Ufer|67a": {
+    "lat": 52.504932,
+    "lon": 13.364809,
+    "ok": true
+  },
+  "Steglitzer Straße|2": {
+    "ok": false
+  },
+  "Steglitzer Straße|27": {
+    "ok": false
+  },
+  "Steglitzer Straße|29": {
+    "ok": false
+  },
+  "Steglitzer Straße|49": {
+    "ok": false
+  },
+  "Steglitzer Straße|79": {
+    "ok": false
+  },
+  "Steglitzer Straße|81": {
+    "ok": false
+  },
+  "Steinmetzstraße|4": {
+    "lat": 52.498629,
+    "lon": 13.364084,
+    "ok": true
+  },
+  "Steinmetzstraße|6": {
+    "ok": false
+  },
+  "Steinmetzstraße|62": {
+    "ok": false
+  },
+  "Steinmetzstraße|9": {
+    "ok": false
+  },
+  "corner|Blumeshof|Schöneberger Ufer": {
+    "ok": false
+  },
+  "corner|Bülowstraße|Frobenstraße": {
+    "ok": false
+  },
+  "corner|Bülowstraße|Potsdamer Straße": {
+    "ok": false
+  },
+  "corner|Dennewitzstraße|Kurfürstenstraße": {
+    "ok": false
+  },
+  "corner|Dennewitzstraße|Pohlstraße": {
+    "ok": false
+  },
+  "corner|Derfflingerstraße|Kurfürstenstraße": {
+    "ok": false
+  },
+  "corner|Flottwellstraße|Lützowstraße": {
+    "ok": false
+  },
+  "corner|Flottwellstraße|Pohlstraße": {
+    "ok": false
+  },
+  "corner|Flottwellstraße|Potsdamer Straße": {
+    "ok": false
+  },
+  "corner|Flottwellstraße|Schöneberger Ufer": {
+    "ok": false
+  },
+  "corner|Frobenstraße|Kurfürstenstraße": {
+    "ok": false
+  },
+  "corner|Genthiner Straße|Kluckstraße": {
+    "ok": false
+  },
+  "corner|Genthiner Straße|Kurfürstenstraße": {
+    "ok": false
+  },
+  "corner|Genthiner Straße|Lützowstraße": {
+    "ok": false
+  },
+  "corner|Genthiner Straße|Magdeburger Platz": {
+    "ok": false
+  },
+  "corner|Genthiner Straße|Steglitzer Straße": {
+    "ok": false
+  },
+  "corner|Karl-Heinrich-Ulrichs-Straße|Nollendorfplatz": {
+    "ok": false
+  },
+  "corner|Karlsbad|Lützowstraße": {
+    "ok": false
+  },
+  "corner|Kluckstraße|Lützowstraße": {
+    "ok": false
+  },
+  "corner|Kluckstraße|Pohlstraße": {
+    "ok": false
+  },
+  "corner|Kluckstraße|Potsdamer Straße": {
+    "ok": false
+  },
+  "corner|Kurfürstenstraße|Landgrafenstraße": {
+    "ok": false
+  },
+  "corner|Kurfürstenstraße|Pohlstraße": {
+    "ok": false
+  },
+  "corner|Kurfürstenstraße|Potsdamer Straße": {
+    "ok": false
+  },
+  "corner|Kurfürstenstraße|Schillstraße": {
+    "ok": false
+  },
+  "corner|Kurfürstenstraße|Steglitzer Straße": {
+    "ok": false
+  },
+  "corner|Kurfürstenstraße|Steinmetzstraße": {
+    "ok": false
+  },
+  "corner|Körnerstraße|Lützowstraße": {
+    "ok": false
+  },
+  "corner|Körnerstraße|Pohlstraße": {
+    "ok": false
+  },
+  "corner|Lützowplatz|Schillstraße": {
+    "ok": false
+  },
+  "corner|Lützowstraße|Potsdamer Straße": {
+    "ok": false
+  },
+  "corner|Nollendorfplatz|Potsdamer Platz": {
+    "ok": false
+  },
+  "corner|Pohlstraße|Potsdamer Straße": {
+    "ok": false
+  },
+  "corner|Potsdamer Platz|Potsdamer Straße": {
+    "ok": false
+  },
+  "corner|Potsdamer Platz|Schöneberger Ufer": {
+    "ok": false
+  },
+  "corner|Potsdamer Straße|Schöneberger Ufer": {
+    "ok": false
+  },
+  "corner|Potsdamer Straße|Steglitzer Straße": {
+    "ok": false
+  }
+}

@@ -1,0 +1,58 @@
+title: 'Informations- und Beteiligungsveranstaltung am 5. März 2024:  Neue Fahrradstraßen
+  und Kiezblocks in Tiergarten-Süd'
+slug: 2024-02-29__bezirksamt-mitte-informations-und-beteiligungsveranstaltung-5-maerz-2024-neue-fa
+author: Redaktion
+date: '2024-02-29'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: 'Die Bezirksstadträtin für Ordnung, Umwelt, Natur, Straßen und Grünflächen, Dr. Almut Neumann und der Bezirksstadtrat für Stadtentwicklung und Facility Management, Ephraim Gothe informieren: Gleich fünf neue…'
+source_url: https://www.mittendran.de/bezirksamt-mitte-informations-und-beteiligungsveranstaltung-5-maerz-2024-neue-fahrradstrassen-und-kiezblocks-tiergarten-sued/
+wp_post_id: 30818
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße
+  lat: 52.502
+  lon: 13.362
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Stauffenbergstraße
+  lat: 52.508569
+  lon: 13.363799
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Lützowufer
+  lat: 52.505525
+  lon: 13.353321
+  osm_id: null
+  status: confirmed
+  via: regex

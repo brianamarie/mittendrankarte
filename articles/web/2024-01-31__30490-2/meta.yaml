@@ -1,0 +1,21 @@
+title: kiek ma!
+slug: 2024-01-31__30490-2
+author: FP
+date: '2024-01-31'
+issue: null
+rubrik: kiek ma!
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2024/01/IMG_7500.jpeg) Neuer Versuch, Tempo 30 auf der Pohlstraße durchzusetzen?
+source_url: https://www.mittendran.de/30490-2/
+wp_post_id: 30490
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer

@@ -1,0 +1,21 @@
+title: Vorsicht! Baustelle
+slug: 2023-05-17__vorsicht-baustelle
+author: eki
+date: '2023-05-17'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: []
+description: Das ehemalige „Sony Center“ erfindet sich neu. Wir berichteten darüber (https://www.mittendran.de/sony-center-traegt-neuen-namen/). Baustelle „Center am Potsdamer Platz“ Nun soll es eine Stadt in der Stadt werden, „A…
+source_url: https://www.mittendran.de/vorsicht-baustelle/
+wp_post_id: 27298
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer

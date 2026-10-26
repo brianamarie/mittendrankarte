@@ -1,0 +1,35 @@
+title: Ein U-Bahnhof am Magdeburger Platz?
+slug: 2025-03-21__ein-u-bahnhof-magdeburger-platz
+author: Hobpenz
+date: '2025-03-21'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: [1910, 1969, 1970, 1971, 1995, 2010, 2011, 2012]
+description: Direkt vor der Villa Lützow, am Magdeburger Platz, in die U-Bahn einsteigen und zum Nollendorfplatz oder zum Rathaus Schöneberg fahren? Das klingt nach Mobilität und Futur II. Manche aus dem Kiez würden trotz guter…
+source_url: https://www.mittendran.de/ein-u-bahnhof-magdeburger-platz/
+wp_post_id: 35435
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Genthiner Straße
+  lat: 52.501383
+  lon: 13.358361
+  osm_id: null
+  status: confirmed
+- name: Villa Lützow
+  lat: 52.504268
+  lon: 13.362851
+  osm_id: null
+  status: confirmed

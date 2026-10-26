@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Potsdamer Straße 120</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+    </nav>
+  </header>
+  
+<main class="place-page">
+  <p class="place-back"><a href="../../map.html">← Karte</a></p>
+  <p class="place-kicker">Ort auf der Karte</p>
+  <h1>Potsdamer Straße 120</h1>
+  <p class="place-stats">2 Beiträge · 2023–2026</p>
+  <p class="lead">Alle Beiträge, die diesen Ort nennen, neueste zuerst.</p>
+  <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50012&amp;mlon=13.36278#map=17/52.50012/13.36278" rel="noopener">Lage auf OpenStreetMap</a></p>
+  
+  <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><button type="button" data-rubrik="Aus dem Kiez" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">1</span></button><button type="button" data-rubrik="Bauen und Wohnen" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#8b6914"></span>Bauen und Wohnen <span class="n">1</span></button><button type="button" id="place-filter-reset" hidden>alle einblenden</button></div>
+  <section class="place-group"><h2 class="place-year">2026 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Bauen und Wohnen"><a href="https://www.mittendran.de/imbiss-kaplan-hat-geschlossen/" rel="noopener"><span class="place-bar" style="background:#8b6914"></span><span class="place-card-body"><strong>Imbiss Kaplan hat geschlossen</strong><div class="meta">2026-06-02 · <span class="place-tag" style="background:color-mix(in srgb, #8b6914 28%, white)">Bauen und Wohnen</span> · FP</div><p class="place-excerpt">Seit ein paar Tagen hat der Döner-Imbiss Kaplan geschlossen. Der Mietvertrag wurde nicht verlängert. Der Inhaber bedauert die Schließung und das Kaplan-Team dankt in einem Aushang allen Kunden für die gemeinsame Zeit…</p></span></a></li></ul></section><section class="place-group"><h2 class="place-year">2023 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/spaziergang-die-vergangenheit-6-die-villa-schneider-der-potsdamer-chaussee/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Spaziergang in die Vergangenheit (6): Die Villa Schneider an der Potsdamer Chaussee</strong><div class="meta">2023-12-10 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Als die Villa (Bild 1) gebaut wurde, hieß die Potsdamer Straße noch Potsdamer Chaussee, und die wenigen Häuser links und rechts entlang der Chaussee, vom Landwehrkanal in Richtung Schöneberg, waren zumeist Sommerhäuser…</p></span></a></li></ul></section>
+  <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
+  
+<script>
+(function () {
+  var buttons = Array.prototype.slice.call(
+    document.querySelectorAll(".place-rubriks button[data-rubrik]")
+  );
+  if (!buttons.length) return;
+  var items = document.querySelectorAll(".place-page .cards li");
+  var groups = document.querySelectorAll(".place-group");
+  var empty = document.querySelector(".place-empty");
+  var reset = document.getElementById("place-filter-reset");
+  var active = {};
+  buttons.forEach(function (btn) { active[btn.getAttribute("data-rubrik")] = true; });
+  function hiddenCount() {
+    return buttons.filter(function (btn) {
+      return !active[btn.getAttribute("data-rubrik")];
+    }).length;
+  }
+  function apply() {
+    var shown = 0;
+    items.forEach(function (li) {
+      var name = li.getAttribute("data-rubrik") || "";
+      var on = !name || !!active[name];
+      li.hidden = !on;
+      if (on) shown += 1;
+    });
+    groups.forEach(function (group) {
+      var visibleItems = group.querySelectorAll(".cards li:not([hidden])");
+      group.hidden = visibleItems.length === 0;
+      var count = group.querySelector(".place-year .n");
+      if (count) count.textContent = String(visibleItems.length);
+    });
+    if (empty) empty.hidden = shown !== 0;
+    if (reset) reset.hidden = hiddenCount() === 0;
+  }
+  buttons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var name = btn.getAttribute("data-rubrik");
+      active[name] = !active[name];
+      var on = !!active[name];
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+      btn.title = on ? "Ausblenden" : "Einblenden";
+      apply();
+    });
+  });
+  if (reset) {
+    reset.addEventListener("click", function () {
+      buttons.forEach(function (btn) {
+        active[btn.getAttribute("data-rubrik")] = true;
+        btn.setAttribute("aria-pressed", "true");
+        btn.title = "Ausblenden";
+      });
+      apply();
+    });
+  }
+})();
+</script>
+
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+</body>
+</html>

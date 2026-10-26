@@ -1,0 +1,46 @@
+title: Presseschau des Stadtteil-Forums Tiergarten Süd
+slug: 2026-08-28__presseschau-des-stadtteil-forums-tiergarten-sued-3
+author: Redaktion
+date: '2026-08-28'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1933, 1945]
+description: Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/ (https://forum-tgs.de/)). In den letzten 7 Tagen sind uns diese…
+source_url: https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-3/
+wp_post_id: 42854
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.504761
+  lon: 13.352547
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Genthiner Straße 18
+  lat: 52.50423
+  lon: 13.359479
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed
+- name: Kulturforum
+  lat: 52.508513
+  lon: 13.364749
+  osm_id: null
+  status: confirmed
+- name: Haus am Lützowplatz
+  lat: 52.504355
+  lon: 13.353555
+  osm_id: null
+  status: confirmed

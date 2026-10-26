@@ -1,0 +1,27 @@
+title: Straßensperrungen wegen Berlin-Marathon
+slug: 2023-09-19__strassensperrungen-wegen-berlin-marathon
+author: eki
+date: '2023-09-19'
+issue: null
+rubrik: Sport und Freizeit
+about_years: []
+description: Wegen des Berlin-Marathon ist von Samstag, den 23. September bis Sonntag, den 24. September mit Straßensperrungen zwischen Potsdamer Platz und Wittenbergplatz, zwischen dem Brandenburger Tor und der Straße des 17. Juni…
+source_url: https://www.mittendran.de/strassensperrungen-wegen-berlin-marathon/
+wp_post_id: 28873
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Wittenbergplatz
+  lat: 52.501798
+  lon: 13.343001
+  osm_id: null
+  status: auto
+  via: regex

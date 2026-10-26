@@ -1,0 +1,57 @@
+title: 'Spaziergang in die Vergangenheit (11): Ein Schwimmbad in der Lützowstraße'
+slug: 2024-03-06__spaziergang-die-vergangenheit-11-ein-schwimmbad-der-luetzowstrasse
+author: null
+date: '2024-03-06'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1821, 1850, 1860, 1863, 1864, 1872, 1874, 1876, 1877, 1878, 1880, 1882, 1886, 1888, 1891, 1893, 1894, 1900, 1901, 1902]
+description: Immer wieder kommt es vor, dass einem bei einer Recherche ein Zufallsfund in den Schoß fällt, mit dem man nicht gerechnet hat, und der einer Geschichte eine neue Wendung geben würde, würde man ihm nachgehen. Wenn dies…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-11-ein-schwimmbad-der-luetzowstrasse/
+wp_post_id: 30951
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 89-90
+  lat: 52.503149
+  lon: 13.364373
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Steglitzer Straße
+  lat: 52.5018
+  lon: 13.3635
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Dennewitzstraße
+  lat: 52.4988
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Straßen-im-kiez-die-dennewitzstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kolonialhaus-antelmann-luetzowstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Dorotheenstraße
+  lat: 52.519183
+  lon: 13.392997
+  osm_id: null
+  status: auto
+  via: regex
+- name: Lützowerwegstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

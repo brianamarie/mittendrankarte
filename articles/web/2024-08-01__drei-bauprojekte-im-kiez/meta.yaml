@@ -1,0 +1,45 @@
+title: Drei Bauprojekte im Kiez
+slug: 2024-08-01__drei-bauprojekte-im-kiez
+author: Paul Enck
+date: '2024-08-01'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [1930]
+description: 1. Kurfürstenstraße 134 Ecke Kielganstraße Seit längerem wird darüber spekuliert, was hier wohl gebaut wird. Das Gelände, auf dem ab 1930 die Botschaft von Litauen stand, war nach dem 2. Weltkrieg unbebaut geblieben…
+source_url: https://www.mittendran.de/drei-bauprojekte-im-kiez/
+wp_post_id: 33174
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.5043
+  lon: 13.3535
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße 134
+  lat: 52.501455
+  lon: 13.355573
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Haus am Lützowplatz
+  lat: 52.5045
+  lon: 13.3528
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kielganstraße
+  lat: 52.501216
+  lon: 13.355174
+  osm_id: null
+  status: confirmed
+  via: regex

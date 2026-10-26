@@ -1,0 +1,21 @@
+title: Berlin bewegt sich
+slug: 2024-08-08__berlin-bewegt-sich
+author: FP
+date: '2024-08-08'
+issue: null
+rubrik: Sport und Freizeit
+about_years: []
+description: Unter dem Motto „Berlin bewegt sich“ (https://www.berlin.de/berlin-bewegt-sich/ueber-uns/) bietet die Senatsverwaltung für Wissenschaft, Gesundheit und Pflege kostenlose Kurse für Leute an, die sich bewegen wollen. In…
+source_url: https://www.mittendran.de/berlin-bewegt-sich/
+wp_post_id: 33227
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer

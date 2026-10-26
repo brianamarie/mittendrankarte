@@ -1,0 +1,26 @@
+title: Neue Läden im Kiez
+slug: 2025-05-15__neue-laeden-tiergarten-sued
+author: FP
+date: '2025-05-15'
+issue: null
+rubrik: Gewerbe und Gastronomie
+about_years: []
+description: Dass im früheren Edeka-Markt in der Genthiner Straße diese Woche ein „Netto“-Supermarkt eröffnet hat, dürfte sich herumgesprochen haben. Und dass leider in der Potsdamer Straße einige Ladenlokale schon eine Weile leer…
+source_url: https://www.mittendran.de/neue-laeden-tiergarten-sued/
+wp_post_id: 37597
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße
+  lat: 52.501383
+  lon: 13.358361
+  osm_id: null
+  status: confirmed

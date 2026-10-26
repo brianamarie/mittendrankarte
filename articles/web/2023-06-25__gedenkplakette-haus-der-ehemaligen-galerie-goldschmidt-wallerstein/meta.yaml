@@ -1,0 +1,39 @@
+title: Gedenkplakette am Haus der ehemaligen Galerie Goldschmidt-Wallerstein
+slug: 2023-06-25__gedenkplakette-haus-der-ehemaligen-galerie-goldschmidt-wallerstein
+author: Redaktion
+date: '2023-06-25'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1920, 1934, 1935]
+description: (https://www.mittendran.de/wp-content/uploads/2023/06/IMG_6994.jpeg) Teilnehmende der Gedenkveranstaltung Foto FP Rund 45 Personen trafen sich am Sonntag, 25. Juni 2023, vor dem Haus in der ehemaligen Privatstraße…
+source_url: https://www.mittendran.de/gedenkplakette-haus-der-ehemaligen-galerie-goldschmidt-wallerstein/
+wp_post_id: 27724
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Privatstraße
+  lat: 52.476713
+  lon: 13.123598
+  osm_id: null
+  status: auto
+  via: regex

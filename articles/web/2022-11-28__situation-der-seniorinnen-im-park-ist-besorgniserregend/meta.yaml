@@ -1,0 +1,57 @@
+title: Situation der Senior*innen im Park ist besorgniserregend
+slug: 2022-11-28__situation-der-seniorinnen-im-park-ist-besorgniserregend
+author: Redaktion
+date: '2022-11-28'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [2010]
+description: Am 1. November tagte das Stadtteil-Forum Tiergarten Süd. Hauptthema war der Gleisdreieckpark. Wir berichteten darüber am 2. November (https://www.mittendran.de/polizei-einsaetze-im-gleisdreieckparktendenz-steigend/)und…
+source_url: https://www.mittendran.de/situation-der-seniorinnen-im-park-ist-besorgniserregend/
+wp_post_id: 24424
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowstraße 27
+  lat: 52.50376
+  lon: 13.363429
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kinderspielplatz
+  lat: 52.509216
+  lon: 13.338394
+  osm_id: null
+  status: auto
+  via: regex
+- name: Hauptweg
+  lat: 52.550808
+  lon: 13.282463
+  osm_id: null
+  status: auto
+  via: regex
+- name: Naturspielplatz
+  lat: 50.892375
+  lon: 7.093162
+  osm_id: null
+  status: auto
+  via: regex
+- name: Parallelweg
+  lat: 52.597691
+  lon: 13.392214
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,33 @@
+title: Sonderausstellung „Mission KI“ im Deutschen Technikmuseum
+slug: 2025-03-10__sonderausstellung-ki-im-deutschen-technikmuseum
+author: eki
+date: '2025-03-10'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: 'Zu Gast bei uns: MISSION KI Entdeckt den neuen interaktiven Erlebnisraum zu Künstlicher Intelligenz in der Ladestraße: Ausstellung, Angebote für Schulklassen und Veranstaltungen bis Ende des Jahres Wie funktioniert KI?…'
+source_url: https://www.mittendran.de/sonderausstellung-ki-im-deutschen-technikmuseum/
+wp_post_id: 35679
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Technikmuseum
+  lat: 52.4986
+  lon: 13.3775
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Ladestraße
+  lat: 52.5
+  lon: 13.3755
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Arbeitsplatz
+  lat: 52.421006
+  lon: 13.628508
+  osm_id: null
+  status: auto
+  via: regex

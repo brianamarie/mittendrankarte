@@ -1,0 +1,33 @@
+title: Ein neu gestalteter Vorgarten
+slug: 2023-07-26__ein-neu-gestalteter-vorgarten
+author: eki
+date: '2023-07-26'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Das markante Gebäude gegenüber dem U-Bahnhof Nollendorfplatz befindet sich an der Ecke zur Karl-Heinrich-Ulrichs-Straße. „Creditreform C“ „Creditreform C“ ist oben an der Fassade und auf den blauen Fahnen an der Seite…
+source_url: https://www.mittendran.de/ein-neu-gestalteter-vorgarten/
+wp_post_id: 28046
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Karl-Heinrich-Ulrichs-Straße
+  lat: 52.5
+  lon: 13.349
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Nollendorfplatz
+  lat: 52.499597
+  lon: 13.35373
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Maienstraße
+  lat: 52.50085
+  lon: 13.352323
+  osm_id: null
+  status: confirmed
+  via: regex

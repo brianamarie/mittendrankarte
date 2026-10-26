@@ -1,0 +1,45 @@
+title: Zahl der Ladepunkte für Elektroautos in Berlin gestiegen
+slug: 2024-07-12__zahl-der-ladepunkte-fuer-elektroautos-berlin-gestiegen
+author: Redaktion
+date: '2024-07-12'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Die Zahl der Ladepunkte für Elektroautos in Berlin liegt inzwischen bei rund 28.000. Davon sind 4.200 öffentlich zugänglich, wie die Wirtschaftsförderung Berlin Partner mit Verweis auf Zahlen von Stromnetz Berlin…
+source_url: https://www.mittendran.de/zahl-der-ladepunkte-fuer-elektroautos-berlin-gestiegen/
+wp_post_id: 32776
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.5043
+  lon: 13.3535
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Frobenstraße
+  lat: 52.4995
+  lon: 13.355
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Haus am Lützowplatz
+  lat: 52.5045
+  lon: 13.3528
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowufer
+  lat: 52.505525
+  lon: 13.353321
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: E-Ladesaeule-in-der-Frobenstraße
+  lat: 50.112694
+  lon: 8.652801
+  osm_id: null
+  status: auto
+  via: regex

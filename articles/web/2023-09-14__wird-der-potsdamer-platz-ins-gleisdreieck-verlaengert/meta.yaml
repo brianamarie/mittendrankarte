@@ -1,0 +1,51 @@
+title: Wird der Potsdamer Platz ins Gleisdreieck verlängert?
+slug: 2023-09-14__wird-der-potsdamer-platz-ins-gleisdreieck-verlaengert
+author: Redaktion
+date: '2023-09-14'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [1988, 1992, 1994, 1995, 1996, 1998, 2006]
+description: Ein Beitrag von Mathias Bauer, Gleisdreieckblog (https://gleisdreieck-blog.de) 25 Jahre nach der Eröffnung Veröffentlicht am 13. 09. 2023 Gerade steht das 25jährige Jubiläum des neuen Potsdamer Platzes an. Doch zum…
+source_url: https://www.mittendran.de/wird-der-potsdamer-platz-ins-gleisdreieck-verlaengert/
+wp_post_id: 28795
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kulturforum
+  lat: 52.5085
+  lon: 13.3675
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Berlins-potsdamer-platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Marlene-Dietrich-Platz
+  lat: 52.507399
+  lon: 13.372438
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Alexanderplatz
+  lat: 52.521981
+  lon: 13.413636
+  osm_id: null
+  status: auto
+  via: regex

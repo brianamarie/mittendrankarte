@@ -1,0 +1,27 @@
+title: +237 MAKÉNÉNÉ AFRO – Shop & Cosmetics
+slug: 2024-06-22__237-mak-c3-a9n-c3-a9n-c3-a9-afro-shop-cosmetics
+author: eki
+date: '2024-06-22'
+issue: null
+rubrik: Gewerbe und Gastronomie
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2024/06/2024-MAKENENE-AFRO-Foto-eki-2-scaled.jpg) MAKÉNÉNÉ AFRO Seit einer Woche gibt es ihn, den Laden für afrikanische- asiatische- und indische Lebensmittel „MAKÉNÉNÉ…
+source_url: https://www.mittendran.de/237-mak%c3%a9n%c3%a9n%c3%a9-afro-shop-cosmetics/
+wp_post_id: 32511
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Bülowstraße 4
+  lat: 52.498855
+  lon: 13.354923
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Nollendorfplatz
+  lat: 52.499597
+  lon: 13.35373
+  osm_id: null
+  status: confirmed
+  via: regex

@@ -1,0 +1,33 @@
+title: „2023 IS YOUR YEAR“
+slug: 2023-07-28__2023-is-your-year
+author: Redaktion
+date: '2023-07-28'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: []
+description: Sozialwohnungen für 28,50 €/m² netto kalt in der Dennewitzstraße? (EIN BEITRAG VON MATHIAS BAUER, GLEISDREIECKBLOG (https://gleisdreieck-blog.de/)) „2023 IS YOUR YEAR“ heißt es auf einem großen Transparent, das an dem…
+source_url: https://www.mittendran.de/2023-is-your-year/
+wp_post_id: 28082
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Dennewitzstraße 36-44
+  lat: 52.499384
+  lon: 13.370317
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Wohnpanorama-an-der-dennewitzstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Dennwitzstraße
+  lat: 52.498964
+  lon: 13.369429
+  osm_id: null
+  status: confirmed
+  via: regex

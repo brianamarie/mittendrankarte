@@ -1,0 +1,39 @@
+title: Das Gebäude der Stiftung Warentest am Lützowplatz 11-13
+slug: 2024-02-28__das-gebaeude-der-stiftung-warentest-luetzowplatz-11-13
+author: Redaktion
+date: '2024-02-28'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1910, 1923, 1930, 1933, 1952, 1964, 1965, 1986, 1987, 1991, 2000, 2002]
+description: Gastbeitrag von Norbert Böhmer. Das Baufeld am Lützowplatz war vor dem 2. Weltkrieg ein geschlossen bebauter Straßenzug. Auf dem Grundstück Lützowplatz 11-13 standen zwei repräsentative Wohnhäuser (Nr. 11 und Nr. 13…
+source_url: https://www.mittendran.de/das-gebaeude-der-stiftung-warentest-luetzowplatz-11-13/
+wp_post_id: 30783
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz 11-13
+  lat: 52.504129
+  lon: 13.353262
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Haus am Lützowplatz
+  lat: 52.5045
+  lon: 13.3528
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Luetzowplatz
+  lat: 52.504761
+  lon: 13.352547
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: StWa-Luetzowplatz
+  lat: 52.504761
+  lon: 13.352547
+  osm_id: null
+  status: confirmed
+  via: regex

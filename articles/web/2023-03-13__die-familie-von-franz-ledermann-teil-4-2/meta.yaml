@@ -1,0 +1,123 @@
+title: Die Familie von Franz Ledermann (Teil 5)
+slug: 2023-03-13__die-familie-von-franz-ledermann-teil-4-2
+author: Redaktion
+date: '2023-03-13'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1780, 1782, 1800, 1808, 1812, 1814, 1816, 1827, 1830, 1832, 1833, 1834, 1841, 1848, 1850, 1852, 1856, 1858, 1859, 1860, 1861, 1862, 1864, 1865, 1866, 1867, 1869, 1871, 1872, 1873, 1874, 1875, 1876, 1877, 1878, 1880, 1882, 1883, 1884, 1889, 1891, 1892, 1893, 1894, 1895, 1896, 1898, 1900, 1901, 1904, 1905, 1906, 1907, 1910, 1914, 1918, 1924, 1925, 1928, 1932, 1941, 1945, 1965]
+description: aus der Serie „Jüdische Geschichte im Lützow-Viertel“ (4.5), von Prof. Dr. Paul Enck, www.paul-enck.com. In diesem 5. Teil der Geschichte der Familie Ledermann geht es um Ilse Louise Ledermann geborene Citroen, die…
+source_url: https://www.mittendran.de/die-familie-von-franz-ledermann-teil-4-2/
+wp_post_id: 25950
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 42
+  lat: 52.504654
+  lon: 13.357975
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße 126
+  lat: 52.502332
+  lon: 13.351272
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Derfflingerstraße 21
+  lat: 52.503266
+  lon: 13.356603
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Bülowstraße 82
+  lat: 52.497946
+  lon: 13.363208
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Steglitzer Straße
+  lat: 52.5018
+  lon: 13.3635
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Philharmonie
+  lat: 52.51
+  lon: 13.37
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Halleschenstraße
+  lat: 51.467858
+  lon: 12.204186
+  osm_id: null
+  status: auto
+  via: regex
+- name: Oranienstraße
+  lat: 52.505045
+  lon: 13.405691
+  osm_id: null
+  status: auto
+  via: regex
+- name: Dorotheenstraße
+  lat: 52.519183
+  lon: 13.392997
+  osm_id: null
+  status: auto
+  via: regex
+- name: Grapengießerstraße
+  lat: 53.859359
+  lon: 10.636475
+  osm_id: null
+  status: auto
+  via: regex
+- name: Louisenstraße
+  lat: 52.399385
+  lon: 13.118426
+  osm_id: null
+  status: auto
+  via: regex
+- name: Karlsstraße
+  lat: 50.022455
+  lon: 8.219197
+  osm_id: null
+  status: auto
+  via: regex
+- name: Dessauerstraße
+  lat: 52.428518
+  lon: 13.345155
+  osm_id: null
+  status: auto
+  via: regex
+- name: Genthiner Straße 5a
+  lat: 52.50529
+  lon: 13.360096
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Friedrichstraße
+  lat: 52.522704
+  lon: 13.387838
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kochstraße
+  lat: 52.506652
+  lon: 13.389563
+  osm_id: null
+  status: auto
+  via: regex
+- name: Potsdamer Straße 109
+  lat: 52.499878
+  lon: 13.363214
+  osm_id: null
+  status: confirmed
+  via: address

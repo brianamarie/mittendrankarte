@@ -1,0 +1,51 @@
+title: 'Spaziergang in die Vergangenheit (8): Das Atelierhaus Lützowstraße 82'
+slug: 2024-01-27__spaziergang-die-vergangenheit-8-atelierhaeuser-der-luetzowstrasse
+author: Paul Enck
+date: '2024-01-27'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1830, 1846, 1849, 1850, 1854, 1855, 1858, 1860, 1861, 1863, 1865, 1870, 1872, 1889, 1890, 1892, 1893, 1896, 1902, 1903, 1905, 1907, 1908, 1910, 1915, 1922, 1924, 1925, 1931, 1935, 1938, 1944]
+description: Wir sind schon einmal im Atelierhaus an der Lützowstraße 82 gewesen, vor kurzem anlässlich der Munch-Ausstellung in Berlin hatten wir ein Foto veröffentlicht, das ihn in seinem Atelier sitzend zeigt (mittendran vom 8…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-8-atelierhaeuser-der-luetzowstrasse/
+wp_post_id: 30334
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 82
+  lat: 52.503246
+  lon: 13.362321
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Luetzowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Straße-eine-privatstraße
+  lat: 52.532342
+  lon: 13.383607
+  osm_id: null
+  status: auto
+  via: regex
+- name: Lützowerwegstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

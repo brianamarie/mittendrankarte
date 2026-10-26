@@ -1,0 +1,27 @@
+title: 'Straßen im KiezNochmal: Das „Haus mit den runden Ecken“'
+slug: 2022-11-02__strassen-im-kieznochmal-das-haus-mit-den-runden-ecken
+author: Redaktion
+date: '2022-11-02'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1807, 1860, 1876, 1891, 1894, 1912, 1929, 1943, 1985]
+description: (ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com)) Wir hatten neulich das „Haus mit den runden Ecken“ kommentiert (mittendran vom 27.7.2022…
+source_url: https://www.mittendran.de/strassen-im-kieznochmal-das-haus-mit-den-runden-ecken/
+wp_post_id: 24143
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 136
+  lat: 52.501167
+  lon: 13.35688
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Die-straßen-im-kiez-kielganstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

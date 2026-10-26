@@ -1,0 +1,33 @@
+title: 'Erziehung und Wissenschaft damals (6-1): Die Körner-Realschule'
+slug: 2024-12-10__schulen-im-luetzow-viertel-6-die-koerner-schule
+author: Paul Enck
+date: '2024-12-10'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1791, 1813, 1815, 1858, 1877, 1886, 1887, 1888, 1889, 1890, 1891, 1892, 1895, 1896, 1902, 1910, 1912, 1913, 1923, 1928, 1930, 1931, 1932, 1935, 1948]
+description: Fast hätten wir sie übersehen, die Körner-Realschule, die ursprünglich die 3. Städtische Realschule bzw. III. Städtische Höhere Bürgerschule hieß und die am 13. Oktober 1887, wenige Jahre nach dem Falk-Realgymnasium…
+source_url: https://www.mittendran.de/schulen-im-luetzow-viertel-6-die-koerner-schule/
+wp_post_id: 34815
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße 18
+  lat: 52.500323
+  lon: 13.368358
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße 144
+  lat: 52.500205
+  lon: 13.360311
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Derfflingerstraße 18a
+  lat: 52.50264
+  lon: 13.356224
+  osm_id: null
+  status: confirmed
+  via: address

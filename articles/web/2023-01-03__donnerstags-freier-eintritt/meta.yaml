@@ -1,0 +1,21 @@
+title: Donnerstags freier Eintritt
+slug: 2023-01-03__donnerstags-freier-eintritt
+author: eki
+date: '2023-01-03'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Ab Donnerstag, 5. Januar 2023 ist der Eintritt in die Neue Nationalgalerie im Rahmen von Volkswagen Art4All jeden Donnerstag von 16 bis 20 Uhr frei…
+source_url: https://www.mittendran.de/donnerstags-freier-eintritt/
+wp_post_id: 24880
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Neue Nationalgalerie
+  lat: 52.5068
+  lon: 13.3678
+  osm_id: null
+  status: confirmed
+  via: gazetteer

@@ -1,0 +1,27 @@
+title: Mai-Treffen  des Stadtteil-Forums
+slug: 2023-04-26__mai-treffen-des-stadtteil-forums
+author: Redaktion
+date: '2023-04-26'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Die nächste Sitzung des Stadtteil-Forums Tiergarten Süd beschäftigt sich mit der Arbeit des Familienzentrums in der Villa Lützow, Joanna Kalkowski stellt neue Ausleihmöglichkeiten unter dem Motto „nutzen statt kaufen“…
+source_url: https://www.mittendran.de/mai-treffen-des-stadtteil-forums/
+wp_post_id: 26918
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

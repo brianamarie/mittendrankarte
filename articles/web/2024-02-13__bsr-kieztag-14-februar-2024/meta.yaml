@@ -1,0 +1,33 @@
+title: BSR-Kieztag am 14. März  2024
+slug: 2024-02-13__bsr-kieztag-14-februar-2024
+author: Redaktion
+date: '2024-02-13'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2024/02/2024-Damit-es-nicht-so-endet-Foto-eki-scaled.jpg) …damit es nicht so endet (Foto:eki) Matratzen, Kühlschränke, Sofas – illegal auf dem Gehweg abgestellter Sperrmüll…
+source_url: https://www.mittendran.de/bsr-kieztag-14-februar-2024/
+wp_post_id: 30615
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Körnerstraße
+  lat: 52.4965
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gehweg
+  lat: 50.284553
+  lon: 7.612541
+  osm_id: null
+  status: auto
+  via: regex

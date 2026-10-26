@@ -1,0 +1,33 @@
+title: Die Steinway-Gussplatte ist zurück
+slug: 2022-07-12__die-steinway-gussplatte-ist-zurueck
+author: eki
+date: '2022-07-12'
+issue: null
+rubrik: kiek ma!
+about_years: [1884]
+description: (https://www.mittendran.de/wp-content/uploads/2022/07/2022-Die-Gussplatte-ist-weg-Foto-eki-scaled.jpg) Die Gussplatte ist weg Die schwere glockenförmige Steinway-Gussplatte vor dem Gebäude von Steinway & Sons am…
+source_url: https://www.mittendran.de/die-steinway-gussplatte-ist-zurueck/
+wp_post_id: 22775
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Keithstraße
+  lat: 52.503
+  lon: 13.3455
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Die-Gussplatte-ist-weg
+  lat: 50.554445
+  lon: 12.320838
+  osm_id: null
+  status: auto
+  via: regex
+- name: Lützowufer
+  lat: 52.505525
+  lon: 13.353321
+  osm_id: null
+  status: confirmed
+  via: regex

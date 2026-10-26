@@ -1,0 +1,27 @@
+title: Feierliche Eröffnung des Apostel-Hain
+slug: 2023-11-08__feierliche-eroeffnung-des-apostel-hain
+author: Redaktion
+date: '2023-11-08'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Feierliche Eröffnung des Apostel-Hain Die Baumbestattung auf dem Alten Zwölf-Apostel-Kirchhof Sonntag, 12. November, 12.00 Uhr Alter Zwölf-Apostel-Kirchhof, Kapelle Kolonnenstraße 24-25 10829 Berlin Eintritt frei…
+source_url: https://www.mittendran.de/feierliche-eroeffnung-des-apostel-hain/
+wp_post_id: 29506
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Alter Zwölf-Apostel-Kirchhof
+  lat: 52.4915
+  lon: 13.361
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kolonnenstraße
+  lat: 52.485578
+  lon: 13.362547
+  osm_id: null
+  status: auto
+  via: regex

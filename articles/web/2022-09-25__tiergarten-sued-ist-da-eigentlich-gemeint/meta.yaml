@@ -1,0 +1,57 @@
+title: Tiergarten-Süd?  was ist da eigentlich gemeint?
+slug: 2022-09-25__tiergarten-sued-ist-da-eigentlich-gemeint
+author: Redaktion
+date: '2022-09-25'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1987]
+description: Susanne Storm und Heiner Wörmann führen durch unseren Kiez Tiergarten-Süd? Da muss man erst einmal überlegen, was genau damit gemeint ist … auf jeden Fall ein Stadtquartier, welches es in sich hat und wo sich in den…
+source_url: https://www.mittendran.de/tiergarten-sued-ist-da-eigentlich-gemeint/
+wp_post_id: 23637
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowplatz 9
+  lat: 52.504355
+  lon: 13.353555
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Haus am Lützowplatz
+  lat: 52.5045
+  lon: 13.3528
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Tiergartenstraße
+  lat: 52.5108
+  lon: 13.369122
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Lützowufer
+  lat: 52.505525
+  lon: 13.353321
+  osm_id: null
+  status: confirmed
+  via: regex

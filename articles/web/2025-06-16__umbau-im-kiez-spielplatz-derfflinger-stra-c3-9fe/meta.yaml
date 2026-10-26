@@ -1,0 +1,33 @@
+title: Umbau im Kiez? Spielplatz Derfflinger-Straße
+slug: 2025-06-16__umbau-im-kiez-spielplatz-derfflinger-stra-c3-9fe
+author: Hobpenz
+date: '2025-06-16'
+issue: null
+rubrik: Kiez mit Kind
+about_years: []
+description: Wir werden Mitte Juli die Möglichkeit haben, zusammen mit dem Stadtteilkoordinator eine Begehung gemeinsam mit den Bezirksstadträten im Kiez zu machen, bei der unterschiedliche Orte angeschaut und besprochen werden. So…
+source_url: https://www.mittendran.de/umbau-im-kiez-spielplatz-derfflinger-stra%c3%9fe/
+wp_post_id: 37970
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Spielplatz
+  lat: 52.464375
+  lon: 13.504941
+  osm_id: null
+  status: auto
+  via: regex
+- name: Derfflingerstraße
+  lat: 52.504595
+  lon: 13.357162
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Kiez-mit-kind-der-spielplatz-hinter-der-derfflinger-straße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

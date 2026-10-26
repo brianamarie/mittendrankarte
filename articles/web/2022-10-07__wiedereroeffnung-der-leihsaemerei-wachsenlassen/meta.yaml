@@ -1,0 +1,27 @@
+title: Wiedereröffnung der LeihSämerei wachsenlassen
+slug: 2022-10-07__wiedereroeffnung-der-leihsaemerei-wachsenlassen
+author: Redaktion
+date: '2022-10-07'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: in Berlin Mitte, Tiergarten-Süd (ein Beitrag von Gabriele Koll, wachsenlassen (https://wachsenlassen.com)) (https://wachsenlassen.files.wordpress.com/2022/10/lei1a.jpg) Ab dem 8.10.2022, zum KiezTag der Kiez Zentrums…
+source_url: https://www.mittendran.de/wiedereroeffnung-der-leihsaemerei-wachsenlassen/
+wp_post_id: 23744
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

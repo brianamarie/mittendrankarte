@@ -1,0 +1,26 @@
+title: 'Spaziergang in die Vergangenheit (29): Die Autos der Familie Fürstenberg'
+slug: 2025-06-14__spaziergang-die-vergangenheit-29-die-autos-der-familie-fuerstenberg
+author: Paul Enck
+date: '2025-06-14'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1860, 1900, 1902, 1909, 1912, 1914, 1918, 1920, 1922, 1924, 1926, 1928, 1932, 1934, 1938, 1940, 2001]
+description: Die Geschichte der Familie Fürstenberg vom Lützowplatz, in zwei Teilen bei mittendran (20. Januar 2024 (https://www.mittendran.de/das-haus-fuerstenberg-luetzowplatz-teil-1/) und 17. Februar 2024…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-29-die-autos-der-familie-fuerstenberg/
+wp_post_id: 37880
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.504761
+  lon: 13.352547
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße 125
+  lat: 52.498034
+  lon: 13.362564
+  osm_id: null
+  status: confirmed
+  via: address

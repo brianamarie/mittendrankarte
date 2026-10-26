@@ -1,0 +1,27 @@
+title: Begegnungsfest  an der Zwölf-Apostel-Kirche
+slug: 2023-09-01__zwoel
+author: Redaktion
+date: '2023-09-01'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: Am 3. September 2023 findet vor der Zwölf-Apostel-Kirche ein „Begegnungsfest für Alle“ statt. Nachbar*innen und Menschen, die einfach vorbeikommen, können sich begegnen, miteinander reden, sich austauschen, anregen und…
+source_url: https://www.mittendran.de/zwoel/
+wp_post_id: 28566
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Zwölf-Apostel-Kirche
+  lat: 52.5008
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Vorplatz
+  lat: 51.906364
+  lon: 8.378167
+  osm_id: null
+  status: auto
+  via: regex

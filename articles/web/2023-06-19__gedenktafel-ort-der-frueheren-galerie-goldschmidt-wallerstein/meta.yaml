@@ -1,0 +1,27 @@
+title: Gedenktafel am Ort der früheren Galerie Goldschmidt-Wallerstein
+slug: 2023-06-19__gedenktafel-ort-der-frueheren-galerie-goldschmidt-wallerstein
+author: Redaktion
+date: '2023-06-19'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1879, 1886, 1919, 1920, 1934, 1935, 1944]
+description: 'Am kommenden Sonntag, 25. Juni 2023, um 11 Uhr wird am Standort der ehemaligen Galerie Goldschmidt-Wallerstein eine Gedenktafel enthüllt. Ort: Schöneberger Ufer 67a. (Zugang über Elisabeth-Krankenhaus, Lützowstr.26)…'
+source_url: https://www.mittendran.de/gedenktafel-ort-der-frueheren-galerie-goldschmidt-wallerstein/
+wp_post_id: 27582
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Schöneberger Ufer 67a
+  lat: 52.504932
+  lon: 13.364809
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Lützowstraße 27
+  lat: 52.50376
+  lon: 13.363429
+  osm_id: null
+  status: confirmed
+  via: address

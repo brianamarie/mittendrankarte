@@ -1,0 +1,39 @@
+title: Die Ultrazell GmbH
+slug: 2022-12-09__die-ultrazell-gmbh
+author: Redaktion
+date: '2022-12-09'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1901, 1925, 1929, 1930, 1931, 1932, 1933, 1934, 1936, 1937, 1939, 1940, 1941, 1942, 1943, 1945, 1952, 1955, 1957]
+description: ein Beitrag von Bethan Griffiths zu:Jüdische Gewerbebetriebe rund um die Potsdamer Straße Nach dem Tod seiner Mutter im Jahr 1929 wurde der Kaufmann und ausgezeichnete Kriegsveteran Curt Joseph Inhaber des…
+source_url: https://www.mittendran.de/die-ultrazell-gmbh/
+wp_post_id: 24375
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kommandantenstraße
+  lat: 52.508514
+  lon: 13.403049
+  osm_id: null
+  status: auto
+  via: regex
+- name: Schaperstraße
+  lat: 52.498789
+  lon: 13.32752
+  osm_id: null
+  status: auto
+  via: regex
+- name: Fußweg
+  lat: 52.39512
+  lon: 13.592238
+  osm_id: null
+  status: auto
+  via: regex

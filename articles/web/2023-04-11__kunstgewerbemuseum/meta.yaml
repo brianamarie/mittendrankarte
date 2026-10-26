@@ -1,0 +1,27 @@
+title: 'Fünf Glasuren und neun Holzarten: Evelyn Klam und Michael O’Meara im Kunstgewerbemuseum'
+slug: 2023-04-11__kunstgewerbemuseum
+author: APZ
+date: '2023-04-11'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [2011]
+description: (https://www.mittendran.de/wp-content/uploads/2023/04/8644F652-FF1F-4959-81AF-CD6633A2D9B2-scaled.jpeg) Nach der Pandemiepause stellen die Handwerkskammern Berlin und Paris wieder jurierte Arbeiten von…
+source_url: https://www.mittendran.de/kunstgewerbemuseum/
+wp_post_id: 26479
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße 11
+  lat: 52.499652
+  lon: 13.369147
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Matthäikirchplatz
+  lat: 52.5082
+  lon: 13.3665
+  osm_id: null
+  status: confirmed
+  via: gazetteer

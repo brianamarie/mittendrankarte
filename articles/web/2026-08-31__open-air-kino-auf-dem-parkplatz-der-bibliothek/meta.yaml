@@ -1,0 +1,21 @@
+title: Open Air-Kino auf dem Parkplatz der Bibliothek
+slug: 2026-08-31__open-air-kino-auf-dem-parkplatz-der-bibliothek
+author: Redaktion
+date: '2026-08-31'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1987]
+description: 'Das Team der Bibliothek Tiergarten Süd lädt ein: Liebe Aktive und Interessierte, wussten Sie, dass es auch in Tiergarten Süd ein Open Air-Kino gibt? Ja, die Bibliothek startet mit einem Filmangebot, draußen auf der…'
+source_url: https://www.mittendran.de/open-air-kino-auf-dem-parkplatz-der-bibliothek/
+wp_post_id: 42868
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Parkplatz
+  lat: 52.586798
+  lon: 13.351959
+  osm_id: null
+  status: auto
+  via: regex

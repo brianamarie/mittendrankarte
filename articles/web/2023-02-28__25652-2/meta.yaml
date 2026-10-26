@@ -1,0 +1,27 @@
+title: Camaro Stiftung lädt zu Klavierkonzert
+slug: 2023-02-28__25652-2
+author: APZ
+date: '2023-02-28'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1993]
+description: 'APERITIVO IM CAMARO HAUS Liebe Freund:innen der Camaro Stiftung, wir laden Sie und Ihre Freunde am Donnerstag, den 02. März 2023 um 18.30 Uhr zum Klavier-Konzert mit Laura Pinella herzlich ein! Johannes Brahms: 6…'
+source_url: https://www.mittendran.de/25652-2/
+wp_post_id: 25652
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer

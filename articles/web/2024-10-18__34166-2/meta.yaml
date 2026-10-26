@@ -1,0 +1,27 @@
+title: Wohnen im Alter
+slug: 2024-10-18__34166-2
+author: Redaktion
+date: '2024-10-18'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: Beitrag von Max Söding, Stadtteilkoordination Tiergarten Süd Liebe Aktive und Mitlesende des Runden Tisch „Älter werden rund um die Potsdamer Straße“, als kleine Erinnerung für die Veranstaltung zum Wohnen im Alter…
+source_url: https://www.mittendran.de/34166-2/
+wp_post_id: 34166
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Alexanderplatz
+  lat: 52.521981
+  lon: 13.413636
+  osm_id: null
+  status: auto
+  via: regex

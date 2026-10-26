@@ -1,0 +1,33 @@
+title: Es tut sich was …
+slug: 2022-09-19__es-tut-sich
+author: FP
+date: '2022-09-19'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: '… bei der Durchwegung für Fußgänger vom Parkplatz Möbel Hübner zur Kurfürstenstraße. Neuerdings gibt es ein Schild am Tor auf dem Parkplatz: „Privatgrundstück. Durchgang zur Kurfürstenstraße gestattet. 22:00 – 07 Uhr…'
+source_url: https://www.mittendran.de/es-tut-sich/
+wp_post_id: 23510
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Parkplatz
+  lat: 52.586798
+  lon: 13.351959
+  osm_id: null
+  status: auto
+  via: regex
+- name: Schild-am-Tor-Parkplatz
+  lat: 51.387135
+  lon: 11.605394
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,27 @@
+title: Das „Haus mit den runden Ecken“
+slug: 2022-07-27__das-haus-mit-den-runden-ecken
+author: Paul Enck
+date: '2022-07-27'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1868, 1910, 1923, 1939, 1952, 1958]
+description: Wir veröffentlichen hier einen Leserbrief mit Bild zum Artikel von Edith Kitzelmann vom 25.7. (VIEL REGENBOGEN UND EIN NEU ERÖFFNETER SPÄTI (https://www.mittendran.de/viel-regenbogen-und-ein-neu-eroeffneter-spaeti/)) –…
+source_url: https://www.mittendran.de/das-haus-mit-den-runden-ecken/
+wp_post_id: 22946
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Motzstraße
+  lat: 52.493798
+  lon: 13.335401
+  osm_id: null
+  status: auto
+  via: regex

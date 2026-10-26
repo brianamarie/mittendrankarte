@@ -1,0 +1,49 @@
+title: Presseschau des Stadtteilforums Tiergarten-Süd
+slug: 2026-08-07__presseschau-des-stadtteilforums-tiergarten-sued
+author: Redaktion
+date: '2026-08-07'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/ (https://forum-tgs.de/)). In den letzten 7 Tagen sind uns diese…
+source_url: https://www.mittendran.de/presseschau-des-stadtteilforums-tiergarten-sued/
+wp_post_id: 42548
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Lützowstraße 76
+  lat: 52.504004
+  lon: 13.358289
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße 43
+  lat: 52.500825
+  lon: 13.359486
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Derfflingerstraße
+  lat: 52.5048
+  lon: 13.357
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

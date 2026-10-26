@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Spielstraße-Pohlstraße</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+    </nav>
+  </header>
+  
+<main class="place-page">
+  <p class="place-back"><a href="../../map.html">← Karte</a></p>
+  <p class="place-kicker">Ort auf der Karte</p>
+  <h1>Spielstraße-Pohlstraße</h1>
+  <p class="place-stats">4 Beiträge · 2022–2023</p>
+  <p class="lead">Alle Beiträge, die diesen Ort nennen, neueste zuerst.</p>
+  <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50103&amp;mlon=13.36284#map=17/52.50103/13.36284" rel="noopener">Lage auf OpenStreetMap</a></p>
+  
+  <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><button type="button" data-rubrik="Miteinander" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#c45c26"></span>Miteinander <span class="n">1</span></button><button type="button" data-rubrik="Kinder, Heranwachsende, Schule" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#3d8b8b"></span>Kinder, Heranwachsende, Schule <span class="n">3</span></button><button type="button" id="place-filter-reset" hidden>alle einblenden</button></div>
+  <section class="place-group"><h2 class="place-year">2023 · <span class="n">3</span></h2><ul class="cards"><li data-rubrik="Kinder, Heranwachsende, Schule"><a href="https://www.mittendran.de/spielstrassepohlstrasse/" rel="noopener"><span class="place-bar" style="background:#3d8b8b"></span><span class="place-card-body"><strong>Spielstraße/Pohlstraße</strong><div class="meta">2023-06-19 · <span class="place-tag" style="background:color-mix(in srgb, #3d8b8b 28%, white)">Kinder, Heranwachsende, Schule</span> · eki</div><p class="place-excerpt">Am Donnerstag, den 22. Juni ist es wieder so weit. Die Pohlstraße wird zum 3. Mal in diesem Jahr zur Spielstraße werden. In der Zeit von 15:00 Uhr bis 19:00 Uhr wird die Straße ganz den Kindern gehören. Spielstraße…</p></span></a></li><li data-rubrik="Kinder, Heranwachsende, Schule"><a href="https://www.mittendran.de/puppentheater-fingerleicht-zu-gast-der-spielstrasse/" rel="noopener"><span class="place-bar" style="background:#3d8b8b"></span><span class="place-card-body"><strong>„PUPPENTHEATER FINGERLEICHT“  zu Gast in der Spielstraße</strong><div class="meta">2023-04-27 · <span class="place-tag" style="background:color-mix(in srgb, #3d8b8b 28%, white)">Kinder, Heranwachsende, Schule</span></div><p class="place-excerpt">Nun war es wieder so weit, die westliche Pohlstraße wurde zur ersten Spielstraße in diesem Jahr. (https://www.mittendran.de/wp-content/uploads/2023/04/2023-Foto-eki-1.jpg) Pohlstraße-Spielstraße Hier hatten für einen…</p></span></a></li><li data-rubrik="Miteinander"><a href="https://www.mittendran.de/donnerstag-ist-wieder-spielstrasse-der-pohlstrasse/" rel="noopener"><span class="place-bar" style="background:#c45c26"></span><span class="place-card-body"><strong>Am Donnerstag ist wieder Spielstraße in der Pohlstraße</strong><div class="meta">2023-04-26 · <span class="place-tag" style="background:color-mix(in srgb, #c45c26 28%, white)">Miteinander</span> · FP</div><p class="place-excerpt">Am Donnerstag, 7. April, von 15-19 Uhr wird der westliche Teil der Pohlstraße wieder zu einer autofreien Spielstraße für Alle. Es wird ein Puppentheater geben…</p></span></a></li></ul></section><section class="place-group"><h2 class="place-year">2022 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Kinder, Heranwachsende, Schule"><a href="https://www.mittendran.de/spielstrasse-der-pohlstrasse-war-ein-voller-erfolg/" rel="noopener"><span class="place-bar" style="background:#3d8b8b"></span><span class="place-card-body"><strong>Spielstraße in der Pohlstraße  war ein voller Erfolg</strong><div class="meta">2022-09-23 · <span class="place-tag" style="background:color-mix(in srgb, #3d8b8b 28%, white)">Kinder, Heranwachsende, Schule</span> · FP</div><p class="place-excerpt">Foto eki Die letzte Spielstraßenaktion in diesem Jahr am 22. September war gut besucht. Weil in ganz Berlin „Autofreier Tag“ war, gab es mehr Fördermittel als sonst, und die wurden sinnvoll eingesetzt. So konnte das…</p></span></a></li></ul></section>
+  <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
+  
+<script>
+(function () {
+  var buttons = Array.prototype.slice.call(
+    document.querySelectorAll(".place-rubriks button[data-rubrik]")
+  );
+  if (!buttons.length) return;
+  var items = document.querySelectorAll(".place-page .cards li");
+  var groups = document.querySelectorAll(".place-group");
+  var empty = document.querySelector(".place-empty");
+  var reset = document.getElementById("place-filter-reset");
+  var active = {};
+  buttons.forEach(function (btn) { active[btn.getAttribute("data-rubrik")] = true; });
+  function hiddenCount() {
+    return buttons.filter(function (btn) {
+      return !active[btn.getAttribute("data-rubrik")];
+    }).length;
+  }
+  function apply() {
+    var shown = 0;
+    items.forEach(function (li) {
+      var name = li.getAttribute("data-rubrik") || "";
+      var on = !name || !!active[name];
+      li.hidden = !on;
+      if (on) shown += 1;
+    });
+    groups.forEach(function (group) {
+      var visibleItems = group.querySelectorAll(".cards li:not([hidden])");
+      group.hidden = visibleItems.length === 0;
+      var count = group.querySelector(".place-year .n");
+      if (count) count.textContent = String(visibleItems.length);
+    });
+    if (empty) empty.hidden = shown !== 0;
+    if (reset) reset.hidden = hiddenCount() === 0;
+  }
+  buttons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var name = btn.getAttribute("data-rubrik");
+      active[name] = !active[name];
+      var on = !!active[name];
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+      btn.title = on ? "Ausblenden" : "Einblenden";
+      apply();
+    });
+  });
+  if (reset) {
+    reset.addEventListener("click", function () {
+      buttons.forEach(function (btn) {
+        active[btn.getAttribute("data-rubrik")] = true;
+        btn.setAttribute("aria-pressed", "true");
+        btn.title = "Ausblenden";
+      });
+      apply();
+    });
+  }
+})();
+</script>
+
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+</body>
+</html>

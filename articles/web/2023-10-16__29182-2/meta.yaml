@@ -1,0 +1,27 @@
+title: Pflanzentauschmarkt in der Villa Lützow
+slug: 2023-10-16__29182-2
+author: Redaktion
+date: '2023-10-16'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Jetzt beginnt wieder die Pflanzzeit und vielleicht soll das eine oder andere Plätzchen im Garten, auf Balkonen oder auch in der Wohnung für neue Schätze frei geräumt werden. Daher lädt das Team von wachsenlassen ein…
+source_url: https://www.mittendran.de/29182-2/
+wp_post_id: 29182
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

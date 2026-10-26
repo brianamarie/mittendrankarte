@@ -1,0 +1,33 @@
+title: Das „Festival of Lights“  verzaubert 2022 wieder Berlin
+slug: 2022-10-05__das-festival-lights-verzaubert-2022-wieder-berlin
+author: eki
+date: '2022-10-05'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [2005]
+description: Seit 2005 können Besucher aus aller Welt einmal im Jahr das „Festival of Lights“ in Berlin (in Mitte und allen Bezirken) erleben. Im Oktober 2022 findet es bereits zum 18. Mal statt. „Vision of our future“ lautet das…
+source_url: https://www.mittendran.de/das-festival-lights-verzaubert-2022-wieder-berlin/
+wp_post_id: 23715
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schauplatz
+  lat: 50.860268
+  lon: 12.952433
+  osm_id: null
+  status: auto
+  via: regex
+- name: Marlene-Dietrich-Platz
+  lat: 52.507399
+  lon: 13.372438
+  osm_id: null
+  status: confirmed
+  via: regex

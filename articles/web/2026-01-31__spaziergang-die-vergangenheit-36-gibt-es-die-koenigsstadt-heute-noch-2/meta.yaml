@@ -1,0 +1,57 @@
+title: 'Spaziergang in die Vergangenheit (36): Gibt es die Königsstadt heute noch?'
+slug: 2026-01-31__spaziergang-die-vergangenheit-36-gibt-es-die-koenigsstadt-heute-noch-2
+author: Paul Enck
+date: '2026-01-31'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1701, 1762, 1872, 1873, 1899, 1900, 1920, 1945]
+description: Eigentümer*innen von Wohnungen und Häusern kennen ihn, den Grundbuch-Auszug ihrer Immobilie, nicht zuletzt deswegen, weil sie neuerdings dafür eine neu berechnete Grundsteuer bezahlen. Wenn sie hingegen…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-36-gibt-es-die-koenigsstadt-heute-noch-2/
+wp_post_id: 40600
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Verkäufer
+  lat: 53.214288
+  lon: 10.759374
+  osm_id: null
+  status: auto
+  via: regex
+- name: Krausnickstraße
+  lat: 52.524895
+  lon: 13.39602
+  osm_id: null
+  status: auto
+  via: regex
+- name: Die-familie-popper-luetzowplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Mittelstraße
+  lat: 52.453333
+  lon: 13.327684
+  osm_id: null
+  status: auto
+  via: regex
+- name: Dorotheenstraße
+  lat: 52.519183
+  lon: 13.392997
+  osm_id: null
+  status: auto
+  via: regex
+- name: Mathilde-Jacob-Platz
+  lat: 52.526822
+  lon: 13.338451
+  osm_id: null
+  status: auto
+  via: regex
+- name: Yorckstraße
+  lat: 52.492309
+  lon: 13.372666
+  osm_id: null
+  status: auto
+  via: regex

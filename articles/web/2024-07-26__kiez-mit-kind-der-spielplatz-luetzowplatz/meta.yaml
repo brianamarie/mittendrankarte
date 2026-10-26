@@ -1,0 +1,45 @@
+title: 'Kiez mit Kind: Der “Spielplatz” am Lützowplatz'
+slug: 2024-07-26__kiez-mit-kind-der-spielplatz-luetzowplatz
+author: Hobpenz
+date: '2024-07-26'
+issue: null
+rubrik: Kiez mit Kind
+about_years: []
+description: Über den Lützowplatz wurde an dieser Stelle schon viel geschrieben, wir betrachten ihn heute aus der Sicht eines Spielplatzkindes. Und aus dieser Sicht ist dieser ehemalige Holzlagerplatz ein trauriger Ort. Er wirft…
+source_url: https://www.mittendran.de/kiez-mit-kind-der-spielplatz-luetzowplatz/
+wp_post_id: 33045
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.5043
+  lon: 13.3535
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielplatz
+  lat: 52.603364
+  lon: 13.361955
+  osm_id: null
+  status: auto
+  via: regex
+- name: Holzlagerplatz
+  lat: 48.911276
+  lon: 11.255688
+  osm_id: null
+  status: auto
+  via: regex
+- name: Lützowplatzspielplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Ballplatz
+  lat: 49.997729
+  lon: 8.269579
+  osm_id: null
+  status: auto
+  via: regex

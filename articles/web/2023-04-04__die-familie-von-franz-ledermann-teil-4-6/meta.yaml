@@ -1,0 +1,57 @@
+title: Die Familie von Franz Ledermann (Teil 6)
+slug: 2023-04-04__die-familie-von-franz-ledermann-teil-4-6
+author: Redaktion
+date: '2023-04-04'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1800, 1851, 1872, 1889, 1898, 1900, 1907, 1908, 1909, 1910, 1911, 1912, 1915, 1916, 1918, 1919, 1921, 1924, 1928, 1929, 1930, 1933, 1934, 1936, 1941, 1942, 1943, 1998]
+description: aus der Serie „Jüdische Geschichte im Lützow-Viertel“ (4.6), von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com). Die Informationen, die es zum Rechtsanwalt Dr. Franz Ledermann, seinem Leben und…
+source_url: https://www.mittendran.de/die-familie-von-franz-ledermann-teil-4-6/
+wp_post_id: 26403
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Genthiner Straße 5a
+  lat: 52.50529
+  lon: 13.360096
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Barerstraße
+  lat: 48.142365
+  lon: 11.567773
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kochstraße
+  lat: 52.506652
+  lon: 13.389563
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kaiserallee
+  lat: 52.420376
+  lon: 13.363388
+  osm_id: null
+  status: auto
+  via: regex
+- name: Brunnenstraße
+  lat: 52.541438
+  lon: 13.393415
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kaiserplatz
+  lat: 52.378924
+  lon: 13.405924
+  osm_id: null
+  status: auto
+  via: regex
+- name: Speyererstraße
+  lat: 52.492806
+  lon: 13.344154
+  osm_id: null
+  status: auto
+  via: regex

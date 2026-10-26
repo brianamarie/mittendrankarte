@@ -1,0 +1,27 @@
+title: Gärtnern vor der Haustür
+slug: 2024-09-01__gaertnern-vor-der-haustuer
+author: FP
+date: '2024-09-01'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: Pflanzaktion mit Nachbar:innen am Samstag, 7. September, um 16 Uhr Viele der neuen Beete in der Kluck- und Pohlstraße (https://www.mittendran.de/entsiegelung-der-gehwege-der-pohl-und-kluckstrasse-eine-posse/) sehen…
+source_url: https://www.mittendran.de/gaertnern-vor-der-haustuer/
+wp_post_id: 33458
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Entsiegelung-der-gehwege-der-pohl-und-kluckstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

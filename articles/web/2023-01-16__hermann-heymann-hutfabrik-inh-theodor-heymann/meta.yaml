@@ -1,0 +1,21 @@
+title: Hermann Heymann Hutfabrik Inh. Theodor Heymann
+slug: 2023-01-16__hermann-heymann-hutfabrik-inh-theodor-heymann
+author: Redaktion
+date: '2023-01-16'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1882, 1892, 1908, 1931, 1938, 1939, 1950, 1951, 1952, 1954, 1959, 2008]
+description: ein Beitrag von Bethan Griffiths zu:Jüdische Gewerbebetriebe rund um die Potsdamer Straße Herrmann Heymann starb einen Tag vor dem 30. Geburtstag seines Sohnes, Theodor Heymann. Der junge Mann wurde nun Alleininhaber…
+source_url: https://www.mittendran.de/hermann-heymann-hutfabrik-inh-theodor-heymann/
+wp_post_id: 24381
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer

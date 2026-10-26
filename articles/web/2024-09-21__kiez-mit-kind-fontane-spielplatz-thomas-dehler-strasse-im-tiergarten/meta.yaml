@@ -1,0 +1,39 @@
+title: 'Kiez mit Kind:  „Fontane-Spielplatz“ Thomas-Dehler-Straße im Tiergarten'
+slug: 2024-09-21__kiez-mit-kind-fontane-spielplatz-thomas-dehler-strasse-im-tiergarten
+author: Hobpenz
+date: '2024-09-21'
+issue: null
+rubrik: Kiez mit Kind
+about_years: []
+description: 'Die heutige Spielplatzvorstellung bringt uns an den äußersten Rand unseres Kiez: hinter den nordischen Botschaften schmiegt sich gleich im Tiergarten direkt am Wasser der kleine Spielplatz an der Thomas-Dehler-Straße…'
+source_url: https://www.mittendran.de/kiez-mit-kind-fontane-spielplatz-thomas-dehler-strasse-im-tiergarten/
+wp_post_id: 33070
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Fontane-Spielplatz
+  lat: 48.352328
+  lon: 10.921569
+  osm_id: null
+  status: auto
+  via: regex
+- name: Thomas-Dehler-Straße
+  lat: 52.510474
+  lon: 13.345864
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Spielplatz
+  lat: 52.603364
+  lon: 13.361955
+  osm_id: null
+  status: auto
+  via: regex
+- name: Ausläufer
+  lat: 52.538178
+  lon: 13.355232
+  osm_id: null
+  status: auto
+  via: regex

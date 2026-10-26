@@ -1,0 +1,46 @@
+title: 'Jüdisches Leben im Lützow-Viertel (13): Versandhandel A. Blumenreich (Teil
+  3)'
+slug: 2024-08-11__juedisches-leben-im-luetzow-viertel-13-versandhandel-blumenreich-teil-3
+author: Paul Enck
+date: '2024-08-11'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1720, 1830, 1843, 1845, 1856, 1871, 1872, 1875, 1877, 1879, 1880, 1884, 1886, 1887, 1888, 1889, 1890, 1891, 1892, 1894, 1896, 1897, 1898, 1899, 1900, 1901, 1902, 1903, 1905, 1907, 1908, 1909, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1920, 1921, 1922, 1923, 1924, 1926, 1927, 1932, 1941, 1974, 2009]
+description: Im nächsten Teil der Geschichte des Versandhandels Arnold Blumenreich gehen wir dem Schicksal der Geschwister von Arnold nach, die – wie er – aus der ersten Ehe seines Vaters Paul Philipp Blumenreich (mittendran vom…
+source_url: https://www.mittendran.de/juedisches-leben-im-luetzow-viertel-13-versandhandel-blumenreich-teil-3/
+wp_post_id: 33265
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 113
+  lat: 52.499294
+  lon: 13.362998
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kantstraße
+  lat: 52.505566
+  lon: 13.325812
+  osm_id: null
+  status: auto
+  via: regex
+- name: Victoriastraße
+  lat: 50.945212
+  lon: 6.951326
+  osm_id: null
+  status: auto
+  via: regex

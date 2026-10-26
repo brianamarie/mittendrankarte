@@ -1,0 +1,21 @@
+title: „Baustelle“ Lützowstraße
+slug: 2024-07-17__baustelle-luetzowstrasse
+author: Hobpenz
+date: '2024-07-17'
+issue: null
+rubrik: kiek ma!
+about_years: []
+description: 'Im westlichen Teil der Lützowstraße, kurz vor dem Hahn-Kindergarten befindet sich seit mindestens einem Jahr unsere Lieblings-Baustelle: Erst noch relativ unklar, weswegen sie eingerichtet worden ist, hat sich ein…'
+source_url: https://www.mittendran.de/baustelle-luetzowstrasse/
+wp_post_id: 32940
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer

@@ -1,0 +1,27 @@
+title: ZU UNRECHT VERGESSEN DER BERLINER VERLEGER ERICH REISS
+slug: 2022-10-14__zu-unrecht-vergessen-der-berliner-verleger-erich-reiss-2
+author: Redaktion
+date: '2022-10-14'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1939]
+description: Vortrag mit Diskussion mit dem Berliner Verleger Dieter Beuermann und dem Journalisten Peter Kröger Live im Saal des Kiezzentrums Villa Lützow und (bei Bedarf) online per Zoom Am Donnerstag, dem 20.10.2022, 19 Uhr…
+source_url: https://www.mittendran.de/zu-unrecht-vergessen-der-berliner-verleger-erich-reiss-2/
+wp_post_id: 23904
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

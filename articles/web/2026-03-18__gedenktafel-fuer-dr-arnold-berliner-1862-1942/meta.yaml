@@ -1,0 +1,27 @@
+title: Gedenktafel für Dr. Arnold Berliner (1862-1942)
+slug: 2026-03-18__gedenktafel-fuer-dr-arnold-berliner-1862-1942
+author: Paul Enck
+date: '2026-03-18'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1862, 1874, 1913, 1935, 1942, 1972]
+description: Das Bezirksamt wird auf Beschluss der Bezirksverordnetenversammlung Tempelhof-Schöneberg eine Gedenktafel aufstellen lassen, um den weltbekannten Physiker Dr. Arnold Berliner zu würdigen. Er gründet 1913 im Julius…
+source_url: https://www.mittendran.de/gedenktafel-fuer-dr-arnold-berliner-1862-1942/
+wp_post_id: 41048
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 133
+  lat: 52.501569
+  lon: 13.354986
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Derfflingerstraße
+  lat: 52.5048
+  lon: 13.357
+  osm_id: null
+  status: confirmed
+  via: gazetteer

@@ -1,0 +1,27 @@
+title: Ausstellung „40 Jahre Bürgerengagement“dauerhaft sichern!
+slug: 2022-07-18__ausstellung-40-jahre-buergerengagementdauerhaft-sichern
+author: Redaktion
+date: '2022-07-18'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [2011]
+description: Die Ausstellung „40 Jahre Bürgerengagement“ in der BVV und im Nutzerinnenbeirat des Gleisdreieck-Parks…
+source_url: https://www.mittendran.de/ausstellung-40-jahre-buergerengagementdauerhaft-sichern/
+wp_post_id: 22818
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Verbindungsweg
+  lat: 52.521144
+  lon: 13.178603
+  osm_id: null
+  status: auto
+  via: regex

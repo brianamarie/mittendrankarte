@@ -1,0 +1,27 @@
+title: Der Sommer steht noch in den Startblöcken – wir laufen schon mal vor.
+slug: 2022-05-31__der-sommer-steht-noch-den-startbloecken-wir-laufen-schon-mal-vor
+author: KA
+date: '2022-05-31'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1990]
+description: Termine Schwules Museum Juni 2022 Veranstaltungen 02.06., 19–21 Uhr. Historicial Citizenship for Sexworkers! Empfang anlässlich des Internationalen Hurentag 2022 Im Audiowalk „Historical Citizenship“ führen…
+source_url: https://www.mittendran.de/der-sommer-steht-noch-den-startbloecken-wir-laufen-schon-mal-vor/
+wp_post_id: 22303
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 73
+  lat: 52.504251
+  lon: 13.358219
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schwules Museum
+  lat: 52.5048
+  lon: 13.3588
+  osm_id: null
+  status: confirmed
+  via: gazetteer

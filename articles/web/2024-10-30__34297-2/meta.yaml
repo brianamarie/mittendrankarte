@@ -1,0 +1,33 @@
+title: Einladung zur Sitzung des Stadtteil-Forums
+slug: 2024-10-30__34297-2
+author: FP
+date: '2024-10-30'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: 'Eine Einladung des Stadtteil-Forums Tiergarten Süd: Liebe Nachbarinnen und Nachbarn, zum kommenden Treffen des Stadtteil-Forums laden wir Sie und euch herzlich ein! Uns bewegt gerade: – Ein Stadttentwicklungskonzept…'
+source_url: https://www.mittendran.de/34297-2/
+wp_post_id: 34297
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowufer
+  lat: 52.505525
+  lon: 13.353321
+  osm_id: null
+  status: confirmed
+  via: regex

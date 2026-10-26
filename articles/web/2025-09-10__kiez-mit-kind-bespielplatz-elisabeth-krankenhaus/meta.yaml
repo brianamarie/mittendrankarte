@@ -1,0 +1,31 @@
+title: 'Kiez mit Kind: Bespielplatz am Elisabeth-Krankenhaus'
+slug: 2025-09-10__kiez-mit-kind-bespielplatz-elisabeth-krankenhaus
+author: Hobpenz
+date: '2025-09-10'
+issue: null
+rubrik: Kiez mit Kind
+about_years: []
+description: Wenn man nicht Gast im oder bei jemandem im Krankenhaus ist oder aus Interesse auf dem Gelände umhergeht, ist dieser Ort im Innenhof bzw. -garten des Krankenhauskomplexes, sehr schnell zu übersehen. Eigentlich fällt er…
+source_url: https://www.mittendran.de/kiez-mit-kind-bespielplatz-elisabeth-krankenhaus/
+wp_post_id: 38846
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße
+  lat: 52.503281
+  lon: 13.361433
+  osm_id: null
+  status: confirmed

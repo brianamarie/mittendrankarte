@@ -1,0 +1,27 @@
+title: Neues Jahr – Neue Struktur
+slug: 2024-01-07__neues-jahr-neue-struktur
+author: Redaktion
+date: '2024-01-07'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Das Stadtteil-Forum Tiergarten Süd lädt zum ersten Treffen in diesem Jahr ein. Liebe Nachbarinnen und Nachbarn, liebe Interessierte am Kiez, auch im Neuen Jahr – zu dem wir Ihnen und euch alles Gute wünschen – geht die…
+source_url: https://www.mittendran.de/neues-jahr-neue-struktur/
+wp_post_id: 30204
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Fahrradstraße
+  lat: 49.458545
+  lon: 11.037316
+  osm_id: null
+  status: auto
+  via: regex

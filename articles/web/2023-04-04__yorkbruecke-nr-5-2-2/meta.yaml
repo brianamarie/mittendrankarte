@@ -1,0 +1,63 @@
+title: Yorckbrücke Nr. 5 wieder eingesetzt
+slug: 2023-04-04__yorkbruecke-nr-5-2-2
+author: Redaktion
+date: '2023-04-04'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: [2000, 2012]
+description: (EIN BEITRAG VON MATHIAS BAUER, GLEISDREIECKBLOG (https://gleisdreieck-blog.de)) (https://gleisdreieck-blog.de/wordpress/wp-content/uploads/2023/04/20230401_120918-yorckbr-nr5.jpg)Seit 2019 war sie verschwunden, die…
+source_url: https://www.mittendran.de/yorkbruecke-nr-5-2-2/
+wp_post_id: 26427
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Yorckbrücke
+  lat: 52.491989
+  lon: 13.374303
+  osm_id: null
+  status: auto
+  via: regex
+- name: Yockbrücke
+  lat: 52.49208
+  lon: 13.373826
+  osm_id: null
+  status: auto
+  via: regex
+- name: Yorckstraße
+  lat: 52.492758
+  lon: 13.37048
+  osm_id: null
+  status: auto
+  via: regex
+- name: Spd-greift-vorschlag-zum-umbau-der-yorckstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Fahrradweg
+  lat: 50.050961
+  lon: 9.501053
+  osm_id: null
+  status: auto
+  via: regex
+- name: Parkplatz
+  lat: 52.586798
+  lon: 13.351959
+  osm_id: null
+  status: auto
+  via: regex
+- name: Hellweg
+  lat: 52.506065
+  lon: 13.566258
+  osm_id: null
+  status: auto
+  via: regex

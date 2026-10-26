@@ -1,0 +1,39 @@
+title: Urbane Mitte – Anmerkungen zum Prüfbericht
+slug: 2023-01-12__urbane-mitte-anmerkungen-zum-pruefbericht
+author: Redaktion
+date: '2023-01-12'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [1992, 2005]
+description: Anmerkungen zum Prüfbericht der Senatsverwaltung zum Projekt der Urbanen Mitte (https://gleisdreieck-blog.de/2023/01/10/anmerkungen-zum-pruefbericht-der-senatsverwaltung-zum-projekt-der-urbanen-mitte/) (EIN BEITRAG VON…
+source_url: https://www.mittendran.de/urbane-mitte-anmerkungen-zum-pruefbericht/
+wp_post_id: 24999
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Rettungsplatz
+  lat: 51.096303
+  lon: 7.853378
+  osm_id: null
+  status: auto
+  via: regex
+- name: Verbindungsweg
+  lat: 52.521144
+  lon: 13.178603
+  osm_id: null
+  status: auto
+  via: regex

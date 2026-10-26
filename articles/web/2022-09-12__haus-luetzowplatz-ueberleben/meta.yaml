@@ -1,0 +1,27 @@
+title: 'Haus am Lützowplatz: ÜberLeben – Fragen an die Zukunft'
+slug: 2022-09-12__haus-luetzowplatz-ueberleben
+author: APZ
+date: '2022-09-12'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1912, 1940, 1945, 1961, 1963, 1966, 1968, 1970, 1971, 1972, 1973, 1974, 1977, 1980, 1981, 1982, 1984, 1986, 1987, 1992, 2006, 2010]
+description: 'Eröffnung: Mittwoch, 14. September 2022, 19 Uhr Kuratiert von Marc Wellmann im Dialog mit Philip Grözinger Mit Werken von: Bettina von Arnim Maxim Brandt John Cage Louisa Clement Sabine Groß Philip Grözinger Bjørn…'
+source_url: https://www.mittendran.de/haus-luetzowplatz-ueberleben/
+wp_post_id: 23237
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz 9
+  lat: 52.504355
+  lon: 13.353555
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Haus am Lützowplatz
+  lat: 52.5045
+  lon: 13.3528
+  osm_id: null
+  status: confirmed
+  via: gazetteer

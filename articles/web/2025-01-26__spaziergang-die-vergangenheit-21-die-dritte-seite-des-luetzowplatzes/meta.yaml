@@ -1,0 +1,36 @@
+title: 'Spaziergang in die Vergangenheit (21): Die dritte Seite des Lützowplatzes'
+slug: 2025-01-26__spaziergang-die-vergangenheit-21-die-dritte-seite-des-luetzowplatzes
+author: Paul Enck
+date: '2025-01-26'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1824, 1829, 1835, 1841, 1877, 1886, 1888, 1890, 1900, 1902, 1910, 1913, 1923, 1930, 1937, 1943, 1962, 1985, 1987, 2013]
+description: 'Die dritte Seite des Lützowplatzes ist die Seite, die heute am wenigsten Beachtung findet, sie ist architektonisch eher langweilig. Das war nicht immer so: hier standen seit der Internationalen Bauausstellung 1987 die…'
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-21-die-dritte-seite-des-luetzowplatzes/
+wp_post_id: 35208
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz 2
+  lat: 52.50496
+  lon: 13.353739
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Lützowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+- name: Schillstraße
+  lat: 52.503303
+  lon: 13.3499
+  osm_id: null
+  status: confirmed
+- name: Haus am Lützowplatz
+  lat: 52.504355
+  lon: 13.353555
+  osm_id: null
+  status: confirmed

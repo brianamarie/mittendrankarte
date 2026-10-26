@@ -1,0 +1,27 @@
+title: „THAI BRIDGE“ im Gleisdreieckpark
+slug: 2023-08-05__thai-bridge-im-gleisdreieckpark
+author: eki
+date: '2023-08-05'
+issue: null
+rubrik: Gewerbe und Gastronomie
+about_years: []
+description: „Gemeinsam mit dem Thailändischen Verein in Berlin e.V. will das Café „Jules-B-Part“ den ersten Ableger vom thailändischen Streetfood-Markt aus Wilmersdorf in den Gleisdreieckpark nach Kreuzberg bringen, immer freitags…
+source_url: https://www.mittendran.de/thai-bridge-im-gleisdreieckpark/
+wp_post_id: 28182
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieckbrücke
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

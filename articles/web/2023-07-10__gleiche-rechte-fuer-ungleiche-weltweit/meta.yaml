@@ -1,0 +1,33 @@
+title: „Gleiche Rechte für Ungleiche – weltweit!“
+slug: 2023-07-10__gleiche-rechte-fuer-ungleiche-weltweit
+author: Redaktion
+date: '2023-07-10'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Lesbisch-schwules Straßenfest 2022 (Foto:eki) Unter diesem Motto veranstaltet der Regenbogenfonds e.V. (http://www.regenbogenfonds.de/) zum 29. Mal Europas größtes Lesbisch-schwules Stadtfest im traditionellen…
+source_url: https://www.mittendran.de/gleiche-rechte-fuer-ungleiche-weltweit/
+wp_post_id: 27820
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Nollendorfplatz
+  lat: 52.499597
+  lon: 13.35373
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Kalckreuthstraße
+  lat: 52.498561
+  lon: 13.348161
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Fuggerstraße
+  lat: 52.498923
+  lon: 13.346723
+  osm_id: null
+  status: confirmed
+  via: regex

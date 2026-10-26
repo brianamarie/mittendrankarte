@@ -1,0 +1,27 @@
+title: 'Post aus Hamburg: Auf der Suche nach einem „Malweib“'
+slug: 2024-10-20__post-aus-hamburg-auf-der-suche-nach-einem-malweib
+author: Paul Enck
+date: '2024-10-20'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1867, 1869, 1870, 1890, 1893, 1895, 1900, 1902, 1903, 1904, 1911, 1919, 1929, 1940, 1992, 2006]
+description: Post aus Hamburg (Uwe Melichar) bzw. aus New York City (Ron Melichar) erreichte mich vor einiger Zeit mit der Frage nach einer amerikanischen Malerin, Anne Lawrence Gregory (1869-1929) (Bild 1), die 1893/4 in Berlin…
+source_url: https://www.mittendran.de/post-aus-hamburg-auf-der-suche-nach-einem-malweib/
+wp_post_id: 34188
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 39
+  lat: 52.507523
+  lon: 13.368899
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer

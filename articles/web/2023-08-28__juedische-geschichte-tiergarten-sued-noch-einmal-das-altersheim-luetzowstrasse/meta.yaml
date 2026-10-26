@@ -1,0 +1,39 @@
+title: 'Jüdische Geschichte in Tiergarten-Süd: Noch einmal in das Altersheim Lützowstraße'
+slug: 2023-08-28__juedische-geschichte-tiergarten-sued-noch-einmal-das-altersheim-luetzowstrasse
+author: Redaktion
+date: '2023-08-28'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1868, 1873, 1875, 1876, 1879, 1896, 1928, 1930, 1933, 1935, 1936, 1940, 1941, 1942, 2011, 2013]
+description: '(ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com/)) Hat man erst mal eine Spur, lässt sie sich leicht verfolgen: Nachdem wir die Nr. 48 und 49 in der Lützowstraße als jüdisches…'
+source_url: https://www.mittendran.de/juedische-geschichte-tiergarten-sued-noch-einmal-das-altersheim-luetzowstrasse/
+wp_post_id: 28471
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 48
+  lat: 52.50505
+  lon: 13.356167
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kluckstraße 27
+  lat: 52.502857
+  lon: 13.361539
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Derfflingerstraße 17
+  lat: 52.502432
+  lon: 13.356097
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Rankestraße
+  lat: 52.501539
+  lon: 13.332752
+  osm_id: null
+  status: auto
+  via: regex

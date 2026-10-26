@@ -1,0 +1,99 @@
+title: 'Geschichte von Handel und Gewerbe im Lützow-Viertel (7): Möbel Hübner'
+slug: 2024-02-29__geschichte-von-handel-und-gewerbe-im-luetzow-viertel-7-moebel-huebner
+author: null
+date: '2024-02-29'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1703, 1729, 1830, 1835, 1841, 1850, 1871, 1880, 1882, 1884, 1885, 1887, 1890, 1897, 1904, 1906, 1908, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1923, 1931, 1932, 1933, 1935, 1938, 1939, 1940, 1943, 1945, 1949, 1950, 1954, 1956, 1963, 1967, 1983, 1993, 1998]
+description: Dieser Text war längst fertig, als mich eine Nachricht aus den Hause Türklitz, den heutigen Eignern der Firma Möbel-Hübner erreichte, wonach die Familie Türklitz aus Brandenburg an der Havel wohl abstamme „von…
+source_url: https://www.mittendran.de/geschichte-von-handel-und-gewerbe-im-luetzow-viertel-7-moebel-huebner/
+wp_post_id: 30757
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowstraße 14
+  lat: 52.502438
+  lon: 13.369219
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße 58
+  lat: 52.501747
+  lon: 13.363352
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße 89
+  lat: 52.501765
+  lon: 13.364852
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Genthiner Straße 37
+  lat: 52.502592
+  lon: 13.358729
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Bülowstraße 61
+  lat: 52.49589
+  lon: 13.366708
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Steinmetzstraße
+  lat: 52.4975
+  lon: 13.361
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Steglitzer Straße
+  lat: 52.5018
+  lon: 13.3635
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Körnerstraße 4
+  lat: 52.501909
+  lon: 13.367282
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Jacobstraße
+  lat: 52.529354
+  lon: 13.468633
+  osm_id: null
+  status: auto
+  via: regex
+- name: Steglitzerstraße
+  lat: 53.582058
+  lon: 10.143966
+  osm_id: null
+  status: auto
+  via: regex
+- name: Umzug-Genthiner-straße
+  lat: 52.505465
+  lon: 13.360355
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Aldenhovenerstraße
+  lat: 50.816879
+  lon: 6.443763
+  osm_id: null
+  status: auto
+  via: regex
+- name: Verkäufer
+  lat: 53.214288
+  lon: 10.759374
+  osm_id: null
+  status: auto
+  via: regex

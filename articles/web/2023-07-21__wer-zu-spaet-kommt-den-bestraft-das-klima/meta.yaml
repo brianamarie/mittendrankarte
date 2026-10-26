@@ -1,0 +1,27 @@
+title: Wer zu spät kommt, den bestraft das Klima
+slug: 2023-07-21__wer-zu-spaet-kommt-den-bestraft-das-klima
+author: Redaktion
+date: '2023-07-21'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1993]
+description: Für einen lokalen Plan zur Klimaanpassung am Gleisdreieck (https://gleisdreieck-blog.de/2023/07/21/fuer-einen-lokalen-plan-zur-klimaanpassung-am-gleisdreieck/) (EIN BEITRAG VON MATHIAS BAUER, GLEISDREIECKBLOG…
+source_url: https://www.mittendran.de/wer-zu-spaet-kommt-den-bestraft-das-klima/
+wp_post_id: 27983
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Flottwellstraße
+  lat: 52.5008
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer

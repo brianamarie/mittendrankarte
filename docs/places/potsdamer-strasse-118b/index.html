@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Potsdamer Straße 118b</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+    </nav>
+  </header>
+  
+<main class="place-page">
+  <p class="place-back"><a href="../../map.html">← Karte</a></p>
+  <p class="place-kicker">Ort auf der Karte</p>
+  <h1>Potsdamer Straße 118b</h1>
+  <p class="place-stats">2 Beiträge · 2026</p>
+  <p class="lead">Alle Beiträge, die diesen Ort nennen, neueste zuerst.</p>
+  <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50025&amp;mlon=13.36289#map=17/52.50025/13.36289" rel="noopener">Lage auf OpenStreetMap</a></p>
+  
+  <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><button type="button" data-rubrik="Aus dem Kiez" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">1</span></button><button type="button" data-rubrik="Kiez-Geschichte" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#5c4a3a"></span>Kiez-Geschichte <span class="n">1</span></button><button type="button" id="place-filter-reset" hidden>alle einblenden</button></div>
+  <section class="place-group"><h2 class="place-year">2026 · <span class="n">2</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/starke-frauen-im-luetzow-viertel-teil-3-der-deutsche-lyceum-club/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Starke Frauen im Lützow-Viertel (Teil 3): Der Deutsche Lyceum-Club</strong><div class="meta">2026-04-25 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Der Deutsche Lyceum-Club war der letzte der neugegründeten Vereine der Frauenbewegung um die Jahrhundertwende, gegründet nach einem internationalen Frauenkongress im Jahr 1904. Er hatte sicherlich die prominenteste…</p></span></a></li><li data-rubrik="Kiez-Geschichte"><a href="https://www.mittendran.de/starke-frauen-im-luetzowviertel-frauenvereine-teil-1/" rel="noopener"><span class="place-bar" style="background:#5c4a3a"></span><span class="place-card-body"><strong>Starke Frauen im Lützow-Viertel: Frauenvereine (Teil 1)</strong><div class="meta">2026-01-10 · <span class="place-tag" style="background:color-mix(in srgb, #5c4a3a 28%, white)">Kiez-Geschichte</span> · Paul Enck</div><p class="place-excerpt">Dass vor allem im Lützow-Viertel die ersten Schulen für die sogenannte „höhere Bildung“ der Mädchen entstanden, verdankt sich dem Umstand, dass hier ein neues Wohnviertel des Bürgertums zur Zeit der Reichsgründung 1871…</p></span></a></li></ul></section>
+  <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
+  
+<script>
+(function () {
+  var buttons = Array.prototype.slice.call(
+    document.querySelectorAll(".place-rubriks button[data-rubrik]")
+  );
+  if (!buttons.length) return;
+  var items = document.querySelectorAll(".place-page .cards li");
+  var groups = document.querySelectorAll(".place-group");
+  var empty = document.querySelector(".place-empty");
+  var reset = document.getElementById("place-filter-reset");
+  var active = {};
+  buttons.forEach(function (btn) { active[btn.getAttribute("data-rubrik")] = true; });
+  function hiddenCount() {
+    return buttons.filter(function (btn) {
+      return !active[btn.getAttribute("data-rubrik")];
+    }).length;
+  }
+  function apply() {
+    var shown = 0;
+    items.forEach(function (li) {
+      var name = li.getAttribute("data-rubrik") || "";
+      var on = !name || !!active[name];
+      li.hidden = !on;
+      if (on) shown += 1;
+    });
+    groups.forEach(function (group) {
+      var visibleItems = group.querySelectorAll(".cards li:not([hidden])");
+      group.hidden = visibleItems.length === 0;
+      var count = group.querySelector(".place-year .n");
+      if (count) count.textContent = String(visibleItems.length);
+    });
+    if (empty) empty.hidden = shown !== 0;
+    if (reset) reset.hidden = hiddenCount() === 0;
+  }
+  buttons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var name = btn.getAttribute("data-rubrik");
+      active[name] = !active[name];
+      var on = !!active[name];
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+      btn.title = on ? "Ausblenden" : "Einblenden";
+      apply();
+    });
+  });
+  if (reset) {
+    reset.addEventListener("click", function () {
+      buttons.forEach(function (btn) {
+        active[btn.getAttribute("data-rubrik")] = true;
+        btn.setAttribute("aria-pressed", "true");
+        btn.title = "Ausblenden";
+      });
+      apply();
+    });
+  }
+})();
+</script>
+
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+</body>
+</html>

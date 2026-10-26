@@ -1,0 +1,27 @@
+title: Studentisches Wohnen statt Büros in der Urbanen Mitte Gleisdreieck
+slug: 2022-09-19__studentisches-wohnen-statt-bueros-der-urbanen-mitte-gleisdreieck
+author: Redaktion
+date: '2022-09-19'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Die SPD am Bauzaun (ein Beitrag von Mathias Bauer, gleisdreieckblog (https://gleisdreieck-blog.de/)) Gestern hatten wir unser drittes Gespräch am Bauzaun, diesmal mit Hanna Sophie Lupper, Fraktionsvorsitzende der SPD…
+source_url: https://www.mittendran.de/studentisches-wohnen-statt-bueros-der-urbanen-mitte-gleisdreieck/
+wp_post_id: 23515
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer

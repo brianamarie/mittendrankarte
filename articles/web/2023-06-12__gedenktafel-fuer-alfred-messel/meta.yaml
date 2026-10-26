@@ -1,0 +1,33 @@
+title: Gedenktafel für  Alfred Messel
+slug: 2023-06-12__gedenktafel-fuer-alfred-messel
+author: Redaktion
+date: '2023-06-12'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [1853, 1873, 1878, 1881, 1882, 1893, 1896, 1897, 1901, 1907, 1909]
+description: Seit dem 8. Juni erinnert eine Berliner Gedenktafel an den Architekten Alfred Messel (1853–1909). (https://www.mittendran.de/wp-content/uploads/2023/06/220px-Architekt_Alfred_Messel.jpeg) Alfred Messel. Deutsche Kunst…
+source_url: https://www.mittendran.de/gedenktafel-fuer-alfred-messel/
+wp_post_id: 27554
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Bissingzeile 13
+  lat: 52.503338
+  lon: 13.370433
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Privatstraße
+  lat: 52.556984
+  lon: 13.504534
+  osm_id: null
+  status: auto
+  via: regex
+- name: Oranienstraße
+  lat: 52.506151
+  lon: 13.401663
+  osm_id: null
+  status: auto
+  via: regex

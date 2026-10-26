@@ -1,0 +1,36 @@
+title: Brand im „Fächerhochhaus“
+slug: 2025-06-30__brand-im-faecherhochhaus
+author: eki
+date: '2025-06-30'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: „Auf einem Hochhaus in Berlin-Mitte ist am Montagvormittag ein Feuer ausgebrochen. Nach Angaben eines Sprechers der Berliner Feuerwehr brannte es auf dem Dach des 17-stöckigen Gebäudes, das sich derzeit noch im Bau…
+source_url: https://www.mittendran.de/brand-im-faecherhochhaus/
+wp_post_id: 38087
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.504761
+  lon: 13.352547
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Schillstraße
+  lat: 52.503303
+  lon: 13.3499
+  osm_id: null
+  status: confirmed

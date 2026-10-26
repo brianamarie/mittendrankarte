@@ -1,0 +1,70 @@
+title: 'Spaziergang in die Vergangenheit (13): Eine Solequelle in der Lützowstraße
+  74'
+slug: 2024-04-15__spaziergang-die-vergangenheit-13-eine-solequelle-der-luetzowstrasse-74
+author: Paul Enck
+date: '2024-04-15'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1790, 1830, 1860, 1862, 1870, 1873, 1880, 1886, 1887, 1888, 1890, 1900, 1910, 1911, 1923, 1935, 1981]
+description: Nur wenige Meter von der Badeanstalt in der Lützowstraße 89-90, in der 1886 die ersten Deutschen Meisterschaften im Wasserspringen (Kunstspringen) stattfanden (mittendran vom 6. März 2024…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-13-eine-solequelle-der-luetzowstrasse-74/
+wp_post_id: 31308
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 74
+  lat: 52.503962
+  lon: 13.358352
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Dennewitzstraße
+  lat: 52.4988
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Ein-schwimmbad-der-luetzowstraße
+  lat: 51.261788
+  lon: 10.16617
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kolonialhaus-antelmann-luetzowstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Friedrichstraße
+  lat: 52.522704
+  lon: 13.387838
+  osm_id: null
+  status: auto
+  via: regex
+- name: Paulstraße
+  lat: 52.519363
+  lon: 13.355344
+  osm_id: null
+  status: auto
+  via: regex
+- name: Straßen-im-kiez-die-dennewitzstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Bendlerstraße
+  lat: 51.559897
+  lon: 8.548238
+  osm_id: null
+  status: auto
+  via: regex
+- name: Stauffenbergstraße
+  lat: 52.508569
+  lon: 13.363799
+  osm_id: null
+  status: confirmed
+  via: regex

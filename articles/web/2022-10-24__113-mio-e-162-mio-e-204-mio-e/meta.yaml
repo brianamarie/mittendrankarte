@@ -1,0 +1,27 @@
+title: 11,3 Mio. € – 162 Mio. € – 204 Mio. €
+slug: 2022-10-24__113-mio-e-162-mio-e-204-mio-e
+author: Redaktion
+date: '2022-10-24'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [2005]
+description: Urbane Mitte Gleisdreieck (https://gleisdreieck-blog.de/2022/10/22/urbane-mitte-gleisdreieck-drei-verschiedene-verkehrswerte-und-ein-neues-impressum/) drei verschiedene Verkehrswerte und ein neues Impressum…
+source_url: https://www.mittendran.de/113-mio-e-162-mio-e-204-mio-e/
+wp_post_id: 24059
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Jägerstraße
+  lat: 52.514172
+  lon: 13.39505
+  osm_id: null
+  status: auto
+  via: regex

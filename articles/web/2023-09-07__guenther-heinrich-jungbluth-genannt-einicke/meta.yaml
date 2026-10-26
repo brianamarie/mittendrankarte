@@ -1,0 +1,75 @@
+title: Günther Heinrich Jungbluth  genannt Einicke
+slug: 2023-09-07__guenther-heinrich-jungbluth-genannt-einicke
+author: Redaktion
+date: '2023-09-07'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1700, 1790, 1809, 1810, 1818, 1819, 1820, 1829, 1834, 1837, 1838, 1839, 1840, 1841, 1846, 1847, 1848, 1849, 1850, 1851, 1855, 1856, 1862, 1863, 1865, 1868, 1870, 1874, 1875, 1878, 1881, 1882, 1893, 1907, 1908, 1915, 1920, 1937, 1981, 1989]
+description: Geschichten von Handel und Gewerbe im Lützow-Viertel 3 (ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com/)) Die Geschichte des Günther Heinrich Jungbluth genannt Einicke ist –…
+source_url: https://www.mittendran.de/guenther-heinrich-jungbluth-genannt-einicke/
+wp_post_id: 28615
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße 30
+  lat: 52.507917
+  lon: 13.369945
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kluckstraße
+  lat: 52.502
+  lon: 13.362
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Dorotheenstraße
+  lat: 52.519183
+  lon: 13.392997
+  osm_id: null
+  status: auto
+  via: regex
+- name: Mittelstraße
+  lat: 52.452742
+  lon: 13.329122
+  osm_id: null
+  status: auto
+  via: regex
+- name: Feldweg
+  lat: 52.445655
+  lon: 13.465931
+  osm_id: null
+  status: auto
+  via: regex
+- name: Bendler-Brücke
+  lat: 52.505697
+  lon: 13.362493
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Lützowerwegstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Privatstraße
+  lat: 52.478114
+  lon: 13.125611
+  osm_id: null
+  status: auto
+  via: regex

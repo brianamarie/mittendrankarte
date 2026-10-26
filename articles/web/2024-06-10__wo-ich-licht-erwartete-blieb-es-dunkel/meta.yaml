@@ -1,0 +1,57 @@
+title: Wo ich Licht erwartete, blieb es dunkel
+slug: 2024-06-10__wo-ich-licht-erwartete-blieb-es-dunkel
+author: eki
+date: '2024-06-10'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1826, 1887, 1890, 1978, 1979, 1995, 2006]
+description: Mein erster Eindruck vom Gaslaternen-Freilichtmuseum war ernüchternd. Eine so große Zerstörung hatte ich nicht erwartet. Der Rest der einst schönen Gaslaternen ist heute ein trauriger Anblick. Wenn das Licht nach…
+source_url: https://www.mittendran.de/wo-ich-licht-erwartete-blieb-es-dunkel/
+wp_post_id: 32303
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Deutsches Technikmuseum
+  lat: 52.4986
+  lon: 13.3775
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Technikmuseum
+  lat: 52.4986
+  lon: 13.3775
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Parkweg
+  lat: 52.510288
+  lon: 13.555807
+  osm_id: null
+  status: auto
+  via: regex
+- name: Yorkstraße
+  lat: 53.593617
+  lon: 10.132389
+  osm_id: null
+  status: auto
+  via: regex
+- name: Vorplatz
+  lat: 52.532486
+  lon: 13.20873
+  osm_id: null
+  status: auto
+  via: regex
+- name: Klopstockstraße
+  lat: 52.517293
+  lon: 13.341205
+  osm_id: null
+  status: auto
+  via: regex
+- name: Schleusenbrücke
+  lat: 52.515849
+  lon: 13.399794
+  osm_id: null
+  status: auto
+  via: regex

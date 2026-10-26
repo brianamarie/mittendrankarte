@@ -1,0 +1,27 @@
+title: Sonntags unterwegs…
+slug: 2023-03-26__sonntags-unterwegs
+author: ase
+date: '2023-03-26'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2023/03/IMG_1903-scaled.jpg) Wie gut, dass ich weder seh-beeinträchtigt noch mit Kinderwagen, Rollator oder Rollstuhl unterwegs bin… Aber was ist mit anderen Menschen?…
+source_url: https://www.mittendran.de/sonntags-unterwegs/
+wp_post_id: 26243
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Fußweg
+  lat: 52.433892
+  lon: 13.690227
+  osm_id: null
+  status: auto
+  via: regex
+- name: Parkplatz
+  lat: 52.486801
+  lon: 13.325435
+  osm_id: null
+  status: auto
+  via: regex

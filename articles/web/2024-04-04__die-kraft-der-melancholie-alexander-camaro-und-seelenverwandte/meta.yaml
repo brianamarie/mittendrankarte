@@ -1,0 +1,27 @@
+title: DIE KRAFT DER MELANCHOLIE – Alexander Camaro und Seelenverwandte
+slug: 2024-04-04__die-kraft-der-melancholie-alexander-camaro-und-seelenverwandte
+author: Redaktion
+date: '2024-04-04'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1945, 1946, 1947, 1955, 1956, 1961]
+description: 'Die Alexander und Renata Camaro Stiftung lädt ein: Wir laden Sie zu unserer Vernissage der Ausstellung DIE KRAFT DER MELANCHOLIE in der Alexander und Renata Camaro Stiftung ein – aber wir freuen uns auch über einen…'
+source_url: https://www.mittendran.de/die-kraft-der-melancholie-alexander-camaro-und-seelenverwandte/
+wp_post_id: 31223
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 98
+  lat: 52.502011
+  lon: 13.364105
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Talstraße
+  lat: 52.555726
+  lon: 13.426188
+  osm_id: null
+  status: auto
+  via: regex

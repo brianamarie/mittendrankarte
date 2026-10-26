@@ -1,0 +1,46 @@
+title: Kiez-Spaziergang im Lützowkiez
+slug: 2025-01-31__kiez-spaziergang
+author: Hobpenz
+date: '2025-01-31'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Am 31.01.25 fand im Rahmen des Städtebaulichen Entwicklungskonzepts für die Potsdamer Straße und deren Umgebung ein Kiez-Spaziergang im Lützowkiez statt. Zum Start um 16 Uhr haben sich 15-20 Personen in der Villa…
+source_url: https://www.mittendran.de/kiez-spaziergang/
+wp_post_id: 35332
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+- name: Pohlstraße
+  lat: 52.500435
+  lon: 13.366647
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße
+  lat: 52.501383
+  lon: 13.358361
+  osm_id: null
+  status: confirmed
+- name: Bülowstraße
+  lat: 52.497586
+  lon: 13.363221
+  osm_id: null
+  status: confirmed
+- name: Villa Lützow
+  lat: 52.504268
+  lon: 13.362851
+  osm_id: null
+  status: confirmed

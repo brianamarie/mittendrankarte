@@ -1,0 +1,27 @@
+title: 'Spaziergang in die Vergangenheit (19): Walter Benjamins Großmütter im Blumeshof'
+slug: 2024-12-07__spaziergang-die-vergangenheit-19-walter-benjamins-grossmuetter-im-blumeshof
+author: Paul Enck
+date: '2024-12-07'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1827, 1845, 1856, 1869, 1892, 1893, 1896, 1897, 1900, 1901, 1903, 1904, 1905, 1906, 1908, 1912, 1919, 1926, 1930, 1940, 2010, 2012]
+description: Immer wenn von Walter Benjamin (1892 – 1940) und seiner „Berliner Kindheit um Neunzehnhundert“ (1) die Rede ist, fällt das Stichwort Blumeshof („Blume-Zof“, nebst der „Mark-thalle“, dem Tiergarten und so weiter), und…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-19-walter-benjamins-grossmuetter-im-blumeshof/
+wp_post_id: 34799
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz 4
+  lat: 52.503097
+  lon: 13.360449
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße 154
+  lat: 52.499412
+  lon: 13.363904
+  osm_id: null
+  status: confirmed
+  via: address

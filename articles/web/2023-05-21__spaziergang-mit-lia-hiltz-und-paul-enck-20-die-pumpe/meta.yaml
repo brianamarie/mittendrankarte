@@ -1,0 +1,27 @@
+title: 'Spaziergang mit Lia Hiltz und Paul Enck (20): Die Pumpe'
+slug: 2023-05-21__spaziergang-mit-lia-hiltz-und-paul-enck-20-die-pumpe
+author: Redaktion
+date: '2023-05-21'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1821, 1825, 1856, 1869, 1875, 1876, 1881, 1883, 1885, 1896, 1902, 1982, 1988]
+description: '(https://www.mittendran.de/wp-content/uploads/2023/05/Bild-20_1-Die-Pumpe-scaled.jpg) Bild 1: Die Pumpe in der Lützowstraße Copyright: Lia Hiltz Groß genug ist sie ja, die eine verbliebene Pumpe (Bild 1), um daran…'
+source_url: https://www.mittendran.de/spaziergang-mit-lia-hiltz-und-paul-enck-20-die-pumpe/
+wp_post_id: 27368
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße 4
+  lat: 52.50538
+  lon: 13.360068
+  osm_id: null
+  status: confirmed
+  via: address

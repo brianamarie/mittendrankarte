@@ -1,0 +1,26 @@
+title: Wussten Sie schon?
+slug: 2026-09-24__wussten-sie-schon
+author: Redaktion
+date: '2026-09-24'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1870, 1923, 1928, 1934, 1935, 1936, 1938, 1940, 1943, 1954]
+description: Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Mit seinem Kiez rund um den Potsdamer Platz hat er sich intensiv…
+source_url: https://www.mittendran.de/wussten-sie-schon/
+wp_post_id: 43021
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße 141
+  lat: 52.496595
+  lon: 13.361778
+  osm_id: null
+  status: confirmed
+  via: address

@@ -1,0 +1,33 @@
+title: Drogennotdienst Bülow Eck
+slug: 2022-09-24__drogennotdienst-buelow-eck
+author: eki
+date: '2022-09-24'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2022/09/22022-Foto-eki-scaled.jpg) (Foto:eki) Der Drogennotdienst hat einen neuen Kontaktladen im „Drogennotdienst Bülow Eck“ in der Bülowstraße. Man erhofft sich eine…
+source_url: https://www.mittendran.de/drogennotdienst-buelow-eck/
+wp_post_id: 23610
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bülowstraße 106
+  lat: 52.499595
+  lon: 13.355257
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Frobenstraße
+  lat: 52.4995
+  lon: 13.355
+  osm_id: null
+  status: confirmed
+  via: gazetteer

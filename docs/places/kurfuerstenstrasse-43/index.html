@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kurfürstenstraße 43</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+    </nav>
+  </header>
+  
+<main class="place-page">
+  <p class="place-back"><a href="../../map.html">← Karte</a></p>
+  <p class="place-kicker">Ort auf der Karte</p>
+  <h1>Kurfürstenstraße 43</h1>
+  <p class="place-stats">2 Beiträge · 2022–2026</p>
+  <p class="lead">Alle Beiträge, die diesen Ort nennen, neueste zuerst.</p>
+  <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50082&amp;mlon=13.35949#map=17/52.50082/13.35949" rel="noopener">Lage auf OpenStreetMap</a></p>
+  <section class="place-related"><h2>Bereiche</h2><p class="meta">Größere Bereiche ohne eigenen Pin, die in denselben Beiträgen vorkommen.</p><ul class="place-chips"><li><a href="../gleisdreieck/">Gleisdreieck <span class="n">1</span></a></li><li><a href="../potsdamer-platz/">Potsdamer Platz <span class="n">1</span></a></li><li><a href="../potsdamer-strasse/">Potsdamer Straße <span class="n">1</span></a></li></ul></section>
+  <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><button type="button" data-rubrik="Aus dem Kiez" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">1</span></button><button type="button" data-rubrik="Gewerbe und Gastronomie" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#b33b3b"></span>Gewerbe und Gastronomie <span class="n">1</span></button><button type="button" id="place-filter-reset" hidden>alle einblenden</button></div>
+  <section class="place-group"><h2 class="place-year">2026 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/presseschau-des-stadtteilforums-tiergarten-sued/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Presseschau des Stadtteilforums Tiergarten-Süd</strong><div class="meta">2026-08-07 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Redaktion</div><p class="place-excerpt">Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/ (https://forum-tgs.de/)). In den letzten 7 Tagen sind uns diese…</p></span></a></li></ul></section><section class="place-group"><h2 class="place-year">2022 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Gewerbe und Gastronomie"><a href="https://www.mittendran.de/druck34-textildruck/" rel="noopener"><span class="place-bar" style="background:#b33b3b"></span><span class="place-card-body"><strong>„Druck34“ – Textildruck</strong><div class="meta">2022-12-13 · <span class="place-tag" style="background:color-mix(in srgb, #b33b3b 28%, white)">Gewerbe und Gastronomie</span> · eki</div><p class="place-excerpt">(https://www.mittendran.de/wp-content/uploads/2022/12/2022-Textildruck-Druck34-Foto-eki-scaled.jpg) Textildruck-„Druck34“ (Foto:eki) Es gibt einen neuen Laden „Textildruck – Druck34“ im Schönegarten in der…</p></span></a></li></ul></section>
+  <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
+  
+<script>
+(function () {
+  var buttons = Array.prototype.slice.call(
+    document.querySelectorAll(".place-rubriks button[data-rubrik]")
+  );
+  if (!buttons.length) return;
+  var items = document.querySelectorAll(".place-page .cards li");
+  var groups = document.querySelectorAll(".place-group");
+  var empty = document.querySelector(".place-empty");
+  var reset = document.getElementById("place-filter-reset");
+  var active = {};
+  buttons.forEach(function (btn) { active[btn.getAttribute("data-rubrik")] = true; });
+  function hiddenCount() {
+    return buttons.filter(function (btn) {
+      return !active[btn.getAttribute("data-rubrik")];
+    }).length;
+  }
+  function apply() {
+    var shown = 0;
+    items.forEach(function (li) {
+      var name = li.getAttribute("data-rubrik") || "";
+      var on = !name || !!active[name];
+      li.hidden = !on;
+      if (on) shown += 1;
+    });
+    groups.forEach(function (group) {
+      var visibleItems = group.querySelectorAll(".cards li:not([hidden])");
+      group.hidden = visibleItems.length === 0;
+      var count = group.querySelector(".place-year .n");
+      if (count) count.textContent = String(visibleItems.length);
+    });
+    if (empty) empty.hidden = shown !== 0;
+    if (reset) reset.hidden = hiddenCount() === 0;
+  }
+  buttons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var name = btn.getAttribute("data-rubrik");
+      active[name] = !active[name];
+      var on = !!active[name];
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+      btn.title = on ? "Ausblenden" : "Einblenden";
+      apply();
+    });
+  });
+  if (reset) {
+    reset.addEventListener("click", function () {
+      buttons.forEach(function (btn) {
+        active[btn.getAttribute("data-rubrik")] = true;
+        btn.setAttribute("aria-pressed", "true");
+        btn.title = "Ausblenden";
+      });
+      apply();
+    });
+  }
+})();
+</script>
+
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+</body>
+</html>

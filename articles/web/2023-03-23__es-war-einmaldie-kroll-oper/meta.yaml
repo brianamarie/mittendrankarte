@@ -1,0 +1,21 @@
+title: Es war einmaldie Kroll-Oper
+slug: 2023-03-23__es-war-einmaldie-kroll-oper
+author: Redaktion
+date: '2023-03-23'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1851, 1895, 1898, 1914, 1924, 1927, 1931, 1933, 1939, 1942, 1943, 2008]
+description: Auf Anregung und mit Förderung durch Preußens König Friedrich Wilhelm IV. baute der Unternehmer Joseph Kroll vor den Toren Berlins unweit des Brandenburger Tores eine schlossartige Vergnügungsstätte mit drei großen…
+source_url: https://www.mittendran.de/es-war-einmaldie-kroll-oper/
+wp_post_id: 26008
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Querallee
+  lat: 52.513464
+  lon: 13.364722
+  osm_id: null
+  status: confirmed
+  via: regex

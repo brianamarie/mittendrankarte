@@ -1,0 +1,33 @@
+title: Eine Anregung aus dem Nachbarkiez
+slug: 2025-10-24__eine-anregung-aus-dem-nachbarkiez
+author: FP
+date: '2025-10-24'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: Gastbeitrag von Jörg Borchardt An den Yorckbrücken wurde eine Regenwassertonne eingeweiht Sie fast bis zu 1000 Liter Regenwasser, die neue Tonne an der Yorckstraße ©JB Am Dienstag, 21. Oktober wurde auf dem Vorplatz an…
+source_url: https://www.mittendran.de/eine-anregung-aus-dem-nachbarkiez/
+wp_post_id: 39374
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Regenwassertonne-Yorckstraße
+  lat: 52.493292
+  lon: 13.36737
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Yorckstraße
+  lat: 52.492309
+  lon: 13.372666
+  osm_id: null
+  status: auto
+  via: regex
+- name: Vorplatz
+  lat: 52.532486
+  lon: 13.20873
+  osm_id: null
+  status: auto
+  via: regex

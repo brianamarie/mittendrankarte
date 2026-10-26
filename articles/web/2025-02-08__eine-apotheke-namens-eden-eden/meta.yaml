@@ -1,0 +1,27 @@
+title: Eine Apotheke namens EDEN EDEN?
+slug: 2025-02-08__eine-apotheke-namens-eden-eden
+author: Paul Enck
+date: '2025-02-08'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1884, 1910, 1942, 1943, 1957, 1961, 1979, 1998, 2002, 2014]
+description: 'Vorbeigekommen und gewundert haben sich sicherlich schon viele: Eine Apotheke namens EDEN EDEN, bei der die beiden N auch noch modisch gespiegelt sind? An der Ecke Bülowstraße 74/Blumenthalstraße 1 (Bild 1) findet sich…'
+source_url: https://www.mittendran.de/eine-apotheke-namens-eden-eden/
+wp_post_id: 35377
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Schöneberger Ufer 61
+  lat: 52.505616
+  lon: 13.36579
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Bülowstraße 74
+  lat: 52.497428
+  lon: 13.365962
+  osm_id: null
+  status: confirmed
+  via: address

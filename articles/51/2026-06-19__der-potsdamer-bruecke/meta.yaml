@@ -1,0 +1,30 @@
+title: An der Potsdamer Brücke
+slug: 2026-06-19__der-potsdamer-bruecke
+author: Redaktion
+date: '2026-06-19'
+issue: '51'
+rubrik: Kiez-Geschichte
+about_years: [1912, 1926, 1950, 1961, 1962]
+description: Gastbeitrag von Ralf Hausding Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn…
+source_url: https://www.mittendran.de/der-potsdamer-bruecke/
+wp_post_id: 42134
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.502822
+  lon: 13.365443
+  osm_id: null
+  status: confirmed
+- name: Schöneberger Ufer
+  lat: 52.505469
+  lon: 13.363265
+  osm_id: null
+  status: confirmed

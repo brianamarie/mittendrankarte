@@ -1,0 +1,33 @@
+title: 'Haus am Lützowplatz: Früchte des Zorns – Versuch einer Annäherung – Ukraine'
+slug: 2023-01-15__haus-luetzowplatz-fruechte-des-zorns
+author: APZ
+date: '2023-01-15'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1939, 2013]
+description: 'Früchte des Zorns Versuch einer Annäherung: Ukraine 20. Januar – 19. März 2023 Abbildung: Steve Schepens, Gay Train, 2015, glazed ceramics, 14 x 19 x 36 cm. Copyright: the artist Eröffnung: Donnerstag, 19. Januar 2023…'
+source_url: https://www.mittendran.de/haus-luetzowplatz-fruechte-des-zorns/
+wp_post_id: 24888
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.5043
+  lon: 13.3535
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Haus am Lützowplatz
+  lat: 52.5045
+  lon: 13.3528
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Tzowplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

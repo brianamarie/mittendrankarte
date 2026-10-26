@@ -1,0 +1,27 @@
+title: (K)ein neuer Store im „The Playce“
+slug: 2024-05-21__kein-neuer-store-im-the-playce
+author: eki
+date: '2024-05-21'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: 'In das Einkaufszentrum „The Playce“ in der Alten Potsdamer Straße ist ein neuer Store eingezogen: „NOTASTORE“ (https://www.potsdamerplatz.de/de/stores-food-drinks/notastore/), der Concept Store von „NOTAGALLERY“. Man…'
+source_url: https://www.mittendran.de/kein-neuer-store-im-the-playce/
+wp_post_id: 32035
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße 7
+  lat: 52.508924
+  lon: 13.372618
+  osm_id: null
+  status: confirmed
+  via: address

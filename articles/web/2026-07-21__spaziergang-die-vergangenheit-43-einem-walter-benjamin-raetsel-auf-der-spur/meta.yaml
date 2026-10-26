@@ -1,0 +1,39 @@
+title: 'Spaziergang in die Vergangenheit (43): Einem Walter-Benjamin-Rätsel auf der
+  Spur'
+slug: 2026-07-21__spaziergang-die-vergangenheit-43-einem-walter-benjamin-raetsel-auf-der-spur
+author: Paul Enck
+date: '2026-07-21'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1863, 1875, 1892, 1896, 1897, 1900, 1940, 1942, 1946, 1951, 2010]
+description: 'Um es vorwegzunehmen: Nicht ich habe diese Spur gesucht und gefunden, sondern Jun Tanaka, Recherche-Freund im fernen Japan (mittendran vom 22. Februar 2026…'
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-43-einem-walter-benjamin-raetsel-auf-der-spur/
+wp_post_id: 42334
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz 4
+  lat: 52.503097
+  lon: 13.360449
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Lützowplatz
+  lat: 52.504761
+  lon: 13.352547
+  osm_id: null
+  status: confirmed
+- name: Kurfürstenstraße 154
+  lat: 52.499412
+  lon: 13.363904
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Genthiner Straße 4
+  lat: 52.50538
+  lon: 13.360068
+  osm_id: null
+  status: confirmed
+  via: address

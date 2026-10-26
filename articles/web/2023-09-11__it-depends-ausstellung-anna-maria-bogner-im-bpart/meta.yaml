@@ -1,0 +1,27 @@
+title: „IT DEPENDS“ – Ausstellung Anna-Maria Bogner im Bpart
+slug: 2023-09-11__it-depends-ausstellung-anna-maria-bogner-im-bpart
+author: eki
+date: '2023-09-11'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Den Raum neu erleben. Durchtrennt von elastischen, an den Wänden befestigten schwarzen Bändern, die ihn verändern, in unterschiedliche Größen aufteilen, immer wieder neu, je nach Blickrichtung, es kommt darauf an…
+source_url: https://www.mittendran.de/it-depends-ausstellung-anna-maria-bogner-im-bpart/
+wp_post_id: 28719
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Hinweg
+  lat: 50.128375
+  lon: 8.710642
+  osm_id: null
+  status: auto
+  via: regex

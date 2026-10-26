@@ -1,0 +1,33 @@
+title: 'Am Lützowplatz: Stiftung Warentest'
+slug: 2022-05-31__luetzowplatz-stiftung-warentest
+author: Redaktion
+date: '2022-05-31'
+issue: null
+rubrik: Gewerbe und Gastronomie
+about_years: [1962, 1964, 1966, 1975, 1987]
+description: (https://www.mittendran.de/wp-content/uploads/2022/05/5131256_historisch_foto_mixer_gross.jpg) Die erste Ausgabe des test-Heftes erscheint am 26. März 1966. Die ersten beiden Tests sind die von Nähmaschinen und…
+source_url: https://www.mittendran.de/luetzowplatz-stiftung-warentest/
+wp_post_id: 22260
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.5043
+  lon: 13.3535
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Stauffenbergstraße
+  lat: 52.508569
+  lon: 13.363799
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Luetzowplatz
+  lat: 52.504761
+  lon: 13.352547
+  osm_id: null
+  status: confirmed
+  via: regex

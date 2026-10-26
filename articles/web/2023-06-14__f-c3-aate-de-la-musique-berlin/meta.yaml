@@ -1,0 +1,21 @@
+title: Fête de la Musique Berlin
+slug: 2023-06-14__f-c3-aate-de-la-musique-berlin
+author: null
+date: '2023-06-14'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Das Event „Fête de la Musique Berlin“ findet am 21. Juni 2023 an unterschiedlichen Orten in Berlin statt. Das „Pumpen“ Programm von 17:00 Uhr bis 22:00 Uhr im JugendKulturZentrum „Die Pumpe“ in der Lützowstraße 42…
+source_url: https://www.mittendran.de/f%c3%aate-de-la-musique-berlin/
+wp_post_id: 27586
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 42
+  lat: 52.504654
+  lon: 13.357975
+  osm_id: null
+  status: confirmed
+  via: address

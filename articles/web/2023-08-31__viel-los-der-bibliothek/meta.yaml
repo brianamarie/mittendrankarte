@@ -1,0 +1,27 @@
+title: Viel los in der Bibliothek!
+slug: 2023-08-31__viel-los-der-bibliothek
+author: Redaktion
+date: '2023-08-31'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: 'Die Bibliothek Tiergarten-Süd hat im September ein abwechslungsreiches Programm für Groß und Klein auf die Beine gestellt. Kommt gerne vorbei! Freitag, 15.09.2023 von 15.45-17.45 Uhr: Licht an, Licht aus?! Planspiel…'
+source_url: https://www.mittendran.de/viel-los-der-bibliothek/
+wp_post_id: 28532
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Nachbarschaftstreff
+  lat: 52.5035
+  lon: 13.3575
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bibliothek Tiergarten-Süd
+  lat: 52.5018
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer

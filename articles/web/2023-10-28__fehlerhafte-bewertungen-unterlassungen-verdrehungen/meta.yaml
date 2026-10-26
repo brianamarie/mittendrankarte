@@ -1,0 +1,27 @@
+title: Fehlerhafte Bewertungen, Unterlassungen, Verdrehungen
+slug: 2023-10-28__fehlerhafte-bewertungen-unterlassungen-verdrehungen
+author: Redaktion
+date: '2023-10-28'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [2005]
+description: „You don’t need a weatherman to know which way the wind blows“ Fehlerhafte Bewertungen, Unterlassungen, Verdrehungen – wie der Bezirk trotz des eindeutigen Windgutachtens zum Bebauungsplan “Urbane Mitte Süd” eine…
+source_url: https://www.mittendran.de/fehlerhafte-bewertungen-unterlassungen-verdrehungen/
+wp_post_id: 29408
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Dennewitzstraße
+  lat: 52.4988
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer

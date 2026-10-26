@@ -1,0 +1,40 @@
+title: 'September: der neunte Monat des Jahres und ein schöner – das Schwule Museum
+  lädt ein mit neuen Themen und Inhalten'
+slug: 2024-09-01__september-der-neunte-monat-des-jahres-und-ein-schoener-mit-sommerlichem-obst-und
+author: KA
+date: '2024-09-01'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1987]
+description: '(https://www.mittendran.de/wp/wp-admin/media-upload.php?post_id=33495&type=image&TB_iframe=1) Termine September 2024 Schwules Museum Lützowstraße 73, 10785 Berlin Veranstaltungen: 01.09. 14-18:00 Uhr. Eintrittsfreier…'
+source_url: https://www.mittendran.de/september-der-neunte-monat-des-jahres-und-ein-schoener-mit-sommerlichem-obst-und-beeren/
+wp_post_id: 33495
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 73
+  lat: 52.504251
+  lon: 13.358219
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schwules Museum
+  lat: 52.5048
+  lon: 13.3588
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Oranienstraße
+  lat: 52.506965
+  lon: 13.398725
+  osm_id: null
+  status: auto
+  via: regex
+- name: Blücherplatz
+  lat: 52.49696
+  lon: 13.393335
+  osm_id: null
+  status: auto
+  via: regex

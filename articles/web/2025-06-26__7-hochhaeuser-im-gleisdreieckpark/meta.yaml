@@ -1,0 +1,31 @@
+title: 7 Hochhäuser im Gleisdreieckpark?
+slug: 2025-06-26__7-hochhaeuser-im-gleisdreieckpark
+author: FP
+date: '2025-06-26'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Am 1. Juli um 18 Uhr in der Villa Lützow stellt das Stadtteil-Forum Tiergarten Süd das Bauvorhaben Urbane Mitte und die aktuelle Entwicklung zur Diskussion. Nachdem der Senat nun auch das Verfahren für das nördliche…
+source_url: https://www.mittendran.de/7-hochhaeuser-im-gleisdreieckpark/
+wp_post_id: 38035
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504268
+  lon: 13.362851
+  osm_id: null
+  status: confirmed
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

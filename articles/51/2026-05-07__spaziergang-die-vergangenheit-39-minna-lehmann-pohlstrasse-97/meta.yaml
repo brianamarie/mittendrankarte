@@ -1,0 +1,48 @@
+title: 'Spaziergang in die Vergangenheit (39): Minna Lehmann, Pohlstraße 97'
+slug: 2026-05-07__spaziergang-die-vergangenheit-39-minna-lehmann-pohlstrasse-97
+author: Paul Enck
+date: '2026-05-07'
+issue: '51'
+rubrik: Aus dem Kiez
+about_years: [1822, 1827, 1837, 1845, 1865, 1892, 1893, 1896, 1897, 1900, 1903, 1904, 1906, 1908, 1910, 1912, 1919, 1936, 1937, 1940, 1942, 1959, 2010]
+description: 'Wenn Sie Minna Lehmann nicht kennen, muss Sie das nicht irritieren: Minna Lehmann geborene Stargardt lebte von 1822-1912. Sie war eine Großtante von Walter Benjamin (1892-1940), der für kurze Zeit selbst im…'
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-39-minna-lehmann-pohlstrasse-97/
+wp_post_id: 41397
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz 4
+  lat: 52.503097
+  lon: 13.360449
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße 97
+  lat: 52.501857
+  lon: 13.359663
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße 57
+  lat: 52.501982
+  lon: 13.355377
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Genthiner Straße
+  lat: 52.505465
+  lon: 13.360355
+  osm_id: null
+  status: confirmed
+- name: Kluckstraße
+  lat: 52.502585
+  lon: 13.36113
+  osm_id: null
+  status: confirmed
+- name: Flottwellstraße
+  lat: 52.501731
+  lon: 13.37132
+  osm_id: null
+  status: confirmed

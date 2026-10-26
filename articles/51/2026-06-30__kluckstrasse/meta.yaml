@@ -1,0 +1,25 @@
+title: Die Kluckstraße soll umbenannt werden
+slug: 2026-06-30__kluckstrasse
+author: FP
+date: '2026-06-30'
+issue: '51'
+rubrik: Öffentlicher Raum und Verkehr
+about_years: [1846, 1857, 1866, 1870, 1883, 1900, 1911, 1914, 1916, 1917, 1918, 1920, 1929, 1934, 1935, 1943, 2005]
+description: 'Die Bezirksverordnetenversammlung Mitte hat am 26. Juni 2025 beschlossen, dass die Kluckstraße in Tiergarten-Süd umbenannt werden soll: „Das Bezirksamt wird ersucht, die Umbenennung der 1935 nach Alexander von Kluck…'
+source_url: https://www.mittendran.de/kluckstrasse/
+wp_post_id: 40843
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+- name: Kluckstraße
+  lat: 52.502585
+  lon: 13.36113
+  osm_id: null
+  status: confirmed

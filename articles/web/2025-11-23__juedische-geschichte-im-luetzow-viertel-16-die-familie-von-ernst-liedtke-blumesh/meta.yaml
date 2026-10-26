@@ -1,0 +1,70 @@
+title: 'Jüdische Geschichte im Lützow-Viertel (16): Die Familie von Ernst Liedtke,
+  Blumeshof 12 (Teil 6)'
+slug: 2025-11-23__juedische-geschichte-im-luetzow-viertel-16-die-familie-von-ernst-liedtke-blumesh
+author: Paul Enck
+date: '2025-11-23'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1883, 1885, 1886, 1887, 1909, 1910, 1912, 1913, 1916, 1918, 1920, 1922, 1923, 1930, 1933, 1934, 1937, 1938, 1941, 1942, 1943, 1945, 1956, 1957, 1989, 2012]
+description: Wir hatten früh vermutet, dass der „andere Theo“ in Simon Mays Geschichte der Familie Liedtke (1) zur gleichen Familie gehörte (mittendran vom 21. April 2025…
+source_url: https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-16-die-familie-von-ernst-liedtke-blumeshof-12-teil-6/
+wp_post_id: 39760
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Einkäufer
+  lat: 52.504195
+  lon: 13.479107
+  osm_id: null
+  status: auto
+  via: regex
+- name: Verkäufer
+  lat: 53.214288
+  lon: 10.759374
+  osm_id: null
+  status: auto
+  via: regex
+- name: Martin-Luther-Straße
+  lat: 52.498275
+  lon: 13.346165
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Bundesallee
+  lat: 52.486208
+  lon: 13.33084
+  osm_id: null
+  status: auto
+  via: regex
+- name: Jenaerstraße
+  lat: 52.531224
+  lon: 13.615064
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kaiserallee
+  lat: 52.420376
+  lon: 13.363388
+  osm_id: null
+  status: auto
+  via: regex
+- name: Viktoria-Luise-Platz
+  lat: 52.496175
+  lon: 13.343186
+  osm_id: null
+  status: auto
+  via: regex
+- name: Welserstraße
+  lat: 52.498848
+  lon: 13.342243
+  osm_id: null
+  status: auto
+  via: regex
+- name: Alexanderplatz
+  lat: 52.521981
+  lon: 13.413636
+  osm_id: null
+  status: auto
+  via: regex

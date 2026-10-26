@@ -1,0 +1,27 @@
+title: 'Galerie Max Hetzler: Retrospektive Barry Flanagan'
+slug: 2023-02-18__galerie-max-hetzler-retrospektive-barry-flanagan
+author: APZ
+date: '2023-02-18'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2023/02/2E9C65CC-B840-4420-84D9-2A632F5221A1-scaled.jpeg) Der Hase stand im Zentrum des bildnerischen Schaffens Barry Flanagans. Diese Arbeit erinnert an Rodins „Denker“…
+source_url: https://www.mittendran.de/galerie-max-hetzler-retrospektive-barry-flanagan/
+wp_post_id: 25600
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 77-87
+  lat: 52.502094
+  lon: 13.36537
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Bleibtreustraße
+  lat: 52.504541
+  lon: 13.319885
+  osm_id: null
+  status: auto
+  via: regex

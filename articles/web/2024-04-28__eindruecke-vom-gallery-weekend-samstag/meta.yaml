@@ -1,0 +1,27 @@
+title: Eindrücke vom Gallery Weekend am Samstag
+slug: 2024-04-28__eindruecke-vom-gallery-weekend-samstag
+author: eki
+date: '2024-04-28'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Das Gallery Weekend feiert in diesem Jahr seine 20. Ausgabe. Ein Wochenende, das bei uns im Kiez wieder viele Besucher und Besucherinnen in die Galerien rund um die Potsdamer Straße lockt. NOT A GALLERY feierte Freitag…
+source_url: https://www.mittendran.de/eindruecke-vom-gallery-weekend-samstag/
+wp_post_id: 31588
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Auf-dem-Weg
+  lat: 52.59506
+  lon: 13.283319
+  osm_id: null
+  status: auto
+  via: regex

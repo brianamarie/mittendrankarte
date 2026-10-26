@@ -1,0 +1,27 @@
+title: Die Diagnose  kam einmal einem Todesurteil gleich.
+slug: 2022-12-01__die-diagnose-kam-einmal-einem-todesurteil-gleich
+author: Redaktion
+date: '2022-12-01'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1985]
+description: Aids wurde als „Schwulenseuche“ bezeichnet. Anfangs „verbargen“ viele ihre Erkrankung. Diskriminierung war eine der schlimmen Nebenwirkungen. Viel Unsinn wurde über die Krankheit verbreitet. Aber sie forderte auch…
+source_url: https://www.mittendran.de/die-diagnose-kam-einmal-einem-todesurteil-gleich/
+wp_post_id: 24365
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 130
+  lat: 52.502195
+  lon: 13.352851
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Nollendorfplatz
+  lat: 52.499597
+  lon: 13.35373
+  osm_id: null
+  status: confirmed
+  via: regex

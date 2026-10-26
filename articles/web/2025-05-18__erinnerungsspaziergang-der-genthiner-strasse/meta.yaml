@@ -1,0 +1,32 @@
+title: Erinnerungsspaziergang in der Genthiner Straße
+slug: 2025-05-18__erinnerungsspaziergang-der-genthiner-strasse
+author: Paul Enck
+date: '2025-05-18'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1930, 1939]
+description: Nach der Kurfürstenstraße im vergangenen Jahr war es in diesem Jahr die Genthiner Straße, in der die SPD-Tiergarten, namentlich Adda und Bergis Schmidt-Ehry, einen Gedenk-Spaziergang organisierte anläßlich des…
+source_url: https://www.mittendran.de/erinnerungsspaziergang-der-genthiner-strasse/
+wp_post_id: 37651
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz 1
+  lat: 52.502767
+  lon: 13.359451
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Genthiner Straße 14
+  lat: 52.504662
+  lon: 13.359674
+  osm_id: null
+  status: confirmed
+  via: address

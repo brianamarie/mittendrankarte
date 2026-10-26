@@ -1,0 +1,33 @@
+title: Die Familie von Franz Ledermann (Teil 1)
+slug: 2022-11-18__die-familie-von-franz-ledermann-teil-1
+author: Redaktion
+date: '2022-11-18'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1776, 1802, 1809, 1828, 1833, 1834, 1835, 1836, 1837, 1838, 1839, 1841, 1842, 1844, 1845, 1846, 1847, 1848, 1853, 1860, 1861, 1862, 1864, 1867, 1868, 1889, 1890, 1896, 1900, 1906, 1909, 1910, 1911, 1912, 1931, 1933, 1943, 1987]
+description: aus der Serie „Jüdische Geschichte im Lützow-Viertel“ (4.1), von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com) Anlässlich der Gedenkfeier und der Verlegung von Stolpersteinen in der Genthinerstraße…
+source_url: https://www.mittendran.de/die-familie-von-franz-ledermann-teil-1/
+wp_post_id: 24326
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 15
+  lat: 52.502434
+  lon: 13.369144
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Genthiner Straße
+  lat: 52.504993
+  lon: 13.360119
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Carlsplatz
+  lat: 51.223426
+  lon: 6.77357
+  osm_id: null
+  status: auto
+  via: regex

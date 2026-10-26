@@ -1,0 +1,28 @@
+title: 'Bauhaus-Archiv / Museum für Gestaltung Berlin: Richtfest markiert weiteren
+  Meilenstein'
+slug: 2023-05-09__bauhaus-archiv-museum-fuer-gestaltung-berlin-richtfest-markiert-weiteren-meilens
+author: Redaktion
+date: '2023-05-09'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Das Bauhaus-Archiv / Museum für Gestaltung feiert heute sein Richtfest. Auf der Baustelle an der Klingelhöferstraße 14 in Berlin sind die Arbeiten am Rohbau inklusive Dachabdichtung des unterirdischen Sockelgebäudes…
+source_url: https://www.mittendran.de/bauhaus-archiv-museum-fuer-gestaltung-berlin-richtfest-markiert-weiteren-meilenstein/
+wp_post_id: 27211
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Klingelhöferstraße
+  lat: 52.50757
+  lon: 13.351972
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Von-der-Heydt-Straße
+  lat: 52.506766
+  lon: 13.353811
+  osm_id: null
+  status: confirmed
+  via: regex

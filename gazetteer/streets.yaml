@@ -1,0 +1,288 @@
+# Street and place names for Tiergarten Süd / Lützowkiez.
+# Used to spot locations in article text. Prefer entries with lat/lon.
+
+places:
+  - name: Magdeburger Platz
+    kind: square
+    lat: 52.5047
+    lon: 13.3615
+  - name: Lützowplatz
+    kind: square
+    lat: 52.5043
+    lon: 13.3535
+  - name: Potsdamer Platz
+    kind: square
+    lat: 52.5096
+    lon: 13.3760
+  - name: Lützowstraße
+    kind: street
+    lat: 52.5038
+    lon: 13.3580
+  - name: Pohlstraße
+    kind: street
+    lat: 52.5015
+    lon: 13.3645
+  - name: Potsdamer Straße
+    kind: street
+    lat: 52.5035
+    lon: 13.3655
+  - name: Kurfürstenstraße
+    kind: street
+    lat: 52.5005
+    lon: 13.3520
+  - name: Genthiner Straße
+    kind: street
+    lat: 52.5055
+    lon: 13.3605
+  - name: Kluckstraße
+    kind: street
+    lat: 52.5020
+    lon: 13.3620
+  - name: Derfflingerstraße
+    kind: street
+    lat: 52.5048
+    lon: 13.3570
+  - name: Flottwellstraße
+    kind: street
+    lat: 52.5008
+    lon: 13.3705
+  - name: Schöneberger Ufer
+    kind: street
+    lat: 52.5040
+    lon: 13.3680
+  - name: Reichpietschufer
+    kind: street
+    lat: 52.5065
+    lon: 13.3720
+  - name: Bülowstraße
+    kind: street
+    lat: 52.4985
+    lon: 13.3580
+  - name: Kurmärkische Straße
+    kind: street
+    lat: 52.5012
+    lon: 13.3555
+  - name: Karl-Heinrich-Ulrichs-Straße
+    kind: street
+    lat: 52.5000
+    lon: 13.3490
+  - name: Steinmetzstraße
+    kind: street
+    lat: 52.4975
+    lon: 13.3610
+  - name: Landgrafenstraße
+    kind: street
+    lat: 52.5058
+    lon: 13.3505
+  - name: Schillstraße
+    kind: street
+    lat: 52.5050
+    lon: 13.3485
+  - name: Steglitzer Straße
+    kind: street
+    lat: 52.5018
+    lon: 13.3635
+  - name: Köthener Straße
+    kind: street
+    lat: 52.5068
+    lon: 13.3785
+  - name: Dennewitzstraße
+    kind: street
+    lat: 52.4988
+    lon: 13.3705
+  - name: Körnerstraße
+    kind: street
+    lat: 52.4965
+    lon: 13.3680
+  - name: Frobenstraße
+    kind: street
+    lat: 52.4995
+    lon: 13.3550
+  - name: Culmstraße
+    kind: street
+    lat: 52.4970
+    lon: 13.3640
+  - name: Goebenstraße
+    kind: street
+    lat: 52.4955
+    lon: 13.3625
+  - name: Keithstraße
+    kind: street
+    lat: 52.5030
+    lon: 13.3455
+  - name: Einemstraße
+    kind: street
+    lat: 52.5045
+    lon: 13.3465
+  - name: Magdeburgstraße
+    kind: street
+    lat: 52.5055
+    lon: 13.3625
+  - name: Potsdamer Brücke
+    kind: bridge
+    lat: 52.5075
+    lon: 13.3735
+  - name: Villa Lützow
+    kind: poi
+    lat: 52.5040
+    lon: 13.3560
+  - name: Gleisdreieck
+    kind: park
+    lat: 52.4995
+    lon: 13.3740
+  - name: Kulturforum
+    kind: poi
+    lat: 52.5085
+    lon: 13.3675
+  - name: Schwules Museum
+    kind: poi
+    lat: 52.5048
+    lon: 13.3588
+  - name: Haus am Lützowplatz
+    kind: poi
+    lat: 52.5045
+    lon: 13.3528
+  - name: Philharmonie
+    kind: poi
+    lat: 52.5100
+    lon: 13.3700
+  - name: Luiseninsel
+    kind: poi
+    lat: 52.510898
+    lon: 13.366682
+  - name: Neue Nationalgalerie
+    kind: poi
+    lat: 52.5068
+    lon: 13.3678
+  - name: Matthäikirchplatz
+    kind: square
+    lat: 52.5082
+    lon: 13.3665
+  - name: St. Matthäus-Kirche
+    kind: poi
+    lat: 52.5080
+    lon: 13.3668
+  - name: Wintergarten Varieté
+    kind: poi
+    lat: 52.5022
+    lon: 13.3646
+  - name: Willy-Brandt-Haus
+    kind: poi
+    lat: 52.5005
+    lon: 13.3880
+  - name: Museum für Kommunikation
+    kind: poi
+    lat: 52.5098
+    lon: 13.3865
+  - name: Deutsches Technikmuseum
+    kind: poi
+    lat: 52.4986
+    lon: 13.3775
+  - name: Technikmuseum
+    kind: poi
+    lat: 52.4986
+    lon: 13.3775
+  - name: Zwölf-Apostel-Kirche
+    kind: poi
+    lat: 52.5008
+    lon: 13.3615
+  - name: Alter Zwölf-Apostel-Kirchhof
+    kind: poi
+    lat: 52.4915
+    lon: 13.3610
+  - name: Nachbarschaftstreff
+    kind: poi
+    lat: 52.5035
+    lon: 13.3575
+  - name: Bibliothek Tiergarten-Süd
+    kind: poi
+    lat: 52.5018
+    lon: 13.3605
+  - name: Stadtbibliothek Tiergarten-Süd
+    kind: poi
+    lat: 52.5018
+    lon: 13.3605
+  - name: Die Pumpe
+    kind: poi
+    lat: 52.5012
+    lon: 13.3618
+  - name: Bauhaus-Archiv
+    kind: poi
+    lat: 52.5062
+    lon: 13.3535
+  - name: Joseph-Roth-Diele
+    kind: poi
+    lat: 52.5030
+    lon: 13.3640
+  - name: Landwehrkanal
+    kind: water
+    lat: 52.5045
+    lon: 13.3650
+  - name: Gleisdreieckpark
+    kind: park
+    lat: 52.4995
+    lon: 13.3740
+  - name: Park am Gleisdreieck
+    kind: park
+    lat: 52.4995
+    lon: 13.3740
+  - name: Specht-Spielplatz
+    kind: poi
+    lat: 52.5010
+    lon: 13.3720
+  - name: Oma-Bunker
+    kind: poi
+    lat: 52.5005
+    lon: 13.3565
+  - name: Omabunker
+    kind: poi
+    lat: 52.5005
+    lon: 13.3565
+  - name: Urban Nation
+    kind: poi
+    lat: 52.4980
+    lon: 13.3545
+  - name: Nollendorfplatz
+    kind: square
+    lat: 52.4992
+    lon: 13.3538
+  - name: Winterfeldtplatz
+    kind: square
+    lat: 52.4965
+    lon: 13.3545
+  - name: Blumeshof
+    kind: street
+    lat: 52.5040
+    lon: 13.3555
+  - name: Karlsbad
+    kind: street
+    lat: 52.5048
+    lon: 13.3705
+  - name: Bissingzeile
+    kind: street
+    lat: 52.5025
+    lon: 13.3685
+  - name: Ladestraße
+    kind: street
+    lat: 52.5000
+    lon: 13.3755
+  - name: Deutschlandmuseum
+    kind: poi
+    lat: 52.5105
+    lon: 13.3765
+  - name: Kühlhaus Berlin
+    kind: poi
+    lat: 52.4988
+    lon: 13.3755
+  - name: Sony Center
+    kind: poi
+    lat: 52.5100
+    lon: 13.3735
+  - name: Haus Lützowplatz
+    kind: poi
+    lat: 52.5045
+    lon: 13.3528
+  - name: HAL
+    kind: poi
+    lat: 52.5045
+    lon: 13.3528

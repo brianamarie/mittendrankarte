@@ -1,0 +1,27 @@
+title: Koordinator*in für Kindertreff gesucht
+slug: 2023-01-23__koordinatorin-f-c3-bcr-kindertreff-gesucht
+author: Redaktion
+date: '2023-01-23'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Der Kindertreff „Villa Lützow“ (Kiez Zentrum Villa Lützow, Lützowstraße 28 – 10785 Berlin) sucht ab sofort eine neue Person für die Koordination…
+source_url: https://www.mittendran.de/koordinatorin-f%c3%bcr-kindertreff-gesucht/
+wp_post_id: 25158
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

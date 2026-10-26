@@ -1,0 +1,27 @@
+title: Bummel durch die Pohlstrasse  am Gallery Weekend
+slug: 2023-04-30__bummel-durch-die-pohlstrasse-gallery-weekend
+author: APZ
+date: '2023-04-30'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1978]
+description: Tausende bewegten sich am Samstag zum 19. Gallery Weekend in den letzten Apriltagen die Potsdamer Straße entlang. Viele strebten die Mercatorhöfe mit den Großgalerien Esther Schipper, Max Hetzler und Jörg Judin an…
+source_url: https://www.mittendran.de/bummel-durch-die-pohlstrasse-gallery-weekend/
+wp_post_id: 27028
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer

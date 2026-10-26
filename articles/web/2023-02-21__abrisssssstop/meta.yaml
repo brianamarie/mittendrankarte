@@ -1,0 +1,27 @@
+title: „ABRISSSSSSTOP“
+slug: 2023-02-21__abrisssssstop
+author: Redaktion
+date: '2023-02-21'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: []
+description: Das Kollektiv „ufo ufo – urban fragment observatory“ (https://ufoufo.eu/VISITING-ABRISS) veranstaltet am Samstag, 25. Februar unter dem Motto „ABRISSSSSSTOP“ und „Visiting Abriss“ eine Kundgebung und Demonstration mit…
+source_url: https://www.mittendran.de/abrisssssstop/
+wp_post_id: 25659
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer

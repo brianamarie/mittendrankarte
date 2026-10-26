@@ -1,0 +1,27 @@
+title: Am 7. Juli ist Museumssonntag
+slug: 2024-07-04__7-juli-ist-museumssonntag
+author: FP
+date: '2024-07-04'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Einige Tipps für den Museumssonntag am 7. Juli in Tiergarten. In rund 80 Berliner Museen ist am Sonntag der Eintritt frei. Und es wird einiges rund um das Thema Fußball geboten. Das Futurium veranstaltet ein…
+source_url: https://www.mittendran.de/7-juli-ist-museumssonntag/
+wp_post_id: 32682
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kulturforum
+  lat: 52.5085
+  lon: 13.3675
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Neue Nationalgalerie
+  lat: 52.5068
+  lon: 13.3678
+  osm_id: null
+  status: confirmed
+  via: gazetteer

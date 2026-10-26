@@ -1,0 +1,57 @@
+title: Kultur im Kiez – 3 Orte – 3 Erlebnisse
+slug: 2024-07-17__kultur-im-kiez-3-orte-3-erlebnisse-2
+author: Redaktion
+date: '2024-07-17'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1960, 2013]
+description: Gastbeitrag von Jutta Brinkschulte und Heidrun Abraham Eine Veranstaltung des Stadtteil-Forums Tiergarten Süd gemeinsam mit der Stadtteilkoordination Tiergarten Süd Rund um die Potsdamer Straße gibt es viele…
+source_url: https://www.mittendran.de/kultur-im-kiez-3-orte-3-erlebnisse-2/
+wp_post_id: 32937
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowplatz 9
+  lat: 52.504355
+  lon: 13.353555
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Lützowstraße 27
+  lat: 52.50376
+  lon: 13.363429
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bülowstraße 7
+  lat: 52.498723
+  lon: 13.356585
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Haus am Lützowplatz
+  lat: 52.5045
+  lon: 13.3528
+  osm_id: null
+  status: confirmed
+  via: gazetteer

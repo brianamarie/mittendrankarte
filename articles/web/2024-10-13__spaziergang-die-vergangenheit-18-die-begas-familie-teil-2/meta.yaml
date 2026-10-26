@@ -1,0 +1,76 @@
+title: 'Spaziergang in die Vergangenheit (18): Die Begas-Familie Am Karlsbad (Teil
+  2)'
+slug: 2024-10-13__spaziergang-die-vergangenheit-18-die-begas-familie-teil-2
+author: Paul Enck
+date: '2024-10-13'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1764, 1777, 1788, 1794, 1828, 1831, 1848, 1850, 1853, 1854, 1856, 1857, 1859, 1861, 1863, 1864, 1865, 1868, 1872, 1873, 1874, 1877, 1879, 1883, 1886, 1887, 1891, 1894, 1897, 1898, 1901, 1904, 1907, 1908, 1910, 1911, 1912, 1916, 1927, 1965]
+description: Im zweiten Teil des Spaziergangs folgen wir einem weiteren Kind von Carl Begas (1794-1850) und seiner Frau Wilhelmine (mittendran vom 16. September 2024…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-18-die-begas-familie-teil-2/
+wp_post_id: 34098
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Matthäikirchstraße
+  lat: 52.330256
+  lon: 9.778127
+  osm_id: null
+  status: auto
+  via: regex
+- name: Stülerstraße
+  lat: 52.509437
+  lon: 13.350612
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Von-der-Heydt-Straße
+  lat: 52.50654
+  lon: 13.352892
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Martin-Luther-Straße
+  lat: 52.498275
+  lon: 13.346165
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Barbarossastraße
+  lat: 52.492317
+  lon: 13.339298
+  osm_id: null
+  status: auto
+  via: regex
+- name: Reichsstraße
+  lat: 52.518894
+  lon: 13.257072
+  osm_id: null
+  status: auto
+  via: regex
+- name: Königin-Augusta-Straße
+  lat: 54.40387
+  lon: 13.607377
+  osm_id: null
+  status: auto
+  via: regex
+- name: Hohenzollernstraße
+  lat: 52.621126
+  lon: 13.299698
+  osm_id: null
+  status: auto
+  via: regex

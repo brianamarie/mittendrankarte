@@ -1,0 +1,27 @@
+title: Eine Mail aus den USA
+slug: 2024-09-22__eine-mail-aus-den-usa
+author: Paul Enck
+date: '2024-09-22'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1900, 1902, 1903, 1913, 1914, 1932, 1941, 1942, 2013]
+description: Die Fälle häufen sich, in denen auf älteren historische Artikel über das Lützow-Viertel aus dem In- und Ausland Anfragen, Rückfragen, Kommentare oder Korrekturen kommen, erst aus Schweden (mittendran vom 11. Mai 2024…
+source_url: https://www.mittendran.de/eine-mail-aus-den-usa/
+wp_post_id: 33779
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz 2
+  lat: 52.50496
+  lon: 13.353739
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kluckstraße
+  lat: 52.503773
+  lon: 13.361648
+  osm_id: null
+  status: confirmed
+  via: regex

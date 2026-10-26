@@ -1,0 +1,21 @@
+title: Die Archivkiste
+slug: 2024-11-15__die-archivkiste
+author: Paul Enck
+date: '2024-11-15'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1848, 1849, 1891, 1893, 1899]
+description: 'Geschichten generieren neue Geschichten: so geschehen jetzt mit der Geschichte von Paul Philipp Blumenreich, die am 22. Juni 2024 in mittendran…'
+source_url: https://www.mittendran.de/die-archivkiste/
+wp_post_id: 34530
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 156
+  lat: 52.496488
+  lon: 13.36107
+  osm_id: null
+  status: confirmed
+  via: address

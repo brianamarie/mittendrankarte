@@ -1,0 +1,40 @@
+title: Von Berlin nach Luxemburg über den Tauentzien – wie das Gleisdreieck zum Spekulationsobjekt
+  wurde
+slug: 2023-09-20__von-berlin-nach-luxemburg-ueber-den-tauentzien-wie-das-gleisdreieck-zum-spekulat
+author: Redaktion
+date: '2023-09-20'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [2005, 2007]
+description: Wer, wie, was, wieso, weshalb, warum? Zuerst veröffentlicht im gleisdreieck-blog…
+source_url: https://www.mittendran.de/von-berlin-nach-luxemburg-ueber-den-tauentzien-wie-das-gleisdreieck-zum-spekulationsobjekt-wurde/
+wp_post_id: 28951
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kleiststraße
+  lat: 52.50069
+  lon: 13.347864
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Jägerstraße
+  lat: 52.514172
+  lon: 13.39505
+  osm_id: null
+  status: auto
+  via: regex

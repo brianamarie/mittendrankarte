@@ -1,0 +1,28 @@
+title: 'Spaziergang in die Vergangenheit (40): Ein Brief aus Jerusalem in Sachen Julius
+  Popper'
+slug: 2026-05-16__spaziergang-die-vergangenheit-40-ein-brief-aus-jerusalem-sachen-julius-popper
+author: Paul Enck
+date: '2026-05-16'
+issue: '51'
+rubrik: Aus dem Kiez
+about_years: [1775, 1785, 1792, 1795, 1797, 1801, 1802, 1806, 1810, 1816, 1821, 1822, 1828, 1837, 1841, 1842, 1845, 1846, 1850, 1854, 1855, 1862, 1864, 1866, 1867, 1872, 1874, 1876, 1884, 1887, 1891, 1893, 1937, 1983]
+description: 'Eine Mail aus Jerusalem überraschte: Prof. Edward Breuer von der Hebrew University Jerusalem, Experte für jüdische Geschichte und Philosophie, war über einen Artikel in mitteNdran zu Julius Popper (Bild 1) gestoßen…'
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-40-ein-brief-aus-jerusalem-sachen-julius-popper/
+wp_post_id: 41850
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Die-familie-popper-luetzowplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Sitzplatz
+  lat: 52.452471
+  lon: 13.263777
+  osm_id: null
+  status: auto
+  via: regex

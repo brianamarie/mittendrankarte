@@ -1,0 +1,27 @@
+title: Das Stadtteil-Forum Tiergarten Süd  in neuem Gewand
+slug: 2023-11-09__das-stadtteil-forum-tiergarten-sued-neuem-gewand
+author: ase
+date: '2023-11-09'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: '(https://www.mittendran.de/wp-content/uploads/2023/11/Villa-Luetzow-quer-scaled.jpeg) Kiez-Zentrum Villa Lützow (Foto: ASE) Seit mehr als einem Jahr wurde über eine Umstrukturierung des Stadtteil-Forums (STF)…'
+source_url: https://www.mittendran.de/das-stadtteil-forum-tiergarten-sued-neuem-gewand/
+wp_post_id: 29517
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

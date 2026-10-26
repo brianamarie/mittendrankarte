@@ -1,0 +1,27 @@
+title: Eine Rose vor der Neuen Nationalgalerie
+slug: 2023-07-13__eine-rose-vor-der-neuen-nationalgalerie
+author: Redaktion
+date: '2023-07-13'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1981, 1990, 1993, 2012, 2013]
+description: Ausstellung Isa Genzken 75/75 Isa Genzken „Pink Rose 2016/2023“ (Foto:eki) „Die Neue Nationalgalerie ehrt Isa Genzken anlässlich ihres 75. Geburtstags mit der Ausstellung „Isa Genzken. 75/75“ und zeigt 75 Skulpturen…
+source_url: https://www.mittendran.de/eine-rose-vor-der-neuen-nationalgalerie/
+wp_post_id: 27934
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 50
+  lat: 52.507041
+  lon: 13.367621
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Neue Nationalgalerie
+  lat: 52.5068
+  lon: 13.3678
+  osm_id: null
+  status: confirmed
+  via: gazetteer

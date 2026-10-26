@@ -1,0 +1,63 @@
+title: Veranstaltung zum Thema Fahrradstraßen und  Entsiegelung
+slug: 2024-04-27__diskussion-zum-thema-fahrradstrassen-und-entsiegelung
+author: FP
+date: '2024-04-27'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Im Anschluss an das Gartenfest fand im Großen Saal der Villa Lützow eine Informationsveranstaltung zum Thema Fahrradstraßen und Entsiegelung im Lützow-Viertel statt. Max Söding, Stadtteil-Koordinator, hatte Mitarbeiter…
+source_url: https://www.mittendran.de/diskussion-zum-thema-fahrradstrassen-und-entsiegelung/
+wp_post_id: 31557
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße
+  lat: 52.502
+  lon: 13.362
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Fahrradstraße
+  lat: 49.45714
+  lon: 11.040333
+  osm_id: null
+  status: auto
+  via: regex
+- name: Lützowufer
+  lat: 52.505525
+  lon: 13.353321
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Entsiegelung-Pohlstraße
+  lat: 52.501034
+  lon: 13.36284
+  osm_id: null
+  status: confirmed
+  via: regex

@@ -1,0 +1,27 @@
+title: Die Familie von Franz Ledermann (Teil 4)
+slug: 2023-02-11__die-familie-von-franz-ledermann-teil-4
+author: Redaktion
+date: '2023-02-11'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1793, 1812, 1815, 1822, 1836, 1840, 1864, 1869, 1870, 1881, 1884, 1886, 1888, 1889, 1890, 1891, 1894, 1903, 1904, 1906, 1913, 1914, 1916, 1918, 1919, 1920, 1924, 1925, 1930, 1931, 1933, 1934, 1936, 1937, 1939, 1940, 1943, 1945, 1949, 1962, 1979, 1986, 1989, 1990, 1991, 1998, 2005, 2009]
+description: aus der Serie „Jüdische Geschichte im Lützow-Viertel“ (4.4), von Prof. Dr. Paul Enck, www.paul-enck.com. Käthe Kaempfer geborene Ledermann war die erste aus der Ledermann-Familie, die sich im Lützow-Viertel niederließ…
+source_url: https://www.mittendran.de/die-familie-von-franz-ledermann-teil-4/
+wp_post_id: 25488
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 109
+  lat: 52.499878
+  lon: 13.363214
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Die-straßen-im-kiez-flottwellstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

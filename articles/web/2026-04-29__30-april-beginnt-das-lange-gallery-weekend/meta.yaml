@@ -1,0 +1,27 @@
+title: Am 30. April beginnt das lange Gallery Weekend
+slug: 2026-04-29__30-april-beginnt-das-lange-gallery-weekend
+author: FP
+date: '2026-04-29'
+issue: null
+rubrik: Gewerbe und Gastronomie
+about_years: [1981, 1985]
+description: 'Das Gallery Weekend steht bevor und Tiergarten-Süd mit seinen vielen Galerien ist ein Hotspot. Rundherum locken auch viele Geschäfte zu einem Besuch: „Harb“ in der Potsdamer Straße eröffnet nach langer Umbaupause am 1…'
+source_url: https://www.mittendran.de/30-april-beginnt-das-lange-gallery-weekend/
+wp_post_id: 41424
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße 71
+  lat: 52.500936
+  lon: 13.362704
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer

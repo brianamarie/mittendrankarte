@@ -1,0 +1,33 @@
+title: Workshop zur Unterstützung bei der Suche nach einer Ausbildungsstelle
+slug: 2023-08-17__workshop-zur-unterstuetzung-bei-der-suche-nach-einer-ausbildungsstelle
+author: Redaktion
+date: '2023-08-17'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: []
+description: Die Villa Lützow bietet zwei Workshops zur Unterstützung bei der Suche nach einer Ausbildungsstelle oder bei Bewerbungsschreiben für Jugendliche an. Am 23.8. und 30.8.2023 finden zwei „Last-Minute-Bewerbung“- Workshops…
+source_url: https://www.mittendran.de/workshop-zur-unterstuetzung-bei-der-suche-nach-einer-ausbildungsstelle/
+wp_post_id: 28328
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Ausbildungsplatz
+  lat: 54.082956
+  lon: 9.131765
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,33 @@
+title: Querflöten Friederichs des Großen und eine Stradivari
+slug: 2023-03-07__querfloeten-friederichs-des-grossen-und-eine-stradivari
+author: eki
+date: '2023-03-07'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1888, 1972, 1979, 1984]
+description: Bewundern Sie rund 800 weitere Instrumente der europäischen Kunstmusik vom 16.-20. Jahrhundert im Musikinstrumenten-Museum des Staatlichen Instituts für Musikforschung Preußischer Kulturbesitz („MIM“)…
+source_url: https://www.mittendran.de/querfloeten-friederichs-des-grossen-und-eine-stradivari/
+wp_post_id: 25820
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kulturforum
+  lat: 52.5085
+  lon: 13.3675
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Philharmonie
+  lat: 52.51
+  lon: 13.37
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Ben-Gurion-Straße
+  lat: 52.510464
+  lon: 13.371312
+  osm_id: null
+  status: confirmed
+  via: regex

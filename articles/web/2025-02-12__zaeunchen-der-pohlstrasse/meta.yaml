@@ -1,0 +1,26 @@
+title: Zäunchen in der Pohlstraße
+slug: 2025-02-12__zaeunchen-der-pohlstrasse
+author: FP
+date: '2025-02-12'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: In der westlichen Pohlstraße wurde heute an den Beeten nahe der Potsdamer Straße gearbeitet. Im Auftrag des Grünflächenamtes erhalten die Beete eine Umrahmung mit kleinen Holzzäunen. Von einer Gärtnerin war zu…
+source_url: https://www.mittendran.de/zaeunchen-der-pohlstrasse/
+wp_post_id: 35448
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.500435
+  lon: 13.366647
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer

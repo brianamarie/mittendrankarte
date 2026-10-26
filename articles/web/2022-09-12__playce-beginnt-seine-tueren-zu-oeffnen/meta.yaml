@@ -1,0 +1,27 @@
+title: The Playce beginnt seine Türen zu öffnen …
+slug: 2022-09-12__playce-beginnt-seine-tueren-zu-oeffnen
+author: APZ
+date: '2022-09-12'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: 24 Jahre nach ihrer ersten Eröffnung und zum Ende des zweijährigen Umbaus seit Frühjahr 2020 öffnen die früheren Potsdamer Platz Arkaden ihre Türen in dieser Septemberwoche unter dem neuen Namen „The Playce“. Ab dem…
+source_url: https://www.mittendran.de/playce-beginnt-seine-tueren-zu-oeffnen/
+wp_post_id: 23376
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Hauptstraße
+  lat: 52.489303
+  lon: 13.359376
+  osm_id: null
+  status: auto
+  via: regex

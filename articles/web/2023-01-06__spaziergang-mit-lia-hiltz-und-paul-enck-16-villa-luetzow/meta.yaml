@@ -1,0 +1,51 @@
+title: 'Spaziergang mit Lia Hiltz und Paul Enck (16): Villa Lützow'
+slug: 2023-01-06__spaziergang-mit-lia-hiltz-und-paul-enck-16-villa-luetzow
+author: FP
+date: '2023-01-06'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1819, 1821, 1852, 1862, 1875, 1900, 1902, 1910, 1917, 1920, 1933, 1935, 1937, 1938, 1939, 1940, 1942, 1945, 1995, 2007]
+description: '(https://www.mittendran.de/wp-content/uploads/2023/01/Bild-16_1-Villa-Luetzow-scaled.jpg) Bild 1: Villa Lützow von Lia Hiltz (C) Man mag es späte Rache nennen, oder ausgleichende Gerechtigkeit, oder, dass am Ende die…'
+source_url: https://www.mittendran.de/spaziergang-mit-lia-hiltz-und-paul-enck-16-villa-luetzow/
+wp_post_id: 24929
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 27
+  lat: 52.50376
+  lon: 13.363429
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kluckstraße
+  lat: 52.502
+  lon: 13.362
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Privatstraße
+  lat: 52.478114
+  lon: 13.125611
+  osm_id: null
+  status: auto
+  via: regex
+- name: Durchweg
+  lat: 53.592444
+  lon: 9.569329
+  osm_id: null
+  status: auto
+  via: regex

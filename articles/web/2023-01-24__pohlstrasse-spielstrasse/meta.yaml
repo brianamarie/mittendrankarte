@@ -1,0 +1,33 @@
+title: Pohlstraße = Spielstraße
+slug: 2023-01-24__pohlstrasse-spielstrasse
+author: Redaktion
+date: '2023-01-24'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: []
+description: Auch 2023 soll die westliche Pohlstraße wieder Spielstraße werden. Interessierte Nachbar*innen und Aktive sind zur Vorbesprechung am 30.1.2023 um 14h00 im Les Climats in der Pohlstraße 75 herzlich willkommen…
+source_url: https://www.mittendran.de/pohlstrasse-spielstrasse/
+wp_post_id: 25179
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße 75
+  lat: 52.50107
+  lon: 13.362275
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Spielstraße
+  lat: 49.137578
+  lon: 8.415617
+  osm_id: null
+  status: auto
+  via: regex
+- name: Vorbesprechung-Spielstraße
+  lat: 52.467628
+  lon: 13.306334
+  osm_id: null
+  status: auto
+  via: regex

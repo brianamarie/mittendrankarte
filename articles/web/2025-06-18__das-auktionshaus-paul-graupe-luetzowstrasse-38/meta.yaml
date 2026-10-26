@@ -1,0 +1,27 @@
+title: Das Auktionshaus Paul Graupe, Lützowstraße 38
+slug: 2025-06-18__das-auktionshaus-paul-graupe-luetzowstrasse-38
+author: Redaktion
+date: '2025-06-18'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1844, 1847, 1870, 1881, 1889, 1907, 1908, 1909, 1911, 1913, 1917, 1920, 1922, 1923, 1925, 1926, 1927, 1931, 1932, 1933, 1935, 1936, 1937, 1939, 1940, 1941, 1945, 1953, 1978, 1983, 2003, 2012]
+description: Ein Beitrag von Marc-Thomas Bock und Paul Enck Schon lange vor dem Münchener Fund der Sammlung Gurlitt im Jahr 2012 standen Fragen zur Herkunft von geraubten Kunstwerken und eventuell relevanter Restitutionsansprüche…
+source_url: https://www.mittendran.de/das-auktionshaus-paul-graupe-luetzowstrasse-38/
+wp_post_id: 37914
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 38
+  lat: 52.504529
+  lon: 13.359207
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Genthiner Straße 28
+  lat: 52.503293
+  lon: 13.359029
+  osm_id: null
+  status: confirmed
+  via: address

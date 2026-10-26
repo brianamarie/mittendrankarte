@@ -1,0 +1,33 @@
+title: Die Sommerstraßen kommen
+slug: 2023-04-18__die-sommerstrassen-kommen
+author: Redaktion
+date: '2023-04-18'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Drei Berliner Nebenstraßen laden zum Flanieren und Verweilen ein In Berlin startet in diesem Jahr das Projekt der Sommerstraßen, die in den Sommermonaten verkehrsberuhigt oder autofrei gestaltet und vereinzelt mit…
+source_url: https://www.mittendran.de/die-sommerstrassen-kommen/
+wp_post_id: 26742
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Steinmetzstraße
+  lat: 52.4975
+  lon: 13.361
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Ackerstraße
+  lat: 52.531941
+  lon: 13.39621
+  osm_id: null
+  status: auto
+  via: regex
+- name: Sommerstraße
+  lat: 52.571682
+  lon: 13.377278
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,39 @@
+title: A. Blumenreich
+slug: 2022-12-18__a-blumenreich
+author: Redaktion
+date: '2022-12-18'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1919, 1920, 1921, 1922, 1925, 1933, 1935, 1936, 1937, 1938, 1939, 1942, 1945, 2009]
+description: 'ein Beitrag von Bethan Griffiths zu: Jüdische Gewerbebetriebe rund um die Potsdamer Straße Im Frühjahr 1919 etablierte das Ehepaar Arnhold und Ilse Blumenreich die „Blumenreich’s Versandhaus GmbH“. Firmen gleichen…'
+source_url: https://www.mittendran.de/a-blumenreich/
+wp_post_id: 24378
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Brücke
+  lat: 52.5075
+  lon: 13.3735
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Großadmiral-von-Köster-Ufer
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

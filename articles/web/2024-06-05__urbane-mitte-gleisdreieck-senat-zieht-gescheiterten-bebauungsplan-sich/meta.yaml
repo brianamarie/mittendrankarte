@@ -1,0 +1,27 @@
+title: 'Urbane Mitte Gleisdreieck: Senat zieht gescheiterten Bebauungsplan an sich'
+slug: 2024-06-05__urbane-mitte-gleisdreieck-senat-zieht-gescheiterten-bebauungsplan-sich
+author: Redaktion
+date: '2024-06-05'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [2000, 2005, 2014]
+description: Ein Beitrag von Mathias Bauer, Gleisdreieckblog (https://gleisdreieck-blog.de/) Pressemitteilung der Aktionsgemeinschaft Gleisdreieck e.V. Veröffentlicht am 4. 06. 2024Mit einer Pressemitteilung am Montag, den 3. Juni…
+source_url: https://www.mittendran.de/urbane-mitte-gleisdreieck-senat-zieht-gescheiterten-bebauungsplan-sich/
+wp_post_id: 32224
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer

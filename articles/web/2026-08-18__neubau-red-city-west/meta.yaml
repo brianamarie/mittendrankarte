@@ -1,0 +1,25 @@
+title: Neubau RED City West
+slug: 2026-08-18__neubau-red-city-west
+author: Klaus Brenneisen
+date: '2026-08-18'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: []
+description: Räumlich dem neuen John-Jahr-Haus fast benachbart ist an der Landgrafenstraße mit dem „RED City West“ ein 14-geschossiges Bürohochhaus entstanden. Namensgebend ist neben der Lage die in verschiedenen Rottönen gehaltene…
+source_url: https://www.mittendran.de/neubau-red-city-west/
+wp_post_id: 42501
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Landgrafenstraße
+  lat: 52.505552
+  lon: 13.349542
+  osm_id: null
+  status: confirmed

@@ -1,0 +1,63 @@
+title: Auf eine Tasse Tee mit der Nachbarschaft
+slug: 2023-02-02__auf-eine-tasse-tee-mit-der-nachbarschaft
+author: Redaktion
+date: '2023-02-02'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: …und dem Bezirksstadtrat für Stadtentwicklung und Facilitymanagement, Ephraim Gothe (SPD), hatte die Stadtteil-Koordination Tiergarten Süd eingeladen. Rund dreißig Personen waren gestern der Einladung gefolgt…
+source_url: https://www.mittendran.de/auf-eine-tasse-tee-mit-der-nachbarschaft/
+wp_post_id: 25354
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 42
+  lat: 52.504654
+  lon: 13.357975
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße 7
+  lat: 52.500491
+  lon: 13.370039
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße 23
+  lat: 52.503632
+  lon: 13.361856
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Lützowufer
+  lat: 52.505525
+  lon: 13.353321
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Spielplatz
+  lat: 52.544306
+  lon: 13.364771
+  osm_id: null
+  status: auto
+  via: regex
+- name: Pohlstraße-Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Aus-gegebenem-anlass-die-durchwegung-zur-kurfuerstenstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

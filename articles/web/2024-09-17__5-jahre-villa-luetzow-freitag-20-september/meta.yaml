@@ -1,0 +1,27 @@
+title: 5 Jahre Villa Lützow am Freitag, 20. September
+slug: 2024-09-17__5-jahre-villa-luetzow-freitag-20-september
+author: FP
+date: '2024-09-17'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: 'Das Team der Villa Lützow lädt ein: Wir feiern fünffach! Seit 5 Jahren gibt es das Kiez-Zentrum Villa Lützow nun mit seinen vielen verschiedenen Angeboten für Familien, queere Menschen, Gartenliebhaber:innen und alle…'
+source_url: https://www.mittendran.de/5-jahre-villa-luetzow-freitag-20-september/
+wp_post_id: 33691
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

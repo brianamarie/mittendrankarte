@@ -1,0 +1,27 @@
+title: die Ferien sind vorbei…
+slug: 2023-08-31__die-ferien-sind-vorbei
+author: ase
+date: '2023-08-31'
+issue: null
+rubrik: In eigener Sache
+about_years: []
+description: …der Sommer hoffentlich noch nicht. (https://www.mittendran.de/wp-content/uploads/2023/07/Titel-mittendran-Ausgabe-43_1-scaled.jpg) Und auch von unserer Sommerausgabe gibt es noch einige Restexemplare, zu finden in den…
+source_url: https://www.mittendran.de/die-ferien-sind-vorbei/
+wp_post_id: 28519
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer

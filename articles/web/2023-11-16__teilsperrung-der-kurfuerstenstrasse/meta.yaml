@@ -1,0 +1,33 @@
+title: Teilsperrung der Kurfürstenstraße
+slug: 2023-11-16__teilsperrung-der-kurfuerstenstrasse
+author: null
+date: '2023-11-16'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2023/11/2023-Sperrung-der-Kurfuerstenstrasse-im-Bereich-der-Kreuzung-zur-Genthiner-Strasse-scaled.jpg) Sperrung der Kurfürstenstraße im Bereich der Kreuzung zur Genthiner…
+source_url: https://www.mittendran.de/teilsperrung-der-kurfuerstenstrasse/
+wp_post_id: 29600
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Sperrung-der-Kurfuerstenstraße-im-Bereich-der-Kreuzung-zur-Genthiner-Straße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

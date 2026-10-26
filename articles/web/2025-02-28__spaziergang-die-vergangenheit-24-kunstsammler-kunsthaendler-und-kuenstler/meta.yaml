@@ -1,0 +1,48 @@
+title: 'Spaziergang in die Vergangenheit (23): Über Kunstsammler, Kunsthändler und
+  Künstler'
+slug: 2025-02-28__spaziergang-die-vergangenheit-24-kunstsammler-kunsthaendler-und-kuenstler
+author: Paul Enck
+date: '2025-02-28'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1820, 1862, 1871, 1885, 1890, 1897, 1900, 1910, 1920, 1927, 1929, 1930]
+description: Diese Folge der Spaziergänge geht der Frage nach, ob im Tiergartenviertel, dessen Bedeutung für die Kunstgeschichte so oft unterstrichen wird, auch die Künstler und Kunsthändler lebten, oder ob diese nicht vielmehr in…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-24-kunstsammler-kunsthaendler-und-kuenstler/
+wp_post_id: 35525
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.504761
+  lon: 13.352547
+  osm_id: null
+  status: confirmed
+- name: Lützowstraße 84
+  lat: 52.502762
+  lon: 13.362808
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Flottwellstraße
+  lat: 52.501616
+  lon: 13.371237
+  osm_id: null
+  status: confirmed
+- name: Schillstraße
+  lat: 52.503303
+  lon: 13.3499
+  osm_id: null
+  status: confirmed

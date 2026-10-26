@@ -1,0 +1,93 @@
+title: Lebhafte Diskussion über Fahrradstraßen
+slug: 2024-03-06__lebhafte-diskussionen-ueber-fahrradstrassen
+author: FP
+date: '2024-03-06'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2024/03/IMG_7541.jpeg) Gäste der Veranstaltung zu Fahradstraßen in der Villa Lützow Foto FP Das Thema Fahrradstraßen stieß auf großes Interesse im Kiez Tiergarten Süd. Rund…
+source_url: https://www.mittendran.de/lebhafte-diskussionen-ueber-fahrradstrassen/
+wp_post_id: 30962
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowplatz
+  lat: 52.5043
+  lon: 13.3535
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße
+  lat: 52.502
+  lon: 13.362
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Flottwellstraße
+  lat: 52.5008
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowufer
+  lat: 52.505525
+  lon: 13.353321
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Fahrradstraße
+  lat: 49.45714
+  lon: 11.040333
+  osm_id: null
+  status: auto
+  via: regex

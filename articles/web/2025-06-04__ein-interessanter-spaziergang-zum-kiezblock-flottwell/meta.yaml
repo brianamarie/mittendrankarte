@@ -1,0 +1,46 @@
+title: Ein interessanter Spaziergang zum Kiezblock Flottwell
+slug: 2025-06-04__ein-interessanter-spaziergang-zum-kiezblock-flottwell
+author: FP
+date: '2025-06-04'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Gastbeitrag von Jörg Borchardt Der Bezirk Mitte veranstaltet in 25 Vierteln Kiezspaziergänge zur Planung von Kiezblocks, an 12 Orten davon sollen sie dann ab 2026 umgesetzt werden. In diesen von Hauptstraßen…
+source_url: https://www.mittendran.de/ein-interessanter-spaziergang-zum-kiezblock-flottwell/
+wp_post_id: 37789
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.500435
+  lon: 13.366647
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Flottwellstraße
+  lat: 52.501616
+  lon: 13.371237
+  osm_id: null
+  status: confirmed
+- name: Schöneberger Ufer
+  lat: 52.505514
+  lon: 13.369854
+  osm_id: null
+  status: confirmed
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

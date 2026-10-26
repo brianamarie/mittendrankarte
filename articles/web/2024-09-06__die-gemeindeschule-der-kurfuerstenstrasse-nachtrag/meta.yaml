@@ -1,0 +1,45 @@
+title: Die Gemeindeschule in der Kurfürstenstraße – Nachtrag
+slug: 2024-09-06__die-gemeindeschule-der-kurfuerstenstrasse-nachtrag
+author: Paul Enck
+date: '2024-09-06'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1852, 1892, 1893, 1896, 1910, 1911, 1924, 1932]
+description: Zum Artikel über die Gemeindeschulen im Lützow-Viertel (mittendran vom 6. August 2024 (https://www.mittendran.de/erziehung-und-wissenschaft-damals-4-die-gemeindeschulen-im-luetzow-viertel/)) erhielt ich jetzt Fotos…
+source_url: https://www.mittendran.de/die-gemeindeschule-der-kurfuerstenstrasse-nachtrag/
+wp_post_id: 33539
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 141
+  lat: 52.50055
+  lon: 13.359151
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Derfflingerstraße
+  lat: 52.5048
+  lon: 13.357
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Dennewitzstraße
+  lat: 52.4988
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Vorläufer
+  lat: 51.499549
+  lon: 7.544524
+  osm_id: null
+  status: auto
+  via: regex
+- name: Straßen-im-kiez-die-dennewitzstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

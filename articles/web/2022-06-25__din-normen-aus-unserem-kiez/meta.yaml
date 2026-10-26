@@ -1,0 +1,27 @@
+title: DIN – Normen aus unserem Kiez
+slug: 2022-06-25__din-normen-aus-unserem-kiez
+author: Redaktion
+date: '2022-06-25'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1917, 1922]
+description: DIN A 4 (https://www.mittendran.de/wp-content/uploads/2022/06/DIN-4-scaled.jpeg) DIN-Logo auf dem Pflaster (Foto:bse) – ist die Seitengröße unseres Print-Magazins, aber auch von Schulheften, von Geschäftsbriefen – und…
+source_url: https://www.mittendran.de/din-normen-aus-unserem-kiez/
+wp_post_id: 22323
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: DIN-Platz
+  lat: 52.504812
+  lon: 13.343498
+  osm_id: null
+  status: auto
+  via: regex
+- name: Burggrafenstraße
+  lat: 52.519654
+  lon: 13.611598
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,39 @@
+title: Neues vom Scharounplatz
+slug: 2023-11-17__neues-vom-scharounplatz
+author: eki
+date: '2023-11-17'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Die vor ein paar Jahren verlegten Steine am Scharounplatz auf dem Streifen entlang der Philharmonie sind abgesackt. Der Untergrund wird nun erneuert und die Steine werden anschließend dort neu verlegt werden…
+source_url: https://www.mittendran.de/neues-vom-scharounplatz/
+wp_post_id: 29605
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kulturforum
+  lat: 52.5085
+  lon: 13.3675
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Philharmonie
+  lat: 52.51
+  lon: 13.37
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: St. Matthäus-Kirche
+  lat: 52.508
+  lon: 13.3668
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Scharounplatz
+  lat: 52.508912
+  lon: 13.368271
+  osm_id: null
+  status: confirmed
+  via: regex

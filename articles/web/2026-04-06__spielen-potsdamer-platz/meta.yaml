@@ -1,0 +1,31 @@
+title: Spielen am Potsdamer Platz
+slug: 2026-04-06__spielen-potsdamer-platz
+author: Redaktion
+date: '2026-04-06'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1939, 1943, 1949, 1950, 1954, 1961, 1963, 1967, 1968]
+description: Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach Spandau verschlagen…
+source_url: https://www.mittendran.de/spielen-potsdamer-platz/
+wp_post_id: 41165
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße 29
+  lat: 52.507961
+  lon: 13.370061
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

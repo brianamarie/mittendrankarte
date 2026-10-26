@@ -1,0 +1,31 @@
+title: Masterplan Kulturforum fortgeschrieben
+slug: 2026-01-21__masterplan-kulturforum-fortgeschrieben
+author: FP
+date: '2026-01-21'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [2006]
+description: Am 13. Januar hat der Berliner Senat den erneuerten Masterplan Kulturforum beschlossen, in dem die Neugestaltung und Aufwertung des Gebietes rund um Philharmonie, Gemäldegalerie und das neue Kunstmuseum „berlin modern“…
+source_url: https://www.mittendran.de/masterplan-kulturforum-fortgeschrieben/
+wp_post_id: 40505
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kulturforum
+  lat: 52.508513
+  lon: 13.364749
+  osm_id: null
+  status: confirmed

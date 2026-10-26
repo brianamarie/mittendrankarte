@@ -1,0 +1,27 @@
+title: wachsen lassen im Dezember
+slug: 2023-12-04__wachsen-lassen-im-dezember
+author: Redaktion
+date: '2023-12-04'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: 'Am Di, den 5.12. in der Zeit von 12.30 – 14.00 Uhr laden wir wieder ein zum Mittagstisch im Kiez gemeinsam mit dem Familienzentrum Villa Lützow. Diesmal: Rosenkohlauflauf. Unkostenbeitrag 4,00 € Wo: Familienzentrum…'
+source_url: https://www.mittendran.de/wachsen-lassen-im-dezember/
+wp_post_id: 29861
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

@@ -1,0 +1,75 @@
+title: Presseschau des Stadtteil-Forums Tiergarten Süd
+slug: 2026-10-23__presseschau-des-stadtteil-forums-tiergarten-sued-13
+author: Redaktion
+date: '2026-10-23'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1830, 1930, 1960, 2012]
+description: Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/). In den letzten 7 Tagen sind uns diese Beiträge aufgefallen…
+source_url: https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-13/
+wp_post_id: 43404
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.5043
+  lon: 13.3535
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße 102
+  lat: 52.501463
+  lon: 13.363832
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Steglitzer Straße
+  lat: 52.5018
+  lon: 13.3635
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Wintergarten Varieté
+  lat: 52.5022
+  lon: 13.3646
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Umbau-am-luetzowplatz
+  lat: 52.504355
+  lon: 13.353555
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Enigma-in-der-steglitzer-straße
+  lat: 52.426319
+  lon: 13.294814
+  osm_id: null
+  status: auto
+  via: regex
+- name: Nollendorfplatz
+  lat: 52.499597
+  lon: 13.35373
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Zwei-oder-drei-stiche-am-tag-mucken-plagen-angestellte-am-bahnhof-potsdamer-platz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

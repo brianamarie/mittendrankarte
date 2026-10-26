@@ -1,0 +1,45 @@
+title: 'Kiez mit Kind: Der „Wasserspielplatz” am Gleisdreieck'
+slug: 2024-07-24__kiez-mit-kind-der-wasserspielplatz-gleisdreieck
+author: Hobpenz
+date: '2024-07-24'
+issue: null
+rubrik: Kiez mit Kind
+about_years: []
+description: Die Sonne scheint, das Thermometer zeigt stabile Temperaturen über 25 Grad und die Nachmittage sind lang, da zieht es uns wie selbstverständlich auf den tollsten Wasserspielplatz im Kiez – im Gleisdreieckpark. Das…
+source_url: https://www.mittendran.de/kiez-mit-kind-der-wasserspielplatz-gleisdreieck/
+wp_post_id: 32838
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Wasserspielplatz
+  lat: 52.49982
+  lon: 13.529779
+  osm_id: null
+  status: auto
+  via: regex
+- name: Spielplatz
+  lat: 52.603364
+  lon: 13.361955
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kletterspielplatz
+  lat: 52.554374
+  lon: 13.389727
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,27 @@
+title: Ausstellung Werner Herzog  in der Deutschen Kinemathek
+slug: 2022-08-19__ausstellung-werner-herzog
+author: FP
+date: '2022-08-19'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1974, 1976]
+description: Alteingesessene Kiezbewohner können sich noch an Bruno S. erinnern, einen bärtigen Mann, der in Tiergarten, immer mit einer Plastiktüte in der Hand, umherzog. Gelegentlich spielte er Akkordeon und sang dazu Gassenhauer…
+source_url: https://www.mittendran.de/ausstellung-werner-herzog/
+wp_post_id: 23083
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz 2
+  lat: 52.509674
+  lon: 13.375017
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer

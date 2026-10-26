@@ -1,0 +1,57 @@
+title: 'Kurfürstenstraße: Mit Kunst gegen den Strich'
+slug: 2023-04-13__kurfuerstenstrasse-mit-kunst-gegen-den-strich
+author: Redaktion
+date: '2023-04-13'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: (ein Beitrag von Peter Fabian, artikel-editionen (http://www.artikel-editionen.com/)) Die Neubauten in der Kurfürstenstraße gehen „gegen den Strich“ – und das nach den Regeln der Kunst. Nach dem „Carré Voltaire“ auf…
+source_url: https://www.mittendran.de/kurfuerstenstrasse-mit-kunst-gegen-den-strich/
+wp_post_id: 26628
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 73
+  lat: 52.502738
+  lon: 13.365729
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Frobenstraße 1
+  lat: 52.500101
+  lon: 13.35988
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Parkplatz
+  lat: 52.586798
+  lon: 13.351959
+  osm_id: null
+  status: auto
+  via: regex
+- name: Gebrauchtwagenhändlerplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Linienstraße
+  lat: 52.526212
+  lon: 13.388412
+  osm_id: null
+  status: auto
+  via: regex
+- name: Ein-kunstsinniges-panoptikum-der-potsdamer-straße
+  lat: 52.40463
+  lon: 12.989879
+  osm_id: null
+  status: auto
+  via: regex

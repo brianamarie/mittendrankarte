@@ -1,0 +1,45 @@
+title: Spielstraße in der Pohlstraße  war ein voller Erfolg
+slug: 2022-09-23__spielstrasse-der-pohlstrasse-war-ein-voller-erfolg
+author: FP
+date: '2022-09-23'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: []
+description: Foto eki Die letzte Spielstraßenaktion in diesem Jahr am 22. September war gut besucht. Weil in ganz Berlin „Autofreier Tag“ war, gab es mehr Fördermittel als sonst, und die wurden sinnvoll eingesetzt. So konnte das…
+source_url: https://www.mittendran.de/spielstrasse-der-pohlstrasse-war-ein-voller-erfolg/
+wp_post_id: 23585
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielstraße
+  lat: 49.137578
+  lon: 8.415617
+  osm_id: null
+  status: auto
+  via: regex
+- name: Spielstraße-Pohlstraße
+  lat: 52.501034
+  lon: 13.36284
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Pohl-Spielstraße
+  lat: 52.499652
+  lon: 13.369147
+  osm_id: null
+  status: confirmed
+  via: regex

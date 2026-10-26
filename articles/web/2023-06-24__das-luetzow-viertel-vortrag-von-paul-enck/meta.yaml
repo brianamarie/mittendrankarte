@@ -1,0 +1,39 @@
+title: Das Lützow-Viertel – Vortrag von Paul Enck
+slug: 2023-06-24__das-luetzow-viertel-vortrag-von-paul-enck
+author: Redaktion
+date: '2023-06-24'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1870, 1911, 1925, 1926]
+description: Das Lützow-Viertel im Bezirk Tiergarten ist ein wichtiges Einzugsgebiet der Zwölf-Apostel-Gemeinde. „Lützow-Viertel“ oder „Lützow-Kiez“ wird das Areal zwischen dem Landwehrkanal im Norden, der Kurfürstenstraße im…
+source_url: https://www.mittendran.de/das-luetzow-viertel-vortrag-von-paul-enck/
+wp_post_id: 27693
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.5043
+  lon: 13.3535
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kolonnenstraße
+  lat: 52.485578
+  lon: 13.362547
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,39 @@
+title: Ein Containerhaus in der Kurfürstenstraße 134
+slug: 2022-06-15__ein-container-haus-der-kurfuerstenstrasse-134
+author: eki
+date: '2022-06-15'
+issue: null
+rubrik: kiek ma!
+about_years: []
+description: Auf dem Grundstück Kurfürstenstraße 134/Ecke Kilganstraße ist ein vorgefertigtes „All In Container Haus“ der Firma „islandloft.com (https://islandloft.com/about/)“, das „Loft20, aufgestellt worden. Das aus einem…
+source_url: https://www.mittendran.de/ein-container-haus-der-kurfuerstenstrasse-134/
+wp_post_id: 22442
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 134
+  lat: 52.501455
+  lon: 13.355573
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kilganstraße
+  lat: 52.501216
+  lon: 13.355174
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Campingplatz
+  lat: 52.39615
+  lon: 13.166206
+  osm_id: null
+  status: auto
+  via: regex
+- name: Vorläufer
+  lat: 51.499549
+  lon: 7.544524
+  osm_id: null
+  status: auto
+  via: regex

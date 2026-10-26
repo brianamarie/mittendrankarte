@@ -1,0 +1,45 @@
+title: 'Spaziergang mit Lia Hiltz und Paul Enck (12): Hinterhöfe – Teil 2'
+slug: 2022-09-29__spaziergang-mit-lia-hiltz-und-paul-enck-12-hinterhoefe-teil-2
+author: FP
+date: '2022-09-29'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [1795, 1848, 1855, 1857, 1861, 1910, 1930]
+description: (https://www.mittendran.de/wp-content/uploads/2022/09/Bild-12_1-Hinterhoefe.jpeg) 1. (C) Lia Hiltz 2021 In Erinnerung an traditionelle Hofarchitektur („reminiscence of traditional courtyard architecture„) stand auf den…
+source_url: https://www.mittendran.de/spaziergang-mit-lia-hiltz-und-paul-enck-12-hinterhoefe-teil-2/
+wp_post_id: 23696
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 107-111
+  lat: 52.501317
+  lon: 13.369832
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Flottwellstraße
+  lat: 52.5008
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Ackerstraße
+  lat: 52.531941
+  lon: 13.39621
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,46 @@
+title: Kiezspaziergang mit zwei Stadträten
+slug: 2025-10-21__kiezspaziergang-mit-zwei-stadtraeten
+author: FP
+date: '2025-10-21'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [1974]
+description: Am Montag, 20. Oktober, hatte die Stadtteilkoordination zwei Bezirksstadträte eingeladen, um im Rahmen eines Spaziergangs durch Tiergarten-Süd verschiedene Themen und Wünsche der Nachbar:innen zu besprechen. Diesmal…
+source_url: https://www.mittendran.de/kiezspaziergang-mit-zwei-stadtraeten/
+wp_post_id: 39331
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+- name: Lützowplatz
+  lat: 52.504761
+  lon: 13.352547
+  osm_id: null
+  status: confirmed
+- name: Lützowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+- name: Kurfürstenstraße 75
+  lat: 52.503641
+  lon: 13.348864
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504268
+  lon: 13.362851
+  osm_id: null
+  status: confirmed
+- name: Haus am Lützowplatz
+  lat: 52.504355
+  lon: 13.353555
+  osm_id: null
+  status: confirmed

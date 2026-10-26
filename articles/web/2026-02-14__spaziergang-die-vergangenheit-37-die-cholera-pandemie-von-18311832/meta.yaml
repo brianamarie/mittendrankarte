@@ -1,0 +1,36 @@
+title: 'Spaziergang in die Vergangenheit (37): Die Cholera-Pandemie von 1831/1832'
+slug: 2026-02-14__spaziergang-die-vergangenheit-37-die-cholera-pandemie-von-18311832
+author: Paul Enck
+date: '2026-02-14'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1812, 1817, 1824, 1826, 1830, 1831, 1832, 1839, 1840, 1841, 1854, 1905, 1925, 1995, 2006]
+description: Die erste Cholera-Pandemie (1817-1824) verbreitete sich vor allem in Asien und Ostafrika und erreichte Europa nur am Rande, während die zweite Pandemie (1826-1841) Europa weitaus mehr traf (1). Sie erreichte Preußen im…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-37-die-cholera-pandemie-von-18311832/
+wp_post_id: 40737
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+- name: Pohlstraße
+  lat: 52.500435
+  lon: 13.366647
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed

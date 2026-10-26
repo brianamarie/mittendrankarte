@@ -1,0 +1,21 @@
+title: Besuch auf der Baustelle
+slug: 2025-09-20__besuch-auf-der-baustelle
+author: FP
+date: '2025-09-20'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Drei Tage lädt das Bauhaus-Archiv an der Klingelhöferstraße zum Besuch der Baustelle ein und die große Zahl der Besucher zeigt, dass das Museum offenbar vermisst wird. Seit 2018 ist das Haus für Umbau und Sanierung…
+source_url: https://www.mittendran.de/besuch-auf-der-baustelle/
+wp_post_id: 38982
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Klingelhöferstraße
+  lat: 52.509461
+  lon: 13.351517
+  osm_id: null
+  status: confirmed
+  via: regex

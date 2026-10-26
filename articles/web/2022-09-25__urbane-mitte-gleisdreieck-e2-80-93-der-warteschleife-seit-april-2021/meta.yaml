@@ -1,0 +1,27 @@
+title: Urbane Mitte Gleisdreieck  – in der Warteschleife seit April 2021
+slug: 2022-09-25__urbane-mitte-gleisdreieck-e2-80-93-der-warteschleife-seit-april-2021
+author: Redaktion
+date: '2022-09-25'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1992, 2005]
+description: Zum Planungsstand (ein Beitrag von Mathias Bauer, gleisdreieckblog (https://gleisdreieck-blog.de/)) An den vergangenen drei Sonntagen hatten wir nacheinander die Grünen, Linken und schließlich die SPD zu Gast bei…
+source_url: https://www.mittendran.de/urbane-mitte-gleisdreieck-%e2%80%93-der-warteschleife-seit-april-2021/
+wp_post_id: 23649
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer

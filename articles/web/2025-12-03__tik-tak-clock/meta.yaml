@@ -1,0 +1,21 @@
+title: Tik Tak Clock
+slug: 2025-12-03__tik-tak-clock
+author: FP
+date: '2025-12-03'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Im Rahmen der laufenden Show „The Clock“ bietet die Neue Nationalgalerie einen Workshop für Jugendliche und Familien an, in dem man sich mit unserer Wahrnehmung der Zeit auseinandersetzen kann. Tik Tak Clock Drop-In…
+source_url: https://www.mittendran.de/tik-tak-clock/
+wp_post_id: 39998
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Neue Nationalgalerie
+  lat: 52.5068
+  lon: 13.3678
+  osm_id: null
+  status: confirmed
+  via: gazetteer

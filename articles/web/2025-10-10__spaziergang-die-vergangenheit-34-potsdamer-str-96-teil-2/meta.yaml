@@ -1,0 +1,27 @@
+title: 'Spaziergang in die Vergangenheit (34): Potsdamer Str. 96 (Teil 2)'
+slug: 2025-10-10__spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-2
+author: Paul Enck
+date: '2025-10-10'
+issue: null
+rubrik: Gewerbe und Gastronomie
+about_years: [1889, 1900, 1909, 1929, 1931, 1932, 1935, 1936, 1937, 1970, 1989, 1990, 1992]
+description: 'Was war an der Potsdamer Straße 96, bevor hier 1992 der Wintergarten sein Dauerquartier bezog? Alteingesessene Kiezbewohner – zu denen der Autor sich leider nicht zählen kann – werden sich daran erinnern: hier war von…'
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-2/
+wp_post_id: 39162
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 96
+  lat: 52.502046
+  lon: 13.364462
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße 89
+  lat: 52.503601
+  lon: 13.348224
+  osm_id: null
+  status: confirmed
+  via: address

@@ -1,0 +1,21 @@
+title: 'Kiez mit Kind: Der Spielplatz Tiergarten Luiseninsel'
+slug: 2024-07-15__kiez-mit-kind-der-spielplatz-tiergarten-luiseninsel
+author: Hobpenz
+date: '2024-07-15'
+issue: null
+rubrik: Kiez mit Kind
+about_years: []
+description: 'Unser Kiez ist, was Parks angeht, privilegiert: im Norden vom Tiergarten begrenzt, im Osten vom Gleisdreieckpark und dazwischen viele grüne Inseln. Heute wollen wir euch über einen unserer Lieblingsspielplätze…'
+source_url: https://www.mittendran.de/kiez-mit-kind-der-spielplatz-tiergarten-luiseninsel/
+wp_post_id: 32716
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Spielplatz Luiseninsel
+  lat: 52.510898
+  lon: 13.366682
+  osm_id: 24911694
+  status: confirmed
+  via: gazetteer

@@ -1,0 +1,13 @@
+.venv/
+.venv-linux/
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+*.pdf
+local/
+scripts/__pycache__/
+articles/**/de.md
+articles/**/en.md
+articles/**/hero.*
+articles/**/clip.*

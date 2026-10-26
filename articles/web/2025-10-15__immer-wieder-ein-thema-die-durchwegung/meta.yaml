@@ -1,0 +1,26 @@
+title: 'Immer wieder ein Thema: Die Durchwegung zur Kurfürstenstraße'
+slug: 2025-10-15__immer-wieder-ein-thema-die-durchwegung
+author: FP
+date: '2025-10-15'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Die „Durchfahrt“ von der Pohlstraße zur Kurfürstenstraße © FP Wir haben hier schon öfter über die Durchwegung zwischen Pohlstraße und Kurfürstenstraße berichtet. Es gab diesen Durchgang vor dem Bau der Wohnanlage…
+source_url: https://www.mittendran.de/immer-wieder-ein-thema-die-durchwegung/
+wp_post_id: 39251
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.500435
+  lon: 13.366647
+  osm_id: null
+  status: confirmed
+- name: Kurfürstenstraße 41-44
+  lat: 52.500775
+  lon: 13.359662
+  osm_id: null
+  status: confirmed
+  via: address

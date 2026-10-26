@@ -1,0 +1,26 @@
+title: Gemeinsam den Kiez aufräumen
+slug: 2026-10-13__gemeinsam-den-kiez-aufraeumen
+author: FP
+date: '2026-10-13'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: Im Mai, Juni und September 2026 fanden bereits Müllsammelaktionen rund um die Lützowstraße statt. Organisiert wurden diese vom Fröbel-Kindergarten „Stepping Stones“ und der Stadtteilkoordination Tiergarten Süd…
+source_url: https://www.mittendran.de/gemeinsam-den-kiez-aufraeumen/
+wp_post_id: 43293
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 106
+  lat: 52.501999
+  lon: 13.3694
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße
+  lat: 52.501034
+  lon: 13.36284
+  osm_id: null
+  status: confirmed

@@ -1,0 +1,33 @@
+title: Rohrleitungen an der Potsdamer, Pohl- und Kluckstrasse abgebaut
+slug: 2023-01-16__rohrleitungen-der-potsdamer
+author: FP
+date: '2023-01-16'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: '(https://www.mittendran.de/wp-content/uploads/2023/01/01647970-8C4E-4DEE-B1A4-3B7F88FD5F58-scaled.jpeg) Im April 2022 wurden sie aufgestellt, nun verschwinden sie zum Glück wieder: die Rohre, durch die Grundwasser…'
+source_url: https://www.mittendran.de/rohrleitungen-der-potsdamer/
+wp_post_id: 25053
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kluckstraße
+  lat: 52.502
+  lon: 13.362
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleditschstraße
+  lat: 52.488807
+  lon: 13.355048
+  osm_id: null
+  status: auto
+  via: regex
+- name: Gehweg
+  lat: 50.284553
+  lon: 7.612541
+  osm_id: null
+  status: auto
+  via: regex

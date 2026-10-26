@@ -1,0 +1,33 @@
+title: „Jelbi-Station“
+slug: 2023-08-10__jelbi-station
+author: eki
+date: '2023-08-10'
+issue: null
+rubrik: kiek ma!
+about_years: []
+description: Wissen Sie, was das ist eine Jelbi-Station? (https://www.mittendran.de/wp-content/uploads/2023/08/2023-Foto-eki-Schild-scaled.jpg) (Foto:eki) „Die Jelbi-Stationen bringen die Sharing-Angebote an die S+U-Bahnhöfe. Egal…
+source_url: https://www.mittendran.de/jelbi-station/
+wp_post_id: 28286
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Bülowstraße
+  lat: 52.4985
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Frobenstraße
+  lat: 52.4995
+  lon: 13.355
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Zietenstraße
+  lat: 52.42796
+  lon: 13.337732
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,75 @@
+title: 'Spaziergang mit Lia Hiltz und Paul Enck (10): Der Königsweg'
+slug: 2022-07-29__spaziergang-mit-lia-hiltz-und-paul-enck-10-der-koenigsweg
+author: Paul Enck
+date: '2022-07-29'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1713, 1730, 1740, 1745, 1775, 1777, 1778, 1786, 1789, 1794, 1797, 1837, 1840, 1987, 1993]
+description: '(https://www.mittendran.de/wp-content/uploads/2022/07/Bild-10_1-Koenigsweg.jpeg) Bild 1: ©Lia Hiltz Wenn der Weg für König Friedrich Wilhelm II. (Regierungszeit: 1786-1797) gebaut wurde, damit der einen „angemessenen…'
+source_url: https://www.mittendran.de/spaziergang-mit-lia-hiltz-und-paul-enck-10-der-koenigsweg/
+wp_post_id: 22846
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Königsweg
+  lat: 52.420799
+  lon: 13.213276
+  osm_id: null
+  status: auto
+  via: regex
+- name: Koenigsweg
+  lat: 52.423423
+  lon: 13.22135
+  osm_id: null
+  status: auto
+  via: regex
+- name: Postweg
+  lat: 52.523065
+  lon: 13.220736
+  osm_id: null
+  status: auto
+  via: regex
+- name: Feldweg
+  lat: 52.445655
+  lon: 13.465931
+  osm_id: null
+  status: auto
+  via: regex
+- name: Der-Koenigsweg
+  lat: 47.431686
+  lon: 10.207098
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kurfürstenweg
+  lat: 52.412067
+  lon: 13.167318
+  osm_id: null
+  status: auto
+  via: regex
+- name: Landstraße
+  lat: 52.469457
+  lon: 13.490674
+  osm_id: null
+  status: auto
+  via: regex
+- name: Holzbrücke
+  lat: 53.546918
+  lon: 9.988969
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kunststraße
+  lat: 49.483708
+  lon: 8.473575
+  osm_id: null
+  status: auto
+  via: regex
+- name: Die-straßen-im-kiez-potsdamer-straße
+  lat: 52.503656
+  lon: 13.366565
+  osm_id: null
+  status: confirmed
+  via: regex

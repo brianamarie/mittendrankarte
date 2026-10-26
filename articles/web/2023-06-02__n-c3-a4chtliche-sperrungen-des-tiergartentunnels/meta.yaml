@@ -1,0 +1,33 @@
+title: Nächtliche Sperrungen  des Tiergartentunnels
+slug: 2023-06-02__n-c3-a4chtliche-sperrungen-des-tiergartentunnels
+author: Redaktion
+date: '2023-06-02'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: 'Die Senatsverwaltung für Mobilität, Verkehr, Klimaschutz und Umwelt teilt mit: Unvermeidliche Verkehrseinschränkungen aufgrund von Wartungs- und Instandhaltungsarbeiten im Tunnel Tiergarten Spreebogen (TTS) im Zuge der…'
+source_url: https://www.mittendran.de/n%c3%a4chtliche-sperrungen-des-tiergartentunnels/
+wp_post_id: 27452
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Reichpietschufer
+  lat: 52.5065
+  lon: 13.372
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Heidestraße
+  lat: 52.530405
+  lon: 13.368481
+  osm_id: null
+  status: auto
+  via: regex
+- name: Clara-Jaschke-Straße
+  lat: 52.523605
+  lon: 13.366186
+  osm_id: null
+  status: auto
+  via: regex

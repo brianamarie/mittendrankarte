@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lützowstraße 89-90</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+    </nav>
+  </header>
+  
+<main class="place-page">
+  <p class="place-back"><a href="../../map.html">← Karte</a></p>
+  <p class="place-kicker">Ort auf der Karte</p>
+  <h1>Lützowstraße 89-90</h1>
+  <p class="place-stats">4 Beiträge · 2023–2026</p>
+  <p class="lead">Alle Beiträge, die diesen Ort nennen, neueste zuerst.</p>
+  <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50315&amp;mlon=13.36437#map=17/52.50315/13.36437" rel="noopener">Lage auf OpenStreetMap</a></p>
+  
+  <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><button type="button" data-rubrik="Aus dem Kiez" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">3</span></button><button type="button" data-rubrik="Gewerbe und Gastronomie" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#b33b3b"></span>Gewerbe und Gastronomie <span class="n">1</span></button><button type="button" id="place-filter-reset" hidden>alle einblenden</button></div>
+  <section class="place-group"><h2 class="place-year">2026 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-11/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Presseschau des Stadtteil-Forums Tiergarten Süd</strong><div class="meta">2026-10-09 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span></div><p class="place-excerpt">Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/ (https://forum-tgs.de/)). In den letzten 7 Tagen sind uns diese…</p></span></a></li></ul></section><section class="place-group"><h2 class="place-year">2024 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/spaziergang-die-vergangenheit-11-ein-schwimmbad-der-luetzowstrasse/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Spaziergang in die Vergangenheit (11): Ein Schwimmbad in der Lützowstraße</strong><div class="meta">2024-03-06 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span></div><p class="place-excerpt">Immer wieder kommt es vor, dass einem bei einer Recherche ein Zufallsfund in den Schoß fällt, mit dem man nicht gerechnet hat, und der einer Geschichte eine neue Wendung geben würde, würde man ihm nachgehen. Wenn dies…</p></span></a></li></ul></section><section class="place-group"><h2 class="place-year">2023 · <span class="n">2</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/geschichte-von-handel-und-gewerbe-5-kolonialhaus-antelmann-luetzowstrasse-8990/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Geschichte von Handel und Gewerbe (6): Kolonialhaus Antelmann, Lützowstraße 89/90</strong><div class="meta">2023-12-23 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Der großen Berliner Gewerbeschau im Treptower Park im Jahr 1896 war eine sogenannte Kolonialschau angegliedert, und auf dieser machte erstmals das Kolonialhaus Bruno Antelmann von sich reden, das einige Jahre später in…</p></span></a></li><li data-rubrik="Gewerbe und Gastronomie"><a href="https://www.mittendran.de/geschichten-von-handel-und-gewerbe-im-luetzow-viertel-1-uebersicht/" rel="noopener"><span class="place-bar" style="background:#b33b3b"></span><span class="place-card-body"><strong>Geschichten von Handel und Gewerbe im Lützow-Viertel (1): Übersicht</strong><div class="meta">2023-07-07 · <span class="place-tag" style="background:color-mix(in srgb, #b33b3b 28%, white)">Gewerbe und Gastronomie</span> · Redaktion</div><p class="place-excerpt">Geschichten von Handel und Gewerbe im Lützow-Viertel (1): Übersicht ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com) Mit dieser Einführung beginnt eine neue Serie von Geschichten zu…</p></span></a></li></ul></section>
+  <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
+  
+<script>
+(function () {
+  var buttons = Array.prototype.slice.call(
+    document.querySelectorAll(".place-rubriks button[data-rubrik]")
+  );
+  if (!buttons.length) return;
+  var items = document.querySelectorAll(".place-page .cards li");
+  var groups = document.querySelectorAll(".place-group");
+  var empty = document.querySelector(".place-empty");
+  var reset = document.getElementById("place-filter-reset");
+  var active = {};
+  buttons.forEach(function (btn) { active[btn.getAttribute("data-rubrik")] = true; });
+  function hiddenCount() {
+    return buttons.filter(function (btn) {
+      return !active[btn.getAttribute("data-rubrik")];
+    }).length;
+  }
+  function apply() {
+    var shown = 0;
+    items.forEach(function (li) {
+      var name = li.getAttribute("data-rubrik") || "";
+      var on = !name || !!active[name];
+      li.hidden = !on;
+      if (on) shown += 1;
+    });
+    groups.forEach(function (group) {
+      var visibleItems = group.querySelectorAll(".cards li:not([hidden])");
+      group.hidden = visibleItems.length === 0;
+      var count = group.querySelector(".place-year .n");
+      if (count) count.textContent = String(visibleItems.length);
+    });
+    if (empty) empty.hidden = shown !== 0;
+    if (reset) reset.hidden = hiddenCount() === 0;
+  }
+  buttons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var name = btn.getAttribute("data-rubrik");
+      active[name] = !active[name];
+      var on = !!active[name];
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+      btn.title = on ? "Ausblenden" : "Einblenden";
+      apply();
+    });
+  });
+  if (reset) {
+    reset.addEventListener("click", function () {
+      buttons.forEach(function (btn) {
+        active[btn.getAttribute("data-rubrik")] = true;
+        btn.setAttribute("aria-pressed", "true");
+        btn.title = "Ausblenden";
+      });
+      apply();
+    });
+  }
+})();
+</script>
+
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+</body>
+</html>

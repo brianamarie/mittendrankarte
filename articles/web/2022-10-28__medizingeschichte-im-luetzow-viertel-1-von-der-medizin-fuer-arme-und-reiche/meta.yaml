@@ -1,0 +1,45 @@
+title: 'Medizingeschichte im Lützow-Viertel:  (1) Von der Medizin für Arme und Reiche'
+slug: 2022-10-28__medizingeschichte-im-luetzow-viertel-1-von-der-medizin-fuer-arme-und-reiche
+author: Redaktion
+date: '2022-10-28'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1710, 1727, 1730, 1773, 1785, 1800, 1810, 1819, 1825, 1830, 1831, 1832, 1837, 1839, 1848, 1849, 1850, 1852, 1853, 1854, 1855, 1858, 1859, 1866, 1870, 1871, 1873, 1875, 1880, 1894, 1900, 1909, 1935, 1936, 1937, 1938, 1940, 1944, 1945, 1962, 1976, 1990, 1995, 2003, 2012]
+description: (ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com)) Mit der heutigen Einführung in die Medizingeschichte im Lützow-Viertel beginnt eine Serie von Geschichten, in denen wir in den…
+source_url: https://www.mittendran.de/medizingeschichte-im-luetzow-viertel-1-von-der-medizin-fuer-arme-und-reiche/
+wp_post_id: 24097
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Derfflingerstraße 21
+  lat: 52.503266
+  lon: 13.356603
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Hirschelstraße
+  lat: 52.639705
+  lon: 13.19441
+  osm_id: null
+  status: auto
+  via: regex
+- name: Stresemannstraße
+  lat: 52.50112
+  lon: 13.38668
+  osm_id: null
+  status: auto
+  via: regex

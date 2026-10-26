@@ -1,0 +1,27 @@
+title: Viel Regenbogen und ein neu eröffneter Späti
+slug: 2022-07-25__viel-regenbogen-und-ein-neu-eroeffneter-spaeti
+author: eki
+date: '2022-07-25'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2022/07/2022-Foto-eki-1-2-scaled.jpg) (Foto:eki) Am Samstag feierte Berlin seinen CSD „Berlin Pride 22“. Der Zug war bei uns bunt und laut und fröhlich zu hören und zu…
+source_url: https://www.mittendran.de/viel-regenbogen-und-ein-neu-eroeffneter-spaeti/
+wp_post_id: 22918
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 2
+  lat: 52.499001
+  lon: 13.368934
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Nollendorfplatz
+  lat: 52.499597
+  lon: 13.35373
+  osm_id: null
+  status: confirmed
+  via: regex

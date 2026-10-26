@@ -1,0 +1,33 @@
+title: Vortrag zum Lützow-Viertel von Prof. Paul Enck
+slug: 2023-10-15__vortrag-zum-luetzow-viertel-von-prof-paul-enck
+author: Redaktion
+date: '2023-10-15'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1900]
+description: Am Mittwoch, 18.10.2023, wird Prof. Dr. Paul Enck über die Anfänge des später „Lützow-Viertel“ genannten Bereichs zwischen Landwehrkanal und Kurfürstenstraße, früher auch die „Schöneberger Vorstadt“, erzählen. Diese…
+source_url: https://www.mittendran.de/vortrag-zum-luetzow-viertel-von-prof-paul-enck/
+wp_post_id: 29195
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 27
+  lat: 52.50376
+  lon: 13.363429
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowerwegstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,33 @@
+title: Verlorene Orte unseres Kiezes – nicht vergessen
+slug: 2023-03-06__verlorene-orte-neu-entdecken
+author: APZ
+date: '2023-03-06'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1820, 1850, 1943]
+description: Großes Interesse galt am Montag der Ausstellungseröffnung „Verlorene Häuser, Straßen und Plätze“ (Teil 1) im Projekt- und Leseraum der Bibliothek Tiergarten Süd in der Lützowstr. 27, die noch bis zum 10. April 2023 zu…
+source_url: https://www.mittendran.de/verlorene-orte-neu-entdecken/
+wp_post_id: 25871
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Dennewitzplatz
+  lat: 52.496189
+  lon: 13.366175
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Dörnbergstraße
+  lat: 51.178491
+  lon: 6.876376
+  osm_id: null
+  status: auto
+  via: regex

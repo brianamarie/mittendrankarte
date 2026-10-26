@@ -1,0 +1,27 @@
+title: Unterschriftensammlung
+slug: 2023-06-12__unterschriftensammlung
+author: Redaktion
+date: '2023-06-12'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [2005, 2010]
+description: Stop Urbane Mitte am Gleisdreieck – für einen Neustart der Planungen (https://gleisdreieck-blog.de/2023/06/11/stop-urbane-mitte-am-gleisdreieck-fuer-einen-neustart-der-planungen/) (EIN BEITRAG VON MATHIAS BAUER…
+source_url: https://www.mittendran.de/unterschriftensammlung/
+wp_post_id: 27550
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Crellestraße
+  lat: 52.487338
+  lon: 13.359121
+  osm_id: null
+  status: auto
+  via: regex

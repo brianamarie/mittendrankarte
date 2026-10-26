@@ -1,0 +1,27 @@
+title: Der Gründerzeit-Keller in der Kluckstraße
+slug: 2024-08-05__der-gruenderzeit-keller-der-kluckstrasse
+author: FP
+date: '2024-08-05'
+issue: null
+rubrik: Gewerbe und Gastronomie
+about_years: [1985]
+description: Auf 220 qm Fläche stehen dicht gedrängt sorgfältig restaurierte Gründerzeitmöbel, viele Standuhren und die bekannten Kommoden und Vertikos, die sich früher in den meisten Berliner Wohnungen fanden. Antiquitäten-Händler…
+source_url: https://www.mittendran.de/der-gruenderzeit-keller-der-kluckstrasse/
+wp_post_id: 33187
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße 33
+  lat: 52.502314
+  lon: 13.361302
+  osm_id: null
+  status: confirmed
+  via: address

@@ -1,0 +1,27 @@
+title: Übergabe der Unterschriftenlisten an die Bezirksverordnetenversammlung
+slug: 2023-12-13__29956-2
+author: Redaktion
+date: '2023-12-13'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [2000, 2005]
+description: Pressemitteilung der Aktionsgemeinschaft Gleisdreieck e.V. 24.247 mal Nein zur “Urbanen Mitte” (https://gleisdreieck-blog.de/2023/12/11/24-247-mal-nein-zur-urbanen-mitte/) Veröffentlicht am 11. 12. 2023 Die Anfang Juni…
+source_url: https://www.mittendran.de/29956-2/
+wp_post_id: 29956
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Yorckstraße
+  lat: 52.492758
+  lon: 13.37048
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,45 @@
+title: 'Spaziergang mit Lia Hiltz und Paul Enck (15): Die italienische Botschaft'
+slug: 2022-12-07__spaziergang-mit-lia-hiltz-und-paul-enck-15-die-italienische-botschaft
+author: FP
+date: '2022-12-07'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [1871, 1875, 1890, 1903, 1905, 1908, 1919, 1933, 1934, 1935, 1938, 1941, 1942, 1943, 1945, 1975, 1981, 1984, 1999, 2003]
+description: '(https://www.mittendran.de/wp-content/uploads/2022/12/Bild-15_1-ltalienische-Botschaft.jpg) Bild 1: Copyright Lia Hiltz Die Schäden am Botschaftsgebäude nach dem Ende des Krieges waren gewaltig, wie eine Dokumentation…'
+source_url: https://www.mittendran.de/spaziergang-mit-lia-hiltz-und-paul-enck-15-die-italienische-botschaft/
+wp_post_id: 24561
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Wilhelmstraße
+  lat: 52.513759
+  lon: 13.382214
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Viktoriastraße
+  lat: 52.574312
+  lon: 13.402633
+  osm_id: null
+  status: auto
+  via: regex
+- name: Matthäikirchstraße
+  lat: 52.330256
+  lon: 9.778127
+  osm_id: null
+  status: auto
+  via: regex
+- name: Graf-Spee-Straße
+  lat: 53.067118
+  lon: 8.856567
+  osm_id: null
+  status: auto
+  via: regex
+- name: Hiroshimastraße
+  lat: 52.508451
+  lon: 13.358357
+  osm_id: null
+  status: confirmed
+  via: regex

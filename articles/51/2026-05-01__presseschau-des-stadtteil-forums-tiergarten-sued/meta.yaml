@@ -1,0 +1,37 @@
+title: Presseschau des Stadtteil-Forums Tiergarten Süd
+slug: 2026-05-01__presseschau-des-stadtteil-forums-tiergarten-sued
+author: Redaktion
+date: '2026-05-01'
+issue: '51'
+rubrik: Aus dem Kiez
+about_years: []
+description: Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd ( https://forum-tgs.de/ (https://forum-tgs.de/) ). In den letzten 7 Tagen sind uns diese…
+source_url: https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued/
+wp_post_id: 41695
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 48
+  lat: 52.50505
+  lon: 13.356167
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße
+  lat: 52.500833
+  lon: 13.363483
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

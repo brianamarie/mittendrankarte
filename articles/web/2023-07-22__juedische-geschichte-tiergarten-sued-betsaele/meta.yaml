@@ -1,0 +1,87 @@
+title: 'Jüdische Geschichte in Tiergarten-Süd: Betsäle'
+slug: 2023-07-22__juedische-geschichte-tiergarten-sued-betsaele
+author: Redaktion
+date: '2023-07-22'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1860, 1891, 1898, 1900, 1910, 1911, 1912, 1920, 1925, 1927, 1930, 1932, 1933, 1934, 1935, 1936, 1937, 1938, 1971, 1987, 1995, 2000]
+description: (ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com/)) Über die Jüdische Synagoge im Lützow-Viertel (Lützowstr. 16) ist das eine oder andere schon geschrieben worden, aber was steckt…
+source_url: https://www.mittendran.de/juedische-geschichte-tiergarten-sued-betsaele/
+wp_post_id: 28012
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 76
+  lat: 52.504004
+  lon: 13.358289
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Brücke
+  lat: 52.5075
+  lon: 13.3735
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Philharmonie
+  lat: 52.51
+  lon: 13.37
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Heidereutergasse
+  lat: 52.521343
+  lon: 13.404498
+  osm_id: null
+  status: auto
+  via: regex
+- name: Oranienburgerstraße
+  lat: 52.525225
+  lon: 13.393014
+  osm_id: null
+  status: auto
+  via: regex
+- name: Die-synagoge-der-potsdamer-brücke
+  lat: 52.396845
+  lon: 13.226523
+  osm_id: null
+  status: auto
+  via: regex
+- name: Köthener Straße
+  lat: 52.506989
+  lon: 13.377226
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Lindenstraße
+  lat: 52.505331
+  lon: 13.396968
+  osm_id: null
+  status: auto
+  via: regex
+- name: Rykestraße
+  lat: 52.538442
+  lon: 13.422152
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kaiserstraße
+  lat: 52.417713
+  lon: 13.32351
+  osm_id: null
+  status: auto
+  via: regex
+- name: Prinzregentenstraße
+  lat: 52.47756
+  lon: 13.332762
+  osm_id: null
+  status: auto
+  via: regex
+- name: Einst-bluehte-an-der-luetzowstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

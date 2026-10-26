@@ -1,0 +1,39 @@
+title: Vor neun Jahren
+slug: 2023-05-30__vor-neun-jahren
+author: Redaktion
+date: '2023-05-30'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1908, 2012]
+description: Wie die Werkstätten der BVG am Gleisdreieck weggentrifiziert wurden (EIN BEITRAG VON MATHIAS BAUER, GLEISDREIECKBLOG (https://gleisdreieck-blog.de/)) Manchmal werden Weichen gestellt und erst Jahre später erfährt die…
+source_url: https://www.mittendran.de/vor-neun-jahren/
+wp_post_id: 27410
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Dennewitzstraße
+  lat: 52.4988
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Puccinistraße
+  lat: 52.545115
+  lon: 13.455059
+  osm_id: null
+  status: auto
+  via: regex
+- name: Cuvrystraße
+  lat: 52.500057
+  lon: 13.446214
+  osm_id: null
+  status: auto
+  via: regex

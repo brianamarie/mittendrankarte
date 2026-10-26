@@ -1,0 +1,27 @@
+title: Gartenfest Villa Lützow
+slug: 2024-04-22__gartenfest-villa-luetzow
+author: eki
+date: '2024-04-22'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Es ist wieder so weit, im Kiez Zentrum Villa Lützow gibt es ein Gartenfest mit vielen spannenden Aktivitäten für Groß und Klein. Am Freitag, 26. April von 15:00 Uhr bis 19:00 Uhr können Sie mit dabei sein…
+source_url: https://www.mittendran.de/gartenfest-villa-luetzow/
+wp_post_id: 31457
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielplatz
+  lat: 52.544306
+  lon: 13.364771
+  osm_id: null
+  status: auto
+  via: regex

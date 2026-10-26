@@ -1,0 +1,69 @@
+title: 'Jüdische Geschichte in Tiergarten-Süd: Die Synagoge Lützowstr. 16'
+slug: 2023-07-30__juedische-geschichte-tiergarten-sued-die-synagoge-luetzowstr-16
+author: Redaktion
+date: '2023-07-30'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1777, 1801, 1804, 1808, 1809, 1830, 1831, 1832, 1833, 1835, 1837, 1840, 1841, 1851, 1856, 1857, 1860, 1861, 1862, 1863, 1865, 1867, 1869, 1871, 1873, 1879, 1883, 1885, 1889, 1891, 1895, 1896, 1897, 1898, 1905, 1907, 1909, 1910, 1913, 1916, 1919, 1920, 1930, 1933, 1934, 1939, 1940, 1941, 1942, 1944, 1956, 1962, 1971, 1983, 1987, 1998, 2000]
+description: (ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com/)) Wenn die Synagoge an der Potsdamer Brücke der „Tempel der Millionäre“ genannt wurde, war dann die nur 20 Jahre später gebaute…
+source_url: https://www.mittendran.de/juedische-geschichte-tiergarten-sued-die-synagoge-luetzowstr-16/
+wp_post_id: 28016
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 16
+  lat: 52.502541
+  lon: 13.368678
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße 118
+  lat: 52.500248
+  lon: 13.362886
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Brücke
+  lat: 52.5075
+  lon: 13.3735
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lindenstraße
+  lat: 52.505331
+  lon: 13.396968
+  osm_id: null
+  status: auto
+  via: regex
+- name: Rykestraße
+  lat: 52.538442
+  lon: 13.422152
+  osm_id: null
+  status: auto
+  via: regex
+- name: Die-synagoge-der-potsdamer-brücke
+  lat: 52.396845
+  lon: 13.226523
+  osm_id: null
+  status: auto
+  via: regex
+- name: Brüderstraße
+  lat: 52.513884
+  lon: 13.403533
+  osm_id: null
+  status: auto
+  via: regex
+- name: Die-straßen-im-kiez-karl-heinrich-ulrichs-straße
+  lat: 52.503728
+  lon: 13.352832
+  osm_id: null
+  status: confirmed
+  via: regex

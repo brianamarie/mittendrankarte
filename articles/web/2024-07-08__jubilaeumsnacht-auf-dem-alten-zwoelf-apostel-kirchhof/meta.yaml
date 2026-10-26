@@ -1,0 +1,27 @@
+title: Jubiläumsnacht auf dem Alten Zwölf-Apostel-Kirchhof
+slug: 2024-07-08__jubilaeumsnacht-auf-dem-alten-zwoelf-apostel-kirchhof
+author: FP
+date: '2024-07-08'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: 'Als Höhepunkt der Feiern zum 160-jährigen Jubiläum des Friedhofs gibt es einen speziellen Abend: Jubiläumsnacht auf dem Alten Zwölf-Apostel-Kirchhof Samstag, 13. Juli 2024 ab 21 Uhr bis Mitternacht Kolonnenstraße…'
+source_url: https://www.mittendran.de/jubilaeumsnacht-auf-dem-alten-zwoelf-apostel-kirchhof/
+wp_post_id: 32697
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Alter Zwölf-Apostel-Kirchhof
+  lat: 52.4915
+  lon: 13.361
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kolonnenstraße
+  lat: 52.485578
+  lon: 13.362547
+  osm_id: null
+  status: auto
+  via: regex

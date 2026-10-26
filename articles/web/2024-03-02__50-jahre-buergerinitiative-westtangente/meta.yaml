@@ -1,0 +1,51 @@
+title: 50 Jahre Bürgerinitiative Westtangente
+slug: 2024-03-02__50-jahre-buergerinitiative-westtangente
+author: Redaktion
+date: '2024-03-02'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1965, 1974]
+description: Ein Beitrag aus dem Gleisdreieck-Blog Die BI Westtangente (BIW) war eine der ersten Bürgernitiativen überhaupt. Ohne deren Engagement gäbe es den Gleisdreieck-Park nicht. In der Auseinandersetzung mit der geplanten…
+source_url: https://www.mittendran.de/50-jahre-buergerinitiative-westtangente/
+wp_post_id: 30867
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Friedrich-Gerlach-Brücke
+  lat: 52.477998
+  lon: 13.355402
+  osm_id: null
+  status: auto
+  via: regex
+- name: H-Dominicusstraße
+  lat: 52.483423
+  lon: 13.34619
+  osm_id: null
+  status: auto
+  via: regex
+- name: H-Friedrich-Gerlach-Brücke
+  lat: 52.477998
+  lon: 13.355402
+  osm_id: null
+  status: auto
+  via: regex
+- name: Obentrautstraße
+  lat: 52.496525
+  lon: 13.386177
+  osm_id: null
+  status: auto
+  via: regex
+- name: Adalbertstraße
+  lat: 52.50529
+  lon: 13.422114
+  osm_id: null
+  status: auto
+  via: regex

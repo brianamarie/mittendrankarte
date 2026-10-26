@@ -1,0 +1,45 @@
+title: Der Spielplatz  auf dem Magdeburger Platz
+slug: 2024-03-15__der-spielplatz-auf-dem-magdeburger-platz
+author: Redaktion
+date: '2024-03-15'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: [1899]
+description: Wir, eine junge Familie mit einer 16 Monate alten Tochter, wohnen schon lange hier im Kiez und wollen ab sofort regelmäßig über das Leben mit Kind berichten. Gemeinsam entdecken wir viele Ecken, die man vorher schon…
+source_url: https://www.mittendran.de/der-spielplatz-auf-dem-magdeburger-platz/
+wp_post_id: 31073
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielplatz
+  lat: 52.544306
+  lon: 13.364771
+  osm_id: null
+  status: auto
+  via: regex
+- name: Verkehrsübungsplatz
+  lat: 52.412135
+  lon: 13.407392
+  osm_id: null
+  status: auto
+  via: regex

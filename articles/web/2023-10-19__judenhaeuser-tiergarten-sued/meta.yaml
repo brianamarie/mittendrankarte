@@ -1,0 +1,57 @@
+title: Judenhäuser in Tiergarten-Süd
+slug: 2023-10-19__judenhaeuser-tiergarten-sued
+author: Paul Enck
+date: '2023-10-19'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1903, 1918, 1930, 1933, 1939, 1940, 1945, 2012, 2013]
+description: Am 16. Oktober 2023 wurde eine Website freigeschaltet, die zu besuchen sich lohnt für alle, die sich für jüdische Geschichte, insbesondere für Berliner jüdische Geschichte interessieren. Auch diejenigen, die dies…
+source_url: https://www.mittendran.de/judenhaeuser-tiergarten-sued/
+wp_post_id: 29330
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 48-49
+  lat: 52.505168
+  lon: 13.356217
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße 3
+  lat: 52.504889
+  lon: 13.362846
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Derfflingerstraße 17
+  lat: 52.502432
+  lon: 13.356097
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Flottwellstraße
+  lat: 52.5008
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Juedische-geschichte-tiergarten-sued-noch-einmal-das-altersheim-luetzowstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

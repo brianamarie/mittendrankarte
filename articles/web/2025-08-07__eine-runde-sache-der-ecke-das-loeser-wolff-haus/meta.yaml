@@ -1,0 +1,31 @@
+title: Eine runde Sache an der Ecke – das Loeser & Wolff-Haus
+slug: 2025-08-07__eine-runde-sache-der-ecke-das-loeser-wolff-haus
+author: Marc-Thomas Bock
+date: '2025-08-07'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [1866, 1902, 1929, 1931, 2004]
+description: Eines der bekanntesten Bücher Walter Kempowskis trägt den Titel „Tadellöser und Wolff“. Sein Vater pflegte den Firmennamen der bekanntesten, 1866 am Berliner Alexanderplatz gegründeten Zigarrenfabrik Deutschlands…
+source_url: https://www.mittendran.de/eine-runde-sache-der-ecke-das-loeser-wolff-haus/
+wp_post_id: 38428
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.505514
+  lon: 13.369854
+  osm_id: null
+  status: confirmed
+- name: Kulturforum
+  lat: 52.508513
+  lon: 13.364749
+  osm_id: null
+  status: confirmed

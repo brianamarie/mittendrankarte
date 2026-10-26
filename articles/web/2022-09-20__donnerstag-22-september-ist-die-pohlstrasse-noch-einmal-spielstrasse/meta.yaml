@@ -1,0 +1,39 @@
+title: Am Donnerstag, 22. September ist die Pohlstraße noch einmal Spielstraße
+slug: 2022-09-20__donnerstag-22-september-ist-die-pohlstrasse-noch-einmal-spielstrasse
+author: FP
+date: '2022-09-20'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: []
+description: Von 15 – 19 Uhr am 22. September ist die Pohlstraße noch einmal für die Kinder da. Von der Nummer 79 bis zur Kluckstraße ist die Straße für den Auto- und Radverkehr gesperrt, es kann gemalt, gesprungen und auf der…
+source_url: https://www.mittendran.de/donnerstag-22-september-ist-die-pohlstrasse-noch-einmal-spielstrasse/
+wp_post_id: 23519
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße
+  lat: 52.502
+  lon: 13.362
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielstraße
+  lat: 49.137578
+  lon: 8.415617
+  osm_id: null
+  status: auto
+  via: regex
+- name: Plakat-Spielstraße
+  lat: 52.499444
+  lon: 13.45871
+  osm_id: null
+  status: auto
+  via: regex

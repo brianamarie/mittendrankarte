@@ -1,0 +1,27 @@
+title: Alles, was ein Hotel braucht – und ein bisschen mehr
+slug: 2024-06-21__alles-ein-hotel-braucht-und-ein-bisschen-mehr
+author: Paul Enck
+date: '2024-06-21'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1960, 2010]
+description: Wer das Hotel Berlin, Berlin vor dem Umbau 2018-2020 kannte, wird es kaum wiedererkennen. Klar, von außen sieht es fast so (triste) aus wie immer, aber wenn man/frau die Hotelhalle betritt, fehlt auf den ersten, und…
+source_url: https://www.mittendran.de/alles-ein-hotel-braucht-und-ein-bisschen-mehr/
+wp_post_id: 32446
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.5043
+  lon: 13.3535
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Marktplatz
+  lat: 52.45075
+  lon: 13.62473
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,33 @@
+title: Strawalde in der Galerie Born
+slug: 2024-04-08__strawalde-der-galerie-born
+author: FP
+date: '2024-04-08'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1931, 1990, 2011]
+description: Seit 2011 gibt es in unserem Kiez die Galerie Born als Ableger der gleichnamigen renommierten Galerie im Städtchen Born auf dem Darss. In bester Lage, im Loeser & Wolf-Haus Potsdamer Straße/Ecke Schöneberger Ufer. Nahe…
+source_url: https://www.mittendran.de/strawalde-der-galerie-born/
+wp_post_id: 31275
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer

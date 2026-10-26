@@ -1,0 +1,27 @@
+title: Keine Busspur am Reichpietschufer?
+slug: 2023-03-15__keine-busspur-reichpietschufer
+author: Redaktion
+date: '2023-03-15'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Mitbürger*innen haben Widerspruch gegen die „neuen“ Busspuren am Reichpietschufer und auf der Hauptstraße eingelegt. Laut Tagesspiegel sind „rechtliche Schritte gegen Verkehrsmassnahmen ohnehin neuer Volkssport in…
+source_url: https://www.mittendran.de/keine-busspur-reichpietschufer/
+wp_post_id: 26006
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Reichpietschufer
+  lat: 52.5065
+  lon: 13.372
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Hauptstraße
+  lat: 52.489303
+  lon: 13.359376
+  osm_id: null
+  status: auto
+  via: regex

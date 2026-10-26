@@ -1,0 +1,27 @@
+title: Hochhausplaner verlieren auch das zweite Verfahren haushoch
+slug: 2026-10-23__hochhausplaner-verlieren-auch-das-zweite-verfahren-haushoch
+author: Redaktion
+date: '2026-10-23'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [2000]
+description: Beitrag von Matthias Bauer Erfolg vor dem Landgericht Wie schon im vergangenem Jahr im Verfahren gegen Matthias Bauer hat die Urbane Mitte Besitz S.à.r.l. auch das Parallelverfahren gegen die Aktionsgemeinschaft…
+source_url: https://www.mittendran.de/hochhausplaner-verlieren-auch-das-zweite-verfahren-haushoch/
+wp_post_id: 43413
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Elßholzstraße
+  lat: 52.493822
+  lon: 13.356626
+  osm_id: null
+  status: confirmed
+  via: regex

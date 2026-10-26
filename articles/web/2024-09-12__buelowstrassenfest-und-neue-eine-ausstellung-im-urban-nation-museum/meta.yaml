@@ -1,0 +1,39 @@
+title: Bülowstraßenfest und eine neue Ausstellung im Urban-Nation-Museum
+slug: 2024-09-12__buelowstrassenfest-und-neue-eine-ausstellung-im-urban-nation-museum
+author: eki
+date: '2024-09-12'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Vom 13. bis 15. September 2024 findet das Bülow Street Festival statt. Mehr dazu auf mittendran/Termine (https://www.mittendran.de/veranstaltungen/buelow-street-festival/)). Die Fassade des Urban-Nation-Museums ist neu…
+source_url: https://www.mittendran.de/buelowstrassenfest-und-neue-eine-ausstellung-im-urban-nation-museum/
+wp_post_id: 33615
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Bülowstraße 7
+  lat: 52.498723
+  lon: 13.356585
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Frobenstraße
+  lat: 52.4995
+  lon: 13.355
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kunstaktion-in-der-Frobenstraße
+  lat: 48.39986
+  lon: 9.996542
+  osm_id: null
+  status: auto
+  via: regex
+- name: Buelowstraßenfest-Frobenstraße
+  lat: 52.500406
+  lon: 13.360217
+  osm_id: null
+  status: confirmed
+  via: regex

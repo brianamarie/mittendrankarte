@@ -1,0 +1,21 @@
+title: Restaurant SOLE DELI
+slug: 2025-09-16__restaurant-sole-deli
+author: eki
+date: '2025-09-16'
+issue: null
+rubrik: Gewerbe und Gastronomie
+about_years: []
+description: Das Restaurant mit der mediterranen Küche in der Zietenstraße 1-9, 10783 Berlin Das moderne, familienfreundliche Restaurant bietet glutenfreie, vegane und vegetarische Speisen an, auch halal. Gerichte von der Vorspeise…
+source_url: https://www.mittendran.de/restaurant-sole-deli/
+wp_post_id: 38952
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Zietenstraße
+  lat: 52.499496
+  lon: 13.357381
+  osm_id: null
+  status: confirmed
+  via: regex

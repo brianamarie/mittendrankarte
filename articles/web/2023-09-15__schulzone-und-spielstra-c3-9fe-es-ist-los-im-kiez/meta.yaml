@@ -1,0 +1,33 @@
+title: Schulzone und Spielstraße –  es ist was los im Kiez
+slug: 2023-09-15__schulzone-und-spielstra-c3-9fe-es-ist-los-im-kiez
+author: ase
+date: '2023-09-15'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Am 21.09. wird es eine temporäre Schulzone vor der Allegro-Grundschule geben. Von 07:00 – 17:00 wird der Straßenraum durch Kinder, Eltern, Politiker:innen und etliche Aktionen voll genutzt werden. - Zwischen 7 und 8…
+source_url: https://www.mittendran.de/schulzone-und-spielstra%c3%9fe-es-ist-los-im-kiez/
+wp_post_id: 28830
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielstraße
+  lat: 49.137578
+  lon: 8.415617
+  osm_id: null
+  status: auto
+  via: regex

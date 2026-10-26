@@ -1,0 +1,87 @@
+title: MEDIZINGESCHICHTE IM LÜTZOW-VIERTEL:(2) Das Elisabeth-Krankenhaus in der Lützowstraße
+slug: 2022-12-19__medizingeschichte-im-luetzow-viertel2das-elisabeth-krankenhaus-der-luetzowstrass
+author: Redaktion
+date: '2022-12-19'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1773, 1776, 1785, 1800, 1801, 1803, 1810, 1818, 1823, 1825, 1829, 1833, 1834, 1835, 1836, 1837, 1838, 1839, 1843, 1846, 1847, 1848, 1849, 1850, 1851, 1854, 1858, 1859, 1861, 1863, 1864, 1865, 1866, 1867, 1870, 1871, 1872, 1873, 1881, 1889, 1890, 1899, 1905, 1909, 1910, 1917, 1918, 1937, 1962, 1982, 1987, 2003]
+description: (ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com)) Im Jahr 1823 verkaufte der Apotheker Friedrich Heinrich Jakob Wendland die Engel-Apotheke an der Mohrenstraße 5 (demnächst…
+source_url: https://www.mittendran.de/medizingeschichte-im-luetzow-viertel2das-elisabeth-krankenhaus-der-luetzowstrasse/
+wp_post_id: 24655
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße 119
+  lat: 52.500186
+  lon: 13.362834
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: St. Matthäus-Kirche
+  lat: 52.508
+  lon: 13.3668
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Mohrenstraße
+  lat: 52.511723
+  lon: 13.384839
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Anton-Wilhelm-Amo-Straße
+  lat: 52.511723
+  lon: 13.384839
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Wallstraße
+  lat: 52.513124
+  lon: 13.412593
+  osm_id: null
+  status: auto
+  via: regex
+- name: Hirschelstraße
+  lat: 52.639705
+  lon: 13.19441
+  osm_id: null
+  status: auto
+  via: regex
+- name: Stresemannstraße
+  lat: 52.50112
+  lon: 13.38668
+  osm_id: null
+  status: auto
+  via: regex
+- name: Erbbegräbnisplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Wilhelmstraße
+  lat: 52.513759
+  lon: 13.382214
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Friedrichstraße
+  lat: 52.522704
+  lon: 13.387838
+  osm_id: null
+  status: auto
+  via: regex

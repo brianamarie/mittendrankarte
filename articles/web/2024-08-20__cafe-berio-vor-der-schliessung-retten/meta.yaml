@@ -1,0 +1,27 @@
+title: Café Berio vor der Schließung retten
+slug: 2024-08-20__cafe-berio-vor-der-schliessung-retten
+author: KA
+date: '2024-08-20'
+issue: null
+rubrik: Gewerbe und Gastronomie
+about_years: [1951, 1985]
+description: „Mit schwerem Herzen“ … So beginnt das derzeit im „Café Berio“ in der Schöneberger Maaßenstraße ausliegende Schreiben. „Berio“ muss schließen. Mitte September ist nach 73 Jahren Schluss. Das teilt Betreiber Karsten…
+source_url: https://www.mittendran.de/cafe-berio-vor-der-schliessung-retten/
+wp_post_id: 33350
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Maaßenstraße
+  lat: 52.499117
+  lon: 13.3542
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Logenplatz
+  lat: 52.113195
+  lon: 8.670452
+  osm_id: null
+  status: auto
+  via: regex

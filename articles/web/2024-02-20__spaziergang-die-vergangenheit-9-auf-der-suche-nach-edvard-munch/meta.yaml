@@ -1,0 +1,39 @@
+title: Spaziergang in die Vergangenheit (9). Auf der Suche nach Edvard Munch
+slug: 2024-02-20__spaziergang-die-vergangenheit-9-auf-der-suche-nach-edvard-munch
+author: Paul Enck
+date: '2024-02-20'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1837, 1863, 1865, 1867, 1870, 1890, 1891, 1892, 1895, 1897, 1898, 1902, 1903, 1904, 1908, 1909, 1910, 1915, 1935, 1944]
+description: Noch mal zurück ins Atelierhaus Lützowstraße 82, das wir neulich (https://www.mittendran.de/spaziergang-die-vergangenheit-8-atelierhaeuser-der-luetzowstrasse/) besucht haben. Uns war etwas aufgefallen, und bei dessen…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-9-auf-der-suche-nach-edvard-munch/
+wp_post_id: 30563
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 82
+  lat: 52.503246
+  lon: 13.362321
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Atelierhaeuser-der-luetzowstraße
+  lat: 52.504008
+  lon: 13.360699
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Klopstockstraße
+  lat: 52.517293
+  lon: 13.341205
+  osm_id: null
+  status: auto
+  via: regex
+- name: Römerweg
+  lat: 52.492012
+  lon: 13.525612
+  osm_id: null
+  status: auto
+  via: regex

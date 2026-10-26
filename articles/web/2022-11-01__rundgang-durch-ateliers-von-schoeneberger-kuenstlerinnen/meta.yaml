@@ -1,0 +1,27 @@
+title: Rundgang durch Ateliers von Schöneberger Künstlerinnen
+slug: 2022-11-01__rundgang-durch-ateliers-von-schoeneberger-kuenstlerinnen
+author: FP
+date: '2022-11-01'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Im Rahmen der Schöneberger Art 2022 gibt es eine geführte Touram Samstag, 5. November 2022, 15:00 – 18:00 Uhr „Künstlerinnen-Ateliers auf der Schöneberger Insel“ Wir besuchen die Ateliers von Andrea Busse-Hurt…
+source_url: https://www.mittendran.de/rundgang-durch-ateliers-von-schoeneberger-kuenstlerinnen/
+wp_post_id: 24116
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Wilhelm-Kabus-Straße
+  lat: 52.478173
+  lon: 13.363421
+  osm_id: null
+  status: auto
+  via: regex
+- name: Brunhildstraße
+  lat: 52.486484
+  lon: 13.362756
+  osm_id: null
+  status: auto
+  via: regex

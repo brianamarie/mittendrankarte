@@ -1,0 +1,27 @@
+title: Dreharbeiten für „Berlin Nobody“
+slug: 2022-09-26__dreharbeiten-fuer-berlin-nobody
+author: eki
+date: '2022-09-26'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2022/09/2022-Berlin-Nobody-scaled.jpg) „Berlin Nobody“ (Foto:eki) Im Bereich der Genthiner Straße/Kurfürstenstraße/An der Apostelkirche gibt es noch bis zum 5. Oktober 2022…
+source_url: https://www.mittendran.de/dreharbeiten-fuer-berlin-nobody/
+wp_post_id: 23623
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer

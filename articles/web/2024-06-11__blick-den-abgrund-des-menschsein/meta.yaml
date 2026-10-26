@@ -1,0 +1,27 @@
+title: BLICK IN DEN ABGRUND DES MENSCHSEIN
+slug: 2024-06-11__blick-den-abgrund-des-menschsein
+author: null
+date: '2024-06-11'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1945, 1947]
+description: 'Die Alexander und Renata Camaro Stiftung lädt ein: Der Künstler als Melancholiker und Schmerzensmann am Beispiel von Alexander Camaro Führung durch die Ausstellung „DIE KRAFT DER MELANCHOLIE“ mit Dr. Eckhart J. Gillen…'
+source_url: https://www.mittendran.de/blick-den-abgrund-des-menschsein/
+wp_post_id: 32363
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 98a
+  lat: 52.50213
+  lon: 13.36298
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Talstraße
+  lat: 52.555726
+  lon: 13.426188
+  osm_id: null
+  status: auto
+  via: regex

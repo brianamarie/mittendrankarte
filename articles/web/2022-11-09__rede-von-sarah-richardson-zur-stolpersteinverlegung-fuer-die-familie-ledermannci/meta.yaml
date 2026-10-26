@@ -1,0 +1,39 @@
+title: Rede von Sarah Richardson zur Stolpersteinverlegung für die Familie Ledermann/Citroen
+slug: 2022-11-09__rede-von-sarah-richardson-zur-stolpersteinverlegung-fuer-die-familie-ledermannci
+author: FP
+date: '2022-11-09'
+issue: null
+rubrik: Miteinander
+about_years: [1943, 1947]
+description: Am 8. September wurden vor dem Haus Genthiner Straße 14 fünf Stolpersteine zum Gedenken an die Familie Ledermann verlegt. Sarah Richardson lebt heute in den USA, wohin ihre Großmutter Barbara Ledermann als einzige…
+source_url: https://www.mittendran.de/rede-von-sarah-richardson-zur-stolpersteinverlegung-fuer-die-familie-ledermanncitroen/
+wp_post_id: 24219
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Genthiner Straße 14
+  lat: 52.504662
+  lon: 13.359674
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Hinweg
+  lat: 50.128375
+  lon: 8.710642
+  osm_id: null
+  status: auto
+  via: regex
+- name: Stierstraße
+  lat: 52.473766
+  lon: 13.337568
+  osm_id: null
+  status: auto
+  via: regex

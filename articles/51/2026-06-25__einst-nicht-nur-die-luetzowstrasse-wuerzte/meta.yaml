@@ -1,0 +1,26 @@
+title: Was einst nicht nur die Lützowstraße würzte
+slug: 2026-06-25__einst-nicht-nur-die-luetzowstrasse-wuerzte
+author: Marc-Thomas Bock
+date: '2026-06-25'
+issue: '51'
+rubrik: Gewerbe und Gastronomie
+about_years: [1910]
+description: 'Aus heutiger Perspektive vermag man sich gar nicht mehr vorzustellen, wie mondän und architektonisch glanzvoll die im Zweiten Weltkrieg weggebombte Lützowstraße einmal gewesen sein muss: Zwischen der Potsdamer- und der…'
+source_url: https://www.mittendran.de/einst-nicht-nur-die-luetzowstrasse-wuerzte/
+wp_post_id: 41964
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 102-104
+  lat: 52.502218
+  lon: 13.368659
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Flottwellstraße
+  lat: 52.501731
+  lon: 13.37132
+  osm_id: null
+  status: confirmed

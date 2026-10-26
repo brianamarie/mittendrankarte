@@ -1,0 +1,21 @@
+title: Ostermarkt auf dem Potsdamer Platz
+slug: 2023-03-31__ostermarkt-auf-dem-potsdamer-platz
+author: eki
+date: '2023-03-31'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Vom 1. bis 16. April findet in diesem Jahr ein großer Ostermarkt mit allerlei Entertainment auf dem Potsdamer Platz statt. Pure Frühlingsstimmung hält Einzug am Potsdamer Platz. Für gute Laune sorgen…
+source_url: https://www.mittendran.de/ostermarkt-auf-dem-potsdamer-platz/
+wp_post_id: 26331
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer

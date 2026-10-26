@@ -1,0 +1,42 @@
+title: Die Polizei an der Potsdamer Straße in den 1960ern
+slug: 2026-04-15__die-polizei-der-potsdamer-strasse-den-1960ern
+author: Redaktion
+date: '2026-04-15'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1943, 1961, 1962, 1968]
+description: Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach Spandau verschlagen…
+source_url: https://www.mittendran.de/die-polizei-der-potsdamer-strasse-den-1960ern/
+wp_post_id: 41271
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Lützowstraße 93
+  lat: 52.50279
+  lon: 13.366437
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße 24
+  lat: 52.50818
+  lon: 13.370642
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schöneberger Ufer
+  lat: 52.505514
+  lon: 13.369854
+  osm_id: null
+  status: confirmed
+- name: Reichpietschufer
+  lat: 52.505975
+  lon: 13.36975
+  osm_id: null
+  status: confirmed

@@ -1,0 +1,27 @@
+title: Neue Paketbox im Kiez
+slug: 2024-04-30__neue-paketbox-im-kiez
+author: FP
+date: '2024-04-30'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2024/04/IMG_7619.jpeg) (https://www.mittendran.de/wp-content/uploads/2024/04/IMG_7621.jpeg) Die meisten werden es schon gesehen haben. An der Durchwegung von der Pohlstraße…
+source_url: https://www.mittendran.de/neue-paketbox-im-kiez/
+wp_post_id: 31632
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer

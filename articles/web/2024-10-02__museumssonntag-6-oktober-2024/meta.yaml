@@ -1,0 +1,27 @@
+title: Museumssonntag am 6. Oktober 2024
+slug: 2024-10-02__museumssonntag-6-oktober-2024
+author: eki
+date: '2024-10-02'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Der Herbst ist da. Es wird kühler. Draußen kann es zunehmend ungemütlich werden. Da liegt es nahe, wieder einmal ins Museum zu gehen. Am 6. Oktober findet wieder der monatliche eintrittsfreie Museumssonntag Berlin…
+source_url: https://www.mittendran.de/museumssonntag-6-oktober-2024/
+wp_post_id: 33887
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Matthäikirchplatz 4
+  lat: 52.508947
+  lon: 13.36626
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Ben-Gurion-Straße
+  lat: 52.509746
+  lon: 13.371715
+  osm_id: null
+  status: confirmed
+  via: regex

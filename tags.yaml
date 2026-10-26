@@ -1,0 +1,57 @@
+# Stable ids. German label is what the archive and map show.
+# An article can have more than one. Add an id here before using it.
+tags:
+  - id: kunst-kultur
+    de: Kunst / Kultur
+    en: Art / culture
+  - id: restaurant-essen
+    de: Restaurant / Essen
+    en: Restaurant / food
+  - id: laden
+    de: Laden
+    en: Shop
+  - id: geschichte
+    de: Geschichte
+    en: History
+  - id: kinder
+    de: Kinder
+    en: Kids
+  - id: nachbarschaft
+    de: Nachbarschaft
+    en: Neighborhood
+  - id: kirche
+    de: Kirche
+    en: Church
+  - id: park
+    de: Park
+    en: Park
+  - id: gruen
+    de: Grün
+    en: Green space
+  - id: musik
+    de: Musik
+    en: Music
+  - id: film
+    de: Film
+    en: Film
+  - id: stadt
+    de: Stadt
+    en: Streets and buildings
+  - id: gesundheit
+    de: Gesundheit
+    en: Health
+
+# Separate from topic tags. Used to find a piece again in that season.
+seasons:
+  - id: spring
+    de: Frühling
+    en: Spring
+  - id: summer
+    de: Sommer
+    en: Summer
+  - id: autumn
+    de: Herbst
+    en: Autumn
+  - id: winter
+    de: Winter
+    en: Winter

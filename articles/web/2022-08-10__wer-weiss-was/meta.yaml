@@ -1,0 +1,21 @@
+title: Wer weiß was?
+slug: 2022-08-10__wer-weiss-was
+author: Redaktion
+date: '2022-08-10'
+issue: null
+rubrik: In eigener Sache
+about_years: [1930, 1945]
+description: Im Rahmen der Initiative „Jüdisches Leben und Widerstand in Tiergarten“ möchten wir uns intensiver mit den jüdischen Gewerbetreibenden rund um die Potsdamerstraße und ihrer Verdrängung und Verfolgung beschäftigen. Wir…
+source_url: https://www.mittendran.de/wer-weiss-was/
+wp_post_id: 22689
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.497809
+  lon: 13.36202
+  osm_id: null
+  status: confirmed
+  via: regex

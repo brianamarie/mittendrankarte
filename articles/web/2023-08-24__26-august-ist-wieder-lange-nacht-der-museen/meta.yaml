@@ -1,0 +1,27 @@
+title: Am 26. August ist wieder Lange Nacht der Museen
+slug: 2023-08-24__26-august-ist-wieder-lange-nacht-der-museen
+author: FP
+date: '2023-08-24'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Am 26. August machen die Berliner Museen zur Langen Nacht unter dem Motto „Sounds of Berlin Edition“ jede Menge unterhaltsame und interessante Angebote rund um den Sound dieser Stadt für Kinder und Erwachsene. So gibt…
+source_url: https://www.mittendran.de/26-august-ist-wieder-lange-nacht-der-museen/
+wp_post_id: 28442
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kulturforum
+  lat: 52.5085
+  lon: 13.3675
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Neue Nationalgalerie
+  lat: 52.5068
+  lon: 13.3678
+  osm_id: null
+  status: confirmed
+  via: gazetteer

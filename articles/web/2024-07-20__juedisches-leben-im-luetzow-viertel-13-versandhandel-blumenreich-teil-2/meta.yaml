@@ -1,0 +1,64 @@
+title: 'Jüdisches Leben im Lützow-Viertel (13): Versandhandel A. Blumenreich (Teil
+  2)'
+slug: 2024-07-20__juedisches-leben-im-luetzow-viertel-13-versandhandel-blumenreich-teil-2
+author: Paul Enck
+date: '2024-07-20'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1842, 1845, 1875, 1877, 1885, 1886, 1890, 1891, 1899, 1905, 1906, 1908, 1911, 1914, 1916, 1919, 1922, 1923, 1933, 1938, 1939, 1940, 1941, 1942, 1943, 1944, 1959, 1960, 1963, 1965, 1986, 2000]
+description: Im ersten Teil der Geschichte hatten wir die Herkunft Arnold Blumenreichs – und seiner Geschwister – vorgestellt, insbesondere den berühmt-berüchtigten Vater Paul Philipp Perez Blumenreich und seine vier Ehen mit…
+source_url: https://www.mittendran.de/juedisches-leben-im-luetzow-viertel-13-versandhandel-blumenreich-teil-2/
+wp_post_id: 32920
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße 13
+  lat: 52.504261
+  lon: 13.362351
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Webgasse
+  lat: 47.362705
+  lon: 8.550024
+  osm_id: null
+  status: auto
+  via: regex
+- name: Levetzowstraße
+  lat: 52.522505
+  lon: 13.330542
+  osm_id: null
+  status: auto
+  via: regex
+- name: Solingerstraße
+  lat: 52.519697
+  lon: 13.334745
+  osm_id: null
+  status: auto
+  via: regex
+- name: Solinger-Straße
+  lat: 52.519304
+  lon: 13.334296
+  osm_id: null
+  status: auto
+  via: regex
+- name: Koester-Ufer
+  lat: 52.499114
+  lon: 13.385872
+  osm_id: null
+  status: auto
+  via: regex

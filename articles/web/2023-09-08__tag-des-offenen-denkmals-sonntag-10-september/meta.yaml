@@ -1,0 +1,21 @@
+title: Tag des offenen Denkmals am Sonntag, 10. September
+slug: 2023-09-08__tag-des-offenen-denkmals-sonntag-10-september
+author: Redaktion
+date: '2023-09-08'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1987]
+description: Am 10. September, dem Tag des offenen Denkmals, hat man Zutritt zu historischen Gebäuden, in die man sonst nicht so einfach hineinkommt. In unserem Kiezfeiert das Museum für Kommunikation an der Leipziger Straße von…
+source_url: https://www.mittendran.de/tag-des-offenen-denkmals-sonntag-10-september/
+wp_post_id: 28684
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Museum für Kommunikation
+  lat: 52.5098
+  lon: 13.3865
+  osm_id: null
+  status: confirmed
+  via: gazetteer

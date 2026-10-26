@@ -1,0 +1,46 @@
+title: Stolpersteinverlegung für die Familie Kubatzky in der Lützowstr. 87 und in
+  der Pohlstr. 64
+slug: 2024-06-19__stolpersteinverlegung-fuer-die-familie-kubatzky-der-luetzowstr-87-und-pohlstr-64
+author: Redaktion
+date: '2024-06-19'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: [1872, 1873, 1875, 1878, 1937, 1939, 1940, 1941, 1942, 1944, 1957]
+description: 'Am 24. Juni 2024 werden in Tiergarten-Süd Stolpersteine zur Erinnerung an folgende Personen verlegt: Um 14 Uhr werden in der Lützowstraße 87 drei Stolpersteine für Hermann Julius Kubatzky, Rosa Kubatzky, geb. Arndt und…'
+source_url: https://www.mittendran.de/stolpersteinverlegung-fuer-die-familie-kubatzky-der-luetzowstr-87-und-pohlstr-64/
+wp_post_id: 32452
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 87
+  lat: 52.502994
+  lon: 13.363747
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße 64
+  lat: 52.501422
+  lon: 13.36208
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Gipsstraße
+  lat: 52.526333
+  lon: 13.402739
+  osm_id: null
+  status: auto
+  via: regex
+- name: Ludendorffstraße
+  lat: 51.108998
+  lon: 13.636605
+  osm_id: null
+  status: auto
+  via: regex
+- name: Turmstraße
+  lat: 52.526149
+  lon: 13.341297
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,39 @@
+title: 'Jüdische Geschichte: Das Kassenbuch der Gemeinde an der Potsdamer Brücke.'
+slug: 2024-11-27__juedisches-geschichte-das-kassenbuch-der-gemeinde-der-potsdamer-bruecke
+author: Paul Enck
+date: '2024-11-27'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1861, 1875, 1905, 1926, 1927, 1928, 1930, 1937, 2000]
+description: Im Artikel über die Jüdische Gemeinde an der Potsdamer Brücke (mittendran vom 3. September 2022 (https://www.mittendran.de/juedische-geschichte-tiergarten-sued-3-die-synagoge-der-potsdamer-bruecke/)) hatten wir ein…
+source_url: https://www.mittendran.de/juedisches-geschichte-das-kassenbuch-der-gemeinde-der-potsdamer-bruecke/
+wp_post_id: 34624
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Brücke
+  lat: 52.5075
+  lon: 13.3735
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Prinzregentenstraße
+  lat: 52.483884
+  lon: 13.33322
+  osm_id: null
+  status: auto
+  via: regex
+- name: Michaelkirchstraße
+  lat: 52.50957
+  lon: 13.421018
+  osm_id: null
+  status: auto
+  via: regex
+- name: Sitzplatz
+  lat: 52.452471
+  lon: 13.263777
+  osm_id: null
+  status: auto
+  via: regex

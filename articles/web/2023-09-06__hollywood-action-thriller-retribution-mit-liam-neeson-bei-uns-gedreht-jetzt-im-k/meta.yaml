@@ -1,0 +1,58 @@
+title: Hollywood Action Thriller „Retribution“ mit Liam Neeson, bei uns gedreht, jetzt
+  im Kino
+slug: 2023-09-06__hollywood-action-thriller-retribution-mit-liam-neeson-bei-uns-gedreht-jetzt-im-k
+author: eki
+date: '2023-09-06'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2023/09/2023-Teambesprechung-der-Crew-rechts-vorn-Liam-Neeson-Foto-eki-scaled.jpg) Teambesprechung der Crew- rechts vorn Liam Neeson Remake des spanischen Thrillers…
+source_url: https://www.mittendran.de/hollywood-action-thriller-retribution-mit-liam-neeson-bei-uns-gedreht-jetzt-im-kino/
+wp_post_id: 28635
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bülowstraße
+  lat: 52.4985
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Frobenstraße
+  lat: 52.4995
+  lon: 13.355
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Anrufer
+  lat: 33.309541
+  lon: 36.103807
+  osm_id: null
+  status: auto
+  via: regex
+- name: Ziethenstraße
+  lat: 51.592486
+  lon: 7.530617
+  osm_id: null
+  status: auto
+  via: regex
+- name: Verfolgungsjagt-auf-der-Buelowstraße
+  lat: 48.378856
+  lon: 10.911371
+  osm_id: null
+  status: auto
+  via: regex
+- name: Hollywood-actionthriller-zwischen-potsdamerstraße-und-nollendorfplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

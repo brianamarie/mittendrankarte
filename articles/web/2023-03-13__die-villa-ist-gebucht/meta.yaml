@@ -1,0 +1,27 @@
+title: Die Villa ist gebucht …
+slug: 2023-03-13__die-villa-ist-gebucht
+author: KA
+date: '2023-03-13'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: … an jedem ersten Dienstag im Monat. Dann trifft sich im Kiez-Zentrum „Villa Lützow“ in der Lützowstraße das Stadtteil-Forum Tiergarten Süd. Es sind Bewohner/innen des Stadtteils, die hier engagiert Themen und Probleme…
+source_url: https://www.mittendran.de/die-villa-ist-gebucht/
+wp_post_id: 25997
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

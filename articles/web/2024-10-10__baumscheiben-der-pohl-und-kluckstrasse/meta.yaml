@@ -1,0 +1,27 @@
+title: Baumscheiben in der Pohl- und Kluckstraße
+slug: 2024-10-10__baumscheiben-der-pohl-und-kluckstrasse
+author: Redaktion
+date: '2024-10-10'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Zwei Nachbarn, die sich für die Erhaltung der bepflanzten Baumscheiben in der Pohlstraße und der Kluckstraße eingesetzt haben, informieren über den aktuellen Stand. Liebe Anwohner:innen der Pohl- und Kluckstraße…
+source_url: https://www.mittendran.de/baumscheiben-der-pohl-und-kluckstrasse/
+wp_post_id: 34037
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße
+  lat: 52.502
+  lon: 13.362
+  osm_id: null
+  status: confirmed
+  via: gazetteer

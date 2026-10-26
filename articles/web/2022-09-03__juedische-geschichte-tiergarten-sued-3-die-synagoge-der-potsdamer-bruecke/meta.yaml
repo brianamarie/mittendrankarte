@@ -1,0 +1,81 @@
+title: 'Jüdische Geschichte in Tiergarten-Süd (3): Die Synagoge an der Potsdamer Brücke'
+slug: 2022-09-03__juedische-geschichte-tiergarten-sued-3-die-synagoge-der-potsdamer-bruecke
+author: Paul Enck
+date: '2022-09-03'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1810, 1840, 1841, 1848, 1861, 1862, 1863, 1866, 1867, 1868, 1872, 1875, 1876, 1877, 1880, 1882, 1891, 1893, 1896, 1897, 1898, 1899, 1900, 1905, 1909, 1910, 1925, 1926, 1927, 1928, 1933, 1971, 1987, 1995, 2000]
+description: (ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com)) Es ist nicht die erste Synagoge in Berlin, wenn von der Synagoge an der Potsdamer Brücke (Schöneberger Ufer 26) die Rede ist, und auch…
+source_url: https://www.mittendran.de/juedische-geschichte-tiergarten-sued-3-die-synagoge-der-potsdamer-bruecke/
+wp_post_id: 23020
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 16
+  lat: 52.502541
+  lon: 13.368678
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Brücke
+  lat: 52.5075
+  lon: 13.3735
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Doppelbrücke
+  lat: 49.372741
+  lon: 10.176265
+  osm_id: null
+  status: auto
+  via: regex
+- name: Viktoria-Luise-Straße
+  lat: 52.233419
+  lon: 10.492425
+  osm_id: null
+  status: auto
+  via: regex
+- name: Mohrenstraße
+  lat: 52.511723
+  lon: 13.384839
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Tiergartenstraße
+  lat: 52.5108
+  lon: 13.369122
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Oranienburgerstraße
+  lat: 52.525225
+  lon: 13.393014
+  osm_id: null
+  status: auto
+  via: regex

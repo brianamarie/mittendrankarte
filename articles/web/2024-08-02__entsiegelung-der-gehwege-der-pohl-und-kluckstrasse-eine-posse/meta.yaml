@@ -1,0 +1,39 @@
+title: Entsiegelung der Gehwege in der Pohl- und Kluckstraße – eine Posse(?)
+slug: 2024-08-02__entsiegelung-der-gehwege-der-pohl-und-kluckstrasse-eine-posse
+author: FP
+date: '2024-08-02'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Schon bevor die Arbeiten an der Entsiegelung der Gehwege in der Pohl- und Kluckstraße abgeschlossen waren, gab es Aushänge an den Haustüren in beiden Straßen mit dem Hinweis, dass die Beete nicht von den Anwohner:innen…
+source_url: https://www.mittendran.de/entsiegelung-der-gehwege-der-pohl-und-kluckstrasse-eine-posse/
+wp_post_id: 33233
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße
+  lat: 52.502
+  lon: 13.362
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Erhaltet-die-schoene-bepflanzung-der-baumscheiben-der-kluckstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Gehweg
+  lat: 50.284553
+  lon: 7.612541
+  osm_id: null
+  status: auto
+  via: regex

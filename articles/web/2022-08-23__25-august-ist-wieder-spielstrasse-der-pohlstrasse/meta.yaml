@@ -1,0 +1,27 @@
+title: Am 25. August ist wieder  Spielstraße in der Pohlstraße
+slug: 2022-08-23__25-august-ist-wieder-spielstrasse-der-pohlstrasse
+author: FP
+date: '2022-08-23'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2021/09/IMG_5946.jpeg) Am Donnerstag, 25. August, ist die westliche Seite der Pohlstraße von 15-19 Uhr wieder freigegeben zum Spielen, Malen und Sitzen auf der Straße…
+source_url: https://www.mittendran.de/25-august-ist-wieder-spielstrasse-der-pohlstrasse/
+wp_post_id: 23097
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielstraße
+  lat: 49.137578
+  lon: 8.415617
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,27 @@
+title: Feierliche Enthüllung einer Skulptur von Karl Menzen (1950-2020) und Ausstellungseröffnung
+slug: 2023-11-14__feierliche-enthuellung-einer-skulptur-von-karl-menzen-1950-2020-und-ausstellungs
+author: Redaktion
+date: '2023-11-14'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1950, 2004]
+description: Transformation Feierliche Enthüllung einer Skulptur von Karl Menzen (1950-2020) und Ausstellungseröffnung Sonntag, 19. November 2023 12.00 Uhr Alter Zwölf-Apostel-Kirchhof, Kapelle Eintritt frei Auf dem Kirchhof wird…
+source_url: https://www.mittendran.de/feierliche-enthuellung-einer-skulptur-von-karl-menzen-1950-2020-und-ausstellungseroeffnung/
+wp_post_id: 29560
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Alter Zwölf-Apostel-Kirchhof
+  lat: 52.4915
+  lon: 13.361
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bleibtreustraße
+  lat: 52.504541
+  lon: 13.319885
+  osm_id: null
+  status: auto
+  via: regex

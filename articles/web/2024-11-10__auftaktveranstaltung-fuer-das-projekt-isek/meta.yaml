@@ -1,0 +1,31 @@
+title: Auftaktveranstaltung für das Projekt „ISEK“
+slug: 2024-11-10__auftaktveranstaltung-fuer-das-projekt-isek
+author: FP
+date: '2024-11-10'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: []
+description: Am 6. November hatten die Bezirksstadträte Eva Majewski, CDU, Tempelhof-Schöneberg, und Ephraim Gothe, SPD, Mitte, samt ihren Teams in die Villa Lützow eingeladen. Die Dialogveranstaltung sollte Anwohner eines Gebiets…
+source_url: https://www.mittendran.de/auftaktveranstaltung-fuer-das-projekt-isek/
+wp_post_id: 34384
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504268
+  lon: 13.362851
+  osm_id: null
+  status: confirmed
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

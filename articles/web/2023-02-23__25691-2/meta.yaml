@@ -1,0 +1,27 @@
+title: „Dank sagen“
+slug: 2023-02-23__25691-2
+author: Redaktion
+date: '2023-02-23'
+issue: null
+rubrik: kiek ma!
+about_years: []
+description: Auch im Namen der Sehbehinderten, Rollator-Abhängigen, Rollstuhl- und Kinderwagen Fahrenden wollen wir hier „Dank sagen“ an den egoistischen und rücksichtslosen Zeitgenossen, der zu faul war seinen E-Roller vernünftig…
+source_url: https://www.mittendran.de/25691-2/
+wp_post_id: 25691
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Fußweg
+  lat: 52.39512
+  lon: 13.592238
+  osm_id: null
+  status: auto
+  via: regex
+- name: Körnerstraße
+  lat: 52.501514
+  lon: 13.367197
+  osm_id: null
+  status: confirmed
+  via: regex

@@ -1,0 +1,27 @@
+title: 'Spaziergang in die Vergangenheit (24): Bildersuche in der Lützowstraße'
+slug: 2025-03-07__spaziergang-die-vergangenheit-22-bildersuche-der-luetzowstrasse
+author: Paul Enck
+date: '2025-03-07'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1878, 1897, 1914, 1925, 1930, 1932, 1933, 1936, 1939, 1957, 2012]
+description: 'Das Bild (Bild 1) hatten wir schon länger, nur zugeordnet hatten wir es bislang nicht: In der Bildlegende im Marburger Bildindex heißt es nur „Lützowstraße, um 1930“ mit fraglicher Angabe eines Fotografen (1), und das…'
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-22-bildersuche-der-luetzowstrasse/
+wp_post_id: 35496
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 7
+  lat: 52.502468
+  lon: 13.369745
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer

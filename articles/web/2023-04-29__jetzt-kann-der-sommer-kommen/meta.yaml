@@ -1,0 +1,33 @@
+title: Jetzt kann der Sommer kommen
+slug: 2023-04-29__jetzt-kann-der-sommer-kommen
+author: eki
+date: '2023-04-29'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: In der nördlichen Steinmetzstraße zwischen Kurfürsten- und Bülowstraße fand heute die Auftaktveranstaltung mit einem Musikfest zur Sommerstraße statt. Dieser Straßenabschnitt wurde laut Bezirksbeschluss gesperrt und…
+source_url: https://www.mittendran.de/jetzt-kann-der-sommer-kommen/
+wp_post_id: 26996
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Bülowstraße
+  lat: 52.4985
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Steinmetzstraße
+  lat: 52.4975
+  lon: 13.361
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Sommerstraße
+  lat: 52.571682
+  lon: 13.377278
+  osm_id: null
+  status: auto
+  via: regex

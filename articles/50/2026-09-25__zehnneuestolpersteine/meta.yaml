@@ -1,0 +1,27 @@
+title: Zehn neue Stolpersteine
+slug: 2026-09-25__zehnneuestolpersteine
+author: Redaktion
+date: '2025-11-06'
+issue: '50'
+rubrik: Kiez-Geschichte
+about_years: [1933, 1938, 1939, 1944]
+description: Wenige Wochen, bevor sich die Reichspogromnacht am 9. November zum 87. Mal jährt, wurden vor den Häusern Kurfürstenstr. 125 und 126 fünf Stolpersteine verlegt. Erinnert wird an die vierköpfige Familie Baumgarten, die…
+source_url: https://www.mittendran.de/zehn-neue-stolpersteine/
+wp_post_id: 39488
+text_origin: wp
+sample: false
+tags:
+- geschichte
+source: {}
+places:
+- name: Kurfürstenstraße 125
+  lat: 52.502356
+  lon: 13.35074
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße 116
+  lat: 52.503376
+  lon: 13.347639
+  osm_id: null
+  status: confirmed

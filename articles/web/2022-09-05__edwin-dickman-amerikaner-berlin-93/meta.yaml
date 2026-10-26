@@ -1,0 +1,27 @@
+title: Edwin Dickman Amerikaner in Berlin 93 Jahre
+slug: 2022-09-05__edwin-dickman-amerikaner-berlin-93
+author: Redaktion
+date: '2022-09-05'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1929, 1954, 1958, 1960, 1963, 1964, 1967, 1972, 1982, 2001]
+description: (ein Beitrag von Peter Fabian) Im Kiez sehen wir den kleinen alten Mann mit der Schiebermütze seit vielen Jahren täglich in den Cafés, Gäste im Interieur zeichnend. Früher oft im Einstein und in der Joseph Roth Diele…
+source_url: https://www.mittendran.de/edwin-dickman-amerikaner-berlin-93/
+wp_post_id: 22886
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kluckstraße
+  lat: 52.502
+  lon: 13.362
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Winterfeldtstraße
+  lat: 52.496617
+  lon: 13.350972
+  osm_id: null
+  status: confirmed
+  via: regex

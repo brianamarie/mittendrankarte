@@ -1,0 +1,45 @@
+title: Die große Hütte – das neue Eingangsgebäude des Technikmuseums
+slug: 2023-12-07__die-grosse-huette-das-neue-eingangsgebaeude-des-technikmuseums
+author: Redaktion
+date: '2023-12-07'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1963, 1987, 1999]
+description: Veröffentlicht am 6. 12. 2023 auf gleisdreieck-blog (https://gleisdreieck-blog.de/2023/12/06/die-grosse-huette-das-neue-eingangsgebaeude-des-technikmuseums/) von Matthias Bauer Noch bis zum 13. Dezember ist die…
+source_url: https://www.mittendran.de/die-grosse-huette-das-neue-eingangsgebaeude-des-technikmuseums/
+wp_post_id: 29879
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Ladestraße
+  lat: 52.457964
+  lon: 13.584872
+  osm_id: null
+  status: auto
+  via: regex
+- name: Vorplatz
+  lat: 52.532486
+  lon: 13.20873
+  osm_id: null
+  status: auto
+  via: regex
+- name: Möckernbrücke
+  lat: 52.498693
+  lon: 13.383123
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Yorckstraße
+  lat: 52.492758
+  lon: 13.37048
+  osm_id: null
+  status: auto
+  via: regex

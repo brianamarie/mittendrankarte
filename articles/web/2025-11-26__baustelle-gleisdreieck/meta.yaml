@@ -1,0 +1,30 @@
+title: Baustelle Gleisdreieck
+slug: 2025-11-26__baustelle-gleisdreieck
+author: Redaktion
+date: '2025-11-26'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [1926, 2013]
+description: Ein Beitrag von Matthias Bauer, gleisdreieck-blog.de (http://gleisdreieck-blog.de) Der Neubau des Viadukts der U1 steht an (https://gleisdreieck-blog.de/2025/11/23/der-neubau-des-viadukts-der-u1-steht-an/)…
+source_url: https://www.mittendran.de/baustelle-gleisdreieck/
+wp_post_id: 39860
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.500435
+  lon: 13.366647
+  osm_id: null
+  status: confirmed
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

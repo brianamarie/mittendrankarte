@@ -1,0 +1,27 @@
+title: Ein kunstsinniges Panoptikum – der Peter Fabian Verlag
+slug: 2022-06-06__ein-kunstsinniges-panoptikum-der-potsdamer-strasse
+author: APZ
+date: '2022-06-06'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1921, 2006]
+description: Unsere Potsdamer Straße ist eine wichtige Lebensader der Hauptstadt. Alles kann einem hier begegnen. Manches ist laut und bunt und brüllt die Passant*innen auf den breiten Gehwegen geradezu an. Doch es gibt die stillen…
+source_url: https://www.mittendran.de/ein-kunstsinniges-panoptikum-der-potsdamer-strasse/
+wp_post_id: 22341
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 93
+  lat: 52.50279
+  lon: 13.366437
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße 73
+  lat: 52.502738
+  lon: 13.365729
+  osm_id: null
+  status: confirmed
+  via: address

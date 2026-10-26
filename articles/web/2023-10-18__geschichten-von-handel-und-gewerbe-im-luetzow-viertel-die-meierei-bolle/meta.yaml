@@ -1,0 +1,99 @@
+title: 'Geschichten von Handel und Gewerbe im Lützow-Viertel: Die Meierei Bolle'
+slug: 2023-10-18__geschichten-von-handel-und-gewerbe-im-luetzow-viertel-die-meierei-bolle
+author: Paul Enck
+date: '2023-10-18'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1782, 1808, 1810, 1824, 1832, 1839, 1843, 1850, 1860, 1861, 1862, 1863, 1866, 1867, 1868, 1869, 1870, 1872, 1879, 1881, 1884, 1885, 1886, 1887, 1888, 1892, 1895, 1896, 1897, 1898, 1905, 1908, 1909, 1910, 1914, 1915, 1917, 1935, 1936, 1949, 1960, 1993, 1995, 2000, 2011]
+description: Waren die ersten Unternehmer im Lützow-Viertel noch Pioniere, die sich das billige Bauland und die niedrigen Grundsteuern auf Schöneberger Boden für ihre Geschäfte zunutze machten, so waren ihre Nachfolger unter die…
+source_url: https://www.mittendran.de/geschichten-von-handel-und-gewerbe-im-luetzow-viertel-die-meierei-bolle/
+wp_post_id: 29260
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Landgrafenstraße
+  lat: 52.5058
+  lon: 13.3505
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Keithstraße
+  lat: 52.503
+  lon: 13.3455
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowufer
+  lat: 52.505525
+  lon: 13.353321
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Die-straßen-im-kiez-luetzowufer
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Maienstraße
+  lat: 52.50085
+  lon: 13.352323
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Die-straßen-im-kiez-karl-heinrich-ulrichs-straße
+  lat: 52.503728
+  lon: 13.352832
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Matthäi-Kirchstraße
+  lat: 52.523015
+  lon: 13.348066
+  osm_id: null
+  status: auto
+  via: regex
+- name: Militärstraße
+  lat: 49.937533
+  lon: 8.278163
+  osm_id: null
+  status: auto
+  via: regex
+- name: Halleschestraße
+  lat: 52.501292
+  lon: 13.383729
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Lebensweg
+  lat: 51.787862
+  lon: 8.005384
+  osm_id: null
+  status: auto
+  via: regex
+- name: Wichmannstraße
+  lat: 52.506062
+  lon: 13.345932
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Rinnstein-Brücke
+  lat: 52.52213
+  lon: 13.387954
+  osm_id: null
+  status: auto
+  via: regex

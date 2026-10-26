@@ -1,0 +1,27 @@
+title: Kieztag am 8. Oktober  in der Villa Lützow
+slug: 2022-09-28__kieztag-8-oktober-der-villa-luetzow
+author: FP
+date: '2022-09-28'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: Am Samstag, den 8. Oktober 2022 sind alle Nachbarn zum KiezTag und zur Familiennacht von 15 bis 21 Uhr im Kiez Zentrum Villa Lützow herzlich eingeladen! Gernemöchten wir mit Euch und Ihnen die Vielfalt im öffentlichen…
+source_url: https://www.mittendran.de/kieztag-8-oktober-der-villa-luetzow/
+wp_post_id: 23545
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

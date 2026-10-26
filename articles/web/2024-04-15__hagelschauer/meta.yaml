@@ -1,0 +1,21 @@
+title: Hagelschauer
+slug: 2024-04-15__hagelschauer
+author: eki
+date: '2024-04-15'
+issue: null
+rubrik: kiek ma!
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2024/04/2024-vor-dem-Hagelschauer-scaled.jpg) Vor dem Hagelschauer „Unser“ Blauregen vor dem Stadtteilcafé vom Nachbarschaftstreff…
+source_url: https://www.mittendran.de/hagelschauer/
+wp_post_id: 31372
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Nachbarschaftstreff
+  lat: 52.5035
+  lon: 13.3575
+  osm_id: null
+  status: confirmed
+  via: gazetteer

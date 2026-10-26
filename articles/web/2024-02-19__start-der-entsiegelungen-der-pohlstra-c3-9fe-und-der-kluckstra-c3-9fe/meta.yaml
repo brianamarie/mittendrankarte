@@ -1,0 +1,39 @@
+title: Start der Entsiegelungen an der Pohlstraße und der Kluckstraße
+slug: 2024-02-19__start-der-entsiegelungen-der-pohlstra-c3-9fe-und-der-kluckstra-c3-9fe
+author: Redaktion
+date: '2024-02-19'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: 'Die Bezirksstadträtin für Ordnung, Umwelt, Natur, Straßen und Grünflächen, Dr. Almut Neumann, informiert: Im März 2024 beginnen die Entsiegelungsarbeiten an der Pohlstraße und der Kluckstraße zwischen der Potsdamer und…'
+source_url: https://www.mittendran.de/start-der-entsiegelungen-der-pohlstra%c3%9fe-und-der-kluckstra%c3%9fe/
+wp_post_id: 30677
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße
+  lat: 52.502
+  lon: 13.362
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gehweg
+  lat: 50.284553
+  lon: 7.612541
+  osm_id: null
+  status: auto
+  via: regex

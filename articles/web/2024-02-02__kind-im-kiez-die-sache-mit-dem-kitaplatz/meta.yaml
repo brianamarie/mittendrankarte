@@ -1,0 +1,87 @@
+title: Kind im Kiez – die Sache mit dem Kitaplatz
+slug: 2024-02-02__kind-im-kiez-die-sache-mit-dem-kitaplatz
+author: Redaktion
+date: '2024-02-02'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: []
+description: Ein Beitrag von Familie Hobpenz Jede:r, der/die einmal mit Eltern von Kleinkindern gesprochen hat, weiß, dass die Kita-Platz-Suche hier in Berlin – wie auch in vielen anderen Gegenden – eine besondere Herausforderung…
+source_url: https://www.mittendran.de/kind-im-kiez-die-sache-mit-dem-kitaplatz/
+wp_post_id: 30508
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.5043
+  lon: 13.3535
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Pohlstraße 60
+  lat: 52.501288
+  lon: 13.362621
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kluckstraße
+  lat: 52.502
+  lon: 13.362
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Flottwellstraße 44
+  lat: 52.502725
+  lon: 13.372483
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kitaplatz
+  lat: 52.492303
+  lon: 13.376861
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kita-Platz
+  lat: 52.54321
+  lon: 13.346664
+  osm_id: null
+  status: auto
+  via: regex
+- name: Wartelistenplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: SonnenscheinPohlstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: LützowplatzLützowplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Aflottwellstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: BahnhofLützowstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

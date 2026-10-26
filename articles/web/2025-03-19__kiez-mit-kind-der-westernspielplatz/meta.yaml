@@ -1,0 +1,31 @@
+title: 'Kiez mit Kind: We did not shoot a Sheriff – der Westernspielplatz'
+slug: 2025-03-19__kiez-mit-kind-der-westernspielplatz
+author: Hobpenz
+date: '2025-03-19'
+issue: null
+rubrik: Kiez mit Kind
+about_years: []
+description: YEEEEEHA und Howdy, ihr Greenhörner! Wem der Gleisdreieckpark und der Tiergarten nicht wild genug sind, kann auf dem Westernspielplatz in den Wilden Westen eintauchen – samt Goldmine, Planwägen und Steckbriefen von…
+source_url: https://www.mittendran.de/kiez-mit-kind-der-westernspielplatz/
+wp_post_id: 33134
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bülowstraße
+  lat: 52.497586
+  lon: 13.363221
+  osm_id: null
+  status: confirmed
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

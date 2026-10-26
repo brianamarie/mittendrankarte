@@ -1,0 +1,40 @@
+title: 'Spaziergang in die Vergangenheit (18): Die Begas-Familie am Karlsbad (Teil
+  1)'
+slug: 2024-09-16__spaziergang-die-vergangenheit-18-die-begas-familie-karlsbad-teil-1
+author: Paul Enck
+date: '2024-09-16'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1794, 1799, 1800, 1825, 1826, 1827, 1828, 1830, 1831, 1832, 1833, 1834, 1836, 1839, 1840, 1842, 1845, 1847, 1850, 1851, 1853, 1854, 1855, 1856, 1857, 1858, 1860, 1865, 1866, 1869, 1870, 1871, 1872, 1873, 1874, 1882, 1883, 1885, 1888, 1889, 1891, 1893, 1895, 1897, 1899, 1911, 1916, 1937, 1968, 2011]
+description: Heute machen wir einen Spaziergang durch das ganze Viertel und besuchen die verschiedenen Mitglieder der Künstlerfamilie Begas, die hier gewohnt und gearbeitet haben. Da es eine große Familie war, wird es auch ein…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-18-die-begas-familie-karlsbad-teil-1/
+wp_post_id: 33585
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Matthäikirchstraße
+  lat: 52.330256
+  lon: 9.778127
+  osm_id: null
+  status: auto
+  via: regex
+- name: Privatstraße
+  lat: 52.476713
+  lon: 13.123598
+  osm_id: null
+  status: auto
+  via: regex
+- name: Hildebrandstraße
+  lat: 52.508304
+  lon: 13.359422
+  osm_id: null
+  status: confirmed
+  via: regex

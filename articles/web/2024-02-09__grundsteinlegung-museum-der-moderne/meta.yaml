@@ -1,0 +1,27 @@
+title: Grundsteinlegung am Museum der Moderne
+slug: 2024-02-09__grundsteinlegung-museum-der-moderne
+author: Redaktion
+date: '2024-02-09'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: (https://www.mittendran.de/wp-content/uploads/2024/02/P1130894-scaled.jpg) So sah es auf der Baustelle noch vor ca. 1 Jahr aus (Foto:eki) „Auf Deutschlands aktuell teuerster Kulturbaustelle wird an diesem Freitag um…
+source_url: https://www.mittendran.de/grundsteinlegung-museum-der-moderne/
+wp_post_id: 30552
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kulturforum
+  lat: 52.5085
+  lon: 13.3675
+  osm_id: null
+  status: confirmed
+  via: gazetteer

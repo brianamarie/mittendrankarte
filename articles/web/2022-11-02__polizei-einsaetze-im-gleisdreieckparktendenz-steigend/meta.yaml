@@ -1,0 +1,63 @@
+title: Polizei-Einsätze im GleisdreieckparkTendenz steigend
+slug: 2022-11-02__polizei-einsaetze-im-gleisdreieckparktendenz-steigend
+author: Redaktion
+date: '2022-11-02'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Am 1. November tagte das Stadtteil-Forum Tiergarten Süd. Hauptthema war der Gleisdreieckpark. Wilm Raubold stellte mit einer gelungenen Powerpoint-Präsentation, die wir auszugsweise wiedergeben dürfen, die Geschichte…
+source_url: https://www.mittendran.de/polizei-einsaetze-im-gleisdreieckparktendenz-steigend/
+wp_post_id: 24133
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Ladestraße
+  lat: 52.457964
+  lon: 13.584872
+  osm_id: null
+  status: auto
+  via: regex
+- name: Hellweg
+  lat: 52.506065
+  lon: 13.566258
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kluckstraße
+  lat: 52.503281
+  lon: 13.361433
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Durchgang-zur-kurfuerstenstraße
+  lat: 52.447591
+  lon: 13.374372
+  osm_id: null
+  status: auto
+  via: regex

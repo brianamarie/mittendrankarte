@@ -1,0 +1,21 @@
+title: '2000 Jahre deutsche Geschichte: zwölf Epochen in zwölf Räumen'
+slug: 2024-07-25__2000-jahre-deutsche-geschichte-zwoelf-epochen-zwoelf-raeumen
+author: eki
+date: '2024-07-25'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1920, 2000, 2003]
+description: Das Deutschlandmuseum wirbt damit, „einen schnellen Überblick über die Geschichte Deutschlands zu bieten, gedacht als Einstieg in die Geschichte für Menschen, die sich bislang wenig mit der Thematik der Geschichte…
+source_url: https://www.mittendran.de/2000-jahre-deutsche-geschichte-zwoelf-epochen-zwoelf-raeumen/
+wp_post_id: 33013
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Deutschlandmuseum
+  lat: 52.5105
+  lon: 13.3765
+  osm_id: null
+  status: confirmed
+  via: gazetteer

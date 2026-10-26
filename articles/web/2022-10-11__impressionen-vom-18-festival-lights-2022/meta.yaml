@@ -1,0 +1,33 @@
+title: Impressionen vom  18. Festival of Lights 2022
+slug: 2022-10-11__impressionen-vom-18-festival-lights-2022
+author: APZ
+date: '2022-10-11'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Das 18. Festival of Lights trägt den Titel „Vision of our Future“ und zeigt noch bis zum 16. Oktober 2022 (täglich 19 bis 23 Uhr) zahlreiche, oftmals bewegte Zukunftsbilder. Der Frieden in der Ukraine ist dabei ein…
+source_url: https://www.mittendran.de/impressionen-vom-18-festival-lights-2022/
+wp_post_id: 23814
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Fontaneplatz
+  lat: 52.508194
+  lon: 13.375272
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Oberbaumbrücke
+  lat: 52.501729
+  lon: 13.445731
+  osm_id: null
+  status: auto
+  via: regex

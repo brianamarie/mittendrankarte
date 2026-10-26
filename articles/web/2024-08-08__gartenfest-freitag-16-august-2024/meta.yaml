@@ -1,0 +1,27 @@
+title: Gartenfest am Freitag, 16. August 2024
+slug: 2024-08-08__gartenfest-freitag-16-august-2024
+author: FP
+date: '2024-08-08'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: Am Freitag, den 16.8., in der Zeit von 16.30 – 18.00 Uhr möchten wir in einem geselligen Treffen einen Sommertag in der Stadtnatur genießen und laden herzlich dazu ein. Mit Musik, Kreativangeboten für Groß und Klein…
+source_url: https://www.mittendran.de/gartenfest-freitag-16-august-2024/
+wp_post_id: 33255
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

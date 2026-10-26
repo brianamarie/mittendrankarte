@@ -1,0 +1,27 @@
+title: Sommer! Ferien! Workshops!
+slug: 2022-06-28__sommer-ferien-workshops
+author: Redaktion
+date: '2022-06-28'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: []
+description: 'Kostenlose Sommerferienangebote 2022 der Museen Tempelhof-Schöneberg für Kinder und Jugendliche Das Bezirksamt Tempelhof-Schöneberg informiert: In den Ferienworkshops der Museen Tempelhof-Schöneberg reisen wir in die…'
+source_url: https://www.mittendran.de/sommer-ferien-workshops/
+wp_post_id: 22681
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Steinstraße
+  lat: 52.387864
+  lon: 13.398511
+  osm_id: null
+  status: auto
+  via: regex
+- name: Hauptstraße
+  lat: 52.482649
+  lon: 13.34975
+  osm_id: null
+  status: auto
+  via: regex

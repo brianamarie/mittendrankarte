@@ -1,0 +1,39 @@
+title: Soundatelier PumpeInteraktive Abschlusspräsentation
+slug: 2023-03-18__soundatelier-pumpeinteraktive-abschlusspraesentation
+author: Redaktion
+date: '2023-03-18'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: []
+description: Roberta Busechian und Zindi Hausmann laden ein zur Abschlusspräsenation von dem „SOUNDATELIER PUMPE“ Seit letztem Jahr konnten Kinder und Heranwachsende mit der Sound Art Künstlerin Roberta Busechian dank des…
+source_url: https://www.mittendran.de/soundatelier-pumpeinteraktive-abschlusspraesentation/
+wp_post_id: 26058
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowstraße 42
+  lat: 52.504654
+  lon: 13.357975
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kulturforum
+  lat: 52.5085
+  lon: 13.3675
+  osm_id: null
+  status: confirmed
+  via: gazetteer

@@ -1,0 +1,51 @@
+title: Begrünung der Pohlstraße und fünf Fahrradstraßen
+slug: 2024-04-23__begruenung-der-pohlstrasse-und-5-fahrradstrassen
+author: Redaktion
+date: '2024-04-23'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Gastbeitrag von Heidrun Abraham Vor sieben Wochen stellte das Straßen- und Grünflächenamt grundsätzliches zu den fünf geplanten Fahrradstraßen im Lützow-Viertel vor und holte beim Stadtteil-Forum die Meinungen der…
+source_url: https://www.mittendran.de/begruenung-der-pohlstrasse-und-5-fahrradstrassen/
+wp_post_id: 31520
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße
+  lat: 52.502
+  lon: 13.362
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Sackgasse
+  lat: 52.515572
+  lon: 13.517855
+  osm_id: null
+  status: auto
+  via: regex
+- name: Gehweg
+  lat: 50.284553
+  lon: 7.612541
+  osm_id: null
+  status: auto
+  via: regex
+- name: Entsiegelung-Pohlstraße
+  lat: 52.501034
+  lon: 13.36284
+  osm_id: null
+  status: confirmed
+  via: regex

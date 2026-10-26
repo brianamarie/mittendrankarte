@@ -1,0 +1,32 @@
+title: 'Noch einmal: Wo war die Körner Realschule?'
+slug: 2026-03-14__noch-einmal-wo-war-die-koerner-realschule
+author: Paul Enck
+date: '2026-03-14'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1870, 1910, 1915, 1970]
+description: 'Eigentlich hatten wir die Frage längst beantwortet (mittendran am 18. Januar 2025 (https://www.mittendran.de/wo-war-die-koerner-realschule/)): Die Schule lag hinter den Häusern an der heutigen Pohlstraße 20, damals die…'
+source_url: https://www.mittendran.de/noch-einmal-wo-war-die-koerner-realschule/
+wp_post_id: 40948
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße 20
+  lat: 52.500515
+  lon: 13.368132
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße
+  lat: 52.501383
+  lon: 13.358361
+  osm_id: null
+  status: confirmed

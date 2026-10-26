@@ -1,0 +1,25 @@
+title: Älter werden im Stülerkiez
+slug: 2024-12-17__aelter-werden-im-stuelerkiez
+author: Redaktion
+date: '2024-12-17'
+issue: null
+rubrik: Bauen und Wohnen
+about_years: [2000]
+description: Stülerkiez? Da werden sich die meisten fragen, wo das denn sei. Gemeint ist das Gebiet zwischen Schillstraße / Klingelhöferstraße und der Budapester Straße, begrenzt im Süden von der Kurfürstenstraße und im Norden vom…
+source_url: https://www.mittendran.de/aelter-werden-im-stuelerkiez/
+wp_post_id: 34966
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Schillstraße
+  lat: 52.503303
+  lon: 13.3499
+  osm_id: null
+  status: confirmed

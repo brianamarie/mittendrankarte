@@ -1,0 +1,33 @@
+title: Jüdisches Gewerbe rund um die Potsdamerstrasse
+slug: 2022-11-08__juedisches-gewerbe-rund-um-die-potsdamerstrasse
+author: Redaktion
+date: '2022-11-08'
+issue: null
+rubrik: Miteinander
+about_years: [1933]
+description: 'In der Reihe „Jüdisches Leben und Widerstand in Tiergarten“ lädt die Initiative zu einer weiteren Veranstaltung ein: Donnerstag, 17.November 2022, 19 Uhr „Jüdisches Gewerbe rund um die Potsdamerstrasse“ Saal im…'
+source_url: https://www.mittendran.de/juedisches-gewerbe-rund-um-die-potsdamerstrasse/
+wp_post_id: 24210
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße
+  lat: 52.508675
+  lon: 13.370353
+  osm_id: null
+  status: confirmed
+  via: regex

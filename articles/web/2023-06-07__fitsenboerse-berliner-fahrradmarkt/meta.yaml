@@ -1,0 +1,21 @@
+title: Fietsenbörse – Berliner Fahrradmarkt
+slug: 2023-06-07__fitsenboerse-berliner-fahrradmarkt
+author: eki
+date: '2023-06-07'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: Auf der Fietsenbörse auf dem Winterfeldtplatz bieten Fahrradhändler, Privatpersonen und Tüftler aus ganz Deutschland ihre Waren an. Fietsenbörse Die Anzahl der angebotenen, gebrauchten Räder beträgt ca. 500. Wer ein…
+source_url: https://www.mittendran.de/fitsenboerse-berliner-fahrradmarkt/
+wp_post_id: 27285
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Winterfeldtplatz
+  lat: 52.496529
+  lon: 13.354365
+  osm_id: null
+  status: confirmed
+  via: regex

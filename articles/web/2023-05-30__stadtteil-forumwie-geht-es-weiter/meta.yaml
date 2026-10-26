@@ -1,0 +1,33 @@
+title: Stadtteil-ForumWie geht es weiter?
+slug: 2023-05-30__stadtteil-forumwie-geht-es-weiter
+author: null
+date: '2023-05-30'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [2005]
+description: Dienstag, den 6. Juni 2023, um 18h00 tagt das Stadtteil-Forum wieder in der Villa Lützow, Raum 3 im 2.OG, Lützowstraße 28. Es geht unter anderem um die wichtige Frage, wie es weitergehen soll, wenn sich immer weniger…
+source_url: https://www.mittendran.de/stadtteil-forumwie-geht-es-weiter/
+wp_post_id: 27407
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer

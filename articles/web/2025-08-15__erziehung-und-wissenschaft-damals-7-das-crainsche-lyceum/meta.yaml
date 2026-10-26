@@ -1,0 +1,38 @@
+title: 'Erziehung und Wissenschaft damals (7): Das Crain´sche Lyceum'
+slug: 2025-08-15__erziehung-und-wissenschaft-damals-7-das-crainsche-lyceum
+author: Paul Enck
+date: '2025-08-15'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1787, 1803, 1809, 1811, 1814, 1823, 1824, 1826, 1829, 1830, 1831, 1832, 1833, 1836, 1838, 1839, 1840, 1842, 1845, 1848, 1860, 1862, 1863, 1864, 1865, 1867, 1868, 1869, 1873, 1874, 1875, 1876, 1879, 1881, 1882, 1883, 1884, 1885, 1886, 1887, 1888, 1890, 1893, 1894, 1897, 1899, 1901, 1902, 1904, 1914, 1915, 1918, 1920, 1921, 1927, 1929, 1930, 1931]
+description: Wir hatten neulich berichtet, dass Leni Riefenstahl bis zur mittleren Reife in eine Privatschule in Tiergarten ging (mittendran vom 28. Juni 2025…
+source_url: https://www.mittendran.de/erziehung-und-wissenschaft-damals-7-das-crainsche-lyceum/
+wp_post_id: 38466
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kluckstraße 3
+  lat: 52.504889
+  lon: 13.362846
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Landgrafenstraße 3
+  lat: 52.503985
+  lon: 13.348602
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504268
+  lon: 13.362851
+  osm_id: null
+  status: confirmed

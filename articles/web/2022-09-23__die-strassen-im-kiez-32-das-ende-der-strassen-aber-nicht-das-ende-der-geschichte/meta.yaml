@@ -1,0 +1,27 @@
+title: 'Die Straßen im Kiez (32): Das Ende der Straßen, aber nicht das Ende  der Geschichten'
+slug: 2022-09-23__die-strassen-im-kiez-32-das-ende-der-strassen-aber-nicht-das-ende-der-geschichte
+author: FP
+date: '2022-09-23'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1800, 1837, 1842, 1864, 1867, 1895, 1950]
+description: 'Gastbeitrag von Prof. Dr. Paul Enck (https://www.mittendran.de/wp-content/uploads/2022/09/Geschichte-32-Bild-1-scaled.jpeg) Bild 1: Ein altes Straßenschild der Demminer Straße im Hinterhaus des Gebäudes Potsdamer…'
+source_url: https://www.mittendran.de/die-strassen-im-kiez-32-das-ende-der-strassen-aber-nicht-das-ende-der-geschichten/
+wp_post_id: 23591
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße 60
+  lat: 52.505267
+  lon: 13.367191
+  osm_id: null
+  status: confirmed
+  via: address

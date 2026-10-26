@@ -1,0 +1,27 @@
+title: Medizingeschichte im Lützow-Viertel (7.1)Die Elisabeth-Klinik im Nationalsozialismus
+slug: 2023-05-04__medizingeschichte-im-luetzow-viertel-8-1die-elisabeth-klinik-im-nationalsozialis
+author: Redaktion
+date: '2023-05-04'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1761, 1778, 1806, 1826, 1837, 1838, 1843, 1865, 1869, 1871, 1877, 1880, 1881, 1883, 1888, 1894, 1895, 1899, 1905, 1906, 1908, 1914, 1915, 1918, 1920, 1922, 1923, 1932, 1933, 1934, 1936, 1937, 1938, 1939, 1940, 1943, 1944, 1945, 1948, 1959, 1962, 1967, 1968, 1979, 1989, 2012]
+description: (ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com/)) Zum Abschluss der Serie von Berichten zur Medizingeschichte im Lützow-Viertel kehren wir noch mal an das Elisabeth-Krankenhaus…
+source_url: https://www.mittendran.de/medizingeschichte-im-luetzow-viertel-8-1die-elisabeth-klinik-im-nationalsozialismus/
+wp_post_id: 27090
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Elisabeth-krankenhaus-der-luetzowstraße
+  lat: 52.527922
+  lon: 13.508992
+  osm_id: null
+  status: auto
+  via: regex
+- name: Mitläufer
+  lat: 31.081734
+  lon: 31.544838
+  osm_id: null
+  status: auto
+  via: regex

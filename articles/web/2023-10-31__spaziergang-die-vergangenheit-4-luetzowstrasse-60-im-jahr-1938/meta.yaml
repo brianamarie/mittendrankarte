@@ -1,0 +1,33 @@
+title: 'Spaziergang in die Vergangenheit (4):  Lützowstraße 60 im Jahr 1938'
+slug: 2023-10-31__spaziergang-die-vergangenheit-4-luetzowstrasse-60-im-jahr-1938
+author: Paul Enck
+date: '2023-10-31'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1919, 1938, 1941, 1943, 1945, 1947]
+description: 'Im Vergleich zur Bildersuche und der Klärung von Bildrechten ist die Recherche von Familiengeschichten oder Baugeschichten oft schneller, so auch hier: Die Recherche zur jüdischen Familie Fürstenberg am Lützowplatz (1)…'
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-4-luetzowstrasse-60-im-jahr-1938/
+wp_post_id: 29272
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz 5
+  lat: 52.504735
+  lon: 13.353672
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Lützowstraße 60
+  lat: 52.504959
+  lon: 13.354986
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Das-haus-fuerstenberg-am-luetzowplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

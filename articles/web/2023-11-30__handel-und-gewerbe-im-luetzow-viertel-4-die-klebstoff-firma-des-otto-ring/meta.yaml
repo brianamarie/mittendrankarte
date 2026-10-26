@@ -1,0 +1,63 @@
+title: 'Handel und Gewerbe im Lützow-Viertel (5): Die Klebstoff-Firma des Otto Ring'
+slug: 2023-11-30__handel-und-gewerbe-im-luetzow-viertel-4-die-klebstoff-firma-des-otto-ring
+author: Paul Enck
+date: '2023-11-30'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1775, 1808, 1829, 1851, 1852, 1853, 1854, 1857, 1859, 1865, 1874, 1878, 1879, 1880, 1882, 1884, 1885, 1886, 1887, 1888, 1889, 1894, 1895, 1896, 1900, 1904, 1913, 1914, 1916, 1918, 1920, 1922, 1923, 1926, 1927, 1930, 1932, 1933, 1937, 1941, 1945, 1948, 1952, 1958, 1961, 1962, 1971, 1976, 1977, 1979, 1982, 2000, 2010, 2013]
+description: 'Schneller geht sozialer Aufstieg kaum: Der Großvater noch ein „Arbeitsmann“, d.h. ein Hilfsarbeiter ohne Berufsausbildung in Stettin, dessen Sohn erst Kanzleidiener, dann Kanzlei-Sekretär bei der Staatsregierung in…'
+source_url: https://www.mittendran.de/handel-und-gewerbe-im-luetzow-viertel-4-die-klebstoff-firma-des-otto-ring/
+wp_post_id: 29778
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 32
+  lat: 52.50014
+  lon: 13.362277
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Bülowstraße 71
+  lat: 52.497346
+  lon: 13.366346
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Blumenthalstraße
+  lat: 52.437645
+  lon: 13.239034
+  osm_id: null
+  status: auto
+  via: regex
+- name: Durchweg
+  lat: 53.592444
+  lon: 9.569329
+  osm_id: null
+  status: auto
+  via: regex
+- name: Fregestraße
+  lat: 52.472992
+  lon: 13.33741
+  osm_id: null
+  status: auto
+  via: regex
+- name: Hauptstraße
+  lat: 52.489303
+  lon: 13.359376
+  osm_id: null
+  status: auto
+  via: regex
+- name: Roonstraße
+  lat: 52.447121
+  lon: 13.311458
+  osm_id: null
+  status: auto
+  via: regex
+- name: Stindestraße
+  lat: 52.445891
+  lon: 13.337266
+  osm_id: null
+  status: auto
+  via: regex

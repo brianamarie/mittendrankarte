@@ -1,0 +1,27 @@
+title: Nigelnagelneue Parktafel – sogleich verschmiert!
+slug: 2023-01-13__nigelnagelneue-parktafel-sogleich-verschmiert
+author: APZ
+date: '2023-01-13'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1855, 1916]
+description: (https://www.mittendran.de/wp-content/uploads/2023/01/1CE3BE0E-7922-42E1-AD8B-567649C59100-rotated.jpeg) Diesen Januar wurden von der Grün Berlin GmbH neue Hinweistafeln für den Park am Gleisdreieck und den (neu so…
+source_url: https://www.mittendran.de/nigelnagelneue-parktafel-sogleich-verschmiert/
+wp_post_id: 25034
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Monumentenplatz
+  lat: 52.487454
+  lon: 13.372926
+  osm_id: null
+  status: auto
+  via: regex

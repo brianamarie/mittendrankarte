@@ -1,0 +1,45 @@
+title: Eindrücke vom 25-jährigem Jubiläum am Potsdamer Platz
+slug: 2023-09-16__eindruecke-vom-25-jaehrigem-jubilaeum-potsdamer-platz
+author: eki
+date: '2023-09-16'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: Um 19:00Uhr startet am Potsdamer Platz Festival noch eine geführte Tour durch das Areal. (https://www.mittendran.de/wp-content/uploads/2023/09/2023-Festival-am-Potsdamer-Platz-Foto-eki-6-scaled.jpg) „Festival am…
+source_url: https://www.mittendran.de/eindruecke-vom-25-jaehrigem-jubilaeum-potsdamer-platz/
+wp_post_id: 28879
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Festival-am-Potsdamer-Platz
+  lat: 52.507221
+  lon: 13.372119
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Marlene-Dietrich-Platz
+  lat: 52.507399
+  lon: 13.372438
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Baseballplatz
+  lat: 48.182362
+  lon: 11.543047
+  osm_id: null
+  status: auto
+  via: regex

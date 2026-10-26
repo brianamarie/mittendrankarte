@@ -1,0 +1,39 @@
+title: 'Flashback (1): Im Hause des Sozialverbands Deutschland (SoVD)'
+slug: 2024-06-09__flashback-1-im-hause-des-sozialverbands-deutschland-sovd
+author: Paul Enck
+date: '2024-06-09'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1882, 1929, 1958]
+description: Flashback nennt man eine plötzlich einsetzende Erinnerung an ein längst vergangenes Ereignis oder Bild beim Anblick eines aktuellen Ereignisses oder Bildes – das passiert vielen immer wieder mal und ist in der Regel…
+source_url: https://www.mittendran.de/flashback-1-im-hause-des-sozialverbands-deutschland-sovd/
+wp_post_id: 32219
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 131
+  lat: 52.501889
+  lon: 13.353615
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Die-straßen-im-kiez-kurfuerstenstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Straßen-im-kiez-korrektur-kurfuerstenstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Das-gebaeude-der-stiftung-warentest-luetzowplatz
+  lat: 52.504167
+  lon: 13.353313
+  osm_id: null
+  status: confirmed
+  via: regex

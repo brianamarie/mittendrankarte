@@ -1,0 +1,33 @@
+title: Sommerstraße in der Steinmetzstraße
+slug: 2023-10-13__sommerstrasse-der-steinmetzstrasse
+author: Redaktion
+date: '2023-10-13'
+issue: null
+rubrik: Miteinander
+about_years: []
+description: 'Ende April berichteten wir über die Eröffnung einer Sommerstraße (https://www.mittendran.de/jetzt-kann-der-sommer-kommen/) in der Steinmetzstraße. Heute erreichte uns ein Zwischenbericht der Initiative: „Der nördliche…'
+source_url: https://www.mittendran.de/sommerstrasse-der-steinmetzstrasse/
+wp_post_id: 29229
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Steinmetzstraße
+  lat: 52.4975
+  lon: 13.361
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Sommerstraße
+  lat: 52.571682
+  lon: 13.377278
+  osm_id: null
+  status: auto
+  via: regex

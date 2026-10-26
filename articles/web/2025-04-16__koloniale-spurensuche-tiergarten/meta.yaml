@@ -1,0 +1,38 @@
+title: Koloniale Spurensuche in Tiergarten
+slug: 2025-04-16__koloniale-spurensuche-tiergarten
+author: Marc-Thomas Bock
+date: '2025-04-16'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1884, 1902, 1905, 1907, 1910, 1911, 1913, 1914, 1918, 1933, 1947]
+description: Bei der Betrachtung der zahlreichen Verbrechen bis hin zum versuchten Völkermord (Deutsch-Südwestafrika) in der kurzen Kolonialepisode des deutschen Kaiserreiches (1884 bis 1918) findet man auch heute noch Spuren, die…
+source_url: https://www.mittendran.de/koloniale-spurensuche-tiergarten/
+wp_post_id: 35363
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Lützowstraße 89
+  lat: 52.503149
+  lon: 13.364373
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße 127
+  lat: 52.498277
+  lon: 13.362268
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Reichpietschufer 20
+  lat: 52.505695
+  lon: 13.371499
+  osm_id: null
+  status: confirmed
+  via: address

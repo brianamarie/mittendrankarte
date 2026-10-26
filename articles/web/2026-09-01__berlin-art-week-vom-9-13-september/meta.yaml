@@ -1,0 +1,25 @@
+title: Berlin Art Week vom 9.-13. September
+slug: 2026-09-01__berlin-art-week-vom-9-13-september
+author: Redaktion
+date: '2026-09-01'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Der Berlin Art Week Garten ist in diesem Jahr zu Gast am Kulturforum mit der Neuen Nationalgalerie und der Gemäldegalerie! Zum 15-jährigen Jubiläum der Berlin Art Week wird das Areal zwischen Potsdamer Platz…
+source_url: https://www.mittendran.de/berlin-art-week-vom-9-13-september/
+wp_post_id: 42529
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Kulturforum
+  lat: 52.508513
+  lon: 13.364749
+  osm_id: null
+  status: confirmed

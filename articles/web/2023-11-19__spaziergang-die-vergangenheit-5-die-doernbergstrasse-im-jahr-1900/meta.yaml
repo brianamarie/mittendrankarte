@@ -1,0 +1,51 @@
+title: 'Spaziergang in die Vergangenheit (5): Die Dörnbergstraße um das Jahr 1900'
+slug: 2023-11-19__spaziergang-die-vergangenheit-5-die-doernbergstrasse-im-jahr-1900
+author: Paul Enck
+date: '2023-11-19'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1784, 1824, 1850, 1856, 1862, 1880, 1888, 1900, 1905, 1943]
+description: Wie den Blumeshof, den wir schon besucht haben (mittendran vom 15. Juli 2021 (https://www.mittendran.de/strassen-im-kiez-die-es-nicht-mehr-gibt-blumeshof/)), so gibt es auch die Dörnbergstraße nicht mehr, sie wurde…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-5-die-doernbergstrasse-im-jahr-1900/
+wp_post_id: 29584
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Dörnbergstraße
+  lat: 51.178491
+  lon: 6.876376
+  osm_id: null
+  status: auto
+  via: regex
+- name: Straßen-im-kiez-die-es-nicht-mehr-gibt-doernbergstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Lützowbrücke
+  lat: 52.506705
+  lon: 13.357428
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Lützowufer
+  lat: 52.505525
+  lon: 13.353321
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Luetzowufer
+  lat: 52.505525
+  lon: 13.353321
+  osm_id: null
+  status: confirmed
+  via: regex

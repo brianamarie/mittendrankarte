@@ -1,0 +1,21 @@
+title: Frühlingsspaziergang
+slug: 2024-01-30__fruehlingsvorboten
+author: eki
+date: '2024-01-30'
+issue: null
+rubrik: kiek ma!
+about_years: []
+description: Die Vorboten des Frühlings schauen schon aus der Erde. Die allerersten Schneeglöckchen wagen sich hervor und die gelben Blüten des Winterginsters leuchten…
+source_url: https://www.mittendran.de/fruehlingsvorboten/
+wp_post_id: 30427
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Landwehrkanal
+  lat: 52.5045
+  lon: 13.365
+  osm_id: null
+  status: confirmed
+  via: gazetteer

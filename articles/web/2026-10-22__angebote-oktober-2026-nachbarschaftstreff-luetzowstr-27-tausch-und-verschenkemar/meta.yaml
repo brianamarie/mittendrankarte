@@ -1,0 +1,34 @@
+title: Angebote Oktober 2026 – Nachbarschaftstreff Lützowstr. 27 (Tausch- und Verschenkemarkt
+  und Naturerkundungen)
+slug: 2026-10-22__angebote-oktober-2026-nachbarschaftstreff-luetzowstr-27-tausch-und-verschenkemar
+author: null
+date: '2026-10-22'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Liebe Aktive und Interessierte, ich möchte Sie / Euch auf diese Angebote hinweisen. Montag 26. Oktober 2026, 12.30 bis 17.00 Uhr, Außenfläche des NBT Lützowstr. 27 Tausch- und Verschenkemarkt (sowie Kleidertausch)…
+source_url: https://www.mittendran.de/angebote-oktober-2026-nachbarschaftstreff-luetzowstr-27-tausch-und-verschenkemarkt-und-naturerkundungen/
+wp_post_id: 43400
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Stülerstraße
+  lat: 52.509509
+  lon: 13.351148
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Corneliusbrücke
+  lat: 52.507291
+  lon: 13.348106
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Tunnelstraße
+  lat: 52.490895
+  lon: 13.480164
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,50 @@
+title: Straßenbahn am Potsdamer Platz
+slug: 2026-05-20__strassenbahn-potsdamer-platz
+author: Redaktion
+date: '2026-05-20'
+issue: '51'
+rubrik: Kiez-Geschichte
+about_years: [1929, 1949, 1953, 1954, 1956, 1961, 1962, 1964]
+description: Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach Spandau verschlagen…
+source_url: https://www.mittendran.de/strassenbahn-potsdamer-platz/
+wp_post_id: 41930
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.504761
+  lon: 13.352547
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Lützowstraße
+  lat: 52.504008
+  lon: 13.360699
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.502822
+  lon: 13.365443
+  osm_id: null
+  status: confirmed
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Flottwellstraße
+  lat: 52.501731
+  lon: 13.37132
+  osm_id: null
+  status: confirmed
+- name: Steinmetzstraße
+  lat: 52.499397
+  lon: 13.36456
+  osm_id: null
+  status: confirmed

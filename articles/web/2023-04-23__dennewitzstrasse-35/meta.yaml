@@ -1,0 +1,39 @@
+title: Wo ist die  Dennewitzstraße 35 ?
+slug: 2023-04-23__dennewitzstrasse-35
+author: Redaktion
+date: '2023-04-23'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1962, 1994, 2011]
+description: Wie den Täterort KORI markieren ? (https://gleisdreieck-blog.de/2023/04/23/wie-den-taeterort-kori-markieren/) (EIN BEITRAG VON MATHIAS BAUER, GLEISDREIECKBLOG (https://gleisdreieck-blog.de/)) In den nächsten Jahren…
+source_url: https://www.mittendran.de/dennewitzstrasse-35/
+wp_post_id: 26841
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bülowstraße
+  lat: 52.4985
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Dennewitzstraße 35
+  lat: 52.499378
+  lon: 13.370285
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer

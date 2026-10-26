@@ -1,0 +1,26 @@
+title: 'Aus Josis Fotoalbum (1): Im Begaswinkel'
+slug: 2026-07-31__aus-josis-fotoalbum-1-im-begaswinkel
+author: null
+date: '2026-07-31'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1880, 1895, 1929, 1940, 1945, 1957, 1960, 1962, 1976, 2015]
+description: Wir hatten vor einigen Tagen über das im Müll gefundene Fotoalbum mit Bildern rund um die Genthiner Straße aus den 60er Jahren berichtet (mittendran vom 2. Juli 2026 (https://www.mittendran.de/wer-erinnert-sich-josi/))…
+source_url: https://www.mittendran.de/aus-josis-fotoalbum-1-im-begaswinkel/
+wp_post_id: 42380
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+- name: Genthiner Straße 30
+  lat: 52.503137
+  lon: 13.358969
+  osm_id: null
+  status: confirmed
+  via: address

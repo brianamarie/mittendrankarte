@@ -1,0 +1,45 @@
+title: Stolpersteine zum Gedenken an die Familie Kubatzky
+slug: 2024-06-24__stolpersteine-zum-gedenken-die-familie-kubatzky
+author: FP
+date: '2024-06-24'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1875, 1941]
+description: '(https://www.mittendran.de/wp-content/uploads/2024/06/Stolpersteine-Luetzowstrasse-87-Ausschnitt.jpg) Stolpersteine vor dem Haus Lützowstraße 87 Foto: EKI Am Montag, 24. Juni, wurden in mehreren Berliner Bezirken…'
+source_url: https://www.mittendran.de/stolpersteine-zum-gedenken-die-familie-kubatzky/
+wp_post_id: 32564
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 87
+  lat: 52.502994
+  lon: 13.363747
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße 64
+  lat: 52.501422
+  lon: 13.36208
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Stolpersteine-Luetzowstraße
+  lat: 52.503077
+  lon: 13.308473
+  osm_id: null
+  status: auto
+  via: regex
+- name: Stolpersteine-Pohlstraße
+  lat: 52.503077
+  lon: 13.308473
+  osm_id: null
+  status: auto
+  via: regex
+- name: Luetzowstraße
+  lat: 52.504792
+  lon: 13.356545
+  osm_id: null
+  status: confirmed
+  via: regex

@@ -1,0 +1,69 @@
+title: Die Familie Fürstenberg (Teil 1)
+slug: 2024-01-20__das-haus-fuerstenberg-luetzowplatz-teil-1
+author: Paul Enck
+date: '2024-01-20'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1779, 1809, 1810, 1820, 1824, 1837, 1841, 1844, 1858, 1860, 1861, 1862, 1865, 1868, 1871, 1873, 1879, 1880, 1883, 1884, 1886, 1888, 1889, 1890, 1891, 1894, 1896, 1898, 1899, 1900, 1901, 1904, 1905, 1906, 1908, 1909, 1911, 1913, 1914, 1916, 1920, 1924, 1925, 1928, 1930, 1931, 1932, 1933, 1935, 1938, 1941, 1942, 1944, 1945, 1991]
+description: Diese Geschichte ist entstanden, weil der Trägerverein des „Haus am Lützowplatz“ (HaL) sein 60-jähriges Bestehen feiert, und weil anlässlich dieses Jubiläums die Geschichte des Vorbesitzers des Hauses Lützowplatz 9…
+source_url: https://www.mittendran.de/das-haus-fuerstenberg-luetzowplatz-teil-1/
+wp_post_id: 30261
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz 5
+  lat: 52.504735
+  lon: 13.353672
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Lützowstraße 60
+  lat: 52.504959
+  lon: 13.354986
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Haus am Lützowplatz
+  lat: 52.5045
+  lon: 13.3528
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Das-haus-fuerstenberg-am-luetzowplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Leipzigerstraße
+  lat: 52.510161
+  lon: 13.386734
+  osm_id: null
+  status: auto
+  via: regex
+- name: Wallstraße
+  lat: 52.511289
+  lon: 13.404189
+  osm_id: null
+  status: auto
+  via: regex
+- name: Jerusalemstraße
+  lat: 51.371243
+  lon: 6.510606
+  osm_id: null
+  status: auto
+  via: regex
+- name: Die-straßen-im-kiez-luetzowplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: BCtzowplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,27 @@
+title: Die Pohlstraße wurde wieder zur Spielstraße
+slug: 2024-09-22__die-pohlstrasse-wurde-wieder-zur-spielstrasse
+author: eki
+date: '2024-09-22'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Heute, am freiwilligen autofreien Sonntag, verwandelte sich die Pohlstraße wieder in eine Spielstraße. Bei strahlendem Sonnenschein konnten die Kinder wieder einmal den Platz auf der Straße für sich erobern. Ab…
+source_url: https://www.mittendran.de/die-pohlstrasse-wurde-wieder-zur-spielstrasse/
+wp_post_id: 33794
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielstraße
+  lat: 49.137578
+  lon: 8.415617
+  osm_id: null
+  status: auto
+  via: regex

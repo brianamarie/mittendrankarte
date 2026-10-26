@@ -1,0 +1,28 @@
+title: 'Spaziergang in die Vergangenheit (18): Der Garten, das Sommerhaus und das
+  Grab von Oskar Begas (Teil 5)'
+slug: 2025-01-11__spaziergang-die-vergangenheitz-18-der-garten-das-sommerhaus-und-das-grab-von-osk
+author: Paul Enck
+date: '2025-01-11'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1789, 1828, 1829, 1833, 1854, 1856, 1861, 1866, 1869, 1871, 1872, 1883, 1886, 1895, 1910, 1921, 1936, 1937, 1938, 1988]
+description: In Ergänzung zu unseren Spaziergängen zu den Wohnsitzen der Mitglieder der Künstlerfamilie Begas Am Karlsbad (mittendran vom 16. September…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheitz-18-der-garten-das-sommerhaus-und-das-grab-von-oskar-begas/
+wp_post_id: 35099
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Karlsbad
+  lat: 52.5048
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Friedenstraße
+  lat: 52.528037
+  lon: 13.425019
+  osm_id: null
+  status: auto
+  via: regex

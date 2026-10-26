@@ -1,0 +1,33 @@
+title: Der Guide Michelin 2023 hat gesprochen.
+slug: 2023-04-15__der-guide-michelin-2023-hat-gesprochen
+author: eki
+date: '2023-04-15'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1900, 1964, 1966]
+description: Am 4. April 2023 sind in Karlsruhe die Gewinner der diesjährigen Michelin-Sterne bekannt gegeben worden. Mit den Sternen wird die Küchenleistung eines Restaurants ausgezeichnet. Für Tiergarten-Süd hat das Restaurant…
+source_url: https://www.mittendran.de/der-guide-michelin-2023-hat-gesprochen/
+wp_post_id: 26678
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz 3
+  lat: 52.510365
+  lon: 13.375331
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Lützowstraße 81
+  lat: 52.503524
+  lon: 13.362352
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße 3
+  lat: 52.509059
+  lon: 13.373848
+  osm_id: null
+  status: confirmed
+  via: address

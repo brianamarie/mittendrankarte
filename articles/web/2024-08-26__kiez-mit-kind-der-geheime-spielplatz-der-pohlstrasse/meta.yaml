@@ -1,0 +1,63 @@
+title: 'Kiez mit Kind:  Der “geheime“ Spielplatz in der Pohlstraße'
+slug: 2024-08-26__kiez-mit-kind-der-geheime-spielplatz-der-pohlstrasse
+author: Hobpenz
+date: '2024-08-26'
+issue: null
+rubrik: Kiez mit Kind
+about_years: []
+description: Wir radeln daran vorbei nach dem Einkauf, wir gehen daran vorbei nach einem Tag im Gleisdreieck-Park, wir schlendern daran vorbei nach dem Eiskauf auf einem Rundweg am Wochenende. Doch was ist das? Dort versteckt sich…
+source_url: https://www.mittendran.de/kiez-mit-kind-der-geheime-spielplatz-der-pohlstrasse/
+wp_post_id: 33084
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Flottwellstraße
+  lat: 52.5008
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielplatz
+  lat: 52.603364
+  lon: 13.361955
+  osm_id: null
+  status: auto
+  via: regex
+- name: Rundweg
+  lat: 52.503411
+  lon: 13.543498
+  osm_id: null
+  status: auto
+  via: regex
+- name: Käfig-Sportplatz
+  lat: 53.665897
+  lon: 10.149388
+  osm_id: null
+  status: auto
+  via: regex
+- name: Bewertung-Pohlstraße
+  lat: 52.424195
+  lon: 13.438742
+  osm_id: null
+  status: auto
+  via: regex

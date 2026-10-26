@@ -1,0 +1,39 @@
+title: Die Familie von Franz Ledermann (Teil 3)
+slug: 2023-01-12__die-familie-von-franz-ledermann-teil-3
+author: Redaktion
+date: '2023-01-12'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1809, 1852, 1862, 1870, 1871, 1872, 1877, 1878, 1879, 1881, 1885, 1889, 1898, 1899, 1900, 1901, 1902, 1905, 1907, 1908, 1910, 1911, 1912, 1913, 1914, 1918, 1921, 1922, 1933, 1939, 1958]
+description: Ein Beitrag aus der Serie „Jüdische Geschichte im Lützow-Viertel“ (4.3), von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com). In den ersten beiden Teilen dieser Geschichte der Familie Ledermann hat…
+source_url: https://www.mittendran.de/die-familie-von-franz-ledermann-teil-3/
+wp_post_id: 24976
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Zimmerstraße
+  lat: 52.508045
+  lon: 13.396178
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kochstraße
+  lat: 52.50711
+  lon: 13.396835
+  osm_id: null
+  status: auto
+  via: regex
+- name: Lessingstraße
+  lat: 52.519205
+  lon: 13.340117
+  osm_id: null
+  status: auto
+  via: regex
+- name: Hansaplatz
+  lat: 52.518008
+  lon: 13.342037
+  osm_id: null
+  status: auto
+  via: regex

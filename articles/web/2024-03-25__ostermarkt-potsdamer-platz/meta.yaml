@@ -1,0 +1,27 @@
+title: Ostermarkt am Potsdamer Platz
+slug: 2024-03-25__ostermarkt-potsdamer-platz
+author: Redaktion
+date: '2024-03-25'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: „Der große Ostermarkt mit allerlei Entertainment findet 2024 zum zweiten Mal auf dem Potsdamer Platz statt. Pure Frühlingsstimmung erhält Einzug am Potsdamer Platz. Für gute Stimmung sorgen Straßenmusiker:innen täglich…
+source_url: https://www.mittendran.de/ostermarkt-potsdamer-platz/
+wp_post_id: 31057
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Ostermarkt-am-potsdamer-platz
+  lat: 52.507221
+  lon: 13.372119
+  osm_id: null
+  status: confirmed
+  via: regex

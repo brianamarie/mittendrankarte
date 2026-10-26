@@ -1,0 +1,39 @@
+title: 'Jüdisches Leben im Lützow-Viertel (11): Hermann Heymann Hutfabrik (Teil 1)'
+slug: 2024-04-20__juedisches-leben-im-luetzow-viertel-11-hermann-heymann-hutfabrik-teil-1
+author: Paul Enck
+date: '2024-04-20'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1794, 1815, 1834, 1835, 1840, 1845, 1846, 1848, 1850, 1858, 1861, 1864, 1866, 1870, 1871, 1882, 1885, 1887, 1890, 1891, 1892, 1893, 1894, 1895, 1896, 1898, 1905, 1908, 1909, 1913, 1914, 1915, 1921, 1922, 1923, 1924, 1926, 1927, 1928, 1931, 1935, 1938, 1939, 1941, 1942, 1943, 1947, 1987, 1997]
+description: 'Aufmerksame Leser werden sich erinnern, dass wir einen Artikel zur „Hermann Heymann Hutfabrik“ in mitteNdran schon einmal hatten: Im Dezember 2022 und im Januar 2023 hatte Bethan Griffiths im Rahmen einer Serie von…'
+source_url: https://www.mittendran.de/juedisches-leben-im-luetzow-viertel-11-hermann-heymann-hutfabrik-teil-1/
+wp_post_id: 31350
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 61
+  lat: 52.504326
+  lon: 13.367251
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schlegelstraße
+  lat: 52.530542
+  lon: 13.388068
+  osm_id: null
+  status: auto
+  via: regex
+- name: Winterfeldstraße
+  lat: 51.516814
+  lon: 6.757507
+  osm_id: null
+  status: auto
+  via: regex
+- name: Genthiner Straße 13d
+  lat: 52.50469
+  lon: 13.35987
+  osm_id: null
+  status: confirmed
+  via: address

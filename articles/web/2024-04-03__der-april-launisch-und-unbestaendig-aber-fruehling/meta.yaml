@@ -1,0 +1,27 @@
+title: Der April – launisch und unbeständig – aber Frühling!
+slug: 2024-04-03__der-april-launisch-und-unbestaendig-aber-fruehling
+author: KA
+date: '2024-04-03'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: '(https://www.mittendran.de/wp/wp-admin/media-upload.php?post_id=30139&type=image&TB_iframe=1)Termine April 2024 Schwules Museum Lützowstraße 73, 10785 Berlin Veranstaltungen: 05.04., 12-17.30 Uhr. Creating Our Own…'
+source_url: https://www.mittendran.de/der-april-launisch-und-unbestaendig-aber-fruehling/
+wp_post_id: 31245
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 73
+  lat: 52.504251
+  lon: 13.358219
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schwules Museum
+  lat: 52.5048
+  lon: 13.3588
+  osm_id: null
+  status: confirmed
+  via: gazetteer

@@ -1,0 +1,27 @@
+title: Presseschau des Stadtteil-Forums Tiergarten Süd
+slug: 2026-10-09__presseschau-des-stadtteil-forums-tiergarten-sued-11
+author: null
+date: '2026-10-09'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1896, 1903, 1914]
+description: Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/ (https://forum-tgs.de/)). In den letzten 7 Tagen sind uns diese…
+source_url: https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-11/
+wp_post_id: 43261
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz 15
+  lat: 52.50666
+  lon: 13.378369
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Lützowstraße 89-90
+  lat: 52.503149
+  lon: 13.364373
+  osm_id: null
+  status: confirmed
+  via: address

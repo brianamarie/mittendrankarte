@@ -1,0 +1,39 @@
+title: 'Jüdische Apotheker und Ärzte (1): Lützow-Apotheke (Teil 3)'
+slug: 2025-06-22__juedische-apotheker-und-aerzte-1-apotheker-lewy-luetzow-apotheke-teil-3
+author: Paul Enck
+date: '2025-06-22'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1875, 1878, 1899, 1904, 1905, 1907, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1926, 1927, 1930, 1932, 1933, 1935, 1936, 1937, 1939, 1946, 1979, 1999]
+description: Lange bevor Dr. Curt Lewy am 15. August 1932 die Apotheke seines Vaters (mittendran vom 9. Mai 2025 (https://www.mittendran.de/juedische-apotheker-und-aerzte-1-apotheker-lewy-luetzow-apotheke-teil-2/)) übernahm, machte…
+source_url: https://www.mittendran.de/juedische-apotheker-und-aerzte-1-apotheker-lewy-luetzow-apotheke-teil-3/
+wp_post_id: 37990
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Keithstraße
+  lat: 52.503
+  lon: 13.3455
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Cauerstraße
+  lat: 52.514779
+  lon: 13.315245
+  osm_id: null
+  status: auto
+  via: regex
+- name: Weidendammbrücke
+  lat: 52.52213
+  lon: 13.387954
+  osm_id: null
+  status: auto
+  via: regex
+- name: Wichmannstraße
+  lat: 52.50558
+  lon: 13.346694
+  osm_id: null
+  status: confirmed
+  via: regex

@@ -1,0 +1,87 @@
+title: Erziehung und Wissenschaftim Lützow-Viertel – damals (1):Übersicht
+slug: 2024-03-23__erziehung-und-wissenschaft-im-luetzow-viertel-damals-1-uebersicht
+author: Paul Enck
+date: '2024-03-23'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1827, 1831, 1833, 1840, 1843, 1848, 1858, 1862, 1865, 1869, 1873, 1874, 1879, 1880, 1882, 1888, 1893, 1896, 1897, 1899, 1900, 1901, 1906, 1915, 1920, 1923, 1930, 1937, 1941, 1942, 1945, 1972, 1974, 1996]
+description: Mit dieser Übersicht beginnen wir eine neue Serie von Geschichten aus dem Lützow-Viertel, die Erziehung und Wissenschaft zum Thema haben, nicht heute, sondern „damals“, im 19. und in der ersten Hälfte des 20…
+source_url: https://www.mittendran.de/erziehung-und-wissenschaft-im-luetzow-viertel-damals-1-uebersicht/
+wp_post_id: 31129
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz
+  lat: 52.5043
+  lon: 13.3535
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowstraße 84
+  lat: 52.502762
+  lon: 13.362808
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße 39
+  lat: 52.507523
+  lon: 13.368899
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Derfflingerstraße
+  lat: 52.5048
+  lon: 13.357
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Steglitzer Straße
+  lat: 52.5018
+  lon: 13.3635
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Niederlagstraße
+  lat: 52.516228
+  lon: 13.397662
+  osm_id: null
+  status: auto
+  via: regex
+- name: Ludendorff-Straße
+  lat: 51.108998
+  lon: 13.636605
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kielganstraße
+  lat: 52.501216
+  lon: 13.355174
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Buchenstraße
+  lat: 52.484914
+  lon: 13.582868
+  osm_id: null
+  status: auto
+  via: regex
+- name: Dörnbergstraße
+  lat: 51.178491
+  lon: 6.876376
+  osm_id: null
+  status: auto
+  via: regex

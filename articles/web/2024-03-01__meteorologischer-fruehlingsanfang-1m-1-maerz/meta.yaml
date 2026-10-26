@@ -1,0 +1,27 @@
+title: Meteorologischer Frühlingsanfang am 1. März
+slug: 2024-03-01__meteorologischer-fruehlingsanfang-1m-1-maerz
+author: Redaktion
+date: '2024-03-01'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Die Meteorologen rechnen beim Frühlingsanfang aus statistischen Gründen immer ganz genau mit drei Monaten. Das wird bei allen Jahreszeiten so gemacht. Egal wie das Wetter ist. Nach den Wintermonaten freuen wir uns auf…
+source_url: https://www.mittendran.de/meteorologischer-fruehlingsanfang-1m-1-maerz/
+wp_post_id: 30843
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Der-Elch-am-Floraplatz
+  lat: 52.602529
+  lon: 13.221483
+  osm_id: null
+  status: auto
+  via: regex
+- name: Floraplatz
+  lat: 52.514698
+  lon: 13.369139
+  osm_id: null
+  status: confirmed
+  via: regex

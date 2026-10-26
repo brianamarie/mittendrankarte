@@ -1,0 +1,39 @@
+title: Starke Frauen  in der Potsdamer Straße
+slug: 2023-03-27__starke-frauen-der-potsdamer-strasse
+author: APZ
+date: '2023-03-27'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1830, 1831, 1848, 1860, 1864, 1866, 1868, 1869, 1889, 1896, 1899, 1901, 1907, 1909, 1910, 1911, 1919, 1928, 1930, 1942, 1944, 1992]
+description: 'Ausgebucht war die Führung der Volkshochschule Tempelhof-Schöneberg am letzten Samstagnachmittag: 20 Teilnehmerinnen und ein Mann folgten Sibylle Nägele und Joy Markert auf ihrer mehr als 90-minütigen Tour „Starke…'
+source_url: https://www.mittendran.de/starke-frauen-der-potsdamer-strasse/
+wp_post_id: 26232
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße 62-64
+  lat: 52.501403
+  lon: 13.36214
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße 139
+  lat: 52.496759
+  lon: 13.361849
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße 50
+  lat: 52.501518
+  lon: 13.357662
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Bülowstraße 90
+  lat: 52.498385
+  lon: 13.360404
+  osm_id: null
+  status: confirmed
+  via: address

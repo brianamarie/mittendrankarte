@@ -1,0 +1,45 @@
+title: Beruflich neue Wege gehen – Berliner Jobcoaching bietet Orientierung und Starthilfe
+slug: 2024-02-05__beruflich-neue-wege-gehen-berliner-jobcoaching-bietet-orientierung-und-starthilf
+author: Redaktion
+date: '2024-02-05'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Ein Gastbeitrag von Ellen Schwarz-Schermer, Schildkröte GmbH Seit mehreren Jahren existiert die Allgemeine unabhängige Sozialberatung der Schildkröte GmbH im Nachbarschaftstreff in der Lützowstraße 27 und im Kiez…
+source_url: https://www.mittendran.de/beruflich-neue-wege-gehen-berliner-jobcoaching-bietet-orientierung-und-starthilfe/
+wp_post_id: 30531
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 27
+  lat: 52.50376
+  lon: 13.363429
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Stromstraße
+  lat: 52.530215
+  lon: 13.34331
+  osm_id: null
+  status: auto
+  via: regex
+- name: Turmstraße
+  lat: 52.526149
+  lon: 13.341297
+  osm_id: null
+  status: auto
+  via: regex
+- name: Samariterstraße
+  lat: 52.51474
+  lon: 13.464441
+  osm_id: null
+  status: auto
+  via: regex

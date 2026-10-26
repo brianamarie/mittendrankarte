@@ -1,0 +1,63 @@
+title: 'Spaziergang in die Vergangenheit (17): Café an der Mühle von Müller und Schultze'
+slug: 2024-07-27__spaziergang-die-vergangenheit-17-cafe-der-muehle-von-mueller-und-schultze
+author: Paul Enck
+date: '2024-07-27'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1830, 1838, 1850, 1853, 1854, 1855, 1860, 1862, 1866, 1907, 1937, 1939]
+description: Heute besuchen wir eine Gaststätte, die im Jahr 1850 bei einer Windmühle im Lützow-Viertel lag und deren Bild (Bild 1) wir zufällig in einem Buch von 1939 gefunden hatten (1). Das Bild ist nach einem Ölgemälde von…
+source_url: https://www.mittendran.de/spaziergang-die-vergangenheit-17-cafe-der-muehle-von-mueller-und-schultze/
+wp_post_id: 33107
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße
+  lat: 52.5038
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Flottwellstraße
+  lat: 52.5008
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Steglitzer Straße
+  lat: 52.5018
+  lon: 13.3635
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Lützowerweg
+  lat: 51.223915
+  lon: 12.183729
+  osm_id: null
+  status: auto
+  via: regex
+- name: Wegstraße
+  lat: 52.582981
+  lon: 13.528719
+  osm_id: null
+  status: auto
+  via: regex
+- name: Mühlenweg
+  lat: 52.596198
+  lon: 13.226086
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,27 @@
+title: Festival „Bauhaus-Archiv. Kommt auf die Baustelle!“
+slug: 2025-09-12__festival-bauhaus-archiv-kommt-auf-die-baustelle
+author: FP
+date: '2025-09-12'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1929]
+description: 'Mit dem Festival „Kommt auf die Baustelle!“ lädt das Bauhaus-Archiv / Museum für Gestaltung in den entstehenden Museumsneubau ein: die zukünftige Schaufläche für die weltweit größte Bauhaus-Sammlung. Das dreitägige…'
+source_url: https://www.mittendran.de/festival-bauhaus-archiv-kommt-auf-die-baustelle/
+wp_post_id: 38416
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Philharmonie
+  lat: 52.51
+  lon: 13.37
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Klingelhöferstraße
+  lat: 52.509461
+  lon: 13.351517
+  osm_id: null
+  status: confirmed
+  via: regex

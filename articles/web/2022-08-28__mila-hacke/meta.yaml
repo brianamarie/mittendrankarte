@@ -1,0 +1,39 @@
+title: Fotografin Mila Hacke stellt in Gatow aus
+slug: 2022-08-28__mila-hacke
+author: APZ
+date: '2022-08-28'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1949, 1994, 1999, 2008, 2009, 2010, 2011]
+description: Alliierte in Berlin – das Architekturerbe Fotoausstellung von Mila Hacke im MHM Gatow Das Militärhistorisches Museum der Bundeswehr Flugplatz Berlin-Gatow (MHM Gatow) zeigt bis 31. Januar 2023 die erweiterte…
+source_url: https://www.mittendran.de/mila-hacke/
+wp_post_id: 23186
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Flugplatz
+  lat: 52.571034
+  lon: 13.302925
+  osm_id: null
+  status: auto
+  via: regex
+- name: Luftbrücke
+  lat: 52.486084
+  lon: 13.385951
+  osm_id: null
+  status: auto
+  via: regex
+- name: Theodor-Heuss-Platz
+  lat: 52.509987
+  lon: 13.272222
+  osm_id: null
+  status: auto
+  via: regex

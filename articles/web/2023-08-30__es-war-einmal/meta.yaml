@@ -1,0 +1,27 @@
+title: Es war einmal…
+slug: 2023-08-30__es-war-einmal
+author: ase
+date: '2023-08-30'
+issue: null
+rubrik: kiek ma!
+about_years: []
+description: …eine Apotheke im Haus Potsdamer Straße 101. (https://www.mittendran.de/wp-content/uploads/2023/08/Apotheke-Potsdamer-Strasse-scaled.jpg)In diesen Tagen wird das Geschäft leer geräumt, der Apotheker Peter Sieloff geht…
+source_url: https://www.mittendran.de/es-war-einmal/
+wp_post_id: 28515
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße 101
+  lat: 52.500608
+  lon: 13.363882
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Apotheke-Potsdamer-Straße
+  lat: 52.415267
+  lon: 13.024445
+  osm_id: null
+  status: auto
+  via: regex

@@ -1,0 +1,69 @@
+title: In Demut erinnern – Nie wieder ist heute!
+slug: 2024-05-06__demut-erinnern-nie-wieder-ist-heute
+author: eki
+date: '2024-05-06'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1890, 1911, 1923, 1926, 1933, 1937, 1938, 1939, 1940, 1942, 1944, 1945, 1976, 1988]
+description: Die SPD-Abteilungen Tiergarten Süd und Tiergarten Mitte luden am Sonntag, 5. Mai anlässlich des Jahrestages der Befreiung zum Gedenken an die Gräuel, die Deutsche an Jüdinnen und Juden und Anderen verübt haben zu einem…
+source_url: https://www.mittendran.de/demut-erinnern-nie-wieder-ist-heute/
+wp_post_id: 31692
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße 58
+  lat: 52.502023
+  lon: 13.354716
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schillstraße
+  lat: 52.505
+  lon: 13.3485
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Dennewitzstraße 35
+  lat: 52.499378
+  lon: 13.370285
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Mitläufer
+  lat: 31.081734
+  lon: 31.544838
+  osm_id: null
+  status: auto
+  via: regex
+- name: Schlüterstraße
+  lat: 52.47457
+  lon: 13.611879
+  osm_id: null
+  status: auto
+  via: regex
+- name: Mai-Hannah-Elthen-vor-dem-Haus-Kurfuerstenstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Parkplatz
+  lat: 52.586798
+  lon: 13.351959
+  osm_id: null
+  status: auto
+  via: regex
+- name: Potsdamer Straße 122
+  lat: 52.499914
+  lon: 13.36263
+  osm_id: null
+  status: confirmed
+  via: address

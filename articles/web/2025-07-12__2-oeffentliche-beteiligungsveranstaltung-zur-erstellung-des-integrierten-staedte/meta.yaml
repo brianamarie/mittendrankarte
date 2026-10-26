@@ -1,0 +1,28 @@
+title: 2. Öffentliche Beteiligungsveranstaltung zur Erstellung des Integrierten Städtebaulichen
+  Entwicklungskonzepts (ISEK) Potsdamer Straße
+slug: 2025-07-12__2-oeffentliche-beteiligungsveranstaltung-zur-erstellung-des-integrierten-staedte
+author: FP
+date: '2025-07-12'
+issue: null
+rubrik: Öffentlicher Raum und Verkehr
+about_years: []
+description: Team ISEK POTSDAMER STRASSE im Auftrag der Bezirke Mitte und Tempelhof-Schöneberg lädt Nachbar:innen ein Sehr geehrte Menschen im Umfeld der Potsdamer Straße, im Namen der Tempelhof-Schöneberg Mitte laden wir Sie…
+source_url: https://www.mittendran.de/2-oeffentliche-beteiligungsveranstaltung-zur-erstellung-des-integrierten-staedtebaulichen-entwicklungskonzepts-isek-potsdamer-strasse/
+wp_post_id: 38113
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bülowstraße 94
+  lat: 52.498683
+  lon: 13.359051
+  osm_id: null
+  status: confirmed
+  via: address

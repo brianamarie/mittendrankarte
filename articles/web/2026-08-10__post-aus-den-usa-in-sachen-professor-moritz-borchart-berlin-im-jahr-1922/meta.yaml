@@ -1,0 +1,27 @@
+title: Post aus den USA in Sachen Professor Moritz Borchart, Berlin im Jahr 1922
+slug: 2026-08-10__post-aus-den-usa-in-sachen-professor-moritz-borchart-berlin-im-jahr-1922
+author: Paul Enck
+date: '2026-08-10'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1870, 1872, 1878, 1883, 1892, 1900, 1902, 1904, 1905, 1908, 1910, 1911, 1914, 1918, 1920, 1921, 1922, 1923, 1924, 1933, 1949, 1984]
+description: Jonah Goldberg aus Cambridge, Massachusetts, USA schrieb mir wegen Moritz Borchardt, dem Medizin-Professor aus der Dörnbergstraße 5, über den er in mittendran gelesen hatte (mittendran vom 17. Januar 2026…
+source_url: https://www.mittendran.de/post-aus-den-usa-in-sachen-professor-moritz-borchart-berlin-im-jahr-1922/
+wp_post_id: 42557
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Dörnbergstraße
+  lat: 51.178491
+  lon: 6.876376
+  osm_id: null
+  status: auto
+  via: regex
+- name: Moritz-borchardt-doernbergstraße
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

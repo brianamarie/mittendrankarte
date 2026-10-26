@@ -1,0 +1,25 @@
+title: Radio und Fernsehen in meiner Kindheit
+slug: 2026-06-08__radio-und-fernsehen-meiner-kindheit
+author: Redaktion
+date: '2026-06-08'
+issue: '51'
+rubrik: Kiez-Geschichte
+about_years: [1923, 1929, 1935, 1936, 1941, 1942, 1950, 1953, 1961]
+description: Gastbeitrag von Ralf Hausding Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn…
+source_url: https://www.mittendran.de/radio-und-fernsehen-meiner-kindheit/
+wp_post_id: 42065
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.502822
+  lon: 13.365443
+  osm_id: null
+  status: confirmed

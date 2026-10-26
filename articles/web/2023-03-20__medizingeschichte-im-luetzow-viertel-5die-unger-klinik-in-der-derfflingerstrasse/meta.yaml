@@ -1,0 +1,57 @@
+title: Medizingeschichte im Lützow-Viertel (5)Die Unger-Klinik in der Derfflingerstraße
+slug: 2023-03-20__medizingeschichte-im-luetzow-viertel-5die-unger-klinik-in-der-derfflingerstrasse
+author: Redaktion
+date: '2023-03-20'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1801, 1810, 1826, 1832, 1836, 1839, 1851, 1852, 1858, 1860, 1862, 1865, 1868, 1869, 1873, 1874, 1875, 1876, 1877, 1878, 1881, 1884, 1887, 1892, 1893, 1894, 1896, 1897, 1898, 1899, 1900, 1903, 1904, 1905, 1906, 1907, 1908, 1909, 1910, 1911, 1913, 1914, 1915, 1916, 1918, 1919, 1920, 1921, 1925, 1930, 1933, 1935, 1938, 1942, 1944, 1945, 1948, 1949, 1960, 1962, 1964, 1976, 1980, 1998, 1999, 2000, 2004, 2005]
+description: (ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com)) Die folgenden Ausführungen basieren auf der exzellent recherchierten Doktorarbeit von Enno A. Winkler (1) aus dem Jahr 1976, vor allem…
+source_url: https://www.mittendran.de/medizingeschichte-im-luetzow-viertel-5die-unger-klinik-in-der-derfflingerstrasse/
+wp_post_id: 26037
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz 15
+  lat: 52.503843
+  lon: 13.353057
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Kurfürstenstraße 126
+  lat: 52.502332
+  lon: 13.351272
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Derfflingerstraße 21
+  lat: 52.503266
+  lon: 13.356603
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Buchenstraße
+  lat: 52.484914
+  lon: 13.582868
+  osm_id: null
+  status: auto
+  via: regex
+- name: Genthiner Straße 5a
+  lat: 52.50529
+  lon: 13.360096
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Meineckestraße
+  lat: 48.19277
+  lon: 11.531585
+  osm_id: null
+  status: auto
+  via: regex
+- name: Ziethenstraße
+  lat: 51.592486
+  lon: 7.530617
+  osm_id: null
+  status: auto
+  via: regex

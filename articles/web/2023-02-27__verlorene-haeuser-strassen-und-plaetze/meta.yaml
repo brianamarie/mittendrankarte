@@ -1,0 +1,21 @@
+title: Verlorene Häuser, Straßen und Plätze
+slug: 2023-02-27__verlorene-haeuser-strassen-und-plaetze
+author: Redaktion
+date: '2023-02-27'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Der zweite Weltkrieg hat tiefe Narben im Stadtbild von Berlin hinterlassen. Häuser, Straßen, Plätze sind verschwunden. Paul Enck zeigt anhand von Fotografien diese „verlorenen Orte“ auf und vermittelt ein Bild, wie das…
+source_url: https://www.mittendran.de/verlorene-haeuser-strassen-und-plaetze/
+wp_post_id: 25765
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Nachbarschaftstreff
+  lat: 52.5035
+  lon: 13.3575
+  osm_id: null
+  status: confirmed
+  via: gazetteer

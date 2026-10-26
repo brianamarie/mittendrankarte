@@ -1,0 +1,63 @@
+title: Die Familie Fürstenberg (Teil 2)
+slug: 2024-02-17__die-familie-fuerstenberg-teil-2
+author: Paul Enck
+date: '2024-02-17'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1841, 1898, 1913, 1927, 1928, 1930, 1931, 1933, 1935, 1938, 1941, 1942, 1943, 1945, 1948, 1949, 1950, 1952, 1953, 1954, 1956, 1959, 1960, 1984, 1991, 1992]
+description: Im ersten Teil der Geschichte der Familie Fürstenberg (Mittendran vom 20. Januar 2024 (https://www.mittendran.de/das-haus-fuerstenberg-luetzowplatz-teil-1/)) hatten wir Egon Sally Fürstenberg, seine Eltern und…
+source_url: https://www.mittendran.de/die-familie-fuerstenberg-teil-2/
+wp_post_id: 30567
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowplatz 9
+  lat: 52.504355
+  lon: 13.353555
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schöneberger Ufer
+  lat: 52.504
+  lon: 13.368
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Das-haus-fuerstenberg-luetzowplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Das-haus-fuerstenberg-am-luetzowplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
+- name: Bellevuestraße
+  lat: 52.510199
+  lon: 13.374675
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Tiergartenstraße
+  lat: 52.5108
+  lon: 13.369122
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Augsburgerstraße
+  lat: 52.500442
+  lon: 13.336464
+  osm_id: null
+  status: auto
+  via: regex
+- name: BCtzowplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex

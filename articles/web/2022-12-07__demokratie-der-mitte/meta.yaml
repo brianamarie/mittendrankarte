@@ -1,0 +1,27 @@
+title: Demokratie in der Mitte
+slug: 2022-12-07__demokratie-der-mitte
+author: Redaktion
+date: '2022-12-07'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Die Mitarbeiter*innen der Fach- und Koordinierungsstelle von „Demokratie in der Mitte“ organisieren Weiterbildungen und Veranstaltungen, vernetzen die Akteur*innen in den Gebieten, betreiben Öffentlichkeitsarbeit…
+source_url: https://www.mittendran.de/demokratie-der-mitte/
+wp_post_id: 24525
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Villa Lützow
+  lat: 52.504
+  lon: 13.356
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Alexanderplatz
+  lat: 52.521981
+  lon: 13.413636
+  osm_id: null
+  status: auto
+  via: regex

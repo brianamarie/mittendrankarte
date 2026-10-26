@@ -1,0 +1,28 @@
+title: 'Jüdische Geschichte im Lützow-Viertel (16): Die Familie von Ernst Liedtke,
+  Blumeshof 12 (Teil 7)'
+slug: 2026-01-04__juedische-geschichte-im-luetzow-viertel-16-die-familie-von-ernst-liedtke-blumesh
+author: Paul Enck
+date: '2026-01-04'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1887, 1892, 1894, 1904, 1910, 1914, 1915, 1919, 1921, 1930, 1934, 1938, 1940, 1941, 1942, 1943, 1945, 1949, 1952, 1954, 1956, 1957, 1960, 1963, 1968, 1971, 1987, 2012]
+description: Dass es zwischen 1910 und 1942 zwei Personen mit dem Namen „Theodor Liedtke“ in Berlin gab, haben wir durch Simon Mays Buch erfahren (1); er glaubte nicht, dass „der andere Theo“ zur gleichen Familie gehörte, aber das…
+source_url: https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-16-die-familie-von-ernst-liedtke-blumeshof-12-teil-7/
+wp_post_id: 40168
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Blumeshof
+  lat: 52.504
+  lon: 13.3555
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Büsingstraße
+  lat: 52.468074
+  lon: 13.326404
+  osm_id: null
+  status: auto
+  via: regex

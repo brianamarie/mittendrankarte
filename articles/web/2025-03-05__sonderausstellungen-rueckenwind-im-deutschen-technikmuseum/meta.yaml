@@ -1,0 +1,33 @@
+title: Sonderausstellung „Rückenwind“ im Deutschen Technikmuseum
+slug: 2025-03-05__sonderausstellungen-rueckenwind-im-deutschen-technikmuseum
+author: eki
+date: '2025-03-05'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1965, 1968]
+description: 'In der Ausstellung „Rückenwind: Mehr Stadt fürs Rad!“ dreht sich alles ums Radfahren in der Stadt. Im Mittelpunkt steht der Aufstieg des Fahrrads zum beliebten Verkehrsmittel für alle. Zu sehen sind auf 500…'
+source_url: https://www.mittendran.de/sonderausstellungen-rueckenwind-im-deutschen-technikmuseum/
+wp_post_id: 35642
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Deutsches Technikmuseum
+  lat: 52.4986
+  lon: 13.3775
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Technikmuseum
+  lat: 52.4986
+  lon: 13.3775
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Ladestraße
+  lat: 52.5
+  lon: 13.3755
+  osm_id: null
+  status: confirmed
+  via: gazetteer

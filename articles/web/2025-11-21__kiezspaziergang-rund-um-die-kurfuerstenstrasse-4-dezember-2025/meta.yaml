@@ -1,0 +1,26 @@
+title: Kiezspaziergang rund um die Kurfürstenstraße am 4. Dezember 2025
+slug: 2025-11-21__kiezspaziergang-rund-um-die-kurfuerstenstrasse-4-dezember-2025
+author: Redaktion
+date: '2025-11-21'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: 'Beitrag der Stadtteilkoordination Tiergarten-Süd Liebe Bewohner*innen, Engagierte und Kolleg*innen rund um die Kurfürstenstraße, am Donnerstag, 4. Dezember 2025 laufen wir unter dem Motto: „Gemeinsam für ein sicheres…'
+source_url: https://www.mittendran.de/kiezspaziergang-rund-um-die-kurfuerstenstrasse-4-dezember-2025/
+wp_post_id: 39823
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Kurmärkische Straße 1-3
+  lat: 52.499476
+  lon: 13.359217
+  osm_id: null
+  status: confirmed
+  via: address

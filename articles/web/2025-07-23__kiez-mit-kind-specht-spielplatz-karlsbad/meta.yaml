@@ -1,0 +1,36 @@
+title: 'Kiez mit Kind: “Specht-Spielplatz” am Karlsbad'
+slug: 2025-07-23__kiez-mit-kind-specht-spielplatz-karlsbad
+author: Hobpenz
+date: '2025-07-23'
+issue: null
+rubrik: Kiez mit Kind
+about_years: []
+description: Zwischen dem schnell erreichbaren Tiergarten und dem Gleisdreieckpark direkt nebenan, wird der Park am Karlsbad schnell übersehen. Nur vom Vorbeifahren kennt man ihn eigentlich, wenn man nicht direkt daneben wohnt…
+source_url: https://www.mittendran.de/kiez-mit-kind-specht-spielplatz-karlsbad/
+wp_post_id: 38038
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.509801
+  lon: 13.37559
+  osm_id: null
+  status: confirmed
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Flottwellstraße
+  lat: 52.501616
+  lon: 13.371237
+  osm_id: null
+  status: confirmed
+- name: Gleisdreieck
+  lat: 52.499526
+  lon: 13.374032
+  osm_id: null
+  status: confirmed

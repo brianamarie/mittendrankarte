@@ -1,0 +1,47 @@
+title: 'Zwischen 1970 und 2025: Bilder aus der Pohlstraße'
+slug: 2026-02-11__zwischen-1970-und-2025-bilder-aus-der-pohlstrasse
+author: JL
+date: '2026-02-11'
+issue: null
+rubrik: Kiez-Geschichte
+about_years: [1920, 1937, 1947, 1964, 1970, 1978, 1984, 1986, 1989, 1990, 2012]
+description: Von J. Lückerath Der Autor zog 1970 in die Pohlstraße und wohnt bis heute dort. Im Laufe der fast 56 Jahre hat er Abriss und Wiederaufbau beobachtet und fotografiert. Mitte April 1970 konnte ich nach…
+source_url: https://www.mittendran.de/zwischen-1970-und-2025-bilder-aus-der-pohlstrasse/
+wp_post_id: 40770
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Magdeburger Platz
+  lat: 52.5047
+  lon: 13.3615
+  osm_id: null
+  status: confirmed
+- name: Pohlstraße 44
+  lat: 52.500749
+  lon: 13.365183
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.49996
+  lon: 13.361941
+  osm_id: null
+  status: confirmed
+- name: Genthiner Straße
+  lat: 52.501383
+  lon: 13.358361
+  osm_id: null
+  status: confirmed
+- name: Flottwellstraße
+  lat: 52.501616
+  lon: 13.371237
+  osm_id: null
+  status: confirmed

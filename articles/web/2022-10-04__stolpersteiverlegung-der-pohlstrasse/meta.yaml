@@ -1,0 +1,27 @@
+title: Stolpersteinverlegung  in der Pohlstraße
+slug: 2022-10-04__stolpersteiverlegung-der-pohlstrasse
+author: Redaktion
+date: '2022-10-04'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1868, 1885, 1906, 1924, 1925, 1933, 1935, 1937, 1939]
+description: Am kommenden Samstag (8.10.22) werden um 11:15 Uhr in der Pohlstraße 60 die Stolpersteine für Ossip Schnirlin und Gertrud Schnirlin verlegt. Die Organisation der Verlegung erfolgt durch die Stolperstein Initiative…
+source_url: https://www.mittendran.de/stolpersteiverlegung-der-pohlstrasse/
+wp_post_id: 23706
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße 60
+  lat: 52.501288
+  lon: 13.362621
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Steglitzer Straße
+  lat: 52.5018
+  lon: 13.3635
+  osm_id: null
+  status: confirmed
+  via: gazetteer

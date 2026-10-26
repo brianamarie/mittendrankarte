@@ -1,0 +1,27 @@
+title: Am Sonntag, 22.09. wird die Pohlstraße temporäre Spielstraße
+slug: 2024-09-18__sonntag-22-09-wird-die-pohlstrasse-eine-spielstrasse
+author: FP
+date: '2024-09-18'
+issue: null
+rubrik: Kinder, Heranwachsende, Schule
+about_years: []
+description: Die einzige Spielstraße in diesem Jahr in der Pohlstraße findet am Sonntag, 22. September 2024 statt. Wegen der Baumscheiben-Arbeiten konnte bisher keine Spielstraße veranstaltet werden. Aber jetzt, am Sonntag von…
+source_url: https://www.mittendran.de/sonntag-22-09-wird-die-pohlstrasse-eine-spielstrasse/
+wp_post_id: 33708
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße
+  lat: 52.5015
+  lon: 13.3645
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Spielstraße
+  lat: 49.137578
+  lon: 8.415617
+  osm_id: null
+  status: auto
+  via: regex

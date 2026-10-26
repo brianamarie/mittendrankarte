@@ -1,0 +1,21 @@
+title: Berliner Gedenktafel für Neşet Ertaş
+slug: 2024-09-19__berliner-gedenktafel-fuer-neset-ertas
+author: eki
+date: '2024-09-19'
+issue: null
+rubrik: Kunst und Kultur
+about_years: [1938, 1957, 1980, 2012]
+description: Seit heute erinnert das Land Berlin im U-Bahnhof Bülowstraße mit einer Gedenktafel an den türkischen Volksmusiksänger und Komponisten Neşet Ertaş (1938-2012), der hier in den 1980er Jahren auf dem Türkischen Bazar im…
+source_url: https://www.mittendran.de/berliner-gedenktafel-fuer-neset-ertas/
+wp_post_id: 33735
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Bülowstraße
+  lat: 52.4985
+  lon: 13.358
+  osm_id: null
+  status: confirmed
+  via: gazetteer

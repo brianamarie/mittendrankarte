@@ -1,0 +1,76 @@
+title: 'Geschichte von Handel und Gewerbe (6): Kolonialhaus Antelmann, Lützowstraße
+  89/90'
+slug: 2023-12-23__geschichte-von-handel-und-gewerbe-5-kolonialhaus-antelmann-luetzowstrasse-8990
+author: Paul Enck
+date: '2023-12-23'
+issue: null
+rubrik: Aus dem Kiez
+about_years: [1800, 1844, 1857, 1862, 1866, 1882, 1883, 1884, 1886, 1889, 1893, 1894, 1896, 1897, 1898, 1900, 1901, 1902, 1903, 1905, 1907, 1909, 1910, 1911, 1913, 1914, 1926, 1927, 1929, 1938, 1945, 2002, 2007]
+description: Der großen Berliner Gewerbeschau im Treptower Park im Jahr 1896 war eine sogenannte Kolonialschau angegliedert, und auf dieser machte erstmals das Kolonialhaus Bruno Antelmann von sich reden, das einige Jahre später in…
+source_url: https://www.mittendran.de/geschichte-von-handel-und-gewerbe-5-kolonialhaus-antelmann-luetzowstrasse-8990/
+wp_post_id: 29990
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 89-90
+  lat: 52.503149
+  lon: 13.364373
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Potsdamer Straße 22
+  lat: 52.508267
+  lon: 13.370875
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Genthiner Straße 34
+  lat: 52.502826
+  lon: 13.35885
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Mittelstraße
+  lat: 52.452742
+  lon: 13.329122
+  osm_id: null
+  status: auto
+  via: regex
+- name: Behringstraße
+  lat: 52.465156
+  lon: 13.491521
+  osm_id: null
+  status: auto
+  via: regex
+- name: Baumschulenweg
+  lat: 52.461694
+  lon: 13.481548
+  osm_id: null
+  status: auto
+  via: regex
+- name: Jerusalemstraße
+  lat: 51.371645
+  lon: 6.512283
+  osm_id: null
+  status: auto
+  via: regex
+- name: Jerusalemerstraße
+  lat: 52.508547
+  lon: 13.397121
+  osm_id: null
+  status: auto
+  via: regex
+- name: Grunewaldstraße
+  lat: 52.459444
+  lon: 13.30757
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kaiserstraße
+  lat: 52.417713
+  lon: 13.32351
+  osm_id: null
+  status: auto
+  via: regex

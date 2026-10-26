@@ -1,0 +1,27 @@
+title: 'Berliner Gallery Weekend:  am 28./29./30. April 2023'
+slug: 2023-04-25__gallery-weekend
+author: APZ
+date: '2023-04-25'
+issue: null
+rubrik: Kunst und Kultur
+about_years: []
+description: Zwischen 400 und 600 Galerien soll es in Berlin geben. Die meisten beteiligen sich am Gallery Weekend am letzten Aprilwochenende und bilden damit eine der führenden Veranstaltungen der deutschen Kunstszene. Nutzen Sie…
+source_url: https://www.mittendran.de/gallery-weekend/
+wp_post_id: 26389
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Pohlstraße 11
+  lat: 52.499652
+  lon: 13.369147
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Schöneberger Ufer 57
+  lat: 52.505631
+  lon: 13.366258
+  osm_id: null
+  status: confirmed
+  via: address

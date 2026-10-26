@@ -1,0 +1,27 @@
+title: Da kommen wir ja nicht ganz so schlecht weg
+slug: 2023-01-13__da-kommen-wir-ja-nicht-ganz-schlecht-weg
+author: Redaktion
+date: '2023-01-13'
+issue: null
+rubrik: Aus dem Kiez
+about_years: []
+description: Laut Umwelt-Gerechtigkeitsatlas ist die Lebens- und Umwelt-Qualität in Berlins Quartieren sehr unterschiedlich, „vor allem im hochverdichteten Innenstadtbereich konzentrieren sich gesundheitsrelevante Umwelt-…
+source_url: https://www.mittendran.de/da-kommen-wir-ja-nicht-ganz-schlecht-weg/
+wp_post_id: 25027
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Kurfürstenstraße
+  lat: 52.5005
+  lon: 13.352
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Schwedenstraße
+  lat: 52.555498
+  lon: 13.37509
+  osm_id: null
+  status: auto
+  via: regex
