@@ -19,10 +19,11 @@
   <p class="place-kicker">Ort auf der Karte</p>
   <h1>Lützowstraße 87</h1>
   <p class="place-stats">2 Beiträge · 2024</p>
-  <p class="lead">Alle Beiträge, die diesen Ort nennen, neueste zuerst.</p>
+  <p class="lead">2 Beiträge im Jahr 2024 nennen Lützowstraße 87. Am häufigsten Kunst und Kultur (1) und Öffentlicher Raum und Verkehr (1). Ein Titel öffnet den Beitrag auf mittendran.de. Suche und Rubriken grenzen die Liste ein; neueste stehen oben.</p>
   <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50299&amp;mlon=13.36375#map=17/52.50299/13.36375" rel="noopener">Lage auf OpenStreetMap</a></p>
   
-  <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><button type="button" data-rubrik="Kunst und Kultur" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#8b4d9a"></span>Kunst und Kultur <span class="n">1</span></button><button type="button" data-rubrik="Öffentlicher Raum und Verkehr" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#2f6f9f"></span>Öffentlicher Raum und Verkehr <span class="n">1</span></button><button type="button" id="place-filter-reset" hidden>alle einblenden</button></div>
+  
+  <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><button type="button" data-rubrik="Kunst und Kultur" aria-pressed="true" title="Nur diese zeigen"><span class="place-swatch" style="background:#8b4d9a"></span>Kunst und Kultur <span class="n">1</span></button><button type="button" data-rubrik="Öffentlicher Raum und Verkehr" aria-pressed="true" title="Nur diese zeigen"><span class="place-swatch" style="background:#2f6f9f"></span>Öffentlicher Raum und Verkehr <span class="n">1</span></button><button type="button" id="place-filter-reset" hidden>alle einblenden</button></div>
   <section class="place-group"><h2 class="place-year">2024 · <span class="n">2</span></h2><ul class="cards"><li data-rubrik="Kunst und Kultur"><a href="https://www.mittendran.de/stolpersteine-zum-gedenken-die-familie-kubatzky/" rel="noopener"><span class="place-bar" style="background:#8b4d9a"></span><span class="place-card-body"><strong>Stolpersteine zum Gedenken an die Familie Kubatzky</strong><div class="meta">2024-06-24 · <span class="place-tag" style="background:color-mix(in srgb, #8b4d9a 28%, white)">Kunst und Kultur</span> · FP</div><p class="place-excerpt">(https://www.mittendran.de/wp-content/uploads/2024/06/Stolpersteine-Luetzowstrasse-87-Ausschnitt.jpg) Stolpersteine vor dem Haus Lützowstraße 87 Foto: EKI Am Montag, 24. Juni, wurden in mehreren Berliner Bezirken…</p></span></a></li><li data-rubrik="Öffentlicher Raum und Verkehr"><a href="https://www.mittendran.de/stolpersteinverlegung-fuer-die-familie-kubatzky-der-luetzowstr-87-und-pohlstr-64/" rel="noopener"><span class="place-bar" style="background:#2f6f9f"></span><span class="place-card-body"><strong>Stolpersteinverlegung für die Familie Kubatzky in der Lützowstr. 87 und in der Pohlstr. 64</strong><div class="meta">2024-06-19 · <span class="place-tag" style="background:color-mix(in srgb, #2f6f9f 28%, white)">Öffentlicher Raum und Verkehr</span> · Redaktion</div><p class="place-excerpt">Am 24. Juni 2024 werden in Tiergarten-Süd Stolpersteine zur Erinnerung an folgende Personen verlegt: Um 14 Uhr werden in der Lützowstraße 87 drei Stolpersteine für Hermann Julius Kubatzky, Rosa Kubatzky, geb. Arndt und…</p></span></a></li></ul></section>
   <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
   
@@ -31,7 +32,8 @@
   var buttons = Array.prototype.slice.call(
     document.querySelectorAll(".place-rubriks button[data-rubrik]")
   );
-  if (!buttons.length) return;
+  var search = document.getElementById("place-search");
+  if (!buttons.length && !search) return;
   var items = document.querySelectorAll(".place-page .cards li");
   var groups = document.querySelectorAll(".place-group");
   var empty = document.querySelector(".place-empty");
@@ -43,11 +45,28 @@
       return !active[btn.getAttribute("data-rubrik")];
     }).length;
   }
+  function showingAll() {
+    return !buttons.length || hiddenCount() === 0;
+  }
+  function paint() {
+    var all = showingAll();
+    buttons.forEach(function (btn) {
+      var on = all || !!active[btn.getAttribute("data-rubrik")];
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+      btn.title = all ? "Nur diese zeigen" : on ? "Abwählen" : "Hinzufügen";
+    });
+  }
+  function query() {
+    return search ? search.value.trim().toLocaleLowerCase("de") : "";
+  }
   function apply() {
+    var q = query();
     var shown = 0;
     items.forEach(function (li) {
       var name = li.getAttribute("data-rubrik") || "";
-      var on = !name || !!active[name];
+      var rubrikOn = !buttons.length || !name || !!active[name];
+      var text = (li.textContent || "").toLocaleLowerCase("de");
+      var on = rubrikOn && (!q || text.indexOf(q) !== -1);
       li.hidden = !on;
       if (on) shown += 1;
     });
@@ -57,16 +76,33 @@
       var count = group.querySelector(".place-year .n");
       if (count) count.textContent = String(visibleItems.length);
     });
-    if (empty) empty.hidden = shown !== 0;
+    if (empty) {
+      empty.hidden = shown !== 0;
+      empty.textContent = q
+        ? "Nichts in dieser Liste passt auf die Suche."
+        : "Keine Beiträge für diese Rubriken.";
+    }
     if (reset) reset.hidden = hiddenCount() === 0;
+    paint();
   }
   buttons.forEach(function (btn) {
     btn.addEventListener("click", function () {
       var name = btn.getAttribute("data-rubrik");
-      active[name] = !active[name];
-      var on = !!active[name];
-      btn.setAttribute("aria-pressed", on ? "true" : "false");
-      btn.title = on ? "Ausblenden" : "Einblenden";
+      if (showingAll()) {
+        buttons.forEach(function (other) {
+          active[other.getAttribute("data-rubrik")] = false;
+        });
+        active[name] = true;
+      } else if (active[name]) {
+        active[name] = false;
+        if (hiddenCount() === buttons.length) {
+          buttons.forEach(function (other) {
+            active[other.getAttribute("data-rubrik")] = true;
+          });
+        }
+      } else {
+        active[name] = true;
+      }
       apply();
     });
   });
@@ -74,12 +110,13 @@
     reset.addEventListener("click", function () {
       buttons.forEach(function (btn) {
         active[btn.getAttribute("data-rubrik")] = true;
-        btn.setAttribute("aria-pressed", "true");
-        btn.title = "Ausblenden";
       });
+      if (search) search.value = "";
       apply();
     });
   }
+  if (search) search.addEventListener("input", apply);
+  apply();
 })();
 </script>
 

@@ -16,9 +16,14 @@
   
 <main class="map-page">
   <div class="map-intro">
-    <h1>Karte</h1>
-    <p class="meta">341 Orte — Kreis = 1 Beitrag (Rubrik-Farbe), Viereck = mehrere. Rubrik antippen blendet aus.</p>
-    <div class="map-areas" aria-label="Bereiche ohne Pin"><span class="lbl">Bereiche (Liste, kein Pin):</span><a href="places/gleisdreieck/">Gleisdreieck (135)</a><a href="places/potsdamer-strasse/">Potsdamer Straße (118)</a><a href="places/potsdamer-platz/">Potsdamer Platz (93)</a></div>
+    <div class="map-bar">
+      <h1>Karte</h1>
+      <span class="map-count">341 Orte</span>
+      <div class="map-areas" aria-label="Bereiche ohne Pin"><span class="lbl">Bereiche (Liste, kein Pin):</span><a href="places/gleisdreieck/">Gleisdreieck (135)</a><a href="places/potsdamer-strasse/">Potsdamer Straße (118)</a><a href="places/potsdamer-platz/">Potsdamer Platz (93)</a></div>
+      <p class="map-filter-status meta" id="map-filter-status" hidden></p>
+      <button type="button" class="map-filters-toggle" id="map-filters-toggle" aria-expanded="false" aria-controls="map-panel">Filter</button>
+    </div>
+    <div id="map-panel" class="map-panel" hidden>
     <div class="map-years" role="group" aria-label="Zeitraum filtern">
       <span class="year-heading">Zeitraum</span>
       <span class="year-label" id="year-label">Jan 1700 – Okt 2026</span>
@@ -32,8 +37,8 @@
         <input type="range" id="year-to" min="20400" max="24321" value="24321" step="1" aria-label="Zeitraum bis" />
       </div>
     </div>
-    <div class="map-legend" role="group" aria-label="Rubriken filtern"><span class="leg"><span class="sw multi" aria-hidden="true"></span> mehrere Beiträge</span><button type="button" class="leg" data-rubrik="Aus dem Kiez" aria-pressed="true" title="Ausblenden"><span class="sw" style="background:#4a7c59"></span>Aus dem Kiez</button><button type="button" class="leg" data-rubrik="Kunst und Kultur" aria-pressed="true" title="Ausblenden"><span class="sw" style="background:#8b4d9a"></span>Kunst und Kultur</button><button type="button" class="leg" data-rubrik="Miteinander" aria-pressed="true" title="Ausblenden"><span class="sw" style="background:#c45c26"></span>Miteinander</button><button type="button" class="leg" data-rubrik="Öffentlicher Raum und Verkehr" aria-pressed="true" title="Ausblenden"><span class="sw" style="background:#2f6f9f"></span>Öffentlicher Raum und Verkehr</button><button type="button" class="leg" data-rubrik="Bauen und Wohnen" aria-pressed="true" title="Ausblenden"><span class="sw" style="background:#8b6914"></span>Bauen und Wohnen</button><button type="button" class="leg" data-rubrik="Gewerbe und Gastronomie" aria-pressed="true" title="Ausblenden"><span class="sw" style="background:#b33b3b"></span>Gewerbe und Gastronomie</button><button type="button" class="leg" data-rubrik="Kiez-Geschichte" aria-pressed="true" title="Ausblenden"><span class="sw" style="background:#5c4a3a"></span>Kiez-Geschichte</button><button type="button" class="leg" data-rubrik="kiek ma!" aria-pressed="true" title="Ausblenden"><span class="sw" style="background:#d4a017"></span>kiek ma!</button><button type="button" class="leg" data-rubrik="Kinder, Heranwachsende, Schule" aria-pressed="true" title="Ausblenden"><span class="sw" style="background:#3d8b8b"></span>Kinder, Heranwachsende, Schule</button><button type="button" class="leg" data-rubrik="Kiez mit Kind" aria-pressed="true" title="Ausblenden"><span class="sw" style="background:#5aa0a0"></span>Kiez mit Kind</button><button type="button" class="leg" data-rubrik="In eigener Sache" aria-pressed="true" title="Ausblenden"><span class="sw" style="background:#6b6b6b"></span>In eigener Sache</button><button type="button" class="leg" data-rubrik="Sport und Freizeit" aria-pressed="true" title="Ausblenden"><span class="sw" style="background:#3f7d4e"></span>Sport und Freizeit</button><button type="button" class="leg" data-rubrik="Der andere Blick" aria-pressed="true" title="Ausblenden"><span class="sw" style="background:#7a4e8c"></span>Der andere Blick</button><button type="button" class="leg leg-reset" id="map-filter-reset" hidden>alle einblenden</button></div>
-    <p class="map-filter-status meta" id="map-filter-status" hidden></p>
+    <div class="map-legend" role="group" aria-label="Rubriken filtern"><span class="leg"><span class="sw multi" aria-hidden="true"></span> mehrere Beiträge</span><button type="button" class="leg" data-rubrik="Aus dem Kiez" aria-pressed="true" title="Nur diese zeigen"><span class="sw" style="background:#4a7c59"></span>Aus dem Kiez</button><button type="button" class="leg" data-rubrik="Kunst und Kultur" aria-pressed="true" title="Nur diese zeigen"><span class="sw" style="background:#8b4d9a"></span>Kunst und Kultur</button><button type="button" class="leg" data-rubrik="Miteinander" aria-pressed="true" title="Nur diese zeigen"><span class="sw" style="background:#c45c26"></span>Miteinander</button><button type="button" class="leg" data-rubrik="Öffentlicher Raum und Verkehr" aria-pressed="true" title="Nur diese zeigen"><span class="sw" style="background:#2f6f9f"></span>Öffentlicher Raum und Verkehr</button><button type="button" class="leg" data-rubrik="Bauen und Wohnen" aria-pressed="true" title="Nur diese zeigen"><span class="sw" style="background:#8b6914"></span>Bauen und Wohnen</button><button type="button" class="leg" data-rubrik="Gewerbe und Gastronomie" aria-pressed="true" title="Nur diese zeigen"><span class="sw" style="background:#b33b3b"></span>Gewerbe und Gastronomie</button><button type="button" class="leg" data-rubrik="Kiez-Geschichte" aria-pressed="true" title="Nur diese zeigen"><span class="sw" style="background:#5c4a3a"></span>Kiez-Geschichte</button><button type="button" class="leg" data-rubrik="kiek ma!" aria-pressed="true" title="Nur diese zeigen"><span class="sw" style="background:#d4a017"></span>kiek ma!</button><button type="button" class="leg" data-rubrik="Kinder, Heranwachsende, Schule" aria-pressed="true" title="Nur diese zeigen"><span class="sw" style="background:#3d8b8b"></span>Kinder, Heranwachsende, Schule</button><button type="button" class="leg" data-rubrik="Kiez mit Kind" aria-pressed="true" title="Nur diese zeigen"><span class="sw" style="background:#5aa0a0"></span>Kiez mit Kind</button><button type="button" class="leg" data-rubrik="In eigener Sache" aria-pressed="true" title="Nur diese zeigen"><span class="sw" style="background:#6b6b6b"></span>In eigener Sache</button><button type="button" class="leg" data-rubrik="Sport und Freizeit" aria-pressed="true" title="Nur diese zeigen"><span class="sw" style="background:#3f7d4e"></span>Sport und Freizeit</button><button type="button" class="leg" data-rubrik="Der andere Blick" aria-pressed="true" title="Nur diese zeigen"><span class="sw" style="background:#7a4e8c"></span>Der andere Blick</button><button type="button" class="leg leg-reset" id="map-filter-reset" hidden>alle einblenden</button></div>
+    </div>
   </div>
   <div id="map"></div>
 </main>
@@ -55,12 +60,30 @@ header a { display: inline-block; padding: 0.35rem 0; }
 header a:hover, footer a:hover { text-decoration: underline; }
 main { max-width: 46rem; margin: 0 auto; padding: 1.2rem 1.1rem 3rem; }
 main.map-page { max-width: none; padding: 0; }
-.map-intro { max-width: 54rem; margin: 0 auto; padding: 0.55rem 0.9rem 0.4rem; }
-.map-intro h1 { font-size: 1.15rem; margin: 0; }
-.map-intro .meta { margin: 0.1rem 0 0.35rem; font-size: 0.86rem; }
+.map-intro { max-width: none; margin: 0; padding: 0; }
+.map-bar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.7rem;
+  padding: 0.35rem 0.7rem; border-bottom: 1px solid var(--line); background: var(--paper);
+}
+.map-bar h1 { font-size: 1rem; margin: 0; }
+.map-count { color: var(--muted); font-size: 0.82rem; }
+.map-filters-toggle {
+  margin-left: auto; font: inherit; font-size: 0.82rem; font-weight: 650;
+  color: var(--ink); background: #fff; border: 1px solid var(--line);
+  border-radius: 999px; padding: 0.2rem 0.7rem; cursor: pointer;
+}
+.map-filters-toggle:hover, .map-filters-toggle:focus-visible {
+  border-color: var(--accent); color: var(--accent); outline: none;
+}
+.map-panel {
+  max-height: 34vh; overflow: auto; padding: 0.4rem 0.75rem 0.55rem;
+  border-bottom: 1px solid var(--line); background: #fff;
+}
+.map-panel[hidden] { display: none !important; }
 .map-legend {
-  display: flex; flex-wrap: wrap; gap: 0.35rem 0.75rem; align-items: center;
+  display: flex; flex-wrap: wrap; gap: 0.28rem 0.45rem; align-items: center;
   font-size: 0.78rem; line-height: 1.25; color: var(--muted);
+  margin-top: 0.35rem;
 }
 .map-legend .leg {
   display: inline-flex; align-items: center; gap: 0.3rem; white-space: nowrap; flex: none;
@@ -146,6 +169,7 @@ main.map-page { max-width: none; padding: 0; }
 @media (max-width: 700px) {
   .map-legend { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .map-years { max-width: none; }
+  .map-bar .map-areas { flex-basis: 100%; }
 }
 nav { display: flex; gap: 1.1rem; flex-wrap: wrap; align-items: baseline; }
 h1 { font-size: 1.45rem; line-height: 1.25; margin: 0 0 0.35rem; }
@@ -160,7 +184,8 @@ body:has(.map-page) {
 body:has(.map-page) header,
 body:has(.map-page) footer,
 body:has(.map-page) .map-intro { flex: none; }
-body:has(.map-page) footer { font-size: 0.78rem; line-height: 1.35; padding: 0.4rem 0.8rem; }
+body:has(.map-page) header { padding: 0.35rem 0.75rem; }
+body:has(.map-page) footer { font-size: 0.78rem; line-height: 1.35; padding: 0.28rem 0.75rem; }
 body:has(.map-page) .map-page {
   flex: 1;
   display: flex;
@@ -214,8 +239,8 @@ body:has(.map-page) #map { flex: 1; height: auto; min-height: 0; }
 }
 .leaflet-popup-content .popup-more:hover { text-decoration: underline; }
 .map-areas {
-  display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.35rem 0 0.15rem;
-  font-size: 0.8rem;
+  display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0;
+  font-size: 0.78rem;
 }
 .map-areas a {
   display: inline-block; padding: 0.2rem 0.55rem; border-radius: 999px;
@@ -237,7 +262,18 @@ main.place-page { max-width: 40rem; }
 }
 .place-page h1 { font-size: 1.9rem; line-height: 1.15; margin: 0.2rem 0 0.35rem; }
 .place-stats { margin: 0 0 0.75rem; color: var(--muted); }
-.place-page .lead { margin: 0 0 0.9rem; }
+.place-page .lead { margin: 0 0 0.85rem; }
+.place-search { display: block; margin: 0 0 0.7rem; }
+.place-search input {
+  width: 100%; font: inherit; font-size: 1rem;
+  padding: 0.55rem 0.7rem; border: 1px solid var(--line); border-radius: 8px;
+  background: #fff; color: inherit;
+}
+.place-search input:focus { outline: 2px solid color-mix(in srgb, var(--accent) 45%, white); border-color: var(--accent); }
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
 .place-osm { font-size: 0.92rem; color: var(--accent); }
 .place-related { margin: 0 0 1.15rem; }
 .place-related h2, .place-year {
@@ -601,9 +637,21 @@ function applyFilter() {
   updateFilterStatus(features.length, sourceFeatures.length);
 }
 
-function syncRubrikButton(btn, on) {
+function showingAllRubriks() {
+  return activeRubriks.size === knownRubriks.size;
+}
+
+function syncRubrikButton(btn, on, all) {
   btn.setAttribute("aria-pressed", on ? "true" : "false");
-  btn.title = on ? "Ausblenden" : "Einblenden";
+  btn.title = all ? "Nur diese zeigen" : on ? "Abwählen" : "Hinzufügen";
+}
+
+function syncAllRubrikButtons() {
+  const all = showingAllRubriks();
+  document.querySelectorAll(".map-legend button[data-rubrik]").forEach((btn) => {
+    const name = btn.getAttribute("data-rubrik") || "";
+    syncRubrikButton(btn, all || activeRubriks.has(name), all);
+  });
 }
 
 function bindYearSliders() {
@@ -674,22 +722,29 @@ function bindLegend() {
     if (!name) return;
     knownRubriks.add(name);
     activeRubriks.add(name);
-    syncRubrikButton(btn, true);
     btn.addEventListener("click", function () {
-      if (activeRubriks.has(name)) activeRubriks.delete(name);
-      else activeRubriks.add(name);
-      syncRubrikButton(btn, activeRubriks.has(name));
+      if (showingAllRubriks()) {
+        activeRubriks.clear();
+        activeRubriks.add(name);
+      } else if (activeRubriks.has(name)) {
+        activeRubriks.delete(name);
+        if (!activeRubriks.size) {
+          knownRubriks.forEach((rubrik) => activeRubriks.add(rubrik));
+        }
+      } else {
+        activeRubriks.add(name);
+      }
+      syncAllRubrikButtons();
       applyFilter();
     });
   });
+  syncAllRubrikButtons();
   const reset = document.getElementById("map-filter-reset");
   if (reset) {
     reset.addEventListener("click", function () {
       activeRubriks.clear();
       knownRubriks.forEach((name) => activeRubriks.add(name));
-      document.querySelectorAll(".map-legend button[data-rubrik]").forEach((btn) => {
-        syncRubrikButton(btn, true);
-      });
+      syncAllRubrikButtons();
       resetYears();
       applyFilter();
     });
@@ -710,6 +765,20 @@ if (embedded && embedded.features) {
   fetch("data/articles.geojson").then((r) => r.json()).then(showPlaces);
 }
 window.addEventListener("resize", function () { map.invalidateSize(); });
+
+(function () {
+  const toggle = document.getElementById("map-filters-toggle");
+  const panel = document.getElementById("map-panel");
+  if (!toggle || !panel) return;
+  toggle.addEventListener("click", function () {
+    const open = panel.hasAttribute("hidden");
+    if (open) panel.removeAttribute("hidden");
+    else panel.setAttribute("hidden", "");
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    toggle.textContent = open ? "Filter schließen" : "Filter";
+    map.invalidateSize();
+  });
+})();
 </script>
 
   <footer>

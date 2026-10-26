@@ -53,12 +53,30 @@ header a { display: inline-block; padding: 0.35rem 0; }
 header a:hover, footer a:hover { text-decoration: underline; }
 main { max-width: 46rem; margin: 0 auto; padding: 1.2rem 1.1rem 3rem; }
 main.map-page { max-width: none; padding: 0; }
-.map-intro { max-width: 54rem; margin: 0 auto; padding: 0.55rem 0.9rem 0.4rem; }
-.map-intro h1 { font-size: 1.15rem; margin: 0; }
-.map-intro .meta { margin: 0.1rem 0 0.35rem; font-size: 0.86rem; }
+.map-intro { max-width: none; margin: 0; padding: 0; }
+.map-bar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.7rem;
+  padding: 0.35rem 0.7rem; border-bottom: 1px solid var(--line); background: var(--paper);
+}
+.map-bar h1 { font-size: 1rem; margin: 0; }
+.map-count { color: var(--muted); font-size: 0.82rem; }
+.map-filters-toggle {
+  margin-left: auto; font: inherit; font-size: 0.82rem; font-weight: 650;
+  color: var(--ink); background: #fff; border: 1px solid var(--line);
+  border-radius: 999px; padding: 0.2rem 0.7rem; cursor: pointer;
+}
+.map-filters-toggle:hover, .map-filters-toggle:focus-visible {
+  border-color: var(--accent); color: var(--accent); outline: none;
+}
+.map-panel {
+  max-height: 34vh; overflow: auto; padding: 0.4rem 0.75rem 0.55rem;
+  border-bottom: 1px solid var(--line); background: #fff;
+}
+.map-panel[hidden] { display: none !important; }
 .map-legend {
-  display: flex; flex-wrap: wrap; gap: 0.35rem 0.75rem; align-items: center;
+  display: flex; flex-wrap: wrap; gap: 0.28rem 0.45rem; align-items: center;
   font-size: 0.78rem; line-height: 1.25; color: var(--muted);
+  margin-top: 0.35rem;
 }
 .map-legend .leg {
   display: inline-flex; align-items: center; gap: 0.3rem; white-space: nowrap; flex: none;
@@ -144,6 +162,7 @@ main.map-page { max-width: none; padding: 0; }
 @media (max-width: 700px) {
   .map-legend { flex-wrap: nowrap; overflow-x: auto; -webkit-overflow-scrolling: touch; }
   .map-years { max-width: none; }
+  .map-bar .map-areas { flex-basis: 100%; }
 }
 nav { display: flex; gap: 1.1rem; flex-wrap: wrap; align-items: baseline; }
 h1 { font-size: 1.45rem; line-height: 1.25; margin: 0 0 0.35rem; }
@@ -158,7 +177,8 @@ body:has(.map-page) {
 body:has(.map-page) header,
 body:has(.map-page) footer,
 body:has(.map-page) .map-intro { flex: none; }
-body:has(.map-page) footer { font-size: 0.78rem; line-height: 1.35; padding: 0.4rem 0.8rem; }
+body:has(.map-page) header { padding: 0.35rem 0.75rem; }
+body:has(.map-page) footer { font-size: 0.78rem; line-height: 1.35; padding: 0.28rem 0.75rem; }
 body:has(.map-page) .map-page {
   flex: 1;
   display: flex;
@@ -212,8 +232,8 @@ body:has(.map-page) #map { flex: 1; height: auto; min-height: 0; }
 }
 .leaflet-popup-content .popup-more:hover { text-decoration: underline; }
 .map-areas {
-  display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.35rem 0 0.15rem;
-  font-size: 0.8rem;
+  display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0;
+  font-size: 0.78rem;
 }
 .map-areas a {
   display: inline-block; padding: 0.2rem 0.55rem; border-radius: 999px;
@@ -235,7 +255,18 @@ main.place-page { max-width: 40rem; }
 }
 .place-page h1 { font-size: 1.9rem; line-height: 1.15; margin: 0.2rem 0 0.35rem; }
 .place-stats { margin: 0 0 0.75rem; color: var(--muted); }
-.place-page .lead { margin: 0 0 0.9rem; }
+.place-page .lead { margin: 0 0 0.85rem; }
+.place-search { display: block; margin: 0 0 0.7rem; }
+.place-search input {
+  width: 100%; font: inherit; font-size: 1rem;
+  padding: 0.55rem 0.7rem; border: 1px solid var(--line); border-radius: 8px;
+  background: #fff; color: inherit;
+}
+.place-search input:focus { outline: 2px solid color-mix(in srgb, var(--accent) 45%, white); border-color: var(--accent); }
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;
+}
 .place-osm { font-size: 0.92rem; color: var(--accent); }
 .place-related { margin: 0 0 1.15rem; }
 .place-related h2, .place-year {
@@ -597,9 +628,21 @@ function applyFilter() {
   updateFilterStatus(features.length, sourceFeatures.length);
 }
 
-function syncRubrikButton(btn, on) {
+function showingAllRubriks() {
+  return activeRubriks.size === knownRubriks.size;
+}
+
+function syncRubrikButton(btn, on, all) {
   btn.setAttribute("aria-pressed", on ? "true" : "false");
-  btn.title = on ? "Ausblenden" : "Einblenden";
+  btn.title = all ? "Nur diese zeigen" : on ? "Abwählen" : "Hinzufügen";
+}
+
+function syncAllRubrikButtons() {
+  const all = showingAllRubriks();
+  document.querySelectorAll(".map-legend button[data-rubrik]").forEach((btn) => {
+    const name = btn.getAttribute("data-rubrik") || "";
+    syncRubrikButton(btn, all || activeRubriks.has(name), all);
+  });
 }
 
 function bindYearSliders() {
@@ -670,22 +713,29 @@ function bindLegend() {
     if (!name) return;
     knownRubriks.add(name);
     activeRubriks.add(name);
-    syncRubrikButton(btn, true);
     btn.addEventListener("click", function () {
-      if (activeRubriks.has(name)) activeRubriks.delete(name);
-      else activeRubriks.add(name);
-      syncRubrikButton(btn, activeRubriks.has(name));
+      if (showingAllRubriks()) {
+        activeRubriks.clear();
+        activeRubriks.add(name);
+      } else if (activeRubriks.has(name)) {
+        activeRubriks.delete(name);
+        if (!activeRubriks.size) {
+          knownRubriks.forEach((rubrik) => activeRubriks.add(rubrik));
+        }
+      } else {
+        activeRubriks.add(name);
+      }
+      syncAllRubrikButtons();
       applyFilter();
     });
   });
+  syncAllRubrikButtons();
   const reset = document.getElementById("map-filter-reset");
   if (reset) {
     reset.addEventListener("click", function () {
       activeRubriks.clear();
       knownRubriks.forEach((name) => activeRubriks.add(name));
-      document.querySelectorAll(".map-legend button[data-rubrik]").forEach((btn) => {
-        syncRubrikButton(btn, true);
-      });
+      syncAllRubrikButtons();
       resetYears();
       applyFilter();
     });
@@ -706,6 +756,20 @@ if (embedded && embedded.features) {
   fetch("data/articles.geojson").then((r) => r.json()).then(showPlaces);
 }
 window.addEventListener("resize", function () { map.invalidateSize(); });
+
+(function () {
+  const toggle = document.getElementById("map-filters-toggle");
+  const panel = document.getElementById("map-panel");
+  if (!toggle || !panel) return;
+  toggle.addEventListener("click", function () {
+    const open = panel.hasAttribute("hidden");
+    if (open) panel.removeAttribute("hidden");
+    else panel.setAttribute("hidden", "");
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    toggle.textContent = open ? "Filter schließen" : "Filter";
+    map.invalidateSize();
+  });
+})();
 """
 
 
@@ -1159,7 +1223,8 @@ PLACE_FILTER_JS = """
   var buttons = Array.prototype.slice.call(
     document.querySelectorAll(".place-rubriks button[data-rubrik]")
   );
-  if (!buttons.length) return;
+  var search = document.getElementById("place-search");
+  if (!buttons.length && !search) return;
   var items = document.querySelectorAll(".place-page .cards li");
   var groups = document.querySelectorAll(".place-group");
   var empty = document.querySelector(".place-empty");
@@ -1171,11 +1236,28 @@ PLACE_FILTER_JS = """
       return !active[btn.getAttribute("data-rubrik")];
     }).length;
   }
+  function showingAll() {
+    return !buttons.length || hiddenCount() === 0;
+  }
+  function paint() {
+    var all = showingAll();
+    buttons.forEach(function (btn) {
+      var on = all || !!active[btn.getAttribute("data-rubrik")];
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+      btn.title = all ? "Nur diese zeigen" : on ? "Abwählen" : "Hinzufügen";
+    });
+  }
+  function query() {
+    return search ? search.value.trim().toLocaleLowerCase("de") : "";
+  }
   function apply() {
+    var q = query();
     var shown = 0;
     items.forEach(function (li) {
       var name = li.getAttribute("data-rubrik") || "";
-      var on = !name || !!active[name];
+      var rubrikOn = !buttons.length || !name || !!active[name];
+      var text = (li.textContent || "").toLocaleLowerCase("de");
+      var on = rubrikOn && (!q || text.indexOf(q) !== -1);
       li.hidden = !on;
       if (on) shown += 1;
     });
@@ -1185,16 +1267,33 @@ PLACE_FILTER_JS = """
       var count = group.querySelector(".place-year .n");
       if (count) count.textContent = String(visibleItems.length);
     });
-    if (empty) empty.hidden = shown !== 0;
+    if (empty) {
+      empty.hidden = shown !== 0;
+      empty.textContent = q
+        ? "Nichts in dieser Liste passt auf die Suche."
+        : "Keine Beiträge für diese Rubriken.";
+    }
     if (reset) reset.hidden = hiddenCount() === 0;
+    paint();
   }
   buttons.forEach(function (btn) {
     btn.addEventListener("click", function () {
       var name = btn.getAttribute("data-rubrik");
-      active[name] = !active[name];
-      var on = !!active[name];
-      btn.setAttribute("aria-pressed", on ? "true" : "false");
-      btn.title = on ? "Ausblenden" : "Einblenden";
+      if (showingAll()) {
+        buttons.forEach(function (other) {
+          active[other.getAttribute("data-rubrik")] = false;
+        });
+        active[name] = true;
+      } else if (active[name]) {
+        active[name] = false;
+        if (hiddenCount() === buttons.length) {
+          buttons.forEach(function (other) {
+            active[other.getAttribute("data-rubrik")] = true;
+          });
+        }
+      } else {
+        active[name] = true;
+      }
       apply();
     });
   });
@@ -1202,12 +1301,13 @@ PLACE_FILTER_JS = """
     reset.addEventListener("click", function () {
       buttons.forEach(function (btn) {
         active[btn.getAttribute("data-rubrik")] = true;
-        btn.setAttribute("aria-pressed", "true");
-        btn.title = "Ausblenden";
       });
+      if (search) search.value = "";
       apply();
     });
   }
+  if (search) search.addEventListener("input", apply);
+  apply();
 })();
 </script>
 """
@@ -1235,22 +1335,34 @@ def write_place_page(
     count_label = "1 Beitrag" if n == 1 else f"{n} Beiträge"
     stats = count_label + (f" · {span}" if span else "")
 
+    rubrik_counts: dict[str, int] = {}
+    for art in arts:
+        rubrik = str(art.get("rubrik") or "").strip()
+        if rubrik:
+            rubrik_counts[rubrik] = rubrik_counts.get(rubrik, 0) + 1
+    top = sorted(rubrik_counts.items(), key=lambda kv: (-kv[1], kv[0].casefold()))[:2]
+    when = ""
+    if span and "–" in span:
+        when = f" zwischen {span}"
+    elif span:
+        when = f" im Jahr {span}"
+    focus = ""
+    if top:
+        focus = " Am häufigsten " + " und ".join(f"{name} ({count})" for name, count in top) + "."
     if kind == "bereich":
         kicker = "Bereich · ohne Pin"
         note = (
-            f"{place} ist ein Bereich, kein einzelner Punkt. "
-            "Ein Pin würde einen Ort vortäuschen, den die Beiträge so nicht meinen. "
-            "Hier steht die ganze Liste. Straßen, Häuser und Plätze darin behalten ihre eigenen Pins."
-        )
-    elif n > 10:
-        kicker = "Ort auf der Karte"
-        note = (
-            "Im Popup auf der Karte stehen die zehn neuesten Beiträge. "
-            "Hier ist die ganze Liste, neueste zuerst."
+            f"{place} ist ein Gebiet, kein einzelner Punkt. "
+            f"{count_label}{when} nennen diesen Bereich.{focus} "
+            "Die Liste sammelt sie alle. Straßen, Häuser und Plätze darin haben eigene Seiten."
         )
     else:
         kicker = "Ort auf der Karte"
-        note = "Alle Beiträge, die diesen Ort nennen, neueste zuerst."
+        note = (
+            f"{count_label}{when} nennen {place}.{focus} "
+            "Ein Titel öffnet den Beitrag auf mittendran.de. "
+            "Suche und Rubriken grenzen die Liste ein; neueste stehen oben."
+        )
 
     osm = ""
     if kind == "ort" and lat is not None and lon is not None:
@@ -1293,11 +1405,6 @@ def write_place_page(
             f"{extra}</section>"
         )
 
-    rubrik_counts: dict[str, int] = {}
-    for art in arts:
-        rubrik = str(art.get("rubrik") or "").strip()
-        if rubrik:
-            rubrik_counts[rubrik] = rubrik_counts.get(rubrik, 0) + 1
     rubrik_order = [r for r in RUBRIK_COLORS if r in rubrik_counts]
     rubrik_order += sorted(set(rubrik_counts) - set(rubrik_order))
     rubrik_html = ""
@@ -1313,7 +1420,7 @@ def write_place_page(
             if interactive:
                 bits.append(
                     f'<button type="button" data-rubrik="{html.escape(rubrik)}" '
-                    f'aria-pressed="true" title="Ausblenden">{swatch}{label}</button>'
+                    f'aria-pressed="true" title="Nur diese zeigen">{swatch}{label}</button>'
                 )
             else:
                 bits.append(f'<span class="rubrik-static">{swatch}{label}</span>')
@@ -1376,7 +1483,15 @@ def write_place_page(
             f'<ul class="cards">{"".join(items)}</ul></section>'
         )
 
-    script = PLACE_FILTER_JS if len(rubrik_order) > 1 else ""
+    search_html = ""
+    if n > 6:
+        search_html = (
+            '<label class="place-search">'
+            '<span class="visually-hidden">In der Liste suchen</span>'
+            '<input type="search" id="place-search" placeholder="Titel oder Stichwort" />'
+            "</label>"
+        )
+    script = PLACE_FILTER_JS if (len(rubrik_order) > 1 or search_html) else ""
     body = f"""
 <main class="place-page">
   <p class="place-back"><a href="../../map.html">← Karte</a></p>
@@ -1386,6 +1501,7 @@ def write_place_page(
   <p class="lead">{html.escape(note)}</p>
   {osm}
   {related_html}
+  {search_html}
   {rubrik_html}
   {''.join(sections)}
   <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
@@ -1520,7 +1636,7 @@ def build() -> None:
     for r in legend_order:
         color = RUBRIK_COLORS.get(r, RUBRIK_FALLBACK)
         legend_bits.append(
-            f'<button type="button" class="leg" data-rubrik="{html.escape(r)}" aria-pressed="true" title="Ausblenden">'
+            f'<button type="button" class="leg" data-rubrik="{html.escape(r)}" aria-pressed="true" title="Nur diese zeigen">'
             f'<span class="sw" style="background:{html.escape(color)}"></span>'
             f"{html.escape(r)}</button>"
         )
@@ -1553,9 +1669,14 @@ def build() -> None:
     map_body = f"""
 <main class="map-page">
   <div class="map-intro">
-    <h1>Karte</h1>
-    <p class="meta">{len(features)} Orte — Kreis = 1 Beitrag (Rubrik-Farbe), Viereck = mehrere. Rubrik antippen blendet aus.</p>
-    {area_line}
+    <div class="map-bar">
+      <h1>Karte</h1>
+      <span class="map-count">{len(features)} Orte</span>
+      {area_line}
+      <p class="map-filter-status meta" id="map-filter-status" hidden></p>
+      <button type="button" class="map-filters-toggle" id="map-filters-toggle" aria-expanded="false" aria-controls="map-panel">Filter</button>
+    </div>
+    <div id="map-panel" class="map-panel" hidden>
     <div class="map-years" role="group" aria-label="Zeitraum filtern">
       <span class="year-heading">Zeitraum</span>
       <span class="year-label" id="year-label">{html.escape(label_from)} – {html.escape(label_to)}</span>
@@ -1570,7 +1691,7 @@ def build() -> None:
       </div>
     </div>
     <div class="map-legend" role="group" aria-label="Rubriken filtern">{''.join(legend_bits)}</div>
-    <p class="map-filter-status meta" id="map-filter-status" hidden></p>
+    </div>
   </div>
   <div id="map"></div>
 </main>

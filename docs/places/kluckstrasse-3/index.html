@@ -19,10 +19,11 @@
   <p class="place-kicker">Ort auf der Karte</p>
   <h1>Kluckstraße 3</h1>
   <p class="place-stats">2 Beiträge · 2023–2025</p>
-  <p class="lead">Alle Beiträge, die diesen Ort nennen, neueste zuerst.</p>
+  <p class="lead">2 Beiträge zwischen 2023–2025 nennen Kluckstraße 3. Am häufigsten Aus dem Kiez (1) und Kunst und Kultur (1). Ein Titel öffnet den Beitrag auf mittendran.de. Suche und Rubriken grenzen die Liste ein; neueste stehen oben.</p>
   <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50489&amp;mlon=13.36285#map=17/52.50489/13.36285" rel="noopener">Lage auf OpenStreetMap</a></p>
   <section class="place-related"><h2>Bereiche</h2><p class="meta">Größere Bereiche ohne eigenen Pin, die in denselben Beiträgen vorkommen.</p><ul class="place-chips"><li><a href="../potsdamer-strasse/">Potsdamer Straße <span class="n">1</span></a></li></ul></section>
-  <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><button type="button" data-rubrik="Aus dem Kiez" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">1</span></button><button type="button" data-rubrik="Kunst und Kultur" aria-pressed="true" title="Ausblenden"><span class="place-swatch" style="background:#8b4d9a"></span>Kunst und Kultur <span class="n">1</span></button><button type="button" id="place-filter-reset" hidden>alle einblenden</button></div>
+  
+  <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><button type="button" data-rubrik="Aus dem Kiez" aria-pressed="true" title="Nur diese zeigen"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">1</span></button><button type="button" data-rubrik="Kunst und Kultur" aria-pressed="true" title="Nur diese zeigen"><span class="place-swatch" style="background:#8b4d9a"></span>Kunst und Kultur <span class="n">1</span></button><button type="button" id="place-filter-reset" hidden>alle einblenden</button></div>
   <section class="place-group"><h2 class="place-year">2025 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/erziehung-und-wissenschaft-damals-7-das-crainsche-lyceum/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Erziehung und Wissenschaft damals (7): Das Crain´sche Lyceum</strong><div class="meta">2025-08-15 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Wir hatten neulich berichtet, dass Leni Riefenstahl bis zur mittleren Reife in eine Privatschule in Tiergarten ging (mittendran vom 28. Juni 2025…</p></span></a></li></ul></section><section class="place-group"><h2 class="place-year">2023 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Kunst und Kultur"><a href="https://www.mittendran.de/judenhaeuser-tiergarten-sued/" rel="noopener"><span class="place-bar" style="background:#8b4d9a"></span><span class="place-card-body"><strong>Judenhäuser in Tiergarten-Süd</strong><div class="meta">2023-10-19 · <span class="place-tag" style="background:color-mix(in srgb, #8b4d9a 28%, white)">Kunst und Kultur</span> · Paul Enck</div><p class="place-excerpt">Am 16. Oktober 2023 wurde eine Website freigeschaltet, die zu besuchen sich lohnt für alle, die sich für jüdische Geschichte, insbesondere für Berliner jüdische Geschichte interessieren. Auch diejenigen, die dies…</p></span></a></li></ul></section>
   <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
   
@@ -31,7 +32,8 @@
   var buttons = Array.prototype.slice.call(
     document.querySelectorAll(".place-rubriks button[data-rubrik]")
   );
-  if (!buttons.length) return;
+  var search = document.getElementById("place-search");
+  if (!buttons.length && !search) return;
   var items = document.querySelectorAll(".place-page .cards li");
   var groups = document.querySelectorAll(".place-group");
   var empty = document.querySelector(".place-empty");
@@ -43,11 +45,28 @@
       return !active[btn.getAttribute("data-rubrik")];
     }).length;
   }
+  function showingAll() {
+    return !buttons.length || hiddenCount() === 0;
+  }
+  function paint() {
+    var all = showingAll();
+    buttons.forEach(function (btn) {
+      var on = all || !!active[btn.getAttribute("data-rubrik")];
+      btn.setAttribute("aria-pressed", on ? "true" : "false");
+      btn.title = all ? "Nur diese zeigen" : on ? "Abwählen" : "Hinzufügen";
+    });
+  }
+  function query() {
+    return search ? search.value.trim().toLocaleLowerCase("de") : "";
+  }
   function apply() {
+    var q = query();
     var shown = 0;
     items.forEach(function (li) {
       var name = li.getAttribute("data-rubrik") || "";
-      var on = !name || !!active[name];
+      var rubrikOn = !buttons.length || !name || !!active[name];
+      var text = (li.textContent || "").toLocaleLowerCase("de");
+      var on = rubrikOn && (!q || text.indexOf(q) !== -1);
       li.hidden = !on;
       if (on) shown += 1;
     });
@@ -57,16 +76,33 @@
       var count = group.querySelector(".place-year .n");
       if (count) count.textContent = String(visibleItems.length);
     });
-    if (empty) empty.hidden = shown !== 0;
+    if (empty) {
+      empty.hidden = shown !== 0;
+      empty.textContent = q
+        ? "Nichts in dieser Liste passt auf die Suche."
+        : "Keine Beiträge für diese Rubriken.";
+    }
     if (reset) reset.hidden = hiddenCount() === 0;
+    paint();
   }
   buttons.forEach(function (btn) {
     btn.addEventListener("click", function () {
       var name = btn.getAttribute("data-rubrik");
-      active[name] = !active[name];
-      var on = !!active[name];
-      btn.setAttribute("aria-pressed", on ? "true" : "false");
-      btn.title = on ? "Ausblenden" : "Einblenden";
+      if (showingAll()) {
+        buttons.forEach(function (other) {
+          active[other.getAttribute("data-rubrik")] = false;
+        });
+        active[name] = true;
+      } else if (active[name]) {
+        active[name] = false;
+        if (hiddenCount() === buttons.length) {
+          buttons.forEach(function (other) {
+            active[other.getAttribute("data-rubrik")] = true;
+          });
+        }
+      } else {
+        active[name] = true;
+      }
       apply();
     });
   });
@@ -74,12 +110,13 @@
     reset.addEventListener("click", function () {
       buttons.forEach(function (btn) {
         active[btn.getAttribute("data-rubrik")] = true;
-        btn.setAttribute("aria-pressed", "true");
-        btn.title = "Ausblenden";
       });
+      if (search) search.value = "";
       apply();
     });
   }
+  if (search) search.addEventListener("input", apply);
+  apply();
 })();
 </script>
 

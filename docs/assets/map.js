@@ -304,9 +304,21 @@ function applyFilter() {
   updateFilterStatus(features.length, sourceFeatures.length);
 }
 
-function syncRubrikButton(btn, on) {
+function showingAllRubriks() {
+  return activeRubriks.size === knownRubriks.size;
+}
+
+function syncRubrikButton(btn, on, all) {
   btn.setAttribute("aria-pressed", on ? "true" : "false");
-  btn.title = on ? "Ausblenden" : "Einblenden";
+  btn.title = all ? "Nur diese zeigen" : on ? "Abwählen" : "Hinzufügen";
+}
+
+function syncAllRubrikButtons() {
+  const all = showingAllRubriks();
+  document.querySelectorAll(".map-legend button[data-rubrik]").forEach((btn) => {
+    const name = btn.getAttribute("data-rubrik") || "";
+    syncRubrikButton(btn, all || activeRubriks.has(name), all);
+  });
 }
 
 function bindYearSliders() {
@@ -377,22 +389,29 @@ function bindLegend() {
     if (!name) return;
     knownRubriks.add(name);
     activeRubriks.add(name);
-    syncRubrikButton(btn, true);
     btn.addEventListener("click", function () {
-      if (activeRubriks.has(name)) activeRubriks.delete(name);
-      else activeRubriks.add(name);
-      syncRubrikButton(btn, activeRubriks.has(name));
+      if (showingAllRubriks()) {
+        activeRubriks.clear();
+        activeRubriks.add(name);
+      } else if (activeRubriks.has(name)) {
+        activeRubriks.delete(name);
+        if (!activeRubriks.size) {
+          knownRubriks.forEach((rubrik) => activeRubriks.add(rubrik));
+        }
+      } else {
+        activeRubriks.add(name);
+      }
+      syncAllRubrikButtons();
       applyFilter();
     });
   });
+  syncAllRubrikButtons();
   const reset = document.getElementById("map-filter-reset");
   if (reset) {
     reset.addEventListener("click", function () {
       activeRubriks.clear();
       knownRubriks.forEach((name) => activeRubriks.add(name));
-      document.querySelectorAll(".map-legend button[data-rubrik]").forEach((btn) => {
-        syncRubrikButton(btn, true);
-      });
+      syncAllRubrikButtons();
       resetYears();
       applyFilter();
     });
@@ -413,3 +432,17 @@ if (embedded && embedded.features) {
   fetch("data/articles.geojson").then((r) => r.json()).then(showPlaces);
 }
 window.addEventListener("resize", function () { map.invalidateSize(); });
+
+(function () {
+  const toggle = document.getElementById("map-filters-toggle");
+  const panel = document.getElementById("map-panel");
+  if (!toggle || !panel) return;
+  toggle.addEventListener("click", function () {
+    const open = panel.hasAttribute("hidden");
+    if (open) panel.removeAttribute("hidden");
+    else panel.setAttribute("hidden", "");
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    toggle.textContent = open ? "Filter schließen" : "Filter";
+    map.invalidateSize();
+  });
+})();
