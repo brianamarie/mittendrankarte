@@ -44,8 +44,8 @@ places:
   status: confirmed
   via: gazetteer
 - name: Reichpietschufer
-  lat: 52.5065
-  lon: 13.372
+  lat: 52.50631
+  lon: 13.36738
   osm_id: null
   status: confirmed
   via: gazetteer

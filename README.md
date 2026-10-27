@@ -25,7 +25,7 @@ Kein SQL. Jeder Beitrag ist ein Ordner unter `articles/web/<datum>__<slug>/` (od
 ```
 articles/web/2025-11-06__zehn-neue-stolpersteine/
   meta.yaml      # title, date, rubrik, description, about_years, source_url, places
-  hero.jpg       # optional, nicht Teil der öffentlichen Seite
+  hero.jpg       # optional; auf den Ausgehen-Seiten das Beitragsbild des Stopps
 ```
 
 ## Karte

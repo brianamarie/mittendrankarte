@@ -14,8 +14,8 @@ tags: []
 source: {}
 places:
 - name: Magdeburger Platz
-  lat: 52.5047
-  lon: 13.3615
+  lat: 52.503594
+  lon: 13.360503
   osm_id: null
   status: confirmed
   via: gazetteer
@@ -26,8 +26,8 @@ places:
   status: confirmed
   via: address
 - name: Villa Lützow
-  lat: 52.504
-  lon: 13.356
+  lat: 52.504268
+  lon: 13.362851
   osm_id: null
   status: confirmed
   via: gazetteer

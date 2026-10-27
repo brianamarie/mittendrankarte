@@ -11,6 +11,8 @@
     <nav>
       <a href="../../index.html">mittendran-archiv</a>
       <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
     </nav>
   </header>
   
@@ -23,8 +25,9 @@
   <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50426&amp;mlon=13.36235#map=17/52.50426/13.36235" rel="noopener">Lage auf OpenStreetMap</a></p>
   <section class="place-related"><h2>Bereiche</h2><p class="meta">Größere Bereiche ohne eigenen Pin, die in denselben Beiträgen vorkommen.</p><ul class="place-chips"><li><a href="../potsdamer-strasse/">Potsdamer Straße <span class="n">1</span></a></li></ul></section>
   
+  
   <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><span class="rubrik-static"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">1</span></span></div>
-  <section class="place-group"><h2 class="place-year">2024 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/juedisches-leben-im-luetzow-viertel-13-versandhandel-blumenreich-teil-2/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Jüdisches Leben im Lützow-Viertel (13): Versandhandel A. Blumenreich (Teil 2)</strong><div class="meta">2024-07-20 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Im ersten Teil der Geschichte hatten wir die Herkunft Arnold Blumenreichs – und seiner Geschwister – vorgestellt, insbesondere den berühmt-berüchtigten Vater Paul Philipp Perez Blumenreich und seine vier Ehen mit…</p></span></a></li></ul></section>
+  <section class="place-group" id="y2024"><h2 class="place-year">2024 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez" data-date="2024-07-20" data-about="1842 1845 1875 1877 1885 1886 1890 1891 1899 1905 1906 1908 1911 1914 1916 1919 1922 1923 1933 1938 1939 1940 1941 1942 1943 1944 1959 1960 1963 1965 1986 2000"><a href="https://www.mittendran.de/juedisches-leben-im-luetzow-viertel-13-versandhandel-blumenreich-teil-2/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Jüdisches Leben im Lützow-Viertel (13): Versandhandel A. Blumenreich (Teil 2)</strong><div class="meta">2024-07-20 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Im ersten Teil der Geschichte hatten wir die Herkunft Arnold Blumenreichs – und seiner Geschwister – vorgestellt, insbesondere den berühmt-berüchtigten Vater Paul Philipp Perez Blumenreich und seine vier Ehen mit…</p></span></a></li></ul></section>
   <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
   
 </main>
@@ -34,5 +37,33 @@
     <a href="https://www.mittendran.de/">mittendran.de</a>
     — nicht die offizielle mitteNdran-Seite.
   </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
 </body>
 </html>

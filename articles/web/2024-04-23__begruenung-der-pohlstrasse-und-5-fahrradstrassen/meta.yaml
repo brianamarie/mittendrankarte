@@ -14,8 +14,8 @@ tags: []
 source: {}
 places:
 - name: Pohlstraße
-  lat: 52.5015
-  lon: 13.3645
+  lat: 52.5006
+  lon: 13.36527
   osm_id: null
   status: confirmed
   via: gazetteer
@@ -26,8 +26,8 @@ places:
   status: confirmed
   via: gazetteer
 - name: Villa Lützow
-  lat: 52.504
-  lon: 13.356
+  lat: 52.504268
+  lon: 13.362851
   osm_id: null
   status: confirmed
   via: gazetteer

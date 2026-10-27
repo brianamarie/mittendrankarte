@@ -11,6 +11,8 @@
     <nav>
       <a href="../../index.html">mittendran-archiv</a>
       <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
     </nav>
   </header>
   
@@ -23,8 +25,9 @@
   <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50445&amp;mlon=13.35358#map=17/52.50445/13.35358" rel="noopener">Lage auf OpenStreetMap</a></p>
   
   
+  
   <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><span class="rubrik-static"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">2</span></span></div>
-  <section class="place-group"><h2 class="place-year">2026 · <span class="n">2</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/starke-frauen-im-luetzow-viertel-teil-3-der-deutsche-lyceum-club-teil-2/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Starke Frauen im Lützow-Viertel (Teil 3): Der Deutsche Lyceum-Club (Teil 2)</strong><div class="meta">2026-06-27 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Der Deutsche Lyceum-Club (DLC) war zu Beginn seiner Aktivitäten als deutscher Arm des Internationalen Lyceum-Clubs (ILC) gegründet worden, hatte aber das englische Erbe aus finanziellen, wie auch aus organisatorischen…</p></span></a></li><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/starke-frauen-im-luetzow-viertel-teil-3-der-deutsche-lyceum-club/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Starke Frauen im Lützow-Viertel (Teil 3): Der Deutsche Lyceum-Club</strong><div class="meta">2026-04-25 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Der Deutsche Lyceum-Club war der letzte der neugegründeten Vereine der Frauenbewegung um die Jahrhundertwende, gegründet nach einem internationalen Frauenkongress im Jahr 1904. Er hatte sicherlich die prominenteste…</p></span></a></li></ul></section>
+  <section class="place-group" id="y2026"><h2 class="place-year">2026 · <span class="n">2</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez" data-date="2026-06-27" data-about="1827 1841 1843 1850 1862 1866 1871 1872 1875 1876 1877 1881 1894 1900 1901 1903 1905 1907 1908 1909 1911 1912 1913 1914 1915 1916 1918 1923 1927 1932 1933 1934 1935 1937 1938 1939 1942 1943 1951 1952 1959 1995 2015"><a href="https://www.mittendran.de/starke-frauen-im-luetzow-viertel-teil-3-der-deutsche-lyceum-club-teil-2/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Starke Frauen im Lützow-Viertel (Teil 3): Der Deutsche Lyceum-Club (Teil 2)</strong><div class="meta">2026-06-27 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Der Deutsche Lyceum-Club (DLC) war zu Beginn seiner Aktivitäten als deutscher Arm des Internationalen Lyceum-Clubs (ILC) gegründet worden, hatte aber das englische Erbe aus finanziellen, wie auch aus organisatorischen…</p></span></a></li><li data-rubrik="Aus dem Kiez" data-date="2026-04-25" data-about="1824 1828 1835 1837 1843 1849 1850 1860 1863 1869 1877 1880 1883 1889 1893 1896 1899 1900 1903 1904 1905 1907 1908 1909 1912 1913 1914 1916 1924 1928 1929 1933 1934 1937 1941 1956 1959 2009 2013 2015"><a href="https://www.mittendran.de/starke-frauen-im-luetzow-viertel-teil-3-der-deutsche-lyceum-club/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Starke Frauen im Lützow-Viertel (Teil 3): Der Deutsche Lyceum-Club</strong><div class="meta">2026-04-25 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Der Deutsche Lyceum-Club war der letzte der neugegründeten Vereine der Frauenbewegung um die Jahrhundertwende, gegründet nach einem internationalen Frauenkongress im Jahr 1904. Er hatte sicherlich die prominenteste…</p></span></a></li></ul></section>
   <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
   
 </main>
@@ -34,5 +37,33 @@
     <a href="https://www.mittendran.de/">mittendran.de</a>
     — nicht die offizielle mitteNdran-Seite.
   </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
 </body>
 </html>

@@ -32,8 +32,8 @@ places:
   status: confirmed
   via: gazetteer
 - name: Villa Lützow
-  lat: 52.504
-  lon: 13.356
+  lat: 52.504268
+  lon: 13.362851
   osm_id: null
   status: confirmed
   via: gazetteer

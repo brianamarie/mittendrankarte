@@ -14,8 +14,8 @@ tags: []
 source: {}
 places:
 - name: Deutschlandmuseum
-  lat: 52.5105
-  lon: 13.3765
+  lat: 52.508788
+  lon: 13.378434
   osm_id: null
   status: confirmed
   via: gazetteer

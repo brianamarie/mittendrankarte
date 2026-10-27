@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Philharmonie und der Platz davor</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
+    </nav>
+  </header>
+  
+<main class="date-page">
+  <p class="place-back"><a href="../../ausgehen.html">← Ausgehen</a></p>
+  <p class="place-kicker">Ein Haus, dann sitzen</p>
+  <h1>Philharmonie und der Platz davor</h1>
+  <p class="meta">Wochentag nachmittags · Das Haus und der Platz</p>
+  <p class="lead">Nachmittags, höchstens zehn Minuten zwischen den Türen. Kultur, dann Kaffee.</p>
+  <p class='date-food'><strong>Essen.</strong> Golvet, Potsdamer Straße 58. Im Michelin-Beitrag von 2023 hat Golvet einen Stern. Küche: Jonas Zörner. <a class="hours-link" href="https://golvet.de" rel="noopener">Öffnungszeiten</a></p>
+  
+  <div id="date-map" class="date-map" role="region" aria-label="Pins zu diesem Abend"></div>
+  <p class="meta">3 Pins. Ein Klick öffnet die Beiträge. Beim Essen liegt der Link zu den Öffnungszeiten im Pin.</p>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>window.RUBRIK_COLORS = {"Aus dem Kiez": "#4a7c59", "Kunst und Kultur": "#8b4d9a", "Miteinander": "#c45c26", "Öffentlicher Raum und Verkehr": "#2f6f9f", "Bauen und Wohnen": "#8b6914", "Gewerbe und Gastronomie": "#b33b3b", "Kiez-Geschichte": "#5c4a3a", "kiek ma!": "#d4a017", "Kinder, Heranwachsende, Schule": "#3d8b8b", "Kiez mit Kind": "#5aa0a0", "In eigener Sache": "#6b6b6b", "Sport und Freizeit": "#3f7d4e", "Der andere Blick": "#7a4e8c"}; window.DATE_PLACES = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.37, 52.51]}, "properties": {"place": "Philharmonie", "count": 4, "articles": [{"title": "Festival „Bauhaus-Archiv. Kommt auf die Baustelle!“", "url": "https://www.mittendran.de/festival-bauhaus-archiv-kommt-auf-die-baustelle/", "excerpt": "Mit dem Festival „Kommt auf die Baustelle!“ lädt das Bauhaus-Archiv / Museum für Gestaltung in den entstehenden Museumsneubau ein: die zukünftige Schaufläche für die weltweit größte Bauhaus-Sammlung. Das dreitägige…", "date": "2025-09-12", "about_years": [1929], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/festival-bauhaus-archiv-kommt-auf-die-baustelle/"}, {"title": "Museum der Moderne soll zum Vorbild der Nachhaltigkeit werden", "url": "https://www.mittendran.de/museum-der-modern-soll-zum-vorbild-der-nachhaltigkeit-werden/", "excerpt": "Das auch wegen seiner schlechten Energiebilanz umstrittene Museum des 20. Jahrhunderts in Berlin soll nach dem Willen von Kulturstaatsministerin Claudia Roth zu einem „Vorbild für Nachhaltigkeit“ werden. „Dieses Museum…", "date": "2023-04-18", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/museum-der-modern-soll-zum-vorbild-der-nachhaltigkeit-werden/"}, {"title": "Querflöten Friederichs des Großen und eine Stradivari", "url": "https://www.mittendran.de/querfloeten-friederichs-des-grossen-und-eine-stradivari/", "excerpt": "Bewundern Sie rund 800 weitere Instrumente der europäischen Kunstmusik vom 16.-20. Jahrhundert im Musikinstrumenten-Museum des Staatlichen Instituts für Musikforschung Preußischer Kulturbesitz („MIM“)…", "date": "2023-03-07", "about_years": [1888, 1972, 1979, 1984], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/querfloeten-friederichs-des-grossen-und-eine-stradivari/"}, {"title": "Spaziergang mit Lia Hiltz und Paul Enck (17): Das „Euthanasie“-Mahnmal an der Philharmonie", "url": "https://www.mittendran.de/spaziergang-mit-lia-hiltz-und-paul-enck-17-das-euthanasie-mahnmal-der-philharmonie/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/02/Bild-17_1-Euthanasie-Denkmal.jpeg) Bild 1: Copyright Lia Hiltz Lias Bild (Bild 1) provoziert gleich eine ganze Reihe von Denkanstößen. Zum einen: Euthanasie im…", "date": "2023-02-03", "about_years": [1750, 1844, 1921, 1926, 1933, 1935, 1939, 1940, 1942, 1945, 1987, 2008, 2009], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/spaziergang-mit-lia-hiltz-und-paul-enck-17-das-euthanasie-mahnmal-der-philharmonie/"}], "place_url": "../../places/philharmonie/", "place_slug": "philharmonie", "title": "Festival „Bauhaus-Archiv. Kommt auf die Baustelle!“", "url": "https://www.mittendran.de/festival-bauhaus-archiv-kommt-auf-die-baustelle/", "excerpt": "Mit dem Festival „Kommt auf die Baustelle!“ lädt das Bauhaus-Archiv / Museum für Gestaltung in den entstehenden Museumsneubau ein: die zukünftige Schaufläche für die weltweit größte Bauhaus-Sammlung. Das dreitägige…", "date": "2025-09-12"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.364749, 52.508513]}, "properties": {"place": "Kulturforum", "count": 19, "articles": [{"title": "Ein „Tag im Grünen“ im Kulturforum", "url": "https://www.mittendran.de/ein-tag-im-gruenen-im-kulturforum/", "excerpt": "Am 13. September 2026 verwandelt sich das Kulturforum Berlin wieder in einen großen Veranstaltungsraum – drinnen und draußen. Zum fünften Mal laden die dort ansässigen Kultur- und Wissenschaftseinrichtungen sowie die…", "date": "2026-09-06", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/ein-tag-im-gruenen-im-kulturforum/"}, {"title": "Berlin Art Week vom 9.-13. September", "url": "https://www.mittendran.de/berlin-art-week-vom-9-13-september/", "excerpt": "Der Berlin Art Week Garten ist in diesem Jahr zu Gast am Kulturforum mit der Neuen Nationalgalerie und der Gemäldegalerie! Zum 15-jährigen Jubiläum der Berlin Art Week wird das Areal zwischen Potsdamer Platz…", "date": "2026-09-01", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/berlin-art-week-vom-9-13-september/"}, {"title": "Presseschau des Stadtteilforums Tiergarten Süd", "url": "https://www.mittendran.de/presseschau-des-stadtteilforums-tiergarten-sued-3/", "excerpt": "Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/ (https://forum-tgs.de/)). In den letzten 7 Tagen sind uns diese…", "date": "2026-08-21", "about_years": [1960, 1961], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/presseschau-des-stadtteilforums-tiergarten-sued-3/"}, {"title": "Nur noch wenige Tage: Das Sommerkino am Kulturforum", "url": "https://www.mittendran.de/nur-noch-wenige-tage-das-sommerkino-am-kulturforum/", "excerpt": "Bis zum 28. August gibt es noch das „arte Sommerkino“ vor der Gemäldegalerie am Kulturforum. Die Abende werden kühler, also unbedingt eine Jacke mitbringen. Wolldecken gibt es auch. Außerdem zwei Bars mit Getränken und…", "date": "2026-08-19", "about_years": [], "rubrik": "Gewerbe und Gastronomie", "source_url": "https://www.mittendran.de/nur-noch-wenige-tage-das-sommerkino-am-kulturforum/"}, {"title": "180 Jahre St. Matthäus-Kirche", "url": "https://www.mittendran.de/180-jahre-st-matthaeus-kirche/", "excerpt": "Am 17. Mai 1846 wurde die St. Matthäus-Kirche geweiht – noch vor den Toren der Stadt zwischen Feldern und Wiesen, wenige Jahre später Zentrum des wohlhabenden und kulturell pulsierenden Tiergartenviertels. Genau 180…", "date": "2026-05-06", "about_years": [1845, 1846], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/180-jahre-st-matthaeus-kirche/"}, {"title": "Kulturforum JETZT! 10 Positionen zur Aktivierung des Kulturforums", "url": "https://www.mittendran.de/kulturforum-jetzt-10-positionen-zur-aktivierung-des-kulturforums/", "excerpt": "Das Kulturforum gilt seit dem Bau der Philharmonie als Problemzone, man hält sich hier nicht gern auf, die Baustelle des neuen Kunstmuseums macht den Ort nicht angenehmer. Zehn Studierende der Universität der Künste…", "date": "2026-02-02", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/kulturforum-jetzt-10-positionen-zur-aktivierung-des-kulturforums/"}, {"title": "Masterplan Kulturforum fortgeschrieben", "url": "https://www.mittendran.de/masterplan-kulturforum-fortgeschrieben/", "excerpt": "Am 13. Januar hat der Berliner Senat den erneuerten Masterplan Kulturforum beschlossen, in dem die Neugestaltung und Aufwertung des Gebietes rund um Philharmonie, Gemäldegalerie und das neue Kunstmuseum „berlin modern“…", "date": "2026-01-21", "about_years": [2006], "rubrik": "Bauen und Wohnen", "source_url": "https://www.mittendran.de/masterplan-kulturforum-fortgeschrieben/"}, {"title": "Jung, aber Denkmal: Kulturforum", "url": "https://www.mittendran.de/jung-aber-denkmal-kulturforum/", "excerpt": "Diskussionsveranstaltung in der Urania: Jung, aber Denkmal: Kulturforum Locker gruppierte Großbauten mit weiträumigen Freiflächen in einer offenen, fließenden Stadtlandschaft – so lautete die städtebauliche Vorstellung…", "date": "2025-11-01", "about_years": [], "rubrik": "Bauen und Wohnen", "source_url": "https://www.mittendran.de/jung-aber-denkmal-kulturforum/"}, {"title": "Eine runde Sache an der Ecke – das Loeser & Wolff-Haus", "url": "https://www.mittendran.de/eine-runde-sache-der-ecke-das-loeser-wolff-haus/", "excerpt": "Eines der bekanntesten Bücher Walter Kempowskis trägt den Titel „Tadellöser und Wolff“. Sein Vater pflegte den Firmennamen der bekanntesten, 1866 am Berliner Alexanderplatz gegründeten Zigarrenfabrik Deutschlands…", "date": "2025-08-07", "about_years": [1866, 1902, 1929, 1931, 2004], "rubrik": "Bauen und Wohnen", "source_url": "https://www.mittendran.de/eine-runde-sache-der-ecke-das-loeser-wolff-haus/"}, {"title": "Ein Spaziergang durch das verschwundene Tiergartenviertel", "url": "https://www.mittendran.de/ein-spaziergang-durch-das-verschwundene-tiergartenviertel/", "excerpt": "Eine neue Ausstellung im oberen Foyer der Kunstbibliothek am Kulturforum zeigt auf großen Wandtapeten ein Panorama mit 15 berühmten Persönlichkeiten, die bis zu seiner Zerstörung im alten Tiergartenviertel rund um die…", "date": "2025-05-27", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/ein-spaziergang-durch-das-verschwundene-tiergartenviertel/"}, {"title": "Vortragsreihe in der Kunstbibliothek: Kunstgeschichte(n) des Tiergartenviertels", "url": "https://www.mittendran.de/vortragsreihe-der-kunstbibliothek-kunstgeschichten-des-tiergartenviertels/", "excerpt": "Am kommenden Sonntag, 19. Januar 2025, beginnt die dritte Folge der „Kunstgeschichte(n) des Tiergartenviertels“ mit 10 weiteren Vorträgen im Jahr 2025. Angefangen wird mit einem Vortrag, der 2024 ausfallen musste, über…", "date": "2025-01-17", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/vortragsreihe-der-kunstbibliothek-kunstgeschichten-des-tiergartenviertels/"}, {"title": "EKBOART Kunstauktion", "url": "https://www.mittendran.de/ekboart-kunstauktion/", "excerpt": "„Kunst hilft helfen“ ist das Motto der Kunstauktion der Evangelischen Kirche Berlin-Brandenburg-schlesische Oberlausitz (EKBO). Seit 1996 setzt sich die Kunstauktion der EKBO einmal im Jahr unter der Schirmherrschaft…", "date": "2024-11-29", "about_years": [1996], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/ekboart-kunstauktion/"}, {"title": "Piazzetta heißt jetzt Johanna und Eduard Arnhold Platz", "url": "https://www.mittendran.de/piazzetta-heisst-jetzt-johanna-und-eduard-arnhold-platz/", "excerpt": "Die Piazzetta am Eingang der Museen am Kulturforum wurde umbenannt und erinnert jetzt an das Mäzenatenpaar Arnhold. Damit wird an das jüdische Ehepaar erinnert, das in der Kaiserzeit und der Weimarer Republik Kunst…", "date": "2024-11-06", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/piazzetta-heisst-jetzt-johanna-und-eduard-arnhold-platz/"}, {"title": "Grundsteinlegung am Museum der Moderne", "url": "https://www.mittendran.de/grundsteinlegung-museum-der-moderne/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2024/02/P1130894-scaled.jpg) So sah es auf der Baustelle noch vor ca. 1 Jahr aus (Foto:eki) „Auf Deutschlands aktuell teuerster Kulturbaustelle wird an diesem Freitag um…", "date": "2024-02-09", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/grundsteinlegung-museum-der-moderne/"}, {"title": "Eintrittsfreier Museumssonntag findet auch 2024 und 2025 statt", "url": "https://www.mittendran.de/eintrittsfreier-museumssonntag-finde-auch-2024-und-2025-statt/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/08/2023-Kulturforum-Foto-eki-1-scaled.jpg) Kulturforum (Foto:eki) Auch im neuen Jahr bieten viele Berliner Kultureinrichtungen wieder den eintrittsfreien…", "date": "2024-01-04", "about_years": [1700], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/eintrittsfreier-museumssonntag-finde-auch-2024-und-2025-statt/"}, {"title": "„Changing Lights“ – Die Gemäldegalerie feiert Geburtstag", "url": "https://www.mittendran.de/changing-lights-die-gemaeldegalerie-feiert-geburtstag/", "excerpt": "Am Samstag, 18. November 2023, feiert das Museum ein Jubiläumsfest: 25 Jahre Gemäldegalerie am Kulturforum Samstag 18.11.2023 10:00 – 23:00 Uhr Die Gemäldegalerie feiert! Vor 25 Jahren eröffnete der neue, von Hilmer &…", "date": "2023-11-16", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/changing-lights-die-gemaeldegalerie-feiert-geburtstag/"}, {"title": "Wird der Potsdamer Platz ins Gleisdreieck verlängert?", "url": "https://www.mittendran.de/wird-der-potsdamer-platz-ins-gleisdreieck-verlaengert/", "excerpt": "Ein Beitrag von Mathias Bauer, Gleisdreieckblog (https://gleisdreieck-blog.de) 25 Jahre nach der Eröffnung Veröffentlicht am 13. 09. 2023 Gerade steht das 25jährige Jubiläum des neuen Potsdamer Platzes an. Doch zum…", "date": "2023-09-14", "about_years": [1988, 1992, 1994, 1995, 1996, 1998, 2006], "rubrik": "Bauen und Wohnen", "source_url": "https://www.mittendran.de/wird-der-potsdamer-platz-ins-gleisdreieck-verlaengert/"}, {"title": "Museum der Moderne soll zum Vorbild der Nachhaltigkeit werden", "url": "https://www.mittendran.de/museum-der-modern-soll-zum-vorbild-der-nachhaltigkeit-werden/", "excerpt": "Das auch wegen seiner schlechten Energiebilanz umstrittene Museum des 20. Jahrhunderts in Berlin soll nach dem Willen von Kulturstaatsministerin Claudia Roth zu einem „Vorbild für Nachhaltigkeit“ werden. „Dieses Museum…", "date": "2023-04-18", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/museum-der-modern-soll-zum-vorbild-der-nachhaltigkeit-werden/"}, {"title": "Querflöten Friederichs des Großen und eine Stradivari", "url": "https://www.mittendran.de/querfloeten-friederichs-des-grossen-und-eine-stradivari/", "excerpt": "Bewundern Sie rund 800 weitere Instrumente der europäischen Kunstmusik vom 16.-20. Jahrhundert im Musikinstrumenten-Museum des Staatlichen Instituts für Musikforschung Preußischer Kulturbesitz („MIM“)…", "date": "2023-03-07", "about_years": [1888, 1972, 1979, 1984], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/querfloeten-friederichs-des-grossen-und-eine-stradivari/"}], "place_url": "../../places/kulturforum/", "place_slug": "kulturforum", "title": "Ein „Tag im Grünen“ im Kulturforum", "url": "https://www.mittendran.de/ein-tag-im-gruenen-im-kulturforum/", "excerpt": "Am 13. September 2026 verwandelt sich das Kulturforum Berlin wieder in einen großen Veranstaltungsraum – drinnen und draußen. Zum fünften Mal laden die dort ansässigen Kultur- und Wissenschaftseinrichtungen sowie die…", "date": "2026-09-06"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.3675963, 52.505532]}, "properties": {"place": "Golvet", "count": 1, "articles": [{"title": "Der Guide Michelin 2023 hat gesprochen", "url": "https://www.mittendran.de/der-guide-michelin-2023-hat-gesprochen/", "date": "2023-04-15", "rubrik": "Aus dem Kiez", "excerpt": "Golvet in der Potsdamer Straße 58. Im Beitrag von 2023 ein Stern, Küche Jonas Zörner."}], "hours_url": "https://golvet.de"}}]};</script>
+  <script>
+const RUBRIK_COLORS = window.RUBRIK_COLORS || {};
+const RUBRIK_FALLBACK = "#7a6a58";
+
+function esc(s) {
+  return String(s || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function rubrikColor(name) {
+  const key = String(name || "").trim();
+  if (!key) return RUBRIK_FALLBACK;
+  if (RUBRIK_COLORS[key]) return RUBRIK_COLORS[key];
+  let h = 0;
+  for (let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) >>> 0;
+  return "hsl(" + (h % 360) + " 42% 42%)";
+}
+
+function conicFromArticles(articles) {
+  if (!articles.length) return RUBRIK_FALLBACK;
+  const counts = {};
+  const order = [];
+  articles.forEach((a) => {
+    const r = String(a.rubrik || "").trim() || "Sonstiges";
+    if (!counts[r]) {
+      counts[r] = 0;
+      order.push(r);
+    }
+    counts[r] += 1;
+  });
+  const total = articles.length;
+  let start = 0;
+  const parts = order.map((r) => {
+    const share = (counts[r] / total) * 100;
+    const end = start + share;
+    const slice = rubrikColor(r) + " " + start.toFixed(2) + "% " + end.toFixed(2) + "%";
+    start = end;
+    return slice;
+  });
+  return "conic-gradient(" + parts.join(", ") + ")";
+}
+
+function articleRow(a) {
+  const rubrik = String(a.rubrik || "").trim();
+  const color = rubrikColor(rubrik);
+  const tag = rubrik
+    ? "<span class='rubrik-tag' style='background:color-mix(in srgb, " +
+      color +
+      " 28%, white)'>" +
+      esc(rubrik) +
+      "</span>"
+    : "";
+  const line = [a.date ? esc(a.date) : "", tag].filter(Boolean).join(" · ");
+  const excerpt = a.excerpt
+    ? "<p class='popup-excerpt'>" + esc(a.excerpt) + "</p>"
+    : "";
+  const inner =
+    "<span class='chip' style='background:" +
+    color +
+    "' title='" +
+    esc(rubrik || "ohne Rubrik") +
+    "'></span><div><span class='t'>" +
+    esc(a.title) +
+    "</span>" +
+    (line ? "<div class='popup-meta'>" + line + "</div>" : "") +
+    excerpt +
+    "</div>";
+  return a.url
+    ? "<li><a href='" + esc(a.url) + "'>" + inner + "</a></li>"
+    : "<li style='display:grid;grid-template-columns:0.55rem 1fr;gap:0.55rem'>" +
+        inner +
+        "</li>";
+}
+
+function popupHtml(p) {
+  const articles = Array.isArray(p.articles) ? p.articles : [];
+  const place = p.place || (articles[0] && articles[0].title) || "Ort";
+  const n = articles.length || p.count || 0;
+  const meta = n > 1 ? n + " Beiträge" : n === 1 ? "1 Beitrag" : "";
+  const shown = articles.slice(0, 10);
+  const items = shown.map(articleRow).join("");
+  const moreHref = p.place_url || "";
+  const more =
+    n > 10 && moreHref
+      ? "<a class='popup-more' href='" + esc(moreHref) + "'>Alle " + n + " Beiträge →</a>"
+      : moreHref && n > 1
+        ? "<a class='popup-more' href='" + esc(moreHref) + "'>Zur Ortsseite →</a>"
+        : "";
+  const hours = p.hours_url
+    ? "<a class='popup-more' href='" + esc(p.hours_url) + "' rel='noopener'>Öffnungszeiten</a>"
+    : "";
+  return (
+    "<div class='map-popup'>" +
+    "<strong class='popup-place'>" +
+    esc(place) +
+    "</strong>" +
+    (meta ? "<div class='popup-meta'>" + esc(meta) + "</div>" : "") +
+    "<ul class='popup-articles'>" +
+    items +
+    "</ul>" +
+    hours +
+    more +
+    "</div>"
+  );
+}
+
+function singleStyle(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const fill = rubrikColor(arts[0] && arts[0].rubrik);
+  return {
+    radius: 8,
+    color: "#2a221c",
+    weight: 1.4,
+    fillColor: fill,
+    fillOpacity: 0.92,
+  };
+}
+
+function multiIcon(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const n = arts.length || 1;
+  const size = Math.min(22, 12 + Math.sqrt(n) * 3.2);
+  return L.divIcon({
+    className: "",
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+    html:
+      "<div class='pin-multi' style='width:" +
+      size +
+      "px;height:" +
+      size +
+      "px;background:" +
+      conicFromArticles(arts) +
+      "' title='" +
+      esc(String(n) + " Beiträge") +
+      "'></div>",
+  });
+}
+
+const geo = window.DATE_PLACES || { type: "FeatureCollection", features: [] };
+const map = L.map("date-map", { scrollWheelZoom: false });
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19,
+  attribution: "&copy; OpenStreetMap",
+}).addTo(map);
+const layer = L.geoJSON(geo, {
+  pointToLayer(feature, latlng) {
+    const props = (feature && feature.properties) || {};
+    const n = props.count || 1;
+    if (props.hours_url) {
+      return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true, zIndexOffset: 1000 });
+    }
+    if (n > 1) return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true });
+    return L.circleMarker(latlng, singleStyle(feature));
+  },
+  onEachFeature(feature, lyr) {
+    lyr.bindPopup(popupHtml(feature.properties || {}), {
+      maxWidth: Math.min(320, Math.max(180, window.innerWidth - 56)),
+      autoPan: true,
+      autoPanPadding: [12, 12],
+    });
+  },
+}).addTo(map);
+if (layer.getBounds().isValid()) {
+  map.fitBounds(layer.getBounds(), { padding: [28, 28], maxZoom: 16 });
+}
+map.invalidateSize();
+</script>
+
+  <h2>Stopps</h2>
+  <ol class="date-order"><li><a href="../../places/philharmonie/">Philharmonie</a><figure class="date-photo"><a href="https://www.mittendran.de/neues-vom-scharounplatz/" rel="noopener"><img src="../../assets/dates/philharmonie-platz/0.jpg" alt="Neues vom Scharounplatz"></a><figcaption><a href="https://www.mittendran.de/neues-vom-scharounplatz/" rel="noopener">Neues vom Scharounplatz</a></figcaption></figure></li><li><a href="../../places/kulturforum/">Kulturforum</a><figure class="date-photo"><a href="https://www.mittendran.de/jetzt-sind-die-baeume-da/" rel="noopener"><img src="../../assets/dates/philharmonie-platz/1.jpg" alt="Jetzt sind die Bäume da"></a><figcaption><a href="https://www.mittendran.de/jetzt-sind-die-baeume-da/" rel="noopener">Jetzt sind die Bäume da</a></figcaption></figure></li><li>Golvet <a class="hours-link" href="https://golvet.de" rel="noopener">Öffnungszeiten</a><figure class="date-photo"><a href="https://www.mittendran.de/der-guide-michelin-2023-hat-gesprochen/" rel="noopener"><img src="../../assets/dates/philharmonie-platz/2.jpg" alt="Der Guide Michelin 2023 hat gesprochen."></a><figcaption><a href="https://www.mittendran.de/der-guide-michelin-2023-hat-gesprochen/" rel="noopener">Der Guide Michelin 2023 hat gesprochen.</a></figcaption></figure></li></ol>
+  <h2>Gelesen</h2>
+  <p class="meta">Zusammengelesen aus den genannten Beiträgen. Was dort nicht steht, steht hier nicht.</p>
+  <div class="date-narrative"><p>Der Saal von außen, oder hinein, wenn eine offene Probe ist. Das sagen die Beiträge nicht. Sie sagen, was mit dem Platz vor dem Haus geschieht, und was das Mahnmal nebenan zu erklären hat.</p><p>Am 17. November 2023: die vor ein paar Jahren verlegten Steine am Scharounplatz, auf dem Streifen entlang der Philharmonie, sind abgesackt. Der Untergrund wird erneuert, die Steine danach neu verlegt. Einige der Bäume in Kübeln aus der „Baumschule Kulturforum“ wurden auf das grüne Rondell der St. Matthäus-Kirche umgesetzt.</p><p>Wie die Bäume dort hingekommen sind, steht im Stück vom 28. August 2023. Junge Bäume in Pflanztöpfen besiedeln das Gelände, das oft als Steinwüste bezeichnet wird. Klaus Biesenbach, Direktor der Neuen Nationalgalerie und Initiator, hat die Rauminstallation mit dem atelier le balto erarbeitet und kuratiert. Projektträgerin ist die Stiftung St. Matthäus. Seit Ende Mai 2023 stehen heimische und nicht heimische Arten auf der Piazzetta vor dem Café Estrade, auf dem Scharounplatz, und demnächst auf dem Rondell. Auf der Piazzetta unter einer Pergola, an Gewächshäuser angelehnt, die im nächsten Jahr begrünt werden soll. Bambusstäbe gegen den Wind. Sitzgelegenheiten unter den Bäumen. Die Bäume kommen liegend auf dem Lkw, werden in Töpfe gehoben, die Töpfe mit Substrat gefüllt. Ein Topf wiegt bis zu einer halben Tonne. Jutesäcke halten das Substrat feucht. Ein Gartenbaubetrieb gießt. Der Scharounplatz bekommt ein Weiden-Carré aus 25 Bäumen in Pflanztrögen, dazu Bänke. Die Installation kann jederzeit kostenfrei besucht werden. Am Dienstag der Woche, in der der Beitrag erscheint, kommen noch 37 Bäume für den Scharounplatz, Ende der Woche 18 weitere für die Piazzetta. Schilder mit den Arten sind in Arbeit. Für die Art Week vom 13. bis 17. September 2023 soll vor der Neuen Nationalgalerie eine weitere, ebenfalls temporäre Baumschule entstehen. Am Sonntag, dem 3. September 2023, ab 11 Uhr, „Ein Tag im Grünen“, Eintritt frei, eine Tafel unter freiem Himmel. Der Text fragt, wie es wäre, wenn das Kulturforum immer grün wäre, und zählt auf, was Bäume tun: CO2 binden, Schadstoffe filtern, Sauerstoff, Kühle, Schatten, Raum und Nahrung für Tiere.</p><p>Neben der Philharmonie bleibt der Spaziergang von Lia Hiltz und Paul Enck am 3. Februar 2023 am Mahnmal für die Ermordeten der „Euthanasie“ stehen, und er besteht auf den Anführungszeichen. Euthanasie heiße schöner oder guter Tod. Was die Nationalsozialisten organisiert hatten, war die systematische Tötung von mehr als 300.000 vor allem geistig behinderten Menschen in Heimen und Kliniken in ganz Europa. Das Mahnmal heißt auch T4-Denkmal, nach der Adresse Tiergartenstraße 4, dem Haus, in dem dieser Mord geplant wurde. Das Programm begann 1933 in Brandenburg-Görden und dauerte bis zum Kriegsende. Die Tiergartenstraße war vom mittleren 18. Jahrhundert bis zum Krieg ein Wohnviertel der Reichen, vor allem Militärs und Unternehmer. An dieser Adresse ab 1750 ein Oberstleutnant von Kleist, dann der Bankdirektor Reichert, der Bankier Weißbach, zuletzt der Textilfabrikant Georg Liebermann (1844–1926). 1935 mietet die NSDAP die Villa von den Kindern des Fabrikanten, zusammen mit einem Nachbarhaus. 1940 wird sie „arisiert“: die jüdischen Besitzer enteignet, das Haus unter Marktwert an das Reichsfinanzministerium verkauft. Enck fragt, ob diese Morde mit den Judenmorden in den Lagern zu tun haben. Die Forschung, schreibt er, sagt ja: die Tötungen galten als Testfälle und wurden in die Lager exportiert, und sie wurden anhand der Erfahrung dort weiter rationalisiert. In den angeschlossenen Gebieten, Österreich, Elsass-Lothringen, Böhmen und Mähren, Warthegau, ist die „Euthanasie“ belegt, auch Erschießungen von Patienten in Polen und der Sowjetunion, nicht jedoch in Holland, Belgien und Frankreich. Für Italien und Spanien sagt die Forschung nein. Kirchliche Proteste in Deutschland um 1942 haben das Morden nicht verhindert, aber gebremst. Es ging in aller Stille weiter. Für die Menschen in den Heimen war die Bedrohung das Bild der grauen Busse der GEKRAT, der Gemeinnützigen Krankentransportgesellschaft, die in die Gaskammern von Grafeneck, Brandenburg, Heilbronn und anderen Orten fuhr. Das Denkmal der Grauen Busse stand von Januar 2008 bis Januar 2009 am früheren Ort der Villa und fuhr dann weiter nach Brandenburg.</p><p>Genannt wird das Café Estrade, vor dem die Piazzetta liegt. Gegessen wird auf dieser Seite im Golvet. Der Michelin-Beitrag vom 15. April 2023: Potsdamer Straße 58, Küchenchef Jonas Zörner, der Stern bleibt. Ein Stern heißt dort: eine Küche voller Finesse, einen Stopp wert.</p></div>
+  <h2>Aus den Beiträgen</h2><ul class='date-sources'><li><a href="https://www.mittendran.de/neues-vom-scharounplatz/" rel="noopener">Neues vom Scharounplatz</a></li><li><a href="https://www.mittendran.de/jetzt-sind-die-baeume-da/" rel="noopener">Jetzt sind die Bäume da</a></li><li><a href="https://www.mittendran.de/spaziergang-mit-lia-hiltz-und-paul-enck-17-das-euthanasie-mahnmal-der-philharmonie/" rel="noopener">Spaziergang mit Lia Hiltz und Paul Enck (17): Das Euthanasie-Mahnmal an der Philharmonie</a></li><li><a href="https://www.mittendran.de/jung-aber-denkmal-kulturforum/" rel="noopener">Jung, aber Denkmal: Kulturforum</a></li><li><a href="https://www.mittendran.de/der-guide-michelin-2023-hat-gesprochen/" rel="noopener">Der Guide Michelin 2023 hat gesprochen</a></li></ul>
+  <p class="meta">Öffnungszeiten stehen hier nicht. Der Link beim Essen führt auf die Seite des Hauses.</p>
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
+</body>
+</html>

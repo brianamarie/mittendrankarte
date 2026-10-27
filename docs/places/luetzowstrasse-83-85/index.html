@@ -11,6 +11,8 @@
     <nav>
       <a href="../../index.html">mittendran-archiv</a>
       <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
     </nav>
   </header>
   
@@ -23,8 +25,9 @@
   <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50322&amp;mlon=13.36264#map=17/52.50322/13.36264" rel="noopener">Lage auf OpenStreetMap</a></p>
   
   
+  
   <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><span class="rubrik-static"><span class="place-swatch" style="background:#8b6914"></span>Bauen und Wohnen <span class="n">1</span></span></div>
-  <section class="place-group"><h2 class="place-year">2026 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Bauen und Wohnen"><a href="https://www.mittendran.de/neue-fahrradstrassen-tiergarten-sued/" rel="noopener"><span class="place-bar" style="background:#8b6914"></span><span class="place-card-body"><strong>Neue Fahrradstraßen in Tiergarten-Süd</strong><div class="meta">2026-04-19 · <span class="place-tag" style="background:color-mix(in srgb, #8b6914 28%, white)">Bauen und Wohnen</span> · FP</div><p class="place-excerpt">Am Donnerstag, 23. April um 18:00 Uhr lädt der Bezirksstadtrat für den Öffentlichen Raum, Christopher Schriner, gemeinsam mit dem Straßen- und Grünflächenamt zu einer Informationsveranstaltung zur Entwicklung des…</p></span></a></li></ul></section>
+  <section class="place-group" id="y2026"><h2 class="place-year">2026 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Bauen und Wohnen" data-date="2026-04-19" data-about=""><a href="https://www.mittendran.de/neue-fahrradstrassen-tiergarten-sued/" rel="noopener"><span class="place-bar" style="background:#8b6914"></span><span class="place-card-body"><strong>Neue Fahrradstraßen in Tiergarten-Süd</strong><div class="meta">2026-04-19 · <span class="place-tag" style="background:color-mix(in srgb, #8b6914 28%, white)">Bauen und Wohnen</span> · FP</div><p class="place-excerpt">Am Donnerstag, 23. April um 18:00 Uhr lädt der Bezirksstadtrat für den Öffentlichen Raum, Christopher Schriner, gemeinsam mit dem Straßen- und Grünflächenamt zu einer Informationsveranstaltung zur Entwicklung des…</p></span></a></li></ul></section>
   <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
   
 </main>
@@ -34,5 +37,33 @@
     <a href="https://www.mittendran.de/">mittendran.de</a>
     — nicht die offizielle mitteNdran-Seite.
   </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
 </body>
 </html>

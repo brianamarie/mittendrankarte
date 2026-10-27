@@ -14,14 +14,14 @@ tags: []
 source: {}
 places:
 - name: Deutsches Technikmuseum
-  lat: 52.4986
-  lon: 13.3775
+  lat: 52.497181
+  lon: 13.375929
   osm_id: null
   status: confirmed
   via: gazetteer
 - name: Technikmuseum
-  lat: 52.4986
-  lon: 13.3775
+  lat: 52.497181
+  lon: 13.375929
   osm_id: null
   status: confirmed
   via: gazetteer

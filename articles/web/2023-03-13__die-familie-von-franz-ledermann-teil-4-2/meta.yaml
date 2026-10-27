@@ -20,8 +20,8 @@ places:
   status: confirmed
   via: address
 - name: Pohlstraße
-  lat: 52.5015
-  lon: 13.3645
+  lat: 52.5006
+  lon: 13.36527
   osm_id: null
   status: confirmed
   via: gazetteer

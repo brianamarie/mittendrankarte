@@ -14,8 +14,8 @@ tags: []
 source: {}
 places:
 - name: Magdeburger Platz
-  lat: 52.5047
-  lon: 13.3615
+  lat: 52.503594
+  lon: 13.360503
   osm_id: null
   status: confirmed
 - name: Pohlstraße

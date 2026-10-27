@@ -14,8 +14,8 @@ tags: []
 source: {}
 places:
 - name: Urban Nation
-  lat: 52.498
-  lon: 13.3545
+  lat: 52.498668
+  lon: 13.356651
   osm_id: null
   status: confirmed
   via: gazetteer

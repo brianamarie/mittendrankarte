@@ -20,8 +20,8 @@ places:
   status: confirmed
   via: gazetteer
 - name: Kurfürstenstraße
-  lat: 52.5005
-  lon: 13.352
+  lat: 52.502
+  lon: 13.35419
   osm_id: null
   status: confirmed
   via: gazetteer
@@ -32,8 +32,8 @@ places:
   status: confirmed
   via: gazetteer
 - name: Steinmetzstraße
-  lat: 52.4975
-  lon: 13.361
+  lat: 52.49788
+  lon: 13.36399
   osm_id: null
   status: confirmed
   via: gazetteer

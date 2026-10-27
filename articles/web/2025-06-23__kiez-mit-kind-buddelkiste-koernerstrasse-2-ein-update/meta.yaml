@@ -14,8 +14,8 @@ tags: []
 source: {}
 places:
 - name: Körnerstraße
-  lat: 52.4965
-  lon: 13.368
+  lat: 52.50169
+  lon: 13.3673
   osm_id: null
   status: confirmed
   via: gazetteer

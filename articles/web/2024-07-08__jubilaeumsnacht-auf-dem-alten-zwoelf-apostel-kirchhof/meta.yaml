@@ -14,8 +14,8 @@ tags: []
 source: {}
 places:
 - name: Alter Zwölf-Apostel-Kirchhof
-  lat: 52.4915
-  lon: 13.361
+  lat: 52.485021
+  lon: 13.365898
   osm_id: null
   status: confirmed
   via: gazetteer

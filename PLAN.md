@@ -54,7 +54,7 @@ Browse order on the site = **newest date first**. Filter later via rubrik/tags i
 ```
 articles/web/<date>__<wp-slug>/   # or articles/<issue>/ when labeled
   meta.yaml      # description + about_years scraped at import; no full text
-  hero.jpg       # optional, not published
+  hero.jpg       # optional; published on date pages as the stop's Beitragsbild
 ```
 
 | Field | Meaning |

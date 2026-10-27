@@ -14,8 +14,8 @@ tags: []
 source: {}
 places:
 - name: Zwölf-Apostel-Kirche
-  lat: 52.5008
-  lon: 13.3615
+  lat: 52.500467
+  lon: 13.357904
   osm_id: null
   status: confirmed
   via: gazetteer

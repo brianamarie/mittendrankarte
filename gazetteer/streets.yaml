@@ -4,8 +4,8 @@
 places:
   - name: Magdeburger Platz
     kind: square
-    lat: 52.5047
-    lon: 13.3615
+    lat: 52.503594
+    lon: 13.360503
   - name: Lützowplatz
     kind: square
     lat: 52.5043
@@ -20,16 +20,16 @@ places:
     lon: 13.3580
   - name: Pohlstraße
     kind: street
-    lat: 52.5015
-    lon: 13.3645
+    lat: 52.5006
+    lon: 13.36527
   - name: Potsdamer Straße
     kind: street
     lat: 52.5035
     lon: 13.3655
   - name: Kurfürstenstraße
     kind: street
-    lat: 52.5005
-    lon: 13.3520
+    lat: 52.502
+    lon: 13.35419
   - name: Genthiner Straße
     kind: street
     lat: 52.5055
@@ -52,24 +52,24 @@ places:
     lon: 13.3680
   - name: Reichpietschufer
     kind: street
-    lat: 52.5065
-    lon: 13.3720
+    lat: 52.50631
+    lon: 13.36738
   - name: Bülowstraße
     kind: street
     lat: 52.4985
     lon: 13.3580
   - name: Kurmärkische Straße
     kind: street
-    lat: 52.5012
-    lon: 13.3555
+    lat: 52.49968
+    lon: 13.35876
   - name: Karl-Heinrich-Ulrichs-Straße
     kind: street
-    lat: 52.5000
-    lon: 13.3490
+    lat: 52.50147
+    lon: 13.3534
   - name: Steinmetzstraße
     kind: street
-    lat: 52.4975
-    lon: 13.3610
+    lat: 52.49788
+    lon: 13.36399
   - name: Landgrafenstraße
     kind: street
     lat: 52.5058
@@ -92,12 +92,12 @@ places:
     lon: 13.3705
   - name: Körnerstraße
     kind: street
-    lat: 52.4965
-    lon: 13.3680
+    lat: 52.50169
+    lon: 13.3673
   - name: Frobenstraße
     kind: street
-    lat: 52.4995
-    lon: 13.3550
+    lat: 52.49863
+    lon: 13.35963
   - name: Culmstraße
     kind: street
     lat: 52.4970
@@ -120,12 +120,12 @@ places:
     lon: 13.3625
   - name: Potsdamer Brücke
     kind: bridge
-    lat: 52.5075
-    lon: 13.3735
+    lat: 52.50602
+    lon: 13.36827
   - name: Villa Lützow
     kind: poi
-    lat: 52.5040
-    lon: 13.3560
+    lat: 52.504268
+    lon: 13.362851
   - name: Gleisdreieck
     kind: park
     lat: 52.4995
@@ -148,8 +148,8 @@ places:
     lon: 13.3700
   - name: Luiseninsel
     kind: poi
-    lat: 52.510898
-    lon: 13.366682
+    lat: 52.510882
+    lon: 13.36446
   - name: Neue Nationalgalerie
     kind: poi
     lat: 52.5068
@@ -176,32 +176,32 @@ places:
     lon: 13.3865
   - name: Deutsches Technikmuseum
     kind: poi
-    lat: 52.4986
-    lon: 13.3775
+    lat: 52.497181
+    lon: 13.375929
   - name: Technikmuseum
     kind: poi
-    lat: 52.4986
-    lon: 13.3775
+    lat: 52.497181
+    lon: 13.375929
   - name: Zwölf-Apostel-Kirche
     kind: poi
-    lat: 52.5008
-    lon: 13.3615
+    lat: 52.500467
+    lon: 13.357904
   - name: Alter Zwölf-Apostel-Kirchhof
     kind: poi
-    lat: 52.4915
-    lon: 13.3610
+    lat: 52.485021
+    lon: 13.365898
   - name: Nachbarschaftstreff
     kind: poi
-    lat: 52.5035
-    lon: 13.3575
+    lat: 52.50376
+    lon: 13.363429
   - name: Bibliothek Tiergarten-Süd
     kind: poi
-    lat: 52.5018
-    lon: 13.3605
+    lat: 52.50376
+    lon: 13.363429
   - name: Stadtbibliothek Tiergarten-Süd
     kind: poi
-    lat: 52.5018
-    lon: 13.3605
+    lat: 52.50376
+    lon: 13.363429
   - name: Die Pumpe
     kind: poi
     lat: 52.5012
@@ -216,8 +216,8 @@ places:
     lon: 13.3640
   - name: Landwehrkanal
     kind: water
-    lat: 52.5045
-    lon: 13.3650
+    lat: 52.50605
+    lon: 13.36621
   - name: Gleisdreieckpark
     kind: park
     lat: 52.4995
@@ -240,8 +240,8 @@ places:
     lon: 13.3565
   - name: Urban Nation
     kind: poi
-    lat: 52.4980
-    lon: 13.3545
+    lat: 52.498668
+    lon: 13.356651
   - name: Nollendorfplatz
     kind: square
     lat: 52.4992
@@ -268,8 +268,8 @@ places:
     lon: 13.3755
   - name: Deutschlandmuseum
     kind: poi
-    lat: 52.5105
-    lon: 13.3765
+    lat: 52.508788
+    lon: 13.378434
   - name: Kühlhaus Berlin
     kind: poi
     lat: 52.4988

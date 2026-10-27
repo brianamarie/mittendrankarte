@@ -14,8 +14,8 @@ tags: []
 source: {}
 places:
 - name: Karl-Heinrich-Ulrichs-Straße
-  lat: 52.5
-  lon: 13.349
+  lat: 52.50147
+  lon: 13.3534
   osm_id: null
   status: confirmed
   via: gazetteer

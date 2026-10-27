@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ein Museum, dann Kaffee</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
+    </nav>
+  </header>
+  
+<main class="date-page">
+  <p class="place-back"><a href="../../ausgehen.html">← Ausgehen</a></p>
+  <p class="place-kicker">Ein Haus, dann sitzen</p>
+  <h1>Ein Museum, dann Kaffee</h1>
+  <p class="meta">Wochentag nachmittags · Zehn Minuten zwischen den Türen</p>
+  <p class="lead">Nachmittags, höchstens zehn Minuten zwischen den Türen. Kultur, dann Kaffee.</p>
+  <p class='date-food'><strong>Essen.</strong> Facil, Potsdamer Straße 3. Zwei Sterne im Mandala-Hotel, der Beitrag vom April 2023. Ob der Tisch an dem Tag frei ist, steht auf der Seite des Hauses. <a class="hours-link" href="https://facil.berlin/" rel="noopener">Öffnungszeiten</a></p>
+  
+  <div id="date-map" class="date-map" role="region" aria-label="Pins zu diesem Abend"></div>
+  <p class="meta">3 Pins. Ein Klick öffnet die Beiträge. Beim Essen liegt der Link zu den Öffnungszeiten im Pin.</p>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>window.RUBRIK_COLORS = {"Aus dem Kiez": "#4a7c59", "Kunst und Kultur": "#8b4d9a", "Miteinander": "#c45c26", "Öffentlicher Raum und Verkehr": "#2f6f9f", "Bauen und Wohnen": "#8b6914", "Gewerbe und Gastronomie": "#b33b3b", "Kiez-Geschichte": "#5c4a3a", "kiek ma!": "#d4a017", "Kinder, Heranwachsende, Schule": "#3d8b8b", "Kiez mit Kind": "#5aa0a0", "In eigener Sache": "#6b6b6b", "Sport und Freizeit": "#3f7d4e", "Der andere Blick": "#7a4e8c"}; window.DATE_PLACES = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.3678, 52.5068]}, "properties": {"place": "Neue Nationalgalerie", "count": 8, "articles": [{"title": "Tik Tak Clock", "url": "https://www.mittendran.de/tik-tak-clock/", "excerpt": "Im Rahmen der laufenden Show „The Clock“ bietet die Neue Nationalgalerie einen Workshop für Jugendliche und Familien an, in dem man sich mit unserer Wahrnehmung der Zeit auseinandersetzen kann. Tik Tak Clock Drop-In…", "date": "2025-12-03", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/tik-tak-clock/"}, {"title": "Am 7. Juli ist Museumssonntag", "url": "https://www.mittendran.de/7-juli-ist-museumssonntag/", "excerpt": "Einige Tipps für den Museumssonntag am 7. Juli in Tiergarten. In rund 80 Berliner Museen ist am Sonntag der Eintritt frei. Und es wird einiges rund um das Thema Fußball geboten. Das Futurium veranstaltet ein…", "date": "2024-07-04", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/7-juli-ist-museumssonntag/"}, {"title": "Geänderte Öffnungszeiten bei den Staatlichen Museen in Berlin", "url": "https://www.mittendran.de/geaenderte-oeffnungszeiten-bei-den-staatlichen-museen-berlin/", "excerpt": "Ab dem 16. April 2024 wird es neue Öffnungszeiten bei den Staatlichen Museen zu Berlin und dem Musikinstrumenten-Museum geben – Spätöffnungen in den Sommermonaten. „Die Stiftung Preußischer Kulturbesitz wird ab dem 16…", "date": "2024-03-13", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/geaenderte-oeffnungszeiten-bei-den-staatlichen-museen-berlin/"}, {"title": "„Cut Piece“ von Yoko Ono auf der Berlin Art Week", "url": "https://www.mittendran.de/cut-piece-von-yoko-ono-auf-der-berlin-art-week/", "excerpt": "„Yoko Ono’s historische Performance „Cut Piece“ von 1964 ist eine ihrer frühesten Performance-Arbeiten: hier saß die Künstlerin allein, in ihrer besten Kleidung, auf dem Boden und hatte eine Schere vor sich liegen. Das…", "date": "2023-09-14", "about_years": [1964], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/cut-piece-von-yoko-ono-auf-der-berlin-art-week/"}, {"title": "Am 26. August ist wieder Lange Nacht der Museen", "url": "https://www.mittendran.de/26-august-ist-wieder-lange-nacht-der-museen/", "excerpt": "Am 26. August machen die Berliner Museen zur Langen Nacht unter dem Motto „Sounds of Berlin Edition“ jede Menge unterhaltsame und interessante Angebote rund um den Sound dieser Stadt für Kinder und Erwachsene. So gibt…", "date": "2023-08-24", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/26-august-ist-wieder-lange-nacht-der-museen/"}, {"title": "An Ostern ins Museum: Gerhard Richter in der Neuen Nationalgalerie", "url": "https://www.mittendran.de/ostern-ins-museum-gerhard-richter-der-neuen-nationalgalerie/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/04/1FB97AE1-C336-4859-92E7-DA0BB6293E8F-scaled.jpeg) „100 Werke für Berlin“ hat der große Maler Gerhard Richter ausgesucht für die Neue Nationalgalerie. Sie sind im…", "date": "2023-04-07", "about_years": [1932], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/ostern-ins-museum-gerhard-richter-der-neuen-nationalgalerie/"}, {"title": "Donnerstags freier Eintritt", "url": "https://www.mittendran.de/donnerstags-freier-eintritt/", "excerpt": "Ab Donnerstag, 5. Januar 2023 ist der Eintritt in die Neue Nationalgalerie im Rahmen von Volkswagen Art4All jeden Donnerstag von 16 bis 20 Uhr frei…", "date": "2023-01-03", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/donnerstags-freier-eintritt/"}, {"title": "Endlich wieder  Konzerte im Skulpturengarten", "url": "https://www.mittendran.de/endlich-wieder-konzerte-im-skulpturengarten/", "excerpt": "Erstmals seit 1986 finden im Skulpturengarten der Neuen Nationalgalerie vom 6. August bis zum 4. September 2022 wieder Livekonzerte statt. An fünf Wochenendabenden wird zwischen den Skulpturen von David Black, Bernhard…", "date": "2022-08-05", "about_years": [1986], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/endlich-wieder-konzerte-im-skulpturengarten/"}], "place_url": "../../places/neue-nationalgalerie/", "place_slug": "neue-nationalgalerie", "title": "Tik Tak Clock", "url": "https://www.mittendran.de/tik-tak-clock/", "excerpt": "Im Rahmen der laufenden Show „The Clock“ bietet die Neue Nationalgalerie einen Workshop für Jugendliche und Familien an, in dem man sich mit unserer Wahrnehmung der Zeit auseinandersetzen kann. Tik Tak Clock Drop-In…", "date": "2025-12-03"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.36626, 52.508947]}, "properties": {"place": "Matthäikirchplatz 4", "count": 2, "articles": [{"title": "Museumssonntag am 6. Oktober 2024", "url": "https://www.mittendran.de/museumssonntag-6-oktober-2024/", "excerpt": "Der Herbst ist da. Es wird kühler. Draußen kann es zunehmend ungemütlich werden. Da liegt es nahe, wieder einmal ins Museum zu gehen. Am 6. Oktober findet wieder der monatliche eintrittsfreie Museumssonntag Berlin…", "date": "2024-10-02", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/museumssonntag-6-oktober-2024/"}, {"title": "Klingende Bilder – Audiovisueller Rundgang durch die Passionsgeschichte in der Gemäldegalerie", "url": "https://www.mittendran.de/klingende-bilder-audiovisueller-rundgang-durch-die-passionsgeschichte-der-gemaeldegalerie/", "excerpt": "Mit den „Klingenden Bildern“ können sich Besucher*innen der Gemäldegalerie auf eine audiovisuelle Entdeckungsreise der Passionsgeschichte begeben, in der Musik und Bildende Kunst einander begegnen. Expert*innen aus…", "date": "2024-04-03", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/klingende-bilder-audiovisueller-rundgang-durch-die-passionsgeschichte-der-gemaeldegalerie/"}], "place_url": "../../places/matthaeikirchplatz-4/", "place_slug": "matthaeikirchplatz-4", "title": "Museumssonntag am 6. Oktober 2024", "url": "https://www.mittendran.de/museumssonntag-6-oktober-2024/", "excerpt": "Der Herbst ist da. Es wird kühler. Draußen kann es zunehmend ungemütlich werden. Da liegt es nahe, wieder einmal ins Museum zu gehen. Am 6. Oktober findet wieder der monatliche eintrittsfreie Museumssonntag Berlin…", "date": "2024-10-02"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.373848, 52.509059]}, "properties": {"place": "Facil", "count": 1, "articles": [{"title": "Der Guide Michelin 2023 hat gesprochen", "url": "https://www.mittendran.de/der-guide-michelin-2023-hat-gesprochen/", "date": "2023-04-15", "rubrik": "Aus dem Kiez", "excerpt": "Facil im Mandala-Hotel, Potsdamer Straße 3. Im Beitrag von 2023 zwei Sterne."}], "hours_url": "https://facil.berlin/"}}]};</script>
+  <script>
+const RUBRIK_COLORS = window.RUBRIK_COLORS || {};
+const RUBRIK_FALLBACK = "#7a6a58";
+
+function esc(s) {
+  return String(s || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function rubrikColor(name) {
+  const key = String(name || "").trim();
+  if (!key) return RUBRIK_FALLBACK;
+  if (RUBRIK_COLORS[key]) return RUBRIK_COLORS[key];
+  let h = 0;
+  for (let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) >>> 0;
+  return "hsl(" + (h % 360) + " 42% 42%)";
+}
+
+function conicFromArticles(articles) {
+  if (!articles.length) return RUBRIK_FALLBACK;
+  const counts = {};
+  const order = [];
+  articles.forEach((a) => {
+    const r = String(a.rubrik || "").trim() || "Sonstiges";
+    if (!counts[r]) {
+      counts[r] = 0;
+      order.push(r);
+    }
+    counts[r] += 1;
+  });
+  const total = articles.length;
+  let start = 0;
+  const parts = order.map((r) => {
+    const share = (counts[r] / total) * 100;
+    const end = start + share;
+    const slice = rubrikColor(r) + " " + start.toFixed(2) + "% " + end.toFixed(2) + "%";
+    start = end;
+    return slice;
+  });
+  return "conic-gradient(" + parts.join(", ") + ")";
+}
+
+function articleRow(a) {
+  const rubrik = String(a.rubrik || "").trim();
+  const color = rubrikColor(rubrik);
+  const tag = rubrik
+    ? "<span class='rubrik-tag' style='background:color-mix(in srgb, " +
+      color +
+      " 28%, white)'>" +
+      esc(rubrik) +
+      "</span>"
+    : "";
+  const line = [a.date ? esc(a.date) : "", tag].filter(Boolean).join(" · ");
+  const excerpt = a.excerpt
+    ? "<p class='popup-excerpt'>" + esc(a.excerpt) + "</p>"
+    : "";
+  const inner =
+    "<span class='chip' style='background:" +
+    color +
+    "' title='" +
+    esc(rubrik || "ohne Rubrik") +
+    "'></span><div><span class='t'>" +
+    esc(a.title) +
+    "</span>" +
+    (line ? "<div class='popup-meta'>" + line + "</div>" : "") +
+    excerpt +
+    "</div>";
+  return a.url
+    ? "<li><a href='" + esc(a.url) + "'>" + inner + "</a></li>"
+    : "<li style='display:grid;grid-template-columns:0.55rem 1fr;gap:0.55rem'>" +
+        inner +
+        "</li>";
+}
+
+function popupHtml(p) {
+  const articles = Array.isArray(p.articles) ? p.articles : [];
+  const place = p.place || (articles[0] && articles[0].title) || "Ort";
+  const n = articles.length || p.count || 0;
+  const meta = n > 1 ? n + " Beiträge" : n === 1 ? "1 Beitrag" : "";
+  const shown = articles.slice(0, 10);
+  const items = shown.map(articleRow).join("");
+  const moreHref = p.place_url || "";
+  const more =
+    n > 10 && moreHref
+      ? "<a class='popup-more' href='" + esc(moreHref) + "'>Alle " + n + " Beiträge →</a>"
+      : moreHref && n > 1
+        ? "<a class='popup-more' href='" + esc(moreHref) + "'>Zur Ortsseite →</a>"
+        : "";
+  const hours = p.hours_url
+    ? "<a class='popup-more' href='" + esc(p.hours_url) + "' rel='noopener'>Öffnungszeiten</a>"
+    : "";
+  return (
+    "<div class='map-popup'>" +
+    "<strong class='popup-place'>" +
+    esc(place) +
+    "</strong>" +
+    (meta ? "<div class='popup-meta'>" + esc(meta) + "</div>" : "") +
+    "<ul class='popup-articles'>" +
+    items +
+    "</ul>" +
+    hours +
+    more +
+    "</div>"
+  );
+}
+
+function singleStyle(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const fill = rubrikColor(arts[0] && arts[0].rubrik);
+  return {
+    radius: 8,
+    color: "#2a221c",
+    weight: 1.4,
+    fillColor: fill,
+    fillOpacity: 0.92,
+  };
+}
+
+function multiIcon(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const n = arts.length || 1;
+  const size = Math.min(22, 12 + Math.sqrt(n) * 3.2);
+  return L.divIcon({
+    className: "",
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+    html:
+      "<div class='pin-multi' style='width:" +
+      size +
+      "px;height:" +
+      size +
+      "px;background:" +
+      conicFromArticles(arts) +
+      "' title='" +
+      esc(String(n) + " Beiträge") +
+      "'></div>",
+  });
+}
+
+const geo = window.DATE_PLACES || { type: "FeatureCollection", features: [] };
+const map = L.map("date-map", { scrollWheelZoom: false });
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19,
+  attribution: "&copy; OpenStreetMap",
+}).addTo(map);
+const layer = L.geoJSON(geo, {
+  pointToLayer(feature, latlng) {
+    const props = (feature && feature.properties) || {};
+    const n = props.count || 1;
+    if (props.hours_url) {
+      return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true, zIndexOffset: 1000 });
+    }
+    if (n > 1) return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true });
+    return L.circleMarker(latlng, singleStyle(feature));
+  },
+  onEachFeature(feature, lyr) {
+    lyr.bindPopup(popupHtml(feature.properties || {}), {
+      maxWidth: Math.min(320, Math.max(180, window.innerWidth - 56)),
+      autoPan: true,
+      autoPanPadding: [12, 12],
+    });
+  },
+}).addTo(map);
+if (layer.getBounds().isValid()) {
+  map.fitBounds(layer.getBounds(), { padding: [28, 28], maxZoom: 16 });
+}
+map.invalidateSize();
+</script>
+
+  <h2>Stopps</h2>
+  <ol class="date-order"><li><a href="../../places/neue-nationalgalerie/">Neue Nationalgalerie</a><figure class="date-photo"><a href="https://www.mittendran.de/eine-rose-vor-der-neuen-nationalgalerie/" rel="noopener"><img src="../../assets/dates/museum-kaffee/0.jpg" alt="Eine Rose vor der Neuen Nationalgalerie"></a><figcaption><a href="https://www.mittendran.de/eine-rose-vor-der-neuen-nationalgalerie/" rel="noopener">Eine Rose vor der Neuen Nationalgalerie</a></figcaption></figure></li><li>Matthäikirchplatz<figure class="date-photo"><a href="https://www.mittendran.de/wo-ist-das-dritte-land-geblieben/" rel="noopener"><img src="../../assets/dates/museum-kaffee/1.jpg" alt="Wo ist „DAS DRITTE LAND“ geblieben?"></a><figcaption><a href="https://www.mittendran.de/wo-ist-das-dritte-land-geblieben/" rel="noopener">Wo ist „DAS DRITTE LAND“ geblieben?</a></figcaption></figure></li><li>Facil <a class="hours-link" href="https://facil.berlin/" rel="noopener">Öffnungszeiten</a><figure class="date-photo"><a href="https://www.mittendran.de/der-guide-michelin-2023-hat-gesprochen/" rel="noopener"><img src="../../assets/dates/museum-kaffee/2.jpg" alt="Der Guide Michelin 2023 hat gesprochen."></a><figcaption><a href="https://www.mittendran.de/der-guide-michelin-2023-hat-gesprochen/" rel="noopener">Der Guide Michelin 2023 hat gesprochen.</a></figcaption></figure></li></ol>
+  <h2>Gelesen</h2>
+  <p class="meta">Zusammengelesen aus den genannten Beiträgen. Was dort nicht steht, steht hier nicht.</p>
+  <div class="date-narrative"><p>Die Neue Nationalgalerie ist in den Beiträgen ein Haus mit einem Programm, und die Programme widersprechen sich nicht, sie liegen in verschiedenen Monaten.</p><p>Am 7. April 2023: „100 Werke für Berlin“, von Gerhard Richter ausgesucht, im Untergeschoss, auf unbestimmte Zeit, denn eines Tages sollen sie im neuen Museum der Moderne in der Nachbarschaft ihren Platz finden. Richter, geboren 1932, über sechs Jahrzehnte so vielfältig, dass man meinen könnte, fünf Künstler würden gezeigt. Hinter dem Bild „Tante Marianne“ verberge sich ein Familiendrama. Tickets online. Geöffnet Dienstag und Mittwoch 10 bis 18, Donnerstag 10 bis 20, Freitag bis Sonntag und feiertags 10 bis 18, montags zu. Jeden ersten Donnerstag im Monat von 16 bis 20 Uhr Eintritt frei. Sonst 14 Euro, ermäßigt 7.</p><p>Drei Monate früher, am 3. Januar 2023, eine andere Regelung, und sie ist als Erweiterung geschrieben. Ab Donnerstag, dem 5. Januar, ist der Eintritt im Rahmen von Volkswagen Art4All jeden Donnerstag von 16 bis 20 Uhr frei: Sonderausstellungen in der oberen Halle, Sammlung im Untergeschoss, Skulpturengarten, ohne Ticket. Anlass ist der Zuspruch für den monatlichen freien Eintritt seit dem 16. Dezember 2021. Live Speaker bieten Gespräche und Kurzführungen. Genannt werden Sonderausstellungen von Monica Bonvicini und, noch bis zum 8. Januar, Sascha Wiederhold. Klaus Biesenbach, Direktor, wird zitiert: Kunst sei ein essentielles Bedürfnis, der freie Eintritt stelle sicher, dass allen ein Weg offenstehe. Volkswagen Art4All seit 2018, mit der Nationalgalerie entwickelt, auch am Hamburger Bahnhof und im Kunstmuseum Wolfsburg. In dem Jahr erstmals Teil einer Ausstellungspartnerschaft: 14.000 Schülerinnen und Schüler besuchten mit solchen Tickets die documenta fifteen. Ob die Regel über diesen Winter hinaus gilt, sagt der Beitrag nicht.</p><p>Am 13. Juli 2023 steht vor dem Haus, schon im Titel des Stücks, eine Rose. Die Ausstellung heißt „Isa Genzken. 75/75“, zum 75. Geburtstag, 75 Skulpturen aus allen Phasen von den siebziger Jahren bis heute. Genannt werden das zehn Meter lange „Blau-grau-gelbes Hyperbolo ‚MBB‘“ (1981), „Atelier“ (1990), „Venedig“ (1993), „Nofretete – Das Original“ (2012), „Schauspieler“ (2013), und die Arbeit „Pink Rose 2016/2023“. Die Arbeiten sollen eher als bewegte Bilder fungieren als als Skulpturen: aus jedem Blickwinkel ein neues Bild, nichts starr, nichts zweidimensional, filmisch. Ort: Potsdamer Straße 50. Dauer: 13. Juli bis 27. November 2023. Dieselben Öffnungszeiten, Montag geschlossen. Quelle, schreibt der Beitrag, die Neue Nationalgalerie.</p><p>Der Matthäikirchplatz daneben ist der Ort, an dem St. Matthäus von Mai 2019 an den Künstlergarten „Das dritte Land“ hatte. Der Beitrag vom 5. Juli 2022 fragt, wo er geblieben ist. Seok Hyun Han und Seung Hwoe Kim, im Text auch Han Seok Hyun und Kim Seung Hwoe, hatten im 30. Jahr des Mauerfalls einen Grenzgarten gebaut, in dem Pflanzen aus Nord- und Südkorea gemeinsam wachsen. Das Baekdu-Daegan-Gebirge, das beide Koreas verbindet, stand Pate für die schwarzen Basaltformationen. 45 Arten weißblühender Wildblumen wurden nach Berlin gebracht. Bis November 2019 Performances, Konzerte, Diskussionen. Ein utopisches Biotop, das den Grenzkonflikt temporär künstlerisch überwindet, nicht weit vom ehemaligen Verlauf der Mauer, so wie der Grenzstreifen selbst ein Drittes zwischen Ost und West war. Über 160 Menschen aus der ganzen Welt unterstützten den Garten. Eröffnet am 23. Mai um 19 Uhr, auf 1.000 Quadratmetern, in Anwesenheit der Künstler. Geplant bis zum 15. November 2019, gestanden bis ins Frühjahr des Jahres, in dem der Beitrag erscheint. Dann ist er verschwunden. Auf dem alten Matthäikirchplatz steht noch die Edelstahlskulptur „Altar“ von Volkmar Haase. Die Tafel am Garten lud ein, über Grenzen und ihre Überwindung nachzudenken, und verwies für mehr in die Kirche. Am 24. September 2021, in der Langen Nacht der Museen, ein Vortrag in der Kunsthalle Erfurt. Anlass waren Planungen, den Garten zur Feier des Tags der Deutschen Einheit am 3. Oktober 2022 in Erfurt zu zeigen. Ob das geschehen ist, steht in dem Stück nicht.</p><p>Gegessen wird im Facil. Am 4. April 2023 werden in Karlsruhe die Michelin-Sterne bekanntgegeben. Für Tiergarten-Süd bestätigt „Facil“, Küchenchef Michael Kempf, Potsdamer Straße 3, seine zwei Sterne. Zwei Sterne, zitiert der Beitrag Wikipedia: „eine Spitzenküche, einen Umweg wert“. Ob an dem Nachmittag ein Tisch frei ist, steht auf der Seite des Hauses, nicht hier.</p></div>
+  <h2>Aus den Beiträgen</h2><ul class='date-sources'><li><a href="https://www.mittendran.de/ostern-ins-museum-gerhard-richter-der-neuen-nationalgalerie/" rel="noopener">An Ostern ins Museum: Gerhard Richter in der Neuen Nationalgalerie</a></li><li><a href="https://www.mittendran.de/eine-rose-vor-der-neuen-nationalgalerie/" rel="noopener">Eine Rose vor der Neuen Nationalgalerie</a></li><li><a href="https://www.mittendran.de/donnerstags-freier-eintritt/" rel="noopener">Donnerstags freier Eintritt</a></li><li><a href="https://www.mittendran.de/wo-ist-das-dritte-land-geblieben/" rel="noopener">Wo ist „Das dritte Land“ geblieben?</a></li><li><a href="https://www.mittendran.de/der-guide-michelin-2023-hat-gesprochen/" rel="noopener">Der Guide Michelin 2023 hat gesprochen</a></li></ul>
+  <p class="meta">Öffnungszeiten stehen hier nicht. Der Link beim Essen führt auf die Seite des Hauses.</p>
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
+</body>
+</html>

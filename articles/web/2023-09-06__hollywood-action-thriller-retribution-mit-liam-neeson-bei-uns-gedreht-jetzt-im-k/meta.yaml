@@ -27,8 +27,8 @@ places:
   status: confirmed
   via: gazetteer
 - name: Frobenstraße
-  lat: 52.4995
-  lon: 13.355
+  lat: 52.49863
+  lon: 13.35963
   osm_id: null
   status: confirmed
   via: gazetteer

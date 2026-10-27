@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nachmittag auf der Luiseninsel</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
+    </nav>
+  </header>
+  
+<main class="date-page">
+  <p class="place-back"><a href="../../ausgehen.html">← Ausgehen</a></p>
+  <p class="place-kicker">Spielplatz</p>
+  <h1>Nachmittag auf der Luiseninsel</h1>
+  <p class="meta">Wochenende nachmittags · Spielplatz, dann eine Bank</p>
+  <p class="lead">Nachmittags. Ein Spielplatz und ein Platz zum Sitzen.</p>
+  <p class='date-food'><strong>Essen.</strong> Café ODOR, Kurfürstenstraße 21–22. Kleines Café im Souterrain, nach dem Sand. Der Beitrag von 2023 beschreibt Sauerteigbrot und Brunch. <a class="hours-link" href="https://www.google.com/maps/search/?api=1&amp;query=Caf%C3%A9%20ODOR%20Kurf%C3%BCrstenstra%C3%9Fe%2021%20Berlin" rel="noopener">Öffnungszeiten</a></p>
+  
+  <div id="date-map" class="date-map" role="region" aria-label="Pins zu diesem Abend"></div>
+  <p class="meta">2 Pins. Ein Klick öffnet die Beiträge. Beim Essen liegt der Link zu den Öffnungszeiten im Pin.</p>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>window.RUBRIK_COLORS = {"Aus dem Kiez": "#4a7c59", "Kunst und Kultur": "#8b4d9a", "Miteinander": "#c45c26", "Öffentlicher Raum und Verkehr": "#2f6f9f", "Bauen und Wohnen": "#8b6914", "Gewerbe und Gastronomie": "#b33b3b", "Kiez-Geschichte": "#5c4a3a", "kiek ma!": "#d4a017", "Kinder, Heranwachsende, Schule": "#3d8b8b", "Kiez mit Kind": "#5aa0a0", "In eigener Sache": "#6b6b6b", "Sport und Freizeit": "#3f7d4e", "Der andere Blick": "#7a4e8c"}; window.DATE_PLACES = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.36446, 52.510882]}, "properties": {"place": "Spielplatz Luiseninsel", "count": 1, "articles": [{"title": "Kiez mit Kind: Der Spielplatz Tiergarten Luiseninsel", "url": "https://www.mittendran.de/kiez-mit-kind-der-spielplatz-tiergarten-luiseninsel/", "excerpt": "Unser Kiez ist, was Parks angeht, privilegiert: im Norden vom Tiergarten begrenzt, im Osten vom Gleisdreieckpark und dazwischen viele grüne Inseln. Heute wollen wir euch über einen unserer Lieblingsspielplätze…", "date": "2024-07-15", "about_years": [], "rubrik": "Kiez mit Kind", "source_url": "https://www.mittendran.de/kiez-mit-kind-der-spielplatz-tiergarten-luiseninsel/"}], "place_url": "../../places/spielplatz-luiseninsel/", "place_slug": "spielplatz-luiseninsel", "title": "Kiez mit Kind: Der Spielplatz Tiergarten Luiseninsel", "url": "https://www.mittendran.de/kiez-mit-kind-der-spielplatz-tiergarten-luiseninsel/", "excerpt": "Unser Kiez ist, was Parks angeht, privilegiert: im Norden vom Tiergarten begrenzt, im Osten vom Gleisdreieckpark und dazwischen viele grüne Inseln. Heute wollen wir euch über einen unserer Lieblingsspielplätze…", "date": "2024-07-15"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.3651496, 52.4995699]}, "properties": {"place": "Café ODOR", "count": 1, "articles": [{"title": "Café ODOR", "url": "https://www.mittendran.de/caf%c3%a9-odor/", "date": "2023-01-23", "rubrik": "Gewerbe und Gastronomie", "excerpt": "Kleines Café im Souterrain der Kurfürstenstraße 21–22, mit Sauerteigbrot und Brunch."}], "hours_url": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20ODOR%20Kurf%C3%BCrstenstra%C3%9Fe%2021%20Berlin"}}]};</script>
+  <script>
+const RUBRIK_COLORS = window.RUBRIK_COLORS || {};
+const RUBRIK_FALLBACK = "#7a6a58";
+
+function esc(s) {
+  return String(s || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function rubrikColor(name) {
+  const key = String(name || "").trim();
+  if (!key) return RUBRIK_FALLBACK;
+  if (RUBRIK_COLORS[key]) return RUBRIK_COLORS[key];
+  let h = 0;
+  for (let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) >>> 0;
+  return "hsl(" + (h % 360) + " 42% 42%)";
+}
+
+function conicFromArticles(articles) {
+  if (!articles.length) return RUBRIK_FALLBACK;
+  const counts = {};
+  const order = [];
+  articles.forEach((a) => {
+    const r = String(a.rubrik || "").trim() || "Sonstiges";
+    if (!counts[r]) {
+      counts[r] = 0;
+      order.push(r);
+    }
+    counts[r] += 1;
+  });
+  const total = articles.length;
+  let start = 0;
+  const parts = order.map((r) => {
+    const share = (counts[r] / total) * 100;
+    const end = start + share;
+    const slice = rubrikColor(r) + " " + start.toFixed(2) + "% " + end.toFixed(2) + "%";
+    start = end;
+    return slice;
+  });
+  return "conic-gradient(" + parts.join(", ") + ")";
+}
+
+function articleRow(a) {
+  const rubrik = String(a.rubrik || "").trim();
+  const color = rubrikColor(rubrik);
+  const tag = rubrik
+    ? "<span class='rubrik-tag' style='background:color-mix(in srgb, " +
+      color +
+      " 28%, white)'>" +
+      esc(rubrik) +
+      "</span>"
+    : "";
+  const line = [a.date ? esc(a.date) : "", tag].filter(Boolean).join(" · ");
+  const excerpt = a.excerpt
+    ? "<p class='popup-excerpt'>" + esc(a.excerpt) + "</p>"
+    : "";
+  const inner =
+    "<span class='chip' style='background:" +
+    color +
+    "' title='" +
+    esc(rubrik || "ohne Rubrik") +
+    "'></span><div><span class='t'>" +
+    esc(a.title) +
+    "</span>" +
+    (line ? "<div class='popup-meta'>" + line + "</div>" : "") +
+    excerpt +
+    "</div>";
+  return a.url
+    ? "<li><a href='" + esc(a.url) + "'>" + inner + "</a></li>"
+    : "<li style='display:grid;grid-template-columns:0.55rem 1fr;gap:0.55rem'>" +
+        inner +
+        "</li>";
+}
+
+function popupHtml(p) {
+  const articles = Array.isArray(p.articles) ? p.articles : [];
+  const place = p.place || (articles[0] && articles[0].title) || "Ort";
+  const n = articles.length || p.count || 0;
+  const meta = n > 1 ? n + " Beiträge" : n === 1 ? "1 Beitrag" : "";
+  const shown = articles.slice(0, 10);
+  const items = shown.map(articleRow).join("");
+  const moreHref = p.place_url || "";
+  const more =
+    n > 10 && moreHref
+      ? "<a class='popup-more' href='" + esc(moreHref) + "'>Alle " + n + " Beiträge →</a>"
+      : moreHref && n > 1
+        ? "<a class='popup-more' href='" + esc(moreHref) + "'>Zur Ortsseite →</a>"
+        : "";
+  const hours = p.hours_url
+    ? "<a class='popup-more' href='" + esc(p.hours_url) + "' rel='noopener'>Öffnungszeiten</a>"
+    : "";
+  return (
+    "<div class='map-popup'>" +
+    "<strong class='popup-place'>" +
+    esc(place) +
+    "</strong>" +
+    (meta ? "<div class='popup-meta'>" + esc(meta) + "</div>" : "") +
+    "<ul class='popup-articles'>" +
+    items +
+    "</ul>" +
+    hours +
+    more +
+    "</div>"
+  );
+}
+
+function singleStyle(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const fill = rubrikColor(arts[0] && arts[0].rubrik);
+  return {
+    radius: 8,
+    color: "#2a221c",
+    weight: 1.4,
+    fillColor: fill,
+    fillOpacity: 0.92,
+  };
+}
+
+function multiIcon(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const n = arts.length || 1;
+  const size = Math.min(22, 12 + Math.sqrt(n) * 3.2);
+  return L.divIcon({
+    className: "",
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+    html:
+      "<div class='pin-multi' style='width:" +
+      size +
+      "px;height:" +
+      size +
+      "px;background:" +
+      conicFromArticles(arts) +
+      "' title='" +
+      esc(String(n) + " Beiträge") +
+      "'></div>",
+  });
+}
+
+const geo = window.DATE_PLACES || { type: "FeatureCollection", features: [] };
+const map = L.map("date-map", { scrollWheelZoom: false });
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19,
+  attribution: "&copy; OpenStreetMap",
+}).addTo(map);
+const layer = L.geoJSON(geo, {
+  pointToLayer(feature, latlng) {
+    const props = (feature && feature.properties) || {};
+    const n = props.count || 1;
+    if (props.hours_url) {
+      return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true, zIndexOffset: 1000 });
+    }
+    if (n > 1) return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true });
+    return L.circleMarker(latlng, singleStyle(feature));
+  },
+  onEachFeature(feature, lyr) {
+    lyr.bindPopup(popupHtml(feature.properties || {}), {
+      maxWidth: Math.min(320, Math.max(180, window.innerWidth - 56)),
+      autoPan: true,
+      autoPanPadding: [12, 12],
+    });
+  },
+}).addTo(map);
+if (layer.getBounds().isValid()) {
+  map.fitBounds(layer.getBounds(), { padding: [28, 28], maxZoom: 16 });
+}
+map.invalidateSize();
+</script>
+
+  <h2>Stopps</h2>
+  <ol class="date-order"><li><a href="../../places/spielplatz-luiseninsel/">Spielplatz Luiseninsel</a><figure class="date-photo"><a href="https://www.mittendran.de/kiez-mit-kind-der-spielplatz-tiergarten-luiseninsel/" rel="noopener"><img src="../../assets/dates/luiseninsel/0.jpg" alt="Kiez mit Kind: Der Spielplatz Tiergarten Luiseninsel"></a><figcaption><a href="https://www.mittendran.de/kiez-mit-kind-der-spielplatz-tiergarten-luiseninsel/" rel="noopener">Kiez mit Kind: Der Spielplatz Tiergarten Luiseninsel</a></figcaption></figure></li><li>Café ODOR <a class="hours-link" href="https://www.google.com/maps/search/?api=1&amp;query=Caf%C3%A9%20ODOR%20Kurf%C3%BCrstenstra%C3%9Fe%2021%20Berlin" rel="noopener">Öffnungszeiten</a><figure class="date-photo"><a href="https://www.mittendran.de/caf%c3%a9-odor/" rel="noopener"><img src="../../assets/dates/luiseninsel/1.jpg" alt="Café ODOR"></a><figcaption><a href="https://www.mittendran.de/caf%c3%a9-odor/" rel="noopener">Café ODOR</a></figcaption></figure></li></ol>
+  <h2>Gelesen</h2>
+  <p class="meta">Zusammengelesen aus den genannten Beiträgen. Was dort nicht steht, steht hier nicht.</p>
+  <div class="date-narrative"><p>Zu diesem Spielplatz gibt es einen Beitrag, vom 15. Juli 2024, und er ist genau. Der Kiez sei an Parks privilegiert: im Norden der Tiergarten, im Osten der Gleisdreieckpark, dazwischen grüne Inseln. Der Spielplatz an der Luiseninsel sei einer der Lieblinge. Rutschen für alle Alter, Schaukeln, Klettergerüste für jede Größe und jeden Mut, im Sommer eine Wasserpumpe mit eigenem Matsch-Sand-Bereich und Bagger, Platz für Ballspiele, viel Sand. Für die Kleinsten ein eigener Bereich, eine breite Rutsche, auf der zwei oder drei Kinder nebeneinander sitzen, selten mit Stau. Den überdachten Start erreicht man über eine Schräge, eine Leiter oder einen beidseitig gesicherten Steg, der manchmal das Highlight des Tages ist. Zwei bodennahe Hangelseile, ein beweglicher Sandeimer an der Kette. Zwei Bänke mit Blick auf die Rutsche, und die zwei kleinen Stufen zum Spielplatz hinunter, an der langen Seite zum Sitzen und Mitbacken.</p><p>Die mittleren Kinder nehmen die mittlere Rutsche über eine Leiter oder über einen Kletterparcours, den der Text mit Sendungen wie „American Gladiator“ vergleicht. Die große Rutsche nur über den Turm. Eine Nestschaukel, an der man sich zur Rushhour anstellt oder sie teilt, daneben zwei normale Schaukeln, und eine Kletterspinne, von der aus man den ganzen Platz übersieht. Bis auf zwei Eingänge ein hüfthoher Zaun. Mitten im Tiergarten geben die Bäume auch im heißesten Sommer Schatten. Im Frühling und Herbst hält das Laub einzelne Tropfen auf. Im Winter lassen immergrüne Pflanzen den Platz nicht trostlos aussehen. Ein Großteil der Geräte sei in den letzten zehn Jahren neu gebaut worden. Einzig die Kletterspinne stehe seit den neunziger Jahren, „Zeugin“ von jahrzehntelangem Spiel direkt hinter der Philharmonie.</p><p>Das einzige Manko, das der Beitrag nennt: es gibt quasi keine Verpflegung in der Nähe oder auf dem Weg. Im Sommer Wasser einpacken, für einen langen Tag. Einige Bänke taugen zum Picknick. Familien legen Kindergeburtstage und das Ende einer Schnitzeljagd hierher.</p><p>Gegessen wird deshalb erst danach, und das steht in einem anderen Stück. Am 23. Januar 2023 beschreibt mittendran das Café ODOR: drei Stufen hinunter ins Souterrain der Kurfürstenstraße 21/22, ein kleiner Raum, ein paar Tische, Stühle, zwei Sofas, der Tresen im Raum dahinter. Überwiegend internationale, junge Gäste, freundliches Personal. Auf der kleinen Karte hausgemachtes Gebäck, Bananenbrot zu 3,50 Euro, vegetarischer Brunch. Das Sauerteigbrot mit Avocado, Kresse, Rucola, Sonnenblumenkernen, Pesto und auf Wunsch Rührei zu 12,50 Euro. Espresso macchiato 2,80, Café Latte 3,40, Tees Yuzu/Pflaume 3,50, Earl Grey Milk Tea 4,00, heiße Schokolade mit Marshmallows 3,50. Das Mineralwasser kommt mit einem Minzezweig. Die beiden Betreiberinnen kommen aus Korea und führen das Café seit Mitte Juli 2022. Geöffnet, in diesem Beitrag, Dienstag bis Samstag 11 bis 18 Uhr, Montag und Sonntag geschlossen. Ob das noch gilt, steht hier nicht.</p></div>
+  <h2>Aus den Beiträgen</h2><ul class='date-sources'><li><a href="https://www.mittendran.de/kiez-mit-kind-der-spielplatz-tiergarten-luiseninsel/" rel="noopener">Kiez mit Kind: Der Spielplatz Tiergarten Luiseninsel</a></li><li><a href="https://www.mittendran.de/caf%c3%a9-odor/" rel="noopener">Café ODOR</a></li></ul>
+  <p class="meta">Öffnungszeiten stehen hier nicht. Der Link beim Essen führt auf die Seite des Hauses.</p>
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
+</body>
+</html>

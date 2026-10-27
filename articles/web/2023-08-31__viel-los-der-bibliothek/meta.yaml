@@ -14,14 +14,14 @@ tags: []
 source: {}
 places:
 - name: Nachbarschaftstreff
-  lat: 52.5035
-  lon: 13.3575
+  lat: 52.50376
+  lon: 13.363429
   osm_id: null
   status: confirmed
   via: gazetteer
 - name: Bibliothek Tiergarten-Süd
-  lat: 52.5018
-  lon: 13.3605
+  lat: 52.50376
+  lon: 13.363429
   osm_id: null
   status: confirmed
   via: gazetteer

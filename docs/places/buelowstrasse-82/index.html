@@ -11,6 +11,8 @@
     <nav>
       <a href="../../index.html">mittendran-archiv</a>
       <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
     </nav>
   </header>
   
@@ -23,8 +25,9 @@
   <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.49795&amp;mlon=13.36321#map=17/52.49795/13.36321" rel="noopener">Lage auf OpenStreetMap</a></p>
   
   
+  
   <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><span class="rubrik-static"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">1</span></span></div>
-  <section class="place-group"><h2 class="place-year">2023 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/die-familie-von-franz-ledermann-teil-4-2/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Die Familie von Franz Ledermann (Teil 5)</strong><div class="meta">2023-03-13 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Redaktion</div><p class="place-excerpt">aus der Serie „Jüdische Geschichte im Lützow-Viertel“ (4.5), von Prof. Dr. Paul Enck, www.paul-enck.com. In diesem 5. Teil der Geschichte der Familie Ledermann geht es um Ilse Louise Ledermann geborene Citroen, die…</p></span></a></li></ul></section>
+  <section class="place-group" id="y2023"><h2 class="place-year">2023 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez" data-date="2023-03-13" data-about="1780 1782 1800 1808 1812 1814 1816 1827 1830 1832 1833 1834 1841 1848 1850 1852 1856 1858 1859 1860 1861 1862 1864 1865 1866 1867 1869 1871 1872 1873 1874 1875 1876 1877 1878 1880 1882 1883 1884 1889 1891 1892 1893 1894 1895 1896 1898 1900 1901 1904 1905 1906 1907 1910 1914 1918 1924 1925 1928 1932 1941 1945 1965"><a href="https://www.mittendran.de/die-familie-von-franz-ledermann-teil-4-2/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Die Familie von Franz Ledermann (Teil 5)</strong><div class="meta">2023-03-13 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Redaktion</div><p class="place-excerpt">aus der Serie „Jüdische Geschichte im Lützow-Viertel“ (4.5), von Prof. Dr. Paul Enck, www.paul-enck.com. In diesem 5. Teil der Geschichte der Familie Ledermann geht es um Ilse Louise Ledermann geborene Citroen, die…</p></span></a></li></ul></section>
   <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
   
 </main>
@@ -34,5 +37,33 @@
     <a href="https://www.mittendran.de/">mittendran.de</a>
     — nicht die offizielle mitteNdran-Seite.
   </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
 </body>
 </html>

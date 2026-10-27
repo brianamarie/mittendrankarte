@@ -11,6 +11,8 @@
     <nav>
       <a href="../../index.html">mittendran-archiv</a>
       <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
     </nav>
   </header>
   
@@ -23,8 +25,9 @@
   <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.49929&amp;mlon=13.36300#map=17/52.49929/13.36300" rel="noopener">Lage auf OpenStreetMap</a></p>
   
   
+  
   <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><span class="rubrik-static"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">1</span></span></div>
-  <section class="place-group"><h2 class="place-year">2024 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/juedisches-leben-im-luetzow-viertel-13-versandhandel-blumenreich-teil-3/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Jüdisches Leben im Lützow-Viertel (13): Versandhandel A. Blumenreich (Teil 3)</strong><div class="meta">2024-08-11 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Im nächsten Teil der Geschichte des Versandhandels Arnold Blumenreich gehen wir dem Schicksal der Geschwister von Arnold nach, die – wie er – aus der ersten Ehe seines Vaters Paul Philipp Blumenreich (mittendran vom…</p></span></a></li></ul></section>
+  <section class="place-group" id="y2024"><h2 class="place-year">2024 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez" data-date="2024-08-11" data-about="1720 1830 1843 1845 1856 1871 1872 1875 1877 1879 1880 1884 1886 1887 1888 1889 1890 1891 1892 1894 1896 1897 1898 1899 1900 1901 1902 1903 1905 1907 1908 1909 1911 1912 1913 1914 1915 1917 1918 1920 1921 1922 1923 1924 1926 1927 1932 1941 1974 2009"><a href="https://www.mittendran.de/juedisches-leben-im-luetzow-viertel-13-versandhandel-blumenreich-teil-3/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Jüdisches Leben im Lützow-Viertel (13): Versandhandel A. Blumenreich (Teil 3)</strong><div class="meta">2024-08-11 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Im nächsten Teil der Geschichte des Versandhandels Arnold Blumenreich gehen wir dem Schicksal der Geschwister von Arnold nach, die – wie er – aus der ersten Ehe seines Vaters Paul Philipp Blumenreich (mittendran vom…</p></span></a></li></ul></section>
   <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
   
 </main>
@@ -34,5 +37,33 @@
     <a href="https://www.mittendran.de/">mittendran.de</a>
     — nicht die offizielle mitteNdran-Seite.
   </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
 </body>
 </html>

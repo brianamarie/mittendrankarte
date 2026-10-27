@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Specht-Spielplatz und Gleisdreieck</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
+    </nav>
+  </header>
+  
+<main class="date-page">
+  <p class="place-back"><a href="../../ausgehen.html">← Ausgehen</a></p>
+  <p class="place-kicker">Spielplatz</p>
+  <h1>Specht-Spielplatz und Gleisdreieck</h1>
+  <p class="meta">Wochenende nachmittags · Ein Park, zwei Ecken</p>
+  <p class="lead">Nachmittags. Ein Spielplatz und ein Platz zum Sitzen.</p>
+  <p class='date-food'><strong>Essen.</strong> Café Jules, Luckenwalder Straße 6b. Unter der U-Bahn, am B-Part. Freitags steht dort der Thaimarkt Thai-Bridge. <a class="hours-link" href="https://www.jules-cafe.de/" rel="noopener">Öffnungszeiten</a></p>
+  
+  <div id="date-map" class="date-map" role="region" aria-label="Pins zu diesem Abend"></div>
+  <p class="meta">2 Pins. Ein Klick öffnet die Beiträge. Beim Essen liegt der Link zu den Öffnungszeiten im Pin.</p>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>window.RUBRIK_COLORS = {"Aus dem Kiez": "#4a7c59", "Kunst und Kultur": "#8b4d9a", "Miteinander": "#c45c26", "Öffentlicher Raum und Verkehr": "#2f6f9f", "Bauen und Wohnen": "#8b6914", "Gewerbe und Gastronomie": "#b33b3b", "Kiez-Geschichte": "#5c4a3a", "kiek ma!": "#d4a017", "Kinder, Heranwachsende, Schule": "#3d8b8b", "Kiez mit Kind": "#5aa0a0", "In eigener Sache": "#6b6b6b", "Sport und Freizeit": "#3f7d4e", "Der andere Blick": "#7a4e8c"}; window.DATE_PLACES = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.372, 52.501]}, "properties": {"place": "Specht-Spielplatz", "count": 1, "articles": [{"title": "Kiez mit Kind: Specht-Spielplatz II – ein Update", "url": "https://www.mittendran.de/update-specht-spielplatz/", "excerpt": "Nehmen unsere Spielplatz-Vorstellungen einen Einfluss? Oder ist alles Zufall ?! Die Vorfälle häufen sich: Der kleine, etwas trostlose „Spielplatz“ beim Specht-Spielplatz wird offensichtlich umgebaut. Er hat ein kleines…", "date": "2025-10-04", "about_years": [], "rubrik": "Kiez mit Kind", "source_url": "https://www.mittendran.de/update-specht-spielplatz/"}], "place_url": "../../places/specht-spielplatz/", "place_slug": "specht-spielplatz", "title": "Kiez mit Kind: Specht-Spielplatz II – ein Update", "url": "https://www.mittendran.de/update-specht-spielplatz/", "excerpt": "Nehmen unsere Spielplatz-Vorstellungen einen Einfluss? Oder ist alles Zufall ?! Die Vorfälle häufen sich: Der kleine, etwas trostlose „Spielplatz“ beim Specht-Spielplatz wird offensichtlich umgebaut. Er hat ein kleines…", "date": "2025-10-04"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.3733055, 52.4990847]}, "properties": {"place": "Café Jules", "count": 1, "articles": [{"title": "Thaimarkt „Thai-Bridge“ im Gleisdreieckpark", "url": "https://www.mittendran.de/thaimarkt-thai-bridge-im-gleisdreieckpark/", "date": "2025-06-17", "rubrik": "Gewerbe und Gastronomie", "excerpt": "Der Markt steht freitags am Café Jules, Luckenwalder Straße 6b, unter der U-Bahn."}], "hours_url": "https://www.jules-cafe.de/"}}]};</script>
+  <script>
+const RUBRIK_COLORS = window.RUBRIK_COLORS || {};
+const RUBRIK_FALLBACK = "#7a6a58";
+
+function esc(s) {
+  return String(s || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function rubrikColor(name) {
+  const key = String(name || "").trim();
+  if (!key) return RUBRIK_FALLBACK;
+  if (RUBRIK_COLORS[key]) return RUBRIK_COLORS[key];
+  let h = 0;
+  for (let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) >>> 0;
+  return "hsl(" + (h % 360) + " 42% 42%)";
+}
+
+function conicFromArticles(articles) {
+  if (!articles.length) return RUBRIK_FALLBACK;
+  const counts = {};
+  const order = [];
+  articles.forEach((a) => {
+    const r = String(a.rubrik || "").trim() || "Sonstiges";
+    if (!counts[r]) {
+      counts[r] = 0;
+      order.push(r);
+    }
+    counts[r] += 1;
+  });
+  const total = articles.length;
+  let start = 0;
+  const parts = order.map((r) => {
+    const share = (counts[r] / total) * 100;
+    const end = start + share;
+    const slice = rubrikColor(r) + " " + start.toFixed(2) + "% " + end.toFixed(2) + "%";
+    start = end;
+    return slice;
+  });
+  return "conic-gradient(" + parts.join(", ") + ")";
+}
+
+function articleRow(a) {
+  const rubrik = String(a.rubrik || "").trim();
+  const color = rubrikColor(rubrik);
+  const tag = rubrik
+    ? "<span class='rubrik-tag' style='background:color-mix(in srgb, " +
+      color +
+      " 28%, white)'>" +
+      esc(rubrik) +
+      "</span>"
+    : "";
+  const line = [a.date ? esc(a.date) : "", tag].filter(Boolean).join(" · ");
+  const excerpt = a.excerpt
+    ? "<p class='popup-excerpt'>" + esc(a.excerpt) + "</p>"
+    : "";
+  const inner =
+    "<span class='chip' style='background:" +
+    color +
+    "' title='" +
+    esc(rubrik || "ohne Rubrik") +
+    "'></span><div><span class='t'>" +
+    esc(a.title) +
+    "</span>" +
+    (line ? "<div class='popup-meta'>" + line + "</div>" : "") +
+    excerpt +
+    "</div>";
+  return a.url
+    ? "<li><a href='" + esc(a.url) + "'>" + inner + "</a></li>"
+    : "<li style='display:grid;grid-template-columns:0.55rem 1fr;gap:0.55rem'>" +
+        inner +
+        "</li>";
+}
+
+function popupHtml(p) {
+  const articles = Array.isArray(p.articles) ? p.articles : [];
+  const place = p.place || (articles[0] && articles[0].title) || "Ort";
+  const n = articles.length || p.count || 0;
+  const meta = n > 1 ? n + " Beiträge" : n === 1 ? "1 Beitrag" : "";
+  const shown = articles.slice(0, 10);
+  const items = shown.map(articleRow).join("");
+  const moreHref = p.place_url || "";
+  const more =
+    n > 10 && moreHref
+      ? "<a class='popup-more' href='" + esc(moreHref) + "'>Alle " + n + " Beiträge →</a>"
+      : moreHref && n > 1
+        ? "<a class='popup-more' href='" + esc(moreHref) + "'>Zur Ortsseite →</a>"
+        : "";
+  const hours = p.hours_url
+    ? "<a class='popup-more' href='" + esc(p.hours_url) + "' rel='noopener'>Öffnungszeiten</a>"
+    : "";
+  return (
+    "<div class='map-popup'>" +
+    "<strong class='popup-place'>" +
+    esc(place) +
+    "</strong>" +
+    (meta ? "<div class='popup-meta'>" + esc(meta) + "</div>" : "") +
+    "<ul class='popup-articles'>" +
+    items +
+    "</ul>" +
+    hours +
+    more +
+    "</div>"
+  );
+}
+
+function singleStyle(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const fill = rubrikColor(arts[0] && arts[0].rubrik);
+  return {
+    radius: 8,
+    color: "#2a221c",
+    weight: 1.4,
+    fillColor: fill,
+    fillOpacity: 0.92,
+  };
+}
+
+function multiIcon(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const n = arts.length || 1;
+  const size = Math.min(22, 12 + Math.sqrt(n) * 3.2);
+  return L.divIcon({
+    className: "",
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+    html:
+      "<div class='pin-multi' style='width:" +
+      size +
+      "px;height:" +
+      size +
+      "px;background:" +
+      conicFromArticles(arts) +
+      "' title='" +
+      esc(String(n) + " Beiträge") +
+      "'></div>",
+  });
+}
+
+const geo = window.DATE_PLACES || { type: "FeatureCollection", features: [] };
+const map = L.map("date-map", { scrollWheelZoom: false });
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19,
+  attribution: "&copy; OpenStreetMap",
+}).addTo(map);
+const layer = L.geoJSON(geo, {
+  pointToLayer(feature, latlng) {
+    const props = (feature && feature.properties) || {};
+    const n = props.count || 1;
+    if (props.hours_url) {
+      return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true, zIndexOffset: 1000 });
+    }
+    if (n > 1) return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true });
+    return L.circleMarker(latlng, singleStyle(feature));
+  },
+  onEachFeature(feature, lyr) {
+    lyr.bindPopup(popupHtml(feature.properties || {}), {
+      maxWidth: Math.min(320, Math.max(180, window.innerWidth - 56)),
+      autoPan: true,
+      autoPanPadding: [12, 12],
+    });
+  },
+}).addTo(map);
+if (layer.getBounds().isValid()) {
+  map.fitBounds(layer.getBounds(), { padding: [28, 28], maxZoom: 16 });
+}
+map.invalidateSize();
+</script>
+
+  <h2>Stopps</h2>
+  <ol class="date-order"><li><a href="../../places/specht-spielplatz/">Specht-Spielplatz</a><figure class="date-photo"><a href="https://www.mittendran.de/kiez-mit-kind-specht-spielplatz-karlsbad/" rel="noopener"><img src="../../assets/dates/specht-gleisdreieck/0.jpg" alt="Kiez mit Kind: “Specht-Spielplatz” am Karlsbad"></a><figcaption><a href="https://www.mittendran.de/kiez-mit-kind-specht-spielplatz-karlsbad/" rel="noopener">Kiez mit Kind: “Specht-Spielplatz” am Karlsbad</a></figcaption></figure></li><li>Café Jules <a class="hours-link" href="https://www.jules-cafe.de/" rel="noopener">Öffnungszeiten</a><figure class="date-photo"><a href="https://www.mittendran.de/thaimarkt-thai-bridge-im-gleisdreieckpark/" rel="noopener"><img src="../../assets/dates/specht-gleisdreieck/1.jpg" alt="Thaimarkt „Thai-Bridge“ im Gleisdreieckpark"></a><figcaption><a href="https://www.mittendran.de/thaimarkt-thai-bridge-im-gleisdreieckpark/" rel="noopener">Thaimarkt „Thai-Bridge“ im Gleisdreieckpark</a></figcaption></figure></li><li><a href="../../places/gleisdreieck/">Gleisdreieck</a><figure class="date-photo"><a href="https://www.mittendran.de/kiez-mit-kind-spielplatz-stangenwald/" rel="noopener"><img src="../../assets/dates/specht-gleisdreieck/2.jpg" alt="Kiez mit Kind: Spielplatz Stangenwald"></a><figcaption><a href="https://www.mittendran.de/kiez-mit-kind-spielplatz-stangenwald/" rel="noopener">Kiez mit Kind: Spielplatz Stangenwald</a></figcaption></figure></li></ol>
+  <h2>Gelesen</h2>
+  <p class="meta">Zusammengelesen aus den genannten Beiträgen. Was dort nicht steht, steht hier nicht.</p>
+  <div class="date-narrative"><p>Der Park am Karlsbad, schreibt die Serie im Juli 2025, wird zwischen dem nahen Tiergarten und dem Gleisdreieck nebenan schnell übersehen. Vom Vorbeifahren kennt man ihn, wenn man nicht direkt daneben wohnt. Der Spielplatz darin sei vor nicht allzu vielen Jahren erneuert worden. Was man von der Potsdamer Straße zuerst sieht, ist nicht der Specht: Sandkasten, kleines Karussell und Wackeltier, trist am Beginn des Parks, das soll man hinter sich lassen. Danach ein Fußballkäfig in einer Hecke und fünf Tischtennisplatten, von denen meist mindestens eine frei sei, ein Geheimtipp, wenn das Gleisdreieck voll ist. Erst dann der Spielplatz, dessen Name frei erfunden ist, nach dem Specht, der an einem Eingang untätig am Holzpfahl sitzt.</p><p>Grün, viele Bäume, ganz umzäunt oder von Hecke umgeben. An den drei Eingängen öffnen sich die Schwingtore von innen nur durch Ziehen, nicht durch Drücken, damit kleinere Kinder nicht ausbüxen. Eine mittelgroße Rutsche, ein Kletterelement mit Sitznetz, eine Kleinkindwippe in einer Größe, die die Serie sonst nirgends gesehen hat, eine Netzschaukel, zwei Schaukeln, keine Babyschaukeln, genug Sand. Ein fest installierter Spielkreisel, dessen metallener Kegel einen immer leicht herunterrutschen lässt. Und ein Element, das der Text nur als „Skateboard-Simulator“ bezeichnen kann: beidseitig ein Skateboard auf einer halbkreisförmigen Schiene, mit Haltegriff. Es gab das schon vor der Erneuerung und wurde behalten. Die Standbretter fehlen seit geraumer Zeit und sind nicht wieder angebracht. Wer das Gerät von früher nicht kennt, versteht nicht, wie man damit umgeht. Außerhalb, auf der Wiese, Picknick, Ball, Federball. Bänke im Sonnen- und im Schattenbereich. An Mülleimern mangelt es nicht, neben jeder Bank. Trotzdem ist der Eingangsbereich etwas vermüllt, und auf der Wiese liegen Taschentücher, Verpackungen und Tüten, nicht extrem viel, aber sichtbar. Zu trinken und zu essen einpacken. Die nächsten Läden an der Flottwellstraße, an der Potsdamer Straße oder gegenüber am Potsdamer Platz.</p><p>Im Oktober 2025 ein kurzes Update. Der kleine, trostlose Platz beim Specht werde offensichtlich umgebaut. Er habe ein Dreh-Element und ein Spielhaus für die Kleinen, mit Klettern aufs Dach. Die Serie wünscht sich noch eine Babyschaukel, bei den Schaukeln sei Platz, und eine andere Idee für den Skateboard-Simulator. Ob die Wünsche den Umbau beeinflusst haben oder alles Zufall ist, lässt der Text offen.</p><p>Bleibt man im Gleisdreieck, beschreibt dieselbe Serie zwei weitere Plätze, und sie sind nicht austauschbar. Der Stangenwald, Januar 2026, liegt an der Kreuzberger Wiese, an der Treppe zur Möckernstraße, und ist fürs Klettern gebaut: quadratisches Netz, Spinnennetz, Leiternetze, Mattennetze, dazwischen Stämme und Seile zum Balancieren, eine Slackline ohne Handlauf. Hängematten zum Ausruhen. Für alle anderen zwei Schaukeln auf dem Platz, zwei weitere der hoch gebauten Modelle, die mehrfach im Park stehen, eine Teller- oder Reifenschaukel, eine Rutsche. Kein Sand. Eine Mattenwippe für bis zu acht Kinder. Bänke, die große Wiese nebenan, ein Kiosk direkt daneben mit Kaltgetränken, kleineren Backwaren und Eis, und eine Toilette. Wenig Schatten auf den Geräten, Bäume drumherum, an den Kiosktischen im Sommer Sonnenschirme. Etwas abseits, streng genommen nicht mehr zum Platz gehörend, drei Tischtennisplatten im Schatten. Sandburgen, schreibt der Text, soll man woanders bauen.</p><p>Das Kinderzimmer, Juli 2026, ist kein Geheimtipp, aber auf der Schöneberger Seite vielen unbekannt und bei schönem Wetter oft nicht so voll, weil es nicht an einem Hauptweg liegt und etwas abgelegen hinter dem Spektrum. Eine Pumpe mit doppeltem Wasserlauf und mehreren Becken, Staudämme, Kanäle, Boote, auch für die Kleinsten erreichbar. Nachteil: die Pumpe sitzt so nah am Holzbrett, dass man dort kein frisches Wasser zum Händewaschen oder in einen Eimer zapfen kann. Zwei große Sandflächen, drei Rutschen, Wippplatten und Wippkisten, drei klassische Schaukeln, eine Netzschaukel, eine Babyschaukel, ein Schaukelseil, Wände, Stangen und Netze. Holzverschläge, hinter denen man sich versteckt. Hörröhren für Absprachen über Distanz. Ein Holzzaun. Mehr als die Hälfte im Schatten der Silberpappeln, Tische und Bänke mitten auf dem Platz, weitere Bänke am Weg. Kleinere Äste und Mulch, Barfußlaufen ist eingeschränkt. Einpacken, weil in der Nähe nichts zu kaufen ist. Die nächsten Läden diesseits der Großbeerenstraße: die Cafés Parkgenuss am Stangenwald und TorEins.</p><p>Essen, an einem Freitag, kann der Thaimarkt sein. Der Beitrag vom 17. Juni 2025 sagt, „Thai-Bridge“ stehe zum dritten Mal wieder im Gleisdreieckpark am Café Jules und am B-Part, Luckenwalder Straße, unter der U-Bahn. Jeden Freitag von 12 bis 22 Uhr, an kleinen Ständen gebrutzelt und gebacken, exotische Getränke, draußen kleine Tische an der „Thai-Bridge“.</p></div>
+  <h2>Aus den Beiträgen</h2><ul class='date-sources'><li><a href="https://www.mittendran.de/kiez-mit-kind-specht-spielplatz-karlsbad/" rel="noopener">Kiez mit Kind: Specht-Spielplatz am Karlsbad</a></li><li><a href="https://www.mittendran.de/update-specht-spielplatz/" rel="noopener">Kiez mit Kind: Specht-Spielplatz II – ein Update</a></li><li><a href="https://www.mittendran.de/kiez-mit-kind-spielplatz-stangenwald/" rel="noopener">Kiez mit Kind: Spielplatz Stangenwald</a></li><li><a href="https://www.mittendran.de/kiez-mit-kind-spielplatz-kinderzimmer/" rel="noopener">Kiez mit Kind: Spielplatz Kinderzimmer</a></li><li><a href="https://www.mittendran.de/thaimarkt-thai-bridge-im-gleisdreieckpark/" rel="noopener">Thaimarkt „Thai-Bridge“ im Gleisdreieckpark</a></li></ul>
+  <p class="meta">Öffnungszeiten stehen hier nicht. Der Link beim Essen führt auf die Seite des Hauses.</p>
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
+</body>
+</html>

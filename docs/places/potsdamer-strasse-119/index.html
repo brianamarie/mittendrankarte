@@ -11,6 +11,8 @@
     <nav>
       <a href="../../index.html">mittendran-archiv</a>
       <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
     </nav>
   </header>
   
@@ -23,8 +25,9 @@
   <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50019&amp;mlon=13.36283#map=17/52.50019/13.36283" rel="noopener">Lage auf OpenStreetMap</a></p>
   
   
+  
   <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><span class="rubrik-static"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">1</span></span></div>
-  <section class="place-group"><h2 class="place-year">2022 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/medizingeschichte-im-luetzow-viertel2das-elisabeth-krankenhaus-der-luetzowstrasse/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>MEDIZINGESCHICHTE IM LÜTZOW-VIERTEL:(2) Das Elisabeth-Krankenhaus in der Lützowstraße</strong><div class="meta">2022-12-19 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Redaktion</div><p class="place-excerpt">(ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com)) Im Jahr 1823 verkaufte der Apotheker Friedrich Heinrich Jakob Wendland die Engel-Apotheke an der Mohrenstraße 5 (demnächst…</p></span></a></li></ul></section>
+  <section class="place-group" id="y2022"><h2 class="place-year">2022 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez" data-date="2022-12-19" data-about="1773 1776 1785 1800 1801 1803 1810 1818 1823 1825 1829 1833 1834 1835 1836 1837 1838 1839 1843 1846 1847 1848 1849 1850 1851 1854 1858 1859 1861 1863 1864 1865 1866 1867 1870 1871 1872 1873 1881 1889 1890 1899 1905 1909 1910 1917 1918 1937 1962 1982 1987 2003"><a href="https://www.mittendran.de/medizingeschichte-im-luetzow-viertel2das-elisabeth-krankenhaus-der-luetzowstrasse/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>MEDIZINGESCHICHTE IM LÜTZOW-VIERTEL:(2) Das Elisabeth-Krankenhaus in der Lützowstraße</strong><div class="meta">2022-12-19 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Redaktion</div><p class="place-excerpt">(ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com)) Im Jahr 1823 verkaufte der Apotheker Friedrich Heinrich Jakob Wendland die Engel-Apotheke an der Mohrenstraße 5 (demnächst…</p></span></a></li></ul></section>
   <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
   
 </main>
@@ -34,5 +37,33 @@
     <a href="https://www.mittendran.de/">mittendran.de</a>
     — nicht die offizielle mitteNdran-Seite.
   </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
 </body>
 </html>

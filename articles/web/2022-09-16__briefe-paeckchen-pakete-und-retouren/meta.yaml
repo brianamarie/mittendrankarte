@@ -38,8 +38,8 @@ places:
   status: confirmed
   via: address
 - name: Steinmetzstraße
-  lat: 52.4975
-  lon: 13.361
+  lat: 52.49788
+  lon: 13.36399
   osm_id: null
   status: confirmed
   via: gazetteer

@@ -14,8 +14,27 @@ header, footer { padding: 0.7rem 1rem; background: #161616; color: #eee; }
 header a, footer a { color: #b9d4ff; text-decoration: none; }
 header a { display: inline-block; padding: 0.35rem 0; }
 header a:hover, footer a:hover { text-decoration: underline; }
+body:has(.map-page) header { position: relative; z-index: 1000; }
+.nav-drop { position: relative; display: inline-flex; align-items: center; gap: 0.05rem; }
+.nav-drop-btn {
+  font: inherit; color: #b9d4ff; background: transparent; border: 0;
+  padding: 0.35rem 0; cursor: pointer; line-height: 1;
+}
+.nav-drop-btn:hover, .nav-drop-btn:focus-visible { color: #fff; outline: none; }
+.nav-menu {
+  display: none; position: absolute; top: calc(100% - 0.15rem); left: 0; z-index: 2;
+  min-width: 8.5rem; margin: 0; padding: 0.3rem 0;
+  background: #1c1c1c; border: 1px solid #3a3a3a; border-radius: 8px;
+  box-shadow: 0 10px 28px rgba(0,0,0,.35);
+}
+.nav-drop:hover .nav-menu,
+.nav-drop:focus-within .nav-menu,
+.nav-drop.is-open .nav-menu { display: block; }
+.nav-menu a { display: block; padding: 0.32rem 0.85rem; white-space: nowrap; }
+.nav-menu a:hover { background: #2a2a2a; text-decoration: none; color: #fff; }
+.nav-n { color: #9aa; }
 main { max-width: 46rem; margin: 0 auto; padding: 1.2rem 1.1rem 3rem; }
-main.map-page { max-width: none; padding: 0; }
+main.map-page { max-width: none; width: 100%; margin: 0; padding: 0; align-self: stretch; }
 .map-intro { max-width: none; margin: 0; padding: 0; }
 .map-bar {
   display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.7rem;
@@ -151,6 +170,56 @@ body:has(.map-page) .map-page {
 .cards { display: grid; gap: 0.75rem; padding: 0; list-style: none; }
 .cards a { display: block; background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 0.85rem 1rem; text-decoration: none; color: inherit; }
 .cards a:hover { border-color: var(--accent); }
+.outing-jump, .slot-filter { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.8rem 0 0.2rem; padding: 0; list-style: none; }
+.outing-jump a, .slot-filter button {
+  display: inline-block; padding: 0.25rem 0.6rem; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--card); text-decoration: none;
+  color: inherit; font: inherit; font-size: 0.92rem; cursor: pointer;
+}
+.outing-jump a:hover, .slot-filter button:hover { border-color: var(--accent); color: var(--accent); }
+.slot-filter button[aria-pressed="true"] { background: var(--accent); color: #fff; border-color: var(--accent); }
+.date-card[hidden], .outing-section[hidden] { display: none !important; }
+.outing-who { margin: 1.6rem 0 0.2rem; font-size: 1.2rem; }
+.outing-note { margin: 0 0 0.65rem; }
+.date-list { display: grid; gap: 0.75rem; padding: 0; list-style: none; }
+.date-card { background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 0.85rem 1rem; }
+.date-card h3 { margin: 0 0 0.2rem; font-size: 1.05rem; }
+.date-stops { display: flex; flex-wrap: wrap; gap: 0.35rem; margin: 0.5rem 0; padding: 0; list-style: none; }
+.date-stops a, .date-stops span { display: inline-block; padding: 0.15rem 0.5rem; border-radius: 999px; border: 1px solid var(--line); background: var(--paper); font-size: 0.88rem; }
+.date-stops a { color: var(--accent); text-decoration: none; }
+.date-stops a:hover { border-color: var(--accent); }
+.date-food { margin: 0.85rem 0 0.2rem; padding: 0.45rem 0 0.45rem 0.7rem; border-left: 3px solid var(--accent); }
+.date-card .date-food { margin: 0.45rem 0 0.15rem; }
+.hours-link { margin-left: 0.35rem; white-space: nowrap; }
+.date-card p { margin: 0.35rem 0 0; }
+.date-card h3 a { color: inherit; text-decoration: none; }
+.date-card h3 a:hover { color: var(--accent); }
+.date-map { height: 28rem; min-height: 280px; width: 100%; background: #d8d4ce; border: 1px solid var(--line); border-radius: 8px; margin: 0.6rem 0 0.4rem; }
+.date-pin { background: transparent; border: none; }
+.date-pin span {
+  display: flex; align-items: center; justify-content: center;
+  width: 1.7rem; height: 1.7rem; border-radius: 50%;
+  background: var(--accent); color: #fff; font-weight: 700; font-size: 0.85rem;
+  border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,.35);
+}
+.date-order { margin: 0.2rem 0 1rem; padding-left: 1.2rem; }
+.date-order li { margin: 0.85rem 0; }
+.date-card { overflow: hidden; padding: 0; }
+.date-card-body { padding: 0.85rem 1rem 0.95rem; }
+.date-banner { display: block; line-height: 0; }
+.date-banner img {
+  width: 100%; height: 12.5rem; object-fit: cover; object-position: center; display: block;
+}
+.date-photo { margin: 0.45rem 0 0.15rem; }
+.date-photo a { display: block; }
+.date-photo img {
+  width: 100%; height: auto; border-radius: 8px; display: block; background: #d8d4ce;
+}
+.date-photo figcaption { margin: 0.28rem 0 0; color: var(--muted); font-size: 0.88rem; }
+.date-photo figcaption a { color: inherit; }
+.date-narrative p { max-width: 42rem; margin: 0 0 0.95rem; }
+.date-sources { padding-left: 1.1rem; margin: 0.3rem 0 0; }
+.date-sources li { margin: 0.28rem 0; }
 .meta { color: var(--muted); font-size: 0.92rem; }
 .original { display: inline-block; margin: 0.4rem 0 1rem; }
 .hero { max-width: 100%; height: auto; border-radius: 8px; }
@@ -263,6 +332,8 @@ main.place-page { max-width: 40rem; }
   border: 1px solid rgba(0,0,0,.22); flex: none;
 }
 .place-swatch { width: 0.65rem; height: 0.65rem; border-radius: 50%; }
+.place-page .map-years { margin: 0.2rem 0 0.8rem; max-width: none; }
+.place-group { scroll-margin-top: 4.2rem; }
 .place-year { margin: 1.35rem 0 0.45rem; }
 .place-year .n { color: var(--muted); font-weight: 500; }
 .place-page .cards { gap: 0.5rem; }

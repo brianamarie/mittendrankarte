@@ -11,6 +11,8 @@
     <nav>
       <a href="../../index.html">mittendran-archiv</a>
       <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
     </nav>
   </header>
   
@@ -23,8 +25,9 @@
   <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50021&amp;mlon=13.36155#map=17/52.50021/13.36155" rel="noopener">Lage auf OpenStreetMap</a></p>
   
   
+  
   <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><span class="rubrik-static"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">1</span></span></div>
-  <section class="place-group"><h2 class="place-year">2026 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/starke-frauen-im-luetzow-viertel-teil-4-ulrike-henschke-genthiner-strasse-18/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Starke Frauen im Lützow-Viertel (Teil 4): Ulrike Henschke, Genthiner Straße 18</strong><div class="meta">2026-08-21 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Nach den Frauenvereinen setzen wir die Serie der starken Frauen im Lützow-Viertel fort mit Einzelpersonen, Frauen, die in den diskutierten Vereinen eine bedeutsame Rolle spielten und die alle im Viertel wohnten. Eine…</p></span></a></li></ul></section>
+  <section class="place-group" id="y2026"><h2 class="place-year">2026 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez" data-date="2026-08-21" data-about="1812 1821 1825 1830 1844 1847 1850 1853 1854 1856 1859 1861 1863 1864 1866 1867 1868 1871 1872 1875 1876 1877 1879 1880 1882 1884 1885 1889 1892 1893 1894 1895 1897 1900 1901 1903 1907 1908 1911 1912 1914 1915 1919 1928 1930 1931 1942 2008"><a href="https://www.mittendran.de/starke-frauen-im-luetzow-viertel-teil-4-ulrike-henschke-genthiner-strasse-18/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Starke Frauen im Lützow-Viertel (Teil 4): Ulrike Henschke, Genthiner Straße 18</strong><div class="meta">2026-08-21 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Paul Enck</div><p class="place-excerpt">Nach den Frauenvereinen setzen wir die Serie der starken Frauen im Lützow-Viertel fort mit Einzelpersonen, Frauen, die in den diskutierten Vereinen eine bedeutsame Rolle spielten und die alle im Viertel wohnten. Eine…</p></span></a></li></ul></section>
   <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
   
 </main>
@@ -34,5 +37,33 @@
     <a href="https://www.mittendran.de/">mittendran.de</a>
     — nicht die offizielle mitteNdran-Seite.
   </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
 </body>
 </html>

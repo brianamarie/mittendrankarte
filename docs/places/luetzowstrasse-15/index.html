@@ -11,6 +11,8 @@
     <nav>
       <a href="../../index.html">mittendran-archiv</a>
       <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
     </nav>
   </header>
   
@@ -23,8 +25,9 @@
   <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50243&amp;mlon=13.36914#map=17/52.50243/13.36914" rel="noopener">Lage auf OpenStreetMap</a></p>
   
   
+  
   <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><span class="rubrik-static"><span class="place-swatch" style="background:#4a7c59"></span>Aus dem Kiez <span class="n">2</span></span></div>
-  <section class="place-group"><h2 class="place-year">2022 · <span class="n">2</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/die-familie-von-franz-ledermann-teil-1/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Die Familie von Franz Ledermann (Teil 1)</strong><div class="meta">2022-11-18 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Redaktion</div><p class="place-excerpt">aus der Serie „Jüdische Geschichte im Lützow-Viertel“ (4.1), von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com) Anlässlich der Gedenkfeier und der Verlegung von Stolpersteinen in der Genthinerstraße…</p></span></a></li><li data-rubrik="Aus dem Kiez"><a href="https://www.mittendran.de/einladung-zum-gedenkspaziergang-zur-reichspogromnacht/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Einladung zum Gedenkspaziergang zur Reichspogromnacht</strong><div class="meta">2022-11-04 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · APZ</div><p class="place-excerpt">(https://www.mittendran.de/wp-content/uploads/2022/10/12AEDCB3-BA93-46CB-9BAD-9C057DFD817E-scaled.jpeg) Die SPD-Abteilung Tiergarten Süd lädt am Mittwoch, 09. November 2022 zum Gedenken an die Reichspogromnacht vor 84…</p></span></a></li></ul></section>
+  <section class="place-group" id="y2022"><h2 class="place-year">2022 · <span class="n">2</span></h2><ul class="cards"><li data-rubrik="Aus dem Kiez" data-date="2022-11-18" data-about="1776 1802 1809 1828 1833 1834 1835 1836 1837 1838 1839 1841 1842 1844 1845 1846 1847 1848 1853 1860 1861 1862 1864 1867 1868 1889 1890 1896 1900 1906 1909 1910 1911 1912 1931 1933 1943 1987"><a href="https://www.mittendran.de/die-familie-von-franz-ledermann-teil-1/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Die Familie von Franz Ledermann (Teil 1)</strong><div class="meta">2022-11-18 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · Redaktion</div><p class="place-excerpt">aus der Serie „Jüdische Geschichte im Lützow-Viertel“ (4.1), von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com) Anlässlich der Gedenkfeier und der Verlegung von Stolpersteinen in der Genthinerstraße…</p></span></a></li><li data-rubrik="Aus dem Kiez" data-date="2022-11-04" data-about=""><a href="https://www.mittendran.de/einladung-zum-gedenkspaziergang-zur-reichspogromnacht/" rel="noopener"><span class="place-bar" style="background:#4a7c59"></span><span class="place-card-body"><strong>Einladung zum Gedenkspaziergang zur Reichspogromnacht</strong><div class="meta">2022-11-04 · <span class="place-tag" style="background:color-mix(in srgb, #4a7c59 28%, white)">Aus dem Kiez</span> · APZ</div><p class="place-excerpt">(https://www.mittendran.de/wp-content/uploads/2022/10/12AEDCB3-BA93-46CB-9BAD-9C057DFD817E-scaled.jpeg) Die SPD-Abteilung Tiergarten Süd lädt am Mittwoch, 09. November 2022 zum Gedenken an die Reichspogromnacht vor 84…</p></span></a></li></ul></section>
   <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
   
 </main>
@@ -34,5 +37,33 @@
     <a href="https://www.mittendran.de/">mittendran.de</a>
     — nicht die offizielle mitteNdran-Seite.
   </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
 </body>
 </html>

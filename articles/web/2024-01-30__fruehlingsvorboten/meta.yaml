@@ -14,8 +14,8 @@ tags: []
 source: {}
 places:
 - name: Landwehrkanal
-  lat: 52.5045
-  lon: 13.365
+  lat: 52.50605
+  lon: 13.36621
   osm_id: null
   status: confirmed
   via: gazetteer

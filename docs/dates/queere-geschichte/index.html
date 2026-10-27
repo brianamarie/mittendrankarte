@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vom Museum zum Nollendorfplatz</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
+    </nav>
+  </header>
+  
+<main class="date-page">
+  <p class="place-back"><a href="../../ausgehen.html">← Ausgehen</a></p>
+  <p class="place-kicker">Queere Geschichte</p>
+  <h1>Vom Museum zum Nollendorfplatz</h1>
+  <p class="meta">Wochenende nachmittags · Ein längerer Spaziergang</p>
+  <p class="lead">Ein längerer Nachmittag zwischen Lützowstraße und Nollendorfplatz. Essen in der Mitte.</p>
+  <p class='date-food'><strong>Essen.</strong> SOLE DELI, Zietenstraße 7. Im Beitrag vom September 2025: mediterrane Küche in der Zietenstraße 1–9, auch glutenfrei, vegan und halal, mit Plätzen draußen. <a class="hours-link" href="https://brunchbysole.de/" rel="noopener">Öffnungszeiten</a></p>
+  
+  <div id="date-map" class="date-map" role="region" aria-label="Pins zu diesem Abend"></div>
+  <p class="meta">5 Pins. Ein Klick öffnet die Beiträge. Beim Essen liegt der Link zu den Öffnungszeiten im Pin.</p>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>window.RUBRIK_COLORS = {"Aus dem Kiez": "#4a7c59", "Kunst und Kultur": "#8b4d9a", "Miteinander": "#c45c26", "Öffentlicher Raum und Verkehr": "#2f6f9f", "Bauen und Wohnen": "#8b6914", "Gewerbe und Gastronomie": "#b33b3b", "Kiez-Geschichte": "#5c4a3a", "kiek ma!": "#d4a017", "Kinder, Heranwachsende, Schule": "#3d8b8b", "Kiez mit Kind": "#5aa0a0", "In eigener Sache": "#6b6b6b", "Sport und Freizeit": "#3f7d4e", "Der andere Blick": "#7a4e8c"}; window.DATE_PLACES = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.3585095, 52.5045255]}, "properties": {"place": "Schwules Museum", "count": 2, "articles": [{"title": "Gartenfest Villa Lützow", "url": "https://www.mittendran.de/gartenfest-villa-luetzow-2/", "excerpt": "Das Team der Villa Lützow lud zum großen Gartenfest ein. Das Wetter hielt, es gab Sonne satt mit wenigen Wölkchen am Himmel. Die Schachfiguren warten schon auf Spieler Für Essen und Trinken war gesorgt, die Popcorn…", "date": "2026-05-28", "about_years": [], "rubrik": "Kiez mit Kind", "source_url": "https://www.mittendran.de/gartenfest-villa-luetzow-2/"}, {"title": "Das Schwule Museum als gefährdeter Ort", "url": "https://www.mittendran.de/das-schwule-museum-als-gefaehrdeter-ort/", "excerpt": "Eine Pressemitteilung des Schwulen Museums Das Schwule Museum, eine weltweit einzigartige Institution für queere Geschichte und Kultur, wurde seit Februar diesen Jahres fünfmal von unbekannten Personen angegriffen…", "date": "2023-08-13", "about_years": [1985], "rubrik": "Miteinander", "source_url": "https://www.mittendran.de/das-schwule-museum-als-gefaehrdeter-ort/"}], "place_url": "../../places/schwules-museum/", "place_slug": "schwules-museum", "title": "Gartenfest Villa Lützow", "url": "https://www.mittendran.de/gartenfest-villa-luetzow-2/", "excerpt": "Das Team der Villa Lützow lud zum großen Gartenfest ein. Das Wetter hielt, es gab Sonne satt mit wenigen Wölkchen am Himmel. Die Schachfiguren warten schon auf Spieler Für Essen und Trinken war gesorgt, die Popcorn…", "date": "2026-05-28"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.352851, 52.502195]}, "properties": {"place": "Kurfürstenstraße 130", "count": 1, "articles": [{"title": "Die Diagnose  kam einmal einem Todesurteil gleich.", "url": "https://www.mittendran.de/die-diagnose-kam-einmal-einem-todesurteil-gleich/", "excerpt": "Aids wurde als „Schwulenseuche“ bezeichnet. Anfangs „verbargen“ viele ihre Erkrankung. Diskriminierung war eine der schlimmen Nebenwirkungen. Viel Unsinn wurde über die Krankheit verbreitet. Aber sie forderte auch…", "date": "2022-12-01", "about_years": [1985], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/die-diagnose-kam-einmal-einem-todesurteil-gleich/"}], "place_url": "../../places/kurfuerstenstrasse-130/", "place_slug": "kurfuerstenstrasse-130", "title": "Die Diagnose  kam einmal einem Todesurteil gleich.", "url": "https://www.mittendran.de/die-diagnose-kam-einmal-einem-todesurteil-gleich/", "excerpt": "Aids wurde als „Schwulenseuche“ bezeichnet. Anfangs „verbargen“ viele ihre Erkrankung. Diskriminierung war eine der schlimmen Nebenwirkungen. Viel Unsinn wurde über die Krankheit verbreitet. Aber sie forderte auch…", "date": "2022-12-01"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.35373, 52.499597]}, "properties": {"place": "Nollendorfplatz", "count": 12, "articles": [{"title": "Ausstellung „Begegnungen“ in der Zwölf-Apostel-Kirche", "url": "https://www.mittendran.de/ausstellung-begegnungen-der-zwoelf-apostel-kirche/", "excerpt": "„Begegnungen“ Malerei und Plastik, Elke Bohm und Manfred Koch A Chorus Line ©️Manfred Koch Die Zwölf-Apostel-Kirchengemeinde lädt ein: Ausstellung vom 12. Oktober bis 2. Dezember 2025 Zwölf-Apostel-Kirche, Schöneberg…", "date": "2025-10-09", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/ausstellung-begegnungen-der-zwoelf-apostel-kirche/"}, {"title": "„NO6“ der Neubau am Nollendorfplatz direkt neben dem Metropol", "url": "https://www.mittendran.de/no6-der-neubau-nollendorfplatz-direkt-neben-dem-metropol/", "excerpt": "Hier stand lange eine Spielhalle, bis 2021 in die leerstehenden Räume die Street-Art-Ausstellung „Game Over“ einzog. ©eki Die Abrissarbeiten an dem Gebäude Nollendorfplatz 6 haben jetzt begonnen. Nollendorfplatz 6 wird…", "date": "2025-04-22", "about_years": [], "rubrik": "Bauen und Wohnen", "source_url": "https://www.mittendran.de/no6-der-neubau-nollendorfplatz-direkt-neben-dem-metropol/"}, {"title": "Ein erleuchtender Abend: Orgel – Lichtinszenierung – Lesung", "url": "https://www.mittendran.de/ein-erleuchtender-abend-orgel-lichtinszenierung-lesung/", "excerpt": "Gastbeitrag von Rita Preuß – Pressereferentin Zwölf-Apostel-Kirche „Am Sonntag, 29. September 2024 ab 20 Uhr geben die Klänge der Orgel, gespielt und ausgewählt von der Kantorin Hyelin Hur, den Rhythmus einer neuen…", "date": "2024-09-24", "about_years": [1924, 1933], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/ein-erleuchtender-abend-orgel-lichtinszenierung-lesung/"}, {"title": "Kidical Mass am 21. September", "url": "https://www.mittendran.de/kidical-mass-21-september/", "excerpt": "Einladung zur Kinder-Fahrrad-Demo Am 21. September ist wieder Kidical Mass in Schöneberg. Ab 13 Uhr fahren wir für sichere Schulwege, sichere Radwege und Tempo 30, so dass vor allem Kinder sowie alle anderen Menschen…", "date": "2024-09-16", "about_years": [], "rubrik": "Kinder, Heranwachsende, Schule", "source_url": "https://www.mittendran.de/kidical-mass-21-september/"}, {"title": "Nur gemeinsam stark! – für Demokratie und Vielfalt!", "url": "https://www.mittendran.de/nur-gemeinsam-stark-fuer-demokratie-und-vielfalt-2/", "excerpt": "Der 46. CSD Berlin I Berlin Pride wird unter dem Motto „Nur gemeinsam stark! – für Demokratie und Vielfalt!“ vom Vorstand des Berliner CSD e.V. am Samstag, den 27. Juli ab 11:30 Uhr an der Leipziger Straße eröffnet…", "date": "2024-07-25", "about_years": [], "rubrik": "Miteinander", "source_url": "https://www.mittendran.de/nur-gemeinsam-stark-fuer-demokratie-und-vielfalt-2/"}, {"title": "Neuer Vorgarten mit elf Bäumen", "url": "https://www.mittendran.de/neuer-vorgarten-mit-elf-baeumen/", "excerpt": "Die Arbeiten am Vorgarten der „Creditreform Berlin Brandenburg Wolfram GmbH & Co. KG“ (Creditreform C) in der Karl-Heinrich-Ulrichs Straße 1 und um die Ecke in der Maienstraße sind abgeschlossen. Elf neue Bäume wurden…", "date": "2024-07-15", "about_years": [], "rubrik": "Öffentlicher Raum und Verkehr", "source_url": "https://www.mittendran.de/neuer-vorgarten-mit-elf-baeumen/"}, {"title": "Die ersten Schneeflocken machen Lust auf Weihnachtsmärkte", "url": "https://www.mittendran.de/die-ersten-schneeflocken-machen-lust-auf-weihnachtsmaerkte/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/11/2023-Winterwelt-Rodelbahn-Foto-eki-scaled.jpg) Winterwelt Rodelbahn Am Potsdamer Platz ist es schon so weit. Die Winterwelt lockt seit einigen Wochen große und…", "date": "2023-11-26", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/die-ersten-schneeflocken-machen-lust-auf-weihnachtsmaerkte/"}, {"title": "Ein neu gestalteter Vorgarten", "url": "https://www.mittendran.de/ein-neu-gestalteter-vorgarten/", "excerpt": "Das markante Gebäude gegenüber dem U-Bahnhof Nollendorfplatz befindet sich an der Ecke zur Karl-Heinrich-Ulrichs-Straße. „Creditreform C“ „Creditreform C“ ist oben an der Fassade und auf den blauen Fahnen an der Seite…", "date": "2023-07-26", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/ein-neu-gestalteter-vorgarten/"}, {"title": "„Gleiche Rechte für Ungleiche – weltweit!“", "url": "https://www.mittendran.de/gleiche-rechte-fuer-ungleiche-weltweit/", "excerpt": "Lesbisch-schwules Straßenfest 2022 (Foto:eki) Unter diesem Motto veranstaltet der Regenbogenfonds e.V. (http://www.regenbogenfonds.de/) zum 29. Mal Europas größtes Lesbisch-schwules Stadtfest im traditionellen…", "date": "2023-07-10", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/gleiche-rechte-fuer-ungleiche-weltweit/"}, {"title": "Süß und doof und ohne Portemonnaie", "url": "https://www.mittendran.de/suess-und-doof-und-ohne-portemonnaie/", "excerpt": "Pointiert & zeitlos, verrückt, verzaubernd, lebensnah – die Friedrich Hollaender-Revue … anders präsentiert von Dirk Rave (Akkordeon/Gesang), Chanson-Nette und Henry Nandzik. Regie: Isabelle Gensior FRIEDRICH…", "date": "2023-02-15", "about_years": [1896, 1933, 1955, 1976], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/suess-und-doof-und-ohne-portemonnaie/"}, {"title": "Am 25. September 2022 steht die Hauptstadt ganz im Zeichen eines der größten Lauf-Events der Welt: dem 48. Berlin-Marathon", "url": "https://www.mittendran.de/25-september-2022-steht-die-hauptstadt-ganz-im-zeichen-eines-der-groessten-lauf-events-der-welt-dem-48-berlin-marathon/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/09/P1090259-3.-Platz-scaled.jpg) Kenenisa Bekele, Äthiopien, 3. Platz Berlin-Marathon 2021, Gesamtzeit: 2:06:47 Über 40.000 Teilnehmer*innen sind jährlich beim…", "date": "2022-09-19", "about_years": [], "rubrik": "Sport und Freizeit", "source_url": "https://www.mittendran.de/25-september-2022-steht-die-hauptstadt-ganz-im-zeichen-eines-der-groessten-lauf-events-der-welt-dem-48-berlin-marathon/"}, {"title": "Baustellen am Gleisdreieck: Einschränkungen der U1, U2 und U3", "url": "https://www.mittendran.de/baustellen-gleisdreieck-einschraenkungen-der-u1-u2-und-u3/", "excerpt": "Auf Fahrgäste der Berliner U-Bahn-Linien 1, 2 und 3 kommen in den nächsten Wochen Einschränkungen zu. Grund sind Bauarbeiten am U-Bahnhof Gleisdreieck vom 15. August bis zum 6. November. Sie sollen in drei Abschnitten…", "date": "2022-08-09", "about_years": [], "rubrik": "Öffentlicher Raum und Verkehr", "source_url": "https://www.mittendran.de/baustellen-gleisdreieck-einschraenkungen-der-u1-u2-und-u3/"}], "place_url": "../../places/nollendorfplatz/", "place_slug": "nollendorfplatz", "title": "Ausstellung „Begegnungen“ in der Zwölf-Apostel-Kirche", "url": "https://www.mittendran.de/ausstellung-begegnungen-der-zwoelf-apostel-kirche/", "excerpt": "„Begegnungen“ Malerei und Plastik, Elke Bohm und Manfred Koch A Chorus Line ©️Manfred Koch Die Zwölf-Apostel-Kirchengemeinde lädt ein: Ausstellung vom 12. Oktober bis 2. Dezember 2025 Zwölf-Apostel-Kirche, Schöneberg…", "date": "2025-10-09"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.3534, 52.50147]}, "properties": {"place": "Karl-Heinrich-Ulrichs-Straße", "count": 3, "articles": [{"title": "In der Berlin-Presse war es kurz erwähnt – hier noch einmal ausführlich", "url": "https://www.mittendran.de/der-berlin-presse-war-es-kurz-erwaehnt-hier-noch-einmal-ausfuehrlich/", "excerpt": "Foto der Umbenennung der Einem- in die Karl-Heinrich-Ulrichs-Straße in unserer Nachbarschaft, über die es auch einen Eintrag in der berlinHistory-App gibt (Quelle: LSVD, Foto: Axel Hildebrand). Queer Berlin – ein neuer…", "date": "2023-11-30", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/der-berlin-presse-war-es-kurz-erwaehnt-hier-noch-einmal-ausfuehrlich/"}, {"title": "Ein neu gestalteter Vorgarten", "url": "https://www.mittendran.de/ein-neu-gestalteter-vorgarten/", "excerpt": "Das markante Gebäude gegenüber dem U-Bahnhof Nollendorfplatz befindet sich an der Ecke zur Karl-Heinrich-Ulrichs-Straße. „Creditreform C“ „Creditreform C“ ist oben an der Fassade und auf den blauen Fahnen an der Seite…", "date": "2023-07-26", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/ein-neu-gestalteter-vorgarten/"}, {"title": "Alice Schwarzer, der Film „Alice“", "url": "https://www.mittendran.de/alice-schwarzer-der-film-alice/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/09/2022-Das-Gemeindehaus-der-Zwoelf-Apostelkirche-einer-der-Drehorte-fuer-den-Film-Alice-Foto-eki-scaled.jpg) Das Gemeindehaus der Zwölf-Apostelkirche – einer der…", "date": "2022-09-12", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/alice-schwarzer-der-film-alice/"}], "place_url": "../../places/karl-heinrich-ulrichs-strasse/", "place_slug": "karl-heinrich-ulrichs-strasse", "title": "In der Berlin-Presse war es kurz erwähnt – hier noch einmal ausführlich", "url": "https://www.mittendran.de/der-berlin-presse-war-es-kurz-erwaehnt-hier-noch-einmal-ausfuehrlich/", "excerpt": "Foto der Umbenennung der Einem- in die Karl-Heinrich-Ulrichs-Straße in unserer Nachbarschaft, über die es auch einen Eintrag in der berlinHistory-App gibt (Quelle: LSVD, Foto: Axel Hildebrand). Queer Berlin – ein neuer…", "date": "2023-11-30"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.3575309, 52.4991877]}, "properties": {"place": "SOLE DELI", "count": 1, "articles": [{"title": "Restaurant SOLE DELI", "url": "https://www.mittendran.de/restaurant-sole-deli/", "date": "2025-09-16", "rubrik": "Gewerbe und Gastronomie", "excerpt": "Mediterrane Küche in der Zietenstraße 1–9, glutenfrei, vegan und halal, mit Plätzen draußen."}], "hours_url": "https://brunchbysole.de/"}}]};</script>
+  <script>
+const RUBRIK_COLORS = window.RUBRIK_COLORS || {};
+const RUBRIK_FALLBACK = "#7a6a58";
+
+function esc(s) {
+  return String(s || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function rubrikColor(name) {
+  const key = String(name || "").trim();
+  if (!key) return RUBRIK_FALLBACK;
+  if (RUBRIK_COLORS[key]) return RUBRIK_COLORS[key];
+  let h = 0;
+  for (let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) >>> 0;
+  return "hsl(" + (h % 360) + " 42% 42%)";
+}
+
+function conicFromArticles(articles) {
+  if (!articles.length) return RUBRIK_FALLBACK;
+  const counts = {};
+  const order = [];
+  articles.forEach((a) => {
+    const r = String(a.rubrik || "").trim() || "Sonstiges";
+    if (!counts[r]) {
+      counts[r] = 0;
+      order.push(r);
+    }
+    counts[r] += 1;
+  });
+  const total = articles.length;
+  let start = 0;
+  const parts = order.map((r) => {
+    const share = (counts[r] / total) * 100;
+    const end = start + share;
+    const slice = rubrikColor(r) + " " + start.toFixed(2) + "% " + end.toFixed(2) + "%";
+    start = end;
+    return slice;
+  });
+  return "conic-gradient(" + parts.join(", ") + ")";
+}
+
+function articleRow(a) {
+  const rubrik = String(a.rubrik || "").trim();
+  const color = rubrikColor(rubrik);
+  const tag = rubrik
+    ? "<span class='rubrik-tag' style='background:color-mix(in srgb, " +
+      color +
+      " 28%, white)'>" +
+      esc(rubrik) +
+      "</span>"
+    : "";
+  const line = [a.date ? esc(a.date) : "", tag].filter(Boolean).join(" · ");
+  const excerpt = a.excerpt
+    ? "<p class='popup-excerpt'>" + esc(a.excerpt) + "</p>"
+    : "";
+  const inner =
+    "<span class='chip' style='background:" +
+    color +
+    "' title='" +
+    esc(rubrik || "ohne Rubrik") +
+    "'></span><div><span class='t'>" +
+    esc(a.title) +
+    "</span>" +
+    (line ? "<div class='popup-meta'>" + line + "</div>" : "") +
+    excerpt +
+    "</div>";
+  return a.url
+    ? "<li><a href='" + esc(a.url) + "'>" + inner + "</a></li>"
+    : "<li style='display:grid;grid-template-columns:0.55rem 1fr;gap:0.55rem'>" +
+        inner +
+        "</li>";
+}
+
+function popupHtml(p) {
+  const articles = Array.isArray(p.articles) ? p.articles : [];
+  const place = p.place || (articles[0] && articles[0].title) || "Ort";
+  const n = articles.length || p.count || 0;
+  const meta = n > 1 ? n + " Beiträge" : n === 1 ? "1 Beitrag" : "";
+  const shown = articles.slice(0, 10);
+  const items = shown.map(articleRow).join("");
+  const moreHref = p.place_url || "";
+  const more =
+    n > 10 && moreHref
+      ? "<a class='popup-more' href='" + esc(moreHref) + "'>Alle " + n + " Beiträge →</a>"
+      : moreHref && n > 1
+        ? "<a class='popup-more' href='" + esc(moreHref) + "'>Zur Ortsseite →</a>"
+        : "";
+  const hours = p.hours_url
+    ? "<a class='popup-more' href='" + esc(p.hours_url) + "' rel='noopener'>Öffnungszeiten</a>"
+    : "";
+  return (
+    "<div class='map-popup'>" +
+    "<strong class='popup-place'>" +
+    esc(place) +
+    "</strong>" +
+    (meta ? "<div class='popup-meta'>" + esc(meta) + "</div>" : "") +
+    "<ul class='popup-articles'>" +
+    items +
+    "</ul>" +
+    hours +
+    more +
+    "</div>"
+  );
+}
+
+function singleStyle(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const fill = rubrikColor(arts[0] && arts[0].rubrik);
+  return {
+    radius: 8,
+    color: "#2a221c",
+    weight: 1.4,
+    fillColor: fill,
+    fillOpacity: 0.92,
+  };
+}
+
+function multiIcon(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const n = arts.length || 1;
+  const size = Math.min(22, 12 + Math.sqrt(n) * 3.2);
+  return L.divIcon({
+    className: "",
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+    html:
+      "<div class='pin-multi' style='width:" +
+      size +
+      "px;height:" +
+      size +
+      "px;background:" +
+      conicFromArticles(arts) +
+      "' title='" +
+      esc(String(n) + " Beiträge") +
+      "'></div>",
+  });
+}
+
+const geo = window.DATE_PLACES || { type: "FeatureCollection", features: [] };
+const map = L.map("date-map", { scrollWheelZoom: false });
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19,
+  attribution: "&copy; OpenStreetMap",
+}).addTo(map);
+const layer = L.geoJSON(geo, {
+  pointToLayer(feature, latlng) {
+    const props = (feature && feature.properties) || {};
+    const n = props.count || 1;
+    if (props.hours_url) {
+      return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true, zIndexOffset: 1000 });
+    }
+    if (n > 1) return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true });
+    return L.circleMarker(latlng, singleStyle(feature));
+  },
+  onEachFeature(feature, lyr) {
+    lyr.bindPopup(popupHtml(feature.properties || {}), {
+      maxWidth: Math.min(320, Math.max(180, window.innerWidth - 56)),
+      autoPan: true,
+      autoPanPadding: [12, 12],
+    });
+  },
+}).addTo(map);
+if (layer.getBounds().isValid()) {
+  map.fitBounds(layer.getBounds(), { padding: [28, 28], maxZoom: 16 });
+}
+map.invalidateSize();
+</script>
+
+  <h2>Stopps</h2>
+  <ol class="date-order"><li><a href="../../places/schwules-museum/">Schwules Museum</a></li><li>SOLE DELI <a class="hours-link" href="https://brunchbysole.de/" rel="noopener">Öffnungszeiten</a><figure class="date-photo"><a href="https://www.mittendran.de/restaurant-sole-deli/" rel="noopener"><img src="../../assets/dates/queere-geschichte/0.jpg" alt="Restaurant SOLE DELI"></a><figcaption><a href="https://www.mittendran.de/restaurant-sole-deli/" rel="noopener">Restaurant SOLE DELI</a></figcaption></figure></li><li><a href="../../places/kurfuerstenstrasse-130/">Kurfürstenstraße 130</a></li><li><a href="../../places/nollendorfplatz/">Nollendorfplatz</a></li><li><a href="../../places/karl-heinrich-ulrichs-strasse/">Karl-Heinrich-Ulrichs-Straße</a><figure class="date-photo"><a href="https://www.mittendran.de/der-berlin-presse-war-es-kurz-erwaehnt-hier-noch-einmal-ausfuehrlich/" rel="noopener"><img src="../../assets/dates/queere-geschichte/1.jpg" alt="In der Berlin-Presse war es kurz erwähnt – hier noch einmal ausführlich"></a><figcaption><a href="https://www.mittendran.de/der-berlin-presse-war-es-kurz-erwaehnt-hier-noch-einmal-ausfuehrlich/" rel="noopener">In der Berlin-Presse war es kurz erwähnt – hier noch einmal ausführlich</a></figcaption></figure></li></ol>
+  <h2>Gelesen</h2>
+  <p class="meta">Zusammengelesen aus den genannten Beiträgen. Was dort nicht steht, steht hier nicht.</p>
+  <div class="date-narrative"><p>Das Schwule Museum in der Lützowstraße 73 ist der Anfang, und die Beiträge behandeln es zugleich als Archiv und als angegriffenes Haus.</p><p>Am 4. Dezember 2025 wird es vierzig: Organisieren, Sammeln, Archivieren, Ausstellen. Am Sonntag, dem 7. Dezember, 14 bis 18 Uhr, einen Tag nach dem Jahrestag am 6. Dezember, kommen alle Besucherinnen und Besucher umsonst in die Ausstellungen. Am Dienstag darauf, 17 Uhr, ein Infotreffen fürs Ehrenamt im Museumscafé. Am Freitag, dem 12. Dezember, 13 bis 17 Uhr, ein Workshop zum queeren Schreiben mit Lynn Breedlove und Panda Ortmann, in englischer Lautsprache, 10 Euro oder 3. Laufend, in dem Text: Petra Galls Fotos der Berliner FrauenLesben-Szene, bis 23. Februar 2026. Queere ukrainische Kunst, bis 25. Januar 2026. „Love At First Fight“, queere Bewegungen in Deutschland seit Stonewall, bis 29. Juni 2026.</p><p>Zwei Jahre früher, am 13. August 2023, eine Pressemitteilung des Hauses, gezeichnet von Jan Künemund, mino Künze und Julia Heuser. Das Museum, eine weltweit einzigartige Institution für queere Geschichte und Kultur, sei seit Februar fünfmal von unbekannten Personen angegriffen worden. In der Nacht zum 24. Februar ein Luftgewehr auf die Frontscheiben, den Namensschriftzug und ein Kunstwerk vor der Tür. Anzeige gegen Unbekannt, breite Berichterstattung, Solidarität. Am 19. März, bei laufendem Betrieb, der Eingang mit Lebensmitteln beschmiert, Mitarbeiterinnen und Mitarbeiter beleidigt. Am 31. März die Front mit einem Feuerlöscher besprüht. Am 21. und am 28. Mai Wasserbomben ins Foyer. Wieder Anzeigen. Dazu das, was der Text ein Grundrauschen nennt: anti-queere Sticker vor dem Haus, rechtsradikale Aufkleber in den Toiletten, Schläge gegen die Scheibe, Beleidigungen am Telefon, in den sozialen Medien, im Gästebuch. Gruppenbezogene Gewalt, schreiben sie, treffe Menschen, Aktivistinnen und Institutionen, die sichtbar Stellung beziehen. Sie wissen von vernetzten Häusern, dass sie damit nicht allein sind. Die Absichtserklärungen von Senat und Bund, anti-queere Gewalt präziser zu erfassen, werden begrüßt. Gewünscht wird Hilfe, die über Polizei und Aufklärung hinausgeht: finanziell, personell, psychologisch. Die Versicherung stelle in Frage, ob eine Scheibe mit Einschusslöchern ausgetauscht werden müsse, solange sie intakt sei. Schriftzug, Kunstwerk und Reinigung trage das Haus selbst. Sicherheitskonzept, Training, Präventionsförderung neben dem Tagesgeschäft. Gegründet 1985, eines der größten LGBTIQ-Museen der Welt, Sammlung etwa 1,5 Millionen Archivalien, Ausstellungsfläche knapp 700 Quadratmeter, normalerweise bis zu drei Ausstellungen zugleich, gefördert vom Land Berlin. Der Ort bleibt der erste Halt.</p><p>Älter, und nicht auf diesem Nachmittag, liegt das Institut für Sexualwissenschaft. Der Beitrag vom 19. April 2023 erzählt es über Magnus Hirschfeld (14. Mai 1868 bis 14. Mai 1935) und das Leitmotiv „Durch Wissenschaft zur Gerechtigkeit“. Im Mai 1897 gründet er mit anderen das Wissenschaftlich-Humanitäre Komitee, um den Paragrafen 175 abzuschaffen. Er gilt als Begründer der Sexualwissenschaft, schreibt eine dreibändige Sexualpathologie und führt 1930 mit Ludwig Levy-Lenz die erste geschlechtsangleichende Operation durch. Nach 1918 kauft er die ehemalige Villa Joachim, In den Zelten 10, Ecke Beethovenstraße 3, zeitweiliges Palais des Fürsten von Hatzfeld, und gründet dort am 6. Juni 1919 das private Institut, das erste seiner Art. Archiv, Museum, Lehrstätte, Beratung, ein Zufluchtsort, solange Homosexualität illegal ist und trans Personen diskriminiert werden. Knapp vierzehn Jahre. Den Nationalsozialisten ist er verhasst als Jude, als Homosexueller, als Sozialist und als unabhängiger Forscher. Anfang Mai 1933 stürmen Sportstudenten des Nationalsozialistischen Deutschen Studentenbundes das Institut, stehlen 15 Zentner Literatur und bringen sie zum Studentenhaus in der Oranienburger Straße. Am 10. Mai werden die Bücher auf dem Opernplatz verbrannt. In den folgenden Jahren wird die homosexuelle Bürgerrechtsbewegung zerschlagen, Treffpunkte geschlossen, Zeitschriften verboten, Zehntausende homosexuelle Männer zu Gefängnis, Zuchthaus und Lager verurteilt. Heute, schreibt der Beitrag, eine eher bescheidene Gedenktafel, aufgestellt am 6. Juli 1994, 75 Jahre nach der Gründung, in der Nähe des ehemaligen Standorts. Eine Büste Hirschfelds steht im Schwulen Museum. Der Koalitionsvertrag einer damals möglichen CDU-SPD-Regierung von 2023 sieht vor, den 14. Mai als Magnus-Hirschfeld-Tag zu begehen. Dieser Nachmittag bleibt südlich der Lützowstraße.</p><p>Essen ist das SOLE DELI, Beitrag vom 16. September 2025: mediterrane Küche in der Zietenstraße 1–9, modern, familienfreundlich, glutenfrei, vegan und vegetarisch, auch halal, von der Vorspeise bis zum Dessert. Genannt werden hausgemachtes Bananenbrot zu 7,50 Euro, eine vegane Breakfast-Platte zu 13 Euro, Lachs Piccata zu 18 Euro. Plätze draußen. Geöffnet, in diesem Text, täglich von 9 bis 18 Uhr. Geeignet für Familienfeiern und größere Gruppen, auch Catering. Zwischen Museum und Platz.</p><p>In der Kurfürstenstraße 130, nahe am Nollendorfplatz, sitzt die Berliner Aids-Hilfe. Der Text zum 1. Dezember 2022 erinnert daran, dass Aids als „Schwulenseuche“ bezeichnet wurde, dass viele die Erkrankung anfangs verbargen, dass Unsinn verbreitet wurde, und dass seit Beginn der Pandemie weltweit über 40 Millionen Menschen gestorben sind. Der Verein kämpft seit 1985 als Menschenrechtsorganisation gegen die Stigmatisierung HIV-positiver Menschen. Gemeinnützig und mildtätig, heute auch im Auftrag des Landes Berlin für Versorgung und Prävention bei HIV, Aids, sexuell übertragbaren Infektionen und Hepatitiden. Im Haus ein Testzentrum und Beratung. Selbsthilfe, Gesprächsgruppen, Begegnung, individuelle Hilfe. Mit dem Land bei der Fast-Track-Cities-Initiative, Aids bis 2030 zu beenden, Null Diskriminierung im Vordergrund. Der Text sagt auch: heute leben rund 40 Millionen Menschen mit HIV, und heute müsse niemand mehr an HIV oder Aids sterben, schon gar nicht in Europa und Deutschland. Zugleich starben 2021 noch 650.000 HIV-Infizierte, vor allem in afrikanischen und asiatischen Ländern. In Deutschland seien 90 Prozent der Infektionen identifiziert, 97 Prozent der Diagnostizierten in Behandlung, bei 96 Prozent der so Behandelten keine Viren mehr nachweisbar, also nicht mehr ansteckend. Lea Susanna wird zitiert: sie lebe seit 19 Jahren mit HIV, mit effektiver Behandlung könne sie HIV nicht übertragen. Das Motto des Welt-Aids-Tags in dem Jahr: „Equalize“. Benannt werden, mit Winnie Byanyima von UNAIDS, schwule Männer, Menschen, die intravenös Drogen konsumieren, Sexarbeiterinnen und Sexarbeiter, Menschen in Haft, junge Frauen in Afrika, Transpersonen. Sie alle bräuchten Zugänge, die für sie passen.</p><p>Der Nollendorfplatz ist im Beitrag vom 10. Juli 2023 der Ort des Lesbisch-schwulen Stadtfests. Der Regenbogenfonds veranstaltet es zum 29. Mal, Motto „Gleiche Rechte für Ungleiche – weltweit!“, am 15. und 16. Juli 2023, täglich ab 11 Uhr, auf 20.000 Quadratmetern in der Motz-, Eisenacher-, Fugger- und Kalckreuthstraße. Fünf „Welten“: Film, Politik, Positive, Gesundheit und Wellness, Radio, Sport, dazu lesbische, schwule, bisexuelle und trans Projekte. Der Text spricht von weit über 350.000 Besucherinnen und Besuchern und von Europas größtem Fest dieser Art. Sechs Bühnen werden benannt, darunter 98.8 Kiss FM, Connection mit House und Techno, die FrauenLesbenTrans-Bühne, Queere Medien, Sunshine Live. Am Samstag von 15.30 bis 16.30 Uhr eine Politik-Talkshow mit Gerhard Hoffmann auf der Stadtfestbühne an der Ecke Eisenacher- und Fuggerstraße, danach Rock und Pop, samstags bis 23 Uhr, sonntags bis 21 Uhr. Das Foto im Stück zeigt das Fest von 2022.</p><p>Die Karl-Heinrich-Ulrichs-Straße daneben ist die umbenannte Einemstraße. Der Beitrag vom 30. November 2023 hängt die Umbenennung an einen neuen Layer zur queeren Geschichte in der berlinHistory-App, erarbeitet mit dem Schwulen Museum und dem Lesben- und Schwulenverband Berlin-Brandenburg, gefördert vom Berliner Beauftragten zur Aufarbeitung der SED-Diktatur und von zwei Senatsverwaltungen, zehn Autorinnen und Autoren. Rund 70 Orte, in Ost und West, vor der Teilung, Kultur, Treffpunkte, Vereine, Verlage, Ereignisse, Politik. Die Fragen, die der Text stellt, reichen über diesen Kiez hinaus: das Magnus-Hirschfeld-Ufer, eine Souterrain-Bar der fünfziger Jahre, Charlotte von Mahlsdorfs Gründerzeitmuseum, die Mulackritze, David Bowies Wohnung, das Grab von Johanna Elberskirchen. Integriert ist der Audiorundgang zur Sexarbeit am Bülowbogen, „Wir waren schon immer überall“, und eine Fahrrad-Audiotour zu Aids und HIV in Ostberlin, „AIDS: Nicht durch die Mauer zu stoppen“. Queere Geschichte, schließt der Beitrag, sei immer auch Demokratiegeschichte.</p></div>
+  <h2>Aus den Beiträgen</h2><ul class='date-sources'><li><a href="https://www.mittendran.de/dezember/" rel="noopener">Glückwunsch! Das Schwule Museum wird 40 Jahre alt</a></li><li><a href="https://www.mittendran.de/das-schwule-museum-als-gefaehrdeter-ort/" rel="noopener">Das Schwule Museum als gefährdeter Ort</a></li><li><a href="https://www.mittendran.de/durch-wissenschaft-zur-gerechtigkeit/" rel="noopener">„Durch Wissenschaft zur Gerechtigkeit“</a></li><li><a href="https://www.mittendran.de/restaurant-sole-deli/" rel="noopener">Restaurant SOLE DELI</a></li><li><a href="https://www.mittendran.de/die-diagnose-kam-einmal-einem-todesurteil-gleich/" rel="noopener">Die Diagnose kam einmal einem Todesurteil gleich</a></li><li><a href="https://www.mittendran.de/gleiche-rechte-fuer-ungleiche-weltweit/" rel="noopener">„Gleiche Rechte für Ungleiche – weltweit!“</a></li><li><a href="https://www.mittendran.de/der-berlin-presse-war-es-kurz-erwaehnt-hier-noch-einmal-ausfuehrlich/" rel="noopener">In der Berlin-Presse war es kurz erwähnt</a></li></ul>
+  <p class="meta">Öffnungszeiten stehen hier nicht. Der Link beim Essen führt auf die Seite des Hauses.</p>
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
+</body>
+</html>

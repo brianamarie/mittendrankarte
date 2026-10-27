@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Drei Pins vom Magdeburger Platz</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
+    </nav>
+  </header>
+  
+<main class="date-page">
+  <p class="place-back"><a href="../../ausgehen.html">← Ausgehen</a></p>
+  <p class="place-kicker">Den Kiez kennenlernen</p>
+  <h1>Drei Pins vom Magdeburger Platz</h1>
+  <p class="meta">Wochentag abends · Eine Stunde, drei Einführungen</p>
+  <p class="lead">Abends, eine Stunde vom Magdeburger Platz.</p>
+  <p class='date-food'><strong>Essen.</strong> FreiFläche, Bülowstraße 90. Bistro im Haus. Der Beitrag von 2023 meldet die Wiedereröffnung nach der Renovierung. <a class="hours-link" href="https://freiflaeche-berlin.com/bistro/" rel="noopener">Öffnungszeiten</a></p>
+  
+  <div id="date-map" class="date-map" role="region" aria-label="Pins zu diesem Abend"></div>
+  <p class="meta">4 Pins. Ein Klick öffnet die Beiträge. Beim Essen liegt der Link zu den Öffnungszeiten im Pin.</p>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>window.RUBRIK_COLORS = {"Aus dem Kiez": "#4a7c59", "Kunst und Kultur": "#8b4d9a", "Miteinander": "#c45c26", "Öffentlicher Raum und Verkehr": "#2f6f9f", "Bauen und Wohnen": "#8b6914", "Gewerbe und Gastronomie": "#b33b3b", "Kiez-Geschichte": "#5c4a3a", "kiek ma!": "#d4a017", "Kinder, Heranwachsende, Schule": "#3d8b8b", "Kiez mit Kind": "#5aa0a0", "In eigener Sache": "#6b6b6b", "Sport und Freizeit": "#3f7d4e", "Der andere Blick": "#7a4e8c"}; window.DATE_PLACES = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.360503, 52.503594]}, "properties": {"place": "Magdeburger Platz", "count": 13, "articles": [{"title": "Die U-Bahn-Entlastungsstrecke über Kurfürstenstraße", "url": "https://www.mittendran.de/die-u-bahn-entlastungsstrecke-ueber-kurfuerstenstrasse/", "excerpt": "Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Aber er interessiert sich auch für die Geschichte des Berliner…", "date": "2026-09-15", "about_years": [1863, 1902, 1905, 1907, 1908, 1910, 1915, 1926, 1931, 1942, 1976, 1977], "rubrik": "Öffentlicher Raum und Verkehr", "source_url": "https://www.mittendran.de/die-u-bahn-entlastungsstrecke-ueber-kurfuerstenstrasse/"}, {"title": "Stadtführungen in unserm Kiez", "url": "https://www.mittendran.de/stadtfuehrungen-in-unserm-kiez/", "excerpt": "Ralf Hausding, Gastautor von mittendran und mittendran.de, ist nah am Potsdamer Platz aufgewachsen. Er bietet Stadtführungen in ganz Berlin und manchmal auch in Tiergarten an. Es sollten nicht weniger als drei und…", "date": "2026-07-28", "about_years": [], "rubrik": "Kiez-Geschichte", "source_url": "https://www.mittendran.de/stadtfuehrungen-in-unserm-kiez/"}, {"title": "Die Kluckstraße soll umbenannt werden", "url": "https://www.mittendran.de/kluckstrasse/", "excerpt": "Die Bezirksverordnetenversammlung Mitte hat am 26. Juni 2025 beschlossen, dass die Kluckstraße in Tiergarten-Süd umbenannt werden soll: „Das Bezirksamt wird ersucht, die Umbenennung der 1935 nach Alexander von Kluck…", "date": "2026-06-30", "about_years": [1846, 1857, 1866, 1870, 1883, 1900, 1911, 1914, 1916, 1917, 1918, 1920, 1929, 1934, 1935, 1943, 2005], "rubrik": "Öffentlicher Raum und Verkehr", "source_url": "https://www.mittendran.de/kluckstrasse/"}, {"title": "Leerfläche am Magdeburger Platz", "url": "https://www.mittendran.de/leerflaeche-magdeburger-platz/", "excerpt": "Der Spielplatz auf dem Magdeburger Platz erwacht seit einigen Wochen wieder aus dem Winterschlaf und wird fröhlich bespielt und umgegraben. Doch irgendetwas ist anders. Nur was? Nicht sofort sticht es ins Auge, nur…", "date": "2026-03-14", "about_years": [], "rubrik": "Kiez mit Kind", "source_url": "https://www.mittendran.de/leerflaeche-magdeburger-platz/"}, {"title": "Alle Vögel sind schon da?", "url": "https://www.mittendran.de/alle-voegel-sind-schon-da/", "excerpt": "(https://www.mittendran.de/wp/wp-admin/media-upload.php?post_id=40074&type=image&TB_iframe=1) Foto: Gerald Russbült Nee, nicht alle, die kommen erst im Frühjahr, wenn die Natur wieder grün wird. Die jetzt hungrigen…", "date": "2025-12-11", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/alle-voegel-sind-schon-da/"}, {"title": "Helga ging ihren Weg (1926 – 2024)", "url": "https://www.mittendran.de/helga-ging-ihren-weg-1926-2024/", "excerpt": "Erinnerungen an eine unvergessliche Sozialdemokratin Ein Gastbeitrag von Heiner Wörmann (https://www.mittendran.de/wp-content/uploads/2024/11/Helga-Cent-Velden.png) Helga Cent-Velden Meine Erinnerungen an Helga…", "date": "2024-11-12", "about_years": [1926, 1943, 1945], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/helga-ging-ihren-weg-1926-2024/"}, {"title": "Picknick mit der Polizei – чаепитие с полиции", "url": "https://www.mittendran.de/picknick-mit-der-polizei/", "excerpt": "Gastbeitrag von Gabriele Hulitschke Im Rahmen der Berliner Seniorenwoche lädt die Präventionsbeauftragte Frau Wagner (Polizei Berlin, Abschnitt 28) gemeinsam mit dem Projekt Quartiersentwicklung Tiergarten Süd des…", "date": "2024-06-21", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/picknick-mit-der-polizei/"}, {"title": "Zu Gast bei Möbel-Hübner: Interview mit Achim Türklitz am 4. April 2024", "url": "https://www.mittendran.de/zu-gast-bei-moebel-huebner-interview-mit-achim-tuerklitz-4-april-2024/", "excerpt": "Klar hatte ich mich vorbereitet, und wer weiß schon, wie das Interview gelaufen wäre, hätte ich das nicht, aber eigentlich habe ich meine Fragen kaum loswerden können und habe dennoch mehr erfahren, als ich erwartet…", "date": "2024-04-12", "about_years": [1871, 1911, 1914, 1935, 1942, 1945, 1946, 1954, 1956, 1993, 2008], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/zu-gast-bei-moebel-huebner-interview-mit-achim-tuerklitz-4-april-2024/"}, {"title": "Der Spielplatz  auf dem Magdeburger Platz", "url": "https://www.mittendran.de/der-spielplatz-auf-dem-magdeburger-platz/", "excerpt": "Wir, eine junge Familie mit einer 16 Monate alten Tochter, wohnen schon lange hier im Kiez und wollen ab sofort regelmäßig über das Leben mit Kind berichten. Gemeinsam entdecken wir viele Ecken, die man vorher schon…", "date": "2024-03-15", "about_years": [1899], "rubrik": "Kinder, Heranwachsende, Schule", "source_url": "https://www.mittendran.de/der-spielplatz-auf-dem-magdeburger-platz/"}, {"title": "BSR-Kieztag  am Magdeburger Platz", "url": "https://www.mittendran.de/sperrmuellaktionstag-magdeburger-platz/", "excerpt": "BSR-Kieztag Tausch- und Verschenkemarkt und Sperrmüll loswerden Donnerstag, 19. Oktober, 13 bis 18 Uhr Magdeburger Platz, vorm Arbeitsgericht Das Bezirksamt Mitte führt in Zusammenarbeit mit der BSR…", "date": "2023-10-16", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/sperrmuellaktionstag-magdeburger-platz/"}, {"title": "Verlorene Orte unseres Kiezes – nicht vergessen", "url": "https://www.mittendran.de/verlorene-orte-neu-entdecken/", "excerpt": "Großes Interesse galt am Montag der Ausstellungseröffnung „Verlorene Häuser, Straßen und Plätze“ (Teil 1) im Projekt- und Leseraum der Bibliothek Tiergarten Süd in der Lützowstr. 27, die noch bis zum 10. April 2023 zu…", "date": "2023-03-06", "about_years": [1820, 1850, 1943], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/verlorene-orte-neu-entdecken/"}, {"title": "Polizei-Einsätze im GleisdreieckparkTendenz steigend", "url": "https://www.mittendran.de/polizei-einsaetze-im-gleisdreieckparktendenz-steigend/", "excerpt": "Am 1. November tagte das Stadtteil-Forum Tiergarten Süd. Hauptthema war der Gleisdreieckpark. Wilm Raubold stellte mit einer gelungenen Powerpoint-Präsentation, die wir auszugsweise wiedergeben dürfen, die Geschichte…", "date": "2022-11-02", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/polizei-einsaetze-im-gleisdreieckparktendenz-steigend/"}, {"title": "Es ist soweit:Sperrmüll-Aktionsstagam Magdeburger Platz", "url": "https://www.mittendran.de/es-ist-soweitsperrmuell-aktionsstagam-magdeburger-platz/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/04/TGS_Plakat_Sperrmuelaktionstag_TGS_MP_13.8.20221.jpg) (https://www.mittendran.de/wp-content/uploads/2022/04/TGS_Standort_Sperrmuellaktionstag-13.8.22-page-001.jpg)", "date": "2022-08-08", "about_years": [], "rubrik": "In eigener Sache", "source_url": "https://www.mittendran.de/es-ist-soweitsperrmuell-aktionsstagam-magdeburger-platz/"}], "place_url": "../../places/magdeburger-platz/", "place_slug": "magdeburger-platz", "title": "Die U-Bahn-Entlastungsstrecke über Kurfürstenstraße", "url": "https://www.mittendran.de/die-u-bahn-entlastungsstrecke-ueber-kurfuerstenstrasse/", "excerpt": "Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Aber er interessiert sich auch für die Geschichte des Berliner…", "date": "2026-09-15"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.3585095, 52.5045255]}, "properties": {"place": "Schwules Museum", "count": 2, "articles": [{"title": "Gartenfest Villa Lützow", "url": "https://www.mittendran.de/gartenfest-villa-luetzow-2/", "excerpt": "Das Team der Villa Lützow lud zum großen Gartenfest ein. Das Wetter hielt, es gab Sonne satt mit wenigen Wölkchen am Himmel. Die Schachfiguren warten schon auf Spieler Für Essen und Trinken war gesorgt, die Popcorn…", "date": "2026-05-28", "about_years": [], "rubrik": "Kiez mit Kind", "source_url": "https://www.mittendran.de/gartenfest-villa-luetzow-2/"}, {"title": "Das Schwule Museum als gefährdeter Ort", "url": "https://www.mittendran.de/das-schwule-museum-als-gefaehrdeter-ort/", "excerpt": "Eine Pressemitteilung des Schwulen Museums Das Schwule Museum, eine weltweit einzigartige Institution für queere Geschichte und Kultur, wurde seit Februar diesen Jahres fünfmal von unbekannten Personen angegriffen…", "date": "2023-08-13", "about_years": [1985], "rubrik": "Miteinander", "source_url": "https://www.mittendran.de/das-schwule-museum-als-gefaehrdeter-ort/"}], "place_url": "../../places/schwules-museum/", "place_slug": "schwules-museum", "title": "Gartenfest Villa Lützow", "url": "https://www.mittendran.de/gartenfest-villa-luetzow-2/", "excerpt": "Das Team der Villa Lützow lud zum großen Gartenfest ein. Das Wetter hielt, es gab Sonne satt mit wenigen Wölkchen am Himmel. Die Schachfiguren warten schon auf Spieler Für Essen und Trinken war gesorgt, die Popcorn…", "date": "2026-05-28"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.352547, 52.504761]}, "properties": {"place": "Lützowplatz", "count": 21, "articles": [{"title": "Jüdische Geschichte im Lützow-Viertel (18): Dr. Bernhard Pollack, Blumeshof (Teil 2)", "url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-18-dr-bernhard-pollack-blumeshof-teil-2/", "excerpt": "Dieser Teil der Geschichte der Familie Pollack wäre vermutlich sehr kurz gewesen, hätten wir nicht die Lebenserinnerungen von Richard Lichtheim (1) zur Verfügung gehabt. Richard Lichtheim (1885-1963) (Bild 1) war ein…", "date": "2026-10-10", "about_years": [1797, 1802, 1820, 1821, 1822, 1826, 1842, 1848, 1849, 1854, 1860, 1863, 1865, 1866, 1871, 1874, 1875, 1877, 1878, 1880, 1882, 1884, 1885, 1888, 1890, 1892, 1893, 1895, 1896, 1904, 1905, 1906, 1908, 1928, 1930, 1931, 1932, 1934, 1938, 1942, 1943, 1963, 1970, 2001], "rubrik": "Kiez-Geschichte", "source_url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-18-dr-bernhard-pollack-blumeshof-teil-2/"}, {"title": "Presseschau des Stadtteil-Forums Tiergarten Süd", "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-6/", "excerpt": "Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/ (https://forum-tgs.de/)). In den letzten 7 Tagen sind uns diese…", "date": "2026-09-04", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-6/"}, {"title": "Stadtführungen in unserm Kiez", "url": "https://www.mittendran.de/stadtfuehrungen-in-unserm-kiez/", "excerpt": "Ralf Hausding, Gastautor von mittendran und mittendran.de, ist nah am Potsdamer Platz aufgewachsen. Er bietet Stadtführungen in ganz Berlin und manchmal auch in Tiergarten an. Es sollten nicht weniger als drei und…", "date": "2026-07-28", "about_years": [], "rubrik": "Kiez-Geschichte", "source_url": "https://www.mittendran.de/stadtfuehrungen-in-unserm-kiez/"}, {"title": "Eine Foto-Ausstellung im Willy-Brandt-Haus", "url": "https://www.mittendran.de/eine-foto-ausstellung-im-willy-brand-haus/", "excerpt": "Eine sehenswerte Fotoausstellung zeigt das Willy-Brandt-Haus (Wilhelmstr. 140) seit dem 5. Juni 2026: Fotografien von Friederich (Fide) Struck (1901-1985), die sein Sohn, der Filmemacher Thomas Struck (Jahrgang 1943)…", "date": "2026-06-14", "about_years": [1901, 1932, 1938, 1943, 1985], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/eine-foto-ausstellung-im-willy-brand-haus/"}, {"title": "Straßenbahn am Potsdamer Platz", "url": "https://www.mittendran.de/strassenbahn-potsdamer-platz/", "excerpt": "Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach Spandau verschlagen…", "date": "2026-05-20", "about_years": [1929, 1949, 1953, 1954, 1956, 1961, 1962, 1964], "rubrik": "Kiez-Geschichte", "source_url": "https://www.mittendran.de/strassenbahn-potsdamer-platz/"}, {"title": "Fahrradstraßen im Lützowkiez", "url": "https://www.mittendran.de/fahrradstrassen-im-luetzowkiez/", "excerpt": "Gastbeitrag von Jörg Borchardt Zum 23. April hatte das Straßen- und Grünflächenamt in die Aula der Allegro-Grundschule eingeladen. Sie wollten berichten und diskutieren, was in den Jahren 2027 und 2028 im Lützowkiez…", "date": "2026-05-14", "about_years": [], "rubrik": "Bauen und Wohnen", "source_url": "https://www.mittendran.de/fahrradstrassen-im-luetzowkiez/"}, {"title": "Jüdische Geschichte im Lützow-Viertel (16): Die Familie von Ernst Liedtke, Blumeshof 12 (Teil 8)", "url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-16-die-familie-von-ernst-liedtke-blumeshof-12-teil-8/", "excerpt": "Fast fünfundzwanzig Jahre wohnte die Familie von Ernst Liedtke am Blumeshof 12, von 1910 bis 1934 (Bild 1). Wir wollen zum Abschluss dieser Familiengeschichte noch einen Blick in die Wohnung und in die Nachbarschaft…", "date": "2026-01-25", "about_years": [1845, 1861, 1864, 1869, 1871, 1873, 1874, 1880, 1888, 1892, 1895, 1897, 1900, 1903, 1906, 1907, 1908, 1910, 1912, 1920, 1928, 1929, 1930, 1933, 1934, 1935, 1939, 1940, 1942, 1943, 1945, 1956, 2000, 2010], "rubrik": "Kiez-Geschichte", "source_url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-16-die-familie-von-ernst-liedtke-blumeshof-12-teil-8/"}, {"title": "Jüdische Geschichte im Lützow-Viertel (17): Die Familie Popper, Lützowplatz (Teil 5)", "url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-17-die-familie-popper-luetzowplatz-teil-5/", "excerpt": "Im Jahr 1863, sieben Jahre nach ihrer Hochzeit in Berlin und elf Jahre, nachdem Julius Popper Berlin verlassen hatte, um in der Provinz (Dessau, Stolp) eine Predigerstelle zu suchen und anzutreten, war das Ehepaar…", "date": "2025-09-28", "about_years": [1741, 1790, 1793, 1804, 1806, 1813, 1816, 1823, 1828, 1833, 1834, 1835, 1836, 1839, 1840, 1841, 1842, 1843, 1848, 1849, 1851, 1852, 1854, 1855, 1856, 1858, 1859, 1860, 1861, 1862, 1863, 1864, 1865, 1866, 1867, 1868, 1869, 1872, 1873, 1874, 1876, 1877, 1879, 1882, 1886, 1887, 1890, 1900, 1901, 1905, 1909, 1921, 1925, 1933, 1939, 1943, 1981], "rubrik": "Kiez-Geschichte", "source_url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-17-die-familie-popper-luetzowplatz-teil-5/"}, {"title": "Spaziergang in die Vergangenheit (33): Das Heine-Porträt der Familie Popper", "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-33-bilderfunde-zur-geschichte-der-familie-popper/", "excerpt": "Manche Geschichten nehmen einen anderen Verlauf, wenn plötzlich neue Bilder auftauchen. In der Geschichte der Familie Popper vom Lützowplatz (mittendran vom 5. September 2025…", "date": "2025-09-11", "about_years": [1797, 1806, 1816, 1817, 1843, 1844, 1856, 1866, 1872, 1884, 1897, 1930, 1957, 2003], "rubrik": "Kiez-Geschichte", "source_url": "https://www.mittendran.de/spaziergang-die-vergangenheit-33-bilderfunde-zur-geschichte-der-familie-popper/"}, {"title": "Jüdische Geschichte im Lützow-Viertel (17): Familie Popper, Lützowplatz (Teil 4)", "url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-16-familie-popper-luetzowplatz-teil-4/", "excerpt": "Mit Teil 4 der Geschichte der Familie Popper kehren wir zurück zu Julius Popper (Bild 1), dem 1822 geborenen Hildesheimer, der nach dem Studium der Philosophie in Berlin im Jahr 1852 seine erste Stelle als Prediger und…", "date": "2025-09-05", "about_years": [1779, 1799, 1806, 1815, 1816, 1822, 1833, 1834, 1842, 1848, 1849, 1850, 1851, 1852, 1853, 1854, 1855, 1856, 1857, 1858, 1861, 1862, 1865, 1867, 1872, 1887, 1991, 2000, 2005], "rubrik": "Kiez-Geschichte", "source_url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-16-familie-popper-luetzowplatz-teil-4/"}, {"title": "Jüdische Geschichte im Lützow-Viertel (17): Die Familie Popper, Lützowplatz (Teil 3)", "url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-16-die-familie-popper-luetzowplatz-teil-3/", "excerpt": "Durch die Heirat 1855 der Therese Popper aus Hildesheim mit Hermann Neubürger aus Dessau, wo der Bruder der Therese Prediger der jüdischen Gemeinde war (mittendran vom 1. Juni 2025…", "date": "2025-07-30", "about_years": [1750, 1768, 1803, 1806, 1821, 1830, 1832, 1833, 1834, 1835, 1836, 1838, 1840, 1841, 1842, 1847, 1848, 1849, 1850, 1854, 1855, 1856, 1860, 1861, 1864, 1867, 1868, 1872, 1876, 1880, 1882, 1886, 1887, 1895, 1896, 1897, 1900, 1902, 1904, 1905, 1909, 1910, 1911, 1916, 1935, 1936, 1975, 1995, 2009], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-16-die-familie-popper-luetzowplatz-teil-3/"}, {"title": "Brand im „Fächerhochhaus“", "url": "https://www.mittendran.de/brand-im-faecherhochhaus/", "excerpt": "„Auf einem Hochhaus in Berlin-Mitte ist am Montagvormittag ein Feuer ausgebrochen. Nach Angaben eines Sprechers der Berliner Feuerwehr brannte es auf dem Dach des 17-stöckigen Gebäudes, das sich derzeit noch im Bau…", "date": "2025-06-30", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/brand-im-faecherhochhaus/"}, {"title": "Jüdische Geschichte im Lützow-Viertel (17): Die Familie Popper, Lützowplatz (Teil 2)", "url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-17-die-familie-popper-luetzowplatz-teil-2/", "excerpt": "Julius Popper, geboren in Hildesheim am 5. Oktober 1822, war der erste und für lange Zeit der einzige der Popper-Ahnen, der nicht nur eine höhere Bildung erhielt, sondern der auch eine seiner Ausbildung entsprechende…", "date": "2025-06-01", "about_years": [1793, 1807, 1816, 1822, 1831, 1833, 1841, 1843, 1844, 1846, 1847, 1848, 1850, 1852, 1854, 1855, 1856, 1857, 1860, 1864, 1868, 1882, 1887, 1896], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-17-die-familie-popper-luetzowplatz-teil-2/"}, {"title": "Jüdische Apotheker und Ärzte (1): Apotheker Lewy, Lützow-Apotheke (Teil 2)", "url": "https://www.mittendran.de/juedische-apotheker-und-aerzte-1-apotheker-lewy-luetzow-apotheke-teil-2/", "excerpt": "Dr. Albert Lewy hatte 1904 nicht nur die Lützow-Apotheke und die dazugehörige Apothekenlizenz vom Vorbesitzer erworben (mittendran vom 5. April 2025…", "date": "2025-05-09", "about_years": [1827, 1877, 1879, 1882, 1884, 1887, 1894, 1898, 1900, 1902, 1904, 1906, 1913, 1920, 1923, 1925, 1926, 1928, 1929, 1930, 1932, 1934, 1935, 1936, 1958], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/juedische-apotheker-und-aerzte-1-apotheker-lewy-luetzow-apotheke-teil-2/"}, {"title": "Spaziergang in die Vergangenheit (25): Die Tankstelle am Lützowplatz", "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-25-die-tankstelle-luetzowplatz/", "excerpt": "Dieses fast romantische Bild einer Tankstelle am Lützowplatz (Bild 1), mit den vielen Bäumen und dem Herkulesbrunnen im Herbstnebel, ist verhältnismäßig leicht zu datieren: Die RKS (Reichskraftsprit-Gesellschaft) wurde…", "date": "2025-03-23", "about_years": [1869, 1887, 1923, 1925, 1927, 1928, 1929, 1931, 1935, 1936, 1939, 1953, 2002], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/spaziergang-die-vergangenheit-25-die-tankstelle-luetzowplatz/"}, {"title": "Ankündigung eines Vortrags am 5.9.24, 18.00", "url": "https://www.mittendran.de/vorankuendigung-eines-vortrags-5-9-24-18-00/", "excerpt": "Aus der Serie „Verlorene Häuser, Straßen und Plätze“ wird Paul Enck am 5. September 2024 einen weiteren Vortrag halten, diesmal zur Geschichte des Lützowplatzes. Der Vortrag findet im Hotel Berlin, Berlin statt, der…", "date": "2024-08-01", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/vorankuendigung-eines-vortrags-5-9-24-18-00/"}, {"title": "Kiez mit Kind: Der “Spielplatz” am Lützowplatz", "url": "https://www.mittendran.de/kiez-mit-kind-der-spielplatz-luetzowplatz/", "excerpt": "Über den Lützowplatz wurde an dieser Stelle schon viel geschrieben, wir betrachten ihn heute aus der Sicht eines Spielplatzkindes. Und aus dieser Sicht ist dieser ehemalige Holzlagerplatz ein trauriger Ort. Er wirft…", "date": "2024-07-26", "about_years": [], "rubrik": "Kiez mit Kind", "source_url": "https://www.mittendran.de/kiez-mit-kind-der-spielplatz-luetzowplatz/"}, {"title": "Alles, was ein Hotel braucht – und ein bisschen mehr", "url": "https://www.mittendran.de/alles-ein-hotel-braucht-und-ein-bisschen-mehr/", "excerpt": "Wer das Hotel Berlin, Berlin vor dem Umbau 2018-2020 kannte, wird es kaum wiedererkennen. Klar, von außen sieht es fast so (triste) aus wie immer, aber wenn man/frau die Hotelhalle betritt, fehlt auf den ersten, und…", "date": "2024-06-21", "about_years": [1960, 2010], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/alles-ein-hotel-braucht-und-ein-bisschen-mehr/"}, {"title": "Die neue mittendran ist da!", "url": "https://www.mittendran.de/die-neue-mittendran-ist-da/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2024/03/mittendran-Ausgabe-web-45.pdf) Die neue mittendran (https://www.mittendran.de/wp-content/uploads/2024/03/mittendran-Ausgabe-web-45.pdf) ist frisch aus der Druckerei…", "date": "2024-03-11", "about_years": [], "rubrik": "In eigener Sache", "source_url": "https://www.mittendran.de/die-neue-mittendran-ist-da/"}, {"title": "Das Lützow-Viertel – Vortrag von Paul Enck", "url": "https://www.mittendran.de/das-luetzow-viertel-vortrag-von-paul-enck/", "excerpt": "Das Lützow-Viertel im Bezirk Tiergarten ist ein wichtiges Einzugsgebiet der Zwölf-Apostel-Gemeinde. „Lützow-Viertel“ oder „Lützow-Kiez“ wird das Areal zwischen dem Landwehrkanal im Norden, der Kurfürstenstraße im…", "date": "2023-06-24", "about_years": [1870, 1911, 1925, 1926], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/das-luetzow-viertel-vortrag-von-paul-enck/"}, {"title": "Am Lützowplatz: Stiftung Warentest", "url": "https://www.mittendran.de/luetzowplatz-stiftung-warentest/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/05/5131256_historisch_foto_mixer_gross.jpg) Die erste Ausgabe des test-Heftes erscheint am 26. März 1966. Die ersten beiden Tests sind die von Nähmaschinen und…", "date": "2022-05-31", "about_years": [1962, 1964, 1966, 1975, 1987], "rubrik": "Gewerbe und Gastronomie", "source_url": "https://www.mittendran.de/luetzowplatz-stiftung-warentest/"}], "place_url": "../../places/luetzowplatz/", "place_slug": "luetzowplatz", "title": "Jüdische Geschichte im Lützow-Viertel (18): Dr. Bernhard Pollack, Blumeshof (Teil 2)", "url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-18-dr-bernhard-pollack-blumeshof-teil-2/", "excerpt": "Dieser Teil der Geschichte der Familie Pollack wäre vermutlich sehr kurz gewesen, hätten wir nicht die Lebenserinnerungen von Richard Lichtheim (1) zur Verfügung gehabt. Richard Lichtheim (1885-1963) (Bild 1) war ein…", "date": "2026-10-10"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.3602987, 52.498435]}, "properties": {"place": "FreiFläche", "count": 1, "articles": [{"title": "Wiedereröffnung FreiFläche", "url": "https://www.mittendran.de/wiedereroeffnung-freiflaeche-eventspace-studio-bistro/", "date": "2023-10-02", "rubrik": "Gewerbe und Gastronomie", "excerpt": "Bistro in der Bülowstraße 90, nach der Renovierung wieder offen."}], "hours_url": "https://freiflaeche-berlin.com/bistro/"}}]};</script>
+  <script>
+const RUBRIK_COLORS = window.RUBRIK_COLORS || {};
+const RUBRIK_FALLBACK = "#7a6a58";
+
+function esc(s) {
+  return String(s || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function rubrikColor(name) {
+  const key = String(name || "").trim();
+  if (!key) return RUBRIK_FALLBACK;
+  if (RUBRIK_COLORS[key]) return RUBRIK_COLORS[key];
+  let h = 0;
+  for (let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) >>> 0;
+  return "hsl(" + (h % 360) + " 42% 42%)";
+}
+
+function conicFromArticles(articles) {
+  if (!articles.length) return RUBRIK_FALLBACK;
+  const counts = {};
+  const order = [];
+  articles.forEach((a) => {
+    const r = String(a.rubrik || "").trim() || "Sonstiges";
+    if (!counts[r]) {
+      counts[r] = 0;
+      order.push(r);
+    }
+    counts[r] += 1;
+  });
+  const total = articles.length;
+  let start = 0;
+  const parts = order.map((r) => {
+    const share = (counts[r] / total) * 100;
+    const end = start + share;
+    const slice = rubrikColor(r) + " " + start.toFixed(2) + "% " + end.toFixed(2) + "%";
+    start = end;
+    return slice;
+  });
+  return "conic-gradient(" + parts.join(", ") + ")";
+}
+
+function articleRow(a) {
+  const rubrik = String(a.rubrik || "").trim();
+  const color = rubrikColor(rubrik);
+  const tag = rubrik
+    ? "<span class='rubrik-tag' style='background:color-mix(in srgb, " +
+      color +
+      " 28%, white)'>" +
+      esc(rubrik) +
+      "</span>"
+    : "";
+  const line = [a.date ? esc(a.date) : "", tag].filter(Boolean).join(" · ");
+  const excerpt = a.excerpt
+    ? "<p class='popup-excerpt'>" + esc(a.excerpt) + "</p>"
+    : "";
+  const inner =
+    "<span class='chip' style='background:" +
+    color +
+    "' title='" +
+    esc(rubrik || "ohne Rubrik") +
+    "'></span><div><span class='t'>" +
+    esc(a.title) +
+    "</span>" +
+    (line ? "<div class='popup-meta'>" + line + "</div>" : "") +
+    excerpt +
+    "</div>";
+  return a.url
+    ? "<li><a href='" + esc(a.url) + "'>" + inner + "</a></li>"
+    : "<li style='display:grid;grid-template-columns:0.55rem 1fr;gap:0.55rem'>" +
+        inner +
+        "</li>";
+}
+
+function popupHtml(p) {
+  const articles = Array.isArray(p.articles) ? p.articles : [];
+  const place = p.place || (articles[0] && articles[0].title) || "Ort";
+  const n = articles.length || p.count || 0;
+  const meta = n > 1 ? n + " Beiträge" : n === 1 ? "1 Beitrag" : "";
+  const shown = articles.slice(0, 10);
+  const items = shown.map(articleRow).join("");
+  const moreHref = p.place_url || "";
+  const more =
+    n > 10 && moreHref
+      ? "<a class='popup-more' href='" + esc(moreHref) + "'>Alle " + n + " Beiträge →</a>"
+      : moreHref && n > 1
+        ? "<a class='popup-more' href='" + esc(moreHref) + "'>Zur Ortsseite →</a>"
+        : "";
+  const hours = p.hours_url
+    ? "<a class='popup-more' href='" + esc(p.hours_url) + "' rel='noopener'>Öffnungszeiten</a>"
+    : "";
+  return (
+    "<div class='map-popup'>" +
+    "<strong class='popup-place'>" +
+    esc(place) +
+    "</strong>" +
+    (meta ? "<div class='popup-meta'>" + esc(meta) + "</div>" : "") +
+    "<ul class='popup-articles'>" +
+    items +
+    "</ul>" +
+    hours +
+    more +
+    "</div>"
+  );
+}
+
+function singleStyle(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const fill = rubrikColor(arts[0] && arts[0].rubrik);
+  return {
+    radius: 8,
+    color: "#2a221c",
+    weight: 1.4,
+    fillColor: fill,
+    fillOpacity: 0.92,
+  };
+}
+
+function multiIcon(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const n = arts.length || 1;
+  const size = Math.min(22, 12 + Math.sqrt(n) * 3.2);
+  return L.divIcon({
+    className: "",
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+    html:
+      "<div class='pin-multi' style='width:" +
+      size +
+      "px;height:" +
+      size +
+      "px;background:" +
+      conicFromArticles(arts) +
+      "' title='" +
+      esc(String(n) + " Beiträge") +
+      "'></div>",
+  });
+}
+
+const geo = window.DATE_PLACES || { type: "FeatureCollection", features: [] };
+const map = L.map("date-map", { scrollWheelZoom: false });
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19,
+  attribution: "&copy; OpenStreetMap",
+}).addTo(map);
+const layer = L.geoJSON(geo, {
+  pointToLayer(feature, latlng) {
+    const props = (feature && feature.properties) || {};
+    const n = props.count || 1;
+    if (props.hours_url) {
+      return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true, zIndexOffset: 1000 });
+    }
+    if (n > 1) return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true });
+    return L.circleMarker(latlng, singleStyle(feature));
+  },
+  onEachFeature(feature, lyr) {
+    lyr.bindPopup(popupHtml(feature.properties || {}), {
+      maxWidth: Math.min(320, Math.max(180, window.innerWidth - 56)),
+      autoPan: true,
+      autoPanPadding: [12, 12],
+    });
+  },
+}).addTo(map);
+if (layer.getBounds().isValid()) {
+  map.fitBounds(layer.getBounds(), { padding: [28, 28], maxZoom: 16 });
+}
+map.invalidateSize();
+</script>
+
+  <h2>Stopps</h2>
+  <ol class="date-order"><li><a href="../../places/magdeburger-platz/">Magdeburger Platz</a><figure class="date-photo"><a href="https://www.mittendran.de/leerflaeche-magdeburger-platz/" rel="noopener"><img src="../../assets/dates/magdeburger-drei/0.jpg" alt="Leerfläche am Magdeburger Platz"></a><figcaption><a href="https://www.mittendran.de/leerflaeche-magdeburger-platz/" rel="noopener">Leerfläche am Magdeburger Platz</a></figcaption></figure></li><li><a href="../../places/schwules-museum/">Schwules Museum</a></li><li>FreiFläche <a class="hours-link" href="https://freiflaeche-berlin.com/bistro/" rel="noopener">Öffnungszeiten</a><figure class="date-photo"><a href="https://www.mittendran.de/wiedereroeffnung-freiflaeche-eventspace-studio-bistro/" rel="noopener"><img src="../../assets/dates/magdeburger-drei/1.jpg" alt="Wiedereröffnung „FreiFläche“- Eventspace, Studio &amp; Bistro"></a><figcaption><a href="https://www.mittendran.de/wiedereroeffnung-freiflaeche-eventspace-studio-bistro/" rel="noopener">Wiedereröffnung „FreiFläche“- Eventspace, Studio &amp; Bistro</a></figcaption></figure></li><li><a href="../../places/luetzowplatz/">Lützowplatz</a><figure class="date-photo"><a href="https://www.mittendran.de/kiez-mit-kind-der-spielplatz-luetzowplatz/" rel="noopener"><img src="../../assets/dates/magdeburger-drei/2.jpg" alt="Kiez mit Kind: Der “Spielplatz” am Lützowplatz"></a><figcaption><a href="https://www.mittendran.de/kiez-mit-kind-der-spielplatz-luetzowplatz/" rel="noopener">Kiez mit Kind: Der “Spielplatz” am Lützowplatz</a></figcaption></figure></li></ol>
+  <h2>Gelesen</h2>
+  <p class="meta">Zusammengelesen aus den genannten Beiträgen. Was dort nicht steht, steht hier nicht.</p>
+  <div class="date-narrative"><p>Der Spielplatz auf dem Magdeburger Platz, Beitrag vom 14. März 2026, erwacht seit einigen Wochen aus dem Winterschlaf und wird umgegraben. Irgendetwas ist anders, und es sticht nicht sofort ins Auge: eine größere Freifläche, auf die noch ein Spielelement passen würde. Dann ist klar, das Holzplateau mit Seilzug und „Sandrutschen“ ist weg. War etwas kaputt, oder morsch? Kommt etwas Neues? An der kleinen Empore hatten viele Kinder und einige Generationen Spaß. Der Text lässt es offen und verspricht, auf dem Laufenden zu bleiben.</p><p>Essen, in einem anderen Stück, ist die FreiFläche in der Bülowstraße 90. Am 2. Oktober 2023 öffnet sie ab Mittwoch, dem 4. Oktober, nach längeren Renovierungsarbeiten wieder. Ein Ort für Konferenzen und Präsentationen. Das vegan-vegetarische Bistro bietet täglich hausgemachte Speisen und Getränke, für Veranstaltungen auch Catering. Geöffnet, in diesem Beitrag, Montag bis Freitag von 9 bis 15 Uhr. Die Studios: Konferenzaufbauten mit bis zu fünf Referenten und bis zu hundert Gästen vor Ort, und die Möglichkeit, an Tausende online zu streamen.</p><p>Das Schwule Museum, Lützowstraße 73, wird im Beitrag vom 4. Dezember 2025 vierzig. Gefeiert wird das Organisieren, Sammeln, Archivieren und Ausstellen. Am Sonntag, dem 7. Dezember, von 14 bis 18 Uhr, einen Tag nach dem Jahrestag am 6. Dezember, ist der Eintritt frei. Am Dienstag, dem 9. Dezember, 17 Uhr, ein Infotreffen fürs Ehrenamt im Museumscafé. Am Freitag, dem 12. Dezember, 13 bis 17 Uhr, Queer Writing: Lynn Breedlove, Musiker, Schriftsteller, Performer, Aktivist, trans Mann, bekannt durch die queeren Punkbands Tribe 8 und The Homobiles, leitet mit Panda Ortmann einen Workshop, in englischer Lautsprache, Eintritt 10 Euro oder 3, Anmeldung über die Museumsadresse. Laufende Ausstellungen in dem Text: „Feuer + Flamme dem Patriarchat. Petra Galls Fotos der Berliner FrauenLesben-Szene“, bis 23. Februar 2026. „A Heart that Beats – Focus on Queer Ukrainian Art“, bis 25. Januar 2026. „Love At First Fight – Queere Bewegungen in Deutschland seit Stonewall“, bis 29. Juni 2026. Dazu Online-Projekte, darunter „Wir waren schon immer überall“ in der Berlin History App, „Unknown Objects“, das Archivmagazin „Jahr der Frau_en“, „Queer as German Folk“, „Inter* Utopia“ und „Oral HIVstory“.</p><p>Der Lützowplatz am Ende ist in der Kinderserie vom 26. Juli 2024 der ehemalige Holzlagerplatz, und aus der Sicht eines Spielplatzkindes ein trauriger Ort. Die Serie fragt, ab wann ein Spielplatz ein Spielplatz ist. Machen ein Klettergerüst und eine Wippe in einem Sand-Rechteck ihn schon dazu? Kinder sieht man selten. Eher kommt man zufällig vorbei, mit Zeit bis zum Bus, oder die Familie isst in der gegenüberliegenden Pizzeria und das Kind will nicht sitzen bleiben. Viele Sitzplätze, im Sommer die Wiese als Liegefläche oder Ballplatz. Von allen Seiten laute und teilweise sehr schnelle Autos. Am Spielplatz direkt kein Schatten. Die Aufenthaltsqualität des Platzes selbst eher mäßig. Einigermaßen sauber, für eine Spielpause während des Pizzeriabesuchs noch geeignet. Die Brunnen und Wasserbecken, streng genommen nicht zum Spielplatz gehörend, sind kein Ersatz für den ehemals hier stehenden Herkulesbrunnen, bringen an heißen Tagen aber Frische. Das Fazit des Beitrags: auch der Spielplatz schafft es nicht, den Lützowplatz zu beleben. Drei Halt, solange es hell ist.</p></div>
+  <h2>Aus den Beiträgen</h2><ul class='date-sources'><li><a href="https://www.mittendran.de/leerflaeche-magdeburger-platz/" rel="noopener">Leerfläche am Magdeburger Platz</a></li><li><a href="https://www.mittendran.de/dezember/" rel="noopener">Glückwunsch! Das Schwule Museum wird 40 Jahre alt</a></li><li><a href="https://www.mittendran.de/kiez-mit-kind-der-spielplatz-luetzowplatz/" rel="noopener">Kiez mit Kind: Der Spielplatz am Lützowplatz</a></li><li><a href="https://www.mittendran.de/wiedereroeffnung-freiflaeche-eventspace-studio-bistro/" rel="noopener">Wiedereröffnung FreiFläche</a></li></ul>
+  <p class="meta">Öffnungszeiten stehen hier nicht. Der Link beim Essen führt auf die Seite des Hauses.</p>
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
+</body>
+</html>

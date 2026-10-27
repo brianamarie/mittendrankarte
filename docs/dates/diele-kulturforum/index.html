@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diele und Kulturforum</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
+    </nav>
+  </header>
+  
+<main class="date-page">
+  <p class="place-back"><a href="../../ausgehen.html">← Ausgehen</a></p>
+  <p class="place-kicker">Essen, dann Kultur</p>
+  <h1>Diele und Kulturforum</h1>
+  <p class="meta">Wochentag abends · Zwei Stopps</p>
+  <p class="lead">Abends, etwa 15 Minuten zu Fuß von der Pohlstraße. Erst essen, dann ein Haus.</p>
+  <p class='date-food'><strong>Essen.</strong> Joseph-Roth-Diele, Potsdamer Straße. Das Glas vor dem Kulturforum. <a class="hours-link" href="https://www.joseph-roth-diele.de/" rel="noopener">Öffnungszeiten</a></p>
+  
+  <div id="date-map" class="date-map" role="region" aria-label="Pins zu diesem Abend"></div>
+  <p class="meta">2 Pins. Ein Klick öffnet die Beiträge. Beim Essen liegt der Link zu den Öffnungszeiten im Pin.</p>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>window.RUBRIK_COLORS = {"Aus dem Kiez": "#4a7c59", "Kunst und Kultur": "#8b4d9a", "Miteinander": "#c45c26", "Öffentlicher Raum und Verkehr": "#2f6f9f", "Bauen und Wohnen": "#8b6914", "Gewerbe und Gastronomie": "#b33b3b", "Kiez-Geschichte": "#5c4a3a", "kiek ma!": "#d4a017", "Kinder, Heranwachsende, Schule": "#3d8b8b", "Kiez mit Kind": "#5aa0a0", "In eigener Sache": "#6b6b6b", "Sport und Freizeit": "#3f7d4e", "Der andere Blick": "#7a4e8c"}; window.DATE_PLACES = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.364749, 52.508513]}, "properties": {"place": "Kulturforum", "count": 19, "articles": [{"title": "Ein „Tag im Grünen“ im Kulturforum", "url": "https://www.mittendran.de/ein-tag-im-gruenen-im-kulturforum/", "excerpt": "Am 13. September 2026 verwandelt sich das Kulturforum Berlin wieder in einen großen Veranstaltungsraum – drinnen und draußen. Zum fünften Mal laden die dort ansässigen Kultur- und Wissenschaftseinrichtungen sowie die…", "date": "2026-09-06", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/ein-tag-im-gruenen-im-kulturforum/"}, {"title": "Berlin Art Week vom 9.-13. September", "url": "https://www.mittendran.de/berlin-art-week-vom-9-13-september/", "excerpt": "Der Berlin Art Week Garten ist in diesem Jahr zu Gast am Kulturforum mit der Neuen Nationalgalerie und der Gemäldegalerie! Zum 15-jährigen Jubiläum der Berlin Art Week wird das Areal zwischen Potsdamer Platz…", "date": "2026-09-01", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/berlin-art-week-vom-9-13-september/"}, {"title": "Presseschau des Stadtteilforums Tiergarten Süd", "url": "https://www.mittendran.de/presseschau-des-stadtteilforums-tiergarten-sued-3/", "excerpt": "Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/ (https://forum-tgs.de/)). In den letzten 7 Tagen sind uns diese…", "date": "2026-08-21", "about_years": [1960, 1961], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/presseschau-des-stadtteilforums-tiergarten-sued-3/"}, {"title": "Nur noch wenige Tage: Das Sommerkino am Kulturforum", "url": "https://www.mittendran.de/nur-noch-wenige-tage-das-sommerkino-am-kulturforum/", "excerpt": "Bis zum 28. August gibt es noch das „arte Sommerkino“ vor der Gemäldegalerie am Kulturforum. Die Abende werden kühler, also unbedingt eine Jacke mitbringen. Wolldecken gibt es auch. Außerdem zwei Bars mit Getränken und…", "date": "2026-08-19", "about_years": [], "rubrik": "Gewerbe und Gastronomie", "source_url": "https://www.mittendran.de/nur-noch-wenige-tage-das-sommerkino-am-kulturforum/"}, {"title": "180 Jahre St. Matthäus-Kirche", "url": "https://www.mittendran.de/180-jahre-st-matthaeus-kirche/", "excerpt": "Am 17. Mai 1846 wurde die St. Matthäus-Kirche geweiht – noch vor den Toren der Stadt zwischen Feldern und Wiesen, wenige Jahre später Zentrum des wohlhabenden und kulturell pulsierenden Tiergartenviertels. Genau 180…", "date": "2026-05-06", "about_years": [1845, 1846], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/180-jahre-st-matthaeus-kirche/"}, {"title": "Kulturforum JETZT! 10 Positionen zur Aktivierung des Kulturforums", "url": "https://www.mittendran.de/kulturforum-jetzt-10-positionen-zur-aktivierung-des-kulturforums/", "excerpt": "Das Kulturforum gilt seit dem Bau der Philharmonie als Problemzone, man hält sich hier nicht gern auf, die Baustelle des neuen Kunstmuseums macht den Ort nicht angenehmer. Zehn Studierende der Universität der Künste…", "date": "2026-02-02", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/kulturforum-jetzt-10-positionen-zur-aktivierung-des-kulturforums/"}, {"title": "Masterplan Kulturforum fortgeschrieben", "url": "https://www.mittendran.de/masterplan-kulturforum-fortgeschrieben/", "excerpt": "Am 13. Januar hat der Berliner Senat den erneuerten Masterplan Kulturforum beschlossen, in dem die Neugestaltung und Aufwertung des Gebietes rund um Philharmonie, Gemäldegalerie und das neue Kunstmuseum „berlin modern“…", "date": "2026-01-21", "about_years": [2006], "rubrik": "Bauen und Wohnen", "source_url": "https://www.mittendran.de/masterplan-kulturforum-fortgeschrieben/"}, {"title": "Jung, aber Denkmal: Kulturforum", "url": "https://www.mittendran.de/jung-aber-denkmal-kulturforum/", "excerpt": "Diskussionsveranstaltung in der Urania: Jung, aber Denkmal: Kulturforum Locker gruppierte Großbauten mit weiträumigen Freiflächen in einer offenen, fließenden Stadtlandschaft – so lautete die städtebauliche Vorstellung…", "date": "2025-11-01", "about_years": [], "rubrik": "Bauen und Wohnen", "source_url": "https://www.mittendran.de/jung-aber-denkmal-kulturforum/"}, {"title": "Eine runde Sache an der Ecke – das Loeser & Wolff-Haus", "url": "https://www.mittendran.de/eine-runde-sache-der-ecke-das-loeser-wolff-haus/", "excerpt": "Eines der bekanntesten Bücher Walter Kempowskis trägt den Titel „Tadellöser und Wolff“. Sein Vater pflegte den Firmennamen der bekanntesten, 1866 am Berliner Alexanderplatz gegründeten Zigarrenfabrik Deutschlands…", "date": "2025-08-07", "about_years": [1866, 1902, 1929, 1931, 2004], "rubrik": "Bauen und Wohnen", "source_url": "https://www.mittendran.de/eine-runde-sache-der-ecke-das-loeser-wolff-haus/"}, {"title": "Ein Spaziergang durch das verschwundene Tiergartenviertel", "url": "https://www.mittendran.de/ein-spaziergang-durch-das-verschwundene-tiergartenviertel/", "excerpt": "Eine neue Ausstellung im oberen Foyer der Kunstbibliothek am Kulturforum zeigt auf großen Wandtapeten ein Panorama mit 15 berühmten Persönlichkeiten, die bis zu seiner Zerstörung im alten Tiergartenviertel rund um die…", "date": "2025-05-27", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/ein-spaziergang-durch-das-verschwundene-tiergartenviertel/"}, {"title": "Vortragsreihe in der Kunstbibliothek: Kunstgeschichte(n) des Tiergartenviertels", "url": "https://www.mittendran.de/vortragsreihe-der-kunstbibliothek-kunstgeschichten-des-tiergartenviertels/", "excerpt": "Am kommenden Sonntag, 19. Januar 2025, beginnt die dritte Folge der „Kunstgeschichte(n) des Tiergartenviertels“ mit 10 weiteren Vorträgen im Jahr 2025. Angefangen wird mit einem Vortrag, der 2024 ausfallen musste, über…", "date": "2025-01-17", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/vortragsreihe-der-kunstbibliothek-kunstgeschichten-des-tiergartenviertels/"}, {"title": "EKBOART Kunstauktion", "url": "https://www.mittendran.de/ekboart-kunstauktion/", "excerpt": "„Kunst hilft helfen“ ist das Motto der Kunstauktion der Evangelischen Kirche Berlin-Brandenburg-schlesische Oberlausitz (EKBO). Seit 1996 setzt sich die Kunstauktion der EKBO einmal im Jahr unter der Schirmherrschaft…", "date": "2024-11-29", "about_years": [1996], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/ekboart-kunstauktion/"}, {"title": "Piazzetta heißt jetzt Johanna und Eduard Arnhold Platz", "url": "https://www.mittendran.de/piazzetta-heisst-jetzt-johanna-und-eduard-arnhold-platz/", "excerpt": "Die Piazzetta am Eingang der Museen am Kulturforum wurde umbenannt und erinnert jetzt an das Mäzenatenpaar Arnhold. Damit wird an das jüdische Ehepaar erinnert, das in der Kaiserzeit und der Weimarer Republik Kunst…", "date": "2024-11-06", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/piazzetta-heisst-jetzt-johanna-und-eduard-arnhold-platz/"}, {"title": "Grundsteinlegung am Museum der Moderne", "url": "https://www.mittendran.de/grundsteinlegung-museum-der-moderne/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2024/02/P1130894-scaled.jpg) So sah es auf der Baustelle noch vor ca. 1 Jahr aus (Foto:eki) „Auf Deutschlands aktuell teuerster Kulturbaustelle wird an diesem Freitag um…", "date": "2024-02-09", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/grundsteinlegung-museum-der-moderne/"}, {"title": "Eintrittsfreier Museumssonntag findet auch 2024 und 2025 statt", "url": "https://www.mittendran.de/eintrittsfreier-museumssonntag-finde-auch-2024-und-2025-statt/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/08/2023-Kulturforum-Foto-eki-1-scaled.jpg) Kulturforum (Foto:eki) Auch im neuen Jahr bieten viele Berliner Kultureinrichtungen wieder den eintrittsfreien…", "date": "2024-01-04", "about_years": [1700], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/eintrittsfreier-museumssonntag-finde-auch-2024-und-2025-statt/"}, {"title": "„Changing Lights“ – Die Gemäldegalerie feiert Geburtstag", "url": "https://www.mittendran.de/changing-lights-die-gemaeldegalerie-feiert-geburtstag/", "excerpt": "Am Samstag, 18. November 2023, feiert das Museum ein Jubiläumsfest: 25 Jahre Gemäldegalerie am Kulturforum Samstag 18.11.2023 10:00 – 23:00 Uhr Die Gemäldegalerie feiert! Vor 25 Jahren eröffnete der neue, von Hilmer &…", "date": "2023-11-16", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/changing-lights-die-gemaeldegalerie-feiert-geburtstag/"}, {"title": "Wird der Potsdamer Platz ins Gleisdreieck verlängert?", "url": "https://www.mittendran.de/wird-der-potsdamer-platz-ins-gleisdreieck-verlaengert/", "excerpt": "Ein Beitrag von Mathias Bauer, Gleisdreieckblog (https://gleisdreieck-blog.de) 25 Jahre nach der Eröffnung Veröffentlicht am 13. 09. 2023 Gerade steht das 25jährige Jubiläum des neuen Potsdamer Platzes an. Doch zum…", "date": "2023-09-14", "about_years": [1988, 1992, 1994, 1995, 1996, 1998, 2006], "rubrik": "Bauen und Wohnen", "source_url": "https://www.mittendran.de/wird-der-potsdamer-platz-ins-gleisdreieck-verlaengert/"}, {"title": "Museum der Moderne soll zum Vorbild der Nachhaltigkeit werden", "url": "https://www.mittendran.de/museum-der-modern-soll-zum-vorbild-der-nachhaltigkeit-werden/", "excerpt": "Das auch wegen seiner schlechten Energiebilanz umstrittene Museum des 20. Jahrhunderts in Berlin soll nach dem Willen von Kulturstaatsministerin Claudia Roth zu einem „Vorbild für Nachhaltigkeit“ werden. „Dieses Museum…", "date": "2023-04-18", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/museum-der-modern-soll-zum-vorbild-der-nachhaltigkeit-werden/"}, {"title": "Querflöten Friederichs des Großen und eine Stradivari", "url": "https://www.mittendran.de/querfloeten-friederichs-des-grossen-und-eine-stradivari/", "excerpt": "Bewundern Sie rund 800 weitere Instrumente der europäischen Kunstmusik vom 16.-20. Jahrhundert im Musikinstrumenten-Museum des Staatlichen Instituts für Musikforschung Preußischer Kulturbesitz („MIM“)…", "date": "2023-03-07", "about_years": [1888, 1972, 1979, 1984], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/querfloeten-friederichs-des-grossen-und-eine-stradivari/"}], "place_url": "../../places/kulturforum/", "place_slug": "kulturforum", "title": "Ein „Tag im Grünen“ im Kulturforum", "url": "https://www.mittendran.de/ein-tag-im-gruenen-im-kulturforum/", "excerpt": "Am 13. September 2026 verwandelt sich das Kulturforum Berlin wieder in einen großen Veranstaltungsraum – drinnen und draußen. Zum fünften Mal laden die dort ansässigen Kultur- und Wissenschaftseinrichtungen sowie die…", "date": "2026-09-06"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.3655794, 52.5026314]}, "properties": {"place": "Joseph-Roth-Diele", "count": 1, "articles": [{"title": "Denk Mal Am Ort – Joseph-Roth-Diele", "url": "https://www.mittendran.de/denk-mal-ort-joseph-roth-diele/", "date": "2024-05-01", "rubrik": "Kunst und Kultur", "excerpt": "Am Wochenende vor dem 8. Mai 2024 hat „Denk Mal Am Ort“ in der Diele an der Potsdamer Straße 75 an die Befreiung erinnert."}], "hours_url": "https://www.joseph-roth-diele.de/"}}]};</script>
+  <script>
+const RUBRIK_COLORS = window.RUBRIK_COLORS || {};
+const RUBRIK_FALLBACK = "#7a6a58";
+
+function esc(s) {
+  return String(s || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function rubrikColor(name) {
+  const key = String(name || "").trim();
+  if (!key) return RUBRIK_FALLBACK;
+  if (RUBRIK_COLORS[key]) return RUBRIK_COLORS[key];
+  let h = 0;
+  for (let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) >>> 0;
+  return "hsl(" + (h % 360) + " 42% 42%)";
+}
+
+function conicFromArticles(articles) {
+  if (!articles.length) return RUBRIK_FALLBACK;
+  const counts = {};
+  const order = [];
+  articles.forEach((a) => {
+    const r = String(a.rubrik || "").trim() || "Sonstiges";
+    if (!counts[r]) {
+      counts[r] = 0;
+      order.push(r);
+    }
+    counts[r] += 1;
+  });
+  const total = articles.length;
+  let start = 0;
+  const parts = order.map((r) => {
+    const share = (counts[r] / total) * 100;
+    const end = start + share;
+    const slice = rubrikColor(r) + " " + start.toFixed(2) + "% " + end.toFixed(2) + "%";
+    start = end;
+    return slice;
+  });
+  return "conic-gradient(" + parts.join(", ") + ")";
+}
+
+function articleRow(a) {
+  const rubrik = String(a.rubrik || "").trim();
+  const color = rubrikColor(rubrik);
+  const tag = rubrik
+    ? "<span class='rubrik-tag' style='background:color-mix(in srgb, " +
+      color +
+      " 28%, white)'>" +
+      esc(rubrik) +
+      "</span>"
+    : "";
+  const line = [a.date ? esc(a.date) : "", tag].filter(Boolean).join(" · ");
+  const excerpt = a.excerpt
+    ? "<p class='popup-excerpt'>" + esc(a.excerpt) + "</p>"
+    : "";
+  const inner =
+    "<span class='chip' style='background:" +
+    color +
+    "' title='" +
+    esc(rubrik || "ohne Rubrik") +
+    "'></span><div><span class='t'>" +
+    esc(a.title) +
+    "</span>" +
+    (line ? "<div class='popup-meta'>" + line + "</div>" : "") +
+    excerpt +
+    "</div>";
+  return a.url
+    ? "<li><a href='" + esc(a.url) + "'>" + inner + "</a></li>"
+    : "<li style='display:grid;grid-template-columns:0.55rem 1fr;gap:0.55rem'>" +
+        inner +
+        "</li>";
+}
+
+function popupHtml(p) {
+  const articles = Array.isArray(p.articles) ? p.articles : [];
+  const place = p.place || (articles[0] && articles[0].title) || "Ort";
+  const n = articles.length || p.count || 0;
+  const meta = n > 1 ? n + " Beiträge" : n === 1 ? "1 Beitrag" : "";
+  const shown = articles.slice(0, 10);
+  const items = shown.map(articleRow).join("");
+  const moreHref = p.place_url || "";
+  const more =
+    n > 10 && moreHref
+      ? "<a class='popup-more' href='" + esc(moreHref) + "'>Alle " + n + " Beiträge →</a>"
+      : moreHref && n > 1
+        ? "<a class='popup-more' href='" + esc(moreHref) + "'>Zur Ortsseite →</a>"
+        : "";
+  const hours = p.hours_url
+    ? "<a class='popup-more' href='" + esc(p.hours_url) + "' rel='noopener'>Öffnungszeiten</a>"
+    : "";
+  return (
+    "<div class='map-popup'>" +
+    "<strong class='popup-place'>" +
+    esc(place) +
+    "</strong>" +
+    (meta ? "<div class='popup-meta'>" + esc(meta) + "</div>" : "") +
+    "<ul class='popup-articles'>" +
+    items +
+    "</ul>" +
+    hours +
+    more +
+    "</div>"
+  );
+}
+
+function singleStyle(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const fill = rubrikColor(arts[0] && arts[0].rubrik);
+  return {
+    radius: 8,
+    color: "#2a221c",
+    weight: 1.4,
+    fillColor: fill,
+    fillOpacity: 0.92,
+  };
+}
+
+function multiIcon(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const n = arts.length || 1;
+  const size = Math.min(22, 12 + Math.sqrt(n) * 3.2);
+  return L.divIcon({
+    className: "",
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+    html:
+      "<div class='pin-multi' style='width:" +
+      size +
+      "px;height:" +
+      size +
+      "px;background:" +
+      conicFromArticles(arts) +
+      "' title='" +
+      esc(String(n) + " Beiträge") +
+      "'></div>",
+  });
+}
+
+const geo = window.DATE_PLACES || { type: "FeatureCollection", features: [] };
+const map = L.map("date-map", { scrollWheelZoom: false });
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19,
+  attribution: "&copy; OpenStreetMap",
+}).addTo(map);
+const layer = L.geoJSON(geo, {
+  pointToLayer(feature, latlng) {
+    const props = (feature && feature.properties) || {};
+    const n = props.count || 1;
+    if (props.hours_url) {
+      return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true, zIndexOffset: 1000 });
+    }
+    if (n > 1) return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true });
+    return L.circleMarker(latlng, singleStyle(feature));
+  },
+  onEachFeature(feature, lyr) {
+    lyr.bindPopup(popupHtml(feature.properties || {}), {
+      maxWidth: Math.min(320, Math.max(180, window.innerWidth - 56)),
+      autoPan: true,
+      autoPanPadding: [12, 12],
+    });
+  },
+}).addTo(map);
+if (layer.getBounds().isValid()) {
+  map.fitBounds(layer.getBounds(), { padding: [28, 28], maxZoom: 16 });
+}
+map.invalidateSize();
+</script>
+
+  <h2>Stopps</h2>
+  <ol class="date-order"><li>Joseph-Roth-Diele <a class="hours-link" href="https://www.joseph-roth-diele.de/" rel="noopener">Öffnungszeiten</a><figure class="date-photo"><a href="https://www.mittendran.de/weihnachten-und-silvester-geschlossen-die-joseph-roth-diele-macht-ferien/" rel="noopener"><img src="../../assets/dates/diele-kulturforum/0.jpg" alt="Weihnachten und Silvester geschlossen: Die Joseph Roth Diele macht Ferien …"></a><figcaption><a href="https://www.mittendran.de/weihnachten-und-silvester-geschlossen-die-joseph-roth-diele-macht-ferien/" rel="noopener">Weihnachten und Silvester geschlossen: Die Joseph Roth Diele macht Ferien …</a></figcaption></figure></li><li><a href="../../places/kulturforum/">Kulturforum</a><figure class="date-photo"><a href="https://www.mittendran.de/jung-aber-denkmal-kulturforum/" rel="noopener"><img src="../../assets/dates/diele-kulturforum/1.jpg" alt="Jung, aber Denkmal: Kulturforum"></a><figcaption><a href="https://www.mittendran.de/jung-aber-denkmal-kulturforum/" rel="noopener">Jung, aber Denkmal: Kulturforum</a></figcaption></figure></li></ol>
+  <h2>Gelesen</h2>
+  <p class="meta">Zusammengelesen aus den genannten Beiträgen. Was dort nicht steht, steht hier nicht.</p>
+  <div class="date-narrative"><p>Zwei Beiträge halten die Joseph-Roth-Diele fest, und sie tun das sehr verschieden. Am 1. Mai 2024 steht die Diele in einem größeren Gedenken. Am Wochenende vor dem 79. Jahrestag der Befreiung, dem 8. Mai 1945, also am 4. und 5. Mai, erinnert „Denk Mal Am Ort“ mit 27 Veranstaltungen an Wohn- und Wirkungsstätten von Berlinerinnen und Berlinern, die in der NS-Zeit verfolgt wurden oder Widerstand leisteten. 14 Nachkommen reisen aus Amerika, Großbritannien, Argentinien, Spanien, den Niederlanden, Frankreich und Israel an. Ausstellungen, Erzählungen, Vorträge, Gedenkspaziergänge, Rundgänge, Lesungen, eine Performance, akustische Stolpersteine, zwei Zeitzeugengespräche. Der Eintritt ist überall frei. An der Potsdamer Straße erinnert am Samstag um 14 Uhr eine szenische Lesung an Joseph Roth und Friederike Roth-Reichler. Roth, geboren 1894 im damaligen Österreich-Ungarn, Journalist, Chronist, Romanautor, Gegner des Nationalsozialismus, lebte von 1920 bis 1933 in Berlin und verließ das Land am Tag der Ernennung Hitlers zum Reichskanzler. Andrea Schultz und Günter Schmidt lesen vor der Diele, Potsdamer Straße 75. Im Nebenhaus haben der Schriftsteller und seine Frau einige Jahre gelebt. Die Initiative geht auf OPEN JEWISH HOMES zurück. Marie Rolshoven hat das Projekt 2016 nach Deutschland geholt und das Gedenken auf alle NS-Verfolgten erweitert. Im Januar 2024 erhält sie den Obermayer Award.</p><p>Ende Dezember 2024 ist dieselbe Diele geschlossen, Weihnachten und Silvester. Für das Schaufenster zur Potsdamer Straße hat sie ein kleines Sichtfenster in die sonst nicht einsehbare Scheibe gesetzt. Dahinter steht ein leeres Restaurant im Puppenstubenformat, dem Original nachgebildet, und ein Wunsch für die Feiertage.</p><p>Danach, in den Beiträgen, liegt das Kulturforum, und die Stücke behandeln es als unfertige Stadtlandschaft, nicht als einen einzelnen Abend. „Jung, aber Denkmal“, angekündigt für den 4. November 2025 in der Urania, Kleist-Saal, An der Urania 17, formuliert die Nachkriegsvorstellung so: locker gruppierte Großbauten, weite Freiflächen, eine offene, fließende Stadtlandschaft. Hans Scharouns Philharmonie und Staatsbibliothek und Ludwig Mies van der Rohes Neue Nationalgalerie gelten dort als Ikonen der Nachkriegsmoderne. Das Forum blieb unvollendet. Ein Konsensplan Kulturforum werde als Leitbild erarbeitet. Mit der Generalinstandsetzung der Staatsbibliothek stehe die nächste Großbaustelle an. Einführung: Christoph Rauhut, Landeskonservator. Auf dem Podium Petra Kahlfeldt, Katja Erke, Achim Bonte, Stephan Schütz und Jürgen Tietz, Moderation Verena Pfeiffer-Kloss. Veranstalter sind das Landesdenkmalamt und die Architektenkammer, mit der Urania.</p><p>Ein Jahr später, am 13. September 2026, wird dasselbe Gelände zum fünften Mal ein „Tag im Grünen“, drinnen und draußen, am Tag des offenen Denkmals, mit der Architektur als Schwerpunkt. Die Häuser und die St. Matthäus-Kirche laden ein. Marion Ackermann, Präsidentin der Stiftung Preußischer Kulturbesitz, sagt, der Tag zeige die Vielfalt der Einrichtungen und die Zusammenarbeit über Institutionsgrenzen hinweg. Das Kulturforumsticket kostet an dem Tag 12 Euro, ermäßigt 6, statt 22 und 11. Wer eine Jahreskarte hat, kann eine Person mitbringen. Kinder und Jugendliche bis 18 Jahre haben wie sonst freien Eintritt. Draußen steht Berlins längste Tafel auf dem Scharounplatz. Wer kein Picknick mitbringt, findet Essen auf dem Gelände. Mitglieder der Karajan-Akademie spielen Kurzkonzerte auf der mobilen Bühne VeloStage. Das Künstlerkollektiv Bündnis Feuer &amp; Flamme stellt eine offene Küche hin. Junge Berliner Bands spielen auf dem Scharounplatz. Führungen, Workshops und Ausstellungen in Gemäldegalerie, Kunstgewerbemuseum, Kupferstichkabinett, Kunstbibliothek und Neuer Nationalgalerie. Das Staatliche Institut für Musikforschung führt durch das Musikinstrumenten-Museum und das Institutsgebäude und jodelt danach auf der Dachterrasse. Im Ibero-Amerikanischen Institut läuft „Quadrinhos! – Brasilianische Comics in Berlin“, dazu ein Konzert. Die Staatsbibliothek führt durch ihr Haus Potsdamer Straße. St. Matthäus bietet Turmführungen, Vorträge, Workshops und einen Gottesdienst unter freiem Himmel. Die Baumschule Kulturforum gestaltet den Scharounplatz mit. Das Wissenschaftszentrum öffnet sein denkmalgeschütztes Gebäude. Dazu Rundgänge: architekturhistorisch, Urban Sketching, Photo-Walk.</p><p>In derselben Woche ist der Garten der Berlin Art Week am Kulturforum zu Gast, zwischen Neuer Nationalgalerie und Gemäldegalerie. Der Beitrag vom 1. September 2026 beschreibt das 15-jährige Jubiläum der Art Week: fünf Tage, vom 9. bis 13. September, wird das Areal zwischen Potsdamer Platz, Tiergarten und Landwehrkanal zum Treffpunkt. Workshops, Performances, DJ-Sets, Talks, Screenings, kostenlos und offen. Ein LeseGarten zum Ankommen. Der Garten bündelt das Festival: Routen durch die Stadt, mehr als 100 Partner, mehr als 300 Veranstaltungen, darunter über 100 Ausstellungseröffnungen. Am 10. September laden 54 Galerien des Gallery Weekend von 18 bis 22 Uhr zur Gallery Night. Die Ausstellungen sind von Freitag bis Sonntag jeweils von 12 bis 18 Uhr geöffnet. Mittwoch die Eröffnungen in Museen und Kunstvereinen, Donnerstag die Positions Berlin Art Fair und die Gallery Night, Freitag die Featured Night, am Wochenende Privatsammlungen.</p></div>
+  <h2>Aus den Beiträgen</h2><ul class='date-sources'><li><a href="https://www.mittendran.de/denk-mal-ort-joseph-roth-diele/" rel="noopener">Denk Mal Am Ort – Joseph-Roth-Diele</a></li><li><a href="https://www.mittendran.de/weihnachten-und-silvester-geschlossen-die-joseph-roth-diele-macht-ferien/" rel="noopener">Weihnachten und Silvester geschlossen: Die Joseph Roth Diele macht Ferien</a></li><li><a href="https://www.mittendran.de/jung-aber-denkmal-kulturforum/" rel="noopener">Jung, aber Denkmal: Kulturforum</a></li><li><a href="https://www.mittendran.de/ein-tag-im-gruenen-im-kulturforum/" rel="noopener">Ein Tag im Grünen im Kulturforum</a></li><li><a href="https://www.mittendran.de/berlin-art-week-vom-9-13-september/" rel="noopener">Berlin Art Week vom 9.–13. September</a></li></ul>
+  <p class="meta">Öffnungszeiten stehen hier nicht. Der Link beim Essen führt auf die Seite des Hauses.</p>
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
+</body>
+</html>

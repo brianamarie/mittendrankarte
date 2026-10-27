@@ -14,8 +14,8 @@ tags: []
 source: {}
 places:
 - name: Magdeburger Platz
-  lat: 52.5047
-  lon: 13.3615
+  lat: 52.503594
+  lon: 13.360503
   osm_id: null
   status: confirmed
   via: gazetteer
@@ -26,8 +26,8 @@ places:
   status: confirmed
   via: gazetteer
 - name: Kurfürstenstraße
-  lat: 52.5005
-  lon: 13.352
+  lat: 52.502
+  lon: 13.35419
   osm_id: null
   status: confirmed
   via: gazetteer

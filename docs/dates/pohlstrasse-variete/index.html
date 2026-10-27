@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Von der Pohlstraße ins Varieté</title>
+  <link rel="stylesheet" href="../../assets/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
+    </nav>
+  </header>
+  
+<main class="date-page">
+  <p class="place-back"><a href="../../ausgehen.html">← Ausgehen</a></p>
+  <p class="place-kicker">Essen, dann Kultur</p>
+  <h1>Von der Pohlstraße ins Varieté</h1>
+  <p class="meta">Wochentag abends · Essen, dann das Varieté</p>
+  <p class="lead">Abends, etwa 15 Minuten zu Fuß von der Pohlstraße. Erst essen, dann ein Haus.</p>
+  <p class='date-food'><strong>Essen.</strong> Les Climats, Pohlstraße 75. Die Weinbar in der Pohlstraße 75. Der Beitrag vom Mai 2023 kündigt Jazz Manouche an und ein Pop-up von Chloé. <a class="hours-link" href="https://www.lesclimats.com/" rel="noopener">Öffnungszeiten</a></p>
+  
+  <div id="date-map" class="date-map" role="region" aria-label="Pins zu diesem Abend"></div>
+  <p class="meta">4 Pins. Ein Klick öffnet die Beiträge. Beim Essen liegt der Link zu den Öffnungszeiten im Pin.</p>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>window.RUBRIK_COLORS = {"Aus dem Kiez": "#4a7c59", "Kunst und Kultur": "#8b4d9a", "Miteinander": "#c45c26", "Öffentlicher Raum und Verkehr": "#2f6f9f", "Bauen und Wohnen": "#8b6914", "Gewerbe und Gastronomie": "#b33b3b", "Kiez-Geschichte": "#5c4a3a", "kiek ma!": "#d4a017", "Kinder, Heranwachsende, Schule": "#3d8b8b", "Kiez mit Kind": "#5aa0a0", "In eigener Sache": "#6b6b6b", "Sport und Freizeit": "#3f7d4e", "Der andere Blick": "#7a4e8c"}; window.DATE_PLACES = {"type": "FeatureCollection", "features": [{"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.36527, 52.5006]}, "properties": {"place": "Pohlstraße", "count": 45, "articles": [{"title": "Presseschau des Stadtteil-Forums Tiergarten Süd", "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-9/", "excerpt": "Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/ (https://forum-tgs.de/)). In den letzten 7 Tagen sind uns diese…", "date": "2026-09-25", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-9/"}, {"title": "Letzte Spielstraße in diesem Jahr auf der Pohlstraße", "url": "https://www.mittendran.de/letzte-spielstrasse-in-diesem-jahr-auf-der-pohlstrasse/", "excerpt": "Der Herbst kommt und mit ihm kam gestern die letzte Spielstraße für dieses Jahr von 14:00 bis 19:00 Uhr auf der Pohlstraße. Die beliebten Spielgeräte waren wieder sehr begehrt und auch die Kreide kam auf dem Asphalt…", "date": "2026-09-23", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/letzte-spielstrasse-in-diesem-jahr-auf-der-pohlstrasse/"}, {"title": "Die wilden 1920er Jahre in Tiergarten-Süd", "url": "https://www.mittendran.de/die-wilden-1920er-jahre-tiergarten-sued/", "excerpt": "In der Podcast-Reihe „Crime history (http://Mord am Unterwelt-Hehler - \"Stehlen lohnt sich nicht mehr\")“ des rbb gibt es eine neue Folge mit dem Titel „Mord am Unterwelt-Hehler – Stehlen lohnt sich nicht mehr“. Es geht…", "date": "2026-07-07", "about_years": [1920], "rubrik": "Kiez-Geschichte", "source_url": "https://www.mittendran.de/die-wilden-1920er-jahre-tiergarten-sued/"}, {"title": "Post und Besuch aus Shanghai, und wieder geht es um Walter Benjamin", "url": "https://www.mittendran.de/post-und-besuch-aus-shanghai-und-wieder-geht-es-um-walter-benjamin/", "excerpt": "Von Walter Benjamin (1892-1941) geht auch mehr als 80 Jahre nach seinem Tod eine ungebrochene Faszination aus, wie es scheint. Neulich meldete sich (mittendran vom 22. Februar 2026…", "date": "2026-06-10", "about_years": [1882, 1892, 1920, 1930, 1941, 1942, 1967, 1970, 1987], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/post-und-besuch-aus-shanghai-und-wieder-geht-es-um-walter-benjamin/"}, {"title": "Die Spielstraße mit der Puppenspielerin Katharina Fial", "url": "https://www.mittendran.de/die-spielstrasse-mit-der-puppenspielerin-katharina-fial/", "excerpt": "Bei der gestrigen Spielstraße auf der Pohlstraße gab es wieder einen Besuch der beliebten Puppenspielerin Katharina Fial mit ihrem Puppentheater Fingerleicht. Puppenspielerin Katharina Fial Pohlstraße Spielstraße Alle…", "date": "2026-05-22", "about_years": [], "rubrik": "Kiez mit Kind", "source_url": "https://www.mittendran.de/die-spielstrasse-mit-der-puppenspielerin-katharina-fial/"}, {"title": "Pohl- und Kluckstraße bekommen neue Pflanzen", "url": "https://www.mittendran.de/pohl-und-kluckstra%c3%9fe-bekommen-neue-pflanzen/", "excerpt": "Der Bezirksstadtrat für Ordnung, Umwelt, Natur, Straßen und Grünflächen, Christopher Schriner, informiert: Das Bezirksamt Mitte von Berlin beginnt mit der Bepflanzung der Grünflächen unter den Bäumen an der Pohlstraße…", "date": "2026-05-12", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/pohl-und-kluckstra%c3%9fe-bekommen-neue-pflanzen/"}, {"title": "Die erste Spielstraße-Pohlstraße in diesem Jahr", "url": "https://www.mittendran.de/die-erste-spielstrasse-pohlstrasse-diesem-jahr/", "excerpt": "Auch in diesem Jahr wird sich die Pohlstraße an vier Tagen wieder in eine Spielstraße verwandeln. Der erste Termin war gestern. Leider hatten auch diesmal nicht alle Anwohnenden ihre Autos aus dem abgesperrten Bereich…", "date": "2026-04-24", "about_years": [], "rubrik": "Kiez mit Kind", "source_url": "https://www.mittendran.de/die-erste-spielstrasse-pohlstrasse-diesem-jahr/"}, {"title": "Post aus Tokio: Walter Benjamin (1892-1942) im Blumeshof", "url": "https://www.mittendran.de/post-aus-tokyo-walter-benjamin-1892-1942-im-blumeshof/", "excerpt": "Die Mail kam wirklich überraschend: Aus Tokio schrieb – in allerbestem Deutsch – ein emeritierter japanischer Professor, Jun Tanaka, und kommentierte eine soeben veröffentlichte Geschichte, die von den Bewohnern des…", "date": "2026-02-22", "about_years": [1822, 1852, 1892, 1895, 1896, 1907, 1912, 1928, 1942, 2010], "rubrik": "Kiez-Geschichte", "source_url": "https://www.mittendran.de/post-aus-tokyo-walter-benjamin-1892-1942-im-blumeshof/"}, {"title": "Spaziergang in die Vergangenheit (37): Die Cholera-Pandemie von 1831/1832", "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-37-die-cholera-pandemie-von-18311832/", "excerpt": "Die erste Cholera-Pandemie (1817-1824) verbreitete sich vor allem in Asien und Ostafrika und erreichte Europa nur am Rande, während die zweite Pandemie (1826-1841) Europa weitaus mehr traf (1). Sie erreichte Preußen im…", "date": "2026-02-14", "about_years": [1812, 1817, 1824, 1826, 1830, 1831, 1832, 1839, 1840, 1841, 1854, 1905, 1925, 1995, 2006], "rubrik": "Kiez-Geschichte", "source_url": "https://www.mittendran.de/spaziergang-die-vergangenheit-37-die-cholera-pandemie-von-18311832/"}, {"title": "Rundgang zum Thema Kriminalitätsprävention", "url": "https://www.mittendran.de/rundgang-zum-thema-kriminalitaetspraevention/", "excerpt": "Am Donnerstag, 18. Dezember kamen Mitarbeiter des für Tiergarten zuständigen Polizei-Abschnitts 28/29, der Polizeidirektion und des Landeskriminalamts zu einem Rundgang durch unseren Kiez zusammen. Anlass waren…", "date": "2025-12-18", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/rundgang-zum-thema-kriminalitaetspraevention/"}, {"title": "Baustelle Gleisdreieck", "url": "https://www.mittendran.de/baustelle-gleisdreieck/", "excerpt": "Ein Beitrag von Matthias Bauer, gleisdreieck-blog.de (http://gleisdreieck-blog.de) Der Neubau des Viadukts der U1 steht an (https://gleisdreieck-blog.de/2025/11/23/der-neubau-des-viadukts-der-u1-steht-an/)…", "date": "2025-11-26", "about_years": [1926, 2013], "rubrik": "Bauen und Wohnen", "source_url": "https://www.mittendran.de/baustelle-gleisdreieck/"}, {"title": "Spaziergang in die Vergangenheit (34): Potsdamer Str. 96 (Teil 3)", "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-3/", "excerpt": "Das Quartier Latin, das wir beim letzten Mal besucht haben (mittendran vom 10. Oktober 2025 (https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-2/)), hatte im vorderen Teil des Gebäudes…", "date": "2025-11-15", "about_years": [1711, 1824, 1841, 1893, 1930, 1936, 1944, 1947, 1954, 1955, 1956, 1967, 1968, 1969, 1970, 1972, 1989], "rubrik": "Kiez-Geschichte", "source_url": "https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-3/"}, {"title": "Die letzte Spielstraße-Pohlstraße in diesem Jahr", "url": "https://www.mittendran.de/die-letzte-spielstrasse-pohlstrasse-diesem-jahr/", "excerpt": "Heute, am Montag, fand der europaweite autofreie Tag statt. Aus diesem Anlass wurde die letzte Spielstraße in diesem Jahr von 13-19 Uhr auf der Pohlstraße veranstaltet. Der Autofreie Tag findet seit dem Jahr 2000…", "date": "2025-09-22", "about_years": [2000], "rubrik": "Kiez mit Kind", "source_url": "https://www.mittendran.de/die-letzte-spielstrasse-pohlstrasse-diesem-jahr/"}, {"title": "Art Week Impressionen (5)", "url": "https://www.mittendran.de/art-week-impressionen-5/", "excerpt": "Wieder zurück auf der Potsdamer Straße, werfen wir noch einen Blick auf die Installation „Höhlengleichnis“ in den früheren Räumen der Klosterfelde Edition (Potsdamer Str. 97), eine Gemeinschaftsarbeit des Berliner…", "date": "2025-09-15", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/art-week-impressionen-5/"}, {"title": "Vom 11.-14. September ist BERLIN ART WEEK", "url": "https://www.mittendran.de/vom-10-14-september-ist-berlin-art-week/", "excerpt": "Jedes Jahr im September lädt das Gallery Weekend zu fünf Tagen mit Ausstellungen, Führungen, Konzerten, Performances und Talks ein. Außerdem gibt es ein Festivalprogramm mit Schwerpunkten im HAU Hebbel am Ufer, den…", "date": "2025-09-10", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/vom-10-14-september-ist-berlin-art-week/"}, {"title": "Ein interessanter Spaziergang zum Kiezblock Flottwell", "url": "https://www.mittendran.de/ein-interessanter-spaziergang-zum-kiezblock-flottwell/", "excerpt": "Gastbeitrag von Jörg Borchardt Der Bezirk Mitte veranstaltet in 25 Vierteln Kiezspaziergänge zur Planung von Kiezblocks, an 12 Orten davon sollen sie dann ab 2026 umgesetzt werden. In diesen von Hauptstraßen…", "date": "2025-06-04", "about_years": [], "rubrik": "Öffentlicher Raum und Verkehr", "source_url": "https://www.mittendran.de/ein-interessanter-spaziergang-zum-kiezblock-flottwell/"}, {"title": "Entsiegelung soll voll erhalten bleiben!", "url": "https://www.mittendran.de/entsiegelung-soll-voll-erhalten-bleiben/", "excerpt": "Die FDP hat einen Flyer verteilt, in dem eine Verringerung der entsiegelten Flächen in der Kluck- und Pohlstraße gefordert wird. Einen in etwa gleichlautenden Antrag hat sie auch in die Bezirksverordnetenversammlung…", "date": "2025-02-14", "about_years": [1904], "rubrik": "Bauen und Wohnen", "source_url": "https://www.mittendran.de/entsiegelung-soll-voll-erhalten-bleiben/"}, {"title": "Zäunchen in der Pohlstraße", "url": "https://www.mittendran.de/zaeunchen-der-pohlstrasse/", "excerpt": "In der westlichen Pohlstraße wurde heute an den Beeten nahe der Potsdamer Straße gearbeitet. Im Auftrag des Grünflächenamtes erhalten die Beete eine Umrahmung mit kleinen Holzzäunen. Von einer Gärtnerin war zu…", "date": "2025-02-12", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/zaeunchen-der-pohlstrasse/"}, {"title": "Kiez mit Kind: Buddelkiste Körnerstraße", "url": "https://www.mittendran.de/kiez-mit-kind-buddelkiste-koernerstrasse/", "excerpt": "Wenn wir ehrlich sind, fällt die Spielfläche in der Körnerstraße/Ecke Pohlstraße nicht in die Kategorie “Spielplätze” und kann damit nicht wirklich fair bewertet werden. Dennoch ist sie Teil unseres Kiezes und steht…", "date": "2025-01-25", "about_years": [], "rubrik": "Kiez mit Kind", "source_url": "https://www.mittendran.de/kiez-mit-kind-buddelkiste-koernerstrasse/"}, {"title": "Der Neubau des stählernen Viadukts der U1 im Gleisdreieck", "url": "https://www.mittendran.de/der-neubau-des-staehlernen-viadukts-der-u1-im-gleisdreieck/", "excerpt": "Ein Beitrag des gleisdreieck-Blogs (https://gleisdreieck-blog.de/2025/01/19/der-neubau-des-staehlernen-viadukts-der-u1-im-gleisdreieck/)von Matthias Bauer 1913 gebaut, 1926 in Betrieb gegangen, seit ein paar Jahren von…", "date": "2025-01-20", "about_years": [1913, 1926], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/der-neubau-des-staehlernen-viadukts-der-u1-im-gleisdreieck/"}, {"title": "Stromnetz frischt auf", "url": "https://www.mittendran.de/stromnetz-frischt-auf/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2024/11/Stromnetz-Berlin-scaled.jpg) Frische Farbe – Pohlstraße, Ecke Körnerstraße (Foto: ase) Die zuletzt Anfang des Jahres frisch gestalteten Verteilerkästen von…", "date": "2024-11-07", "about_years": [], "rubrik": "Der andere Blick", "source_url": "https://www.mittendran.de/stromnetz-frischt-auf/"}, {"title": "Baumscheiben in der Pohl- und Kluckstraße", "url": "https://www.mittendran.de/baumscheiben-der-pohl-und-kluckstrasse/", "excerpt": "Zwei Nachbarn, die sich für die Erhaltung der bepflanzten Baumscheiben in der Pohlstraße und der Kluckstraße eingesetzt haben, informieren über den aktuellen Stand. Liebe Anwohner:innen der Pohl- und Kluckstraße…", "date": "2024-10-10", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/baumscheiben-der-pohl-und-kluckstrasse/"}, {"title": "Die Pohlstraße wurde wieder zur Spielstraße", "url": "https://www.mittendran.de/die-pohlstrasse-wurde-wieder-zur-spielstrasse/", "excerpt": "Heute, am freiwilligen autofreien Sonntag, verwandelte sich die Pohlstraße wieder in eine Spielstraße. Bei strahlendem Sonnenschein konnten die Kinder wieder einmal den Platz auf der Straße für sich erobern. Ab…", "date": "2024-09-22", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/die-pohlstrasse-wurde-wieder-zur-spielstrasse/"}, {"title": "Am Sonntag, 22.09. wird die Pohlstraße temporäre Spielstraße", "url": "https://www.mittendran.de/sonntag-22-09-wird-die-pohlstrasse-eine-spielstrasse/", "excerpt": "Die einzige Spielstraße in diesem Jahr in der Pohlstraße findet am Sonntag, 22. September 2024 statt. Wegen der Baumscheiben-Arbeiten konnte bisher keine Spielstraße veranstaltet werden. Aber jetzt, am Sonntag von…", "date": "2024-09-18", "about_years": [], "rubrik": "Kinder, Heranwachsende, Schule", "source_url": "https://www.mittendran.de/sonntag-22-09-wird-die-pohlstrasse-eine-spielstrasse/"}, {"title": "Gärtnern vor der Haustür", "url": "https://www.mittendran.de/gaertnern-vor-der-haustuer/", "excerpt": "Pflanzaktion mit Nachbar:innen am Samstag, 7. September, um 16 Uhr Viele der neuen Beete in der Kluck- und Pohlstraße (https://www.mittendran.de/entsiegelung-der-gehwege-der-pohl-und-kluckstrasse-eine-posse/) sehen…", "date": "2024-09-01", "about_years": [], "rubrik": "Miteinander", "source_url": "https://www.mittendran.de/gaertnern-vor-der-haustuer/"}, {"title": "Kiez mit Kind:  Der “geheime“ Spielplatz in der Pohlstraße", "url": "https://www.mittendran.de/kiez-mit-kind-der-geheime-spielplatz-der-pohlstrasse/", "excerpt": "Wir radeln daran vorbei nach dem Einkauf, wir gehen daran vorbei nach einem Tag im Gleisdreieck-Park, wir schlendern daran vorbei nach dem Eiskauf auf einem Rundweg am Wochenende. Doch was ist das? Dort versteckt sich…", "date": "2024-08-26", "about_years": [], "rubrik": "Kiez mit Kind", "source_url": "https://www.mittendran.de/kiez-mit-kind-der-geheime-spielplatz-der-pohlstrasse/"}, {"title": "Entsiegelung der Gehwege in der Pohl- und Kluckstraße – eine Posse(?)", "url": "https://www.mittendran.de/entsiegelung-der-gehwege-der-pohl-und-kluckstrasse-eine-posse/", "excerpt": "Schon bevor die Arbeiten an der Entsiegelung der Gehwege in der Pohl- und Kluckstraße abgeschlossen waren, gab es Aushänge an den Haustüren in beiden Straßen mit dem Hinweis, dass die Beete nicht von den Anwohner:innen…", "date": "2024-08-02", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/entsiegelung-der-gehwege-der-pohl-und-kluckstrasse-eine-posse/"}, {"title": "Spaziergang in die Vergangenheit (17): Café an der Mühle von Müller und Schultze", "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-17-cafe-der-muehle-von-mueller-und-schultze/", "excerpt": "Heute besuchen wir eine Gaststätte, die im Jahr 1850 bei einer Windmühle im Lützow-Viertel lag und deren Bild (Bild 1) wir zufällig in einem Buch von 1939 gefunden hatten (1). Das Bild ist nach einem Ölgemälde von…", "date": "2024-07-27", "about_years": [1830, 1838, 1850, 1853, 1854, 1855, 1860, 1862, 1866, 1907, 1937, 1939], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/spaziergang-die-vergangenheit-17-cafe-der-muehle-von-mueller-und-schultze/"}, {"title": "Neue Paketbox im Kiez", "url": "https://www.mittendran.de/neue-paketbox-im-kiez/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2024/04/IMG_7619.jpeg) (https://www.mittendran.de/wp-content/uploads/2024/04/IMG_7621.jpeg) Die meisten werden es schon gesehen haben. An der Durchwegung von der Pohlstraße…", "date": "2024-04-30", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/neue-paketbox-im-kiez/"}, {"title": "Start der Entsiegelungen an der Pohlstraße und der Kluckstraße", "url": "https://www.mittendran.de/start-der-entsiegelungen-der-pohlstra%c3%9fe-und-der-kluckstra%c3%9fe/", "excerpt": "Die Bezirksstadträtin für Ordnung, Umwelt, Natur, Straßen und Grünflächen, Dr. Almut Neumann, informiert: Im März 2024 beginnen die Entsiegelungsarbeiten an der Pohlstraße und der Kluckstraße zwischen der Potsdamer und…", "date": "2024-02-19", "about_years": [], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/start-der-entsiegelungen-der-pohlstra%c3%9fe-und-der-kluckstra%c3%9fe/"}, {"title": "kiek ma!", "url": "https://www.mittendran.de/30490-2/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2024/01/IMG_7500.jpeg) Neuer Versuch, Tempo 30 auf der Pohlstraße durchzusetzen?", "date": "2024-01-31", "about_years": [], "rubrik": "kiek ma!", "source_url": "https://www.mittendran.de/30490-2/"}, {"title": "Die neue mitteNdran ist erschienen!", "url": "https://www.mittendran.de/die-neue-mittendran-ist-erschienen-4/", "excerpt": "In unserer Winter-Ausgabe (https://www.mittendran.de/wp-content/uploads/2024/03/mittendran-Ausgabe-46-web.pdf) können Sie Geschichten rund um Menschen und Häuser in der Pohlstraße lesen. Außerdem bringen wir Sie auf…", "date": "2023-11-21", "about_years": [], "rubrik": "In eigener Sache", "source_url": "https://www.mittendran.de/die-neue-mittendran-ist-erschienen-4/"}, {"title": "Spielstraße/Pohlstraße", "url": "https://www.mittendran.de/spielstrassepohlstrasse/", "excerpt": "Am Donnerstag, den 22. Juni ist es wieder so weit. Die Pohlstraße wird zum 3. Mal in diesem Jahr zur Spielstraße werden. In der Zeit von 15:00 Uhr bis 19:00 Uhr wird die Straße ganz den Kindern gehören. Spielstraße…", "date": "2023-06-19", "about_years": [], "rubrik": "Kinder, Heranwachsende, Schule", "source_url": "https://www.mittendran.de/spielstrassepohlstrasse/"}, {"title": "Bummel durch die Pohlstrasse  am Gallery Weekend", "url": "https://www.mittendran.de/bummel-durch-die-pohlstrasse-gallery-weekend/", "excerpt": "Tausende bewegten sich am Samstag zum 19. Gallery Weekend in den letzten Apriltagen die Potsdamer Straße entlang. Viele strebten die Mercatorhöfe mit den Großgalerien Esther Schipper, Max Hetzler und Jörg Judin an…", "date": "2023-04-30", "about_years": [1978], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/bummel-durch-die-pohlstrasse-gallery-weekend/"}, {"title": "„PUPPENTHEATER FINGERLEICHT“  zu Gast in der Spielstraße", "url": "https://www.mittendran.de/puppentheater-fingerleicht-zu-gast-der-spielstrasse/", "excerpt": "Nun war es wieder so weit, die westliche Pohlstraße wurde zur ersten Spielstraße in diesem Jahr. (https://www.mittendran.de/wp-content/uploads/2023/04/2023-Foto-eki-1.jpg) Pohlstraße-Spielstraße Hier hatten für einen…", "date": "2023-04-27", "about_years": [2007], "rubrik": "Kinder, Heranwachsende, Schule", "source_url": "https://www.mittendran.de/puppentheater-fingerleicht-zu-gast-der-spielstrasse/"}, {"title": "Am Donnerstag ist wieder Spielstraße in der Pohlstraße", "url": "https://www.mittendran.de/donnerstag-ist-wieder-spielstrasse-der-pohlstrasse/", "excerpt": "Am Donnerstag, 7. April, von 15-19 Uhr wird der westliche Teil der Pohlstraße wieder zu einer autofreien Spielstraße für Alle. Es wird ein Puppentheater geben…", "date": "2023-04-26", "about_years": [], "rubrik": "Miteinander", "source_url": "https://www.mittendran.de/donnerstag-ist-wieder-spielstrasse-der-pohlstrasse/"}, {"title": "Medizingeschichte im Lützow-Viertel (4) Der Armenarzt Dr. Johann Wolfert", "url": "https://www.mittendran.de/medizin-im-luetzow-viertel-4-der-armenarzt-dr-johann-wolfert/", "excerpt": "(ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com)) Endlich mal jemand, der es verdient hätte, dass eine Straße nach ihm benannt worden wäre: Dr. Johann Carl Albert Wolfert (1830-1909)…", "date": "2023-02-22", "about_years": [1785, 1791, 1802, 1819, 1826, 1827, 1829, 1830, 1848, 1851, 1853, 1855, 1856, 1864, 1865, 1868, 1869, 1870, 1874, 1875, 1879, 1882, 1883, 1885, 1886, 1889, 1891, 1893, 1897, 1898, 1899, 1900, 1904, 1908, 1909, 1913, 1915, 1938, 1950, 2012], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/medizin-im-luetzow-viertel-4-der-armenarzt-dr-johann-wolfert/"}, {"title": "Aus gegebenem Anlass: Die Durchwegung zur Kurfürstenstraße", "url": "https://www.mittendran.de/aus-gegebenem-anlass-die-durchwegung-zur-kurfuerstenstrasse/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/02/Beitragsbild-Durchwegung.jpg) Das Tor versperrt die Durchwegung zur Pohlstraße So sah es in den letzten Tagen häufiger aus: Das Tor zum Durchgang zur Pohlstraße…", "date": "2022-12-09", "about_years": [], "rubrik": "Öffentlicher Raum und Verkehr", "source_url": "https://www.mittendran.de/aus-gegebenem-anlass-die-durchwegung-zur-kurfuerstenstrasse/"}, {"title": "Der Park wird zum Vorgarten", "url": "https://www.mittendran.de/urbane-mitte/", "excerpt": "Urbane Mitte Urbane Mitte ist ein Bauprojekt, direkt an der Ostseite des Westparks, dieser wiederum ist Teil des Gleisdreieckparks. Der Name „URBANE MITTE“ ist so irreführend, wie das Bauprojekt umstritten. Der…", "date": "2022-11-17", "about_years": [], "rubrik": "Bauen und Wohnen", "source_url": "https://www.mittendran.de/urbane-mitte/"}, {"title": "Damit sich der Holocaust niemals wiederholt!", "url": "https://www.mittendran.de/damit-es-sich-nicht-wiederholt/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/11/86E4EB4C-467D-4BCB-97F7-FD7918E50C08.jpeg) Am 9. November 2022 fand der Gedenkspaziergang zur Reichspogromnacht vor 84 Jahren von der SPD Tiergarten Süd und der…", "date": "2022-11-10", "about_years": [1938, 1945], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/damit-es-sich-nicht-wiederholt/"}, {"title": "Spielstraße in der Pohlstraße  war ein voller Erfolg", "url": "https://www.mittendran.de/spielstrasse-der-pohlstrasse-war-ein-voller-erfolg/", "excerpt": "Foto eki Die letzte Spielstraßenaktion in diesem Jahr am 22. September war gut besucht. Weil in ganz Berlin „Autofreier Tag“ war, gab es mehr Fördermittel als sonst, und die wurden sinnvoll eingesetzt. So konnte das…", "date": "2022-09-23", "about_years": [], "rubrik": "Kinder, Heranwachsende, Schule", "source_url": "https://www.mittendran.de/spielstrasse-der-pohlstrasse-war-ein-voller-erfolg/"}, {"title": "Am Donnerstag, 22. September ist die Pohlstraße noch einmal Spielstraße", "url": "https://www.mittendran.de/donnerstag-22-september-ist-die-pohlstrasse-noch-einmal-spielstrasse/", "excerpt": "Von 15 – 19 Uhr am 22. September ist die Pohlstraße noch einmal für die Kinder da. Von der Nummer 79 bis zur Kluckstraße ist die Straße für den Auto- und Radverkehr gesperrt, es kann gemalt, gesprungen und auf der…", "date": "2022-09-20", "about_years": [], "rubrik": "Kinder, Heranwachsende, Schule", "source_url": "https://www.mittendran.de/donnerstag-22-september-ist-die-pohlstrasse-noch-einmal-spielstrasse/"}, {"title": "Spielstraße war wieder  bunt und fröhlich", "url": "https://www.mittendran.de/spielstrasse-war-wieder-bunt-und-froehlich/", "excerpt": "Am 25. August konnten Kinder aller Altersstufen wieder auf der westlichen Pohlstraße spielen. Auch wenn weniger Kinder dabei waren als bei den letzten beiden Spielstraßen, gab es wieder viel Spaß. Endlich konnte mal…", "date": "2022-08-26", "about_years": [], "rubrik": "Kinder, Heranwachsende, Schule", "source_url": "https://www.mittendran.de/spielstrasse-war-wieder-bunt-und-froehlich/"}, {"title": "Am 25. August ist wieder  Spielstraße in der Pohlstraße", "url": "https://www.mittendran.de/25-august-ist-wieder-spielstrasse-der-pohlstrasse/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2021/09/IMG_5946.jpeg) Am Donnerstag, 25. August, ist die westliche Seite der Pohlstraße von 15-19 Uhr wieder freigegeben zum Spielen, Malen und Sitzen auf der Straße…", "date": "2022-08-23", "about_years": [], "rubrik": "Kinder, Heranwachsende, Schule", "source_url": "https://www.mittendran.de/25-august-ist-wieder-spielstrasse-der-pohlstrasse/"}, {"title": "Spielstraße in der Pohlstraße", "url": "https://www.mittendran.de/spielstrasse-der-pohlstrasse-3/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/06/2022-Viel-los-Foto-eki-scaled.jpg) Viel los Gestern war wieder ein Spielstraßentag in der Pohlstraße zwischen dem Platz ohne Namen bis kurz vor die Potsdamerstraße…", "date": "2022-06-24", "about_years": [], "rubrik": "kiek ma!", "source_url": "https://www.mittendran.de/spielstrasse-der-pohlstrasse-3/"}], "place_url": "../../places/pohlstrasse/", "place_slug": "pohlstrasse", "title": "Presseschau des Stadtteil-Forums Tiergarten Süd", "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-9/", "excerpt": "Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/ (https://forum-tgs.de/)). In den letzten 7 Tagen sind uns diese…", "date": "2026-09-25"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.363832, 52.501463]}, "properties": {"place": "Potsdamer Straße 102", "count": 3, "articles": [{"title": "Presseschau des Stadtteil-Forums Tiergarten Süd", "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-13/", "excerpt": "Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/). In den letzten 7 Tagen sind uns diese Beiträge aufgefallen…", "date": "2026-10-23", "about_years": [1830, 1930, 1960, 2012], "rubrik": "Aus dem Kiez", "source_url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-13/"}, {"title": "„Die Durststrecke ist überwunden“", "url": "https://www.mittendran.de/durststrecke-ist-ueberwunden/", "excerpt": "Die Baumaßnahmen sind beendet. Am Freitag öffnet die Victoria Bar wieder ihre Tür. Seit 2001 gibt es die Victoria Bar auf der Potsdamer Straße. Am 19. Dezember 2022 brach ein Feuer in der Bar aus. 90 Löschkräfte waren…", "date": "2023-08-29", "about_years": [2001], "rubrik": "Miteinander", "source_url": "https://www.mittendran.de/durststrecke-ist-ueberwunden/"}, {"title": "Keine Silvesterfeier in der Victoria Bar", "url": "https://www.mittendran.de/keine-silvesterfeier-der-viktoria-bar/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/12/2023-Die-Viktoria-Bar-dem-Brand-Foto-eki-scaled.jpg) Die Victoria Bar nach dem Brand (Foto:eki) Nach dem Brand in der Victoria Bar am Morgen des 19. Dezembers…", "date": "2022-12-28", "about_years": [2001], "rubrik": "Gewerbe und Gastronomie", "source_url": "https://www.mittendran.de/keine-silvesterfeier-der-viktoria-bar/"}], "place_url": "../../places/potsdamer-strasse-102/", "place_slug": "potsdamer-strasse-102", "title": "Presseschau des Stadtteil-Forums Tiergarten Süd", "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-13/", "excerpt": "Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/). In den letzten 7 Tagen sind uns diese Beiträge aufgefallen…", "date": "2026-10-23"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.364462, 52.502046]}, "properties": {"place": "Potsdamer Straße 96", "count": 3, "articles": [{"title": "Spaziergang in die Vergangenheit (34): Potsdamer Str. 96 (Teil 2)", "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-2/", "excerpt": "Was war an der Potsdamer Straße 96, bevor hier 1992 der Wintergarten sein Dauerquartier bezog? Alteingesessene Kiezbewohner – zu denen der Autor sich leider nicht zählen kann – werden sich daran erinnern: hier war von…", "date": "2025-10-10", "about_years": [1889, 1900, 1909, 1929, 1931, 1932, 1935, 1936, 1937, 1970, 1989, 1990, 1992], "rubrik": "Gewerbe und Gastronomie", "source_url": "https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-2/"}, {"title": "Spaziergang in die Vergangenheit (34): Potsdamer Str. 96 (Teil 1)", "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-1/", "excerpt": "Dort, wo heute das Varieté Wintergarten in der Potsdamer Straße 96 residiert, besteht es seit 1992. Die Adresse Potsdamer Straße 96 (vor 1933: Potsdamer Straße 39) aber hat eine weitaus ältere und längere Geschichte…", "date": "2025-09-19", "about_years": [1881, 1900, 1910, 1933, 1940, 1943, 1944, 1945, 1946, 1955, 1985, 1992, 2000, 2008, 2009, 2010], "rubrik": "Kiez-Geschichte", "source_url": "https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-1/"}, {"title": "Eindrücke vom Hoffest des Wintergarten Varieté", "url": "https://www.mittendran.de/eindruecke-vom-hoffest-des-wintergarten-variet/", "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/06/2022-Wintergarten-Foto-eki-scaled.jpg) 30 Jahre Wintergarten Varieté ein Grund zum Feiern. Spannend ist ein Blick hinter die Kulissen bei Theater-Führungen oder…", "date": "2022-06-18", "about_years": [], "rubrik": "Kunst und Kultur", "source_url": "https://www.mittendran.de/eindruecke-vom-hoffest-des-wintergarten-variet/"}], "place_url": "../../places/potsdamer-strasse-96/", "place_slug": "potsdamer-strasse-96", "title": "Spaziergang in die Vergangenheit (34): Potsdamer Str. 96 (Teil 2)", "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-2/", "excerpt": "Was war an der Potsdamer Straße 96, bevor hier 1992 der Wintergarten sein Dauerquartier bezog? Alteingesessene Kiezbewohner – zu denen der Autor sich leider nicht zählen kann – werden sich daran erinnern: hier war von…", "date": "2025-10-10"}}, {"type": "Feature", "geometry": {"type": "Point", "coordinates": [13.3623405, 52.5010425]}, "properties": {"place": "Les Climats", "count": 1, "articles": [{"title": "Jazz live und Gute Küche im „Les Climats“", "url": "https://www.mittendran.de/jazz-live-und-gute-kueche-im-les-climats/", "date": "2023-05-16", "rubrik": "Gewerbe und Gastronomie", "excerpt": "Die Weinbar in der Pohlstraße, mit Küche und Jazz."}], "hours_url": "https://www.lesclimats.com/"}}]};</script>
+  <script>
+const RUBRIK_COLORS = window.RUBRIK_COLORS || {};
+const RUBRIK_FALLBACK = "#7a6a58";
+
+function esc(s) {
+  return String(s || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function rubrikColor(name) {
+  const key = String(name || "").trim();
+  if (!key) return RUBRIK_FALLBACK;
+  if (RUBRIK_COLORS[key]) return RUBRIK_COLORS[key];
+  let h = 0;
+  for (let i = 0; i < key.length; i++) h = (h * 31 + key.charCodeAt(i)) >>> 0;
+  return "hsl(" + (h % 360) + " 42% 42%)";
+}
+
+function conicFromArticles(articles) {
+  if (!articles.length) return RUBRIK_FALLBACK;
+  const counts = {};
+  const order = [];
+  articles.forEach((a) => {
+    const r = String(a.rubrik || "").trim() || "Sonstiges";
+    if (!counts[r]) {
+      counts[r] = 0;
+      order.push(r);
+    }
+    counts[r] += 1;
+  });
+  const total = articles.length;
+  let start = 0;
+  const parts = order.map((r) => {
+    const share = (counts[r] / total) * 100;
+    const end = start + share;
+    const slice = rubrikColor(r) + " " + start.toFixed(2) + "% " + end.toFixed(2) + "%";
+    start = end;
+    return slice;
+  });
+  return "conic-gradient(" + parts.join(", ") + ")";
+}
+
+function articleRow(a) {
+  const rubrik = String(a.rubrik || "").trim();
+  const color = rubrikColor(rubrik);
+  const tag = rubrik
+    ? "<span class='rubrik-tag' style='background:color-mix(in srgb, " +
+      color +
+      " 28%, white)'>" +
+      esc(rubrik) +
+      "</span>"
+    : "";
+  const line = [a.date ? esc(a.date) : "", tag].filter(Boolean).join(" · ");
+  const excerpt = a.excerpt
+    ? "<p class='popup-excerpt'>" + esc(a.excerpt) + "</p>"
+    : "";
+  const inner =
+    "<span class='chip' style='background:" +
+    color +
+    "' title='" +
+    esc(rubrik || "ohne Rubrik") +
+    "'></span><div><span class='t'>" +
+    esc(a.title) +
+    "</span>" +
+    (line ? "<div class='popup-meta'>" + line + "</div>" : "") +
+    excerpt +
+    "</div>";
+  return a.url
+    ? "<li><a href='" + esc(a.url) + "'>" + inner + "</a></li>"
+    : "<li style='display:grid;grid-template-columns:0.55rem 1fr;gap:0.55rem'>" +
+        inner +
+        "</li>";
+}
+
+function popupHtml(p) {
+  const articles = Array.isArray(p.articles) ? p.articles : [];
+  const place = p.place || (articles[0] && articles[0].title) || "Ort";
+  const n = articles.length || p.count || 0;
+  const meta = n > 1 ? n + " Beiträge" : n === 1 ? "1 Beitrag" : "";
+  const shown = articles.slice(0, 10);
+  const items = shown.map(articleRow).join("");
+  const moreHref = p.place_url || "";
+  const more =
+    n > 10 && moreHref
+      ? "<a class='popup-more' href='" + esc(moreHref) + "'>Alle " + n + " Beiträge →</a>"
+      : moreHref && n > 1
+        ? "<a class='popup-more' href='" + esc(moreHref) + "'>Zur Ortsseite →</a>"
+        : "";
+  const hours = p.hours_url
+    ? "<a class='popup-more' href='" + esc(p.hours_url) + "' rel='noopener'>Öffnungszeiten</a>"
+    : "";
+  return (
+    "<div class='map-popup'>" +
+    "<strong class='popup-place'>" +
+    esc(place) +
+    "</strong>" +
+    (meta ? "<div class='popup-meta'>" + esc(meta) + "</div>" : "") +
+    "<ul class='popup-articles'>" +
+    items +
+    "</ul>" +
+    hours +
+    more +
+    "</div>"
+  );
+}
+
+function singleStyle(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const fill = rubrikColor(arts[0] && arts[0].rubrik);
+  return {
+    radius: 8,
+    color: "#2a221c",
+    weight: 1.4,
+    fillColor: fill,
+    fillOpacity: 0.92,
+  };
+}
+
+function multiIcon(feature) {
+  const arts = (feature.properties && feature.properties.articles) || [];
+  const n = arts.length || 1;
+  const size = Math.min(22, 12 + Math.sqrt(n) * 3.2);
+  return L.divIcon({
+    className: "",
+    iconSize: [size, size],
+    iconAnchor: [size / 2, size / 2],
+    html:
+      "<div class='pin-multi' style='width:" +
+      size +
+      "px;height:" +
+      size +
+      "px;background:" +
+      conicFromArticles(arts) +
+      "' title='" +
+      esc(String(n) + " Beiträge") +
+      "'></div>",
+  });
+}
+
+const geo = window.DATE_PLACES || { type: "FeatureCollection", features: [] };
+const map = L.map("date-map", { scrollWheelZoom: false });
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 19,
+  attribution: "&copy; OpenStreetMap",
+}).addTo(map);
+const layer = L.geoJSON(geo, {
+  pointToLayer(feature, latlng) {
+    const props = (feature && feature.properties) || {};
+    const n = props.count || 1;
+    if (props.hours_url) {
+      return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true, zIndexOffset: 1000 });
+    }
+    if (n > 1) return L.marker(latlng, { icon: multiIcon(feature), riseOnHover: true });
+    return L.circleMarker(latlng, singleStyle(feature));
+  },
+  onEachFeature(feature, lyr) {
+    lyr.bindPopup(popupHtml(feature.properties || {}), {
+      maxWidth: Math.min(320, Math.max(180, window.innerWidth - 56)),
+      autoPan: true,
+      autoPanPadding: [12, 12],
+    });
+  },
+}).addTo(map);
+if (layer.getBounds().isValid()) {
+  map.fitBounds(layer.getBounds(), { padding: [28, 28], maxZoom: 16 });
+}
+map.invalidateSize();
+</script>
+
+  <h2>Stopps</h2>
+  <ol class="date-order"><li>Les Climats <a class="hours-link" href="https://www.lesclimats.com/" rel="noopener">Öffnungszeiten</a></li><li><a href="../../places/pohlstrasse/">Pohlstraße</a><figure class="date-photo"><a href="https://www.mittendran.de/kiez-mit-kind-der-geheime-spielplatz-der-pohlstrasse/" rel="noopener"><img src="../../assets/dates/pohlstrasse-variete/0.jpg" alt="Kiez mit Kind:  Der “geheime“ Spielplatz in der Pohlstraße"></a><figcaption><a href="https://www.mittendran.de/kiez-mit-kind-der-geheime-spielplatz-der-pohlstrasse/" rel="noopener">Kiez mit Kind:  Der “geheime“ Spielplatz in der Pohlstraße</a></figcaption></figure></li><li>Wintergarten Varieté<figure class="date-photo"><a href="https://www.mittendran.de/der-wintergarten-feiert-seinen-30-geburtstag/" rel="noopener"><img src="../../assets/dates/pohlstrasse-variete/1.jpg" alt="Der Wintergarten feiert  seinen 30. Geburtstag"></a><figcaption><a href="https://www.mittendran.de/der-wintergarten-feiert-seinen-30-geburtstag/" rel="noopener">Der Wintergarten feiert  seinen 30. Geburtstag</a></figcaption></figure></li></ol>
+  <h2>Gelesen</h2>
+  <p class="meta">Zusammengelesen aus den genannten Beiträgen. Was dort nicht steht, steht hier nicht.</p>
+  <div class="date-narrative"><p>Die Serie „Kiez mit Kind“ kommt im August 2024 an der oberen Pohlstraße vorbei und merkt, dass sie den Spielplatz dort schon oft übersehen hat: nach dem Einkauf, nach dem Gleisdreieck, nach dem Eis. Der Beitrag zählt, was dort steht. Eine große Sandfläche, ein mittelgroßer Rutschturm, den man über die Treppe oder über ein Netz nimmt, zwei Schaukeln und keine Babyschaukel, dazu eine kleine Steile zur Seilbahn. Für die Kleinsten ein zusammenhängendes Element mit zwei Treppen, kleiner Rutsche und Tunnel, umgeben von einer Art Zaun, an dem man sich entlanghangeln kann, und einem kleinen Dach. Drei Tischtennisplatten und ein Käfig mit Basketballkörben, ausdrücklich als Ausweich, wenn im Gleisdreieck die Platten besetzt sind. Mauern, die Erhöhungen des Sandkastens und Bänke im Schatten zur Straße. Zu essen gibt es vor Ort nichts. Der Platz liegt zwischen Flottwellstraße und Potsdamer Straße, und der Text sagt, viele Lokale unterschiedlicher Vorlieben seien schnell zu erreichen. Für einen ganzen Tag, schreibt die Serie, taugt er weniger. Für einen längeren Abstecher, eine Pause, eine Gruppe mit verschiedenen Spielinteressen schon.</p><p>Essen ist in den Beiträgen an diesem Abend die Weinbar Les Climats. Der Text vom 16. Mai 2023 setzt sie in die Pohlstraße 75. Am Mittwoch darauf, dem 17. Mai, ist Jazz Manouche mit Jam-Session angekündigt, Beginn 19 Uhr, Eintritt frei: Thomas Dekas an der Gitarre, Matthieu Baud am Bass, Max Eisinger an der Violine. Daneben ein Pop-up. Chloé ist für einige Tage in Berlin und kocht, unter anderem Pâté en croute, die Coronation-Quiche, Spargel, Ceviche, Brandenburger Reh, Crème Caramel. Die Termine in dem Beitrag sind der 18., 19., 24., 25. und 27. Mai, jeweils ab 19 Uhr, Reservierung erbeten. Ob das Haus an einem anderen Abend so kocht, steht dort nicht.</p><p>Der Wintergarten, Potsdamer Straße 96, ist in den Stücken von 2022 das Haus, das dreißig Jahre alt wird. Der Beitrag vom 25. September beschreibt die Nacht zum Sonntag: volles Haus, ein zweistündiges Programm aus Höhepunkten der Shows. Direktor Georg Strecker zeigt Jonglage, Zauberei, Chanson und Berliner Klamauk, auch ernste Töne, und erkennt Artisten und Musiker ausdrücklich an. Bürgermeisterin Franziska Giffey begrüßt die Gäste. Peter Schwenkow, einer der Gründer, erzählt Anekdoten aus den Anfangszeiten. Aus dem Club „Quartier Latin“ sei ein Varieté mit Sternenhimmel geworden, Leitspruch „Dem Staunen gewidmet“. Neben dem rot-goldenen Saal gibt es einen Außenbereich, an dem Abend eine Gourmetmeile. Die von Fiona Bennett gestalteten Toiletten, die „Unterwelten“, nennt Giffey die schönsten Berlins.</p><p>Das Hoffest davor, geschildert am 18. Juni 2022, öffnet Küche, Restaurant, Café und Hof. Genannt werden Artisten, Zauberer, Flying Dreams, der ukrainische Artist Jeka und Gewebeakrobatik mit Dasha und Vadym aus der Ukraine. Am Sonntag, dem 19. Juni, von 11 bis 16 Uhr, kostet der Eintritt nichts. Live-Musik, Artistik, Comedy, Jonglage und Zauberei, Künstler der Shows Flying Dreams und Golden Years, Absolventen der Staatlichen Schule für Artistik und des Kindercircus Cabuwazi, dazu ein Brunch. Die Adresse im Text: Potsdamer Straße 96, 10785 Berlin-Tiergarten.</p><p>Lia Hiltz und Paul Enck setzen im November 2022 denselben Namen in eine andere Straße. Das Jubiläum sei gerade gefeiert worden. Die Namensgebung deute aber auf das Varieté Wintergarten an der nordwestlichen Ecke von Dorotheenstraße und Friedrichstraße, benannt nach dem Wintergarten des 1881 eröffneten Central-Hotels. Der Spaziergang erzählt die Dorotheenstadt von der Kurfürstin Dorothee (1636–1689) her: Sumpfland vor dem Spandauer Tor, zuerst Handwerker, dann Hugenotten, Beamte und Höflinge. In der Dorotheenstraße, die bis 1822 die „Letzte Straße“ hieß, steht seit 1705 das Maison d’Orange. Der Schmied Einicke hat ab 1818 Werkstatt und Wohnhaus, nachdem er aus der Armee ausgetreten ist. Im 19. Jahrhundert werden die zweistöckigen Häuser zu Mietshäusern, um die Reichsgründung herum zu Hotels und Behörden. Maison d’Orange und Einicke verkaufen und ziehen über den Landwehrkanal in die Friedrichsvorstadt, das spätere Lützow-Viertel.</p><p>Das Varieté selbst bleibt von 1887 bis zur Zerstörung 1944 am selben Ort, mehrfach um- und ausgebaut. Dort werden frühe Filmvorführungen gezeigt, Bioscop genannt. Genannt werden der Zauberkünstler Harry Houdini (1874–1926) und die Chansons von Claire Waldoff (1884–1957) und Otto Reutter (1870–1931). Nach dem Krieg, von 1946 bis 1955, gibt es ein Wintergarten-Kino-Varieté in der Hasenheide. 1992 nimmt das Haus in der Potsdamer Straße den Betrieb auf. Enck wünscht ihm mindestens die 57 Jahre des ersten. Dass es am Ende wieder in die Nähe von Maison d’Orange und der Einickeschen Schmiede zog, sei nicht abzusehen gewesen.</p></div>
+  <h2>Aus den Beiträgen</h2><ul class='date-sources'><li><a href="https://www.mittendran.de/kiez-mit-kind-der-geheime-spielplatz-der-pohlstrasse/" rel="noopener">Kiez mit Kind: Der geheime Spielplatz in der Pohlstraße</a></li><li><a href="https://www.mittendran.de/der-wintergarten-feiert-seinen-30-geburtstag/" rel="noopener">Der Wintergarten feiert seinen 30. Geburtstag</a></li><li><a href="https://www.mittendran.de/eindruecke-vom-hoffest-des-wintergarten-variet/" rel="noopener">Eindrücke vom Hoffest des Wintergarten Varieté</a></li><li><a href="https://www.mittendran.de/spaziergang-mit-lia-hiltz-und-paul-enck-14-der-wintergarten/" rel="noopener">Spaziergang mit Lia Hiltz und Paul Enck (14): Der Wintergarten</a></li><li><a href="https://www.mittendran.de/jazz-live-und-gute-kueche-im-les-climats/" rel="noopener">Jazz live und Gute Küche im „Les Climats“</a></li></ul>
+  <p class="meta">Öffnungszeiten stehen hier nicht. Der Link beim Essen führt auf die Seite des Hauses.</p>
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
+</body>
+</html>

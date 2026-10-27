@@ -32,8 +32,8 @@ places:
   status: confirmed
   via: gazetteer
 - name: Potsdamer Brücke
-  lat: 52.5075
-  lon: 13.3735
+  lat: 52.50602
+  lon: 13.36827
   osm_id: null
   status: confirmed
   via: gazetteer

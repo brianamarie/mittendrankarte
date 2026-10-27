@@ -14,8 +14,8 @@ tags: []
 source: {}
 places:
 - name: Spielplatz Luiseninsel
-  lat: 52.510898
-  lon: 13.366682
+  lat: 52.510882
+  lon: 13.36446
   osm_id: 24911694
   status: confirmed
   via: gazetteer

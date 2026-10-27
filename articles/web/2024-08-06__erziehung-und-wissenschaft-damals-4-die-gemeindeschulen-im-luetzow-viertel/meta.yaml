@@ -14,8 +14,8 @@ tags: []
 source: {}
 places:
 - name: Pohlstraße
-  lat: 52.5015
-  lon: 13.3645
+  lat: 52.5006
+  lon: 13.36527
   osm_id: null
   status: confirmed
   via: gazetteer
@@ -32,8 +32,8 @@ places:
   status: confirmed
   via: address
 - name: Steinmetzstraße
-  lat: 52.4975
-  lon: 13.361
+  lat: 52.49788
+  lon: 13.36399
   osm_id: null
   status: confirmed
   via: gazetteer
@@ -44,8 +44,8 @@ places:
   status: confirmed
   via: gazetteer
 - name: Frobenstraße
-  lat: 52.4995
-  lon: 13.355
+  lat: 52.49863
+  lon: 13.35963
   osm_id: null
   status: confirmed
   via: gazetteer

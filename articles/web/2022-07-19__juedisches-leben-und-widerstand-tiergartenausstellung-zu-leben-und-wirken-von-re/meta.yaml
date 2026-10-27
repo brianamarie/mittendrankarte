@@ -15,8 +15,8 @@ tags: []
 source: {}
 places:
 - name: Kurfürstenstraße
-  lat: 52.5005
-  lon: 13.352
+  lat: 52.502
+  lon: 13.35419
   osm_id: null
   status: confirmed
   via: gazetteer
