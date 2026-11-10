@@ -1021,6 +1021,12 @@
     "lon": 13.362783,
     "ok": true
   },
+  "Potsdamer Straße|121e": {
+    "lat": 52.500019,
+    "lon": 13.362706,
+    "ok": true,
+    "via": "interpolated"
+  },
   "Potsdamer Straße|122": {
     "lat": 52.499914,
     "lon": 13.36263,
@@ -1075,6 +1081,11 @@
   "Potsdamer Straße|163-165": {
     "lat": 52.494601,
     "lon": 13.361416,
+    "ok": true
+  },
+  "Potsdamer Straße|2": {
+    "lat": 52.509603,
+    "lon": 13.37351,
     "ok": true
   },
   "Potsdamer Straße|22": {

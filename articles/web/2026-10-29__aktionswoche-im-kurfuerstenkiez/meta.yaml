@@ -1,0 +1,29 @@
+title: Aktionswoche im Kurfürstenkiez
+slug: 2026-10-29__aktionswoche-im-kurfuerstenkiez
+author: Redaktion
+date: '2026-10-29'
+issue: null
+rubrik: Miteinander
+description: 'Aktionswoche im Kurfürstenkiez Max Söding, Stadtteilkoordination Tiergarten-Süd,
+  lädt ein: Liebe Nachbar*innen, Engagierte und Interessierte rund um die Kurfürstenstraße,
+  vom 17. bis 25. November 2026 laden wir zur…'
+about_years: []
+source_url: https://www.mittendran.de/aktionswoche-im-kurfuerstenkiez/
+wp_post_id: 43550
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.502
+  lon: 13.35419
+  osm_id: null
+  status: confirmed
+  via: gazetteer

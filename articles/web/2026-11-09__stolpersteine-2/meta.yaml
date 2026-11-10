@@ -1,0 +1,23 @@
+title: Stolpersteine
+slug: 2026-11-09__stolpersteine-2
+author: Redaktion
+date: '2026-11-09'
+issue: null
+rubrik: Aus dem Kiez
+description: Stolpersteine An vielen Orten in Deutschland werden zum 9. November die
+  Gedenksteine, sogenannte Stolpersteine, geputzt, die vor den letzten bekannten Wohnorten
+  der NS-Oper verlegt wurden. Stolpersteine in der…
+about_years: []
+source_url: https://www.mittendran.de/stolpersteine-2/
+wp_post_id: 43710
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer

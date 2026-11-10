@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Walking the Pohlstraße</title>
+<style>
+  :root {
+    color-scheme: dark;
+    --ink: #f3f1ec;
+    --paper: #111111;
+    --steel: #f3f1ec;
+    --muted: #9c9892;
+    --line: #f3f1ec;
+    --hall: #1c1c1c;
+    --sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-snap-type: y mandatory; scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--hall);
+    color: var(--ink);
+    font-family: var(--sans);
+  }
+  .slide {
+    min-height: 100vh;
+    scroll-snap-align: start;
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(22rem, 0.8fr);
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+  }
+  .frame {
+    background: var(--paper);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+    border-right: 1px solid var(--line);
+    padding: 2.5rem;
+  }
+  .frame img {
+    width: 100%;
+    height: calc(100vh - 5rem);
+    object-fit: contain;
+    background: var(--paper);
+    border: 1px solid var(--line);
+  }
+  .frame.pair {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 2.5rem 2rem 2.5rem;
+    align-content: center;
+  }
+  .frame.pair figure { margin: 0; min-width: 0; display: flex; flex-direction: column; }
+  .frame.pair img { height: calc(100vh - 7rem); }
+  .frame > figure { margin: 0; width: 100%; min-width: 0; display: flex; flex-direction: column; }
+  .frame > figure img { height: calc(100vh - 8rem); }
+  .frame figcaption, .frame.pair figcaption {
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 0.68rem;
+    letter-spacing: 0.03em;
+    line-height: 1.4;
+    text-align: left;
+    padding: 0.45rem 0 0;
+    border-top: 1px solid var(--line);
+    margin-top: 0.45rem;
+  }
+  .frame figcaption a, .pair-row figcaption a, .cap a {
+    color: var(--ink);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+  }
+  .pair-row { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin: 0 0 1.1rem; }
+  .pair-row figure { margin: 0; }
+  .pair-row img { width: 100%; height: 9.5rem; object-fit: cover; background: var(--paper); border: 1px solid var(--line); }
+  .pair-row figcaption {
+    font-family: var(--sans);
+    font-size: 0.68rem;
+    letter-spacing: 0.03em;
+    color: var(--ink);
+    margin-top: 0.35rem;
+  }
+  .say {
+    padding: 2.4rem 2.6rem 3rem;
+    overflow: auto;
+    max-height: 100vh;
+  }
+  .kicker {
+    font-family: var(--sans);
+    font-size: 0.68rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin: 0 0 0.85rem;
+    padding-bottom: 0.55rem;
+    border-bottom: 1px solid var(--line);
+  }
+  h1, h2 {
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    line-height: 1.12;
+    margin: 0 0 1rem;
+  }
+  h1 { font-size: 2.15rem; }
+  h2 { font-size: 1.45rem; }
+  p { font-size: 0.98rem; line-height: 1.5; margin: 0 0 0.85rem; }
+  p strong { font-weight: 650; }
+  .locator {
+    margin: 0 0 1.15rem;
+    padding: 0.15rem 0 0.55rem;
+    border-bottom: 1px solid var(--line);
+  }
+  .locator svg { width: 100%; height: auto; display: block; }
+  .where {
+    font-family: var(--sans);
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink);
+    margin: 0.2rem 0 0;
+  }
+  .cap {
+    font-family: var(--sans);
+    font-size: 0.75rem;
+    line-height: 1.45;
+    color: var(--muted);
+    margin-top: 1.3rem;
+    padding-top: 0.7rem;
+    border-top: 1px solid var(--line);
+  }
+  .count {
+    position: absolute;
+    left: 2.5rem;
+    bottom: 0.85rem;
+    color: var(--ink);
+    font-family: var(--sans);
+    font-size: 0.68rem;
+    letter-spacing: 0.16em;
+  }
+  .help { font-size: 0.88rem; color: var(--muted); }
+  .clip { margin: 0.3rem 0 1rem; }
+  .clip iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 1px solid var(--line);
+    background: #000;
+  }
+  .clip figcaption {
+    font-size: 0.75rem;
+    line-height: 1.45;
+    color: var(--muted);
+    margin-top: 0.4rem;
+  }
+  .clip figcaption a { color: var(--ink); }
+  @media (max-width: 860px) {
+    .slide { grid-template-columns: 1fr; }
+    .frame { min-height: 0; border-right: 0; border-bottom: 1px solid var(--line); padding: 1.2rem; }
+    .frame, .frame img { min-height: 0; height: auto; }
+    .frame img, .frame.pair img { height: 42vh; }
+    .frame.pair { padding: 1.2rem; }
+    .say { max-height: none; }
+    .count { left: 1.2rem; bottom: 0.4rem; }
+  }
+  @media print {
+    :root {
+      color-scheme: light;
+      --ink: #111111;
+      --paper: #ffffff;
+      --steel: #111111;
+      --muted: #5c5c5c;
+      --line: #111111;
+      --hall: #ffffff;
+    }
+    html { scroll-snap-type: none; }
+    body { background: #fff; color: #111; }
+    .slide {
+      display: block;
+      min-height: 0;
+      break-before: page;
+      border-bottom: 0;
+    }
+    .slide:first-child { break-before: auto; }
+    .frame {
+      min-height: 0;
+      border-right: 0;
+      padding: 0 0 6mm;
+      display: block;
+    }
+    .frame img, .frame.pair img {
+      height: auto;
+      max-height: 85mm;
+      width: auto;
+      max-width: 100%;
+      border: 0.3pt solid #111;
+    }
+    .frame.pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6mm;
+      padding: 0 0 4mm;
+    }
+    .say { max-height: none; overflow: visible; padding: 0; }
+    .count { position: static; display: block; margin: 0 0 3mm; letter-spacing: 0.16em; }
+    .frame.pair .count { grid-column: 1 / -1; }
+    .help { display: none; }
+    .clip iframe { display: none; }
+    .pair-row img { height: 38mm; }
+    h1 { font-size: 16pt; }
+    h2 { font-size: 13pt; }
+    p { font-size: 10.5pt; line-height: 1.4; }
+    .kicker, .where, .cap, .frame.pair figcaption, .pair-row figcaption { font-size: 8pt; }
+  }
+  @page { size: A4; margin: 16mm 16mm 18mm; }
+</style>
+</head>
+<body>
+
+<section class="slide" id="s1" data-span="13.3709,13.3593" data-label="the whole walk, east to west">
+  <div class="frame">
+    <figure>
+      <img src="img/street-2011.jpg" alt="Pohlstraße looking along the street, photographed on 30 March 2011">
+      <figcaption>Pohlstraße, 30 March 2011. Photograph by Peter Kuley. <a href="https://commons.wikimedia.org/wiki/File:TiergartenPohlstra%C3%9Fe.jpg">Wikimedia Commons</a>, CC BY-SA 3.0.</figcaption>
+    </figure>
+    <span class="count">1</span>
+  </div>
+  <div class="say">
+    <p class="kicker">A walk · one street</p>
+    <h1>Walking the Pohlstraße</h1>
+    <p>You <strong>start at the east end</strong>, where the street meets Flottwellstraße and Dennewitzstraße. You <strong>walk west, to Kluckstraße</strong>. It is about <strong>seven hundred meters</strong>.</p>
+    <p>The map has <strong>twenty-six stops</strong>, and the archive has <strong>109 articles</strong>. Each page is one stop. The photograph comes from the article. The sentences are what the article says. The line above the text marks the place. <strong>East is on the left</strong>, because that is where you begin.</p>
+    <p class="help">Arrow keys or the space bar move to the next plate. To print, use the browser’s print command. Each plate starts a new A4 page.</p>
+    <p class="cap">The photograph is the street itself, 30 March 2011, Peter Kuley. <a href="https://commons.wikimedia.org/wiki/File:TiergartenPohlstra%C3%9Fe.jpg">File:TiergartenPohlstraße.jpg</a>, Wikimedia Commons, CC BY-SA 3.0.</p>
+  </div>
+</section>
+
+<section class="slide" id="s1b" data-span="13.3709,13.3593" data-label="three things that come back">
+  <div class="frame">
+    <figure>
+      <img src="img/east-end.jpg" alt="The houses built in 2012 at the east end of Pohlstraße, numbers 1, 3 and 5">
+      <figcaption>What was built where the old houses had gone: numbers 1, 3 and 5, at the east end. Photograph by Joseph Lückerath. <a href="https://www.mittendran.de/zwischen-1970-und-2025-bilder-aus-der-pohlstrasse/">mitteNdran, 11 February 2026</a>.</figcaption>
+    </figure>
+    <span class="count">2</span>
+  </div>
+  <div class="say">
+    <p class="kicker">Before the doors</p>
+    <h2>Three things come back</h2>
+    <p><strong>The name of the street.</strong> This street has had three. The one on the sign <strong>is Ottilie Pohl</strong>. For a long time nothing here said who she was. Other names come later, written at a door. Some articles <strong>say the street’s name once</strong>, and then talk about something else.</p>
+    <p><strong>What is left.</strong> After the war, <strong>eleven houses stood</strong> out of nearly a hundred. On the way you pass a school, a football ground, a path, and a window. <strong>Some of them are gone</strong>.</p>
+    <p><strong>Who uses the street now.</strong> Neighbours. Children, for an afternoon. A kindergarten. Rooms under the railway arches. A bar. People arguing about who may <strong>plant the pavement</strong>, or about <strong>a gate that shuts</strong>.</p>
+    <p class="cap">The name: Paul Enck, <a href="https://www.mittendran.de/strassen-im-kiez-3-pohlstrasse/">„Straßen im Kiez: Pohlstraße“</a>, 23 October 2020. What was left: J. Lückerath, <a href="https://www.mittendran.de/zwischen-1970-und-2025-bilder-aus-der-pohlstrasse/">„Zwischen 1970 und 2025: Bilder aus der Pohlstraße“</a>, 11 February 2026.</p>
+  </div>
+</section>
+
+<section class="slide" id="s2" data-span="13.3709,13.3593" data-label="the name runs the whole street">
+  <div class="frame">
+    <figure>
+      <img src="img/street-1915.jpg" alt="Postcard of 1915, Steglitzer Straße looking west, with the higher civic school">
+      <figcaption>Postcard, 1915: „Steglitzer Strasse mit Höhere Bürgerschule.“ Collection of Ralf Schmiedecke. <a href="https://www.mittendran.de/noch-einmal-wo-war-die-koerner-realschule/">mitteNdran, 14 March 2026</a>.</figcaption>
+    </figure>
+    <span class="count">3</span>
+  </div>
+  <div class="say">
+    <p class="kicker">Pin · the name of the street</p>
+    <h2>Three names, then a new numbering</h2>
+    <p>From <strong>10 June 1862</strong> until <strong>7 March 1936</strong> this was <strong>Steglitzer Straße</strong>. The postcard still carries that name: neobaroque fronts of about 1870, running west toward the bend at Potsdamer Straße.</p>
+    <p>On 7 March 1936 it became <strong>Ludendorffstraße</strong>. On <strong>31 July 1947</strong> the city renamed it <strong>Pohlstraße</strong>, after Ottilie Pohl. She <strong>never lived here</strong>.</p>
+    <p>In 1936 the <strong>house numbers</strong> changed too. The old numbers ran up one side and back down the other. The new ones <strong>alternate</strong>: even on the right, odd on the left, from Dennewitzstraße. Kauperts, and one article, date the name from <strong>1946</strong>. The ordinance is <strong>31 July 1947</strong>.</p>
+    <p class="cap">The postcard is from the collection of Ralf Schmiedecke, printed in <a href="https://www.mittendran.de/noch-einmal-wo-war-die-koerner-realschule/">„Noch einmal: Wo war die Körner Realschule?“</a>, 14 March 2026. Street dates: <a href="https://berlingeschichte.de/strassen/bez02h/s1094.htm">Luisenstadt, Steglitzer Straße</a>. <a href="https://www.gvoon.de/art/dokumente/1947/verordnungsblatt-vobl-gross-berlin-1947/pdf/verordnungsblatt-vobl-gross-berlin-1947-seite_218.pdf">Verordnungsblatt für Groß-Berlin, 1947, page 218</a>. Paul Enck, <a href="https://www.mittendran.de/strassen-im-kiez-3-pohlstrasse/">„Straßen im Kiez: Pohlstraße“</a>, 23 October 2020.</p>
+  </div>
+</section>
+
+<section class="slide" id="s2b" data-span="13.3709,13.3593" data-label="her name is on the street. She lived in Moabit.">
+  <div class="frame">
+    <figure>
+      <img src="img/ottilie-stone.jpg" alt="The Stolperstein for Ottilie Pohl in the pavement at Beusselstraße 43">
+      <figcaption>Her Stolperstein, Beusselstraße 43, Moabit, photographed 12 May 2025. <a href="https://commons.wikimedia.org/wiki/File:Stolperstein_Beusselstr_43_(Moabit)_Ottilie_Pohl.jpg">Photograph by OTFW</a>, Wikimedia Commons, CC BY-SA 3.0. The stone was laid on 10 May 2025. <a href="https://www.stolpersteine-berlin.de/de/beusselstrasse/43/ottilie-taube-pohl">Stolpersteine in Berlin</a>.</figcaption>
+    </figure>
+    <span class="count">4</span>
+  </div>
+  <div class="say">
+    <p class="kicker">The name on the sign</p>
+    <h2>Ottilie Pohl lived in Moabit, and was killed in Theresienstadt.</h2>
+    <p>Born <strong>Taube Levit</strong> on 14 November 1867 in Schönwalde, near Luckau, she signed her name <strong>Taube</strong>. A <strong>milliner</strong>, she came to Berlin and in 1893 married Wilhelm Hermann Pohl, a coachman who later worked in a factory. Three children. One son <strong>died as a baby</strong>.</p>
+    <p>When the ban on socialist organizations ended in 1890, she joined the <strong>Social Democrats</strong>. In the First World War she <strong>opposed the war</strong> and moved to the Independent Social Democrats. She and her son handed out the <strong>Spartakus letters</strong>. In 1920 Tiergarten elected her to the <strong>Berlin city council</strong>, to the committees for <strong>poor relief</strong> and for <strong>schools</strong>. Later she joined the <strong>Communists</strong>.</p>
+    <p>After 1933 she and Rosa Lindemann worked in the <strong>Rote Hilfe</strong>, looking after the <strong>children</strong> of people under arrest. Her last home was <strong>Beusselstraße 43</strong>, in Moabit.</p>
+    <p>The <strong>Gestapo</strong> arrested her in 1940, at <strong>seventy-three</strong>. On 20 November 1942 she was deported to <strong>Theresienstadt</strong>. She died there in December 1943, at <strong>seventy-six</strong>.</p>
+    <p>The records <strong>disagree</strong> about the prison. One account takes her from the women’s prison on Barnimstraße. The other gives eight months on Kantstraße, release at the end of 1941, and deportation the next year because she was <strong>Jewish</strong>. Both agree on the camp and the month.</p>
+    <p>On 31 July 1947 Berlin took <strong>Ludendorff’s name</strong> off this street and put <strong>hers</strong> on it. The stone in the photograph is <strong>not on this street</strong>. It is in the pavement at Beusselstraße 43, laid <strong>10 May 2025</strong>, and it names the Kantstraße prison and <strong>2 December 1943</strong>. A porcelain plaque hung on that house from 1989 and was <strong>gone by 2018</strong>. Paul Enck walked this street in 2020 and found nothing that said who she was. A Berlin memorial register records a supplementary name-sign here <strong>since 2021</strong>.</p>
+    <p class="cap">Photograph: OTFW, 12 May 2025, <a href="https://commons.wikimedia.org/wiki/File:Stolperstein_Beusselstr_43_(Moabit)_Ottilie_Pohl.jpg">Wikimedia Commons</a>, CC BY-SA 3.0. <a href="https://www.stolpersteine-berlin.de/de/beusselstrasse/43/ottilie-taube-pohl">Stolpersteine in Berlin, Beusselstraße 43</a>. The removed plaque: <a href="https://www.gedenktafeln-in-berlin.de/gedenktafeln/detail/ottilie-pohl/584">Gedenktafeln in Berlin</a>. Paul Enck, <a href="https://www.mittendran.de/strassen-im-kiez-3-pohlstrasse/">„Straßen im Kiez: Pohlstraße“</a>, 23 October 2020. <a href="https://de.wikipedia.org/wiki/Ottilie_Pohl">Wikipedia, „Ottilie Pohl“</a>.</p>
+  </div>
+</section>
+
+<section class="slide" id="s3" data-lon="13.3706" data-label="No. 2, the east end">
+  <div class="frame pair">
+    <figure>
+      <img src="img/pohl2-1976.jpg" alt="Pohlstraße 2 at the corner of Flottwellstraße, 1976">
+      <figcaption>1976. The railwaymen’s hotel at No. 2.</figcaption>
+    </figure>
+    <figure>
+      <img src="img/now-flottwell.jpg" alt="The later hotel on the same corner of Pohlstraße and Flottwellstraße">
+      <figcaption>Later. The hotel on that corner.</figcaption>
+    </figure>
+    <span class="count">5</span>
+  </div>
+  <div class="say">
+    <p class="kicker">Pin 44 · and the house at number 2</p>
+    <h2>Eleven houses left, and one last demolition</h2>
+    <p><strong>Joseph Lückerath</strong> moved into a shop flat at <strong>Pohlstraße 2</strong>, corner of Flottwellstraße, in April 1970: 67.78 marks for 55 square meters. The house had been a hotel for railway workers. In 1978 he was given notice, and a flat at number 44. Number 2 was <strong>demolished</strong> soon after, the <strong>last house</strong> taken for a feeder to the Westtangente, a motorway still on the plans, and the last home on Flottwellstraße. A hotel stands on the corner again. His later photograph is on the right. The camera has moved. The corner has not.</p>
+    <div class="pair-row">
+      <figure>
+        <img src="img/hof-then.jpg" alt="The courtyard of Pohlstraße 44 when Lückerath moved in">
+        <figcaption>No. 44, the courtyard then.</figcaption>
+      </figure>
+      <figure>
+        <img src="img/hof-now.jpg" alt="The same courtyard later, repaired and planted">
+        <figcaption>The same courtyard later.</figcaption>
+      </figure>
+    </div>
+    <p>At the end of the war, he writes, <strong>eleven houses</strong> were left of nearly a hundred. From number 44 he saw the backs of the houses on Kurfürstenstraße: the Pohlstraße plots held only <strong>one-story sheds</strong>. A new row went up between <strong>1984 and 1986</strong>. Numbers 1, 3, and 5, at Dennewitzstraße, waited until <strong>2012</strong>.</p>
+    <p class="cap">J. Lückerath, <a href="https://www.mittendran.de/zwischen-1970-und-2025-bilder-aus-der-pohlstrasse/">„Zwischen 1970 und 2025: Bilder aus der Pohlstraße“</a>, 11 February 2026. All four photographs are his.</p>
+  </div>
+</section>
+
+<section class="slide" id="s4" data-lon="13.37029" data-label="No. 4">
+  <div class="frame"><img src="img/scherbius.jpeg" alt="Arthur Scherbius around 1913"><span class="count">6</span></div>
+  <div class="say">
+    <p class="kicker">Pin · Pohlstraße 4</p>
+    <h2>The coding machine had an office here</h2>
+    <p>One article, about this building under its <strong>old number</strong>. Přemysl Černý told Paul Enck that the Chiffriermaschinen Aktiengesellschaft, which sold the <strong>Enigma</strong>, sat at Steglitzer Straße 2, today’s <strong>Pohlstraße 4</strong>. <strong>Arthur Scherbius</strong>, the inventor, born in Frankfurt in 1878, trained in Hanover, died in 1929 at the Unger clinic on Derfflingerstraße 19, a few streets away. The photograph is Scherbius around 1913.</p>
+    <p>Enck <strong>withdrew</strong> the first version after a note he believes came from the family of Scherbius’s wife, Liselotte Taaks, and published the revision with the note still attached.</p>
+    <p class="cap"><a href="https://www.mittendran.de/spaziergang-in-die-vergangenheit-45-enigma-in-der-steglitzer-strasse/">„Spaziergang in die Vergangenheit (45): ENIGMA in der Steglitzer Straße“</a>, 3 October 2026. The revision is <a href="https://www.mittendran.de/spaziergang-in-die-vergangenheit-45-enigma-in-der-steglitzer-strasse-teil-2/">Teil 2</a>, 17 October 2026. Photograph: <a href="https://de.wikipedia.org/wiki/Arthur_Scherbius">Wikipedia, Arthur Scherbius</a>, public domain, as credited in the article.</p>
+  </div>
+</section>
+
+
+<section class="slide" id="s6" data-span="13.3695,13.3685" data-label="Nos. 8 to 16">
+  <div class="frame"><img src="img/bolzplatz.jpg" alt="The cleared football ground on Pohlstraße"><span class="count">7</span></div>
+  <div class="say">
+    <p class="kicker">Pins · numbers 8 and 9–16</p>
+    <h2>The football ground is a vacant lot</h2>
+    <p><strong>Karsten Masch</strong>, who runs youth work for the neighborhood association, drew the lost fields in red. The <strong>last protected open ground</strong> east of Potsdamer Straße was the football field at Pohlstraße 9 to 16, used by the association until <strong>2018</strong>, when a housing plan appeared for refugees and for others the city had failed to house. The containers went. By November 2022 Degewo said planning had <strong>stopped</strong>, and a legal procedure meant they would say nothing further. The photograph is the <strong>cleared ground</strong>.</p>
+    <p><strong>Eight years later</strong> there was still <strong>no replacement field</strong>. A basketball court across the street had been promised for just as long.</p>
+    <p class="cap">Karsten Masch, <a href="https://www.mittendran.de/das-verschwinden-geschuetzter-freiraeume/">„Das Verschwinden geschützter Freiräume“</a>, 21 June 2022. <a href="https://www.mittendran.de/kein-bolzplatz-sicht/">„Kein Bolzplatz in Sicht“</a>, 29 November 2022, photo bse. <a href="https://www.mittendran.de/buergergespraech-mit-bezirksstadtrat-ephraim-gothe/">„Bürgergespräch mit Bezirksstadtrat Ephraim Gothe“</a>, 25 January 2024.</p>
+  </div>
+</section>
+
+<section class="slide" id="s7" data-lon="13.36915" data-label="No. 11, the arches">
+  <div class="frame"><img src="img/arches.jpg" alt="The U-Bahn arches on Pohlstraße 11"><span class="count">8</span></div>
+  <div class="say">
+    <p class="kicker">Pin · Pohlstraße 11</p>
+    <h2>Thirteen arches, a youth club since 1998</h2>
+    <p>About twenty-five years before the article of September 2022, the neighborhood association took on the <strong>thirteen</strong> railway arches at number 11. Artists and makers have worked there since 2001. The <strong>youth club</strong>, Jugendclub Pohl 11, has been there since <strong>1998</strong>. Between Potsdamer Straße, Flottwellstraße, the canal, and Kurfürstenstraße, more than <strong>17 percent</strong> of residents are under eighteen. The arches still offered <strong>open youth work</strong>, and advice if you asked.</p>
+    <p>The line is older. In October <strong>1926</strong> the subway opened from Gleisdreieck to Kurfürstenstraße, dropping nearly twenty meters across <strong>thirty plots</strong>. The studios are through a set-back gate, between the playground and the last house. The train is overhead the whole time.</p>
+    <p class="cap"><a href="https://www.mittendran.de/jugendarbeit-unter-den-u-bahn-boegen/">„Jugendarbeit unter den U-Bahn-Bögen“</a>, 27 September 2022. Gedenktafel „Viadukt im Häuserblock“, Kurfürstenstraße / Dennewitzstraße.</p>
+  </div>
+</section>
+
+<section class="slide" id="s8" data-lon="13.36915" data-label="No. 11, the studios">
+  <div class="frame"><img src="img/klam.jpeg" alt="A glazed clay sculpture by Evelyn Klam"><span class="count">9</span></div>
+  <div class="say">
+    <p class="kicker">Pin · Pohlstraße 11, the studios</p>
+    <h2>Five whites, nine woods</h2>
+    <p><strong>Evelyn Klam</strong> and <strong>Michael O’Meara</strong> work in these arches. In April 2023 they showed at the Museum of Decorative Arts, with the craft chambers of Berlin and Paris. Her figure, the photograph, wears <strong>five white glazes</strong> named for snow: powder, flakes, sleet, graupel (soft hail), and slush. His box is <strong>nine woods</strong>, among them maple, cherry, and jacaranda, in four compartments.</p>
+    <p class="cap"><a href="https://www.mittendran.de/kunstgewerbemuseum/">„Fünf Glasuren und neun Holzarten“</a>, 11 April 2023. <a href="https://www.mittendran.de/einladung-zur-kunst-den-u-bahnboegen/">„Einladung zur Kunst in den U-Bahnbögen“</a>, 24 April 2024. <a href="https://www.mittendran.de/zum-gallery-weekend-oeffnen-die-ateliers-den-u-bahnboegen-pohlstr-11/">„Zum Gallery Weekend öffnen die Ateliers“</a>, 24 April 2025. <a href="https://www.mittendran.de/bummel-durch-die-pohlstrasse-gallery-weekend/">„Bummel durch die Pohlstrasse am Gallery Weekend“</a>, 30 April 2023.</p>
+  </div>
+</section>
+
+<section class="slide" id="s9" data-span="13.3686,13.3681" data-label="Nos. 16, 18 and 20">
+  <div class="frame"><img src="img/histomap.jpg" alt="A 1910 map laid over the street today, marking the Körner school"><span class="count">10</span></div>
+  <div class="say">
+    <p class="kicker">Pins · numbers 16, 18 and 20</p>
+    <h2>The school was behind the houses</h2>
+    <p>The <strong>Körner secondary school</strong> opened on 13 October 1887 as the III. Höhere Bürgerschule, three classes and <strong>145 boys</strong>. Temporary rooms first: Kurfürstenstraße 144, then Derfflingerstraße 18a. In autumn 1891 it moved to its own building at <strong>Steglitzer Straße 8a</strong>: twelve classrooms, a physics room, a drawing room, an assembly hall, a gym, and flats for the director and the caretaker. Named in 1912 for the poet <strong>Theodor Körner</strong>. On the 1915 postcard the gate still reads „III. Höhere Bürgerschule“, between the old numbers 8 and 9.</p>
+    <p>The building is <strong>gone</strong> from the street and still on the map. Histomap, set at today’s number 16, lays the <strong>1910 plan</strong> over the street: that overlay is the photograph. The building file says the classrooms <strong>survived the war</strong> and were later storage and workshops. The old address books say 8a, which after renumbering should be door <strong>16</strong>. The articles also put the passage behind today’s <strong>20</strong>, the old numbers 9 and 10. Three markers, <strong>one school</strong>.</p>
+    <p class="cap"><a href="https://www.mittendran.de/schulen-im-luetzow-viertel-6-die-koerner-schule/">„Die Körner-Realschule“</a>, 10 December 2024. <a href="https://www.mittendran.de/wo-war-die-koerner-realschule/">„Wo war die Körner-Realschule?“</a>, 18 January 2025. <a href="https://www.mittendran.de/noch-einmal-wo-war-die-koerner-realschule/">„Noch einmal: Wo war die Körner Realschule?“</a>, 14 March 2026.</p>
+  </div>
+</section>
+
+<section class="slide" id="s10" data-lon="13.36798" data-label="No. 23. The photograph is the Pumpe, on Lützowstraße.">
+  <div class="frame"><img src="img/pumpe.jpg" alt="The youth centre Die Pumpe on Lützowstraße"><span class="count">11</span></div>
+  <div class="say">
+    <p class="kicker">Pin · Pohlstraße 23</p>
+    <h2>The walk with the two councillors began at the Pumpe</h2>
+    <p>On 14 June 2023 neighbors walked with <strong>Ephraim Gothe</strong> and <strong>Almut Neumann</strong>, starting at <strong>Die Pumpe</strong>, the youth center on Lützowstraße. That is the photograph. A noise study, not yet official, had confirmed what the center feared: the new block behind it and the center’s daily work <strong>cannot share</strong> the courtyard. Gothe said the permit would <strong>wait</strong> for a plan for the <strong>noise</strong>. The map marks <strong>number 23</strong>, where the file placed the stop.</p>
+    <p class="cap"><a href="https://www.mittendran.de/kiezspaziergang-mit-den-beiden-stadtraeten-dr-almut-neumann-und-ephraim-gothe/">„Kiezspaziergang mit den beiden Stadträten Dr. Almut Neumann und Ephraim Gothe“</a>, 15 June 2023. Photo eki.</p>
+  </div>
+</section>
+
+<section class="slide" id="s11" data-lon="13.36681" data-label="No. 37">
+  <div class="frame"><img src="img/ivy.jpeg" alt="Ceramics from the Ivy and Gault studio"><span class="count">12</span></div>
+  <div class="say">
+    <p class="kicker">Pin · Pohlstraße 37</p>
+    <h2>Clay, and a Korean kitchen next door</h2>
+    <p><strong>Ivy &amp; Gault</strong> make ceramics at number 37. Next door, <strong>Son Kitchen</strong> <strong>cooks Korean food</strong>. One evening the studio and the kitchen shared the room.</p>
+    <p class="cap"><a href="https://www.mittendran.de/ivy-gault-laden-zum-holiday-market-im-dezember/">„Ivy &amp; Gault und Son Kitchen: Keramik &amp; koreanische Kulinarik“</a>, 1 December 2022.</p>
+  </div>
+</section>
+
+<section class="slide" id="s12" data-span="13.3662,13.3604" data-label="the road, when it is closed to cars">
+  <div class="frame"><img src="img/spiel.jpg" alt="Children on the closed Pohlstraße during a Spielstraße afternoon"><span class="count">13</span></div>
+  <div class="say">
+    <p class="kicker">The street pins · the Spielstraße</p>
+    <h2>The road belongs to the children for an afternoon</h2>
+    <p>A <strong>Spielstraße</strong> is a play street: for a few afternoons the road is <strong>closed to cars</strong> and given to <strong>children</strong>. On this map it fills the middle of the street. The neighborhood fund paid for the materials. Drivers were slow to get used to it. The photograph is one of those afternoons.</p>
+    <p>The argument that lasted was the cars. On the European car-free day in 2025 the public-order office said it could <strong>not tow</strong> cars off a play street, because a play street was <strong>not a public road</strong>. The police wrote tickets. In April 2026 the office <strong>agreed to tow</strong>.</p>
+    <p class="cap">The Spielstraße reports from <a href="https://www.mittendran.de/spielstrasse-der-pohlstrasse-3/">24 June 2022</a> through <a href="https://www.mittendran.de/letzte-spielstrasse-in-diesem-jahr-auf-der-pohlstrasse/">23 September 2026</a>. This photograph is from <a href="https://www.mittendran.de/spielstrasse-pohlstrasse/">22 May 2025</a>, © eki.</p>
+  </div>
+</section>
+
+<section class="slide" id="s13" data-span="13.3662,13.3604" data-label="the same closed stretch">
+  <div class="frame"><img src="img/puppe.jpg" alt="Katharina Fial with the puppet theatre Fingerleicht"><span class="count">14</span></div>
+  <div class="say">
+    <p class="kicker">The street pins · one guest</p>
+    <h2>Katharina Fial brings the cat in boots</h2>
+    <p><strong>Fingerleicht</strong> packs into a car. <strong>Katharina Fial</strong> has run it since 2007, after years as assistant director and dramaturg in Berlin, Heidelberg, Greifswald, Porto, and Lisbon. She won first prize from the Kulturstiftung der Länder for „Kinder zum Olymp“, which brings children to the arts. She brings the theater to the closed road. One piece is „Der gestiefelte Kater“, <strong>Puss in Boots</strong>.</p>
+    <p class="cap"><a href="https://www.mittendran.de/puppentheater-fingerleicht-zu-gast-der-spielstrasse/">„PUPPENTHEATER FINGERLEICHT zu Gast in der Spielstraße“</a>, 27 April 2023, photo eki. <a href="https://www.mittendran.de/die-spielstrasse-mit-der-puppenspielerin-katharina-fial/">„Die Spielstraße mit der Puppenspielerin Katharina Fial“</a>, 22 May 2026.</p>
+  </div>
+</section>
+
+<section class="slide" id="s14" data-span="13.3656,13.3603" data-label="the pavements, west of Potsdamer Straße">
+  <div class="frame"><img src="img/beete.jpeg" alt="A newly unsealed, planted pavement on the Pohlstraße"><span class="count">15</span></div>
+  <div class="say">
+    <p class="kicker">The street pins · the pavements</p>
+    <h2>Twelve hundred square meters, then an argument about who may plant</h2>
+    <p>In March 2024 the roads office began lifting the pavement on Pohlstraße and Kluckstraße, between Potsdamer Straße and Lützowstraße, and planting underneath. <strong>Twelve hundred square meters</strong>. Tree pits widened and joined. Sidewalks brought to at least two and a half meters. <strong>Almut Neumann</strong> announced it. Where a café had a forecourt, paving stayed so the tables could sit between the beds. The photograph is one of those beds.</p>
+    <p>Residents were told <strong>not to plant</strong>. Some beds were already green, and people on Kluckstraße collected signatures. The FDP asked the borough assembly to <strong>shrink</strong> the unpaved area. The neighborhood forum answered, unanimously, that the beds should <strong>stay</strong>: they water the trees. The motion <strong>failed</strong>.</p>
+    <p class="cap"><a href="https://www.mittendran.de/start-der-entsiegelungen-der-pohlstra%c3%9fe-und-der-kluckstra%c3%9fe/">„Start der Entsiegelungen“</a>, 19 February 2024. <a href="https://www.mittendran.de/entsiegelung-der-gehwege-der-pohl-und-kluckstrasse-eine-posse/">„Entsiegelung der Gehwege – eine Posse(?)“</a>, 2 August 2024, photo FP. <a href="https://www.mittendran.de/baumscheiben-der-pohl-und-kluckstrasse/">„Baumscheiben in der Pohl- und Kluckstraße“</a>, 10 October 2024. <a href="https://www.mittendran.de/zaeunchen-der-pohlstrasse/">„Zäunchen in der Pohlstraße“</a>, 12 February 2025. <a href="https://www.mittendran.de/entsiegelung-soll-voll-erhalten-bleiben/">„Entsiegelung soll voll erhalten bleiben!“</a>, 14 February 2025. <a href="https://www.mittendran.de/pohl-und-kluckstra%c3%9fe-bekommen-neue-pflanzen/">„Pohl- und Kluckstraße bekommen neue Pflanzen“</a>, 12 May 2026.</p>
+  </div>
+</section>
+
+<section class="slide" id="s15" data-lon="13.3653" data-label="the path through to Kurfürstenstraße">
+  <div class="frame"><img src="img/tor.jpg" alt="The gate that closes the path from Pohlstraße to Kurfürstenstraße"><span class="count">16</span></div>
+  <div class="say">
+    <p class="kicker">The street pins · a path</p>
+    <h2>The gate to the Kurfürstenstraße keeps falling shut</h2>
+    <p>Before the Schönegarten housing, a path ran from Pohlstraße to Kurfürstenstraße, the <strong>shortcut</strong> to the subway and the new shops. The contract requires it at least five meters wide, lit, for walking and cycling, and allows a night lock, ten until seven in summer, eight until seven in winter. Both gates stood open for a while. In one week of December 2022 both were <strong>shut</strong> by day. Someone had fixed the latch neighbors used to hold the Pohlstraße gate open. A wheelchair and a stroller need the leaf open. The photograph is that gate. It will <strong>not stay hooked</strong>.</p>
+    <p class="cap"><a href="https://www.mittendran.de/aus-gegebenem-anlass-die-durchwegung-zur-kurfuerstenstrasse/">„Aus gegebenem Anlass: Die Durchwegung zur Kurfürstenstraße“</a>, 9 December 2022, photo FP. <a href="https://www.mittendran.de/immer-wieder-ein-thema-die-durchwegung/">„Immer wieder ein Thema“</a>, 15 October 2025. <a href="https://www.mittendran.de/neue-paketbox-im-kiez/">„Neue Paketbox im Kiez“</a>, 30 April 2024.</p>
+  </div>
+</section>
+
+<section class="slide" id="s16" data-lon="13.3638" data-label="Kita Sonnenschein, on this street">
+  <div class="frame"><img src="img/kita.jpg" alt="Sascha Ruß, head of Kita Sonnenschein"><span class="count">17</span></div>
+  <div class="say">
+    <p class="kicker">The street pins · a kindergarten</p>
+    <h2>Sascha Ruß has run the Kita Sonnenschein for almost ten years</h2>
+    <p><strong>Sascha Ruß</strong> runs the Kita Sonnenschein, on this street, and he describes a quarter <strong>split by money</strong>: families who have always been here, and newcomers with very different means. Families with several children stay in flats that are <strong>too small</strong>, because a larger one they can afford does not exist. In the kindergarten the split is ordinary. <strong>High incomes</strong>, people on benefits, and people missing from the statistics. The photograph is Ruß.</p>
+    <p class="cap"><a href="https://www.mittendran.de/tiergarten-sued-im-blick/">„Tiergarten Süd im Blick“</a>, interview with Sascha Ruß, 27 November 2025.</p>
+  </div>
+</section>
+
+<section class="slide" id="s17" data-span="13.3672,13.3605" data-label="the police walk started here">
+  <div class="frame"><img src="img/polizei.jpeg" alt="Neighbours and police officers talking in a courtyard off the Pohlstraße"><span class="count">18</span></div>
+  <div class="say">
+    <p class="kicker">The street pins · a walk with the police</p>
+    <h2>Cellar break-ins, and no quick remedy</h2>
+    <p>Neighbors reported <strong>break-ins</strong> in cellars, trespass, disturbances, drug use and prostitution in doorways, and more tents. Houses and cellars on Pohlstraße had been broken into several times in half a year. The photograph is neighbors and officers in a courtyard off the street.</p>
+    <p>A count on Flottwellstraße found <strong>340 cars an hour</strong>. More than 300 an hour counts as a burden. <strong>Laura Fritsche</strong> told fifty neighbors that <strong>87 percent</strong> of journeys here are on foot, by bicycle, or by public transport, and that <strong>20 percent</strong> of residents own a car. Pohlstraße is one edge of the traffic-calming area between Schöneberger Ufer, Potsdamer Straße, Kurfürstenstraße, and the park.</p>
+    <p class="cap"><a href="https://www.mittendran.de/rundgang-zum-thema-kriminalitaetspraevention/">„Rundgang zum Thema Kriminalitätsprävention“</a>, 18 December 2025. <a href="https://www.mittendran.de/kiez-spaziergang/">„Kiez-Spaziergang im Lützowkiez“</a>, 31 January 2025. Jörg Borchardt, <a href="https://www.mittendran.de/ein-interessanter-spaziergang-zum-kiezblock-flottwell/">„Ein interessanter Spaziergang zum Kiezblock Flottwell“</a>, 4 June 2025. <a href="https://www.mittendran.de/lebhafte-diskussionen-ueber-fahrradstrassen/">„Lebhafte Diskussion über Fahrradstraßen“</a>, 6 March 2024.</p>
+  </div>
+</section>
+
+<section class="slide" id="s18" data-lon="13.36335" data-label="No. 58">
+  <div class="frame"><img src="img/huebner.jpeg" alt="The car park and shopfront of Möbel Hübner during the closing sale"><span class="count">19</span></div>
+  <div class="say">
+    <p class="kicker">Pins · the street, and number 58</p>
+    <h2>Möbel Hübner, from a joinery to a closing sale</h2>
+    <p>The day after Christmas 2025 the car park was full. The signs said <strong>everything must go</strong>, thirty percent off. That car park is the photograph. Berlin knew the shop by „Ich soll Sie schön grüßen“. <strong>Friedrich Wilhelm Hübner</strong>, a master joiner born around 1850 in Schwerz, came to Berlin about 1880 with his wife Helene and, with the carpenter W. Schenck, opened a joinery and furniture shop at Lützowstraße 14. A 1908 photograph shows the window at <strong>Steglitzer Straße 27</strong>.</p>
+    <p>The present owners, the house of Türklitz, believed they descended from Jewish cloth merchants in Brandenburg an der Havel, baptized around 1650 as Tuchelitz. Enck read the handwritten indexes in the cathedral archive. In 1639 a Jewish man was baptized at St. Katharinen and named Christianus; his former name was Jacob, and no family name was written, because Jews then had none in that register. The local family book has one Jacob Tüchelmann made a citizen in 1624. The descent <strong>cannot be shown</strong>.</p>
+    <p class="cap"><a href="https://www.mittendran.de/moebel-huebner-schliesst-nach-115-jahren/">„Möbel Hübner schließt nach 115 Jahren“</a>, 27 December 2025, photo FP. <a href="https://www.mittendran.de/geschichte-von-handel-und-gewerbe-im-luetzow-viertel-7-moebel-huebner/">„Geschichte von Handel und Gewerbe (7): Möbel Hübner“</a>, 29 February 2024.</p>
+  </div>
+</section>
+
+<section class="slide" id="s19" data-lon="13.361" data-label="the upper end, toward Kluckstraße">
+  <div class="frame"><img src="img/playground.jpg" alt="The playground at the upper end of the Pohlstraße"><span class="count">20</span></div>
+  <div class="say">
+    <p class="kicker">The street pins · the upper end</p>
+    <h2>The playground people cycle past</h2>
+    <p>„Kiez mit Kind“ keeps <strong>missing</strong> this one: after the shopping, after Gleisdreieck, after the ice cream. Neighbors call it the <strong>upper, western end</strong>. One article puts it between Flottwellstraße and Potsdamer Straße. A large sand pit. A slide tower, by stairs or by a net. Two swings, <strong>no baby swing</strong>. A short steep ramp to a cableway. For the smallest children, two stairs, a small slide, and a tunnel, inside a low fence. Three table-tennis tables and a basketball cage, for when the park tables are taken. Shade, and nothing to eat. The wrong place for a whole day, and the <strong>right place for a pause</strong>.</p>
+    <p>The corner of Körnerstraße and Pohlstraße is <strong>not really a playground</strong>, the same series says, and then describes a sandpit, two rocking animals, a fenced run, and a café terrace where parents can eat and still see the children, until the children learn the <strong>swing gate</strong>.</p>
+    <p class="cap"><a href="https://www.mittendran.de/kiez-mit-kind-der-geheime-spielplatz-der-pohlstrasse/">„Kiez mit Kind: Der geheime Spielplatz in der Pohlstraße“</a>, 26 August 2024. <a href="https://www.mittendran.de/kiez-mit-kind-buddelkiste-koernerstrasse/">„Kiez mit Kind: Buddelkiste Körnerstraße“</a>, 25 January 2025.</p>
+  </div>
+</section>
+
+<section class="slide" id="s20" data-lon="13.36321" data-label="No. 65">
+  <div class="frame"><img src="img/isotop.jpg" alt="The bar Isotop on Pohlstraße"><span class="count">21</span></div>
+  <div class="say">
+    <p class="kicker">Pin · Pohlstraße 65</p>
+    <h2>Isotop, a bar with a landlady who calls the guests friends</h2>
+    <p>Worn steps, and inside a <strong>living room</strong>: warm light, a full bar, a wine glass in lights on the outside wall. Seats already taken, a band at the far end, smoking only now and then. <strong>Annetta</strong>, landlady since 9 September 2022, calls the guests <strong>friends</strong>. Before the room, two classroom definitions. In physics, isotopes are variants of one element. In a German lesson, isotopy holds a text together. The article says the <strong>second</strong> fits.</p>
+    <p class="cap"><a href="https://www.mittendran.de/isotop-zu-dritt/">„Isotop zu dritt“</a>, 20 December 2023.</p>
+  </div>
+</section>
+
+<section class="slide" id="s21" data-lon="13.3627" data-label="No. 71">
+  <div class="frame"><img src="img/blattwerk.jpeg" alt="A print from Uschi Krempel’s exhibition blattwerk"><span class="count">22</span></div>
+  <div class="say">
+    <p class="kicker">Pin · Pohlstraße 71</p>
+    <h2>ep.contemporary, a gallery you pass on the way to a glass of wine</h2>
+    <p>The gallery at number 71 <strong>changes its window</strong> often enough that a neighbor notices. It sits on the way to <strong>Les Climats and to Isotop</strong>. Both are on this street.</p>
+    <p>In June 2022 <strong>Uschi Krempel</strong> showed „blattwerk“, the print in the photograph. Brushstrokes held on a copper plate, the plate shifted between printings, so the colors overlap: leaves, or pop art in red, blue, and yellow. That autumn <strong>Ophelia Beckmann</strong> showed painting and tape, „From Leaf to Leaf“.</p>
+    <p>Across the street, <strong>Gilla Lörcher</strong> has <strong>been at number 73 for fourteen years</strong>.</p>
+    <p class="cap">Galerie ep.contemporary, Pohlstraße 71. <a href="https://www.mittendran.de/uschi-krempel-zeigt-druckgrafiken/">Uschi Krempel, „blattwerk“</a>, 8 June 2022. <a href="https://www.mittendran.de/ophelia-beckmann-zeigt/">Ophelia Beckmann, „From Leaf to Leaf“</a>, 29 September 2022. <a href="https://www.mittendran.de/strictly-form-vernissage-freitag-23-08-24-1800-2100/">strictly form!</a>, 22 August 2024. <a href="https://www.mittendran.de/ausstellung-zwischen-uns-fotografie/">„Zwischen uns Fotografie“</a>, 4 March 2025. <a href="https://www.mittendran.de/30-april-beginnt-das-lange-gallery-weekend/">Gallery Weekend</a>, 29 April 2026. <a href="https://www.mittendran.de/gallery-weekend-2026-3-die-kleineren-galerien-rande-des-kiezes/">Die kleineren Galerien</a>, 4 May 2026. <a href="https://www.mittendran.de/bummel-durch-die-pohlstrasse-gallery-weekend/">„Bummel durch die Pohlstrasse“</a>, 30 April 2023.</p>
+  </div>
+</section>
+
+<section class="slide" id="s22" data-lon="13.36262" data-label="No. 60">
+  <div class="frame"><img src="img/schnirlin.jpeg" alt="Ossip and Gertrud Schnirlin shortly before their deaths"><span class="count">23</span></div>
+  <div class="say">
+    <p class="kicker">Pin · Pohlstraße 60</p>
+    <h2>Gunter Demnig lays two stones for the Schnirlins</h2>
+    <p>On 8 October 2022 <strong>Gunter Demnig</strong> laid the stones for <strong>Ossip and Gertrud Schnirlin</strong> at number 60.</p>
+    <p><strong>Ossip Schnirlin</strong>, born 3 March 1868 in Proskuriv, now Ukraine, to Judko Schnirlin and Chane, born Feige, studied with Joseph Joachim and played as a soloist. A <strong>finger injury</strong> turned him to teaching and to editing violin music. On 7 April 1906, in Berlin, he and <strong>Max Reger</strong> gave the first performance of Reger’s Suite im alten Stil. A second article calls him the <strong>last musician</strong> to play with Reger: a trio in Jena on Easter Monday, seventeen days before Reger died in a Leipzig hotel, at forty-three.</p>
+    <p><strong>Gertrud</strong> was a concert pianist and a musicologist. The Nazi <strong>race laws</strong> made no exception for either of them. The photograph is private, taken shortly before their deaths.</p>
+    <p>On 9 November that year the SPD of Tiergarten Süd and the same initiative walked Lützowstraße, Potsdamer Straße, and Pohlstraße, the anniversary of the pogrom. The custom is to clean all <strong>69 Stolpersteine</strong> in Tiergarten Süd on 9 November and on 8 May.</p>
+    <p class="cap"><a href="https://www.mittendran.de/stolpersteiverlegung-der-pohlstrasse/">„Stolpersteinverlegung in der Pohlstraße“</a>, 4 October 2022. <a href="https://www.mittendran.de/stolpersteine-fuer-ossip-und-gertrud-schnirlin-verlegt/">„Gunter Demnig verlegt Stolpersteine für Ossip und Gertrud Schnirlin“</a>, 8 October 2022. <a href="https://www.mittendran.de/damit-es-sich-nicht-wiederholt/">„Damit sich der Holocaust niemals wiederholt!“</a>, 10 November 2022.</p>
+  </div>
+</section>
+
+<section class="slide" id="s23" data-span="13.36235,13.3621" data-label="No. 62, and the table at No. 75">
+  <div class="frame"><img src="img/backfische.png" alt="Fourteen pupils of the Charlottenschule around 1900"><span class="count">24</span></div>
+  <div class="say">
+    <p class="kicker">Pins · number 62, and a table at number 75</p>
+    <h2>Fourteen girls, and the school behind a wall</h2>
+    <p>Planned with the Falk boys’ school, the Charlottenschule was a public high school for <strong>girls</strong> in a wealthy district with fewer public schools than most. To spare the private schools, which lived on fees, only six classes opened at Easter 1880, the top two at Michaelmas. The public school still charged 25 marks a quarter, 100 marks a year. The plot ran from the boys’ school at Lützowstraße 83 to Steglitzer Straße 29, today’s <strong>Pohlstraße 62</strong>, with a <strong>wall</strong> between them. You entered from Steglitzer Straße.</p>
+    <p><strong>Leopold Engel</strong> and G. Wenzel, an apple-wine shop at number 29, offered the land in 1870. Engel wanted <strong>78,000 marks</strong>, and listed the rents of seven households in number 28, about 3,000 talers a year.</p>
+    <p>The photograph, <strong>fourteen girls</strong> of about sixteen in studio dress around 1900, changed hands across a table at <strong>Les Climats</strong>. Roland Kretschmer introduced Enck to Cheryce von Xylander and to Bubar, who cooks the crêpes. A new book’s essay follows the school and one pupil, Gertrud Bruck, born 1875, who married the manufacturer Hans Siegfried Cramer. Hermann Muthesius designed their Dahlem house, Pacelliallee 18–20, now used by Stanford University. The Cramers left for America in 1933. The table was <strong>number 75</strong>. The school is <strong>number 62</strong>.</p>
+    <p class="cap"><a href="https://www.mittendran.de/schulen-im-luetzow-viertel-4-die-charlottenschule-der-steglitzer-strasse/">„Die Charlottenschule in der Steglitzer Straße“</a>, 27 October 2024. <a href="https://www.mittendran.de/spaziergang-in-die-vergangenheit-43-die-backfische-der-charlottenschule/">„Die Backfische der Charlottenschule“</a>, 5 September 2026. Photograph of the pupils, photographer unknown, printed with permission.</p>
+  </div>
+</section>
+
+<section class="slide" id="s24" data-lon="13.36228" data-label="No. 75">
+  <div class="frame"><img src="img/pohlonaise.jpeg" alt="The Pohlonaise outside the wine bar Les Climats"><span class="count">25</span></div>
+  <div class="say">
+    <p class="kicker">Pin · Pohlstraße 75</p>
+    <h2>Les Climats, and a dance named for the street</h2>
+    <p><strong>Roland Kretschmer</strong> runs the wine bar at number 75. The house’s own page says the shop has been there since 2008, and the bar since 2011. The wine is Burgundy, bought from the growers. On 6 September 2024 the invitation said Les Climats was turning sixteen, and the birthday was a Pohlonaise.</p>
+    <p>The Pohlonaise is the summer evening on the pavement. The invitations, as mitteNdran prints them, start at 18:00: crêpes and galettes from Bubar’s truck, wine and crémant, and a band. On 12 May 2023 they described the round: a glass while you wait at the truck, the band, children playing, then dancing, then back to the truck. The Hot Club of Berlin plays jazz manouche inside through the colder months, two guitars and a bass, every other week. They call the Pohlonaise the open-air version: a crêpe truck, sparkling wine, and a quartet outside. The invitation of 26 June 2024 names that Friday’s band: Vero Nouk singing, George Birkett on guitar, Martin Buhl on double bass, Leo Gertsner on drums. The play-street meetings happen here because this is where the neighbors already are. The house page lists Tuesday to Thursday from 16:00 to 23:00, Friday and Saturday from 14:00 to midnight, and Sunday and Monday closed.</p>
+    <p>It is a Friday, at 18:00, through the terrace season. In 2024 the first was 3 May, and the bar called that the opening. The last that year was 20 September, to close the summer. In 2023 the last was 6 October, before the evening got too cold. From 2 October 2024 the jam sessions were indoors again, every other Wednesday.</p>
+    <p class="cap">Les Climats, Pohlstraße 75. <a href="https://www.lesclimats.com/">lesclimats.com</a>. <a href="https://www.mittendran.de/pohlstrasse-spielstrasse/">Pohlstraße = Spielstraße</a>, 24 January 2023. <a href="https://www.mittendran.de/pohlonaise-freitag-12-mai/">Pohlonaise, 12 May</a>, 10 May 2023. <a href="https://www.mittendran.de/jazz-live-und-gute-kueche-im-les-climats/">Jazz live und Gute Küche</a>, 16 May 2023. <a href="https://www.mittendran.de/heute-wieder-pohlonaise-der-pohlstrasse/">Heute wieder Pohlonaise</a>, 9 June 2023. <a href="https://www.mittendran.de/freitag-23-juni-ist-wieder-pohlonaise/">Pohlonaise, 23 June</a>, 22 June 2023. <a href="https://www.mittendran.de/pohlonaise-der-weinbar-les-climats/">Pohlonaise, the band</a>, 26 June 2024. <a href="https://www.mittendran.de/einladung-zur-pohlonaise/">Einladung zur Pohlonaise</a>, 4 September 2024. <a href="https://www.mittendran.de/3-mai-ist-pohlonaise/">First of 2024, 3 May</a>. <a href="https://www.mittendran.de/noch-einmal-pohlonaise-freitag/">Last of summer 2024, 20 September</a>. <a href="https://www.mittendran.de/letzten-pohlonaise-diesem-jahr-im-les-climats/">Last of 2023, 6 October</a>. <a href="https://thehotclubofberlin.com/les-climats-concert">Hot Club of Berlin</a>. Photo F. Pohlmann.</p>
+  </div>
+</section>
+
+<section class="slide" id="s25" data-lon="13.36208" data-label="No. 64">
+  <div class="frame"><img src="img/kubatzky.jpg" alt="Stolpersteine for the Kubatzky family in front of Lützowstraße 87"><span class="count">26</span></div>
+  <div class="say">
+    <p class="kicker">Pin · Pohlstraße 64</p>
+    <h2>Hedwig Kubatzky had her studio at number 64</h2>
+    <p>On 24 June 2024 ten stones for the Kubatzky family were laid across Berlin. Three, in this quarter, went into the pavement at Lützowstraße 87, now the Allegro schoolyard: Hermann Julius, Rosa, born Arndt, and their son Herbert, who fled to Palestine in the 1930s and <strong>survived</strong>. The photograph is those stones, not the door on this street.</p>
+    <p>The same day the guests walked to Pohlstraße 64. <strong>Hedwig Kubatzky</strong>, born 13 January 1875 in Zippnow, Pomerania, was a seamstress and a milliner in Berlin. Until 1940 her <strong>studio</strong> was at Ludendorffstraße 64, this house. She had to give the flat up. Her last address was a Judenhaus, where Jews were forced to live, at Turmstraße 9. Deported to Riga on 27 November 1941, she was <strong>shot</strong> with the others who survived the journey, in the Rumbula forest on 30 November.</p>
+    <p>Her sister Johana, born 1873, was deported from the Gipsstraße collection camp on 15 August 1942 and murdered in Riga as well. No Berlin address was found, so her <strong>stone is here</strong>, beside Hedwig’s.</p>
+    <p><strong>Oliver Staack</strong> bought Wanda Kubatzky’s postcards to her fiancé at a flea market, traced the family from Deutsch Krone, and in the pandemic found <strong>Debbie Kirby</strong> through a genealogy site. Theo Bröcker, of the memorial-stone initiative in Mitte, spoke for the two sisters.</p>
+    <p class="cap"><a href="https://www.mittendran.de/stolpersteine-zum-gedenken-die-familie-kubatzky/">„Stolpersteine zum Gedenken an die Familie Kubatzky“</a>, 24 June 2024, photos EKI and FP. <a href="https://www.mittendran.de/stolpersteinverlegung-fuer-die-familie-kubatzky-der-luetzowstr-87-und-pohlstr-64/">Announcement</a>, 19 June 2024. <a href="https://www.mittendran.de/neues-aus-dem-kiez-rund-um-die-potsdamer-strasse/">„Neues aus dem Kiez“</a>, Max Söding, 24 June 2024.</p>
+  </div>
+</section>
+
+<section class="slide" id="s26" data-lon="13.36061" data-label="No. 89">
+  <div class="frame"><img src="img/verein.jpg" alt="The anniversary walk pauses in a courtyard on the Pohlstraße"><span class="count">27</span></div>
+  <div class="say">
+    <p class="kicker">Pin · Pohlstraße 89</p>
+    <h2>The house that was occupied, and the Verein that came out of it</h2>
+    <p>In 2025 the Stadtteilverein Tiergarten turned forty. The association is less known than its center. Pohlstraße 89, the house it calls its cradle, was to be <strong>demolished</strong> for the <strong>Südtangente</strong>, a motorway planned roughly parallel to this street, from Lietzenburger Straße across Möbel Hübner’s old car park to a junction where Gleisdreieck park is now. Several young people <strong>occupied</strong> number 89 and <strong>kept it standing</strong>. The council of people affected by the plan became the association, and opened a neighborhood-management office beside the wall at Potsdamer Platz. New houses on the empty eastern plots, old houses repaired, and in 2006 the center, which the association still runs. The photograph is the anniversary walk, paused in a courtyard.</p>
+    <p>The demolition at number 2 and this occupation are the <strong>two ends of one plan</strong>. Beside them sits a broadcast line that draws a motorway from the Urania. These articles are the ones that name the houses.</p>
+    <p class="cap"><a href="https://www.mittendran.de/40-jahre-stadtteilverein-tiergarten/">„40 Jahre Stadtteilverein Tiergarten“</a>, 28 September 2025, photos FP. The photograph is the anniversary walk paused in the courtyard. Lückerath, <a href="https://www.mittendran.de/zwischen-1970-und-2025-bilder-aus-der-pohlstrasse/">11 February 2026</a>.</p>
+  </div>
+</section>
+
+<section class="slide" id="s27" data-lon="13.35966" data-label="No. 97, the west end">
+  <div class="frame pair">
+    <figure>
+      <img src="img/minna.jpeg" alt="Postcard of Steglitzer Straße at the corner of Genthiner Straße, about 1917">
+      <figcaption>About 1917. Steglitzer Straße at Genthiner Straße.</figcaption>
+    </figure>
+    <figure>
+      <img src="img/now-genthiner.jpg" alt="The housing built later at the corner of Pohlstraße and Genthiner Straße">
+      <figcaption>2012. The housing on that corner now.</figcaption>
+    </figure>
+    <span class="count">28</span>
+  </div>
+  <div class="say">
+    <p class="kicker">Pin · Pohlstraße 97</p>
+    <h2>Aunt Lehmann’s oriel</h2>
+    <p>Number 97, where the street meets Genthiner Straße, is the last stop. Minna Lehmann, born Stargardt, 1822 to 1912, was a great-aunt of Walter Benjamin. In <em>Berliner Kindheit um Neunzehnhundert</em> he gives her the <strong>oriel</strong> where Steglitzer Straße meets Genthiner Straße, and places her among the aunts who no longer went out. The flat was <strong>locked twice</strong>: past the street door, a dark door on the left with a bell, a steep stair, an old servant in the gaslight, then the second lock.</p>
+    <p>Jun Tanaka, translating the book into Japanese, wrote to Enck about that second lock. Left, a postcard of the corner, about 1917. Right, the housing there on 9 August 2012. The same corner, a different camera, and the <strong>old block is gone</strong>.</p>
+    <p class="cap"><a href="https://www.mittendran.de/spaziergang-die-vergangenheit-39-minna-lehmann-pohlstrasse-97/">„Spaziergang in die Vergangenheit (39): Minna Lehmann, Pohlstraße 97“</a>, 7 May 2026. The 2012 photograph is on Wikimedia Commons: <a href="https://commons.wikimedia.org/wiki/File:2012-08-09-Wohnbebauung-Pohlstr-Genthiner-Str.jpg">„2012-08-09-Wohnbebauung-Pohlstr-Genthiner-Str.jpg“</a>.</p>
+  </div>
+</section>
+
+<section class="slide" id="s28" data-span="13.3709,13.3593" data-label="these pieces only mention the street">
+  <div class="frame"><img src="img/herzog.jpg" alt="Werner Herzog, photograph by Clive Oppenheimer"><span class="count">29</span></div>
+  <div class="say">
+    <p class="kicker">The same pins · articles that only touch the street</p>
+    <h2>One sentence of Pohlstraße, and a subject somewhere else</h2>
+    <p>A large share of the 109 articles <strong>mention the street only once</strong>. They belong on the walk, and they are <strong>about something else</strong>.</p>
+    <p><strong>Werner Herzog</strong>, in the photograph, cast Bruno S. in <em>Jeder für sich und Gott gegen alle</em> (1974). Old neighbors remember him with a plastic bag and an accordion, singing in the street. Herzog then wrote <em>Stroszek</em> for him. The German Wikipedia says the script took five days, after the part in <em>Woyzeck</em> went to Klaus Kinski. Bruno plays a street singer just out of prison. He is told to stay out of bars, and he walks straight into the <strong>Bierhimmel</strong>.</p>
+    <p><a href="https://www.shotinberlin.de/de/katalog/film/1478/">Shot in Berlin</a> puts that bar on the corner of Potsdamer Straße and Pohlstraße. It puts him playing at <strong>Pohlstraße 61</strong>, his flat in the film at <strong>Flottwellstraße 5</strong>, and the place he buys fruit, Potsdamer Straße 101. The Berlin scenes were shot between 16 November and 31 December 1976.</p>
+    <figure class="clip">
+      <iframe src="https://www.youtube-nocookie.com/embed/2Wxbkm2TJQg" title="Trailer for Werner Herzog’s Stroszek, 1977" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+      <figcaption><a href="https://www.youtube.com/watch?v=2Wxbkm2TJQg">Stroszek, trailer (1977)</a>, posted by HD Retro Trailers. If the frame stays empty, the link opens the same trailer.</figcaption>
+    </figure>
+    <p><strong>Cholera reached Berlin in 1831</strong>, <strong>before this quarter existed</strong>. South of the canal there were laborers’ cottages, and a few summer houses.</p>
+    <p>Walter Benjamin’s grandmother, <strong>Hedwig Schoenflies</strong>, lived at <strong>Blumeshof 12</strong>. Jun Tanaka, in Tokyo, wrote to argue whether the flat was the grand floor or the top. Jieran Cao, in Shanghai, is translating <em>Berliner Kindheit</em> into Mandarin.</p>
+    <p>An Art Week note looks into a former gallery at Potsdamer Straße 97, at „<strong>Höhlengleichnis</strong>“, the allegory of the cave. A women’s walk from Lina Morgenstern, Potsdamer Straße 139, to Katharina Grosse at Max Hetzler is filed at Pohlstraße 62–64. A post-office guide that photographs the Bülowstraße branch is filed at number 69.</p>
+    <p>The U1 viaduct over Gleisdreieck, built 1913, opened 1926, is to be replaced for <strong>63 million euros</strong>, work from 2028, trains from 2030. An rbb podcast reconstructs the murder of Alfred Neisser, a receiver of stolen goods and an antiques dealer on Steglitzer Straße. The police file is <strong>lost</strong>. The podcast uses the newspapers.</p>
+    <p class="cap">Among them: <a href="https://www.mittendran.de/ausstellung-werner-herzog/">the Herzog exhibition note</a>, 19 August 2022, photo Clive Oppenheimer. Locations: <a href="https://www.shotinberlin.de/de/katalog/film/1478/">Shot in Berlin</a>. The walk from the prison into the bar: <a href="https://www.kinofenster.de/themen/themendossiers/werner-herzog-und-seine-filme/49952/stroszek">Kinofenster</a>. The five-day script: <a href="https://de.wikipedia.org/wiki/Stroszek">German Wikipedia, „Stroszek“</a>.  <a href="https://www.mittendran.de/spaziergang-die-vergangenheit-37-die-cholera-pandemie-von-18311832/">the cholera walk</a>, 14 February 2026; the letters from <a href="https://www.mittendran.de/post-aus-tokyo-walter-benjamin-1892-1942-im-blumeshof/">Tokyo</a> and <a href="https://www.mittendran.de/post-und-besuch-aus-shanghai-und-wieder-geht-es-um-walter-benjamin/">Shanghai</a>; <a href="https://www.mittendran.de/art-week-impressionen-5/">Art Week, „Höhlengleichnis“</a>; <a href="https://www.mittendran.de/starke-frauen-der-potsdamer-strasse/">the women’s walk</a>; <a href="https://www.mittendran.de/briefe-paeckchen-pakete-und-retouren/">the post-office guide</a>; <a href="https://www.mittendran.de/30490-2/">„kiek ma!“</a>, 31 January 2024; the U1 viaduct, Matthias Bauer, <a href="https://www.mittendran.de/der-neubau-des-staehlernen-viadukts-der-u1-im-gleisdreieck/">January</a> and <a href="https://www.mittendran.de/baustelle-gleisdreieck/">November 2025</a>; <a href="https://www.mittendran.de/die-wilden-1920er-jahre-tiergarten-sued/">the rbb podcast on Alfred Neisser</a>.</p>
+  </div>
+</section>
+
+<section class="slide" id="s29" data-lon="13.3595" data-label="Kluckstraße, the end">
+  <div class="frame">
+    <figure>
+      <img src="img/street-1915.jpg" alt="The same 1915 postcard, Steglitzer Straße looking west">
+      <figcaption>The street under its first name, 1915. Collection of Ralf Schmiedecke. <a href="https://www.mittendran.de/noch-einmal-wo-war-die-koerner-realschule/">mitteNdran, 14 March 2026</a>.</figcaption>
+    </figure>
+    <span class="count">30</span>
+  </div>
+  <div class="say">
+    <p class="kicker">Kluckstraße</p>
+    <h2>That is the end of this street</h2>
+    <p>You are at the west end. The street has had <strong>three names</strong>: Steglitzer Straße, Ludendorffstraße, Pohlstraße. Ottilie Pohl lived in Moabit, and she was killed in Theresienstadt. Her memorial stone is at Beusselstraße 43. On this street <strong>her name is the sign</strong>. The articles are the <strong>sentence under it</strong>.</p>
+    <p class="cap">Photographs and facts from <a href="https://www.mittendran.de/">mittendran.de</a>, as captioned on each beat. Street dates from the <a href="https://berlingeschichte.de/strassen/bez02h/s1094.htm">Luisenstadt lexicon</a> and the <a href="https://www.gvoon.de/art/dokumente/1947/verordnungsblatt-vobl-gross-berlin-1947/pdf/verordnungsblatt-vobl-gross-berlin-1947-seite_218.pdf">Verordnungsblatt für Groß-Berlin, 31 July 1947, page 218</a>. Ottilie Pohl: <a href="https://de.wikipedia.org/wiki/Ottilie_Pohl">Wikipedia</a>, and Paul Enck, <a href="https://www.mittendran.de/strassen-im-kiez-3-pohlstrasse/">„Straßen im Kiez: Pohlstraße“</a>, 23 October 2020.</p>
+  </div>
+</section>
+
+<script>
+  const EAST = 13.3709;
+  const WEST = 13.3593;
+  const POTS = 13.3658;
+  function xOf(lon) {
+    const t = Math.min(1, Math.max(0, (EAST - Number(lon)) / (EAST - WEST)));
+    return 46 + t * 268;
+  }
+  function svgEl(name, attrs) {
+    const el = document.createElementNS("http://www.w3.org/2000/svg", name);
+    for (const [k, v] of Object.entries(attrs)) el.setAttribute(k, v);
+    return el;
+  }
+  document.querySelectorAll(".slide").forEach((slide) => {
+    const svg = svgEl("svg", { viewBox: "0 0 360 78", "aria-hidden": "true" });
+    svg.appendChild(svgEl("line", { x1: "46", y1: "36", x2: "314", y2: "36", stroke: "currentColor", "stroke-width": "1" }));
+    const px = xOf(POTS);
+    svg.appendChild(svgEl("line", { x1: px, y1: "30", x2: px, y2: "42", stroke: "currentColor", "stroke-width": "1" }));
+    const pots = svgEl("text", { x: px, y: "24", "text-anchor": "middle", fill: "currentColor", "font-size": "8", "font-family": "Helvetica, Arial, sans-serif", "letter-spacing": "0.08em" });
+    pots.textContent = "POTSDAMER STR.";
+    svg.appendChild(pots);
+    const east = svgEl("text", { x: "46", y: "56", fill: "currentColor", "font-size": "8", "font-family": "Helvetica, Arial, sans-serif", "letter-spacing": "0.08em" });
+    east.textContent = "EAST  FLOTTWELLSTR.";
+    svg.appendChild(east);
+    const west = svgEl("text", { x: "314", y: "56", "text-anchor": "end", fill: "currentColor", "font-size": "8", "font-family": "Helvetica, Arial, sans-serif", "letter-spacing": "0.08em" });
+    west.textContent = "WEST  KLUCKSTR.";
+    svg.appendChild(west);
+    let a = EAST, b = WEST, point = false;
+    if (slide.dataset.span) {
+      const parts = slide.dataset.span.split(",").map(Number);
+      a = Math.max(parts[0], parts[1]);
+      b = Math.min(parts[0], parts[1]);
+    } else if (slide.dataset.lon) {
+      a = b = Number(slide.dataset.lon);
+      point = true;
+    }
+    const x1 = xOf(a), x2 = xOf(b);
+    if (point || Math.abs(x2 - x1) < 8) {
+      svg.appendChild(svgEl("rect", { x: x1 - 3.5, y: "32.5", width: "7", height: "7", fill: "currentColor" }));
+    } else {
+      svg.appendChild(svgEl("line", { x1, y1: "36", x2, y2: "36", stroke: "currentColor", "stroke-width": "3" }));
+    }
+    const box = document.createElement("div");
+    box.className = "locator";
+    box.appendChild(svg);
+    const where = document.createElement("p");
+    where.className = "where";
+    where.textContent = slide.dataset.label || "";
+    box.appendChild(where);
+    slide.querySelector(".say").prepend(box);
+  });
+
+  document.querySelectorAll(".count").forEach((el) => {
+    const n = el.textContent.trim();
+    if (/^\d+$/.test(n)) el.textContent = n.padStart(2, "0") + "  /  30";
+  });
+
+  const slides = [...document.querySelectorAll(".slide")];
+  function index() {
+    const y = window.scrollY + 8;
+    let i = 0;
+    slides.forEach((s, n) => { if (s.offsetTop <= y) i = n; });
+    return i;
+  }
+  function go(n) {
+    const t = slides[Math.max(0, Math.min(slides.length - 1, n))];
+    t.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+  document.addEventListener("keydown", (e) => {
+    if (["ArrowDown", "ArrowRight", "PageDown", " "].includes(e.key)) {
+      e.preventDefault();
+      go(index() + 1);
+    } else if (["ArrowUp", "ArrowLeft", "PageUp"].includes(e.key)) {
+      e.preventDefault();
+      go(index() - 1);
+    } else if (e.key === "Home") {
+      e.preventDefault();
+      go(0);
+    } else if (e.key === "End") {
+      e.preventDefault();
+      go(slides.length - 1);
+    }
+  });
+</script>
+</body>
+</html>

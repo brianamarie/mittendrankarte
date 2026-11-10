@@ -627,8 +627,35 @@
       },
       "properties": {
         "place": "Kurfürstenstraße",
-        "count": 58,
+        "count": 60,
         "articles": [
+          {
+            "title": "Presseschau des Stadtteil-Forums Tiergarten Süd",
+            "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-2/",
+            "excerpt": "Presseschau des Stadtteil-Forums Tiergarten Süd Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/…",
+            "date": "2026-11-06",
+            "about_years": [],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-2/"
+          },
+          {
+            "title": "Abgesagt: Die Aktionswoche im Kurfürstenkiez",
+            "url": "https://www.mittendran.de/abgesagt-die-aktionswoche-im-kurfuerstenkiez/",
+            "excerpt": "Abgesagt: Die Aktionswoche im Kurfürstenkiez Die Stadtteilkoordinationen von Tiergarten-Süd und Schöneberg-Nord teilen mit: Liebe Anwohnende, Engagierte und Interessierte rund um die Kurfürstenstraße, unterschiedliche…",
+            "date": "2026-11-05",
+            "about_years": [],
+            "rubrik": "Öffentlicher Raum und Verkehr",
+            "source_url": "https://www.mittendran.de/abgesagt-die-aktionswoche-im-kurfuerstenkiez/"
+          },
+          {
+            "title": "Aktionswoche im Kurfürstenkiez",
+            "url": "https://www.mittendran.de/aktionswoche-im-kurfuerstenkiez/",
+            "excerpt": "Aktionswoche im Kurfürstenkiez Max Söding, Stadtteilkoordination Tiergarten-Süd, lädt ein: Liebe Nachbar*innen, Engagierte und Interessierte rund um die Kurfürstenstraße, vom 17. bis 25. November 2026 laden wir zur…",
+            "date": "2026-10-29",
+            "about_years": [],
+            "rubrik": "Miteinander",
+            "source_url": "https://www.mittendran.de/aktionswoche-im-kurfuerstenkiez/"
+          },
           {
             "title": "Die U-Bahn-Entlastungsstrecke über Kurfürstenstraße",
             "url": "https://www.mittendran.de/die-u-bahn-entlastungsstrecke-ueber-kurfuerstenstrasse/",
@@ -689,15 +716,6 @@
             "about_years": [],
             "rubrik": "Aus dem Kiez",
             "source_url": "https://www.mittendran.de/petition-fuer-olga-und-demo-gegen-strassenstrich/"
-          },
-          {
-            "title": "Presseschau des Stadtteil-Forums Tiergarten Süd",
-            "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-2/",
-            "excerpt": "Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd ( https://forum-tgs.de/ (https://forum-tgs.de/) ). In den letzten 7 Tagen sind uns diese…",
-            "date": "2026-05-22",
-            "about_years": [],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-2/"
           },
           {
             "title": "Straßenbahn am Potsdamer Platz",
@@ -1322,10 +1340,10 @@
         ],
         "place_url": "places/kurfuerstenstrasse/",
         "place_slug": "kurfuerstenstrasse",
-        "title": "Die U-Bahn-Entlastungsstrecke über Kurfürstenstraße",
-        "url": "https://www.mittendran.de/die-u-bahn-entlastungsstrecke-ueber-kurfuerstenstrasse/",
-        "excerpt": "Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Aber er interessiert sich auch für die Geschichte des Berliner…",
-        "date": "2026-09-15"
+        "title": "Presseschau des Stadtteil-Forums Tiergarten Süd",
+        "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-2/",
+        "excerpt": "Presseschau des Stadtteil-Forums Tiergarten Süd Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/…",
+        "date": "2026-11-06"
       }
     },
     {
@@ -3038,8 +3056,17 @@
       },
       "properties": {
         "place": "Lützowstraße 28",
-        "count": 22,
+        "count": 23,
         "articles": [
+          {
+            "title": "Fit in Erster Hilfe",
+            "url": "https://www.mittendran.de/fit-in-erster-hilfe/",
+            "excerpt": "Fit in Erster Hilfe Liebe Nachbarinnen und Nachbarn, Erste Hilfe kann Leben retten. In Notsituationen ist jeder verpflichtet, Hilfe zu leisten. Um auf solche Situationen besser vorbereitet zu sein, bietet das…",
+            "date": "2026-10-27",
+            "about_years": [],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/fit-in-erster-hilfe/"
+          },
           {
             "title": "Einladung: Nachbarschaftliche Hilfe und Unterstützungsstrukturen am Lebensende am 16.09.2026",
             "url": "https://www.mittendran.de/einladung-nachbarschaftliche-hilfe-und-unterstuetzungsstrukturen-am-lebensende-am-16-09-2026/",
@@ -3249,10 +3276,10 @@
         ],
         "place_url": "places/luetzowstrasse-28/",
         "place_slug": "luetzowstrasse-28",
-        "title": "Einladung: Nachbarschaftliche Hilfe und Unterstützungsstrukturen am Lebensende am 16.09.2026",
-        "url": "https://www.mittendran.de/einladung-nachbarschaftliche-hilfe-und-unterstuetzungsstrukturen-am-lebensende-am-16-09-2026/",
-        "excerpt": "Liebe Aktive und Interessierte, am Mittwoch dem 16.9.2026 gibt es die Gelegenheit, sich mit dem Thema „Nachbarschaftliche Hilfe und Unterstützungsstrukturen am Lebensende“ auseinander zu setzen. Wie wollen wir in…",
-        "date": "2026-09-14"
+        "title": "Fit in Erster Hilfe",
+        "url": "https://www.mittendran.de/fit-in-erster-hilfe/",
+        "excerpt": "Fit in Erster Hilfe Liebe Nachbarinnen und Nachbarn, Erste Hilfe kann Leben retten. In Notsituationen ist jeder verpflichtet, Hilfe zu leisten. Um auf solche Situationen besser vorbereitet zu sein, bietet das…",
+        "date": "2026-10-27"
       }
     },
     {
@@ -4258,8 +4285,24 @@
       },
       "properties": {
         "place": "Schöneberger Ufer 57",
-        "count": 18,
+        "count": 19,
         "articles": [
+          {
+            "title": "Der dritte Vortrag der VBK-Art Club Reihe: Was für ein Haus …",
+            "url": "https://www.mittendran.de/der-dritte-vortrag-der-vbk-art-club-reihe-was-fuer-ein-haus/",
+            "excerpt": "Der dritte Vortrag der VBK-Art Club Reihe: Was für ein Haus … Am Montag, den 9. November 2026 um 19:00 Uhr spricht Dr. Benjamin Kuntz, Medizinhistoriker am Museum des Robert-Koch-Instituts Berlin über die Medizinerin…",
+            "date": "2026-11-04",
+            "about_years": [
+              1870,
+              1906,
+              1910,
+              1913,
+              1918,
+              1953
+            ],
+            "rubrik": "Kiez-Geschichte",
+            "source_url": "https://www.mittendran.de/der-dritte-vortrag-der-vbk-art-club-reihe-was-fuer-ein-haus/"
+          },
           {
             "title": "Kunst und Künstler im Lützowviertel 1830–1930 – Vortrag Montag, den 26.10., 19.00 Uhr",
             "url": "https://www.mittendran.de/kunst-und-kuenstler-im-luetzowviertel-1830-1930-vortrag/",
@@ -4477,10 +4520,10 @@
         ],
         "place_url": "places/schoeneberger-ufer-57/",
         "place_slug": "schoeneberger-ufer-57",
-        "title": "Kunst und Künstler im Lützowviertel 1830–1930 – Vortrag Montag, den 26.10., 19.00 Uhr",
-        "url": "https://www.mittendran.de/kunst-und-kuenstler-im-luetzowviertel-1830-1930-vortrag/",
-        "excerpt": "Montag, 26. Oktober 2026, um 19 Uhr Kunst und Künstler im Lützowviertel 1830–1930 Prof. Dr. Paul Enck, Stadtforscher Haus des VBK, Schöneberger Ufer 57, 10785 Berlin Während im Tiergartenviertel, nördlich des…",
-        "date": "2026-10-20"
+        "title": "Der dritte Vortrag der VBK-Art Club Reihe: Was für ein Haus …",
+        "url": "https://www.mittendran.de/der-dritte-vortrag-der-vbk-art-club-reihe-was-fuer-ein-haus/",
+        "excerpt": "Der dritte Vortrag der VBK-Art Club Reihe: Was für ein Haus … Am Montag, den 9. November 2026 um 19:00 Uhr spricht Dr. Benjamin Kuntz, Medizinhistoriker am Museum des Robert-Koch-Instituts Berlin über die Medizinerin…",
+        "date": "2026-11-04"
       }
     },
     {
@@ -4494,8 +4537,17 @@
       },
       "properties": {
         "place": "Museum für Kommunikation",
-        "count": 17,
+        "count": 18,
         "articles": [
+          {
+            "title": "80 Jahre Lucky Luke im Museum für Kommunikation",
+            "url": "https://www.mittendran.de/80-jahre-lucky-luke-im-museum-fuer-kommunikation/",
+            "excerpt": "80 Jahre Lucky Luke im Museum für Kommunikation Yee-Haw! 80 Jahre Lucky Luke Große Geburtstagssause mit Lucky Luke Look-Alike-Wettbewerb, Gespräch mit Achdé und Jul, Quizz, Hobby-Horsing und Torte Am 31. Oktober 2026…",
+            "date": "2026-10-29",
+            "about_years": [],
+            "rubrik": "Kiez mit Kind",
+            "source_url": "https://www.mittendran.de/80-jahre-lucky-luke-im-museum-fuer-kommunikation/"
+          },
           {
             "title": "1. Internationale Postkarten Convention & 20 Jahre Postcrossing",
             "url": "https://www.mittendran.de/1-internationale-postkarten-convention-20-jahre-postcrossing/",
@@ -4665,10 +4717,10 @@
         ],
         "place_url": "places/museum-fuer-kommunikation/",
         "place_slug": "museum-fuer-kommunikation",
-        "title": "1. Internationale Postkarten Convention & 20 Jahre Postcrossing",
-        "url": "https://www.mittendran.de/1-internationale-postkarten-convention-20-jahre-postcrossing/",
-        "excerpt": "Am 12. und 13. Juli 2025 feiert Postcrossing mit der ersten internationalen Postkartenmesse sein 20-jähriges Bestehen im Museum für Kommunikation Berlin. Hierzu werden Postcrosser:innen aus der ganzen Welt anreisen und…",
-        "date": "2025-07-07"
+        "title": "80 Jahre Lucky Luke im Museum für Kommunikation",
+        "url": "https://www.mittendran.de/80-jahre-lucky-luke-im-museum-fuer-kommunikation/",
+        "excerpt": "80 Jahre Lucky Luke im Museum für Kommunikation Yee-Haw! 80 Jahre Lucky Luke Große Geburtstagssause mit Lucky Luke Look-Alike-Wettbewerb, Gespräch mit Achdé und Jul, Quizz, Hobby-Horsing und Torte Am 31. Oktober 2026…",
+        "date": "2026-10-29"
       }
     },
     {
@@ -5377,8 +5429,19 @@
       },
       "properties": {
         "place": "Nachbarschaftstreff",
-        "count": 14,
+        "count": 15,
         "articles": [
+          {
+            "title": "„Leben im Alter“- Newsletter 11.26",
+            "url": "https://www.mittendran.de/leben-im-alter-newsletter-11-26/",
+            "excerpt": "„Leben im Alter“- Newsletter 11.26 Liebe Nachbar*innen und Akteur*innen, die Sonne verwöhnt uns in diesem goldenen Herbst und ich hoffe Sie können sich an noch vielen Sonnenstunden an der frischen Luft erfreuen. Am…",
+            "date": "2026-11-06",
+            "about_years": [
+              1938
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/leben-im-alter-newsletter-11-26/"
+          },
           {
             "title": "Leben im Alter“- Newsletter Oktober 2026",
             "url": "https://www.mittendran.de/leben-im-alter-newsletter-oktober-2026/",
@@ -5508,10 +5571,193 @@
         ],
         "place_url": "places/nachbarschaftstreff/",
         "place_slug": "nachbarschaftstreff",
-        "title": "Leben im Alter“- Newsletter Oktober 2026",
-        "url": "https://www.mittendran.de/leben-im-alter-newsletter-oktober-2026/",
-        "excerpt": "Liebe Nachbar*innen und Akteur*innen, der Spätsommer hat uns noch mit sommerlichen Temperaturen verwöhnt, bevor es nun langsam, aber sicher auf den Herbst zugeht. Ich hoffe Sie können die kühleren Temperaturen…",
-        "date": "2026-10-02"
+        "title": "„Leben im Alter“- Newsletter 11.26",
+        "url": "https://www.mittendran.de/leben-im-alter-newsletter-11-26/",
+        "excerpt": "„Leben im Alter“- Newsletter 11.26 Liebe Nachbar*innen und Akteur*innen, die Sonne verwöhnt uns in diesem goldenen Herbst und ich hoffe Sie können sich an noch vielen Sonnenstunden an der frischen Luft erfreuen. Am…",
+        "date": "2026-11-06"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3605,
+          52.5055
+        ]
+      },
+      "properties": {
+        "place": "Genthiner Straße",
+        "count": 13,
+        "articles": [
+          {
+            "title": "Stolpersteine",
+            "url": "https://www.mittendran.de/stolpersteine-2/",
+            "excerpt": "Stolpersteine An vielen Orten in Deutschland werden zum 9. November die Gedenksteine, sogenannte Stolpersteine, geputzt, die vor den letzten bekannten Wohnorten der NS-Oper verlegt wurden. Stolpersteine in der…",
+            "date": "2026-11-09",
+            "about_years": [],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/stolpersteine-2/"
+          },
+          {
+            "title": "Presseschau des Stadtteil-Forums Tiergarten Süd",
+            "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-2/",
+            "excerpt": "Presseschau des Stadtteil-Forums Tiergarten Süd Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/…",
+            "date": "2026-11-06",
+            "about_years": [],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-2/"
+          },
+          {
+            "title": "Die U-Bahn-Entlastungsstrecke über Kurfürstenstraße",
+            "url": "https://www.mittendran.de/die-u-bahn-entlastungsstrecke-ueber-kurfuerstenstrasse/",
+            "excerpt": "Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Aber er interessiert sich auch für die Geschichte des Berliner…",
+            "date": "2026-09-15",
+            "about_years": [
+              1863,
+              1902,
+              1905,
+              1907,
+              1908,
+              1910,
+              1915,
+              1926,
+              1931,
+              1942,
+              1976,
+              1977
+            ],
+            "rubrik": "Öffentlicher Raum und Verkehr",
+            "source_url": "https://www.mittendran.de/die-u-bahn-entlastungsstrecke-ueber-kurfuerstenstrasse/"
+          },
+          {
+            "title": "Stadtführungen in unserm Kiez",
+            "url": "https://www.mittendran.de/stadtfuehrungen-in-unserm-kiez/",
+            "excerpt": "Ralf Hausding, Gastautor von mittendran und mittendran.de, ist nah am Potsdamer Platz aufgewachsen. Er bietet Stadtführungen in ganz Berlin und manchmal auch in Tiergarten an. Es sollten nicht weniger als drei und…",
+            "date": "2026-07-28",
+            "about_years": [],
+            "rubrik": "Kiez-Geschichte",
+            "source_url": "https://www.mittendran.de/stadtfuehrungen-in-unserm-kiez/"
+          },
+          {
+            "title": "Wer erinnert sich an Josi?",
+            "url": "https://www.mittendran.de/wer-erinnert-sich-josi/",
+            "excerpt": "Dies ist eine Bitte an unsere Leser, sich das Foto anzuschauen und zu überlegen, ob sie sich an jemanden erinnern, der so ausgesehen haben könnte und Josi genannt wurde. Foto von „Josi“ um 1960 auf dem Gelände, auf dem…",
+            "date": "2026-07-02",
+            "about_years": [
+              1915,
+              1960,
+              1965
+            ],
+            "rubrik": "Kiez-Geschichte",
+            "source_url": "https://www.mittendran.de/wer-erinnert-sich-josi/"
+          },
+          {
+            "title": "Fahrradstraßen im Lützowkiez",
+            "url": "https://www.mittendran.de/fahrradstrassen-im-luetzowkiez/",
+            "excerpt": "Gastbeitrag von Jörg Borchardt Zum 23. April hatte das Straßen- und Grünflächenamt in die Aula der Allegro-Grundschule eingeladen. Sie wollten berichten und diskutieren, was in den Jahren 2027 und 2028 im Lützowkiez…",
+            "date": "2026-05-14",
+            "about_years": [],
+            "rubrik": "Bauen und Wohnen",
+            "source_url": "https://www.mittendran.de/fahrradstrassen-im-luetzowkiez/"
+          },
+          {
+            "title": "Post aus Tokio: Walter Benjamin (1892-1942) im Blumeshof",
+            "url": "https://www.mittendran.de/post-aus-tokyo-walter-benjamin-1892-1942-im-blumeshof/",
+            "excerpt": "Die Mail kam wirklich überraschend: Aus Tokio schrieb – in allerbestem Deutsch – ein emeritierter japanischer Professor, Jun Tanaka, und kommentierte eine soeben veröffentlichte Geschichte, die von den Bewohnern des…",
+            "date": "2026-02-22",
+            "about_years": [
+              1822,
+              1852,
+              1892,
+              1895,
+              1896,
+              1907,
+              1912,
+              1928,
+              1942,
+              2010
+            ],
+            "rubrik": "Kiez-Geschichte",
+            "source_url": "https://www.mittendran.de/post-aus-tokyo-walter-benjamin-1892-1942-im-blumeshof/"
+          },
+          {
+            "title": "Neue Läden im Kiez",
+            "url": "https://www.mittendran.de/neue-laeden-tiergarten-sued/",
+            "excerpt": "Dass im früheren Edeka-Markt in der Genthiner Straße diese Woche ein „Netto“-Supermarkt eröffnet hat, dürfte sich herumgesprochen haben. Und dass leider in der Potsdamer Straße einige Ladenlokale schon eine Weile leer…",
+            "date": "2025-05-15",
+            "about_years": [],
+            "rubrik": "Gewerbe und Gastronomie",
+            "source_url": "https://www.mittendran.de/neue-laeden-tiergarten-sued/"
+          },
+          {
+            "title": "Neue Straßenschilder",
+            "url": "https://www.mittendran.de/neue-strassenschilder/",
+            "excerpt": "In der Kurfürsten- und Genthiner Straße gibt es neue Straßenschilder, damit alle den Weg finden. (https://www.mittendran.de/wp-content/uploads/2024/07/2024-In-der-Kurfuerstenstrasse-Foto-eki-scaled.jpg) In der…",
+            "date": "2024-07-02",
+            "about_years": [],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/neue-strassenschilder/"
+          },
+          {
+            "title": "Zu Gast bei Möbel-Hübner: Interview mit Achim Türklitz am 4. April 2024",
+            "url": "https://www.mittendran.de/zu-gast-bei-moebel-huebner-interview-mit-achim-tuerklitz-4-april-2024/",
+            "excerpt": "Klar hatte ich mich vorbereitet, und wer weiß schon, wie das Interview gelaufen wäre, hätte ich das nicht, aber eigentlich habe ich meine Fragen kaum loswerden können und habe dennoch mehr erfahren, als ich erwartet…",
+            "date": "2024-04-12",
+            "about_years": [
+              1871,
+              1911,
+              1914,
+              1935,
+              1942,
+              1945,
+              1946,
+              1954,
+              1956,
+              1993,
+              2008
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/zu-gast-bei-moebel-huebner-interview-mit-achim-tuerklitz-4-april-2024/"
+          },
+          {
+            "title": "Teilsperrung der Kurfürstenstraße",
+            "url": "https://www.mittendran.de/teilsperrung-der-kurfuerstenstrasse/",
+            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/11/2023-Sperrung-der-Kurfuerstenstrasse-im-Bereich-der-Kreuzung-zur-Genthiner-Strasse-scaled.jpg) Sperrung der Kurfürstenstraße im Bereich der Kreuzung zur Genthiner…",
+            "date": "2023-11-16",
+            "about_years": [],
+            "rubrik": "Miteinander",
+            "source_url": "https://www.mittendran.de/teilsperrung-der-kurfuerstenstrasse/"
+          },
+          {
+            "title": "Gedenkplakette am Haus der ehemaligen Galerie Goldschmidt-Wallerstein",
+            "url": "https://www.mittendran.de/gedenkplakette-haus-der-ehemaligen-galerie-goldschmidt-wallerstein/",
+            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/06/IMG_6994.jpeg) Teilnehmende der Gedenkveranstaltung Foto FP Rund 45 Personen trafen sich am Sonntag, 25. Juni 2023, vor dem Haus in der ehemaligen Privatstraße…",
+            "date": "2023-06-25",
+            "about_years": [
+              1920,
+              1934,
+              1935
+            ],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/gedenkplakette-haus-der-ehemaligen-galerie-goldschmidt-wallerstein/"
+          },
+          {
+            "title": "Dreharbeiten für „Berlin Nobody“",
+            "url": "https://www.mittendran.de/dreharbeiten-fuer-berlin-nobody/",
+            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/09/2022-Berlin-Nobody-scaled.jpg) „Berlin Nobody“ (Foto:eki) Im Bereich der Genthiner Straße/Kurfürstenstraße/An der Apostelkirche gibt es noch bis zum 5. Oktober 2022…",
+            "date": "2022-09-26",
+            "about_years": [],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/dreharbeiten-fuer-berlin-nobody/"
+          }
+        ],
+        "place_url": "places/genthiner-strasse/",
+        "place_slug": "genthiner-strasse",
+        "title": "Stolpersteine",
+        "url": "https://www.mittendran.de/stolpersteine-2/",
+        "excerpt": "Stolpersteine An vielen Orten in Deutschland werden zum 9. November die Gedenksteine, sogenannte Stolpersteine, geputzt, die vor den letzten bekannten Wohnorten der NS-Oper verlegt wurden. Stolpersteine in der…",
+        "date": "2026-11-09"
       }
     },
     {
@@ -5704,6 +5950,153 @@
         "url": "https://www.mittendran.de/die-u-bahn-entlastungsstrecke-ueber-kurfuerstenstrasse/",
         "excerpt": "Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Aber er interessiert sich auch für die Geschichte des Berliner…",
         "date": "2026-09-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.35373,
+          52.499597
+        ]
+      },
+      "properties": {
+        "place": "Nollendorfplatz",
+        "count": 13,
+        "articles": [
+          {
+            "title": "Presseschau des Stadtteil-Forums Tiergarten Süd",
+            "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-2/",
+            "excerpt": "Presseschau des Stadtteil-Forums Tiergarten Süd Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/…",
+            "date": "2026-11-06",
+            "about_years": [],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-2/"
+          },
+          {
+            "title": "Ausstellung „Begegnungen“ in der Zwölf-Apostel-Kirche",
+            "url": "https://www.mittendran.de/ausstellung-begegnungen-der-zwoelf-apostel-kirche/",
+            "excerpt": "„Begegnungen“ Malerei und Plastik, Elke Bohm und Manfred Koch A Chorus Line ©️Manfred Koch Die Zwölf-Apostel-Kirchengemeinde lädt ein: Ausstellung vom 12. Oktober bis 2. Dezember 2025 Zwölf-Apostel-Kirche, Schöneberg…",
+            "date": "2025-10-09",
+            "about_years": [],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/ausstellung-begegnungen-der-zwoelf-apostel-kirche/"
+          },
+          {
+            "title": "„NO6“ der Neubau am Nollendorfplatz direkt neben dem Metropol",
+            "url": "https://www.mittendran.de/no6-der-neubau-nollendorfplatz-direkt-neben-dem-metropol/",
+            "excerpt": "Hier stand lange eine Spielhalle, bis 2021 in die leerstehenden Räume die Street-Art-Ausstellung „Game Over“ einzog. ©eki Die Abrissarbeiten an dem Gebäude Nollendorfplatz 6 haben jetzt begonnen. Nollendorfplatz 6 wird…",
+            "date": "2025-04-22",
+            "about_years": [],
+            "rubrik": "Bauen und Wohnen",
+            "source_url": "https://www.mittendran.de/no6-der-neubau-nollendorfplatz-direkt-neben-dem-metropol/"
+          },
+          {
+            "title": "Ein erleuchtender Abend: Orgel – Lichtinszenierung – Lesung",
+            "url": "https://www.mittendran.de/ein-erleuchtender-abend-orgel-lichtinszenierung-lesung/",
+            "excerpt": "Gastbeitrag von Rita Preuß – Pressereferentin Zwölf-Apostel-Kirche „Am Sonntag, 29. September 2024 ab 20 Uhr geben die Klänge der Orgel, gespielt und ausgewählt von der Kantorin Hyelin Hur, den Rhythmus einer neuen…",
+            "date": "2024-09-24",
+            "about_years": [
+              1924,
+              1933
+            ],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/ein-erleuchtender-abend-orgel-lichtinszenierung-lesung/"
+          },
+          {
+            "title": "Kidical Mass am 21. September",
+            "url": "https://www.mittendran.de/kidical-mass-21-september/",
+            "excerpt": "Einladung zur Kinder-Fahrrad-Demo Am 21. September ist wieder Kidical Mass in Schöneberg. Ab 13 Uhr fahren wir für sichere Schulwege, sichere Radwege und Tempo 30, so dass vor allem Kinder sowie alle anderen Menschen…",
+            "date": "2024-09-16",
+            "about_years": [],
+            "rubrik": "Kinder, Heranwachsende, Schule",
+            "source_url": "https://www.mittendran.de/kidical-mass-21-september/"
+          },
+          {
+            "title": "Nur gemeinsam stark! – für Demokratie und Vielfalt!",
+            "url": "https://www.mittendran.de/nur-gemeinsam-stark-fuer-demokratie-und-vielfalt-2/",
+            "excerpt": "Der 46. CSD Berlin I Berlin Pride wird unter dem Motto „Nur gemeinsam stark! – für Demokratie und Vielfalt!“ vom Vorstand des Berliner CSD e.V. am Samstag, den 27. Juli ab 11:30 Uhr an der Leipziger Straße eröffnet…",
+            "date": "2024-07-25",
+            "about_years": [],
+            "rubrik": "Miteinander",
+            "source_url": "https://www.mittendran.de/nur-gemeinsam-stark-fuer-demokratie-und-vielfalt-2/"
+          },
+          {
+            "title": "Neuer Vorgarten mit elf Bäumen",
+            "url": "https://www.mittendran.de/neuer-vorgarten-mit-elf-baeumen/",
+            "excerpt": "Die Arbeiten am Vorgarten der „Creditreform Berlin Brandenburg Wolfram GmbH & Co. KG“ (Creditreform C) in der Karl-Heinrich-Ulrichs Straße 1 und um die Ecke in der Maienstraße sind abgeschlossen. Elf neue Bäume wurden…",
+            "date": "2024-07-15",
+            "about_years": [],
+            "rubrik": "Öffentlicher Raum und Verkehr",
+            "source_url": "https://www.mittendran.de/neuer-vorgarten-mit-elf-baeumen/"
+          },
+          {
+            "title": "Die ersten Schneeflocken machen Lust auf Weihnachtsmärkte",
+            "url": "https://www.mittendran.de/die-ersten-schneeflocken-machen-lust-auf-weihnachtsmaerkte/",
+            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/11/2023-Winterwelt-Rodelbahn-Foto-eki-scaled.jpg) Winterwelt Rodelbahn Am Potsdamer Platz ist es schon so weit. Die Winterwelt lockt seit einigen Wochen große und…",
+            "date": "2023-11-26",
+            "about_years": [],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/die-ersten-schneeflocken-machen-lust-auf-weihnachtsmaerkte/"
+          },
+          {
+            "title": "Ein neu gestalteter Vorgarten",
+            "url": "https://www.mittendran.de/ein-neu-gestalteter-vorgarten/",
+            "excerpt": "Das markante Gebäude gegenüber dem U-Bahnhof Nollendorfplatz befindet sich an der Ecke zur Karl-Heinrich-Ulrichs-Straße. „Creditreform C“ „Creditreform C“ ist oben an der Fassade und auf den blauen Fahnen an der Seite…",
+            "date": "2023-07-26",
+            "about_years": [],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/ein-neu-gestalteter-vorgarten/"
+          },
+          {
+            "title": "„Gleiche Rechte für Ungleiche – weltweit!“",
+            "url": "https://www.mittendran.de/gleiche-rechte-fuer-ungleiche-weltweit/",
+            "excerpt": "Lesbisch-schwules Straßenfest 2022 (Foto:eki) Unter diesem Motto veranstaltet der Regenbogenfonds e.V. (http://www.regenbogenfonds.de/) zum 29. Mal Europas größtes Lesbisch-schwules Stadtfest im traditionellen…",
+            "date": "2023-07-10",
+            "about_years": [],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/gleiche-rechte-fuer-ungleiche-weltweit/"
+          },
+          {
+            "title": "Süß und doof und ohne Portemonnaie",
+            "url": "https://www.mittendran.de/suess-und-doof-und-ohne-portemonnaie/",
+            "excerpt": "Pointiert & zeitlos, verrückt, verzaubernd, lebensnah – die Friedrich Hollaender-Revue … anders präsentiert von Dirk Rave (Akkordeon/Gesang), Chanson-Nette und Henry Nandzik. Regie: Isabelle Gensior FRIEDRICH…",
+            "date": "2023-02-15",
+            "about_years": [
+              1896,
+              1933,
+              1955,
+              1976
+            ],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/suess-und-doof-und-ohne-portemonnaie/"
+          },
+          {
+            "title": "Am 25. September 2022 steht die Hauptstadt ganz im Zeichen eines der größten Lauf-Events der Welt: dem 48. Berlin-Marathon",
+            "url": "https://www.mittendran.de/25-september-2022-steht-die-hauptstadt-ganz-im-zeichen-eines-der-groessten-lauf-events-der-welt-dem-48-berlin-marathon/",
+            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/09/P1090259-3.-Platz-scaled.jpg) Kenenisa Bekele, Äthiopien, 3. Platz Berlin-Marathon 2021, Gesamtzeit: 2:06:47 Über 40.000 Teilnehmer*innen sind jährlich beim…",
+            "date": "2022-09-19",
+            "about_years": [],
+            "rubrik": "Sport und Freizeit",
+            "source_url": "https://www.mittendran.de/25-september-2022-steht-die-hauptstadt-ganz-im-zeichen-eines-der-groessten-lauf-events-der-welt-dem-48-berlin-marathon/"
+          },
+          {
+            "title": "Baustellen am Gleisdreieck: Einschränkungen der U1, U2 und U3",
+            "url": "https://www.mittendran.de/baustellen-gleisdreieck-einschraenkungen-der-u1-u2-und-u3/",
+            "excerpt": "Auf Fahrgäste der Berliner U-Bahn-Linien 1, 2 und 3 kommen in den nächsten Wochen Einschränkungen zu. Grund sind Bauarbeiten am U-Bahnhof Gleisdreieck vom 15. August bis zum 6. November. Sie sollen in drei Abschnitten…",
+            "date": "2022-08-09",
+            "about_years": [],
+            "rubrik": "Öffentlicher Raum und Verkehr",
+            "source_url": "https://www.mittendran.de/baustellen-gleisdreieck-einschraenkungen-der-u1-u2-und-u3/"
+          }
+        ],
+        "place_url": "places/nollendorfplatz/",
+        "place_slug": "nollendorfplatz",
+        "title": "Presseschau des Stadtteil-Forums Tiergarten Süd",
+        "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-2/",
+        "excerpt": "Presseschau des Stadtteil-Forums Tiergarten Süd Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/…",
+        "date": "2026-11-06"
       }
     },
     {
@@ -6069,273 +6462,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.35373,
-          52.499597
-        ]
-      },
-      "properties": {
-        "place": "Nollendorfplatz",
-        "count": 12,
-        "articles": [
-          {
-            "title": "Ausstellung „Begegnungen“ in der Zwölf-Apostel-Kirche",
-            "url": "https://www.mittendran.de/ausstellung-begegnungen-der-zwoelf-apostel-kirche/",
-            "excerpt": "„Begegnungen“ Malerei und Plastik, Elke Bohm und Manfred Koch A Chorus Line ©️Manfred Koch Die Zwölf-Apostel-Kirchengemeinde lädt ein: Ausstellung vom 12. Oktober bis 2. Dezember 2025 Zwölf-Apostel-Kirche, Schöneberg…",
-            "date": "2025-10-09",
-            "about_years": [],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/ausstellung-begegnungen-der-zwoelf-apostel-kirche/"
-          },
-          {
-            "title": "„NO6“ der Neubau am Nollendorfplatz direkt neben dem Metropol",
-            "url": "https://www.mittendran.de/no6-der-neubau-nollendorfplatz-direkt-neben-dem-metropol/",
-            "excerpt": "Hier stand lange eine Spielhalle, bis 2021 in die leerstehenden Räume die Street-Art-Ausstellung „Game Over“ einzog. ©eki Die Abrissarbeiten an dem Gebäude Nollendorfplatz 6 haben jetzt begonnen. Nollendorfplatz 6 wird…",
-            "date": "2025-04-22",
-            "about_years": [],
-            "rubrik": "Bauen und Wohnen",
-            "source_url": "https://www.mittendran.de/no6-der-neubau-nollendorfplatz-direkt-neben-dem-metropol/"
-          },
-          {
-            "title": "Ein erleuchtender Abend: Orgel – Lichtinszenierung – Lesung",
-            "url": "https://www.mittendran.de/ein-erleuchtender-abend-orgel-lichtinszenierung-lesung/",
-            "excerpt": "Gastbeitrag von Rita Preuß – Pressereferentin Zwölf-Apostel-Kirche „Am Sonntag, 29. September 2024 ab 20 Uhr geben die Klänge der Orgel, gespielt und ausgewählt von der Kantorin Hyelin Hur, den Rhythmus einer neuen…",
-            "date": "2024-09-24",
-            "about_years": [
-              1924,
-              1933
-            ],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/ein-erleuchtender-abend-orgel-lichtinszenierung-lesung/"
-          },
-          {
-            "title": "Kidical Mass am 21. September",
-            "url": "https://www.mittendran.de/kidical-mass-21-september/",
-            "excerpt": "Einladung zur Kinder-Fahrrad-Demo Am 21. September ist wieder Kidical Mass in Schöneberg. Ab 13 Uhr fahren wir für sichere Schulwege, sichere Radwege und Tempo 30, so dass vor allem Kinder sowie alle anderen Menschen…",
-            "date": "2024-09-16",
-            "about_years": [],
-            "rubrik": "Kinder, Heranwachsende, Schule",
-            "source_url": "https://www.mittendran.de/kidical-mass-21-september/"
-          },
-          {
-            "title": "Nur gemeinsam stark! – für Demokratie und Vielfalt!",
-            "url": "https://www.mittendran.de/nur-gemeinsam-stark-fuer-demokratie-und-vielfalt-2/",
-            "excerpt": "Der 46. CSD Berlin I Berlin Pride wird unter dem Motto „Nur gemeinsam stark! – für Demokratie und Vielfalt!“ vom Vorstand des Berliner CSD e.V. am Samstag, den 27. Juli ab 11:30 Uhr an der Leipziger Straße eröffnet…",
-            "date": "2024-07-25",
-            "about_years": [],
-            "rubrik": "Miteinander",
-            "source_url": "https://www.mittendran.de/nur-gemeinsam-stark-fuer-demokratie-und-vielfalt-2/"
-          },
-          {
-            "title": "Neuer Vorgarten mit elf Bäumen",
-            "url": "https://www.mittendran.de/neuer-vorgarten-mit-elf-baeumen/",
-            "excerpt": "Die Arbeiten am Vorgarten der „Creditreform Berlin Brandenburg Wolfram GmbH & Co. KG“ (Creditreform C) in der Karl-Heinrich-Ulrichs Straße 1 und um die Ecke in der Maienstraße sind abgeschlossen. Elf neue Bäume wurden…",
-            "date": "2024-07-15",
-            "about_years": [],
-            "rubrik": "Öffentlicher Raum und Verkehr",
-            "source_url": "https://www.mittendran.de/neuer-vorgarten-mit-elf-baeumen/"
-          },
-          {
-            "title": "Die ersten Schneeflocken machen Lust auf Weihnachtsmärkte",
-            "url": "https://www.mittendran.de/die-ersten-schneeflocken-machen-lust-auf-weihnachtsmaerkte/",
-            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/11/2023-Winterwelt-Rodelbahn-Foto-eki-scaled.jpg) Winterwelt Rodelbahn Am Potsdamer Platz ist es schon so weit. Die Winterwelt lockt seit einigen Wochen große und…",
-            "date": "2023-11-26",
-            "about_years": [],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/die-ersten-schneeflocken-machen-lust-auf-weihnachtsmaerkte/"
-          },
-          {
-            "title": "Ein neu gestalteter Vorgarten",
-            "url": "https://www.mittendran.de/ein-neu-gestalteter-vorgarten/",
-            "excerpt": "Das markante Gebäude gegenüber dem U-Bahnhof Nollendorfplatz befindet sich an der Ecke zur Karl-Heinrich-Ulrichs-Straße. „Creditreform C“ „Creditreform C“ ist oben an der Fassade und auf den blauen Fahnen an der Seite…",
-            "date": "2023-07-26",
-            "about_years": [],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/ein-neu-gestalteter-vorgarten/"
-          },
-          {
-            "title": "„Gleiche Rechte für Ungleiche – weltweit!“",
-            "url": "https://www.mittendran.de/gleiche-rechte-fuer-ungleiche-weltweit/",
-            "excerpt": "Lesbisch-schwules Straßenfest 2022 (Foto:eki) Unter diesem Motto veranstaltet der Regenbogenfonds e.V. (http://www.regenbogenfonds.de/) zum 29. Mal Europas größtes Lesbisch-schwules Stadtfest im traditionellen…",
-            "date": "2023-07-10",
-            "about_years": [],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/gleiche-rechte-fuer-ungleiche-weltweit/"
-          },
-          {
-            "title": "Süß und doof und ohne Portemonnaie",
-            "url": "https://www.mittendran.de/suess-und-doof-und-ohne-portemonnaie/",
-            "excerpt": "Pointiert & zeitlos, verrückt, verzaubernd, lebensnah – die Friedrich Hollaender-Revue … anders präsentiert von Dirk Rave (Akkordeon/Gesang), Chanson-Nette und Henry Nandzik. Regie: Isabelle Gensior FRIEDRICH…",
-            "date": "2023-02-15",
-            "about_years": [
-              1896,
-              1933,
-              1955,
-              1976
-            ],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/suess-und-doof-und-ohne-portemonnaie/"
-          },
-          {
-            "title": "Am 25. September 2022 steht die Hauptstadt ganz im Zeichen eines der größten Lauf-Events der Welt: dem 48. Berlin-Marathon",
-            "url": "https://www.mittendran.de/25-september-2022-steht-die-hauptstadt-ganz-im-zeichen-eines-der-groessten-lauf-events-der-welt-dem-48-berlin-marathon/",
-            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/09/P1090259-3.-Platz-scaled.jpg) Kenenisa Bekele, Äthiopien, 3. Platz Berlin-Marathon 2021, Gesamtzeit: 2:06:47 Über 40.000 Teilnehmer*innen sind jährlich beim…",
-            "date": "2022-09-19",
-            "about_years": [],
-            "rubrik": "Sport und Freizeit",
-            "source_url": "https://www.mittendran.de/25-september-2022-steht-die-hauptstadt-ganz-im-zeichen-eines-der-groessten-lauf-events-der-welt-dem-48-berlin-marathon/"
-          },
-          {
-            "title": "Baustellen am Gleisdreieck: Einschränkungen der U1, U2 und U3",
-            "url": "https://www.mittendran.de/baustellen-gleisdreieck-einschraenkungen-der-u1-u2-und-u3/",
-            "excerpt": "Auf Fahrgäste der Berliner U-Bahn-Linien 1, 2 und 3 kommen in den nächsten Wochen Einschränkungen zu. Grund sind Bauarbeiten am U-Bahnhof Gleisdreieck vom 15. August bis zum 6. November. Sie sollen in drei Abschnitten…",
-            "date": "2022-08-09",
-            "about_years": [],
-            "rubrik": "Öffentlicher Raum und Verkehr",
-            "source_url": "https://www.mittendran.de/baustellen-gleisdreieck-einschraenkungen-der-u1-u2-und-u3/"
-          }
-        ],
-        "place_url": "places/nollendorfplatz/",
-        "place_slug": "nollendorfplatz",
-        "title": "Ausstellung „Begegnungen“ in der Zwölf-Apostel-Kirche",
-        "url": "https://www.mittendran.de/ausstellung-begegnungen-der-zwoelf-apostel-kirche/",
-        "excerpt": "„Begegnungen“ Malerei und Plastik, Elke Bohm und Manfred Koch A Chorus Line ©️Manfred Koch Die Zwölf-Apostel-Kirchengemeinde lädt ein: Ausstellung vom 12. Oktober bis 2. Dezember 2025 Zwölf-Apostel-Kirche, Schöneberg…",
-        "date": "2025-10-09"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.363429,
-          52.50376
-        ]
-      },
-      "properties": {
-        "place": "Bibliothek Tiergarten-Süd",
-        "count": 11,
-        "articles": [
-          {
-            "title": "Die Bibliothek Tiergarten-Süd mit neuen Angeboten",
-            "url": "https://www.mittendran.de/die-bibliothek-tiergarten-sued-mit-neuen-angeboten/",
-            "excerpt": "14.04.2025, 16.30 Uhr : Hase und Igel – Ein Erzähltheater mit Objekten aus dem Nähkästchen Der Hase und Familie Igel sind Nachbarn und machen sich das Leben nicht immer leicht. Den Hasen stört der Lärm der Igelkinder…",
-            "date": "2025-04-12",
-            "about_years": [],
-            "rubrik": "Kiez mit Kind",
-            "source_url": "https://www.mittendran.de/die-bibliothek-tiergarten-sued-mit-neuen-angeboten/"
-          },
-          {
-            "title": "Kiez-Adventskalender",
-            "url": "https://www.mittendran.de/kiez-adventskalender/",
-            "excerpt": "Antje Wenzel aus der Stadtbibliothek Tiergarten-Süd und die Stadtteilkoordination haben einen Adventskalender mit 24 kostenlosen Events aus dem Kiez gebastelt. Wer ihn noch nicht hat, kann sich den Kiez-Adventskalender…",
-            "date": "2024-11-29",
-            "about_years": [],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/kiez-adventskalender/"
-          },
-          {
-            "title": "Tausch- und Verschenkemarkt in der Bibliothek",
-            "url": "https://www.mittendran.de/tausch-und-verschenkemarkt-im-nachbarschaftstreff-2/",
-            "excerpt": "Kleidertausch mit Upcycling – am 30.09., 28.10., und 25.11. jeweils von 12.30 – 17.30 Uhr Unter dem Motto „Tauschen statt Kaufen“ veranstaltet die Bibliothek Tiergarten-Süd zusammen mit dem Kooperationspartner…",
-            "date": "2024-09-25",
-            "about_years": [],
-            "rubrik": "Miteinander",
-            "source_url": "https://www.mittendran.de/tausch-und-verschenkemarkt-im-nachbarschaftstreff-2/"
-          },
-          {
-            "title": "Upcycling-Workshops in der Bibliothek Tiergarten-Süd",
-            "url": "https://www.mittendran.de/upcycling-workshops-der-bibliothek-tiergarten-sued/",
-            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2024/04/Upcycling-Workshops-scaled.jpg) Ab sofort und bis Ende Oktober (mit Ausnahme der Sommerferien) findet jeden Dienstag ein Upcycling-Workshop zu verschiedenen Themen…",
-            "date": "2024-04-16",
-            "about_years": [],
-            "rubrik": "Miteinander",
-            "source_url": "https://www.mittendran.de/upcycling-workshops-der-bibliothek-tiergarten-sued/"
-          },
-          {
-            "title": "Neues aus der Bibliothek: Laptops, Games, Kleidertausch",
-            "url": "https://www.mittendran.de/neues-aus-der-bibliothek-laptops-games-kleidertausch/",
-            "excerpt": "Die Bibliothek Tiergarten-Süd ist eine der kleinsten öffentlichen Bibliotheken im Bezirk Mitte, bietet mit ihrem Bestand aber eine große Auswahl an. Neben Büchern, Hörbüchern und Filmen können seit 2020 auch Werkzeuge…",
-            "date": "2024-03-05",
-            "about_years": [],
-            "rubrik": "Kinder, Heranwachsende, Schule",
-            "source_url": "https://www.mittendran.de/neues-aus-der-bibliothek-laptops-games-kleidertausch/"
-          },
-          {
-            "title": "Die Bibliothek lädt ein",
-            "url": "https://www.mittendran.de/die-bibliothek-laedt-ein/",
-            "excerpt": "„Emil rettet das Weihnachtsfest“ mit Ich & Herr Meyer, Termin-Info hier (https://www.mittendran.de/veranstaltungen/emil-rettet-das-weihnachstfest/) Bei diesem Mitmach-Märchen für Kinder ab drei Jahren steht Emil vor…",
-            "date": "2023-11-27",
-            "about_years": [],
-            "rubrik": "Kinder, Heranwachsende, Schule",
-            "source_url": "https://www.mittendran.de/die-bibliothek-laedt-ein/"
-          },
-          {
-            "title": "Familiennachmittag in der Bibliothek am 17. Oktober",
-            "url": "https://www.mittendran.de/familiennachmittag-der-bibliothek-17-oktober/",
-            "excerpt": "Die Bibliothek Tiergarten Süd plant ab Oktober jeden Monat einen Familiennachmittag in der Bibliothek. Start ist am Dienstag, 17.10.2023, ab 16.15 Uhr: Familiennachmittag – Gespenster An diesem Tag läutet die…",
-            "date": "2023-10-12",
-            "about_years": [],
-            "rubrik": "Miteinander",
-            "source_url": "https://www.mittendran.de/familiennachmittag-der-bibliothek-17-oktober/"
-          },
-          {
-            "title": "Viel los in der Bibliothek!",
-            "url": "https://www.mittendran.de/viel-los-der-bibliothek/",
-            "excerpt": "Die Bibliothek Tiergarten-Süd hat im September ein abwechslungsreiches Programm für Groß und Klein auf die Beine gestellt. Kommt gerne vorbei! Freitag, 15.09.2023 von 15.45-17.45 Uhr: Licht an, Licht aus?! Planspiel…",
-            "date": "2023-08-31",
-            "about_years": [],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/viel-los-der-bibliothek/"
-          },
-          {
-            "title": "Freiwilliges soziales Engagement in Nachbarschaften",
-            "url": "https://www.mittendran.de/freiwilliges-soziales-engagement-nachbarschaften/",
-            "excerpt": "Das Bezirksamt Mitte hat in seiner Sitzung am 14. März 2023 beschlossen, in diesem Jahr 27 Maßnahmen mit insgesamt 75.000 Euro zu fördern. Die Mittel wurden von der Senatsverwaltung für Stadtentwicklung, Bauen und…",
-            "date": "2023-03-24",
-            "about_years": [],
-            "rubrik": "Miteinander",
-            "source_url": "https://www.mittendran.de/freiwilliges-soziales-engagement-nachbarschaften/"
-          },
-          {
-            "title": "Saatgut-Aktionstage in der  Bibliothek Tiergarten Süd",
-            "url": "https://www.mittendran.de/saatgut-aktionstage-der-bibliothek-tiergarten-sued/",
-            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/02/Foto-Saatgutboerse.jpeg) Vom 22.-24.2. finden in der Bibliothek Tiergarten-Süd die Saatgut-Aktionstage in Kooperation mit Seedsharing statt. Infos…",
-            "date": "2023-02-06",
-            "about_years": [],
-            "rubrik": "Miteinander",
-            "source_url": "https://www.mittendran.de/saatgut-aktionstage-der-bibliothek-tiergarten-sued/"
-          },
-          {
-            "title": "Stadtteil-Bibliothek sucht Unterstützung",
-            "url": "https://www.mittendran.de/stadtteil-bibliothek-sucht-unterstuetzung/",
-            "excerpt": "Betreuung der Hausaufgabenhilfe gesucht! (https://www.mittendran.de/wp-content/uploads/2023/01/Hausaufgabenhilfe.jpg)Die Bibliothek Tiergarten-Süd sucht ab sofort eine Nachfolge für die Hausaufgabenhilfe. Betreut…",
-            "date": "2023-01-05",
-            "about_years": [],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/stadtteil-bibliothek-sucht-unterstuetzung/"
-          }
-        ],
-        "place_url": "places/bibliothek-tiergarten-sued/",
-        "place_slug": "bibliothek-tiergarten-sued",
-        "title": "Die Bibliothek Tiergarten-Süd mit neuen Angeboten",
-        "url": "https://www.mittendran.de/die-bibliothek-tiergarten-sued-mit-neuen-angeboten/",
-        "excerpt": "14.04.2025, 16.30 Uhr : Hase und Igel – Ein Erzähltheater mit Objekten aus dem Nähkästchen Der Hase und Familie Igel sind Nachbarn und machen sich das Leben nicht immer leicht. Den Hasen stört der Lärm der Igelkinder…",
-        "date": "2025-04-12"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.3705,
           52.5008
         ]
       },
       "properties": {
         "place": "Flottwellstraße",
-        "count": 11,
+        "count": 12,
         "articles": [
+          {
+            "title": "Endlich ist die neue Ausgabe 52 da!",
+            "url": "https://www.mittendran.de/endlich-ist-die-neue-ausgabe-52-da/",
+            "excerpt": "Endlich ist die neue Ausgabe 52 da! Sie und wir haben lange warten müssen, aber nun ist das neue Heft erschienen. Sie finden es in Supermärkten und Kneipen, auch in einigen Läden…",
+            "date": "2026-11-06",
+            "about_years": [],
+            "rubrik": "In eigener Sache",
+            "source_url": "https://www.mittendran.de/endlich-ist-die-neue-ausgabe-52-da/"
+          },
           {
             "title": "Straßenbahn am Potsdamer Platz",
             "url": "https://www.mittendran.de/strassenbahn-potsdamer-platz/",
@@ -6473,10 +6616,10 @@
         ],
         "place_url": "places/flottwellstrasse/",
         "place_slug": "flottwellstrasse",
-        "title": "Straßenbahn am Potsdamer Platz",
-        "url": "https://www.mittendran.de/strassenbahn-potsdamer-platz/",
-        "excerpt": "Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach Spandau verschlagen…",
-        "date": "2026-05-20"
+        "title": "Endlich ist die neue Ausgabe 52 da!",
+        "url": "https://www.mittendran.de/endlich-ist-die-neue-ausgabe-52-da/",
+        "excerpt": "Endlich ist die neue Ausgabe 52 da! Sie und wir haben lange warten müssen, aber nun ist das neue Heft erschienen. Sie finden es in Supermärkten und Kneipen, auch in einigen Läden…",
+        "date": "2026-11-06"
       }
     },
     {
@@ -6484,164 +6627,120 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.360355,
-          52.505465
+          13.363429,
+          52.50376
         ]
       },
       "properties": {
-        "place": "Genthiner Straße",
+        "place": "Bibliothek Tiergarten-Süd",
         "count": 11,
         "articles": [
           {
-            "title": "Die U-Bahn-Entlastungsstrecke über Kurfürstenstraße",
-            "url": "https://www.mittendran.de/die-u-bahn-entlastungsstrecke-ueber-kurfuerstenstrasse/",
-            "excerpt": "Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Aber er interessiert sich auch für die Geschichte des Berliner…",
-            "date": "2026-09-15",
-            "about_years": [
-              1863,
-              1902,
-              1905,
-              1907,
-              1908,
-              1910,
-              1915,
-              1926,
-              1931,
-              1942,
-              1976,
-              1977
-            ],
-            "rubrik": "Öffentlicher Raum und Verkehr",
-            "source_url": "https://www.mittendran.de/die-u-bahn-entlastungsstrecke-ueber-kurfuerstenstrasse/"
-          },
-          {
-            "title": "Stadtführungen in unserm Kiez",
-            "url": "https://www.mittendran.de/stadtfuehrungen-in-unserm-kiez/",
-            "excerpt": "Ralf Hausding, Gastautor von mittendran und mittendran.de, ist nah am Potsdamer Platz aufgewachsen. Er bietet Stadtführungen in ganz Berlin und manchmal auch in Tiergarten an. Es sollten nicht weniger als drei und…",
-            "date": "2026-07-28",
+            "title": "Die Bibliothek Tiergarten-Süd mit neuen Angeboten",
+            "url": "https://www.mittendran.de/die-bibliothek-tiergarten-sued-mit-neuen-angeboten/",
+            "excerpt": "14.04.2025, 16.30 Uhr : Hase und Igel – Ein Erzähltheater mit Objekten aus dem Nähkästchen Der Hase und Familie Igel sind Nachbarn und machen sich das Leben nicht immer leicht. Den Hasen stört der Lärm der Igelkinder…",
+            "date": "2025-04-12",
             "about_years": [],
-            "rubrik": "Kiez-Geschichte",
-            "source_url": "https://www.mittendran.de/stadtfuehrungen-in-unserm-kiez/"
+            "rubrik": "Kiez mit Kind",
+            "source_url": "https://www.mittendran.de/die-bibliothek-tiergarten-sued-mit-neuen-angeboten/"
           },
           {
-            "title": "Wer erinnert sich an Josi?",
-            "url": "https://www.mittendran.de/wer-erinnert-sich-josi/",
-            "excerpt": "Dies ist eine Bitte an unsere Leser, sich das Foto anzuschauen und zu überlegen, ob sie sich an jemanden erinnern, der so ausgesehen haben könnte und Josi genannt wurde. Foto von „Josi“ um 1960 auf dem Gelände, auf dem…",
-            "date": "2026-07-02",
-            "about_years": [
-              1915,
-              1960,
-              1965
-            ],
-            "rubrik": "Kiez-Geschichte",
-            "source_url": "https://www.mittendran.de/wer-erinnert-sich-josi/"
-          },
-          {
-            "title": "Fahrradstraßen im Lützowkiez",
-            "url": "https://www.mittendran.de/fahrradstrassen-im-luetzowkiez/",
-            "excerpt": "Gastbeitrag von Jörg Borchardt Zum 23. April hatte das Straßen- und Grünflächenamt in die Aula der Allegro-Grundschule eingeladen. Sie wollten berichten und diskutieren, was in den Jahren 2027 und 2028 im Lützowkiez…",
-            "date": "2026-05-14",
-            "about_years": [],
-            "rubrik": "Bauen und Wohnen",
-            "source_url": "https://www.mittendran.de/fahrradstrassen-im-luetzowkiez/"
-          },
-          {
-            "title": "Post aus Tokio: Walter Benjamin (1892-1942) im Blumeshof",
-            "url": "https://www.mittendran.de/post-aus-tokyo-walter-benjamin-1892-1942-im-blumeshof/",
-            "excerpt": "Die Mail kam wirklich überraschend: Aus Tokio schrieb – in allerbestem Deutsch – ein emeritierter japanischer Professor, Jun Tanaka, und kommentierte eine soeben veröffentlichte Geschichte, die von den Bewohnern des…",
-            "date": "2026-02-22",
-            "about_years": [
-              1822,
-              1852,
-              1892,
-              1895,
-              1896,
-              1907,
-              1912,
-              1928,
-              1942,
-              2010
-            ],
-            "rubrik": "Kiez-Geschichte",
-            "source_url": "https://www.mittendran.de/post-aus-tokyo-walter-benjamin-1892-1942-im-blumeshof/"
-          },
-          {
-            "title": "Neue Läden im Kiez",
-            "url": "https://www.mittendran.de/neue-laeden-tiergarten-sued/",
-            "excerpt": "Dass im früheren Edeka-Markt in der Genthiner Straße diese Woche ein „Netto“-Supermarkt eröffnet hat, dürfte sich herumgesprochen haben. Und dass leider in der Potsdamer Straße einige Ladenlokale schon eine Weile leer…",
-            "date": "2025-05-15",
-            "about_years": [],
-            "rubrik": "Gewerbe und Gastronomie",
-            "source_url": "https://www.mittendran.de/neue-laeden-tiergarten-sued/"
-          },
-          {
-            "title": "Neue Straßenschilder",
-            "url": "https://www.mittendran.de/neue-strassenschilder/",
-            "excerpt": "In der Kurfürsten- und Genthiner Straße gibt es neue Straßenschilder, damit alle den Weg finden. (https://www.mittendran.de/wp-content/uploads/2024/07/2024-In-der-Kurfuerstenstrasse-Foto-eki-scaled.jpg) In der…",
-            "date": "2024-07-02",
+            "title": "Kiez-Adventskalender",
+            "url": "https://www.mittendran.de/kiez-adventskalender/",
+            "excerpt": "Antje Wenzel aus der Stadtbibliothek Tiergarten-Süd und die Stadtteilkoordination haben einen Adventskalender mit 24 kostenlosen Events aus dem Kiez gebastelt. Wer ihn noch nicht hat, kann sich den Kiez-Adventskalender…",
+            "date": "2024-11-29",
             "about_years": [],
             "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/neue-strassenschilder/"
+            "source_url": "https://www.mittendran.de/kiez-adventskalender/"
           },
           {
-            "title": "Zu Gast bei Möbel-Hübner: Interview mit Achim Türklitz am 4. April 2024",
-            "url": "https://www.mittendran.de/zu-gast-bei-moebel-huebner-interview-mit-achim-tuerklitz-4-april-2024/",
-            "excerpt": "Klar hatte ich mich vorbereitet, und wer weiß schon, wie das Interview gelaufen wäre, hätte ich das nicht, aber eigentlich habe ich meine Fragen kaum loswerden können und habe dennoch mehr erfahren, als ich erwartet…",
-            "date": "2024-04-12",
-            "about_years": [
-              1871,
-              1911,
-              1914,
-              1935,
-              1942,
-              1945,
-              1946,
-              1954,
-              1956,
-              1993,
-              2008
-            ],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/zu-gast-bei-moebel-huebner-interview-mit-achim-tuerklitz-4-april-2024/"
-          },
-          {
-            "title": "Teilsperrung der Kurfürstenstraße",
-            "url": "https://www.mittendran.de/teilsperrung-der-kurfuerstenstrasse/",
-            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/11/2023-Sperrung-der-Kurfuerstenstrasse-im-Bereich-der-Kreuzung-zur-Genthiner-Strasse-scaled.jpg) Sperrung der Kurfürstenstraße im Bereich der Kreuzung zur Genthiner…",
-            "date": "2023-11-16",
+            "title": "Tausch- und Verschenkemarkt in der Bibliothek",
+            "url": "https://www.mittendran.de/tausch-und-verschenkemarkt-im-nachbarschaftstreff-2/",
+            "excerpt": "Kleidertausch mit Upcycling – am 30.09., 28.10., und 25.11. jeweils von 12.30 – 17.30 Uhr Unter dem Motto „Tauschen statt Kaufen“ veranstaltet die Bibliothek Tiergarten-Süd zusammen mit dem Kooperationspartner…",
+            "date": "2024-09-25",
             "about_years": [],
             "rubrik": "Miteinander",
-            "source_url": "https://www.mittendran.de/teilsperrung-der-kurfuerstenstrasse/"
+            "source_url": "https://www.mittendran.de/tausch-und-verschenkemarkt-im-nachbarschaftstreff-2/"
           },
           {
-            "title": "Gedenkplakette am Haus der ehemaligen Galerie Goldschmidt-Wallerstein",
-            "url": "https://www.mittendran.de/gedenkplakette-haus-der-ehemaligen-galerie-goldschmidt-wallerstein/",
-            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/06/IMG_6994.jpeg) Teilnehmende der Gedenkveranstaltung Foto FP Rund 45 Personen trafen sich am Sonntag, 25. Juni 2023, vor dem Haus in der ehemaligen Privatstraße…",
-            "date": "2023-06-25",
-            "about_years": [
-              1920,
-              1934,
-              1935
-            ],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/gedenkplakette-haus-der-ehemaligen-galerie-goldschmidt-wallerstein/"
-          },
-          {
-            "title": "Dreharbeiten für „Berlin Nobody“",
-            "url": "https://www.mittendran.de/dreharbeiten-fuer-berlin-nobody/",
-            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/09/2022-Berlin-Nobody-scaled.jpg) „Berlin Nobody“ (Foto:eki) Im Bereich der Genthiner Straße/Kurfürstenstraße/An der Apostelkirche gibt es noch bis zum 5. Oktober 2022…",
-            "date": "2022-09-26",
+            "title": "Upcycling-Workshops in der Bibliothek Tiergarten-Süd",
+            "url": "https://www.mittendran.de/upcycling-workshops-der-bibliothek-tiergarten-sued/",
+            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2024/04/Upcycling-Workshops-scaled.jpg) Ab sofort und bis Ende Oktober (mit Ausnahme der Sommerferien) findet jeden Dienstag ein Upcycling-Workshop zu verschiedenen Themen…",
+            "date": "2024-04-16",
             "about_years": [],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/dreharbeiten-fuer-berlin-nobody/"
+            "rubrik": "Miteinander",
+            "source_url": "https://www.mittendran.de/upcycling-workshops-der-bibliothek-tiergarten-sued/"
+          },
+          {
+            "title": "Neues aus der Bibliothek: Laptops, Games, Kleidertausch",
+            "url": "https://www.mittendran.de/neues-aus-der-bibliothek-laptops-games-kleidertausch/",
+            "excerpt": "Die Bibliothek Tiergarten-Süd ist eine der kleinsten öffentlichen Bibliotheken im Bezirk Mitte, bietet mit ihrem Bestand aber eine große Auswahl an. Neben Büchern, Hörbüchern und Filmen können seit 2020 auch Werkzeuge…",
+            "date": "2024-03-05",
+            "about_years": [],
+            "rubrik": "Kinder, Heranwachsende, Schule",
+            "source_url": "https://www.mittendran.de/neues-aus-der-bibliothek-laptops-games-kleidertausch/"
+          },
+          {
+            "title": "Die Bibliothek lädt ein",
+            "url": "https://www.mittendran.de/die-bibliothek-laedt-ein/",
+            "excerpt": "„Emil rettet das Weihnachtsfest“ mit Ich & Herr Meyer, Termin-Info hier (https://www.mittendran.de/veranstaltungen/emil-rettet-das-weihnachstfest/) Bei diesem Mitmach-Märchen für Kinder ab drei Jahren steht Emil vor…",
+            "date": "2023-11-27",
+            "about_years": [],
+            "rubrik": "Kinder, Heranwachsende, Schule",
+            "source_url": "https://www.mittendran.de/die-bibliothek-laedt-ein/"
+          },
+          {
+            "title": "Familiennachmittag in der Bibliothek am 17. Oktober",
+            "url": "https://www.mittendran.de/familiennachmittag-der-bibliothek-17-oktober/",
+            "excerpt": "Die Bibliothek Tiergarten Süd plant ab Oktober jeden Monat einen Familiennachmittag in der Bibliothek. Start ist am Dienstag, 17.10.2023, ab 16.15 Uhr: Familiennachmittag – Gespenster An diesem Tag läutet die…",
+            "date": "2023-10-12",
+            "about_years": [],
+            "rubrik": "Miteinander",
+            "source_url": "https://www.mittendran.de/familiennachmittag-der-bibliothek-17-oktober/"
+          },
+          {
+            "title": "Viel los in der Bibliothek!",
+            "url": "https://www.mittendran.de/viel-los-der-bibliothek/",
+            "excerpt": "Die Bibliothek Tiergarten-Süd hat im September ein abwechslungsreiches Programm für Groß und Klein auf die Beine gestellt. Kommt gerne vorbei! Freitag, 15.09.2023 von 15.45-17.45 Uhr: Licht an, Licht aus?! Planspiel…",
+            "date": "2023-08-31",
+            "about_years": [],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/viel-los-der-bibliothek/"
+          },
+          {
+            "title": "Freiwilliges soziales Engagement in Nachbarschaften",
+            "url": "https://www.mittendran.de/freiwilliges-soziales-engagement-nachbarschaften/",
+            "excerpt": "Das Bezirksamt Mitte hat in seiner Sitzung am 14. März 2023 beschlossen, in diesem Jahr 27 Maßnahmen mit insgesamt 75.000 Euro zu fördern. Die Mittel wurden von der Senatsverwaltung für Stadtentwicklung, Bauen und…",
+            "date": "2023-03-24",
+            "about_years": [],
+            "rubrik": "Miteinander",
+            "source_url": "https://www.mittendran.de/freiwilliges-soziales-engagement-nachbarschaften/"
+          },
+          {
+            "title": "Saatgut-Aktionstage in der  Bibliothek Tiergarten Süd",
+            "url": "https://www.mittendran.de/saatgut-aktionstage-der-bibliothek-tiergarten-sued/",
+            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/02/Foto-Saatgutboerse.jpeg) Vom 22.-24.2. finden in der Bibliothek Tiergarten-Süd die Saatgut-Aktionstage in Kooperation mit Seedsharing statt. Infos…",
+            "date": "2023-02-06",
+            "about_years": [],
+            "rubrik": "Miteinander",
+            "source_url": "https://www.mittendran.de/saatgut-aktionstage-der-bibliothek-tiergarten-sued/"
+          },
+          {
+            "title": "Stadtteil-Bibliothek sucht Unterstützung",
+            "url": "https://www.mittendran.de/stadtteil-bibliothek-sucht-unterstuetzung/",
+            "excerpt": "Betreuung der Hausaufgabenhilfe gesucht! (https://www.mittendran.de/wp-content/uploads/2023/01/Hausaufgabenhilfe.jpg)Die Bibliothek Tiergarten-Süd sucht ab sofort eine Nachfolge für die Hausaufgabenhilfe. Betreut…",
+            "date": "2023-01-05",
+            "about_years": [],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/stadtteil-bibliothek-sucht-unterstuetzung/"
           }
         ],
-        "place_url": "places/genthiner-strasse/",
-        "place_slug": "genthiner-strasse",
-        "title": "Die U-Bahn-Entlastungsstrecke über Kurfürstenstraße",
-        "url": "https://www.mittendran.de/die-u-bahn-entlastungsstrecke-ueber-kurfuerstenstrasse/",
-        "excerpt": "Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Aber er interessiert sich auch für die Geschichte des Berliner…",
-        "date": "2026-09-15"
+        "place_url": "places/bibliothek-tiergarten-sued/",
+        "place_slug": "bibliothek-tiergarten-sued",
+        "title": "Die Bibliothek Tiergarten-Süd mit neuen Angeboten",
+        "url": "https://www.mittendran.de/die-bibliothek-tiergarten-sued-mit-neuen-angeboten/",
+        "excerpt": "14.04.2025, 16.30 Uhr : Hase und Igel – Ein Erzähltheater mit Objekten aus dem Nähkästchen Der Hase und Familie Igel sind Nachbarn und machen sich das Leben nicht immer leicht. Den Hasen stört der Lärm der Igelkinder…",
+        "date": "2025-04-12"
       }
     },
     {
@@ -7120,6 +7219,368 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.3678,
+          52.5068
+        ]
+      },
+      "properties": {
+        "place": "Neue Nationalgalerie",
+        "count": 9,
+        "articles": [
+          {
+            "title": "Presseschau des Stadtteil-Forums Tiergarten Süd",
+            "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-3/",
+            "excerpt": "Presseschau des Stadtteil-Forums Tiergarten Süd Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/). In den letzten 7…",
+            "date": "2026-10-30",
+            "about_years": [],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-3/"
+          },
+          {
+            "title": "Tik Tak Clock",
+            "url": "https://www.mittendran.de/tik-tak-clock/",
+            "excerpt": "Im Rahmen der laufenden Show „The Clock“ bietet die Neue Nationalgalerie einen Workshop für Jugendliche und Familien an, in dem man sich mit unserer Wahrnehmung der Zeit auseinandersetzen kann. Tik Tak Clock Drop-In…",
+            "date": "2025-12-03",
+            "about_years": [],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/tik-tak-clock/"
+          },
+          {
+            "title": "Am 7. Juli ist Museumssonntag",
+            "url": "https://www.mittendran.de/7-juli-ist-museumssonntag/",
+            "excerpt": "Einige Tipps für den Museumssonntag am 7. Juli in Tiergarten. In rund 80 Berliner Museen ist am Sonntag der Eintritt frei. Und es wird einiges rund um das Thema Fußball geboten. Das Futurium veranstaltet ein…",
+            "date": "2024-07-04",
+            "about_years": [],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/7-juli-ist-museumssonntag/"
+          },
+          {
+            "title": "Geänderte Öffnungszeiten bei den Staatlichen Museen in Berlin",
+            "url": "https://www.mittendran.de/geaenderte-oeffnungszeiten-bei-den-staatlichen-museen-berlin/",
+            "excerpt": "Ab dem 16. April 2024 wird es neue Öffnungszeiten bei den Staatlichen Museen zu Berlin und dem Musikinstrumenten-Museum geben – Spätöffnungen in den Sommermonaten. „Die Stiftung Preußischer Kulturbesitz wird ab dem 16…",
+            "date": "2024-03-13",
+            "about_years": [],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/geaenderte-oeffnungszeiten-bei-den-staatlichen-museen-berlin/"
+          },
+          {
+            "title": "„Cut Piece“ von Yoko Ono auf der Berlin Art Week",
+            "url": "https://www.mittendran.de/cut-piece-von-yoko-ono-auf-der-berlin-art-week/",
+            "excerpt": "„Yoko Ono’s historische Performance „Cut Piece“ von 1964 ist eine ihrer frühesten Performance-Arbeiten: hier saß die Künstlerin allein, in ihrer besten Kleidung, auf dem Boden und hatte eine Schere vor sich liegen. Das…",
+            "date": "2023-09-14",
+            "about_years": [
+              1964
+            ],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/cut-piece-von-yoko-ono-auf-der-berlin-art-week/"
+          },
+          {
+            "title": "Am 26. August ist wieder Lange Nacht der Museen",
+            "url": "https://www.mittendran.de/26-august-ist-wieder-lange-nacht-der-museen/",
+            "excerpt": "Am 26. August machen die Berliner Museen zur Langen Nacht unter dem Motto „Sounds of Berlin Edition“ jede Menge unterhaltsame und interessante Angebote rund um den Sound dieser Stadt für Kinder und Erwachsene. So gibt…",
+            "date": "2023-08-24",
+            "about_years": [],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/26-august-ist-wieder-lange-nacht-der-museen/"
+          },
+          {
+            "title": "An Ostern ins Museum: Gerhard Richter in der Neuen Nationalgalerie",
+            "url": "https://www.mittendran.de/ostern-ins-museum-gerhard-richter-der-neuen-nationalgalerie/",
+            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/04/1FB97AE1-C336-4859-92E7-DA0BB6293E8F-scaled.jpeg) „100 Werke für Berlin“ hat der große Maler Gerhard Richter ausgesucht für die Neue Nationalgalerie. Sie sind im…",
+            "date": "2023-04-07",
+            "about_years": [
+              1932
+            ],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/ostern-ins-museum-gerhard-richter-der-neuen-nationalgalerie/"
+          },
+          {
+            "title": "Donnerstags freier Eintritt",
+            "url": "https://www.mittendran.de/donnerstags-freier-eintritt/",
+            "excerpt": "Ab Donnerstag, 5. Januar 2023 ist der Eintritt in die Neue Nationalgalerie im Rahmen von Volkswagen Art4All jeden Donnerstag von 16 bis 20 Uhr frei…",
+            "date": "2023-01-03",
+            "about_years": [],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/donnerstags-freier-eintritt/"
+          },
+          {
+            "title": "Endlich wieder  Konzerte im Skulpturengarten",
+            "url": "https://www.mittendran.de/endlich-wieder-konzerte-im-skulpturengarten/",
+            "excerpt": "Erstmals seit 1986 finden im Skulpturengarten der Neuen Nationalgalerie vom 6. August bis zum 4. September 2022 wieder Livekonzerte statt. An fünf Wochenendabenden wird zwischen den Skulpturen von David Black, Bernhard…",
+            "date": "2022-08-05",
+            "about_years": [
+              1986
+            ],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/endlich-wieder-konzerte-im-skulpturengarten/"
+          }
+        ],
+        "place_url": "places/neue-nationalgalerie/",
+        "place_slug": "neue-nationalgalerie",
+        "title": "Presseschau des Stadtteil-Forums Tiergarten Süd",
+        "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-3/",
+        "excerpt": "Presseschau des Stadtteil-Forums Tiergarten Süd Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/). In den letzten 7…",
+        "date": "2026-10-30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3555,
+          52.504
+        ]
+      },
+      "properties": {
+        "place": "Blumeshof",
+        "count": 8,
+        "articles": [
+          {
+            "title": "Jüdische Geschichte im Lützow-Viertel (18): Dr. Bernhard Pollack, Blumeshof (Teil 3)",
+            "url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-18-dr-bernhard-pollack-blumeshof-teil-3/",
+            "excerpt": "Jüdische Geschichte im Lützow-Viertel (18): Dr. Bernhard Pollack, Blumeshof (Teil 3) Das älteste der Pollack-Kinder war Joseph Pollack, sein genaues Geburtsdatum (um 1856) und der Geburtsort (vermutlich Breslau) sind…",
+            "date": "2026-11-07",
+            "about_years": [
+              1811,
+              1840,
+              1841,
+              1842,
+              1850,
+              1856,
+              1865,
+              1875,
+              1876,
+              1878,
+              1880,
+              1881,
+              1886,
+              1887,
+              1888,
+              1970,
+              2001
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-18-dr-bernhard-pollack-blumeshof-teil-3/"
+          },
+          {
+            "title": "Post und Besuch aus Shanghai, und wieder geht es um Walter Benjamin",
+            "url": "https://www.mittendran.de/post-und-besuch-aus-shanghai-und-wieder-geht-es-um-walter-benjamin/",
+            "excerpt": "Von Walter Benjamin (1892-1941) geht auch mehr als 80 Jahre nach seinem Tod eine ungebrochene Faszination aus, wie es scheint. Neulich meldete sich (mittendran vom 22. Februar 2026…",
+            "date": "2026-06-10",
+            "about_years": [
+              1882,
+              1892,
+              1920,
+              1930,
+              1941,
+              1942,
+              1967,
+              1970,
+              1987
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/post-und-besuch-aus-shanghai-und-wieder-geht-es-um-walter-benjamin/"
+          },
+          {
+            "title": "Jüdische Geschichte im Lützow-Viertel (16): Die Familie von Ernst Liedtke, Blumeshof 12 (Teil 7)",
+            "url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-16-die-familie-von-ernst-liedtke-blumeshof-12-teil-7/",
+            "excerpt": "Dass es zwischen 1910 und 1942 zwei Personen mit dem Namen „Theodor Liedtke“ in Berlin gab, haben wir durch Simon Mays Buch erfahren (1); er glaubte nicht, dass „der andere Theo“ zur gleichen Familie gehörte, aber das…",
+            "date": "2026-01-04",
+            "about_years": [
+              1887,
+              1892,
+              1894,
+              1904,
+              1910,
+              1914,
+              1915,
+              1919,
+              1921,
+              1930,
+              1934,
+              1938,
+              1940,
+              1941,
+              1942,
+              1943,
+              1945,
+              1949,
+              1952,
+              1954,
+              1956,
+              1957,
+              1960,
+              1963,
+              1968,
+              1971,
+              1987,
+              2012
+            ],
+            "rubrik": "Kiez-Geschichte",
+            "source_url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-16-die-familie-von-ernst-liedtke-blumeshof-12-teil-7/"
+          },
+          {
+            "title": "Greetings from Nevada und Grüße aus Holland",
+            "url": "https://www.mittendran.de/greetings-nevada-und-gruesse-aus-holland/",
+            "excerpt": "Dass die Recherchen zum Schicksal jüdischer Familien im Lützow-Viertel gelesen werden, zeigen auch die Zuschriften, die die Redaktion aus allen Teilen der Welt erhält: Post aus England, Italien, Österreich, Schweden…",
+            "date": "2025-11-30",
+            "about_years": [
+              1905,
+              1933,
+              1935,
+              1942
+            ],
+            "rubrik": "Kiez-Geschichte",
+            "source_url": "https://www.mittendran.de/greetings-nevada-und-gruesse-aus-holland/"
+          },
+          {
+            "title": "Jüdische Geschichte im Lützow-Viertel (16): Die Familie von Ernst Liedtke, Blumeshof 12 (Teil 1)",
+            "url": "https://www.mittendran.de/die-familie-von-ernst-liedtke-blumeshof-12-teil-1/",
+            "excerpt": "Manche Geschichten sind längst geschrieben, auch die der Familie Liedtke (1), die ich vor einiger Zeit vorgestellt hatte (mittendran vom 14. September 2024…",
+            "date": "2025-04-21",
+            "about_years": [
+              1770,
+              1776,
+              1788,
+              1801,
+              1810,
+              1811,
+              1812,
+              1818,
+              1842,
+              1843,
+              1845,
+              1847,
+              1849,
+              1850,
+              1859,
+              1862,
+              1872,
+              1874,
+              1875,
+              1876,
+              1878,
+              1879,
+              1885,
+              1886,
+              1887,
+              1894,
+              1908,
+              1909,
+              1926,
+              1933,
+              1945
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/die-familie-von-ernst-liedtke-blumeshof-12-teil-1/"
+          },
+          {
+            "title": "Blumeshof 12 – eine Buchempfehlung",
+            "url": "https://www.mittendran.de/blumeshof-12-eine-buchempfehlung/",
+            "excerpt": "Die Buchempfehlung kam vor wenigen Tagen von einer Kollegin, Irmtraud Koop, die – wie ich – jüdischen Ärzt*innen nachspürt, die 1933 aus der Gemeinschaft der Magen-Darm-Spezialist*innen ausgeschlossen worden waren (1)…",
+            "date": "2024-09-14",
+            "about_years": [
+              1933,
+              1987
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/blumeshof-12-eine-buchempfehlung/"
+          },
+          {
+            "title": "Jüdische Geschichte in Tiergarten-Süd: Der Blick über den (Tier-)Gartenzaun",
+            "url": "https://www.mittendran.de/juedische-geschichte-im-tiergarten-sued-der-blick-ueber-den-tier-gartenzaun/",
+            "excerpt": "Nachdem wir die Synagogen, Betsäle und jüdische Institutionen wie das Altersheim im Lützow-Viertel gesucht und gefunden haben, soll zum Abschluss der Serie der Blick noch in die Nachbarschaft gehen, nach…",
+            "date": "2023-11-01",
+            "about_years": [
+              1873,
+              1882,
+              1889,
+              1903,
+              1905,
+              1922,
+              1926,
+              1928,
+              1929,
+              1930,
+              1931,
+              1932,
+              1933,
+              1936,
+              1938,
+              1940,
+              1942,
+              1944,
+              1945,
+              1950,
+              1958,
+              1983,
+              2013
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/juedische-geschichte-im-tiergarten-sued-der-blick-ueber-den-tier-gartenzaun/"
+          },
+          {
+            "title": "Medizingeschichte im Lützow-Viertel (7.2) Prof. Bremer am Elisabeth-Krankenhaus",
+            "url": "https://www.mittendran.de/medizingeschichte-im-luetzow-viertel-7-2-prof-bremer-elisabeth-krankenhaus/",
+            "excerpt": "(ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com/)) Mit diesem zweiten Teil der Geschichte der Nationalsozialisten am Elisabeth-Krankenhaus erreichen wir das Ende unserer Zeitreise…",
+            "date": "2023-06-05",
+            "about_years": [
+              1800,
+              1862,
+              1863,
+              1874,
+              1890,
+              1892,
+              1894,
+              1912,
+              1914,
+              1917,
+              1918,
+              1919,
+              1920,
+              1921,
+              1923,
+              1924,
+              1925,
+              1926,
+              1929,
+              1930,
+              1931,
+              1932,
+              1933,
+              1934,
+              1935,
+              1937,
+              1939,
+              1943,
+              1944,
+              1945,
+              1952,
+              1961,
+              1967,
+              1970,
+              1972,
+              1984,
+              2001
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/medizingeschichte-im-luetzow-viertel-7-2-prof-bremer-elisabeth-krankenhaus/"
+          }
+        ],
+        "place_url": "places/blumeshof/",
+        "place_slug": "blumeshof",
+        "title": "Jüdische Geschichte im Lützow-Viertel (18): Dr. Bernhard Pollack, Blumeshof (Teil 3)",
+        "url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-18-dr-bernhard-pollack-blumeshof-teil-3/",
+        "excerpt": "Jüdische Geschichte im Lützow-Viertel (18): Dr. Bernhard Pollack, Blumeshof (Teil 3) Das älteste der Pollack-Kinder war Joseph Pollack, sein genaues Geburtsdatum (um 1856) und der Geburtsort (vermutlich Breslau) sind…",
+        "date": "2026-11-07"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.357975,
           52.504654
         ]
@@ -7271,106 +7732,6 @@
         "url": "https://www.mittendran.de/es-ist-mal-wieder-zeit-fuer-eine-runde-neues-aus-der-nachbarschaft/",
         "excerpt": "Liebe Menschen in Tiergarten, es ist mal wieder Zeit für eine Runde Neues aus der Nachbarschaft! Was verändert sich in Tiergarten? // Neues aus der Lokalpolitik - Wohnraum ist knapp und umkämpft. Der Bezirk Mitte…",
         "date": "2025-03-07"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3678,
-          52.5068
-        ]
-      },
-      "properties": {
-        "place": "Neue Nationalgalerie",
-        "count": 8,
-        "articles": [
-          {
-            "title": "Tik Tak Clock",
-            "url": "https://www.mittendran.de/tik-tak-clock/",
-            "excerpt": "Im Rahmen der laufenden Show „The Clock“ bietet die Neue Nationalgalerie einen Workshop für Jugendliche und Familien an, in dem man sich mit unserer Wahrnehmung der Zeit auseinandersetzen kann. Tik Tak Clock Drop-In…",
-            "date": "2025-12-03",
-            "about_years": [],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/tik-tak-clock/"
-          },
-          {
-            "title": "Am 7. Juli ist Museumssonntag",
-            "url": "https://www.mittendran.de/7-juli-ist-museumssonntag/",
-            "excerpt": "Einige Tipps für den Museumssonntag am 7. Juli in Tiergarten. In rund 80 Berliner Museen ist am Sonntag der Eintritt frei. Und es wird einiges rund um das Thema Fußball geboten. Das Futurium veranstaltet ein…",
-            "date": "2024-07-04",
-            "about_years": [],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/7-juli-ist-museumssonntag/"
-          },
-          {
-            "title": "Geänderte Öffnungszeiten bei den Staatlichen Museen in Berlin",
-            "url": "https://www.mittendran.de/geaenderte-oeffnungszeiten-bei-den-staatlichen-museen-berlin/",
-            "excerpt": "Ab dem 16. April 2024 wird es neue Öffnungszeiten bei den Staatlichen Museen zu Berlin und dem Musikinstrumenten-Museum geben – Spätöffnungen in den Sommermonaten. „Die Stiftung Preußischer Kulturbesitz wird ab dem 16…",
-            "date": "2024-03-13",
-            "about_years": [],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/geaenderte-oeffnungszeiten-bei-den-staatlichen-museen-berlin/"
-          },
-          {
-            "title": "„Cut Piece“ von Yoko Ono auf der Berlin Art Week",
-            "url": "https://www.mittendran.de/cut-piece-von-yoko-ono-auf-der-berlin-art-week/",
-            "excerpt": "„Yoko Ono’s historische Performance „Cut Piece“ von 1964 ist eine ihrer frühesten Performance-Arbeiten: hier saß die Künstlerin allein, in ihrer besten Kleidung, auf dem Boden und hatte eine Schere vor sich liegen. Das…",
-            "date": "2023-09-14",
-            "about_years": [
-              1964
-            ],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/cut-piece-von-yoko-ono-auf-der-berlin-art-week/"
-          },
-          {
-            "title": "Am 26. August ist wieder Lange Nacht der Museen",
-            "url": "https://www.mittendran.de/26-august-ist-wieder-lange-nacht-der-museen/",
-            "excerpt": "Am 26. August machen die Berliner Museen zur Langen Nacht unter dem Motto „Sounds of Berlin Edition“ jede Menge unterhaltsame und interessante Angebote rund um den Sound dieser Stadt für Kinder und Erwachsene. So gibt…",
-            "date": "2023-08-24",
-            "about_years": [],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/26-august-ist-wieder-lange-nacht-der-museen/"
-          },
-          {
-            "title": "An Ostern ins Museum: Gerhard Richter in der Neuen Nationalgalerie",
-            "url": "https://www.mittendran.de/ostern-ins-museum-gerhard-richter-der-neuen-nationalgalerie/",
-            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2023/04/1FB97AE1-C336-4859-92E7-DA0BB6293E8F-scaled.jpeg) „100 Werke für Berlin“ hat der große Maler Gerhard Richter ausgesucht für die Neue Nationalgalerie. Sie sind im…",
-            "date": "2023-04-07",
-            "about_years": [
-              1932
-            ],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/ostern-ins-museum-gerhard-richter-der-neuen-nationalgalerie/"
-          },
-          {
-            "title": "Donnerstags freier Eintritt",
-            "url": "https://www.mittendran.de/donnerstags-freier-eintritt/",
-            "excerpt": "Ab Donnerstag, 5. Januar 2023 ist der Eintritt in die Neue Nationalgalerie im Rahmen von Volkswagen Art4All jeden Donnerstag von 16 bis 20 Uhr frei…",
-            "date": "2023-01-03",
-            "about_years": [],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/donnerstags-freier-eintritt/"
-          },
-          {
-            "title": "Endlich wieder  Konzerte im Skulpturengarten",
-            "url": "https://www.mittendran.de/endlich-wieder-konzerte-im-skulpturengarten/",
-            "excerpt": "Erstmals seit 1986 finden im Skulpturengarten der Neuen Nationalgalerie vom 6. August bis zum 4. September 2022 wieder Livekonzerte statt. An fünf Wochenendabenden wird zwischen den Skulpturen von David Black, Bernhard…",
-            "date": "2022-08-05",
-            "about_years": [
-              1986
-            ],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/endlich-wieder-konzerte-im-skulpturengarten/"
-          }
-        ],
-        "place_url": "places/neue-nationalgalerie/",
-        "place_slug": "neue-nationalgalerie",
-        "title": "Tik Tak Clock",
-        "url": "https://www.mittendran.de/tik-tak-clock/",
-        "excerpt": "Im Rahmen der laufenden Show „The Clock“ bietet die Neue Nationalgalerie einen Workshop für Jugendliche und Familien an, in dem man sich mit unserer Wahrnehmung der Zeit auseinandersetzen kann. Tik Tak Clock Drop-In…",
-        "date": "2025-12-03"
       }
     },
     {
@@ -8004,232 +8365,6 @@
         "url": "https://www.mittendran.de/juedische-apotheker-und-aerzte-1-apotheker-lewy-luetzow-apotheke-teil-5/",
         "excerpt": "Im April 1962 reiste Dr. Curt Lewy mit seiner (zweiten) Frau aus Brasilien zurück nach Deutschland, um sich in Konstanz niederzulassen; er war zu diesem Zeitpunkt 63 Jahre alt und hat nach Angaben von Leimkugel (1) bis…",
         "date": "2025-10-18"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3555,
-          52.504
-        ]
-      },
-      "properties": {
-        "place": "Blumeshof",
-        "count": 7,
-        "articles": [
-          {
-            "title": "Post und Besuch aus Shanghai, und wieder geht es um Walter Benjamin",
-            "url": "https://www.mittendran.de/post-und-besuch-aus-shanghai-und-wieder-geht-es-um-walter-benjamin/",
-            "excerpt": "Von Walter Benjamin (1892-1941) geht auch mehr als 80 Jahre nach seinem Tod eine ungebrochene Faszination aus, wie es scheint. Neulich meldete sich (mittendran vom 22. Februar 2026…",
-            "date": "2026-06-10",
-            "about_years": [
-              1882,
-              1892,
-              1920,
-              1930,
-              1941,
-              1942,
-              1967,
-              1970,
-              1987
-            ],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/post-und-besuch-aus-shanghai-und-wieder-geht-es-um-walter-benjamin/"
-          },
-          {
-            "title": "Jüdische Geschichte im Lützow-Viertel (16): Die Familie von Ernst Liedtke, Blumeshof 12 (Teil 7)",
-            "url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-16-die-familie-von-ernst-liedtke-blumeshof-12-teil-7/",
-            "excerpt": "Dass es zwischen 1910 und 1942 zwei Personen mit dem Namen „Theodor Liedtke“ in Berlin gab, haben wir durch Simon Mays Buch erfahren (1); er glaubte nicht, dass „der andere Theo“ zur gleichen Familie gehörte, aber das…",
-            "date": "2026-01-04",
-            "about_years": [
-              1887,
-              1892,
-              1894,
-              1904,
-              1910,
-              1914,
-              1915,
-              1919,
-              1921,
-              1930,
-              1934,
-              1938,
-              1940,
-              1941,
-              1942,
-              1943,
-              1945,
-              1949,
-              1952,
-              1954,
-              1956,
-              1957,
-              1960,
-              1963,
-              1968,
-              1971,
-              1987,
-              2012
-            ],
-            "rubrik": "Kiez-Geschichte",
-            "source_url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-16-die-familie-von-ernst-liedtke-blumeshof-12-teil-7/"
-          },
-          {
-            "title": "Greetings from Nevada und Grüße aus Holland",
-            "url": "https://www.mittendran.de/greetings-nevada-und-gruesse-aus-holland/",
-            "excerpt": "Dass die Recherchen zum Schicksal jüdischer Familien im Lützow-Viertel gelesen werden, zeigen auch die Zuschriften, die die Redaktion aus allen Teilen der Welt erhält: Post aus England, Italien, Österreich, Schweden…",
-            "date": "2025-11-30",
-            "about_years": [
-              1905,
-              1933,
-              1935,
-              1942
-            ],
-            "rubrik": "Kiez-Geschichte",
-            "source_url": "https://www.mittendran.de/greetings-nevada-und-gruesse-aus-holland/"
-          },
-          {
-            "title": "Jüdische Geschichte im Lützow-Viertel (16): Die Familie von Ernst Liedtke, Blumeshof 12 (Teil 1)",
-            "url": "https://www.mittendran.de/die-familie-von-ernst-liedtke-blumeshof-12-teil-1/",
-            "excerpt": "Manche Geschichten sind längst geschrieben, auch die der Familie Liedtke (1), die ich vor einiger Zeit vorgestellt hatte (mittendran vom 14. September 2024…",
-            "date": "2025-04-21",
-            "about_years": [
-              1770,
-              1776,
-              1788,
-              1801,
-              1810,
-              1811,
-              1812,
-              1818,
-              1842,
-              1843,
-              1845,
-              1847,
-              1849,
-              1850,
-              1859,
-              1862,
-              1872,
-              1874,
-              1875,
-              1876,
-              1878,
-              1879,
-              1885,
-              1886,
-              1887,
-              1894,
-              1908,
-              1909,
-              1926,
-              1933,
-              1945
-            ],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/die-familie-von-ernst-liedtke-blumeshof-12-teil-1/"
-          },
-          {
-            "title": "Blumeshof 12 – eine Buchempfehlung",
-            "url": "https://www.mittendran.de/blumeshof-12-eine-buchempfehlung/",
-            "excerpt": "Die Buchempfehlung kam vor wenigen Tagen von einer Kollegin, Irmtraud Koop, die – wie ich – jüdischen Ärzt*innen nachspürt, die 1933 aus der Gemeinschaft der Magen-Darm-Spezialist*innen ausgeschlossen worden waren (1)…",
-            "date": "2024-09-14",
-            "about_years": [
-              1933,
-              1987
-            ],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/blumeshof-12-eine-buchempfehlung/"
-          },
-          {
-            "title": "Jüdische Geschichte in Tiergarten-Süd: Der Blick über den (Tier-)Gartenzaun",
-            "url": "https://www.mittendran.de/juedische-geschichte-im-tiergarten-sued-der-blick-ueber-den-tier-gartenzaun/",
-            "excerpt": "Nachdem wir die Synagogen, Betsäle und jüdische Institutionen wie das Altersheim im Lützow-Viertel gesucht und gefunden haben, soll zum Abschluss der Serie der Blick noch in die Nachbarschaft gehen, nach…",
-            "date": "2023-11-01",
-            "about_years": [
-              1873,
-              1882,
-              1889,
-              1903,
-              1905,
-              1922,
-              1926,
-              1928,
-              1929,
-              1930,
-              1931,
-              1932,
-              1933,
-              1936,
-              1938,
-              1940,
-              1942,
-              1944,
-              1945,
-              1950,
-              1958,
-              1983,
-              2013
-            ],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/juedische-geschichte-im-tiergarten-sued-der-blick-ueber-den-tier-gartenzaun/"
-          },
-          {
-            "title": "Medizingeschichte im Lützow-Viertel (7.2) Prof. Bremer am Elisabeth-Krankenhaus",
-            "url": "https://www.mittendran.de/medizingeschichte-im-luetzow-viertel-7-2-prof-bremer-elisabeth-krankenhaus/",
-            "excerpt": "(ein Beitrag von Prof. Dr. Paul Enck, www.paul-enck.com (http://www.paul-enck.com/)) Mit diesem zweiten Teil der Geschichte der Nationalsozialisten am Elisabeth-Krankenhaus erreichen wir das Ende unserer Zeitreise…",
-            "date": "2023-06-05",
-            "about_years": [
-              1800,
-              1862,
-              1863,
-              1874,
-              1890,
-              1892,
-              1894,
-              1912,
-              1914,
-              1917,
-              1918,
-              1919,
-              1920,
-              1921,
-              1923,
-              1924,
-              1925,
-              1926,
-              1929,
-              1930,
-              1931,
-              1932,
-              1933,
-              1934,
-              1935,
-              1937,
-              1939,
-              1943,
-              1944,
-              1945,
-              1952,
-              1961,
-              1967,
-              1970,
-              1972,
-              1984,
-              2001
-            ],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/medizingeschichte-im-luetzow-viertel-7-2-prof-bremer-elisabeth-krankenhaus/"
-          }
-        ],
-        "place_url": "places/blumeshof/",
-        "place_slug": "blumeshof",
-        "title": "Post und Besuch aus Shanghai, und wieder geht es um Walter Benjamin",
-        "url": "https://www.mittendran.de/post-und-besuch-aus-shanghai-und-wieder-geht-es-um-walter-benjamin/",
-        "excerpt": "Von Walter Benjamin (1892-1941) geht auch mehr als 80 Jahre nach seinem Tod eine ungebrochene Faszination aus, wie es scheint. Neulich meldete sich (mittendran vom 22. Februar 2026…",
-        "date": "2026-06-10"
       }
     },
     {
@@ -9446,6 +9581,133 @@
         "url": "https://www.mittendran.de/gedenktafel-zur-erinnerung-den-schauspieler-louis-brody/",
         "excerpt": "Am Donnerstagvormittag wurde am Wohnhaus Kurfürstenstraße eine Gedenktafel für Louis Brody enthüllt, der dort einige Zeit gewohnt hat. Vorher waren rund 30 Mitglieder der Familie und Gäste in den wunderbar grünen…",
         "date": "2024-07-25"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.36621,
+          52.50605
+        ]
+      },
+      "properties": {
+        "place": "Landwehrkanal",
+        "count": 5,
+        "articles": [
+          {
+            "title": "Ein Baum mit Geschichte",
+            "url": "https://www.mittendran.de/ein-baum-mit-geschichte/",
+            "excerpt": "Ein Baum mit Geschichte Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach…",
+            "date": "2026-10-27",
+            "about_years": [
+              1831,
+              1840,
+              1846,
+              1851,
+              1858,
+              1872,
+              1874,
+              1888,
+              1900,
+              1901,
+              1910,
+              1923,
+              1933,
+              1938,
+              1945,
+              1954,
+              1961,
+              1973
+            ],
+            "rubrik": "Kiez-Geschichte",
+            "source_url": "https://www.mittendran.de/ein-baum-mit-geschichte/"
+          },
+          {
+            "title": "Zeitzeugen gesucht: Der Landwehrkanal wird 175 Jahre alt.",
+            "url": "https://www.mittendran.de/zeitzeugen-gesucht-der-landwehrkanal-wird-175-jahre-alt/",
+            "excerpt": "2025 jährt sich die Eröffnung des Landwehrkanals zum 175. Male. Ein Leser unseres Blogs/Magazins, Dirk Zeiske, plant eine Veröffentlichung zu diesem Thema und sucht noch Menschen, die gerne Anekdoten oder persönliche…",
+            "date": "2025-03-17",
+            "about_years": [
+              1954
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/zeitzeugen-gesucht-der-landwehrkanal-wird-175-jahre-alt/"
+          },
+          {
+            "title": "Spaziergang in die Vergangenheit (15): Die „Stierburg“ Auf dem Carlsbade 11",
+            "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-15-die-stierburg-auf-dem-carlsbade-11/",
+            "excerpt": "Ein merkwürdiges Buch ist mir in die Hände gefallen: Harald von Koenigswald (1906-1971) war wohl ein konservativer, eher unpolitischer Literat, möchte man meinen, hat er doch die Zeit des Nationalsozialismus…",
+            "date": "2024-06-28",
+            "about_years": [
+              1781,
+              1799,
+              1815,
+              1830,
+              1834,
+              1837,
+              1848,
+              1856,
+              1886,
+              1893,
+              1896,
+              1905,
+              1906,
+              1907,
+              1908,
+              1935,
+              1938,
+              1971,
+              2000,
+              2006
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/spaziergang-die-vergangenheit-15-die-stierburg-auf-dem-carlsbade-11/"
+          },
+          {
+            "title": "Frühlingsspaziergang",
+            "url": "https://www.mittendran.de/fruehlingsvorboten/",
+            "excerpt": "Die Vorboten des Frühlings schauen schon aus der Erde. Die allerersten Schneeglöckchen wagen sich hervor und die gelben Blüten des Winterginsters leuchten…",
+            "date": "2024-01-30",
+            "about_years": [],
+            "rubrik": "kiek ma!",
+            "source_url": "https://www.mittendran.de/fruehlingsvorboten/"
+          },
+          {
+            "title": "Spazierganz mit Lia Hiltz und Paul Enck (21). Die Welt vor 1830",
+            "url": "https://www.mittendran.de/spazierganz-mit-lia-hiltz-und-paul-enck-21-die-welt-vor-1830/",
+            "excerpt": "Gastbeitrag von Paul Enck www.paul-enck.com (http://www.paul-enck.com) (https://www.mittendran.de/wp-content/uploads/2023/07/Bild-21_1-Spuren-vor-1830.jpeg) 1. Copyright Lia Hiltz Lia sagt: Außerhalb des Parks…",
+            "date": "2023-07-16",
+            "about_years": [
+              1717,
+              1718,
+              1735,
+              1750,
+              1756,
+              1763,
+              1764,
+              1781,
+              1785,
+              1809,
+              1830,
+              1838,
+              1840,
+              1848,
+              1889,
+              1905,
+              1937
+            ],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/spazierganz-mit-lia-hiltz-und-paul-enck-21-die-welt-vor-1830/"
+          }
+        ],
+        "place_url": "places/landwehrkanal/",
+        "place_slug": "landwehrkanal",
+        "title": "Ein Baum mit Geschichte",
+        "url": "https://www.mittendran.de/ein-baum-mit-geschichte/",
+        "excerpt": "Ein Baum mit Geschichte Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach…",
+        "date": "2026-10-27"
       }
     },
     {
@@ -10766,98 +11028,156 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.36621,
-          52.50605
+          13.362321,
+          52.503246
         ]
       },
       "properties": {
-        "place": "Landwehrkanal",
+        "place": "Lützowstraße 82",
         "count": 4,
         "articles": [
           {
-            "title": "Zeitzeugen gesucht: Der Landwehrkanal wird 175 Jahre alt.",
-            "url": "https://www.mittendran.de/zeitzeugen-gesucht-der-landwehrkanal-wird-175-jahre-alt/",
-            "excerpt": "2025 jährt sich die Eröffnung des Landwehrkanals zum 175. Male. Ein Leser unseres Blogs/Magazins, Dirk Zeiske, plant eine Veröffentlichung zu diesem Thema und sucht noch Menschen, die gerne Anekdoten oder persönliche…",
-            "date": "2025-03-17",
+            "title": "Spaziergang in die Vergangenheit (47): Eine Künstlerkolonie in der Bissingzeile",
+            "url": "https://www.mittendran.de/spaziergang-in-die-vergangenheit-47-eine-kuenstlerkolonie-in-der-bissingzeile/",
+            "excerpt": "Spaziergang in die Vergangenheit (47): Eine Künstlerkolonie in der Bissingzeile Als die Bissingzeile noch keinen Namen hatte, sondern nur „Durchgang zur Lützowstraße“ hieß und eben erst (1897) bebaut worden war…",
+            "date": "2026-10-31",
             "about_years": [
-              1954
+              1700,
+              1841,
+              1843,
+              1848,
+              1850,
+              1851,
+              1856,
+              1861,
+              1863,
+              1865,
+              1868,
+              1875,
+              1876,
+              1879,
+              1881,
+              1888,
+              1890,
+              1897,
+              1900,
+              1903,
+              1904,
+              1908,
+              1911,
+              1915,
+              1916,
+              1920,
+              1921,
+              1930,
+              1933,
+              1936,
+              1939,
+              1942,
+              1944,
+              1945,
+              1947,
+              1960,
+              1992,
+              1997,
+              2008
             ],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/zeitzeugen-gesucht-der-landwehrkanal-wird-175-jahre-alt/"
+            "rubrik": "Kiez-Geschichte",
+            "source_url": "https://www.mittendran.de/spaziergang-in-die-vergangenheit-47-eine-kuenstlerkolonie-in-der-bissingzeile/"
           },
           {
-            "title": "Spaziergang in die Vergangenheit (15): Die „Stierburg“ Auf dem Carlsbade 11",
-            "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-15-die-stierburg-auf-dem-carlsbade-11/",
-            "excerpt": "Ein merkwürdiges Buch ist mir in die Hände gefallen: Harald von Koenigswald (1906-1971) war wohl ein konservativer, eher unpolitischer Literat, möchte man meinen, hat er doch die Zeit des Nationalsozialismus…",
-            "date": "2024-06-28",
+            "title": "Spaziergang in die Vergangenheit (9). Auf der Suche nach Edvard Munch",
+            "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-9-auf-der-suche-nach-edvard-munch/",
+            "excerpt": "Noch mal zurück ins Atelierhaus Lützowstraße 82, das wir neulich (https://www.mittendran.de/spaziergang-die-vergangenheit-8-atelierhaeuser-der-luetzowstrasse/) besucht haben. Uns war etwas aufgefallen, und bei dessen…",
+            "date": "2024-02-20",
             "about_years": [
-              1781,
-              1799,
-              1815,
-              1830,
-              1834,
               1837,
-              1848,
-              1856,
-              1886,
+              1863,
+              1865,
+              1867,
+              1870,
+              1890,
+              1891,
+              1892,
+              1895,
+              1897,
+              1898,
+              1902,
+              1903,
+              1904,
+              1908,
+              1909,
+              1910,
+              1915,
+              1935,
+              1944
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/spaziergang-die-vergangenheit-9-auf-der-suche-nach-edvard-munch/"
+          },
+          {
+            "title": "Spaziergang in die Vergangenheit (8): Das Atelierhaus Lützowstraße 82",
+            "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-8-atelierhaeuser-der-luetzowstrasse/",
+            "excerpt": "Wir sind schon einmal im Atelierhaus an der Lützowstraße 82 gewesen, vor kurzem anlässlich der Munch-Ausstellung in Berlin hatten wir ein Foto veröffentlicht, das ihn in seinem Atelier sitzend zeigt (mittendran vom 8…",
+            "date": "2024-01-27",
+            "about_years": [
+              1830,
+              1846,
+              1849,
+              1850,
+              1854,
+              1855,
+              1858,
+              1860,
+              1861,
+              1863,
+              1865,
+              1870,
+              1872,
+              1889,
+              1890,
+              1892,
               1893,
               1896,
+              1902,
+              1903,
               1905,
-              1906,
               1907,
               1908,
+              1910,
+              1915,
+              1922,
+              1924,
+              1925,
+              1931,
               1935,
               1938,
-              1971,
-              2000,
-              2006
+              1944
             ],
             "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/spaziergang-die-vergangenheit-15-die-stierburg-auf-dem-carlsbade-11/"
+            "source_url": "https://www.mittendran.de/spaziergang-die-vergangenheit-8-atelierhaeuser-der-luetzowstrasse/"
           },
           {
-            "title": "Frühlingsspaziergang",
-            "url": "https://www.mittendran.de/fruehlingsvorboten/",
-            "excerpt": "Die Vorboten des Frühlings schauen schon aus der Erde. Die allerersten Schneeglöckchen wagen sich hervor und die gelben Blüten des Winterginsters leuchten…",
-            "date": "2024-01-30",
-            "about_years": [],
-            "rubrik": "kiek ma!",
-            "source_url": "https://www.mittendran.de/fruehlingsvorboten/"
-          },
-          {
-            "title": "Spazierganz mit Lia Hiltz und Paul Enck (21). Die Welt vor 1830",
-            "url": "https://www.mittendran.de/spazierganz-mit-lia-hiltz-und-paul-enck-21-die-welt-vor-1830/",
-            "excerpt": "Gastbeitrag von Paul Enck www.paul-enck.com (http://www.paul-enck.com) (https://www.mittendran.de/wp-content/uploads/2023/07/Bild-21_1-Spuren-vor-1830.jpeg) 1. Copyright Lia Hiltz Lia sagt: Außerhalb des Parks…",
-            "date": "2023-07-16",
+            "title": "Edvard Munch in Berlin-(Tiergarten)",
+            "url": "https://www.mittendran.de/edvard-munch-berlin-tiergarten/",
+            "excerpt": "Seit einigen Wochen gibt es in Berlin und Potsdam große Ausstellungen mit Arbeiten des norwegischen Künstlers Edvard Munch (1863-1944). Munch lebte mehrmals einige Zeit in Berlin, auch in unserem Kiez. Noch vor der…",
+            "date": "2023-12-08",
             "about_years": [
-              1717,
-              1718,
-              1735,
-              1750,
-              1756,
-              1763,
-              1764,
-              1781,
-              1785,
-              1809,
-              1830,
-              1838,
-              1840,
-              1848,
-              1889,
-              1905,
-              1937
+              1863,
+              1892,
+              1910,
+              1944
             ],
             "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/spazierganz-mit-lia-hiltz-und-paul-enck-21-die-welt-vor-1830/"
+            "source_url": "https://www.mittendran.de/edvard-munch-berlin-tiergarten/"
           }
         ],
-        "place_url": "places/landwehrkanal/",
-        "place_slug": "landwehrkanal",
-        "title": "Zeitzeugen gesucht: Der Landwehrkanal wird 175 Jahre alt.",
-        "url": "https://www.mittendran.de/zeitzeugen-gesucht-der-landwehrkanal-wird-175-jahre-alt/",
-        "excerpt": "2025 jährt sich die Eröffnung des Landwehrkanals zum 175. Male. Ein Leser unseres Blogs/Magazins, Dirk Zeiske, plant eine Veröffentlichung zu diesem Thema und sucht noch Menschen, die gerne Anekdoten oder persönliche…",
-        "date": "2025-03-17"
+        "place_url": "places/luetzowstrasse-82/",
+        "place_slug": "luetzowstrasse-82",
+        "title": "Spaziergang in die Vergangenheit (47): Eine Künstlerkolonie in der Bissingzeile",
+        "url": "https://www.mittendran.de/spaziergang-in-die-vergangenheit-47-eine-kuenstlerkolonie-in-der-bissingzeile/",
+        "excerpt": "Spaziergang in die Vergangenheit (47): Eine Künstlerkolonie in der Bissingzeile Als die Bissingzeile noch keinen Namen hatte, sondern nur „Durchgang zur Lützowstraße“ hieß und eben erst (1897) bebaut worden war…",
+        "date": "2026-10-31"
       }
     },
     {
@@ -13241,114 +13561,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.362321,
-          52.503246
-        ]
-      },
-      "properties": {
-        "place": "Lützowstraße 82",
-        "count": 3,
-        "articles": [
-          {
-            "title": "Spaziergang in die Vergangenheit (9). Auf der Suche nach Edvard Munch",
-            "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-9-auf-der-suche-nach-edvard-munch/",
-            "excerpt": "Noch mal zurück ins Atelierhaus Lützowstraße 82, das wir neulich (https://www.mittendran.de/spaziergang-die-vergangenheit-8-atelierhaeuser-der-luetzowstrasse/) besucht haben. Uns war etwas aufgefallen, und bei dessen…",
-            "date": "2024-02-20",
-            "about_years": [
-              1837,
-              1863,
-              1865,
-              1867,
-              1870,
-              1890,
-              1891,
-              1892,
-              1895,
-              1897,
-              1898,
-              1902,
-              1903,
-              1904,
-              1908,
-              1909,
-              1910,
-              1915,
-              1935,
-              1944
-            ],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/spaziergang-die-vergangenheit-9-auf-der-suche-nach-edvard-munch/"
-          },
-          {
-            "title": "Spaziergang in die Vergangenheit (8): Das Atelierhaus Lützowstraße 82",
-            "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-8-atelierhaeuser-der-luetzowstrasse/",
-            "excerpt": "Wir sind schon einmal im Atelierhaus an der Lützowstraße 82 gewesen, vor kurzem anlässlich der Munch-Ausstellung in Berlin hatten wir ein Foto veröffentlicht, das ihn in seinem Atelier sitzend zeigt (mittendran vom 8…",
-            "date": "2024-01-27",
-            "about_years": [
-              1830,
-              1846,
-              1849,
-              1850,
-              1854,
-              1855,
-              1858,
-              1860,
-              1861,
-              1863,
-              1865,
-              1870,
-              1872,
-              1889,
-              1890,
-              1892,
-              1893,
-              1896,
-              1902,
-              1903,
-              1905,
-              1907,
-              1908,
-              1910,
-              1915,
-              1922,
-              1924,
-              1925,
-              1931,
-              1935,
-              1938,
-              1944
-            ],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/spaziergang-die-vergangenheit-8-atelierhaeuser-der-luetzowstrasse/"
-          },
-          {
-            "title": "Edvard Munch in Berlin-(Tiergarten)",
-            "url": "https://www.mittendran.de/edvard-munch-berlin-tiergarten/",
-            "excerpt": "Seit einigen Wochen gibt es in Berlin und Potsdam große Ausstellungen mit Arbeiten des norwegischen Künstlers Edvard Munch (1863-1944). Munch lebte mehrmals einige Zeit in Berlin, auch in unserem Kiez. Noch vor der…",
-            "date": "2023-12-08",
-            "about_years": [
-              1863,
-              1892,
-              1910,
-              1944
-            ],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/edvard-munch-berlin-tiergarten/"
-          }
-        ],
-        "place_url": "places/luetzowstrasse-82/",
-        "place_slug": "luetzowstrasse-82",
-        "title": "Spaziergang in die Vergangenheit (9). Auf der Suche nach Edvard Munch",
-        "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-9-auf-der-suche-nach-edvard-munch/",
-        "excerpt": "Noch mal zurück ins Atelierhaus Lützowstraße 82, das wir neulich (https://www.mittendran.de/spaziergang-die-vergangenheit-8-atelierhaeuser-der-luetzowstrasse/) besucht haben. Uns war etwas aufgefallen, und bei dessen…",
-        "date": "2024-02-20"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.359451,
           52.502767
         ]
@@ -13614,6 +13826,99 @@
         "url": "https://www.mittendran.de/kind-im-kiez-die-sache-mit-dem-kitaplatz/",
         "excerpt": "Ein Beitrag von Familie Hobpenz Jede:r, der/die einmal mit Eltern von Kleinkindern gesprochen hat, weiß, dass die Kita-Platz-Suche hier in Berlin – wie auch in vielen anderen Gegenden – eine besondere Herausforderung…",
         "date": "2024-02-02"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.36827,
+          52.50602
+        ]
+      },
+      "properties": {
+        "place": "Potsdamer Brücke",
+        "count": 3,
+        "articles": [
+          {
+            "title": "Ein Baum mit Geschichte",
+            "url": "https://www.mittendran.de/ein-baum-mit-geschichte/",
+            "excerpt": "Ein Baum mit Geschichte Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach…",
+            "date": "2026-10-27",
+            "about_years": [
+              1831,
+              1840,
+              1846,
+              1851,
+              1858,
+              1872,
+              1874,
+              1888,
+              1900,
+              1901,
+              1910,
+              1923,
+              1933,
+              1938,
+              1945,
+              1954,
+              1961,
+              1973
+            ],
+            "rubrik": "Kiez-Geschichte",
+            "source_url": "https://www.mittendran.de/ein-baum-mit-geschichte/"
+          },
+          {
+            "title": "Jüdische Geschichte: Das Kassenbuch der Gemeinde an der Potsdamer Brücke.",
+            "url": "https://www.mittendran.de/juedisches-geschichte-das-kassenbuch-der-gemeinde-der-potsdamer-bruecke/",
+            "excerpt": "Im Artikel über die Jüdische Gemeinde an der Potsdamer Brücke (mittendran vom 3. September 2022 (https://www.mittendran.de/juedische-geschichte-tiergarten-sued-3-die-synagoge-der-potsdamer-bruecke/)) hatten wir ein…",
+            "date": "2024-11-27",
+            "about_years": [
+              1861,
+              1875,
+              1905,
+              1926,
+              1927,
+              1928,
+              1930,
+              1937,
+              2000
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/juedisches-geschichte-das-kassenbuch-der-gemeinde-der-potsdamer-bruecke/"
+          },
+          {
+            "title": "A. Blumenreich",
+            "url": "https://www.mittendran.de/a-blumenreich/",
+            "excerpt": "ein Beitrag von Bethan Griffiths zu: Jüdische Gewerbebetriebe rund um die Potsdamer Straße Im Frühjahr 1919 etablierte das Ehepaar Arnhold und Ilse Blumenreich die „Blumenreich’s Versandhaus GmbH“. Firmen gleichen…",
+            "date": "2022-12-18",
+            "about_years": [
+              1919,
+              1920,
+              1921,
+              1922,
+              1925,
+              1933,
+              1935,
+              1936,
+              1937,
+              1938,
+              1939,
+              1942,
+              1945,
+              2009
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/a-blumenreich/"
+          }
+        ],
+        "place_url": "places/potsdamer-bruecke/",
+        "place_slug": "potsdamer-bruecke",
+        "title": "Ein Baum mit Geschichte",
+        "url": "https://www.mittendran.de/ein-baum-mit-geschichte/",
+        "excerpt": "Ein Baum mit Geschichte Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach…",
+        "date": "2026-10-27"
       }
     },
     {
@@ -17546,71 +17851,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.36827,
-          52.50602
-        ]
-      },
-      "properties": {
-        "place": "Potsdamer Brücke",
-        "count": 2,
-        "articles": [
-          {
-            "title": "Jüdische Geschichte: Das Kassenbuch der Gemeinde an der Potsdamer Brücke.",
-            "url": "https://www.mittendran.de/juedisches-geschichte-das-kassenbuch-der-gemeinde-der-potsdamer-bruecke/",
-            "excerpt": "Im Artikel über die Jüdische Gemeinde an der Potsdamer Brücke (mittendran vom 3. September 2022 (https://www.mittendran.de/juedische-geschichte-tiergarten-sued-3-die-synagoge-der-potsdamer-bruecke/)) hatten wir ein…",
-            "date": "2024-11-27",
-            "about_years": [
-              1861,
-              1875,
-              1905,
-              1926,
-              1927,
-              1928,
-              1930,
-              1937,
-              2000
-            ],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/juedisches-geschichte-das-kassenbuch-der-gemeinde-der-potsdamer-bruecke/"
-          },
-          {
-            "title": "A. Blumenreich",
-            "url": "https://www.mittendran.de/a-blumenreich/",
-            "excerpt": "ein Beitrag von Bethan Griffiths zu: Jüdische Gewerbebetriebe rund um die Potsdamer Straße Im Frühjahr 1919 etablierte das Ehepaar Arnhold und Ilse Blumenreich die „Blumenreich’s Versandhaus GmbH“. Firmen gleichen…",
-            "date": "2022-12-18",
-            "about_years": [
-              1919,
-              1920,
-              1921,
-              1922,
-              1925,
-              1933,
-              1935,
-              1936,
-              1937,
-              1938,
-              1939,
-              1942,
-              1945,
-              2009
-            ],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/a-blumenreich/"
-          }
-        ],
-        "place_url": "places/potsdamer-bruecke/",
-        "place_slug": "potsdamer-bruecke",
-        "title": "Jüdische Geschichte: Das Kassenbuch der Gemeinde an der Potsdamer Brücke.",
-        "url": "https://www.mittendran.de/juedisches-geschichte-das-kassenbuch-der-gemeinde-der-potsdamer-bruecke/",
-        "excerpt": "Im Artikel über die Jüdische Gemeinde an der Potsdamer Brücke (mittendran vom 3. September 2022 (https://www.mittendran.de/juedische-geschichte-tiergarten-sued-3-die-synagoge-der-potsdamer-bruecke/)) hatten wir ein…",
-        "date": "2024-11-27"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.375017,
           52.509674
         ]
@@ -18784,6 +19024,37 @@
         "url": "https://www.mittendran.de/wird-der-potsdamer-platz-ins-gleisdreieck-verlaengert/",
         "excerpt": "Ein Beitrag von Mathias Bauer, Gleisdreieckblog (https://gleisdreieck-blog.de) 25 Jahre nach der Eröffnung Veröffentlicht am 13. 09. 2023 Gerade steht das 25jährige Jubiläum des neuen Potsdamer Platzes an. Doch zum…",
         "date": "2023-09-14"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3685,
+          52.5025
+        ]
+      },
+      "properties": {
+        "place": "Bissingzeile",
+        "count": 1,
+        "articles": [
+          {
+            "title": "Presseschau des Stadtteil-Forums Tiergarten Süd",
+            "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-2/",
+            "excerpt": "Presseschau des Stadtteil-Forums Tiergarten Süd Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/…",
+            "date": "2026-11-06",
+            "about_years": [],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-2/"
+          }
+        ],
+        "place_url": "places/bissingzeile/",
+        "place_slug": "bissingzeile",
+        "title": "Presseschau des Stadtteil-Forums Tiergarten Süd",
+        "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-2/",
+        "excerpt": "Presseschau des Stadtteil-Forums Tiergarten Süd Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/…",
+        "date": "2026-11-06"
       }
     },
     {
@@ -20928,6 +21199,56 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.371797,
+          52.511218
+        ]
+      },
+      "properties": {
+        "place": "Kemperplatz",
+        "count": 1,
+        "articles": [
+          {
+            "title": "Ein Baum mit Geschichte",
+            "url": "https://www.mittendran.de/ein-baum-mit-geschichte/",
+            "excerpt": "Ein Baum mit Geschichte Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach…",
+            "date": "2026-10-27",
+            "about_years": [
+              1831,
+              1840,
+              1846,
+              1851,
+              1858,
+              1872,
+              1874,
+              1888,
+              1900,
+              1901,
+              1910,
+              1923,
+              1933,
+              1938,
+              1945,
+              1954,
+              1961,
+              1973
+            ],
+            "rubrik": "Kiez-Geschichte",
+            "source_url": "https://www.mittendran.de/ein-baum-mit-geschichte/"
+          }
+        ],
+        "place_url": "places/kemperplatz/",
+        "place_slug": "kemperplatz",
+        "title": "Ein Baum mit Geschichte",
+        "url": "https://www.mittendran.de/ein-baum-mit-geschichte/",
+        "excerpt": "Ein Baum mit Geschichte Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach…",
+        "date": "2026-10-27"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.355174,
           52.501216
         ]
@@ -22759,6 +23080,55 @@
         "url": "https://www.mittendran.de/kiez-mit-kind-der-spielplatz-blaues-klavier/",
         "excerpt": "(https://www.mittendran.de/wp-content/uploads/2024/04/Blaues-Klavier-1-scaled.jpg) Mein blaues Klavier Ich habe zu Hause ein blaues Klavier Und kenne doch keine Note. Es steht im Dunkel der Kellertür, Seitdem die Welt…",
         "date": "2024-04-04"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.374207,
+          52.505613
+        ]
+      },
+      "properties": {
+        "place": "Linkstraße",
+        "count": 1,
+        "articles": [
+          {
+            "title": "Jüdische Geschichte im Lützow-Viertel (18): Dr. Bernhard Pollack, Blumeshof (Teil 3)",
+            "url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-18-dr-bernhard-pollack-blumeshof-teil-3/",
+            "excerpt": "Jüdische Geschichte im Lützow-Viertel (18): Dr. Bernhard Pollack, Blumeshof (Teil 3) Das älteste der Pollack-Kinder war Joseph Pollack, sein genaues Geburtsdatum (um 1856) und der Geburtsort (vermutlich Breslau) sind…",
+            "date": "2026-11-07",
+            "about_years": [
+              1811,
+              1840,
+              1841,
+              1842,
+              1850,
+              1856,
+              1865,
+              1875,
+              1876,
+              1878,
+              1880,
+              1881,
+              1886,
+              1887,
+              1888,
+              1970,
+              2001
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-18-dr-bernhard-pollack-blumeshof-teil-3/"
+          }
+        ],
+        "place_url": "places/linkstrasse/",
+        "place_slug": "linkstrasse",
+        "title": "Jüdische Geschichte im Lützow-Viertel (18): Dr. Bernhard Pollack, Blumeshof (Teil 3)",
+        "url": "https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-18-dr-bernhard-pollack-blumeshof-teil-3/",
+        "excerpt": "Jüdische Geschichte im Lützow-Viertel (18): Dr. Bernhard Pollack, Blumeshof (Teil 3) Das älteste der Pollack-Kinder war Joseph Pollack, sein genaues Geburtsdatum (um 1856) und der Geburtsort (vermutlich Breslau) sind…",
+        "date": "2026-11-07"
       }
     },
     {
@@ -25519,6 +25889,77 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.362706,
+          52.500019
+        ]
+      },
+      "properties": {
+        "place": "Potsdamer Straße 121e",
+        "count": 1,
+        "articles": [
+          {
+            "title": "Spaziergang in die Vergangenheit (47): Eine Künstlerkolonie in der Bissingzeile",
+            "url": "https://www.mittendran.de/spaziergang-in-die-vergangenheit-47-eine-kuenstlerkolonie-in-der-bissingzeile/",
+            "excerpt": "Spaziergang in die Vergangenheit (47): Eine Künstlerkolonie in der Bissingzeile Als die Bissingzeile noch keinen Namen hatte, sondern nur „Durchgang zur Lützowstraße“ hieß und eben erst (1897) bebaut worden war…",
+            "date": "2026-10-31",
+            "about_years": [
+              1700,
+              1841,
+              1843,
+              1848,
+              1850,
+              1851,
+              1856,
+              1861,
+              1863,
+              1865,
+              1868,
+              1875,
+              1876,
+              1879,
+              1881,
+              1888,
+              1890,
+              1897,
+              1900,
+              1903,
+              1904,
+              1908,
+              1911,
+              1915,
+              1916,
+              1920,
+              1921,
+              1930,
+              1933,
+              1936,
+              1939,
+              1942,
+              1944,
+              1945,
+              1947,
+              1960,
+              1992,
+              1997,
+              2008
+            ],
+            "rubrik": "Kiez-Geschichte",
+            "source_url": "https://www.mittendran.de/spaziergang-in-die-vergangenheit-47-eine-kuenstlerkolonie-in-der-bissingzeile/"
+          }
+        ],
+        "place_url": "places/potsdamer-strasse-121e/",
+        "place_slug": "potsdamer-strasse-121e",
+        "title": "Spaziergang in die Vergangenheit (47): Eine Künstlerkolonie in der Bissingzeile",
+        "url": "https://www.mittendran.de/spaziergang-in-die-vergangenheit-47-eine-kuenstlerkolonie-in-der-bissingzeile/",
+        "excerpt": "Spaziergang in die Vergangenheit (47): Eine Künstlerkolonie in der Bissingzeile Als die Bissingzeile noch keinen Namen hatte, sondern nur „Durchgang zur Lützowstraße“ hieß und eben erst (1897) bebaut worden war…",
+        "date": "2026-10-31"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.36263,
           52.499914
         ]
@@ -25861,6 +26302,37 @@
         "url": "https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-12/",
         "excerpt": "Guten Tag, hier kommt die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums Tiergarten Süd (https://forum-tgs.de/ (https://forum-tgs.de/)). In den letzten 7 Tagen sind uns diese…",
         "date": "2026-10-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.37351,
+          52.509603
+        ]
+      },
+      "properties": {
+        "place": "Potsdamer Straße 2",
+        "count": 1,
+        "articles": [
+          {
+            "title": "„Center on Ice“ am Potsdamer Platz",
+            "url": "https://www.mittendran.de/center-on-ice-am-potsdamer-platz/",
+            "excerpt": "„Center on Ice“ am Potsdamer Platz Das Center am Potsdamer Platz, ehem. Sony Center, verwandelt sich auch dieses Jahr wieder in das „Center on Ice“. Vom 13. November bis 10. Januar kann man auf der 600 qm großen…",
+            "date": "2026-11-06",
+            "about_years": [],
+            "rubrik": "Kiez mit Kind",
+            "source_url": "https://www.mittendran.de/center-on-ice-am-potsdamer-platz/"
+          }
+        ],
+        "place_url": "places/potsdamer-strasse-2/",
+        "place_slug": "potsdamer-strasse-2",
+        "title": "„Center on Ice“ am Potsdamer Platz",
+        "url": "https://www.mittendran.de/center-on-ice-am-potsdamer-platz/",
+        "excerpt": "„Center on Ice“ am Potsdamer Platz Das Center am Potsdamer Platz, ehem. Sony Center, verwandelt sich auch dieses Jahr wieder in das „Center on Ice“. Vom 13. November bis 10. Januar kann man auf der 600 qm großen…",
+        "date": "2026-11-06"
       }
     },
     {
@@ -26870,6 +27342,56 @@
         "url": "https://www.mittendran.de/koloniale-spurensuche-tiergarten/",
         "excerpt": "Bei der Betrachtung der zahlreichen Verbrechen bis hin zum versuchten Völkermord (Deutsch-Südwestafrika) in der kurzen Kolonialepisode des deutschen Kaiserreiches (1884 bis 1918) findet man auch heute noch Spuren, die…",
         "date": "2025-04-16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.368271,
+          52.508912
+        ]
+      },
+      "properties": {
+        "place": "Scharounplatz",
+        "count": 1,
+        "articles": [
+          {
+            "title": "Ein Baum mit Geschichte",
+            "url": "https://www.mittendran.de/ein-baum-mit-geschichte/",
+            "excerpt": "Ein Baum mit Geschichte Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach…",
+            "date": "2026-10-27",
+            "about_years": [
+              1831,
+              1840,
+              1846,
+              1851,
+              1858,
+              1872,
+              1874,
+              1888,
+              1900,
+              1901,
+              1910,
+              1923,
+              1933,
+              1938,
+              1945,
+              1954,
+              1961,
+              1973
+            ],
+            "rubrik": "Kiez-Geschichte",
+            "source_url": "https://www.mittendran.de/ein-baum-mit-geschichte/"
+          }
+        ],
+        "place_url": "places/scharounplatz/",
+        "place_slug": "scharounplatz",
+        "title": "Ein Baum mit Geschichte",
+        "url": "https://www.mittendran.de/ein-baum-mit-geschichte/",
+        "excerpt": "Ein Baum mit Geschichte Der Autor, Ralf Hausding, ist in Tiergarten nah am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach…",
+        "date": "2026-10-27"
       }
     },
     {

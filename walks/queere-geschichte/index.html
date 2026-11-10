@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A queer afternoon, on foot</title>
+<style>
+  :root {
+    --ink: #2c2428;
+    --paper: #fff7f2;
+    --card: #fffdfb;
+    --rose: #d4537e;
+    --rose-soft: #f3c3d2;
+    --walked: #e89aaf;
+    --muted: #7a6e72;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-snap-type: y mandatory; }
+  body {
+    margin: 0;
+    background: #1c1618;
+    color: var(--ink);
+    font-family: "Iowan Old Style", Palatino, Georgia, serif;
+  }
+  .slide {
+    min-height: 100vh;
+    scroll-snap-align: start;
+    display: grid;
+    grid-template-columns: minmax(280px, 420px) 1fr;
+    background: var(--paper);
+  }
+  .map-slot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.2rem;
+    background:
+      radial-gradient(circle at 20% 10%, #ffe8ef 0, transparent 42%),
+      #fff1ea;
+  }
+  .map-slot svg { width: min(100%, 380px); height: auto; }
+  .say {
+    padding: 2.4rem 2.6rem 2.8rem;
+    max-width: 38rem;
+    overflow: auto;
+    max-height: 100vh;
+  }
+  .photo {
+    width: 100%;
+    max-height: 46vh;
+    object-fit: cover;
+    border-radius: 18px;
+    margin: 0 0 1rem;
+    background: #efe4dc;
+  }
+  .kicker {
+    font-family: "Avenir Next", "Segoe UI", sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--rose);
+    margin: 0 0 0.45rem;
+  }
+  h1, h2 { font-weight: 500; letter-spacing: -0.02em; line-height: 1.12; margin: 0 0 0.8rem; }
+  h1 { font-size: 2.35rem; }
+  h2 { font-size: 1.75rem; }
+  p { font-size: 1.14rem; line-height: 1.42; margin: 0 0 0.75rem; }
+  .cap {
+    font-family: "Avenir Next", "Segoe UI", sans-serif;
+    font-size: 0.8rem;
+    color: var(--muted);
+    margin-top: 1rem;
+  }
+  .cap a { color: var(--rose); }
+  .help { color: var(--muted); font-size: 0.98rem; }
+  @media (max-width: 800px) {
+    .slide { grid-template-columns: 1fr; }
+    .map-slot { padding: 0.6rem 0.6rem 0; }
+    .say { max-height: none; }
+  }
+</style>
+</head>
+<body>
+
+<svg id="map-source" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 460" hidden>
+  <rect x="8" y="8" width="344" height="444" rx="28" fill="#fffdfb" stroke="#f0d5df"/>
+  <text x="28" y="36" fill="#d4537e" font-family="Georgia, serif" font-size="15">the afternoon</text>
+  <text x="28" y="54" fill="#7a6e72" font-family="Avenir Next, Segoe UI, sans-serif" font-size="10">about a mile, south, then a little west</text>
+  <!-- streets, drawn to the real bearings -->
+  <line class="street" x1="40" y1="78" x2="320" y2="78" stroke="#f3ddd4" stroke-width="7" stroke-linecap="round"/>
+  <text x="248" y="74" fill="#c4a9a4" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9">Lützowstraße</text>
+  <line class="street" x1="36" y1="214" x2="330" y2="248" stroke="#f3ddd4" stroke-width="7" stroke-linecap="round"/>
+  <text x="188" y="232" fill="#c4a9a4" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9">Kurfürstenstraße</text>
+  <rect x="86" y="368" width="36" height="28" rx="6" fill="#ffe8ef" stroke="#f3c3d2"/>
+  <text x="128" y="386" fill="#c4a9a4" font-family="Avenir Next, Segoe UI, sans-serif" font-size="9">Nollendorfplatz</text>
+  <polyline class="route" fill="none" stroke="#e7a3b6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2 7"
+    points="269,71 246,343 69,204 103,387 88,245"/>
+  <g class="stop" data-n="1" transform="translate(269,71)">
+    <circle r="11" fill="#fff" stroke="#d4537e" stroke-width="2.5"/>
+    <text y="4" text-anchor="middle" font-size="11" font-family="Georgia, serif" fill="#d4537e">1</text>
+    <text class="label" x="16" y="4" font-size="11" font-family="Georgia, serif" fill="#2c2428">Museum</text>
+  </g>
+  <g class="stop" data-n="2" transform="translate(246,343)">
+    <circle r="11" fill="#fff" stroke="#d4537e" stroke-width="2.5"/>
+    <text y="4" text-anchor="middle" font-size="11" font-family="Georgia, serif" fill="#d4537e">2</text>
+    <text class="label" x="16" y="4" font-size="11" font-family="Georgia, serif" fill="#2c2428">Lunch</text>
+  </g>
+  <g class="stop" data-n="3" transform="translate(69,204)">
+    <circle r="11" fill="#fff" stroke="#d4537e" stroke-width="2.5"/>
+    <text y="4" text-anchor="middle" font-size="11" font-family="Georgia, serif" fill="#d4537e">3</text>
+    <text class="label" x="16" y="4" font-size="11" font-family="Georgia, serif" fill="#2c2428">AIDS-Hilfe</text>
+  </g>
+  <g class="stop" data-n="4" transform="translate(103,387)">
+    <circle r="11" fill="#fff" stroke="#d4537e" stroke-width="2.5"/>
+    <text y="4" text-anchor="middle" font-size="11" font-family="Georgia, serif" fill="#d4537e">4</text>
+    <text class="label" x="16" y="-6" font-size="11" font-family="Georgia, serif" fill="#2c2428">the square</text>
+  </g>
+  <g class="stop" data-n="5" transform="translate(88,245)">
+    <circle r="11" fill="#fff" stroke="#d4537e" stroke-width="2.5"/>
+    <text y="4" text-anchor="middle" font-size="11" font-family="Georgia, serif" fill="#d4537e">5</text>
+    <text class="label" x="16" y="4" font-size="11" font-family="Georgia, serif" fill="#2c2428">the new name</text>
+  </g>
+</svg>
+
+<section class="slide" data-stop="0">
+  <div class="map-slot"></div>
+  <div class="say">
+    <p class="kicker">Five stops · one afternoon</p>
+    <h1>A queer walk, drawn small.</h1>
+    <p>You start at a museum on Lützowstraße and end on the square where the neighborhood holds its street fair. Lunch is the jog to the east. Then you cross back.</p>
+    <p class="help">The map stays with you. Arrows move the afternoon along.</p>
+  </div>
+</section>
+
+<section class="slide" data-stop="1">
+  <div class="map-slot"></div>
+  <div class="say">
+    <p class="kicker">1 · Lützowstraße 73</p>
+    <h2>The Gay Museum.</h2>
+    <p>Its German name is the Schwules Museum. It was founded in 1985, the same year as the city’s AIDS service. The collection is about 1.5 million items. The building can hold three shows at once.</p>
+    <p>In December 2025 it turns forty. The Sunday after the birthday, the door is free. Up then: Petra Gall’s photographs of Berlin’s lesbian scene, a show of queer Ukrainian art, and a history of queer movements in Germany since Stonewall.</p>
+    <p>A bust of Magnus Hirschfeld is inside. His own institute is not on this walk. More on that at the end.</p>
+    <p class="cap">“Glückwunsch! Das Schwule Museum wird 40 Jahre alt,” Dec. 4, 2025. <a href="https://www.mittendran.de/dezember/">mittendran.de</a></p>
+  </div>
+</section>
+
+<section class="slide" data-stop="1">
+  <div class="map-slot"></div>
+  <div class="say">
+    <p class="kicker">1 · same door</p>
+    <h2>Five attacks, one spring.</h2>
+    <p>Between February and May 2023, someone hit the museum five times. An air rifle through the front window, the sign, and a sculpture by the door. Food smeared on the entrance while the museum was open. A fire extinguisher emptied on the facade. Water balloons in the lobby, twice.</p>
+    <p>Staff also found anti-queer stickers, far-right stickers in the bathrooms, blows on the glass, abuse by phone and in the guest book. The insurer asked whether a window full of bullet holes needed replacing, since the pane still held. The museum paid for the sign, the sculpture, and the cleaning.</p>
+    <p class="cap">Press note signed by Jan Künemund, mino Künze, and Julia Heuser, Aug. 13, 2023. <a href="https://www.mittendran.de/das-schwule-museum-als-gefaehrdeter-ort/">mittendran.de</a></p>
+  </div>
+</section>
+
+<section class="slide" data-stop="2">
+  <div class="map-slot"></div>
+  <div class="say">
+    <img class="photo" src="img/deli.jpg" alt="Outdoor tables and a folded orange umbrella in front of Sole Deli">
+    <p class="kicker">2 · Zietenstraße</p>
+    <h2>Sit down. The orange umbrella is the landmark.</h2>
+    <p>Sole Deli is a block east of the straight line, which is why the map bends. Mediterranean, tables outside, open in this piece from 9 to 6. Banana bread is 7.50 euros. There is a vegan breakfast plate, and the kitchen can do gluten-free and halal.</p>
+    <p>Eat here. The next two stops are heavier.</p>
+    <p class="cap">“Restaurant SOLE DELI,” Sept. 16, 2025. <a href="https://www.mittendran.de/restaurant-sole-deli/">mittendran.de</a></p>
+  </div>
+</section>
+
+<section class="slide" data-stop="3">
+  <div class="map-slot"></div>
+  <div class="say">
+    <p class="kicker">3 · Kurfürstenstraße 130</p>
+    <h2>The AIDS office.</h2>
+    <p>Berliner Aids-Hilfe has been here, in one form or another, since 1985. Early on, people called AIDS the gay plague. A lot of the sick hid it. Nonsense traveled faster than medicine.</p>
+    <p>The office tests, counsels, and runs groups. Lea Susanna, who has lived with HIV for nineteen years, says that with treatment she cannot pass the virus on. In Germany, most people who know their status and stay on medication reach that point. In 2021, 650,000 people worldwide still died of it, mostly in Africa and Asia.</p>
+    <p>The year’s slogan was one English word: Equalize.</p>
+    <p class="cap">World AIDS Day piece, Dec. 1, 2022. <a href="https://www.mittendran.de/die-diagnose-kam-einmal-einem-todesurteil-gleich/">mittendran.de</a></p>
+  </div>
+</section>
+
+<section class="slide" data-stop="4">
+  <div class="map-slot"></div>
+  <div class="say">
+    <p class="kicker">4 · Nollendorfplatz</p>
+    <h2>The square fills up.</h2>
+    <p>For one weekend in July 2023 the lesbian and gay street fair took over the square for the 29th time. The motto was “equal rights for unequals, worldwide.” Motzstraße, Eisenacher Straße, Fuggerstraße, and Kalckreuthstraße become the fairground, about five acres of it.</p>
+    <p>The piece calls it the biggest gathering of its kind in Europe, and says the crowd has run past 350,000. Six stages. It goes until 11 on Saturday and 9 on Sunday. The photograph in the article is from the year before.</p>
+    <p class="cap">“Gleiche Rechte für Ungleiche — weltweit!,” July 10, 2023. <a href="https://www.mittendran.de/gleiche-rechte-fuer-ungleiche-weltweit/">mittendran.de</a></p>
+  </div>
+</section>
+
+<section class="slide" data-stop="5">
+  <div class="map-slot"></div>
+  <div class="say">
+    <img class="photo" src="img/sign.jpg" alt="A man lifts a new street sign, Karl-Heinrich-Ulrichs-Straße, over the old name Einemstraße">
+    <p class="kicker">5 · the street into the square</p>
+    <h2>The old name is still on the pole.</h2>
+    <p>Einemstraße is now Karl-Heinrich-Ulrichs-Straße. Ulrichs was a lawyer. In the 1860s he said, in public and in print, that love between men was inborn. He was decades ahead of the better-known Magnus Hirschfeld. In the picture, someone holds the new sign over the old one while the square is packed.</p>
+    <p>The article ties the renaming to a layer in a Berlin history app, made with the Gay Museum: about seventy queer places, east and west, from before the Wall. Its last line is the one to keep. Queer history is also the history of democracy.</p>
+    <p class="cap">“In der Berlin-Presse war es kurz erwähnt,” Nov. 30, 2023. <a href="https://www.mittendran.de/der-berlin-presse-war-es-kurz-erwaehnt-hier-noch-einmal-ausfuehrlich/">mittendran.de</a></p>
+  </div>
+</section>
+
+<section class="slide" data-stop="0">
+  <div class="map-slot"></div>
+  <div class="say">
+    <p class="kicker">Not on the map</p>
+    <h2>The institute was north of here.</h2>
+    <p>Magnus Hirschfeld opened the Institute for Sexual Science in 1919, in a villa in the Tiergarten. It was a clinic, a library, and a shelter, at a time when sex between men was a crime under Paragraph 175. In the first days of May 1933, Nazi students looted it. On May 10 the books were burned in the square by the opera house.</p>
+    <p>What remains nearby is a plain plaque, put up in 1994, and the bust back at the museum. This afternoon stays south of Lützowstraße.</p>
+    <p class="cap">“Durch Wissenschaft zur Gerechtigkeit,” April 19, 2023. <a href="https://www.mittendran.de/durch-wissenschaft-zur-gerechtigkeit/">mittendran.de</a></p>
+  </div>
+</section>
+
+<script>
+  const source = document.getElementById("map-source");
+  document.querySelectorAll(".slide").forEach((slide) => {
+    const svg = source.cloneNode(true);
+    svg.removeAttribute("hidden");
+    svg.removeAttribute("id");
+    const here = slide.dataset.stop;
+    svg.querySelectorAll(".stop").forEach((g) => {
+      const on = g.dataset.n === here;
+      const circle = g.querySelector("circle");
+      const num = g.querySelector("text");
+      if (on) {
+        circle.setAttribute("r", "14");
+        circle.setAttribute("fill", "#d4537e");
+        num.setAttribute("fill", "#fffdfb");
+      } else if (here !== "0") {
+        circle.setAttribute("fill", "#fff");
+        circle.setAttribute("stroke", "#e7a3b6");
+        num.setAttribute("fill", "#e7a3b6");
+      }
+    });
+    slide.querySelector(".map-slot").appendChild(svg);
+  });
+
+  const slides = [...document.querySelectorAll(".slide")];
+  function index() {
+    const y = window.scrollY + 8;
+    let i = 0;
+    slides.forEach((s, n) => { if (s.offsetTop <= y) i = n; });
+    return i;
+  }
+  function go(n) {
+    slides[Math.max(0, Math.min(slides.length - 1, n))]
+      .scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+  document.addEventListener("keydown", (e) => {
+    if (["ArrowDown", "ArrowRight", "PageDown", " "].includes(e.key)) {
+      e.preventDefault();
+      go(index() + 1);
+    } else if (["ArrowUp", "ArrowLeft", "PageUp"].includes(e.key)) {
+      e.preventDefault();
+      go(index() - 1);
+    }
+  });
+</script>
+</body>
+</html>

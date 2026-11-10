@@ -1,0 +1,89 @@
+title: Ein Baum mit Geschichte
+slug: 2026-10-27__ein-baum-mit-geschichte
+author: Redaktion
+date: '2026-10-27'
+issue: null
+rubrik: Kiez-Geschichte
+description: Ein Baum mit Geschichte Der Autor, Ralf Hausding, ist in Tiergarten nah
+  am Potsdamer Platz aufgewachsen und erinnert sich gern an seine Kindheit in der
+  Nachkriegszeit. Nach dem Abriss seines Wohnhauses hat es ihn nach…
+about_years:
+- 1831
+- 1840
+- 1846
+- 1851
+- 1858
+- 1872
+- 1874
+- 1888
+- 1900
+- 1901
+- 1910
+- 1923
+- 1933
+- 1938
+- 1945
+- 1954
+- 1961
+- 1973
+source_url: https://www.mittendran.de/ein-baum-mit-geschichte/
+wp_post_id: 43512
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Potsdamer Brücke
+  lat: 52.50602
+  lon: 13.36827
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Landwehrkanal
+  lat: 52.50605
+  lon: 13.36621
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Margaretenstraße
+  lat: 52.446224
+  lon: 13.299851
+  osm_id: null
+  status: auto
+  via: regex
+- name: Scharounplatz
+  lat: 52.508912
+  lon: 13.368271
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Viktoriastraße
+  lat: 52.575031
+  lon: 13.405442
+  osm_id: null
+  status: auto
+  via: regex
+- name: Kemperplatz
+  lat: 52.511218
+  lon: 13.371797
+  osm_id: null
+  status: confirmed
+  via: regex
+- name: Schnellstraße
+  lat: 53.557337
+  lon: 9.942257
+  osm_id: null
+  status: auto
+  via: regex

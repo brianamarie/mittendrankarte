@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Gay Museum, a date-prep page</title>
+<style>
+  :root {
+    --ink: #2c2428;
+    --paper: #fff6f3;
+    --card: #fffdfb;
+    --rose: #c23b6e;
+    --rose-deep: #8e2348;
+    --line: #f0c9d6;
+    --muted: #7a656c;
+    --marker: #fff0a0;
+    --sans: "Avenir Next", "Segoe UI", system-ui, sans-serif;
+    --serif: "Iowan Old Style", Palatino, Georgia, serif;
+    --t-attack: #b3402a;
+    --t-archive: #8a6200;
+    --t-work: #c23b6e;
+    --t-crip: #17756f;
+    --t-women: #7a3fa0;
+    --t-world: #2b5fa8;
+    --t-hiv: #a6335a;
+    --t-block: #4f7a3a;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: radial-gradient(circle at 10% -8%, #ffe1ec 0, transparent 34%), var(--paper);
+    color: var(--ink);
+    font-family: var(--serif);
+  }
+  a { color: var(--rose-deep); }
+  img { max-width: 100%; height: auto; display: block; }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 1.2rem 1.15rem 4rem; }
+
+  /* nav */
+  .crumbs { font-family: var(--sans); font-size: 0.78rem; margin: 0 0 1rem; }
+  .crumbs a { text-decoration: none; }
+  .jump {
+    position: sticky; top: 0; z-index: 5;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+    font-family: var(--sans); font-size: 0.78rem;
+    padding: 0.55rem 0; margin: 0 0 1.2rem;
+    background: color-mix(in srgb, var(--paper) 92%, transparent);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid var(--line);
+  }
+  .jump a {
+    text-decoration: none; padding: 0.25rem 0.65rem;
+    border: 1px solid var(--line); border-radius: 999px; background: var(--card);
+  }
+  .jump a:hover { background: #ffe6ef; }
+
+  /* type */
+  .kicker { font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; color: var(--rose); margin: 0 0 0.35rem; }
+  h1 { font-weight: 500; font-size: clamp(2.5rem, 8vw, 3.8rem); letter-spacing: -0.03em; line-height: 0.95; margin: 0 0 0.6rem; }
+  h2 { font-weight: 500; font-size: 1.75rem; letter-spacing: -0.02em; margin: 3rem 0 0.4rem; scroll-margin-top: 4rem; }
+  h3 { font-family: var(--sans); font-size: 1.02rem; font-weight: 700; margin: 0 0 0.35rem; line-height: 1.3; }
+  p { font-size: 1.06rem; line-height: 1.5; margin: 0 0 0.7rem; }
+  .lede { font-size: 1.22rem; line-height: 1.42; }
+  .sub { font-family: var(--sans); font-size: 0.9rem; color: var(--muted); margin: 0 0 1rem; }
+  .note { font-family: var(--sans); font-size: 0.8rem; color: var(--muted); line-height: 1.45; }
+  ul.b { margin: 0 0 0.7rem; padding-left: 1.15rem; }
+  ul.b li { font-size: 1.02rem; line-height: 1.45; margin: 0 0 0.3rem; }
+  ul.b li::marker { color: var(--rose); }
+  b, strong { font-weight: 700; }
+
+  /* names and themes */
+  .who { background: linear-gradient(transparent 55%, var(--marker) 55%); font-weight: 600; padding: 0 0.1em; white-space: nowrap; }
+  .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; margin: 0.45rem 0 0; font-family: var(--sans); }
+  .tag {
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.03em;
+    color: #fff; padding: 0.12rem 0.55rem 0.14rem; border-radius: 999px; white-space: nowrap;
+  }
+  .tag::before { content: "# "; opacity: 0.7; }
+  .t-attack { background: var(--t-attack); }
+  .t-archive { background: var(--t-archive); }
+  .t-work { background: var(--t-work); }
+  .t-crip { background: var(--t-crip); }
+  .t-women { background: var(--t-women); }
+  .t-world { background: var(--t-world); }
+  .t-hiv { background: var(--t-hiv); }
+  .t-block { background: var(--t-block); }
+  .key {
+    display: flex; flex-wrap: wrap; gap: 0.5rem 1.1rem; align-items: center;
+    font-family: var(--sans); font-size: 0.8rem; color: var(--muted);
+    margin: 1rem 0 0; padding: 0.6rem 0.8rem; border: 1px dashed var(--line); border-radius: 12px; background: var(--card);
+  }
+
+  /* photos */
+  figure { margin: 0.7rem 0 0.9rem; }
+  figure img { border-radius: 14px; border: 1px solid var(--line); background: #f3e7e2; }
+  figcaption { font-family: var(--sans); font-size: 0.74rem; color: var(--muted); margin-top: 0.3rem; line-height: 1.35; }
+  .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 0.6rem; }
+  .pair figure { margin: 0.4rem 0; }
+  .pair img { aspect-ratio: 4/5; object-fit: cover; width: 100%; }
+  .pair.wide img { aspect-ratio: 4/3; }
+  .solo { max-width: 22rem; }
+
+  /* date prep */
+  .prep {
+    background: var(--card); border: 1px solid var(--line); border-radius: 22px;
+    padding: 1.2rem 1.2rem 0.6rem; margin-top: 1.4rem;
+    box-shadow: 0 12px 34px rgba(142, 35, 72, 0.09);
+  }
+  .prep h2 { margin-top: 0; }
+  .callout {
+    border-left: 5px solid var(--rose); background: #fff0f5; border-radius: 0 14px 14px 0;
+    padding: 0.7rem 0.95rem 0.2rem; margin: 0.9rem 0;
+  }
+  .callout h3 { color: var(--rose-deep); }
+  .check { list-style: none; padding: 0; margin: 0 0 0.8rem; }
+  .check li { position: relative; padding-left: 1.7rem; margin: 0 0 0.45rem; font-size: 1.02rem; line-height: 1.42; }
+  .check li::before {
+    content: ""; position: absolute; left: 0; top: 0.2rem; width: 1rem; height: 1rem;
+    border: 2px solid var(--rose); border-radius: 5px; background: #fff;
+  }
+  .plan { list-style: none; counter-reset: stop; padding: 0; margin: 0.6rem 0 0.9rem; }
+  .plan > li {
+    counter-increment: stop; position: relative; padding: 0 0 0.9rem 2.6rem;
+  }
+  .plan > li::before {
+    content: counter(stop); position: absolute; left: 0; top: -0.1rem;
+    width: 1.9rem; height: 1.9rem; border-radius: 50%; background: var(--rose); color: #fff;
+    font-family: var(--sans); font-weight: 700; display: grid; place-items: center;
+  }
+  .plan > li:not(:last-child)::after {
+    content: ""; position: absolute; left: 0.93rem; top: 1.9rem; bottom: 0.1rem; width: 2px; background: var(--line);
+  }
+  .ask { columns: 1; }
+  .ask li { font-style: italic; }
+
+  /* timeline */
+  .tl { list-style: none; margin: 1rem 0 0; padding: 0 0 0 1.4rem; border-left: 2px solid var(--line); }
+  .tl > li {
+    position: relative; margin: 0 0 1.1rem; padding: 0.85rem 1rem 0.55rem;
+    background: var(--card); border: 1px solid var(--line); border-radius: 16px;
+  }
+  .tl > li::before {
+    content: ""; position: absolute; left: -1.95rem; top: 1.1rem; width: 0.8rem; height: 0.8rem;
+    border-radius: 50%; background: var(--rose); box-shadow: 0 0 0 4px var(--paper);
+  }
+  .when { display: inline-block; font-family: var(--sans); font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #fff; background: var(--rose); padding: 0.1rem 0.55rem; border-radius: 6px; margin: 0 0 0.4rem; }
+  .src { font-family: var(--sans); font-size: 0.78rem; margin: 0.2rem 0 0.4rem; }
+  .src a { white-space: nowrap; }
+
+  /* timeline card kinds: attack / history / house */
+  .kind {
+    display: inline-block; font-family: var(--sans); font-size: 0.7rem; font-weight: 800; letter-spacing: 0.12em;
+    text-transform: uppercase; padding: 0.1rem 0.55rem; border-radius: 6px; margin: 0 0.35rem 0.4rem 0; border: 2px solid;
+  }
+  .tl > li.ev-attack { background: #fff1ed; border-color: #e6a999; border-left: 7px solid var(--t-attack); }
+  .tl > li.ev-attack::before { background: var(--t-attack); }
+  .ev-attack .when { background: var(--t-attack); }
+  .ev-attack .kind { color: var(--t-attack); border-color: var(--t-attack); background: #fff; }
+  .ev-attack h3 { color: #7e2616; }
+
+  .tl > li.ev-history { background: #fbf4e2; border-color: #dcc78f; border-left: 7px solid #a8812c; }
+  .tl > li.ev-history::before { background: #a8812c; }
+  .ev-history .when { background: #8a6a1f; }
+  .ev-history .kind { color: #8a6a1f; border-color: #a8812c; background: #fffaf0; }
+
+  .tl > li.ev-house { border-left: 7px solid var(--rose); }
+  .ev-house .kind { color: var(--rose-deep); border-color: var(--rose); background: #fff; }
+
+  .tl > li.ev-gap { background: transparent; border-style: dashed; }
+  .ev-gap .when { background: var(--muted); }
+  .ev-gap .kind { color: var(--muted); border-color: var(--muted); background: #fff; }
+
+  .filter {
+    display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; margin: 0.8rem 0 0;
+    font-family: var(--sans); font-size: 0.8rem; color: var(--muted);
+  }
+  .filter button {
+    font: inherit; font-weight: 700; cursor: pointer; padding: 0.3rem 0.8rem; border-radius: 999px;
+    border: 2px solid var(--line); background: var(--card); color: var(--ink);
+  }
+  .filter button[aria-pressed="true"] { color: #fff; border-color: transparent; }
+  .filter button[data-f="all"][aria-pressed="true"] { background: var(--ink); }
+  .filter button[data-f="attack"] { border-color: var(--t-attack); color: var(--t-attack); }
+  .filter button[data-f="attack"][aria-pressed="true"] { background: var(--t-attack); color: #fff; }
+  .filter button[data-f="history"] { border-color: #a8812c; color: #8a6a1f; }
+  .filter button[data-f="history"][aria-pressed="true"] { background: #8a6a1f; color: #fff; }
+  .filter button[data-f="house"] { border-color: var(--rose); color: var(--rose-deep); }
+  .filter button[data-f="house"][aria-pressed="true"] { background: var(--rose); color: #fff; }
+  .tl.filtered > li:not(.show) { display: none; }
+  .k-attack { color: var(--t-attack); }
+  .k-hist { color: #8a6a1f; }
+  .k-house { color: var(--rose-deep); }
+
+  /* cast */
+  .cast { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; margin-top: 0.8rem; }
+  .cast section { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 0.8rem 0.95rem 0.4rem; }
+  .cast ul { list-style: none; padding: 0; margin: 0; }
+  .cast li { font-size: 0.95rem; line-height: 1.38; margin: 0 0 0.5rem; }
+
+  /* themes */
+  .themes { display: grid; gap: 0.7rem; margin-top: 0.8rem; }
+  .theme { background: var(--card); border: 1px solid var(--line); border-left-width: 6px; border-radius: 14px; padding: 0.8rem 1rem 0.4rem; }
+  .theme.t-attack-b { border-left-color: var(--t-attack); }
+  .theme.t-archive-b { border-left-color: var(--t-archive); }
+  .theme.t-work-b { border-left-color: var(--t-work); }
+  .theme.t-crip-b { border-left-color: var(--t-crip); }
+  .theme.t-women-b { border-left-color: var(--t-women); }
+  .theme.t-world-b { border-left-color: var(--t-world); }
+  .theme.t-hiv-b { border-left-color: var(--t-hiv); }
+  .theme.t-block-b { border-left-color: var(--t-block); }
+  .theme h3 { font-size: 1.05rem; }
+
+  /* tickets */
+  .ticket {
+    background: var(--card); border: 1px solid var(--line); border-radius: 18px;
+    padding: 1rem 1.1rem 0.5rem; box-shadow: 0 10px 30px rgba(142, 35, 72, 0.08);
+  }
+  .stub { display: flex; justify-content: space-between; gap: 1rem; border-bottom: 1px dashed var(--line); padding: 0 0 0.7rem; margin: 0 0 0.8rem; font-family: var(--sans); }
+  .stub strong { display: block; font-size: 1.4rem; letter-spacing: -0.03em; color: var(--rose-deep); }
+  .stub span { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+
+  /* tidbits */
+  .bits { display: grid; grid-template-columns: 1fr 1fr; gap: 0.7rem; margin-top: 0.8rem; }
+  .bit { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 0.8rem 0.95rem 0.35rem; }
+  .bit .kicker { margin-bottom: 0.2rem; }
+  .bit p { font-size: 0.97rem; }
+  .bit figure { margin-top: 0; }
+
+  .links { padding-left: 1.1rem; columns: 1; }
+  .links li { margin: 0 0 0.3rem; font-size: 0.98rem; }
+
+  @media (max-width: 640px) {
+    .pair, .cast, .bits { grid-template-columns: 1fr; }
+    .stub { flex-direction: column; }
+    .tl { padding-left: 1.1rem; }
+    .tl > li::before { left: -1.6rem; }
+    .who { white-space: normal; }
+  }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <p class="crumbs">
+    <a href="../map.html">Map</a>
+    · <a href="../places/schwules-museum/">Every post</a>
+    · <a href="../dates/queere-geschichte/">The afternoon around it</a>
+  </p>
+
+  <p class="kicker">Lützowstraße 73 · Tiergarten · SMU</p>
+  <h1>The Gay Museum.</h1>
+  <p class="lede">Its German name is the <b>Schwules Museum</b>. The neighborhood paper calls it the SMU, and for four years it has slipped the museum’s calendar in between the weather and the moon. This page reads all of it, so you walk in already knowing the house.</p>
+  <p class="note">Everything here is read out of those posts, and each part links back to its source. When a post gives a date, that is the date it printed. Where the archive has nothing, the page says so.</p>
+
+  <div class="key">
+    <span>How to read it:</span>
+    <span><span class="who">Names look like this</span></span>
+    <span><span class="tag t-archive" style="margin-right:.3rem">archive</span><span class="tag t-attack">attacks</span> are themes</span>
+    <span>Timeline cards are <span class="kind" style="color:var(--t-attack);border-color:var(--t-attack);margin:0">attack</span> <span class="kind" style="color:#8a6a1f;border-color:#a8812c;margin:0">history</span> <span class="kind" style="color:var(--rose-deep);border-color:var(--rose);margin:0">the house</span></span>
+  </div>
+
+  <nav class="jump" aria-label="On this page">
+    <a href="#date">Date prep</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#people">People</a>
+    <a href="#themes">Themes</a>
+    <a href="#tickets">Tickets</a>
+    <a href="#tidbits">Tidbits</a>
+    <a href="#posts">Every post</a>
+  </nav>
+
+  <!-- ============ DATE PREP ============ -->
+  <section class="prep" id="date">
+    <p class="kicker">Going this weekend</p>
+    <h2>Date prep</h2>
+    <p>You are looking for <b>pink letters</b> over a grey door on a <b>mustard-yellow</b> building. That is how the photos in the posts show it.</p>
+
+    <figure>
+      <img src="img/walk-door.jpg" alt="A small crowd stands outside the Schwules Museum under its pink letters, listening to someone speak" loading="lazy">
+      <figcaption>The door in June 2023, with a neighborhood walk stopped outside. Photo: FP, from <a href="https://www.mittendran.de/kiezspaziergang-mit-den-beiden-stadtraeten-dr-almut-neumann-und-ephraim-gothe/">the walk piece</a>.</figcaption>
+    </figure>
+
+    <div class="callout">
+      <h3>The two dates that matter</h3>
+      <ul class="b">
+        <li><b>Monday, 2 November 2026</b> is the last day listed for <b>“Cruising the Countryside – Queeres Leben auf dem Land.”</b> That is the May 2026 listing, so check for an extension. It is the one show the archive can say is still up.</li>
+        <li><b>Sunday, 1 November</b> is a first Sunday. From June 2022 to October 2024 the listings give <b>first Sundays</b> as free, 14:00–18:00, with a ticket from the Museum Sunday shop. The 2025 and 2026 listings do not repeat it, so <b>confirm before you count on it</b>.</li>
+      </ul>
+    </div>
+
+    <h3>Check these before you leave</h3>
+    <ul class="check">
+      <li><b>Hours.</b> The last ones in the archive are from January 2023: Mon, Wed, Fri 14–18, Thu 14–20, Sat 14–19, Sun 14–18, Tue closed. They may have changed. <a href="https://www.schwulesmuseum.de/">schwulesmuseum.de</a> knows.</li>
+      <li><b>Free Sunday ticket.</b> If it still exists, you book a slot at <a href="https://shop.museumssonntag.berlin">shop.museumssonntag.berlin</a>.</li>
+      <li><b>Tours.</b> In May 2026 the public tours were Thursdays 18:00 and Saturdays and Sundays 16:00, free once you are inside. For Cruising the Countryside, <b>Saturday was German and Sunday English</b>. That is a pattern from one month, not a promise.</li>
+    </ul>
+
+    <h3>The plan, in order</h3>
+    <ol class="plan">
+      <li>
+        <b>Eat first.</b> <a href="https://brunchbysole.de/">SOLE DELI</a>, Zietenstraße 7. The September 2025 post has it open <b>9 to 6 daily</b>, Mediterranean, tables outside under an orange umbrella, banana bread 7.50 €, a vegan breakfast plate 13 €, and gluten-free and halal on the menu. The museum’s Sunday closes at 18:00, so lunch first and the building after.
+        <figure class="solo">
+          <img src="img/deli.jpg" alt="Outdoor tables and a folded orange umbrella in front of Sole Deli" loading="lazy">
+          <figcaption>The orange umbrella is the landmark. From <a href="https://www.mittendran.de/restaurant-sole-deli/">the SOLE DELI post</a>.</figcaption>
+        </figure>
+      </li>
+      <li>
+        <b>The museum.</b> Lützowstraße 73. The posts give no length for a visit, so leave room. Go for what is up: <b>Cruising the Countryside</b>, and a house that has been open since 1985. Say hello to the café, which is where the volunteer evenings meet.
+      </li>
+      <li>
+        <b>Optional: keep going.</b> The afternoon around it runs on to the AIDS-Hilfe on Kurfürstenstraße, Nollendorfplatz, and a street sign that still wears its old name. Everything is on <a href="../dates/queere-geschichte/">the longer walk</a>.
+        <figure class="solo">
+          <img src="img/sign.jpg" alt="A man lifts a new street sign, Karl-Heinrich-Ulrichs-Straße, over the old name Einemstraße" loading="lazy">
+          <figcaption>The new sign held over the old one, from <a href="https://www.mittendran.de/der-berlin-presse-war-es-kurz-erwaehnt-hier-noch-einmal-ausfuehrlich/">the renaming piece</a>.</figcaption>
+        </figure>
+      </li>
+    </ol>
+
+    <h3>Things to ask each other in the galleries</h3>
+    <ul class="b ask">
+      <li>Would you rather volunteer in the archive or in the café?</li>
+      <li>If the museum could only keep one object from your life, which?</li>
+      <li>What would <i>you</i> put in a made-up museum, the way the sex-work show did?</li>
+      <li>Which of the forty years would you have wanted to walk in on?</li>
+    </ul>
+
+    <div class="callout">
+      <h3>A gentle heads-up</h3>
+      <p>The shows named in the posts cover <b>sex work</b>, <b>HIV and AIDS</b>, <b>Nazi persecution</b>, and <b>sexual violence against children</b>, along with joy, fashion, and parties. Not every room is light. Check what is on so the two of you can choose.</p>
+    </div>
+  </section>
+
+  <!-- ============ TIMELINE ============ -->
+  <h2 id="timeline">Timeline</h2>
+  <p class="sub">Forty years, then the last four of them month by month. Tap a link to see the post.</p>
+  <ul class="b">
+    <li><b class="k-attack">Attack</b> (red): something done <i>to</i> the museum.</li>
+    <li><b class="k-hist">History</b> (gold): an exhibition or talk about the <i>past</i>, which is most of what is on the walls.</li>
+    <li><b class="k-house">The house</b> (pink): the museum’s own everyday life, like neighbors, anniversaries, hours, and volunteers.</li>
+  </ul>
+  <div class="filter" role="group" aria-label="Filter the timeline">
+    <span>Show:</span>
+    <button type="button" data-f="all" aria-pressed="true">All</button>
+    <button type="button" data-f="attack" aria-pressed="false">Attacks</button>
+    <button type="button" data-f="history" aria-pressed="false">History</button>
+    <button type="button" data-f="house" aria-pressed="false">The house</button>
+  </div>
+
+  <ol class="tl">
+    <li class="ev-history">
+      <span class="kind">History</span><span class="when">1985</span>
+      <h3>The house begins</h3>
+      <ul class="b">
+        <li>Founded to research and show <b>gay life</b>, including its suppression.</li>
+        <li>The focus later widened to <b>all sexual identities and ideas of gender</b>.</li>
+        <li>That description is credited to Berlin.de in the post.</li>
+      </ul>
+      <p class="tags"><span class="tag t-archive">archive</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/schuesse-auf-das-schwule-museum/">Schüsse auf das Schwule Museum</a></p>
+    </li>
+
+    <li class="ev-history">
+      <span class="kind">History</span><span class="when">Jun – Dec 2022</span>
+      <h3>Four shows, a first-Sunday habit, and the hours get printed</h3>
+      <ul class="b">
+        <li><b>June:</b> “Encantadas,” transcendental art from Brazil. <b>Tuntenhaus Forellenhof 1990</b> opens on 30 June, the squatted Tuntenhaus on Mainzer Straße 4.</li>
+        <li><b>June:</b> the audio walk <b>“Historical Citizenship”</b> takes sex workers through 15 stations of the Bülow neighborhood, and the museum hosts the launch on 2 June.</li>
+        <li><b>1 September:</b> <b>“Queering the Crip – Cripping the Queer,”</b> the first international show on queerness and disability. Curators <span class="who">Birgit Bosold</span>, <span class="who">Kate Brehme</span>, <span class="who">Kenny Fries</span>.</li>
+        <li><b>October:</b> <span class="who">Carrie Sandahl</span> talks about the word “to crip,” which she coined in 2003.</li>
+        <li><b>1 December:</b> the Bülowbogen audio walk, <b>“We Have Always Been Everywhere,”</b> launches, with a reception back at the museum.</li>
+      </ul>
+      <p class="tags"><span class="tag t-work">sex work</span><span class="tag t-crip">disability</span><span class="tag t-block">the block</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/der-sommer-steht-noch-den-startbloecken-wir-laufen-schon-mal-vor/">June</a> · <a href="https://www.mittendran.de/engelmonat-ein-schoener-alter-name-fuer-den-september/">September</a> · <a href="https://www.mittendran.de/termine-oktober-2022-schwules-museum-luetzowstrasse-73-10785berlin/">October</a> · <a href="https://www.mittendran.de/3-highlights-im-monat-der-lichter-2-dauerbrenner-bis-ins-neue-jahr-und-diverse-online-projekte/">December</a></p>
+    </li>
+
+    <li class="ev-house">
+      <span class="kind">The house</span><span class="when">Jun – Oct 2022</span>
+      <h3>The habits get printed</h3>
+      <ul class="b">
+        <li>From June on, <b>every first Sunday is free</b>.</li>
+        <li>In October the hours get shorter: <b>weekdays open at 14:00</b>.</li>
+      </ul>
+      <p class="src">→ <a href="https://www.mittendran.de/der-sommer-steht-noch-den-startbloecken-wir-laufen-schon-mal-vor/">June</a> · <a href="https://www.mittendran.de/termine-oktober-2022-schwules-museum-luetzowstrasse-73-10785berlin/">October</a></p>
+    </li>
+
+    <li class="ev-attack">
+      <span class="kind">Attack</span><span class="when">24 Feb 2023</span>
+      <h3>Shots at the door</h3>
+      <ul class="b">
+        <li>Staff find the damage in the morning: <b>two window panes, the lit name, and an artwork by the door</b>.</li>
+        <li>The press note later names the weapon: an <b>air rifle</b>.</li>
+        <li>The museum files a complaint against unknown persons. The police secure traces.</li>
+      </ul>
+      <figure class="solo">
+        <img src="img/artwork.jpg" alt="A large brown inverted triangle hangs under the pink letters of the museum's name" loading="lazy">
+        <figcaption>The artwork by the door after the air-rifle shots. Photo: Schwules Museum, from <a href="https://www.mittendran.de/das-schwule-museum-als-gefaehrdeter-ort/">the press note</a>.</figcaption>
+      </figure>
+      <p class="tags"><span class="tag t-attack">attacks</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/schuesse-auf-das-schwule-museum/">2 March post</a></p>
+    </li>
+
+    <li class="ev-attack">
+      <span class="kind">Attack</span><span class="when">19 Mar – 28 May 2023</span>
+      <h3>Four more, the same spring</h3>
+      <ul class="b">
+        <li><b>19 March:</b> food smeared on the entrance <b>while the museum was open</b>, staff insulted.</li>
+        <li><b>31 March:</b> a fire extinguisher emptied over the front, also during opening hours.</li>
+        <li><b>21 and 28 May:</b> water balloons thrown into the foyer.</li>
+        <li>Under all that, a daily drip: anti-queer stickers outside, far-right stickers in the toilets, knocks on the glass, abuse by phone and in the guest book.</li>
+      </ul>
+      <div class="pair wide">
+        <figure><img src="img/facade.jpg" alt="The museum front with white powder on the pavement" loading="lazy"><figcaption>Traces of the 31 March extinguisher attack, and the shot-up sign. Photo: <span class="who">mino Künze</span>.</figcaption></figure>
+        <figure><img src="img/balloon.jpg" alt="Water spreading across the foyer floor" loading="lazy"><figcaption>The foyer on 21 May.</figcaption></figure>
+      </div>
+      <figure class="solo">
+        <img src="img/sticker.jpg" alt="A sticker covered over in the museum toilet" loading="lazy">
+        <figcaption>A sticker, covered over, in the museum toilet.</figcaption>
+      </figure>
+      <p class="tags"><span class="tag t-attack">attacks</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/das-schwule-museum-als-gefaehrdeter-ort/">Das Schwule Museum als gefährdeter Ort</a> (photos from the press note)</p>
+    </li>
+
+    <li class="ev-house">
+      <span class="kind">The house</span><span class="when">14 Jun 2023</span>
+      <h3>The neighborhood walk stops at the door</h3>
+      <ul class="b">
+        <li>A district walk with councillors <span class="who">Ephraim Gothe</span> and <span class="who">Almut Neumann</span> pauses here.</li>
+        <li><span class="who">Birga Meyer</span>, the museum’s management, talks about <b>two exhibitions opening that June</b>.</li>
+        <li>The <b>lease has five years left</b>, and the piece says what comes after is not settled.</li>
+        <li>Walkers say they were upset about the attacks.</li>
+      </ul>
+      <figure>
+        <img src="img/walk-meyer.jpg" alt="Four people stand outside the museum, one speaking into a microphone" loading="lazy">
+        <figcaption>From the left: Jan Küne (as the caption spells it) of the museum, <span class="who">Ephraim Gothe</span>, <span class="who">Max Söding</span>, <span class="who">Birga Meyer</span>. Photo: eki.</figcaption>
+      </figure>
+      <p class="tags"><span class="tag t-block">the block</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/kiezspaziergang-mit-den-beiden-stadtraeten-dr-almut-neumann-und-ephraim-gothe/">Kiezspaziergang</a></p>
+    </li>
+
+    <li class="ev-history">
+      <span class="kind">History</span><span class="when">15 Jun – 10 Sep 2023</span>
+      <h3>50 years of pictures, 50 years of Sonntags-Club</h3>
+      <ul class="b">
+        <li><b>15 June:</b> <b>“Photography as a Way of Life”</b>, 50 years of pictures by <span class="who">Rüdiger Trautsch</span>, opens.</li>
+        <li><b>20 July:</b> <b>“lieben. kämpfen. tanzen.”</b>, 50 years of the Sonntags-Club, opens at the museum.</li>
+        <li><b>10 September:</b> a curators’ tour led by <span class="who">Kai* Brust</span> and <span class="who">Andreas Pretzel</span>.</li>
+      </ul>
+      <p class="tags"><span class="tag t-archive">archive</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/der-juni-mit-den-laengsten-tagen-des-jahres-der-perfekte-monat-fuer-viel-vorhaben-mit-weniger-stress/">June</a> · <a href="https://www.mittendran.de/juli-der-siebte-monat-des-jahres-der-waermste-und-der-dem-tag-des-kusses-6-juli/">July</a> · <a href="https://www.mittendran.de/highlights-im-september-spannende-events-im-schwulen-museum-und-die-tagundnachtgleiche/">September</a></p>
+    </li>
+
+    <li class="ev-house">
+      <span class="kind">The house</span><span class="when">Jun – Aug 2023</span>
+      <h3>A room for doing nothing, a street fair, a nap</h3>
+      <ul class="b">
+        <li><b>22 June:</b> <b>“_Leerstelle,”</b> a room for doing nothing together.</li>
+        <li><b>15–16 July:</b> the museum has a stand at the lesbian and gay street fair on <b>Nollendorfplatz</b>, both days, to the end.</li>
+        <li><b>5 August:</b> <span class="who">Isabelle Dikumbi</span> runs <b>“The Rest Bath,”</b> a rest workshop for Black visitors. A nap is allowed.</li>
+        <li><b>26 August:</b> <b>Long Night of Museums</b>, 18:00–02:00, one of 70-plus houses, with tours and shows.</li>
+      </ul>
+      <p class="tags"><span class="tag t-world">the wider world</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/der-juni-mit-den-laengsten-tagen-des-jahres-der-perfekte-monat-fuer-viel-vorhaben-mit-weniger-stress/">June</a> · <a href="https://www.mittendran.de/juli-der-siebte-monat-des-jahres-der-waermste-und-der-dem-tag-des-kusses-6-juli/">July</a> · <a href="https://www.mittendran.de/august-2023-supermond-gleich-zweimal-dazu-blue-moon-und-spannende-themen-im-schwulen-museum/">August</a></p>
+    </li>
+
+    <li class="ev-attack">
+      <span class="kind">Attack</span><span class="when">13 Aug 2023</span>
+      <h3>The call for help</h3>
+      <ul class="b">
+        <li>The press note goes out, signed by <span class="who">Jan Künemund</span>, <span class="who">mino Künze</span>, and <span class="who">Julia Heuser</span>.</li>
+        <li>It lists the spring’s attacks and asks for help beyond the police: <b>money, staff, and care</b>.</li>
+      </ul>
+      <p class="tags"><span class="tag t-attack">attacks</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/das-schwule-museum-als-gefaehrdeter-ort/">Das Schwule Museum als gefährdeter Ort</a></p>
+    </li>
+
+    <li class="ev-history">
+      <span class="kind">History</span><span class="when">Dec 2023</span>
+      <h3>A hard conversation on the calendar</h3>
+      <ul class="b">
+        <li>The show <b>“Aufarbeiten”</b> looks at sexual violence against children and young people in the name of emancipation. It runs to <b>26 February 2024</b>.</li>
+        <li>On 14 December a free discussion, <b>“Generation Übergriff – Generation Konsens?”</b>, asks whether a thesis about the gay movement’s past alliances holds up.</li>
+        <li>The same post warns: <b>karaoke on 1 December is at Queerdom, not at the museum</b>.</li>
+      </ul>
+      <p class="tags"><span class="tag t-archive">archive</span><span class="tag t-block">the block</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/der-dezember-zwoelfter-monat-im-jahr-mit-noch-weiteren-namen-christmond-julmond-dustermond-heilmond-und-wendeling-welcher-ist-der-schoenste/">December 2023</a></p>
+    </li>
+
+    <li class="ev-history">
+      <span class="kind">History</span><span class="when">Mar – Oct 2024</span>
+      <h3>A pretend museum moves into the real one</h3>
+      <ul class="b">
+        <li><b>26 March:</b> the vernissage of <b>“With Legs Wide Open. A Whore’s Ride Through History,”</b> a fictional museum of sex work, curated by <span class="who">Ernestine Pastorello</span>, <span class="who">Rori Dior</span>, and <span class="who">Valentin Rion</span>. The March post gives it until December. By July it ends <b>26 August</b>.</li>
+        <li>Talks and flashmobs ride along: <b>a heart-shaped bed</b>, <b>witch trials and sex work</b>, and <b>male and gay sex work</b>.</li>
+        <li><b>5 April:</b> “Creating Our Own Pasts,” a queer BIPoC archive workshop.</li>
+        <li><b>September:</b> “Analog,” four photographers from the collection, to 30 September.</li>
+        <li><b>17 October:</b> “<b>Strategien der Resilienz</b>” opens, about <span class="who">Eberhardt Brucks</span>, curated by <span class="who">neo seefried</span>.</li>
+        <li><b>26 October:</b> the <b>porn film archive</b> opens for an afternoon of VHS, DVD, and Super 8, billed as the largest such collection in a German institution.</li>
+      </ul>
+      <p class="tags"><span class="tag t-work">sex work</span><span class="tag t-archive">archive</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/der-lenz-ist-da-laune-und-unternehmenslust-steigen-und-es-gibt-neue-termine-im-schwulen-museum/">March</a> · <a href="https://www.mittendran.de/der-april-launisch-und-unbestaendig-aber-fruehling/">April</a> · <a href="https://www.mittendran.de/heu-baeren-und-honigmonat-heisst-er-auch-der-juli-siebter-monat-des-jahres/">July</a> · <a href="https://www.mittendran.de/der-august-seinen-namen-erhielt-er-zu-ehren-des-ersten-roemischen-kaisers-augustus/">August</a> · <a href="https://www.mittendran.de/september-der-neunte-monat-des-jahres-und-ein-schoener-mit-sommerlichem-obst-und-beeren/">September</a> · <a href="https://www.mittendran.de/der-oktober-ist-da-es-wartet-ein-volles-programm-mit-workshops-ausstellungen-und-fuehrungen/">October</a></p>
+    </li>
+
+    <li class="ev-history">
+      <span class="kind">History</span><span class="when">Mar – Apr 2025</span>
+      <h3>Southeast Asia, and a man who lived carefully</h3>
+      <ul class="b">
+        <li><b>“Young Birds from Strange Mountains”</b> is up, queer art from Southeast Asia and its diaspora, <b>to 4 August</b>. A flashmob on 9 March, “Das Archiv der Young Birds,” is led by archive curator <span class="who">Thảo Hồ</span>. On 18 April, <span class="who">Sarnt Utamachot</span> and <span class="who">Ferdiansyah Thajib</span> give a curators’ tour, and artist <span class="who">Eda Phanlert Sriprom</span> talks on 20 April.</li>
+        <li><b>13 March:</b> opening of <b>“Sweetmeet Shindook,”</b> a queer archive traveling between Bangladesh and Germany.</li>
+        <li><b>“Strategien der Resilienz”</b> is extended to 12 May. The question it asks: was <span class="who">Brucks</span> a quiet bystander, or someone in danger finding his own way to exist?</li>
+      </ul>
+      <p class="tags"><span class="tag t-world">the wider world</span><span class="tag t-archive">archive</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/termine-maerz-2025-schwules-museum/">March</a> · <a href="https://www.mittendran.de/april-termine/">April</a></p>
+    </li>
+
+    <li class="ev-house">
+      <span class="kind">The house</span><span class="when">Mar – Apr 2025</span>
+      <h3>Everyday things</h3>
+      <ul class="b">
+        <li>Monthly <b>volunteer info evening</b> in the museum café, Tuesdays, 17:00.</li>
+        <li>Free tours in <b>German Sign Language</b> with <span class="who">Anders Johan Malmgren</span>.</li>
+      </ul>
+      <p class="tags"><span class="tag t-crip">disability</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/termine-maerz-2025-schwules-museum/">March</a> · <a href="https://www.mittendran.de/april-termine/">April</a></p>
+    </li>
+
+    <li class="ev-house">
+      <span class="kind">The house</span><span class="when">6–7 Dec 2025</span>
+      <h3>Forty</h3>
+      <ul class="b">
+        <li>The anniversary is <b>6 December</b>, and <b>Sunday the 7th, 14–18, is free for everyone</b>.</li>
+        <li>On the walls: <b>Petra Gall’s</b> photos of Berlin’s lesbian scene (to 23 Feb 2026), <b>queer Ukrainian art</b> (to 25 Jan), and <b>“Love at First Fight,”</b> queer movements since Stonewall (to 29 June).</li>
+        <li><b>9 December:</b> volunteer evening. <b>12 December:</b> a queer-writing workshop with <span class="who">Lynn Breedlove</span> and <span class="who">Panda Ortmann</span>, in English, 10 € or 3 €.</li>
+      </ul>
+      <p class="tags"><span class="tag t-archive">archive</span><span class="tag t-women">women and lesbians</span><span class="tag t-world">the wider world</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/dezember/">Glückwunsch! Das Schwule Museum wird 40 Jahre alt</a></p>
+    </li>
+
+    <li class="ev-history">
+      <span class="kind">History</span><span class="when">May 2026</span>
+      <h3>The founding on a wall, and the countryside</h3>
+      <ul class="b">
+        <li>The founding itself is an exhibition: <b>“… und damit fingen dann die Probleme an,”</b> to 18 May.</li>
+        <li><b>“Cruising the Countryside – Queeres Leben auf dem Land”</b> is up <b>through 2 November</b>.</li>
+        <li>11 May: a talk with <span class="who">Lilo Unger</span> about 1990s lesbian and feminist West Berlin, from the café Anal to Lipstick and SO36.</li>
+        <li>23 May: the museum visits <b>Queerdom</b> (Lützowstr. 28) for a history workshop with <span class="who">Felicia Rolletschke</span>, ages 14 to 21.</li>
+      </ul>
+      <p class="tags"><span class="tag t-archive">archive</span><span class="tag t-women">women and lesbians</span><span class="tag t-world">the wider world</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/fuenfter-monat-des-jahres-und-der-wonnemonat-genannt/">May 2026</a></p>
+    </li>
+
+    <li class="ev-house">
+      <span class="kind">The house</span><span class="when">28 May 2026</span>
+      <h3>The garden party</h3>
+      <ul class="b">
+        <li>The museum has a stand at the <b>Villa Lützow</b> garden party.</li>
+      </ul>
+      <figure>
+        <img src="img/garden-b.jpg" alt="Three people sit behind a pink banner reading Schwules Museum, with zines laid out on the table" loading="lazy">
+        <figcaption>The museum’s table at the garden party, zines on display. From <a href="https://www.mittendran.de/gartenfest-villa-luetzow-2/">the garden-party piece</a>.</figcaption>
+      </figure>
+      <p class="tags"><span class="tag t-block">the block</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/gartenfest-villa-luetzow-2/">garden party</a></p>
+    </li>
+
+    <li class="ev-gap">
+      <span class="kind">Gap</span><span class="when">Aug 2026</span>
+      <h3>Where the archive stops</h3>
+      <ul class="b">
+        <li>The last listing begins with <b>Thursday 6 August, 18:00–19:00: “Jenseits des Heuballens – Queere Landgeschichten zwischen Kontinuität und Brüchen.”</b></li>
+        <li>The rest of that post did not load when this page was made, so that line is as far as the archive goes.</li>
+      </ul>
+      <p class="tags"><span class="tag t-world">the wider world</span></p>
+      <p class="src">→ <a href="https://www.mittendran.de/das-schwule-museum-hat-im-letzten-vollen-und-warmen-sommermonat-august-wieder-ein-volles-programm-zu-bieten/">August 2026</a></p>
+    </li>
+  </ol>
+
+  <!-- ============ PEOPLE ============ -->
+  <h2 id="people">The people in the posts</h2>
+  <p class="sub">Every name below comes from a listing or a press note. Roles are as the post gives them.</p>
+  <div class="cast">
+    <section>
+      <h3>The house</h3>
+      <ul>
+        <li><span class="who">Birga Meyer</span><br>Management. Spoke on the June 2023 walk.</li>
+        <li><span class="who">Jan Künemund</span>, <span class="who">mino Künze</span>, <span class="who">Julia Heuser</span><br>Signed the August 2023 press note. Künze took the facade photo.</li>
+        <li><span class="who">Thảo Hồ</span><br>Archive curator, March 2025.</li>
+        <li><span class="who">Lilo Unger</span><br>In conversation about 1990s lesbian Berlin, May 2026.</li>
+      </ul>
+    </section>
+    <section>
+      <h3>The curators</h3>
+      <ul>
+        <li><span class="who">Ernestine Pastorello</span>, <span class="who">Rori Dior</span>, <span class="who">Valentin Rion</span><br>“With Legs Wide Open,” 2024.</li>
+        <li><span class="who">neo seefried</span><br>“Strategien der Resilienz,” 2024–25.</li>
+        <li><span class="who">Birgit Bosold</span>, <span class="who">Kate Brehme</span>, <span class="who">Kenny Fries</span><br>“Queering the Crip,” 2022.</li>
+        <li><span class="who">Kai* Brust</span>, <span class="who">Andreas Pretzel</span><br>The Sonntags-Club show, 2023.</li>
+        <li><span class="who">Sarnt Utamachot</span>, <span class="who">Ferdiansyah Thajib</span><br>“Young Birds from Strange Mountains.”</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Workshops and talks</h3>
+      <ul>
+        <li><span class="who">Isabelle Dikumbi</span> The Rest Bath, 2023.</li>
+        <li><span class="who">Lynn Breedlove</span> and <span class="who">Panda Ortmann</span> Queer writing, 2025.</li>
+        <li><span class="who">Carrie Sandahl</span> On “to crip,” 2022.</li>
+        <li><span class="who">Syrus Marcus Ware</span> Pink Splashes, 2022.</li>
+        <li><span class="who">Ursula Probst</span> A reading on migrant sex work, 2024.</li>
+        <li><span class="who">Felicia Rolletschke</span> Queer history for teens, 2026.</li>
+        <li><span class="who">Nils Meyn</span>, <span class="who">Simon Schultz</span>, <span class="who">Ben Miller</span> The porn film archive, 2024.</li>
+        <li><span class="who">Jen Igersky</span>, <span class="who">Anders Johan Malmgren</span> Tours in German Sign Language.</li>
+      </ul>
+    </section>
+    <section>
+      <h3>In the frames</h3>
+      <ul>
+        <li><span class="who">Magnus Hirschfeld</span><br>A bronze bust of him sits in the museum.</li>
+        <li><span class="who">Eberhardt Brucks</span><br>Subject of the 2024–25 show.</li>
+        <li><span class="who">Rüdiger Trautsch</span><br>Fifty years of photographs, 2023.</li>
+        <li><span class="who">Petra Gall</span>, <span class="who">Annette Frick</span><br>Photographers of the lesbian scene and of “Fuck Gender.”</li>
+        <li><span class="who">Eda Phanlert Sriprom</span><br>Artist, 2025.</li>
+      </ul>
+    </section>
+  </div>
+
+  <!-- ============ THEMES ============ -->
+  <h2 id="themes">The themes</h2>
+  <p class="sub">The same eight threads keep coming back. Each one is also a tag on the timeline.</p>
+  <div class="themes">
+    <article class="theme t-attack-b">
+      <h3><span class="tag t-attack">attacks</span> The house under pressure</h3>
+      <ul class="b">
+        <li>Five attacks in <b>one spring</b>: an air rifle, food, an extinguisher, and two rounds of water balloons.</li>
+        <li>The insurer asked if a pane full of holes <b>needed replacing</b>, since it held. The museum paid for the sign, the artwork, and the cleaning.</li>
+        <li>Their request was <b>money, staff, and care</b>, past the police report.</li>
+      </ul>
+    </article>
+    <article class="theme t-archive-b">
+      <h3><span class="tag t-archive">archive</span> Keeping things</h3>
+      <ul class="b">
+        <li><b>About 1.5 million items</b>, under 700 m² of galleries, up to three shows at once.</li>
+        <li>The <b>porn film collection</b>, “Unknown Objects,” zines, and the Hirschfeld bust.</li>
+        <li>Forty years of “organizing, collecting, archiving, and exhibiting.”</li>
+      </ul>
+    </article>
+    <article class="theme t-work-b">
+      <h3><span class="tag t-work">sex work</span> The history of sex work, told by sex workers</h3>
+      <ul class="b">
+        <li>Two audio walks in the Bülow neighborhood, 2022.</li>
+        <li><b>“With Legs Wide Open”</b> in 2024, a made-up museum inside the real one.</li>
+        <li>A workshop for sex workers only, October 2024.</li>
+      </ul>
+    </article>
+    <article class="theme t-crip-b">
+      <h3><span class="tag t-crip">disability</span> Queerness and disability</h3>
+      <ul class="b">
+        <li>The first international show on the topic, September 2022.</li>
+        <li>Tours in <b>German Sign Language</b> across the years.</li>
+        <li>The Brucks show asks how a disabled gay man lived under the Nazis.</li>
+      </ul>
+    </article>
+    <article class="theme t-women-b">
+      <h3><span class="tag t-women">women and lesbians</span> Lesbian and feminist history</h3>
+      <ul class="b">
+        <li><b>Petra Gall’s</b> photographs of Berlin’s lesbian scene.</li>
+        <li>The magazine <b>“Jahr der Frau_en,”</b> linked from the footer of nearly every listing.</li>
+        <li>A May 2026 talk on lesbian Mondays, Lipstick, and SO36.</li>
+      </ul>
+    </article>
+    <article class="theme t-world-b">
+      <h3><span class="tag t-world">the wider world</span> Beyond Berlin</h3>
+      <ul class="b">
+        <li>Southeast Asia, Ukraine, Brazil, and the German countryside, each with a show.</li>
+        <li>A big queer street fair, the Long Night of Museums, and the Pornfilmfestival.</li>
+      </ul>
+    </article>
+    <article class="theme t-hiv-b">
+      <h3><span class="tag t-hiv">HIV and AIDS</span> A long memory</h3>
+      <ul class="b">
+        <li>“Oral HIVstory” is a standing online project.</li>
+        <li>A Kurfürstenstraße AIDS-Hilfe piece from December 2022 sits in the same archive, and the Sept 2024 listing mentions a talk on the 1980s AIDS discourse.</li>
+      </ul>
+    </article>
+    <article class="theme t-block-b">
+      <h3><span class="tag t-block">the block</span> A good neighbor</h3>
+      <ul class="b">
+        <li>The Villa Lützow garden party, Queerdom down the street (Lützowstr. 28), and the district walks that stop at the door.</li>
+        <li>Neighbors turn up in the posts: councillors on the walk, and a stall next to the flea market and the neighborhood forum.</li>
+      </ul>
+    </article>
+  </div>
+
+  <!-- ============ TICKETS ============ -->
+  <h2 id="tickets">Tickets</h2>
+  <p class="sub">Nothing here is today’s price list. These are the numbers the posts printed.</p>
+  <div class="ticket">
+    <div class="stub">
+      <div><span>Admission, 2022–23</span><strong>9 € · 3 € reduced</strong></div>
+      <div><span>First Sundays, 2022–24</span><strong>Free, with a ticket</strong></div>
+    </div>
+    <ul class="b">
+      <li><b>9 € and 3 € reduced</b> are printed in October 2022, January 2023, and June 2023. After that the posts say “you only pay admission” and drop the number.</li>
+      <li><b>First Sundays are free</b>, 14:00–18:00 (12:00–20:00 in June 2022), in listings from June 2022 to October 2024. Get a slot at <a href="https://shop.museumssonntag.berlin">shop.museumssonntag.berlin</a>.</li>
+      <li><b>7 December 2025</b> was free on its own, for the fortieth.</li>
+      <li><b>Tours:</b> free once you are inside. Registration is “not necessary.”</li>
+      <li><b>Evenings with their own price:</b> 4 € for several talks and workshops in 2022 and 2024, <b>10 € or 3 €</b> for the porn-archive afternoon and the writing workshop. Those sign up by email: <a href="mailto:fuehrungen@schwulesmuseum.de">fuehrungen@schwulesmuseum.de</a>.</li>
+      <li><b>Hours</b> (January 2023): Mon, Wed, Fri 14–18 · Thu 14–20 · Sat 14–19 · Sun 14–18 · <b>Tue closed</b>. Phone then: 030 69599050.</li>
+      <li>For a ticket this week, <a href="https://www.schwulesmuseum.de/">schwulesmuseum.de</a> is the one that knows.</li>
+    </ul>
+  </div>
+
+  <!-- ============ TIDBITS ============ -->
+  <h2 id="tidbits">Tidbits</h2>
+  <div class="bits">
+    <article class="bit">
+      <p class="kicker">Say hi to him</p>
+      <figure>
+        <img src="img/bust.jpg" alt="A bronze bust of a man with glasses and a moustache on a stone plinth" loading="lazy">
+        <figcaption>A bust of <span class="who">Magnus Hirschfeld</span> in the museum. Photo via Wikimedia Commons, from <a href="https://www.mittendran.de/durch-wissenschaft-zur-gerechtigkeit/">the Hirschfeld piece</a>.</figcaption>
+      </figure>
+      <p>His own institute was ransacked in May 1933. In this street, the bust is what the piece points to.</p>
+    </article>
+    <article class="bit">
+      <p class="kicker">You may nap</p>
+      <p>At <b>The Rest Bath</b> in August 2023, the workshop says outright that doing <b>nothing at all</b> is fine. <a href="https://www.mittendran.de/august-2023-supermond-gleich-zweimal-dazu-blue-moon-und-spannende-themen-im-schwulen-museum/">The blue-moon month</a>.</p>
+    </article>
+    <article class="bit">
+      <p class="kicker">A bed in the gallery</p>
+      <p>July 2024: <span class="who">Rori Dior</span> leads a talk on a <b>heart-shaped bed</b> about the material side of sex work, “von Po-Tunneln bis zu Feuchttüchern.” <a href="https://www.mittendran.de/heu-baeren-und-honigmonat-heisst-er-auch-der-juli-siebter-monat-des-jahres/">Honey month</a>.</p>
+    </article>
+    <article class="bit">
+      <p class="kicker">Witches</p>
+      <p>7 August 2024: a flashmob called <b>“Gab es sexarbeitende Hexen?”</b> on witch trials, sex work, and today’s abortion politics. <a href="https://www.mittendran.de/der-august-seinen-namen-erhielt-er-zu-ehren-des-ersten-roemischen-kaisers-augustus/">Augustus’s month</a>.</p>
+    </article>
+    <article class="bit">
+      <p class="kicker">The moving end date</p>
+      <p>“With Legs Wide Open” runs <b>to December 2024</b> in the March post and <b>to 26 August</b> in July’s. “Love at First Fight” is given a new end date again and again, to 2026. Always check.</p>
+    </article>
+    <article class="bit">
+      <p class="kicker">One room only</p>
+      <p>27 Feb to 4 Mar 2024: only <b>Room 1</b> is used, for “Love at First Fight” and the Sonntags-Club show. The post does not say why. <a href="https://www.mittendran.de/der-lenz-ist-da-laune-und-unternehmenslust-steigen-und-es-gibt-neue-termine-im-schwulen-museum/">Lenz</a>.</p>
+    </article>
+    <article class="bit">
+      <p class="kicker">Month nicknames</p>
+      <p>The paper hangs an old name on every month: <b>Engelmonat</b>, <b>Wonnemonat</b>, and for July, <b>hay, bear, and honey</b>. Then the program.</p>
+    </article>
+    <article class="bit">
+      <p class="kicker">Still linked from the footers</p>
+      <ul class="b">
+        <li><a href="https://berlinhistory.app/">Berlin History app</a> (“Wir waren schon immer überall”)</li>
+        <li><a href="https://unknownobjects.schwulesmuseum.de/">Unknown Objects</a></li>
+        <li><a href="https://yearofthewomen.net/de">Jahr der Frau_en</a></li>
+        <li><a href="https://queerexhibition.org/">Queer as German Folk</a></li>
+        <li><a href="https://mercuryrising.schwulesmuseum.de/">Inter* Utopia</a></li>
+        <li><a href="https://www.schwulesmuseum.de/oral-hivstory/">Oral HIVstory</a></li>
+      </ul>
+    </article>
+  </div>
+
+  <!-- ============ POSTS ============ -->
+  <h2 id="posts">Every post</h2>
+  <p class="sub">29 posts, oldest first. The AIDS-Hilfe piece sits on <a href="../dates/queere-geschichte/">the longer walk</a>.</p>
+  <ul class="links">
+    <li><a href="https://www.mittendran.de/der-sommer-steht-noch-den-startbloecken-wir-laufen-schon-mal-vor/">June 2022. The summer is still in the blocks.</a></li>
+    <li><a href="https://www.mittendran.de/engelmonat-ein-schoener-alter-name-fuer-den-september/">September 2022. Engelmonat.</a></li>
+    <li><a href="https://www.mittendran.de/termine-oktober-2022-schwules-museum-luetzowstrasse-73-10785berlin/">October 2022. It stays interesting.</a></li>
+    <li><a href="https://www.mittendran.de/termine-schwules-museum-im-november/">November 2022. Not a dreary season.</a></li>
+    <li><a href="https://www.mittendran.de/3-highlights-im-monat-der-lichter-2-dauerbrenner-bis-ins-neue-jahr-und-diverse-online-projekte/">December 2022. Month of lights.</a></li>
+    <li><a href="https://www.mittendran.de/auf-ein-neues-machen-wir-draus-das-schwule-museum-wuenscht-nur-gutes-oder-besseres/">January 2023. Onward, let’s make something of it.</a></li>
+    <li><a href="https://www.mittendran.de/schuesse-auf-das-schwule-museum/">2 March 2023. Shots.</a></li>
+    <li><a href="https://www.mittendran.de/durch-wissenschaft-zur-gerechtigkeit/">19 April 2023. Hirschfeld, and the bust.</a></li>
+    <li><a href="https://www.mittendran.de/der-juni-mit-den-laengsten-tagen-des-jahres-der-perfekte-monat-fuer-viel-vorhaben-mit-weniger-stress/">June 2023. The longest days.</a></li>
+    <li><a href="https://www.mittendran.de/kiezspaziergang-mit-den-beiden-stadtraeten-dr-almut-neumann-und-ephraim-gothe/">15 June 2023. The walk stops at the door.</a></li>
+    <li><a href="https://www.mittendran.de/juli-der-siebte-monat-des-jahres-der-waermste-und-der-dem-tag-des-kusses-6-juli/">July 2023. The day of the kiss.</a></li>
+    <li><a href="https://www.mittendran.de/august-2023-supermond-gleich-zweimal-dazu-blue-moon-und-spannende-themen-im-schwulen-museum/">August 2023. Two supermoons and a blue moon.</a></li>
+    <li><a href="https://www.mittendran.de/das-schwule-museum-als-gefaehrdeter-ort/">13 August 2023. A place under threat.</a></li>
+    <li><a href="https://www.mittendran.de/highlights-im-september-spannende-events-im-schwulen-museum-und-die-tagundnachtgleiche/">September 2023. And the equinox.</a></li>
+    <li><a href="https://www.mittendran.de/der-dezember-zwoelfter-monat-im-jahr-mit-noch-weiteren-namen-christmond-julmond-dustermond-heilmond-und-wendeling-welcher-ist-der-schoenste/">December 2023. Christmond, Julmond, Dustermond, Heilmond, Wendeling.</a></li>
+    <li><a href="https://www.mittendran.de/der-lenz-ist-da-laune-und-unternehmenslust-steigen-und-es-gibt-neue-termine-im-schwulen-museum/">March 2024. Lenz is here.</a></li>
+    <li><a href="https://www.mittendran.de/der-april-launisch-und-unbestaendig-aber-fruehling/">April 2024. Moody, and still spring.</a></li>
+    <li><a href="https://www.mittendran.de/der-mai-fuenfter-monat-des-jahres-gilt-laut-umfragen-als-lieblingsmonat-des-jahres-er-bietet-die-gesamte-palette-wetter-natur-und-menschen-sind-bester-laune/">May 2024. The favorite month.</a></li>
+    <li><a href="https://www.mittendran.de/juni-der-monat-mit-der-kuerzesten-nacht-und-dem-laengsten-tag-nutzen-wir-ihn/">June 2024. The shortest night.</a></li>
+    <li><a href="https://www.mittendran.de/heu-baeren-und-honigmonat-heisst-er-auch-der-juli-siebter-monat-des-jahres/">July 2024. Hay, bears, honey.</a></li>
+    <li><a href="https://www.mittendran.de/der-august-seinen-namen-erhielt-er-zu-ehren-des-ersten-roemischen-kaisers-augustus/">August 2024. Named for Augustus.</a></li>
+    <li><a href="https://www.mittendran.de/september-der-neunte-monat-des-jahres-und-ein-schoener-mit-sommerlichem-obst-und-beeren/">September 2024. Fruit and berries.</a></li>
+    <li><a href="https://www.mittendran.de/der-oktober-ist-da-es-wartet-ein-volles-programm-mit-workshops-ausstellungen-und-fuehrungen/">October 2024. A full program.</a></li>
+    <li><a href="https://www.mittendran.de/termine-maerz-2025-schwules-museum/">March 2025. Meteorological spring.</a></li>
+    <li><a href="https://www.mittendran.de/april-termine/">April 2025. Changeable month, reliable program.</a></li>
+    <li><a href="https://www.mittendran.de/dezember/">4 December 2025. Forty years.</a></li>
+    <li><a href="https://www.mittendran.de/fuenfter-monat-des-jahres-und-der-wonnemonat-genannt/">May 2026. Wonnemonat.</a></li>
+    <li><a href="https://www.mittendran.de/gartenfest-villa-luetzow-2/">28 May 2026. The garden party.</a></li>
+    <li><a href="https://www.mittendran.de/das-schwule-museum-hat-im-letzten-vollen-und-warmen-sommermonat-august-wieder-ein-volles-programm-zu-bieten/">August 2026. The last warm month.</a></li>
+  </ul>
+  <p class="note">The house: Schwules Museum, Lützowstraße 73, 10785 Berlin. <a href="https://www.schwulesmuseum.de/">schwulesmuseum.de</a></p>
+</main>
+<script>
+  (function () {
+    var tl = document.querySelector(".tl");
+    var btns = document.querySelectorAll(".filter button");
+    var map = { attack: "ev-attack", history: "ev-history", house: "ev-house" };
+    btns.forEach(function (b) {
+      b.addEventListener("click", function () {
+        var f = b.getAttribute("data-f");
+        btns.forEach(function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+        tl.querySelectorAll(":scope > li").forEach(function (li) {
+          li.classList.toggle("show", f !== "all" && li.classList.contains(map[f]));
+        });
+        tl.classList.toggle("filtered", f !== "all");
+      });
+    });
+  })();
+</script>
+</body>
+</html>

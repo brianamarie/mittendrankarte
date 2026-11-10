@@ -1,0 +1,29 @@
+title: Endlich ist die neue Ausgabe 52 da!
+slug: 2026-11-06__endlich-ist-die-neue-ausgabe-52-da
+author: Redaktion
+date: '2026-11-06'
+issue: null
+rubrik: In eigener Sache
+description: Endlich ist die neue Ausgabe 52 da! Sie und wir haben lange warten müssen,
+  aber nun ist das neue Heft erschienen. Sie finden es in Supermärkten und Kneipen,
+  auch in einigen Läden…
+about_years: []
+source_url: https://www.mittendran.de/endlich-ist-die-neue-ausgabe-52-da/
+wp_post_id: 43681
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Straße
+  lat: 52.5035
+  lon: 13.3655
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Flottwellstraße
+  lat: 52.5008
+  lon: 13.3705
+  osm_id: null
+  status: confirmed
+  via: gazetteer

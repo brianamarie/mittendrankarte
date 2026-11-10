@@ -258,6 +258,35 @@ body:has(.map-page) .map-page {
 .date-photo figcaption { margin: 0.28rem 0 0; color: var(--muted); font-size: 0.88rem; }
 .date-photo figcaption a { color: inherit; }
 .date-narrative p { max-width: 42rem; margin: 0 0 0.95rem; }
+body:has(.walk-ease) {
+  color-scheme: dark;
+  --ink: #e6dfd4;
+  --muted: #b3a89c;
+  --paper: #1c1916;
+  --card: #26221e;
+  --line: #3d372f;
+  --accent: #e0c4a0;
+}
+body:has(.walk-ease) main a { color: var(--accent); }
+body:has(.walk-ease) .walk-ease .leaflet-tile-pane {
+  filter: brightness(0.62) saturate(0.55);
+}
+body:has(.walk-ease) .leaflet-popup-content-wrapper,
+body:has(.walk-ease) .leaflet-popup-tip {
+  background: #26221e;
+  color: var(--ink);
+}
+body:has(.walk-ease) .leaflet-popup-content .popup-excerpt { color: #cfc6ba; }
+body:has(.walk-ease) .leaflet-container a.leaflet-popup-close-button { color: #e6dfd4; }
+body:has(.walk-ease) .leaflet-bar a {
+  background: #26221e;
+  color: #e6dfd4;
+  border-bottom-color: #3d372f;
+}
+body:has(.walk-ease) .leaflet-control-attribution {
+  background: rgba(28, 25, 22, 0.88);
+  color: #b3a89c;
+}
 .date-sources { padding-left: 1.1rem; margin: 0.3rem 0 0; }
 .date-sources li { margin: 0.28rem 0; }
 .meta { color: var(--muted); font-size: 0.92rem; }
@@ -1034,7 +1063,7 @@ def page_shell(title: str, body: str, root: str = "../") -> str:
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{t}</title>
-  <link rel="stylesheet" href="{root}assets/style.css" />
+  <link rel="stylesheet" href="{root}assets/style.css?v=3" />
 </head>
 <body>
   <header>
@@ -1754,6 +1783,13 @@ def write_place_page(
                 "</div></div>"
             )
     script = PLACE_FILTER_JS if (len(rubrik_order) > 1 or search_html or time_html) else ""
+    museum_page = ""
+    if place == "Schwules Museum":
+        museum_page = (
+            '<p class="lead"><a href="../../schwules-museum/">'
+            "Zeitstrahl, Geschichte, Tickets und Fundstücke</a>, "
+            "zusammengelesen aus den Beiträgen, auf Englisch.</p>"
+        )
     body = f"""
 <main class="place-page">
   <p class="place-back"><a href="../../map.html">← Karte</a></p>
@@ -1761,6 +1797,7 @@ def write_place_page(
   <h1>{html.escape(place)}</h1>
   <p class="place-stats">{html.escape(stats)}</p>
   <p class="lead">{html.escape(note)}</p>
+  {museum_page}
   {osm}
   {related_html}
   {search_html}
@@ -2609,6 +2646,11 @@ DATE_PHOTOS: dict[str, dict[str, str]] = {
         "Pohlstraße": "https://www.mittendran.de/kiez-mit-kind-der-geheime-spielplatz-der-pohlstrasse/",
         "Wintergarten Varieté": "https://www.mittendran.de/der-wintergarten-feiert-seinen-30-geburtstag/",
     },
+    "pohlstrasse-variete-v2": {
+        "Spielplatz, obere Pohlstraße": "https://www.mittendran.de/kiez-mit-kind-der-geheime-spielplatz-der-pohlstrasse/",
+        "Les Climats": "https://www.mittendran.de/jazz-live-und-gute-kueche-im-les-climats/",
+        "Wintergarten Varieté": "https://www.mittendran.de/der-wintergarten-feiert-seinen-30-geburtstag/",
+    },
     "diele-kulturforum": {
         "Joseph-Roth-Diele": "https://www.mittendran.de/weihnachten-und-silvester-geschlossen-die-joseph-roth-diele-macht-ferien/",
         "Kulturforum": "https://www.mittendran.de/jung-aber-denkmal-kulturforum/",
@@ -2814,8 +2856,9 @@ def write_date_page(
             "<h2>Aus den Beiträgen</h2>"
             f"<ul class='date-sources'>{''.join(sources)}</ul>"
         )
+    ease = " walk-ease" if date_id == "pohlstrasse-variete" else ""
     body = f"""
-<main class="date-page">
+<main class="date-page{ease}">
   <p class="place-back"><a href="{root}ausgehen.html">← Ausgehen</a></p>
   <p class="place-kicker">{html.escape(group["label"])}</p>
   <h1>{html.escape(idea["title"])}</h1>
@@ -2833,6 +2876,162 @@ def write_date_page(
 </main>
 """
     write(DOCS / "dates" / date_id / "index.html", page_shell(idea["title"], body, root=root))
+
+
+def _date_pin(name: str, lon: float, lat: float, articles: list[dict], **extra) -> dict:
+    props = {"place": name, "count": len(articles), "articles": articles}
+    props.update(extra)
+    return {
+        "type": "Feature",
+        "geometry": {"type": "Point", "coordinates": [lon, lat]},
+        "properties": props,
+    }
+
+
+def write_pohl_v2() -> None:
+    """Second walk, foot order, three pins. The first page is left as it is."""
+    date_id = "pohlstrasse-variete-v2"
+    root = "../../"
+    idea = {
+        "id": date_id,
+        "stops": ["Spielplatz, obere Pohlstraße", "Les Climats", "Wintergarten Varieté"],
+        "food": {"place": "Les Climats"},
+    }
+    photos = {photo["stop"]: photo for photo in photos_for(idea)}
+    house = f"{root}places/potsdamer-strasse-96/"
+
+    def stop_html(name: str) -> str:
+        if name == "Wintergarten Varieté":
+            inner = f'<a href="{house}">{html.escape(name)}</a>'
+        else:
+            inner = html.escape(name)
+        link = hours_link(name)
+        figure = photo_figure(photos[name], root) if name in photos else ""
+        body = f"{inner} {link}".strip() if link else inner
+        return f"<li>{body}{figure}</li>"
+
+    food_block = (
+        "<p class='date-food'><strong>Essen.</strong> "
+        f"Les Climats, Pohlstraße 75. {hours_link('Les Climats')}</p>"
+    )
+    pins = [
+        _date_pin(
+            "Spielplatz, obere Pohlstraße",
+            13.3685608,
+            52.4999170,
+            [
+                {
+                    "title": "Kiez mit Kind: Der geheime Spielplatz in der Pohlstraße",
+                    "url": "https://www.mittendran.de/kiez-mit-kind-der-geheime-spielplatz-der-pohlstrasse/",
+                    "date": "2024-08-26",
+                    "rubrik": "Kiez mit Kind",
+                    "excerpt": "Obere Pohlstraße, zwischen Flottwellstraße und Potsdamer Straße. Sand, Rutsche, Tischtennis. Zu essen gibt es dort nichts.",
+                }
+            ],
+        ),
+        _date_pin(
+            "Les Climats",
+            13.3623405,
+            52.5010425,
+            [
+                {
+                    "title": "Jazz live und Gute Küche im „Les Climats“",
+                    "url": "https://www.mittendran.de/jazz-live-und-gute-kueche-im-les-climats/",
+                    "date": "2023-05-16",
+                    "rubrik": "Gewerbe und Gastronomie",
+                    "excerpt": "Pohlstraße 75. Jazz Manouche am 17. Mai 2023, Eintritt frei. Chloé kocht an fünf Abenden derselben Woche.",
+                }
+            ],
+            hours_url="https://www.lesclimats.com/",
+        ),
+        _date_pin(
+            "Wintergarten Varieté",
+            13.364462,
+            52.502046,
+            [
+                {
+                    "title": "Der Wintergarten feiert seinen 30. Geburtstag",
+                    "url": "https://www.mittendran.de/der-wintergarten-feiert-seinen-30-geburtstag/",
+                    "date": "2022-09-25",
+                    "rubrik": "Gewerbe und Gastronomie",
+                    "excerpt": "25. September 2022, volles Haus. Georg Strecker, Franziska Giffey, Peter Schwenkow. Sternenhimmel, „Dem Staunen gewidmet“.",
+                },
+                {
+                    "title": "Eindrücke vom Hoffest des Wintergarten Varieté",
+                    "url": "https://www.mittendran.de/eindruecke-vom-hoffest-des-wintergarten-variet/",
+                    "date": "2022-06-18",
+                    "rubrik": "Kunst und Kultur",
+                    "excerpt": "Hof an der Potsdamer Straße 96. Am 19. Juni 2022 Eintritt frei, 11 bis 16 Uhr, mit Brunch.",
+                },
+                {
+                    "title": "Spaziergang in die Vergangenheit (34): Potsdamer Str. 96 (Teil 1)",
+                    "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-1/",
+                    "date": "2025-09-19",
+                    "rubrik": "Kiez-Geschichte",
+                    "excerpt": "Seit 1992 an dieser Tür. Vor 1933 war die Adresse Nummer 39. Eröffnet am 29. September 1992.",
+                },
+                {
+                    "title": "Spaziergang in die Vergangenheit (34): Potsdamer Str. 96 (Teil 2)",
+                    "url": "https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-2/",
+                    "date": "2025-10-10",
+                    "rubrik": "Gewerbe und Gastronomie",
+                    "excerpt": "Vor dem Varieté, 1970 bis 1989, das Quartier Latin. Der Glanz war drinnen.",
+                },
+            ],
+            place_url=house,
+        ),
+    ]
+    payload = json.dumps(
+        {"type": "FeatureCollection", "features": pins},
+        ensure_ascii=False,
+    ).replace("<", "\\u003c")
+    colors_js = json.dumps(RUBRIK_COLORS, ensure_ascii=False)
+    narrative = [
+        "Auf der oberen Pohlstraße, zwischen Flottwellstraße und Potsdamer Straße, liegt ein Spielplatz, an dem die Serie „Kiez mit Kind“ im August 2024 schon oft vorbeigekommen war: nach dem Einkauf, nach dem Gleisdreieck, nach dem Eis. Eine große Sandfläche, ein Rutschturm über Treppe oder Netz, zwei Schaukeln, eine Seilbahn. Für die Kleinsten ein Tunnel hinter einer Art Zaun. Drei Tischtennisplatten und ein Käfig mit Basketballkörben, wenn im Gleisdreieck die Platten besetzt sind. Bänke im Schatten zur Straße. Zu essen gibt es dort nichts.",
+        "Ein Stück die Pohlstraße weiter liegt Les Climats. Dazu gibt es einen Beitrag, vom 16. Mai 2023, und der beschreibt eine Woche. Am 17. Mai Jazz Manouche, Beginn 19 Uhr, Eintritt frei: Thomas Dekas an der Gitarre, Matthieu Baud am Bass, Max Eisinger an der Violine. An fünf Abenden kocht Chloé, unter anderem Pâté en croute, die Coronation-Quiche, Spargel, Ceviche, Brandenburger Reh und Crème Caramel: der 18., 19., 24., 25. und 27. Mai, jeweils ab 19 Uhr, Reservierung erbeten. In den Beiträgen ist das die einzige Woche, die zu diesem Haus beschrieben wird.",
+        "Am Ende des Wegs ist der Wintergarten, Potsdamer Straße 96. Am 25. September 2022 wird der Saal dreißig. Volles Haus, zwei Stunden aus den Shows. Georg Strecker zeigt Jonglage, Zauberei, Chanson, Berliner Klamauk und ernste Töne und erkennt Artisten und Musiker an. Franziska Giffey begrüßt die Gäste. Peter Schwenkow, einer der Gründer, erzählt aus den Anfängen. Aus dem Club Quartier Latin wurde ein Varieté mit Sternenhimmel, Leitspruch „Dem Staunen gewidmet“. Neben dem rot-goldenen Saal liegt ein Hof, an dem Abend eine Gourmetmeile. Die von Fiona Bennett gestalteten Toiletten nennt Giffey die schönsten Berlins. Am 19. Juni desselben Jahres ist das Hoffest frei, von 11 bis 16 Uhr, mit Artistik und einem Brunch.",
+        "Die Reihe „Spaziergang in die Vergangenheit“ bleibt 2025 an derselben Tür stehen. Am 19. September schreibt Paul Enck: das Varieté ist hier seit 1992, die Adresse hieß vor 1933 Potsdamer Straße 39. Eröffnet am 29. September 1992, von André Heller, Bernhard Paul vom Circus Roncalli und Peter Schwenkow, in leerstehenden Räumen, knapp 500 Plätze. Später verkauften sie das Haus an eine Investorengruppe, die 2008 Insolvenz anmeldete. Mitte 2009 fand sich ein neuer Betreiber. Dessen Gesellschafter waren schon Vermieter und erwarben im Frühjahr 2009 Inventar und Namensrechte, damit das Theater spielfertig und die Marke erhalten blieb. Seit 2010 eigene Shows, das ganze Jahr. Café und Hof sind zum dreißigsten Jahr umgebaut. Im zweiten Teil, am 10. Oktober, steht, was vor 1992 in dem Haus war: von 1970 bis 1989 das Quartier Latin. Christa und Manfred Saß aus Hamburg übernahmen es 1970 von der Epicur GmbH, die einem ehemaligen Kino den Namen gegeben hatte. Der Eingang war wenig glanzvoll, der Glanz war drinnen. Gezählt werden fast 6000 Abende; im Buch von Marco Saß und Henry Steinhau etwa 4000, an anderer Stelle 2300. Genannt werden unter anderen Ton Steine Scherben, Udo Lindenberg, Herbert Grönemeyer, die Puhdys, Die Ärzte und Nina Hagen. Der Name Wintergarten ist älter als dieses Haus. Von 1881 bis zur Zerstörung 1944 stand das Varieté am Central-Hotel, Friedrichstraße Ecke Dorotheenstraße, und dort liefen die ersten Filmvorführungen Berlins. Nach dem Krieg ein Kino-Varieté in der Neuen Welt an der Hasenheide: eröffnet im Dezember 1945, Spielbetrieb ab September 1946, geschlossen 1955. An der Potsdamer Straße 96 erst seit dem 29. September 1992.",
+    ]
+    paragraphs = "".join(f"<p>{html.escape(para)}</p>" for para in narrative)
+    sources = [
+        ("Kiez mit Kind: Der geheime Spielplatz in der Pohlstraße", "https://www.mittendran.de/kiez-mit-kind-der-geheime-spielplatz-der-pohlstrasse/"),
+        ("Jazz live und Gute Küche im „Les Climats“", "https://www.mittendran.de/jazz-live-und-gute-kueche-im-les-climats/"),
+        ("Der Wintergarten feiert seinen 30. Geburtstag", "https://www.mittendran.de/der-wintergarten-feiert-seinen-30-geburtstag/"),
+        ("Eindrücke vom Hoffest des Wintergarten Varieté", "https://www.mittendran.de/eindruecke-vom-hoffest-des-wintergarten-variet/"),
+        ("Spaziergang in die Vergangenheit (34): Potsdamer Str. 96 (Teil 1)", "https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-1/"),
+        ("Spaziergang in die Vergangenheit (34): Potsdamer Str. 96 (Teil 2)", "https://www.mittendran.de/spaziergang-die-vergangenheit-34-potsdamer-str-96-teil-2/"),
+    ]
+    source_items = "".join(
+        f'<li><a href="{html.escape(url)}" rel="noopener">{html.escape(title)}</a></li>'
+        for title, url in sources
+    )
+    body = f"""
+<main class="date-page walk-ease">
+  <p class="place-back"><a href="{root}ausgehen.html">← Ausgehen</a> · <a href="../pohlstrasse-variete/">Erste Fassung</a></p>
+  <p class="place-kicker">Zweite Fassung</p>
+  <h1>Von der Pohlstraße ins Varieté</h1>
+  <p class="meta">Wochentag abends · Drei Halt zu Fuß</p>
+  <p class="lead">Erst der Spielplatz, den man übersieht. Dann Les Climats. Dann der Wintergarten in der Potsdamer Straße 96.</p>
+  {food_block}
+  <div id="date-map" class="date-map" role="region" aria-label="Drei Halt dieses Abends"></div>
+  <p class="meta">3 Pins. Ein Klick öffnet die Beiträge zu diesem Halt. Beim Essen liegt der Link zu den Öffnungszeiten im Pin.</p>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>window.RUBRIK_COLORS = {colors_js}; window.DATE_PLACES = {payload};</script>
+  <script>{DATE_MAP_JS}</script>
+  <h2>Stopps</h2>
+  <ol class="date-order">{''.join(stop_html(name) for name in idea["stops"])}</ol>
+  <h2>Gelesen</h2>
+  <div class="date-narrative">{paragraphs}</div>
+  <h2>Aus den Beiträgen</h2>
+  <ul class="date-sources">{source_items}</ul>
+  <p class="meta">Öffnungszeiten stehen hier nicht. Der Link beim Essen führt auf die Seite des Hauses.</p>
+</main>
+"""
+    write(
+        DOCS / "dates" / date_id / "index.html",
+        page_shell("Von der Pohlstraße ins Varieté, zweite Fassung", body, root=root),
+    )
 
 
 def write_outings(
@@ -2957,6 +3156,21 @@ document.querySelectorAll(".slot-filter button").forEach(function (btn) {{
 </script>
 """
     write(DOCS / "ausgehen.html", page_shell("Ausgehen", body, root=""))
+    write_pohl_v2()
+    write_museum_landing()
+
+
+def write_museum_landing() -> None:
+    """Narrative page for the Schwules Museum. Source stays in walks/."""
+    src = ROOT / "walks" / "schwules-museum" / "index.html"
+    if not src.exists():
+        return
+    page = src.read_text(encoding="utf-8")
+    page = page.replace('href="../../docs/', 'href="../')
+    write(DOCS / "schwules-museum" / "index.html", page)
+    img_src = src.parent / "img"
+    if img_src.exists():
+        shutil.copytree(img_src, DOCS / "schwules-museum" / "img", dirs_exist_ok=True)
 
 
 def build() -> None:

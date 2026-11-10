@@ -1,0 +1,53 @@
+title: 'Jüdische Geschichte im Lützow-Viertel (18): Dr. Bernhard Pollack, Blumeshof
+  (Teil 3)'
+slug: 2026-11-07__juedische-geschichte-im-luetzow-viertel-18-dr-bernhard-pollack-blumeshof-teil-3
+author: Paul Enck
+date: '2026-11-07'
+issue: null
+rubrik: Aus dem Kiez
+description: 'Jüdische Geschichte im Lützow-Viertel (18): Dr. Bernhard Pollack, Blumeshof
+  (Teil 3) Das älteste der Pollack-Kinder war Joseph Pollack, sein genaues Geburtsdatum
+  (um 1856) und der Geburtsort (vermutlich Breslau) sind…'
+about_years:
+- 1811
+- 1840
+- 1841
+- 1842
+- 1850
+- 1856
+- 1865
+- 1875
+- 1876
+- 1878
+- 1880
+- 1881
+- 1886
+- 1887
+- 1888
+- 1970
+- 2001
+source_url: https://www.mittendran.de/juedische-geschichte-im-luetzow-viertel-18-dr-bernhard-pollack-blumeshof-teil-3/
+wp_post_id: 43576
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Blumeshof
+  lat: 52.504
+  lon: 13.3555
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Dorotheenstraße
+  lat: 52.518761
+  lon: 13.389613
+  osm_id: null
+  status: auto
+  via: regex
+- name: Linkstraße
+  lat: 52.505613
+  lon: 13.374207
+  osm_id: null
+  status: confirmed
+  via: regex

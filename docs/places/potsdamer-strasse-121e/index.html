@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Potsdamer Straße 121e</title>
+  <link rel="stylesheet" href="../../assets/style.css?v=3" />
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="../../index.html">mittendran-archiv</a>
+      <a href="../../map.html">Karte</a>
+      <a href="../../ausgehen.html">Ausgehen</a>
+      <div class="nav-drop"><button type="button" class="nav-drop-btn" aria-expanded="false" aria-haspopup="true">Orte ▾</button><div class="nav-menu" role="group"><a href="../../places/gleisdreieck/">Gleisdreieck</a><a href="../../places/potsdamer-strasse/">Potsdamer Straße</a><a href="../../places/potsdamer-platz/">Potsdamer Platz</a></div></div>
+    </nav>
+  </header>
+  
+<main class="place-page">
+  <p class="place-back"><a href="../../map.html">← Karte</a></p>
+  <p class="place-kicker">Ort auf der Karte</p>
+  <h1>Potsdamer Straße 121e</h1>
+  <p class="place-stats">1 Beitrag · 2026</p>
+  <p class="lead">1 Beitrag im Jahr 2026 nennen Potsdamer Straße 121e. Am häufigsten Kiez-Geschichte (1). Ein Titel öffnet den Beitrag auf mittendran.de. Suche und Rubriken grenzen die Liste ein; neueste stehen oben.</p>
+  
+  <p class="place-osm"><a href="https://www.openstreetmap.org/?mlat=52.50002&amp;mlon=13.36271#map=17/52.50002/13.36271" rel="noopener">Lage auf OpenStreetMap</a></p>
+  
+  
+  
+  <div class="place-rubriks" role="group" aria-label="Nach Rubrik filtern"><span class="rubrik-static"><span class="place-swatch" style="background:#5c4a3a"></span>Kiez-Geschichte <span class="n">1</span></span></div>
+  <section class="place-group" id="y2026"><h2 class="place-year">2026 · <span class="n">1</span></h2><ul class="cards"><li data-rubrik="Kiez-Geschichte" data-date="2026-10-31" data-about="1700 1841 1843 1848 1850 1851 1856 1861 1863 1865 1868 1875 1876 1879 1881 1888 1890 1897 1900 1903 1904 1908 1911 1915 1916 1920 1921 1930 1933 1936 1939 1942 1944 1945 1947 1960 1992 1997 2008"><a href="https://www.mittendran.de/spaziergang-in-die-vergangenheit-47-eine-kuenstlerkolonie-in-der-bissingzeile/" rel="noopener"><span class="place-bar" style="background:#5c4a3a"></span><span class="place-card-body"><strong>Spaziergang in die Vergangenheit (47): Eine Künstlerkolonie in der Bissingzeile</strong><div class="meta">2026-10-31 · <span class="place-tag" style="background:color-mix(in srgb, #5c4a3a 28%, white)">Kiez-Geschichte</span> · Paul Enck</div><p class="place-excerpt">Spaziergang in die Vergangenheit (47): Eine Künstlerkolonie in der Bissingzeile Als die Bissingzeile noch keinen Namen hatte, sondern nur „Durchgang zur Lützowstraße“ hieß und eben erst (1897) bebaut worden war…</p></span></a></li></ul></section>
+  <p class="place-empty" hidden>Keine Beiträge für diese Rubriken.</p>
+  
+</main>
+
+  <footer>
+    Karte und Ortslisten zu Beiträgen auf
+    <a href="https://www.mittendran.de/">mittendran.de</a>
+    — nicht die offizielle mitteNdran-Seite.
+  </footer>
+  
+<script>
+document.querySelectorAll(".nav-drop-btn").forEach(function (btn) {
+  btn.addEventListener("click", function (ev) {
+    ev.preventDefault();
+    ev.stopPropagation();
+    var drop = btn.closest(".nav-drop");
+    var open = !drop.classList.contains("is-open");
+    document.querySelectorAll(".nav-drop.is-open").forEach(function (other) {
+      other.classList.remove("is-open");
+      var b = other.querySelector(".nav-drop-btn");
+      if (b) b.setAttribute("aria-expanded", "false");
+    });
+    if (open) {
+      drop.classList.add("is-open");
+      btn.setAttribute("aria-expanded", "true");
+    }
+  });
+});
+document.addEventListener("click", function () {
+  document.querySelectorAll(".nav-drop.is-open").forEach(function (drop) {
+    drop.classList.remove("is-open");
+    var b = drop.querySelector(".nav-drop-btn");
+    if (b) b.setAttribute("aria-expanded", "false");
+  });
+});
+</script>
+
+</body>
+</html>

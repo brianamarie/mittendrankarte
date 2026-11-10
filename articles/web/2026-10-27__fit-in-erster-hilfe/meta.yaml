@@ -1,0 +1,29 @@
+title: Fit in Erster Hilfe
+slug: 2026-10-27__fit-in-erster-hilfe
+author: ase
+date: '2026-10-27'
+issue: null
+rubrik: Aus dem Kiez
+description: Fit in Erster Hilfe Liebe Nachbarinnen und Nachbarn, Erste Hilfe kann
+  Leben retten. In Notsituationen ist jeder verpflichtet, Hilfe zu leisten. Um auf
+  solche Situationen besser vorbereitet zu sein, bietet das…
+about_years: []
+source_url: https://www.mittendran.de/fit-in-erster-hilfe/
+wp_post_id: 43538
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Lützowstraße 28
+  lat: 52.504217
+  lon: 13.362804
+  osm_id: null
+  status: confirmed
+  via: address
+- name: Villa Lützow
+  lat: 52.504268
+  lon: 13.362851
+  osm_id: null
+  status: confirmed
+  via: gazetteer

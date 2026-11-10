@@ -1,0 +1,77 @@
+title: Presseschau des Stadtteil-Forums Tiergarten Süd
+slug: 2026-11-06__presseschau-des-stadtteil-forums-tiergarten-sued-2
+author: Redaktion
+date: '2026-11-06'
+issue: null
+rubrik: Aus dem Kiez
+description: Presseschau des Stadtteil-Forums Tiergarten Süd Guten Tag, hier kommt
+  die Presseschau des Teams Öffentlichkeitsarbeit und Kommunikation des Stadtteil-Forums
+  Tiergarten Süd (https://forum-tgs.de/…
+about_years: []
+source_url: https://www.mittendran.de/presseschau-des-stadtteil-forums-tiergarten-sued-2/
+wp_post_id: 43666
+text_origin: wp
+sample: false
+tags: []
+source: {}
+places:
+- name: Potsdamer Platz
+  lat: 52.5096
+  lon: 13.376
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Kurfürstenstraße
+  lat: 52.502
+  lon: 13.35419
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Genthiner Straße
+  lat: 52.5055
+  lon: 13.3605
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Gleisdreieck
+  lat: 52.4995
+  lon: 13.374
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Nollendorfplatz
+  lat: 52.4992
+  lon: 13.3538
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Bissingzeile
+  lat: 52.5025
+  lon: 13.3685
+  osm_id: null
+  status: confirmed
+  via: gazetteer
+- name: Ella-Barowsky-Straße
+  lat: 52.478327
+  lon: 13.35691
+  osm_id: null
+  status: auto
+  via: regex
+- name: Gotenstraße
+  lat: 52.415171
+  lon: 13.545692
+  osm_id: null
+  status: auto
+  via: regex
+- name: Charlotte-Wolff-Platz
+  lat: 52.476668
+  lon: 13.360493
+  osm_id: null
+  status: auto
+  via: regex
+- name: Wegen-bauarbeiten-am-nollendorfplatz
+  lat: null
+  lon: null
+  osm_id: null
+  status: auto
+  via: regex
