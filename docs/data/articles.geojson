@@ -10385,6 +10385,75 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.3668,
+          52.508
+        ]
+      },
+      "properties": {
+        "place": "St. Matthäus-Kirche",
+        "count": 5,
+        "articles": [
+          {
+            "title": "Kunst hilft helfen: 31. Kunstauktion EKBOart 2026",
+            "url": "https://www.mittendran.de/kunst-hilft-helfen-31-kunstauktion-ekboart-2026/",
+            "excerpt": "Kunst hilft helfen: 31. Kunstauktion EKBOart 2026 Kunst hilft helfen. 31. Kunstauktion für Flüchtlingshilfe. Kunstauktion am 14.11.26 – 18 Uhr, in der St. Matthäus-Kirche Kulturforum Berlin Matthäikirchplatz Was ist…",
+            "date": "2026-11-13",
+            "about_years": [
+              1996
+            ],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/kunst-hilft-helfen-31-kunstauktion-ekboart-2026/"
+          },
+          {
+            "title": "Neues vom Scharounplatz",
+            "url": "https://www.mittendran.de/neues-vom-scharounplatz/",
+            "excerpt": "Die vor ein paar Jahren verlegten Steine am Scharounplatz auf dem Streifen entlang der Philharmonie sind abgesackt. Der Untergrund wird nun erneuert und die Steine werden anschließend dort neu verlegt werden…",
+            "date": "2023-11-17",
+            "about_years": [],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/neues-vom-scharounplatz/"
+          },
+          {
+            "title": "Jetzt sind die Bäume da",
+            "url": "https://www.mittendran.de/jetzt-sind-die-baeume-da/",
+            "excerpt": "Am Kulturforum besiedeln junge Bäume in Pflanztöpfen das oft als „Steinwüste“ bezeichnete Gelände am Kulturforum. Klaus Biesenbach, Direktor der Neuen Nationalgalerie und Initiator der Rauminstallation „Baumschule…",
+            "date": "2023-08-28",
+            "about_years": [],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/jetzt-sind-die-baeume-da/"
+          },
+          {
+            "title": "Dialog im Krieg – Krieg im Dialog",
+            "url": "https://www.mittendran.de/dialog-im-krieg-krieg-im-dialog/",
+            "excerpt": "Dialog im Krieg | Krieg im Dialog Über die Bewahrung der Kultur im kritischen Moment Lesung und Diskussion, erster Abend einer mehrteiligen Reihe 09.05.2023, 19:00 Uhr St. Matthäus-Kirche Matthäikirchplatz, 10785…",
+            "date": "2023-05-05",
+            "about_years": [],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/dialog-im-krieg-krieg-im-dialog/"
+          },
+          {
+            "title": "Wo ist „DAS DRITTE LAND“ geblieben?",
+            "url": "https://www.mittendran.de/wo-ist-das-dritte-land-geblieben/",
+            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/07/2022-Das-Dritte-Land-scaled.jpg) „Das Dritte Land“ „Seit Mai 2019 hatte St. Matthäus einen Garten: Den Künstlergarten „Das dritte Land“ auf dem alten…",
+            "date": "2022-07-05",
+            "about_years": [],
+            "rubrik": "Kunst und Kultur",
+            "source_url": "https://www.mittendran.de/wo-ist-das-dritte-land-geblieben/"
+          }
+        ],
+        "place_url": "places/st-matthaeus-kirche/",
+        "place_slug": "st-matthaeus-kirche",
+        "title": "Kunst hilft helfen: 31. Kunstauktion EKBOart 2026",
+        "url": "https://www.mittendran.de/kunst-hilft-helfen-31-kunstauktion-ekboart-2026/",
+        "excerpt": "Kunst hilft helfen: 31. Kunstauktion EKBOart 2026 Kunst hilft helfen. 31. Kunstauktion für Flüchtlingshilfe. Kunstauktion am 14.11.26 – 18 Uhr, in der St. Matthäus-Kirche Kulturforum Berlin Matthäikirchplatz Was ist…",
+        "date": "2026-11-13"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.369122,
           52.5108
         ]
@@ -11669,64 +11738,6 @@
         "url": "https://www.mittendran.de/spielstrassepohlstrasse/",
         "excerpt": "Am Donnerstag, den 22. Juni ist es wieder so weit. Die Pohlstraße wird zum 3. Mal in diesem Jahr zur Spielstraße werden. In der Zeit von 15:00 Uhr bis 19:00 Uhr wird die Straße ganz den Kindern gehören. Spielstraße…",
         "date": "2023-06-19"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.3668,
-          52.508
-        ]
-      },
-      "properties": {
-        "place": "St. Matthäus-Kirche",
-        "count": 4,
-        "articles": [
-          {
-            "title": "Neues vom Scharounplatz",
-            "url": "https://www.mittendran.de/neues-vom-scharounplatz/",
-            "excerpt": "Die vor ein paar Jahren verlegten Steine am Scharounplatz auf dem Streifen entlang der Philharmonie sind abgesackt. Der Untergrund wird nun erneuert und die Steine werden anschließend dort neu verlegt werden…",
-            "date": "2023-11-17",
-            "about_years": [],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/neues-vom-scharounplatz/"
-          },
-          {
-            "title": "Jetzt sind die Bäume da",
-            "url": "https://www.mittendran.de/jetzt-sind-die-baeume-da/",
-            "excerpt": "Am Kulturforum besiedeln junge Bäume in Pflanztöpfen das oft als „Steinwüste“ bezeichnete Gelände am Kulturforum. Klaus Biesenbach, Direktor der Neuen Nationalgalerie und Initiator der Rauminstallation „Baumschule…",
-            "date": "2023-08-28",
-            "about_years": [],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/jetzt-sind-die-baeume-da/"
-          },
-          {
-            "title": "Dialog im Krieg – Krieg im Dialog",
-            "url": "https://www.mittendran.de/dialog-im-krieg-krieg-im-dialog/",
-            "excerpt": "Dialog im Krieg | Krieg im Dialog Über die Bewahrung der Kultur im kritischen Moment Lesung und Diskussion, erster Abend einer mehrteiligen Reihe 09.05.2023, 19:00 Uhr St. Matthäus-Kirche Matthäikirchplatz, 10785…",
-            "date": "2023-05-05",
-            "about_years": [],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/dialog-im-krieg-krieg-im-dialog/"
-          },
-          {
-            "title": "Wo ist „DAS DRITTE LAND“ geblieben?",
-            "url": "https://www.mittendran.de/wo-ist-das-dritte-land-geblieben/",
-            "excerpt": "(https://www.mittendran.de/wp-content/uploads/2022/07/2022-Das-Dritte-Land-scaled.jpg) „Das Dritte Land“ „Seit Mai 2019 hatte St. Matthäus einen Garten: Den Künstlergarten „Das dritte Land“ auf dem alten…",
-            "date": "2022-07-05",
-            "about_years": [],
-            "rubrik": "Kunst und Kultur",
-            "source_url": "https://www.mittendran.de/wo-ist-das-dritte-land-geblieben/"
-          }
-        ],
-        "place_url": "places/st-matthaeus-kirche/",
-        "place_slug": "st-matthaeus-kirche",
-        "title": "Neues vom Scharounplatz",
-        "url": "https://www.mittendran.de/neues-vom-scharounplatz/",
-        "excerpt": "Die vor ein paar Jahren verlegten Steine am Scharounplatz auf dem Streifen entlang der Philharmonie sind abgesackt. Der Untergrund wird nun erneuert und die Steine werden anschließend dort neu verlegt werden…",
-        "date": "2023-11-17"
       }
     },
     {
@@ -17747,6 +17758,105 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.362301,
+          52.501355
+        ]
+      },
+      "properties": {
+        "place": "Pohlstraße 62",
+        "count": 2,
+        "articles": [
+          {
+            "title": "Erziehung und Wissenschaft damals (8): Direktor Carl Goldbeck, Steglitzer Straße (Teil 1)",
+            "url": "https://www.mittendran.de/erziehung-und-wissenschaft-damals-8-direktor-carl-goldbeck-steglitzer-strasse-teil-1/",
+            "excerpt": "Erziehung und Wissenschaft damals (8): Direktor Carl Goldbeck, Steglitzer Straße (Teil 1) Er war schon einmal in der Geschichte der Charlottenschule erwähnt worden (mittendran vom 27. Oktober 2024…",
+            "date": "2026-11-15",
+            "about_years": [
+              1750,
+              1759,
+              1760,
+              1761,
+              1772,
+              1777,
+              1778,
+              1784,
+              1795,
+              1799,
+              1809,
+              1814,
+              1818,
+              1819,
+              1822,
+              1829,
+              1830,
+              1832,
+              1833,
+              1834,
+              1846,
+              1850,
+              1852,
+              1857,
+              1865,
+              1871,
+              1880,
+              1891,
+              1895,
+              1900,
+              1905,
+              1908
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/erziehung-und-wissenschaft-damals-8-direktor-carl-goldbeck-steglitzer-strasse-teil-1/"
+          },
+          {
+            "title": "Erziehung und Wissenschaft damals (5): Die Charlottenschule in der Steglitzer Straße",
+            "url": "https://www.mittendran.de/schulen-im-luetzow-viertel-4-die-charlottenschule-der-steglitzer-strasse/",
+            "excerpt": "Gleichzeitig mit der Gründung des Falk-Realgymnasiums 1870 wurde über die Einrichtung einer (vierten) höheren Mädchenschule in der Schöneberger Vorstadt entschieden, „inmitten eines schönen und reichen, aber in seiner…",
+            "date": "2024-10-27",
+            "about_years": [
+              1827,
+              1830,
+              1838,
+              1845,
+              1870,
+              1875,
+              1879,
+              1880,
+              1882,
+              1883,
+              1886,
+              1893,
+              1900,
+              1908,
+              1912,
+              1919,
+              1922,
+              1923,
+              1929,
+              1930,
+              1933,
+              1934,
+              1937,
+              1943,
+              1945
+            ],
+            "rubrik": "Aus dem Kiez",
+            "source_url": "https://www.mittendran.de/schulen-im-luetzow-viertel-4-die-charlottenschule-der-steglitzer-strasse/"
+          }
+        ],
+        "place_url": "places/pohlstrasse-62/",
+        "place_slug": "pohlstrasse-62",
+        "title": "Erziehung und Wissenschaft damals (8): Direktor Carl Goldbeck, Steglitzer Straße (Teil 1)",
+        "url": "https://www.mittendran.de/erziehung-und-wissenschaft-damals-8-direktor-carl-goldbeck-steglitzer-strasse-teil-1/",
+        "excerpt": "Erziehung und Wissenschaft damals (8): Direktor Carl Goldbeck, Steglitzer Straße (Teil 1) Er war schon einmal in der Geschichte der Charlottenschule erwähnt worden (mittendran vom 27. Oktober 2024…",
+        "date": "2026-11-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.369387,
           52.500271
         ]
@@ -18621,6 +18731,52 @@
         "url": "https://www.mittendran.de/art-week-impressionen-1/",
         "excerpt": "Man kann sie kaum übersehen, selbst wenn man wollte (was „man“ nicht will), die Art Week Berlin: Nur ein kurzer Spaziergang über die Potsdamer um 18.00h am ersten Tag, Menschenauflauf vor und in der Galerie Hoto…",
         "date": "2025-09-11"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.365184,
+          52.502181
+        ]
+      },
+      "properties": {
+        "place": "Potsdamer Straße 81",
+        "count": 2,
+        "articles": [
+          {
+            "title": "Mercator-Höfe",
+            "url": "https://www.mittendran.de/mercator-hoefe/",
+            "excerpt": "Mercator-Höfe Als „Jünger Gutenbergs“, der seine Schriftsetzerlehre in der Mercator-Druckerei in der Potsdamer Straße durchlaufen hat, lasse ich in diesen Artikel auch persönliche Erfahrungen mit einfließen. Die…",
+            "date": "2026-11-11",
+            "about_years": [
+              1875,
+              1968
+            ],
+            "rubrik": "Gewerbe und Gastronomie",
+            "source_url": "https://www.mittendran.de/mercator-hoefe/"
+          },
+          {
+            "title": "Ein Schatzkästchen für Brillen",
+            "url": "https://www.mittendran.de/ein-schatzkaestchen-fuer-brillen/",
+            "excerpt": "Schatzkästchen sind meist versteckt, und dieses macht da keine Ausnahme: Man muss schon an der Potsdamer Straße 81 in die Mercatorhöfe hineingehen, zu Murkudis Concept Store oder einer der vielen Kunstgalerien in…",
+            "date": "2025-11-01",
+            "about_years": [
+              2012,
+              2015
+            ],
+            "rubrik": "Gewerbe und Gastronomie",
+            "source_url": "https://www.mittendran.de/ein-schatzkaestchen-fuer-brillen/"
+          }
+        ],
+        "place_url": "places/potsdamer-strasse-81/",
+        "place_slug": "potsdamer-strasse-81",
+        "title": "Mercator-Höfe",
+        "url": "https://www.mittendran.de/mercator-hoefe/",
+        "excerpt": "Mercator-Höfe Als „Jünger Gutenbergs“, der seine Schriftsetzerlehre in der Mercator-Druckerei in der Potsdamer Straße durchlaufen hat, lasse ich in diesen Artikel auch persönliche Erfahrungen mit einfließen. Die…",
+        "date": "2026-11-11"
       }
     },
     {
@@ -25208,63 +25364,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.362301,
-          52.501355
-        ]
-      },
-      "properties": {
-        "place": "Pohlstraße 62",
-        "count": 1,
-        "articles": [
-          {
-            "title": "Erziehung und Wissenschaft damals (5): Die Charlottenschule in der Steglitzer Straße",
-            "url": "https://www.mittendran.de/schulen-im-luetzow-viertel-4-die-charlottenschule-der-steglitzer-strasse/",
-            "excerpt": "Gleichzeitig mit der Gründung des Falk-Realgymnasiums 1870 wurde über die Einrichtung einer (vierten) höheren Mädchenschule in der Schöneberger Vorstadt entschieden, „inmitten eines schönen und reichen, aber in seiner…",
-            "date": "2024-10-27",
-            "about_years": [
-              1827,
-              1830,
-              1838,
-              1845,
-              1870,
-              1875,
-              1879,
-              1880,
-              1882,
-              1883,
-              1886,
-              1893,
-              1900,
-              1908,
-              1912,
-              1919,
-              1922,
-              1923,
-              1929,
-              1930,
-              1933,
-              1934,
-              1937,
-              1943,
-              1945
-            ],
-            "rubrik": "Aus dem Kiez",
-            "source_url": "https://www.mittendran.de/schulen-im-luetzow-viertel-4-die-charlottenschule-der-steglitzer-strasse/"
-          }
-        ],
-        "place_url": "places/pohlstrasse-62/",
-        "place_slug": "pohlstrasse-62",
-        "title": "Erziehung und Wissenschaft damals (5): Die Charlottenschule in der Steglitzer Straße",
-        "url": "https://www.mittendran.de/schulen-im-luetzow-viertel-4-die-charlottenschule-der-steglitzer-strasse/",
-        "excerpt": "Gleichzeitig mit der Gründung des Falk-Realgymnasiums 1870 wurde über die Einrichtung einer (vierten) höheren Mädchenschule in der Schöneberger Vorstadt entschieden, „inmitten eines schönen und reichen, aber in seiner…",
-        "date": "2024-10-27"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.36214,
           52.501403
         ]
@@ -27081,40 +27180,6 @@
         "url": "https://www.mittendran.de/vom-13-17-september-ist-wieder-berlin-art-week/",
         "excerpt": "An der Berlin Art Week beteiligen sich vom 13. – 17. September zahlreiche Galerien und Museen in ganz Berlin. Der Festivaltreffpunkt der Berlin Art Week (BAW) ist diesmal die Terrasse der Neuen Nationalgalerie, die zu…",
         "date": "2023-09-12"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.365184,
-          52.502181
-        ]
-      },
-      "properties": {
-        "place": "Potsdamer Straße 81",
-        "count": 1,
-        "articles": [
-          {
-            "title": "Ein Schatzkästchen für Brillen",
-            "url": "https://www.mittendran.de/ein-schatzkaestchen-fuer-brillen/",
-            "excerpt": "Schatzkästchen sind meist versteckt, und dieses macht da keine Ausnahme: Man muss schon an der Potsdamer Straße 81 in die Mercatorhöfe hineingehen, zu Murkudis Concept Store oder einer der vielen Kunstgalerien in…",
-            "date": "2025-11-01",
-            "about_years": [
-              2012,
-              2015
-            ],
-            "rubrik": "Gewerbe und Gastronomie",
-            "source_url": "https://www.mittendran.de/ein-schatzkaestchen-fuer-brillen/"
-          }
-        ],
-        "place_url": "places/potsdamer-strasse-81/",
-        "place_slug": "potsdamer-strasse-81",
-        "title": "Ein Schatzkästchen für Brillen",
-        "url": "https://www.mittendran.de/ein-schatzkaestchen-fuer-brillen/",
-        "excerpt": "Schatzkästchen sind meist versteckt, und dieses macht da keine Ausnahme: Man muss schon an der Potsdamer Straße 81 in die Mercatorhöfe hineingehen, zu Murkudis Concept Store oder einer der vielen Kunstgalerien in…",
-        "date": "2025-11-01"
       }
     },
     {
